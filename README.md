@@ -6,7 +6,7 @@
 ### ❗ Important
 I'll update this as often as I can; however, I do not use canary version of discord, so the updates may take a while to push if they change containers etc.
 
-### ℹ️ Information
+### ℹ️ Credits
 * Used Nyria's Comfy theme as a base.
 * Thanks Gibbu, ClearVision & Couve + others.
 * Used, took inspiration and or edited some snippets from other themes/servers.
