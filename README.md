@@ -1,7 +1,7 @@
 ### [Darkened Discord Theme]
 
-![Darkened Discord Theme Main Window](https://user-images.githubusercontent.com/78914154/153604753-c324e806-c816-4bde-b33a-14660cb380ae.png)
-![Darkened Discord Theme Settings](https://user-images.githubusercontent.com/78914154/153605277-f15a9873-e0e8-4ebe-90fd-695f7c51b509.png)
+![Darkened Discord Theme Main Window Edited](https://user-images.githubusercontent.com/78914154/153611273-cc660596-2127-460f-b4df-2e35cec66d73.png)
+![Darkened Discord Theme Settings](https://user-images.githubusercontent.com/78914154/153611286-5dda1a70-9f60-4234-ac53-cfb0f6e98d7a.png)
 
 ### ❗ Important
 I'll update this as often as I can; however, I do not use canary version of discord, so the updates may take a while to push if they change containers etc.
