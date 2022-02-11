@@ -16,5 +16,4 @@ I'll update this as often as I can; however, I do not use canary version of disc
 
 ### ℹ️ Credits
 * Used Nyria's Comfy theme as a base.
-* Thanks Gibbu, ClearVision & Couve + others.
-* Used, took inspiration and or edited some snippets from other themes/servers.
+* Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision & Couve + others
