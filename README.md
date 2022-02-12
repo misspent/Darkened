@@ -3,15 +3,15 @@
 <h1 align="center">Preview</h1>
 
 ### Main window + User popout
-![1  Darkened Discord Theme Main Window version 2](https://user-images.githubusercontent.com/78914154/153709162-5027c090-6774-47f4-9c46-52ef4895675c.png)
+![1  Darkened Discord Theme Main Window version 2](https://user-images.githubusercontent.com/78914154/153709567-d46dfd0c-766b-49eb-b177-1c6befc2e75f.png)
 
 <h1 align="center">Information</h1>
 
 ### 📌 Installation
 - Go into discord's settings
-- Go to your "Themes"
-- Click on "Open Themes Folder" button (Above the search bar)
-- Move the .theme.css file into that folder (It should load it)
+- Go to your `"Themes"`
+- Click on `"Open Themes Folder"` button (Above the search bar)
+- Move the `.theme.css` file into that folder (It should load it)
 - Click the checkbox in the top-right corner of the theme in discord to enable it
 
 <h1 align="center">More Screenshots</h1>
