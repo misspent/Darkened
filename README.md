@@ -16,6 +16,7 @@
 
 <h1 align="center">More Screenshots</h1>
 
+(Previews/screenshots may become out-of-date at some point)
 ### User Settings
 ![Darkened Discord Theme Settings](https://user-images.githubusercontent.com/78914154/153611286-5dda1a70-9f60-4234-ac53-cfb0f6e98d7a.png)
 ### Friends section
@@ -31,6 +32,11 @@ The people in the screenshots are not me, and I've blurred stuff as I don't want
 I'll update this as often as I can; however, I do not use canary version of discord, so the updates may take a while to push if they change containers etc. on that note, I hope you enjoy the theme, and if you encounter any issues, bugs or want me to attempt to add support for a plugin you use, please tell me.
 ---
 
+### ✅ Features
+* ✔️ Good ol' darkness
+* ✔️ Support for some plugins
+* ❌ Light mode not supported
 ### ℹ️ Credits
+* A friend who shall not be named.
 * Used Nyria's Comfy theme as a base.
-* Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision & Couve + others
+* Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision & Couve + others.
