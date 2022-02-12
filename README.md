@@ -7,13 +7,12 @@
 
 <h1 align="center">📌 Information</h1>
 
-### Installation
+### 📢 Installation
 - Go into discord's settings
 - Go to your `"Themes"`
 - Click on `"Open Themes Folder"` button (Above the search bar)
 - Move the `.theme.css` file into that folder (It should load it)
 - Click the checkbox in the top-right corner of the theme in discord to enable it
-
 ### ✅ Features
 * ✔️ Good ol' darkness
 * ✔️ Support for some plugins
