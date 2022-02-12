@@ -3,7 +3,7 @@
 <h1 align="center">Preview</h1>
 
 ### Main window + User popout
-![Darkened Discord Theme Main Window Edited](https://user-images.githubusercontent.com/78914154/153611273-cc660596-2127-460f-b4df-2e35cec66d73.png)
+![1  Darkened Discord Theme Main Window version 2](https://user-images.githubusercontent.com/78914154/153709162-5027c090-6774-47f4-9c46-52ef4895675c.png)
 
 <h1 align="center">Information</h1>
 
@@ -19,7 +19,7 @@
 ### User Settings
 ![Darkened Discord Theme Settings](https://user-images.githubusercontent.com/78914154/153611286-5dda1a70-9f60-4234-ac53-cfb0f6e98d7a.png)
 ### Friends section
-![Darkened Discord Theme Friends Edited](https://user-images.githubusercontent.com/78914154/153619188-227f84d0-dd2f-4037-accc-4f5367c9608b.png)
+![4  Darkened Discord Theme Friends Version 2](https://user-images.githubusercontent.com/78914154/153709178-a850baeb-9fbb-4168-929b-3ae5755fa61b.png)
 
 <h1 align="center">Extra(s)</h1>
 
