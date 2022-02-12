@@ -48,4 +48,4 @@ I'll update this as often as I can; however, I do not use canary version of disc
 
 </details>
 
-→ In the appearance settings make sure Dark is selected or it'll look like someone dropkicked discord.
+→ Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.
