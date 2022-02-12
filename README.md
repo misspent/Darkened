@@ -31,7 +31,7 @@
 (Previews/screenshots may become out-of-date at some point)
 ### User Settings
 ![Darkened Discord Theme Settings](https://user-images.githubusercontent.com/78914154/153611286-5dda1a70-9f60-4234-ac53-cfb0f6e98d7a.png)
-### Friends section
+### Home + Friends section
 ![4  Darkened Discord Theme Friends Version 2](https://user-images.githubusercontent.com/78914154/153709178-a850baeb-9fbb-4168-929b-3ae5755fa61b.png)
 
 <h1 align="center">📜 Extra(s)</h1>
