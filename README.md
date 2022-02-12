@@ -17,7 +17,6 @@
 * ✔️ Good ol' darkness
 * ✔️ Support for some plugins
 * ❌ Light mode not supported
-* ⭕ Add compact mode support + plugins fix
 ### ℹ️ Credits
 * **[xcruxiex](https://github.com/xcruxiex)**'s Friend Grid.
 * **[CreArts](https://github.com/CreArts-Community)**'s Context Icons.
