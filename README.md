@@ -24,8 +24,12 @@
 <h1 align="center">Extra(s)</h1>
 
 ### ❗ Important
-I'll update this as often as I can; however, I do not use canary version of discord, so the updates may take a while to push if they change containers etc.
-This is my first discord theme. I’m still "new" to all this CSS stuff; I only jumped into it late last year and have slowly been changing my theme over the past few months. I gradually got more comfortable with CSS and updated + fixed my theme for public use/testing. Enjoy.
+This is my first discord theme. I’m still "new" to all this CSS stuff; I only jumped into it late last year and have slowly been changing my theme over the past few months. I gradually got more comfortable with CSS and updated + fixed my theme for public use/testing.
+---
+The people in the screenshots are not me, and I've blurred stuff as I don't want friends to get spammed and or added. moreover, I'd prefer it if people didn't know what server(s) I'm in for obvious reasons, and I'm a relatively private person cause I am clapped.
+---
+I'll update this as often as I can; however, I do not use canary version of discord, so the updates may take a while to push if they change containers etc. on that note, I hope you enjoy the theme, and if you encounter any issues, bugs or want me to attempt to add support for a plugin you use, please tell me.
+---
 
 ### ℹ️ Credits
 * Used Nyria's Comfy theme as a base.
