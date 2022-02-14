@@ -1289,7 +1289,7 @@ padding: 0 8px!important;
 .bd-codeblock-table td:last-child {padding-left: 0px!important;}
 .hljs:not([class$='hljs']) {padding: 0px;}
 
- /*
+/*
 ====================================================================================================================
                                                                        Settings Custom CSS
 ====================================================================================================================
@@ -1310,7 +1310,7 @@ body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .
 :root .sidebar-nqHbhN::before {
   content: "Settings";
   position: absolute;
-  right: 20%;
+  right: 28%;
   margin-top: -40px;
   z-index: 101;
   height: 25px;
@@ -1521,7 +1521,7 @@ body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .
 }
 
  /* Server Settings sidebar position */
-[aria-label="GUILD_SETTINGS"] .sidebarRegion-1VBisG {margin-left: -55px!important;}
+[aria-label="GUILD_SETTINGS"] .sidebarRegion-1VBisG {margin-left: -35px!important;}
 
 .tierHeader-3q9jIw, .tier-3CS7-p, .tierUnlocked-ziudxO, .tier-8XCwAc, .moreSubscribers-2FZuij, .tierBody-1d3UiS, .theme-dark .prefixInput-w72mM6.focused-2JC6KT, .featureCard-3XHbjy, .container-3EtAkD {border-radius: var(--server-radius)}
 .tierHeaderContent-2SPBAA {background: var(--background-secondary)}  /* Server Settings -> Server Boost Status containers */
