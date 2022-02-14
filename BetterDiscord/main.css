@@ -1295,6 +1295,11 @@ padding: 0 8px!important;
 ====================================================================================================================
 */
 
+/* Both server settings and settings */
+.sidebar-nqHbhN {padding: 50px 0px 60px 0px!important;}
+body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {width: 190px!important;}
+body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettingsicons) * (var(--settingsiconssize) + var(--settingsiconsgap)))) !important;}
+
 /* Settings sidebar containers */
 .bd-sidebar-header {background: #151515;}
 .side-2ur1Qk .separator-2wx7h6 {display: none}
@@ -1303,15 +1308,12 @@ padding: 0 8px!important;
 .contentColumnDefault-3eyv5o {padding-left: 15px; padding-right: 15px;}
 /* ESC container in settings + .contentColumnDefault-3eyv5o padding-right messes with it */
 .container-O54IuJ {margin-top: 5px;}
-/* Both server settings and settings */
-.sidebar-nqHbhN {
-  padding: 50px 0px 60px 0px!important;
-}
 
 /* Settings text/box at the top of settings */
 :root .sidebar-nqHbhN::before {
   content: "Settings";
   position: absolute;
+  left: 30%;
   margin-top: -40px;
   z-index: 101;
   height: 25px;
@@ -1378,7 +1380,7 @@ padding: 0 8px!important;
 }
 /* Nitro + Server Boost colours in settings */
 [aria-controls="discord-nitro-tab"], [aria-controls="subscriptions-tab"] {color: #00B0F4 !important;}
-#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div.sidebarRegion-1VBisG > div > nav > div > div:nth-child(9) > div.premiumLabel-V52REm > svg {display: none;}/* Extra "Discord Nitro" removal*/
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div.sidebarRegion-1VBisG > div > nav > div > div:nth-child(9) > div.premiumLabel-V52REm > svg, #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div.sidebarRegion-1VBisG > div > nav > div > div:nth-child(9) > div.premiumLabel-3HPvdB > svg {display: none;}/* Extra "Discord Nitro" removal*/
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord Nitro-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord-Nitro-tab" i]::before:hover {color: white; background: white;}
 [aria-controls="nitro-server-boost-tab"] {color: #f47fff !important;}
 [aria-controls="nitro-server-boost-tab"][aria-selected=true] {background: #f47fffde!important; color: white!important}
