@@ -1303,6 +1303,10 @@ padding: 0 8px!important;
 .contentColumnDefault-3eyv5o {padding-left: 15px; padding-right: 15px;}
 /* ESC container in settings + .contentColumnDefault-3eyv5o padding-right messes with it */
 .container-O54IuJ {margin-top: 5px;}
+/* Both server settings and settings */
+.sidebar-nqHbhN {
+  padding: 50px 0px 60px 0px!important;
+}
 
 /* Settings text/box at the top of settings */
 :root .sidebar-nqHbhN::before {
