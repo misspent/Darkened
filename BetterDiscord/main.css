@@ -1302,7 +1302,6 @@ padding: 0 8px!important;
 .sidebarRegion-1VBisG {border-right: 1px solid var(--border-color);}
 .contentColumnDefault-3eyv5o {padding-left: 15px; padding-right: 15px;}
 .sidebarRegion-1VBisG {margin-left: -74px!important;}
-body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {margin-left: 30%; padding: 0px; margin-top: 20%;}
 /* ESC container in settings + .contentColumnDefault-3eyv5o padding-right messes with it */
 .container-O54IuJ {margin-top: 5px;}
 
@@ -1310,7 +1309,6 @@ body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .
 :root .sidebar-nqHbhN::before {
   content: "Settings";
   position: absolute;
-  right: 28%;
   margin-top: -40px;
   z-index: 101;
   height: 25px;
@@ -1521,7 +1519,7 @@ body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .
 }
 
  /* Server Settings sidebar position */
-[aria-label="GUILD_SETTINGS"] .sidebarRegion-1VBisG {margin-left: -35px!important;}
+ [aria-label="GUILD_SETTINGS"] .sidebarRegion-1VBisG {padding: 0px; margin: 0px!important;}
 
 .tierHeader-3q9jIw, .tier-3CS7-p, .tierUnlocked-ziudxO, .tier-8XCwAc, .moreSubscribers-2FZuij, .tierBody-1d3UiS, .theme-dark .prefixInput-w72mM6.focused-2JC6KT, .featureCard-3XHbjy, .container-3EtAkD {border-radius: var(--server-radius)}
 .tierHeaderContent-2SPBAA {background: var(--background-secondary)}  /* Server Settings -> Server Boost Status containers */
