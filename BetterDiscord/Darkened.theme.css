@@ -1,0 +1,83 @@
+/**
+* @name 1. Darkened
+* @author Noteless
+* @description Embrace the darkness
+* @authorLink https://noteless.wtf
+* @version 1.0
+*/
+
+@import "https://misspent.github.io/Darkened/BetterDiscord/main.css";
+
+/*
+====================================================================================
+                                    Tis the Variables
+====================================================================================
+*/
+
+:root {
+  /* -- Others settings -- */
+  
+  /* Roundness of the fun stuff */
+  --avatar-radius: 0px; /* Avatar roundness */
+  --status-radius: 8px; /* Status roundness */
+  --server-radius: 0px; /* Server icons, borders, images and other containers roundness */
+  --role-circle: 5px; /* Circles next to role names (Size not roundness) */
+  
+  /* Home Icon Image */
+  --Home-Image: url("https://noteless.wtf/l/zdboxluwyvaxyzwe.png");
+  
+  /* Mention color */
+  --mention-color: #0FFFFF;
+  --unread-color: RGB(0, 195, 209);
+  --accent: 0, 195, 209; /* This works in conjunction with "--unread-color" */
+  
+  /* Mention color in chat */
+  --mention-color-bar: #00b0f4;
+  --mention-color-background: #00b0f41f;
+  --mention-color-hover: #00b0f41f;
+  
+  /* Spotify plugin seek bar */
+  --spotify-color: #1EDC62;
+  
+  /* Tooltips */
+  --tooltips: block; /* Set it to "none" if you don't want it */
+  }
+  
+  .theme-dark {
+  --background-tertiary: #090909;
+  --background-secondary: #0d0d0d;
+  --background-secondary-alt: #090909;
+  --background-primary: #090909;
+  --background-mobile-primary: #23283d;
+  --background-mobile-secondary: #1e2233;
+  --channeltextarea-background: #101010;
+  --background-accent: #6E85D3;
+  --background-message-hover: transparent;
+  --background-modifier-hover: #121212;
+  --background-modifier-active: #1a1e2e;
+  --background-modifier-selected: #171d2b;
+  --deprecated-card-bg: #12141f63;
+  --background-floating: #0d0d0d;
+  --deprecated-quickswitcher-input-background:#101320;
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #121722;
+  --scrollbar-auto-track: #191f2e;
+  --scrollbar-thin-thumb: #141925;
+  --activity-card-background: #101320;
+  --border-color: #151515;
+  --popout-title: #141414;
+  --popout-background-main: #101010;
+  }
+  
+  .theme-light { /* I don't support light theme it's just for the "Create a server" popup */
+    --background-tertiary: #090909;
+    --background-secondary: #090909;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #121212;
+    --background-accent: #6E85D3;
+    --background-modifier-hover: #1a1e2e;
+    --background-modifier-active: #262b41;
+    --header-primary: #fff;
+    --header-secondary: #b1b5b9;
+    --text-normal: #8e9297;
+  }
