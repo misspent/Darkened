@@ -25,8 +25,6 @@
 * A friend who shall not be named.
 * Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision & Couve + others. 
 
->[Download](https://misspent.github.io/Darkened/BetterDiscord/Darkened.theme.css)
-<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/misspent/Darkened/total?color=%230fffff&logo=GitHub&logoColor=%234ba8f8&style=flat-square">
 <h1 align="center">📷 More Screenshots</h1>
 
 (Previews/screenshots may become out-of-date at some point)
