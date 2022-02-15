@@ -417,11 +417,8 @@
  /* Voice Call list background + spacing (Goes well with above) */
 .list-2x9Cl9 {
   padding-left: 5px;
-	background-color: #080808;
+	background-color: var(--background-primary);
 	padding: 0px;
-	border-left: 1px solid var(--border-color);
-	border-top: 1px solid var(--border-color);
-	border-bottom: 1px solid var(--border-color);
 }
 .px-MnE_OR {
   margin-right: 5px;
@@ -445,13 +442,7 @@
 .list-3lj0mi {
 	margin-right: 5px;
 }
-/* Voice Call when people are speaking, screen sharing container etc */
-/*.avatarSpeaking-2pCGrZ {
-  -webkit-box-shadow: inset 0 0 0 2px var(--unread-color),inset 0 0 0 3px var(--background-secondary)!important;
-  box-shadow: inset 0 0 0 2px var(--unread-color),inset 0 0 0 3px var(--background-secondary)!important;}
-.listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .username-vAneIW, .usernameSpeaking-3FKv6H {color: var(--unread-color);}
-.border-2Vy6FN.speaking-7QZEkv {box-shadow: inset 0 0 0 2px var(--unread-color), inset 0 0 0 3px #000;}
-.avatarSpeaking-33RRJU {box-shadow: inset 0 0 0 2px var(--unread-color), inset 0 0 0 3px #2f3136;} */
+
 .border-2Vy6FN, .videoWrapper-3rtb_V, .root-22AK9z, .tile-2TcwiO, .container-ZMc96U, .container-ZMc96U *  {border-radius: var(--server-radius)!important;}
 :root .root-g14mjS .selectorButtonSelected-3Z0WNU {background: var(--background-primary)!important;}
 
@@ -1341,12 +1332,12 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   background-repeat: repeat-x;
 }
 
-/* Wide settings (Better Discord Grid) */
-.bd-controls+.bd-addon-list {
-  margin-top: 15px;
-	margin-left: 300px;
-	margin-right: 450px;
-}
+  /* Wide settings (Better Discord Grid) */
+  .bd-controls+.bd-addon-list {
+    margin-top: 15px;
+    margin-left: 0%;
+    margin-right: 0px;
+  }
 
 .contentRegion-3HkfJJ {
   flex: 1 1 100%;
@@ -2799,9 +2790,6 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   padding-top: 110px;
   padding-bottom: 20px;
 
-}
-:root .userPopout-2j1gM4 .headerTop-3GPUSF .headerTagWithNickname-1U8zZH, :root .userPopout-2j1gM4 .headerTop-3GPUSF .setIdentityLink-hOFsMl {
-  display: none;
 }
 :root .userPopout-2j1gM4 .headerTop-3GPUSF .headerTagDiscriminatorNoNickname-dfcvHa {
   color: #dadada;
