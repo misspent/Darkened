@@ -19,7 +19,7 @@
 .wrapper-30-Nkg[data-is-blocked="true"] {display: none;} */
 
 /* Lazy man sorting border radius */
-.container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf {border-radius: var(--server-radius);}
+.container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {border-radius: var(--server-radius);}
 /*
 ====================================================================================
                                   Container, pills, groups
@@ -80,7 +80,7 @@
 }
 .container-YkUktl > .flex-3BkGQD,
 .container-1zzFcN > .flex-3BkGQD {
-  background: #000000;
+  background: var(--background-primary);;
   border-radius: 0px;
 }
 .container-YkUktl > .flex-3BkGQD > :nth-child(n+2),
@@ -126,7 +126,7 @@
 .container-YkUktl {border-right: 1px solid var(--border-color);	border-top: 0px solid var(--border-color);}
 .panels-3wFtMD > :first-child {border-right: 1px solid var(--border-color); border-top: 1px solid var(--border-color);}
 .searchBar-3TnChZ {border-right: 1px solid var(--border-color);}
-.header-3OsQeK {border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);}
+.container-1NXEtd .header-3OsQeK {border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); z-index: 0;}
 .members-3WRCEx {border-top: 1px solid var(--border-color); margin-top: 45px;}
 .container-ZMc96U.themed-Hp1KC_, .membersWrap-3NUR2t::after {border-bottom: 1px solid var(--border-color);}
 .scroller-1ox3I2 {border-right: 1px solid var(--border-color);}
@@ -1488,6 +1488,11 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .icon-39rdLt, .badge-370Op6 {border-radius: var(--server-radius)}
 [aria-label="Stop Streaming"], [aria-label="Stop Streaming"]:hover {color: #f04747!important}
 
+/* Screenshare container when you do it */
+.theme-dark .elevationHigh-3KUiqj, .avatar-3Q7DWY, .userListOverflow-1suxEu {border-radius: 0px;}
+.selectorButtonSelected-3cQUnj {background: var(--background-accent)!important; border-radius: var(--server-radius);}
+.card-m7VgZ8 {background: var(--popout-background-main); border-radius: var(--server-radius);}
+
  /* Settings Channel selected * hover container colours */
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
   background-color: rgba(var(--accent), 0.07);
@@ -1860,7 +1865,7 @@ svg.icon-2xnN2Y:hover {
 }
 :root .root-g14mjS .card-1SdQ2-, :root .root-g14mjS .item-2OyinQ, :root .root-g14mjS .select-1Ia3hD {
   border: none;
-  background: var(--background-secondary);
+  background: var(--background-primary);
 }
 :root .root-g14mjS .changeButton-3QdaoH {
   border-radius: 3px;
