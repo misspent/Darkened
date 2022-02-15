@@ -227,128 +227,6 @@
   background: rgba(255, 255, 255, 0.2);
 }
 
- /* "My Account" in settings (Container for banner, pfp, Username, Email & Phone Number) */
-.settingsBanner-1eDJ5w {
-  width: 100%;
-  height: 300px;
-	border-radius: var(--server-radius);
-	border: 16px solid var(--background-secondary);
-}
-.background-3d_SjE {
-  border-radius: var(--server-radius);
-  background-color: var(--background-primary);
-  padding: 10px;
-  margin: 16px 16px 16px;
-}
-.fieldList-in8WkP {
-  border-radius: var(--server-radius);
-  background-color:  var(--background-modifier-hover);
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-.userInfo-regn9W {
-  height: 100px;
-  width: 100%;
-	background-color: var(--background-primary);
-  padding: 24px 16px 0 100px;
-  border-left: 16px solid var(--background-secondary);
-  border-right: 16px solid var(--background-secondary);
-}
-.lookFilled-1Gx00P.colorBrand-3pXr91 {
-  margin-right: 3px;
-  border-radius: var(--server-radius);
-}
-.divider-3LgWDL {
-  width: 100%;
-  height: 1px;
-}
-.avatar-3mTjvZ.wrapper-1VLyxH {
-	margin-top: 227px;
-}
-.accountProfileCard-lbN7n- {
-  background-color: var(--background-secondary);
-  border-radius: var(--server-radius);
-	width: 100%;
-  position: relative;
-  overflow: hidden;
-}
- /* User Profile Text area ("About Me") */
-.textArea-3WXAeD {
-  background-color: var(--popout-background-main) !important;
-	border: 1px solid var(--border-color)!important;
-	border-radius: 0px;
-}
- /* Server Boost in settings */
-.card-2gdrYL {
-  background: var(--background-secondary);
-  border-radius: 0px;
-	border: 1px solid var(--border-color);
-}
-.guild-Hq0WWA {
-  border-radius: 0px;
-}
- /* Subscriptions in settings */
-.accountCredit-1gEVAQ, .detailsBlock-FoDTGA, .tier2-3hSil0.banner-3Kac2g, .iconBackground-2u8o5- {border-radius: 0px;}
- /* Appearance in settings */
-.item-2idW98[aria-checked=true] {
-  background-color: #151515;
-  color: var(--interactive-active);
-}
-.item-2idW98 {
-	border-radius: 0px;
-}
- /* Privacy & Safety in settings */
-.radioBar-3w9XY- {
-  border-radius: 0px;
-}
- /* Connections in settings */
- .accountBtn-1YkMgV .accountBtnInner-3XK70s {background-color: #152242;}
-.connectionHeader-2rV1ze {
-  padding: 15px;
-  background: var(--background-modifier-selected);
-  border-radius: 0px 0px 0 0;
-  border-top: 1px solid #17264b;
-  border-left: 1px solid #17264b;
-  border-right: 1px solid #17264b;
-}
-.connectionOptionsWrapper-1ipqUo {
-  padding: 20px 10px 0;
-  background-color: var(--background-secondary);
-  border-left: 1px solid #202020;
-  border-right: 1px solid #202020;
-  border-bottom: 1px solid #202020;
-}
-/* Activity Status in settings */
-.detectedApplication-1kHex1, .hoverRoll-2XwpoF {padding-left: 5px;}
-.overlayToggleIcon-2NLk4w {padding-right: 5px;}
-.game-3x3aDt:focus-within, .removeGame-3Le1LJ {margin-right: 30px; margin-top: 11px; border-radius: 0px; border: 1px solid var(--border-color)}
-
- /* My Account settings section (Edit, remove & Disable account buttons + blur "your current phone number is") */
-.fieldButton-14lHvK {
-  background-color: #697ec9 !important;
-  border: 0px solid #313b5e;
-  border-width: 0px 0px 0px 0px!important;
-}
-.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
-  background-color: #b03032 !important;
-  border-width: 0px 0px 0px 0px!important;
-  border-radius: var(--server-radius);
-}
-.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover {
-  background-color: rgba(176, 48, 50, 0.8) !important;
-  border-width: 0px 0px 0px 0px!important;
-  border-radius: var(--server-radius);
-}
-.lookFilled-1Gx00P.colorRed-1TFJan {
-  border: 0px solid #b03032;
-  border-width: 0px 0px 0px 0px!important;
-}
-#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div.contentRegion-3HkfJJ > div > div > main > div > div.userSettingsSecurity-3C5Hg5.marginTop40-Q4o1tS > div.children-1xdcWE > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz > div > div > div.marginTop40-Q4o1tS > div.children-1xdcWE > div.colorStandard-21JIj7.size14-3fJ-ot.description-30xx7u.formText-2ngGjI.marginBottom8-emkd0_.modeDefault-2fEh7a {filter: blur(4px); opacity: 0.8;}
-#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div.contentRegion-3HkfJJ > div > div > main > div > div.userSettingsSecurity-3C5Hg5.marginTop40-Q4o1tS > div.children-1xdcWE > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz > div > div > div.marginTop40-Q4o1tS > div.children-1xdcWE > div.colorStandard-21JIj7.size14-3fJ-ot.description-30xx7u.formText-2ngGjI.marginBottom8-emkd0_.modeDefault-2fEh7a:hover {filter: blur(0px);}
-
-
  /* Channel group containers */
 .containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
   position: relative;
@@ -1071,7 +949,6 @@ padding: 0 8px!important;
 .privateChannelsHeaderContainer-1UWASm {padding: 0px; height: 30px; background: var(--background-primary); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);}
 .headerText-1qIDDT, .privateChannelRecipientsInviteButtonIcon-1ObKXK {align-self: center; padding-left: 8px; padding-right: 8px;}
 
-
 /* When someone is sharing their screen in a channel you can't access */
 :root .streamPreview-3qoMP4 .previewContainer-21fFBz, .streamPreviewWrapper-10-B1g.mounted-2Bz7hj {
   height: 100%;
@@ -1280,6 +1157,13 @@ padding: 0 8px!important;
 body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {width: 190px!important;}
 body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettingsicons) * (var(--settingsiconssize) + var(--settingsiconsgap)))) !important;}
 
+ /* Wide settings (Better Discord Grid) */
+ .bd-controls+.bd-addon-list {
+  margin-top: 15px;
+  margin-left: 0%;
+  margin-right: 0px;
+}
+
 /* Settings sidebar containers */
 .bd-sidebar-header {background: #151515;}
 .side-2ur1Qk .separator-2wx7h6 {display: none}
@@ -1288,6 +1172,128 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .contentColumnDefault-3eyv5o {padding-left: 15px; padding-right: 15px;}
 /* ESC container in settings + .contentColumnDefault-3eyv5o padding-right messes with it */
 .container-O54IuJ {margin-top: 5px;}
+
+
+ /* "My Account" in settings (Container for banner, pfp, Username, Email & Phone Number) */
+ .settingsBanner-1eDJ5w {
+  width: 100%;
+  height: 300px;
+	border-radius: var(--server-radius);
+	border: 16px solid var(--background-secondary);
+}
+.background-3d_SjE {
+  border-radius: var(--server-radius);
+  background-color: var(--background-primary);
+  padding: 10px;
+  margin: 16px 16px 16px;
+}
+.fieldList-in8WkP {
+  border-radius: var(--server-radius);
+  background-color:  var(--background-modifier-hover);
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.userInfo-regn9W {
+  height: 100px;
+  width: 100%;
+	background-color: var(--background-primary);
+  padding: 24px 16px 0 100px;
+  border-left: 16px solid var(--background-secondary);
+  border-right: 16px solid var(--background-secondary);
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+  margin-right: 3px;
+  border-radius: var(--server-radius);
+}
+.divider-3LgWDL {
+  width: 100%;
+  height: 1px;
+}
+.avatar-3mTjvZ.wrapper-1VLyxH {
+	margin-top: 227px;
+}
+.accountProfileCard-lbN7n- {
+  background-color: var(--background-secondary);
+  border-radius: var(--server-radius);
+	width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+ /* User Profile Text area ("About Me") */
+.textArea-3WXAeD {
+  background-color: var(--popout-background-main) !important;
+	border: 1px solid var(--border-color)!important;
+	border-radius: 0px;
+}
+ /* Server Boost in settings */
+.card-2gdrYL {
+  background: var(--background-secondary);
+  border-radius: 0px;
+	border: 1px solid var(--border-color);
+}
+.guild-Hq0WWA {
+  border-radius: 0px;
+}
+ /* Subscriptions in settings */
+.accountCredit-1gEVAQ, .detailsBlock-FoDTGA, .tier2-3hSil0.banner-3Kac2g, .iconBackground-2u8o5- {border-radius: 0px;}
+ /* Appearance in settings */
+.item-2idW98[aria-checked=true] {
+  background-color: #151515;
+  color: var(--interactive-active);
+}
+.item-2idW98 {
+	border-radius: 0px;
+}
+ /* Privacy & Safety in settings */
+.radioBar-3w9XY- {
+  border-radius: 0px;
+}
+ /* Connections in settings */
+ .accountBtn-1YkMgV .accountBtnInner-3XK70s {background-color: #152242;}
+.connectionHeader-2rV1ze {
+  padding: 15px;
+  background: var(--background-modifier-selected);
+  border-radius: 0px 0px 0 0;
+  border-top: 1px solid #17264b;
+  border-left: 1px solid #17264b;
+  border-right: 1px solid #17264b;
+}
+.connectionOptionsWrapper-1ipqUo {
+  padding: 20px 10px 0;
+  background-color: var(--background-secondary);
+  border-left: 1px solid #202020;
+  border-right: 1px solid #202020;
+  border-bottom: 1px solid #202020;
+}
+/* Activity Status in settings */
+.detectedApplication-1kHex1, .hoverRoll-2XwpoF {padding-left: 5px;}
+.overlayToggleIcon-2NLk4w {padding-right: 5px;}
+.game-3x3aDt:focus-within, .removeGame-3Le1LJ {margin-right: 30px; margin-top: 11px; border-radius: 0px; border: 1px solid var(--border-color)}
+
+ /* My Account settings section (Edit, remove & Disable account buttons + blur "your current phone number is") */
+.fieldButton-14lHvK {
+  background-color: #697ec9 !important;
+  border: 0px solid #313b5e;
+  border-width: 0px 0px 0px 0px!important;
+}
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
+  background-color: #b03032 !important;
+  border-width: 0px 0px 0px 0px!important;
+  border-radius: var(--server-radius);
+}
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover {
+  background-color: rgba(176, 48, 50, 0.8) !important;
+  border-width: 0px 0px 0px 0px!important;
+  border-radius: var(--server-radius);
+}
+.lookFilled-1Gx00P.colorRed-1TFJan {
+  border: 0px solid #b03032;
+  border-width: 0px 0px 0px 0px!important;
+}
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div.contentRegion-3HkfJJ > div > div > main > div > div.userSettingsSecurity-3C5Hg5.marginTop40-Q4o1tS > div.children-1xdcWE > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz > div > div > div.marginTop40-Q4o1tS > div.children-1xdcWE > div.colorStandard-21JIj7.size14-3fJ-ot.description-30xx7u.formText-2ngGjI.marginBottom8-emkd0_.modeDefault-2fEh7a {filter: blur(4px); opacity: 0.8;}
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div.contentRegion-3HkfJJ > div > div > main > div > div.userSettingsSecurity-3C5Hg5.marginTop40-Q4o1tS > div.children-1xdcWE > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz > div > div > div.marginTop40-Q4o1tS > div.children-1xdcWE > div.colorStandard-21JIj7.size14-3fJ-ot.description-30xx7u.formText-2ngGjI.marginBottom8-emkd0_.modeDefault-2fEh7a:hover {filter: blur(0px);}
 
 /* Settings text/box at the top of settings */
 :root .sidebar-nqHbhN::before {
@@ -1320,13 +1326,6 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   background-size: 2px 0px;
   background-repeat: repeat-x;
 }
-
-  /* Wide settings (Better Discord Grid) */
-  .bd-controls+.bd-addon-list {
-    margin-top: 15px;
-    margin-left: 0%;
-    margin-right: 0px;
-  }
 
 .contentRegion-3HkfJJ {
   flex: 1 1 100%;
