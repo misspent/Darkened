@@ -581,21 +581,6 @@
 .viewWrapper-2sTW6t, .pageWrapper-2PwDoS .scroller-3j5xK2 {background: var(--background-primary)}
 .card-2TuZPZ, .search-25t1e9 .searchBox-31Zv9h {border-radius: var(--server-radius)!important;}
 
-/* Online, idle, Do not disturb, Invisible & Set a custom status colors
-#status-picker-online {
-  --status-colour: var(--bsi-online-color, rgb(59, 165, 92));
-}
-#status-picker-idle {
-  --status-colour: var(--bsi-idle-color, rgb(250, 166, 26));
-}
-#status-picker-dnd {
-  --status-colour: var(--bsi-dnd-color, rgb(237, 66, 69));
-}
-#status-picker-invisible {
-  --status-colour: var(--bsi-invisible-color, rgb(116, 127, 141));
-}
- .statusItem-2hiCNB[aria-label="Set a custom status"]:hover {background-color: #6E85D3;} */
-
 /* Add :not(#status-picker-game-activity) after each of these :not s if applicable */
 #status-picker .item-1OdjEX:not(#status-picker-custom-status):active,
 #status-picker .item-1OdjEX:not(#status-picker-custom-status).focused-3qFvc8 {
@@ -699,8 +684,12 @@
 :root #status-picker > .scroller-1bVxF5 .separator-1So4YB, :root #status-picker > .scroller-1bVxF5 .status-3TYC5W,
 :root #status-picker > .scroller-1bVxF5 .description-3Cwkxk {
   display: none;
-} */
+}
 
+  /* Private DM's "started a call container" */
+  .content-vSHmMD a {color: var(--background-accent)}
+  .container-x059i8 {background-color: var(--background-secondary); padding-left: 5px;;}
+  .font-size-12 .cozy-S5wsfF .iconContainer-2rPbqG, .font-size-14 .cozy-S5wsfF .iconContainer-2rPbqG, .font-size-15 .cozy-S5wsfF .iconContainer-2rPbqG, .font-size-16 .cozy-S5wsfF .iconContainer-2rPbqG {align-self: center; height: 2.5rem; background: rgba(0, 128, 0, 0.233); padding: 0px;}
 
  /* Toast message when replying to a message (Top-Right) */
  .toast-g4bfgI {border-radius: var(--server-radius)}
