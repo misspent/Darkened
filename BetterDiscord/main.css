@@ -942,12 +942,25 @@ padding: 0 8px!important;
  /* Home section chat sidebar containers + friends numberbadge container */
  .layout-1LjVue {border-radius: var(--server-radius);}
 .linkButton-2NshQj {padding: 0px;}
-.scroller-WSmht3 .numberBadge-37OJ3S {background: aqua; margin-left: -15px; height: 41px!important;}
+.scroller-WSmht3 .numberBadge-37OJ3S {background: aqua; margin-left: 0px; height: 42px!important;}
 .channel-1Shao0 {margin: 0px; padding: 0px;}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > div {display: none}
-.searchBar-3TnChZ {border-bottom: 1px solid var(--border-color); height: 47px!important;}
 .privateChannelsHeaderContainer-1UWASm {padding: 0px; height: 30px; background: var(--background-primary); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);}
 .headerText-1qIDDT, .privateChannelRecipientsInviteButtonIcon-1ObKXK {align-self: center; padding-left: 8px; padding-right: 8px;}
+ /* Home section searchbar */
+.searchBar-3TnChZ {padding: 0 4px; background: var(--background-primary); border-bottom: 1px solid var(--border-color); height: 47px!important;}
+.searchBar-3TnChZ .searchBarComponent-3N7dCG:hover {color: var(--background-accent)}
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    width: 100%;
+    height: 38px;
+    overflow: hidden;
+    background-color: var(--background-secondary);
+    border: 1px solid var(--border-color);
+    border-bottom: 3px solid var(--border-color);
+    text-align: center;
+    box-shadow: none;
+    color: var(--text-muted);
+}
 
 /* When someone is sharing their screen in a channel you can't access */
 :root .streamPreview-3qoMP4 .previewContainer-21fFBz, .streamPreviewWrapper-10-B1g.mounted-2Bz7hj {
@@ -993,7 +1006,7 @@ padding: 0 8px!important;
   #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div > div > div > main > div.profileCustomizationSection-2OOT4p > div.children-1xdcWE > div.baseLayout-8AMrwn > div:nth-child(1) > div:nth-child(1) > div > input {background: var(--background-modifier-hover); border-radius: var(--server-radius)}
 
 /* Home section (Friends, store (nitro), discovery container + Friends & nitro .svg icon colour */
-[href="/channels/@me"], [href="/store"], a[href="/discovery"] {background-color: var(--background-primary); border-radius: var(--server-radius);}
+[href="/channels/@me"], [href="/store"], a[href="/discovery"] {background-color: var(--background-secondary); border-radius: var(--server-radius);}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > li:nth-child(2) > div > a > div > div.avatar-1HDIsL > svg > g {color: green;}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > li:nth-child(3) > div > a > div > div.avatar-1HDIsL > svg > path, #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.applicationStore-2nk7Lo > div > section > div > div > svg > path {color: #7289da}
 
