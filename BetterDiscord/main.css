@@ -2594,8 +2594,6 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 }
 /* Spotify icon on popout + button colour and container */
 .theme-dark .newPopoutActivityStyles .platformIcon-k3yytQ, .theme-light .newPopoutActivityStyles .platformIcon-k3yytQ {display: none;}
-.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {background-color: #00842B!important;}
-.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {background-color: #004b18!important;}
 
 /* Colours & background of some stuff in popout + connection + "playing a game" centering text + pencil container */
 .activityUserPopout-2MzGCj {
