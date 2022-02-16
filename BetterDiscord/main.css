@@ -901,8 +901,10 @@ font-size: 14px;content: "NEW MESSAGES";margin-bottom: -2px}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.container-2cd8Mz > div > div.nowPlayingColumn-1eCBCN > div > div > h3 { margin-left: 0px; padding: 10px;}
 
  /* Home section chat sidebar containers + friends numberbadge container */
+.interactive-iyXY_x .numberBadge-37OJ3S {padding: 0px; height: 41px;}
+.channel-1Shao0 {margin-left: 0px; padding: 0px; max-width: 239px;}
+.container-32HW5s {padding: 0px 0;}
 .layout-1LjVue {border-radius: var(--server-radius);}
-.channel-1Shao0 {margin-left: 0px; max-width: 239px;}
 .linkButton-2NshQj {padding-right: 0px;}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > div {display: none}
 .privateChannelsHeaderContainer-1UWASm {padding: 0px; height: 30px; background: var(--background-primary); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);}
@@ -915,15 +917,15 @@ font-size: 14px;content: "NEW MESSAGES";margin-bottom: -2px}
 .searchBar-3TnChZ {padding: 0 4px; background: var(--background-primary); border-bottom: 1px solid var(--border-color); height: 47px!important;}
 .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover {color: var(--background-accent)}
 .searchBar-3TnChZ .searchBarComponent-3N7dCG {
-    width: 100%;
-    height: 38px;
-    overflow: hidden;
-    background-color: var(--background-secondary);
-    border: 1px solid var(--border-color);
-    border-bottom: 3px solid var(--border-color);
-    text-align: center;
-    box-shadow: none;
-    color: var(--text-muted);
+  width: 100%;
+  height: 38px;
+  overflow: hidden;
+  background-color: var(--background-secondary);
+  border: 1px solid var(--border-color);
+  border-bottom: 3px solid var(--border-color);
+  text-align: center;
+  box-shadow: none;
+  color: var(--text-muted);
 }
 
 /* When someone is sharing their screen in a channel you can't access */
@@ -983,6 +985,11 @@ font-size: 14px;content: "NEW MESSAGES";margin-bottom: -2px}
   border-radius: var(--server-radius);
   height: unset;
 }
+
+ /* Pin & call containers (when you pin something and call someone it tells you "started call/pinned message") */
+.content-vSHmMD {background-color: var(--background-secondary); padding: 8px;}
+.iconContainer-2rPbqG {padding-bottom: 12px; padding-top: 10px;}
+.content-vSHmMD a {color: var(--background-accent)}
 
 /* Horizontally listed media, pictures or uploads */
 [id*="message-accessories-"] {display: flex; flex-wrap: wrap;}
