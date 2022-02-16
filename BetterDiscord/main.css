@@ -1354,34 +1354,6 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .customScroller-m1-jZn > div {
   max-width: 100%;
 }
-/* Settings Guild/Channel/Tab colours */
-:root [aria-controls=GUILD_PREMIUM-tab], :root [aria-controls="themes-tab"] {
-  color: #0FFFFF !important;
-  opacity: 0.8;
-}
-:root [aria-controls=GUILD_PREMIUM-tab], :root [aria-controls="plugins-tab"] {
-  color: #0FFFFF !important;
-  opacity: 0.8;
-}
-:root [aria-controls=GUILD_PREMIUM-tab], :root [aria-controls="customcss-tab"] {
-  color: #00fc32 !important;
-  opacity: 0.8;
-}
-:root [aria-controls=GUILD_PREMIUM-tab], :root [aria-controls="pluginrepo-tab"] {
-  color: #fcf800 !important;
-  opacity: 0.8;
-}
-:root [aria-controls=GUILD_PREMIUM-tab], :root [aria-controls="themerepo-tab"] {
-  color: #fcf800 !important;
-  opacity: 0.8;
-}
-/* Nitro + Server Boost colours in settings */
-[aria-controls="discord-nitro-tab"], [aria-controls="subscriptions-tab"] {color: #00B0F4 !important;}
-#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div.sidebarRegion-1VBisG > div > nav > div > div:nth-child(9) > div.premiumLabel-V52REm > svg, #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div.sidebarRegion-1VBisG > div > nav > div > div:nth-child(9) > div.premiumLabel-3HPvdB > svg {display: none;}/* Extra "Discord Nitro" removal*/
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord Nitro-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord-Nitro-tab" i]::before:hover {color: white; background: white;}
-[aria-controls="nitro-server-boost-tab"] {color: #f47fff !important;}
-[aria-controls="nitro-server-boost-tab"][aria-selected=true] {background: #f47fffde!important; color: white!important}
-.pageButtonNext-2_bbdk, .pageButtonPrev-3q9rh8, .pageIndicator-cOEPV8 {border-radius: var(--server-radius); border-color: #303030} /* subscription page selector border */
 
 /* Root/Model/Container (When your background blurs [Model in center] when deleting/editing/changing something) */
 :root .root-2zfUH6 .perksModal-fSYqOq, .perksModalContentWrapper-3RHugb {
