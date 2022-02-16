@@ -639,7 +639,11 @@ font-size: 14px;content: "NEW MESSAGES";margin-bottom: -2px}
 .icons-2mwuFp [aria-label="Video"] { border-bottom: 1px solid #d10d0d;}
 [aria-label="Disconnect"] {color: #d10d0d;}
 [aria-label="Noise Suppression powered by Krisp"] {color: #7289da}
-
+  /* Voice call container when hovering over the voice channel's name */
+  .container-8Futzw {border-radius: var(--server-radius); padding: 0px;}
+  .headerText-3g1XK9+div {margin-left: 0px!important; left: -5%;}
+  .headerContainer-1wJjOa {padding-left: 8px;}
+  
 .popoutContainer-2wbmiM {
 	border-radius: var(--server-radius);
 }
