@@ -907,8 +907,7 @@ font-size: 14px;content: "NEW MESSAGES";margin-bottom: -2px}
  /* Home section chat sidebar containers + friends numberbadge container */
 .layout-1LjVue {border-radius: var(--server-radius);}
 .linkButton-2NshQj {padding: 0px;}
-.scroller-WSmht3 .numberBadge-37OJ3S {background: aqua; margin-left: 0px; height: 42px!important;}
-.channel-1Shao0 {margin: 0px; padding: 0px;}
+.scroller-WSmht3 .numberBadge-37OJ3S {height: 42px;}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > div {display: none}
 .privateChannelsHeaderContainer-1UWASm {padding: 0px; height: 30px; background: var(--background-primary); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);}
 .headerText-1qIDDT, .privateChannelRecipientsInviteButtonIcon-1ObKXK {align-self: center; padding-left: 8px; padding-right: 8px;}
@@ -1738,125 +1737,101 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 ====================================================================================================================
 */
 
-/* --------------------------- 🚥 WINDOWS BUTTONS PART --------------------------- */
-
+  /* --------------------------- 🚥 WINDOWS BUTTONS (exit, close and minimize) ----------------------------- */
+  
   /* 1.a. Main Title Bar */
-#app-mount .bg-1QIAus {
-  background: transparent !important;
-}
-
-.titleBar-1it3bQ {
-  transform: translateY(-6px);
-  height: 0px;
-  margin-top: 0px;
-}
-
+#app-mount .bg-1QIAus {background: transparent !important;}
+.titleBar-1it3bQ div {transform: scale(0.8) !important;}
+.titleBar-1it3bQ {transform: translateY(-6px); height: 0px; margin-top: 0px;  }
 .titleBar-1it3bQ:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 6px;
-  height: 14px;
-  z-index: 3002;
-  -webkit-app-region: drag !important;
-	pointer-events: none;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 6px;
+    height: 14px;
+    z-index: 3002;
+    -webkit-app-region: drag !important;
+    pointer-events: none;
 }
-
 .titleBar-1it3bQ:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 6px;
-  z-index: 3002 !important;
-	pointer-events: none;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 6px;
+    z-index: 3002 !important;
+    pointer-events: none;
 }
-
-.titleBar-1it3bQ div {
-	transform: scale(0.8) !important;
-}
-
+    
   /* 1.b. Mac Main Title Bar*/
 .typeMacOS-3V4xXE.titleBar-1it3bQ { 
-	transform: none; 
-	position: relative; 
+    transform: none; 
+    position: relative; 
 }
-
- /* 1.c. Windows Buttons */
-  .winButton-3UMjdg {
-  top: 9px;
-  height: 36px;
-  width: 30px;
-  right: 8px;
-  background-position: center;
-  opacity: .6;
-  transition: .2s ease !important;
+    
+  /* 1.c. Windows Buttons */
+.winButton-3UMjdg {
+    top: 9px;
+    height: 36px;
+    width: 30px;
+    right: 8px;
+    background-position: center;
+    opacity: .6;
+    transition: .2s ease !important;
 }
-
+    
 .winButton-3UMjdg:hover {
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-  background-color: var(--hover-color) !important;
-  border-radius: 3px;
-  opacity: 1 !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color: var(--hover-color) !important;
+    border-radius: 3px;
+     opacity: 1 !important;
 }
-
+    
 .titleBar-1it3bQ .winButtonClose-3Q8ZH5 {
-	background-image: url(https://monstrousdev.github.io/themes/assets/svgs/cancel.svg) !important;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 24px;
+    background-image: url(https://monstrousdev.github.io/themes/assets/svgs/cancel.svg) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
 }
-
+    
 .titleBar-1it3bQ .winButton-3UMjdg:nth-child(3) {
-	background-image: url(https://monstrousdev.github.io/themes/assets/svgs/fullscreen.svg) !important;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 24px;
+    background-image: url(https://monstrousdev.github.io/themes/assets/svgs/fullscreen.svg) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
 }
-
-.titleBar-1it3bQ .winButton-3UMjdg:nth-child(4) {
-	background-image: url(https://monstrousdev.github.io/themes/assets/svgs/minimize.svg) !important;
-	background-repeat: no-repeat;
-	background-position: center 7px;
-	background-size: 24px;
+    
+  .titleBar-1it3bQ .winButton-3UMjdg:nth-child(4) {
+    background-image: url(https://monstrousdev.github.io/themes/assets/svgs/minimize.svg) !important;
+    background-repeat: no-repeat;
+    background-position: center 7px;
+    background-size: 24px;
 }
-/* --------------------------- 😀 PM PART --------------------------- */
-
-/* Friend column */
+  /* --------------------------- 😀 PM PART --------------------------- */
+    
+  /* Friend column */
 .peopleColumn-1wMU14 {
   background: var(--background-primary);
 }
+    
+  /* Friend call buttons */
+.colorable-3rVGna.primaryDark-2UJt1G, .colorable-3rVGna.primaryDark-2UJt1G:hover {background: var(--background-secondary-alt);}
+.bottomControls-31YuPK foreignObject {mask: none;}
+.bottomControls-31YuPK .centerButton-1IShs7 {border-radius: var(--server-radius);}
 
-/* Friend call buttons */
-.colorable-3rVGna.primaryDark-2UJt1G,
-.colorable-3rVGna.primaryDark-2UJt1G:hover {
-  background: var(--background-secondary-alt);
-}
-.bottomControls-31YuPK foreignObject {
-  mask: none;
-}
-.bottomControls-31YuPK .centerButton-1IShs7 {
-  border-radius: 7px;
-}
-
-/* Regional selector friend call */
-.theme-dark .quickSelectPopout-2F0PXw.regionSelectPopout-3sEzVB {
-  background: var(--background-secondary-alt);
-  box-shadow: none;
-}
-.quickSelect-384d3G {
-  margin-top: 10px;
-}
-
-/* Friend activities */
+  /* Regional selector friend call */
+.theme-dark .quickSelectPopout-2F0PXw.regionSelectPopout-3sEzVB {background: var(--background-secondary-alt); box-shadow: none;}
+.quickSelect-384d3G {margin-top: 10px;}
+    
+  /* Friend activities */
 .nowPlayingColumn-1eCBCN { background: var(--background-secondary-alt);}
 .nowPlayingColumn-1eCBCN .scroller-hE2gWq {border-left: none;}
 .emptyCard-KDifrB {border-radius: var(--server-radius); background: var(--background-secondary);}
 .theme-dark .itemCard-3Etziu { border: none;}
-
+    
 .theme-dark .itemCard-3Etziu.active-1W_Gl9, .theme-dark .itemCard-3Etziu.interactive-2zD88a:hover {
   background: var(--background-secondary-alt);
 }
@@ -1866,47 +1841,22 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .theme-dark .applicationStreamingPreviewWrapper-7j27t8 {
   background-color: var(--background-secondary);
 }
-
-/* Friend activities popout */
-.theme-dark .popout-3Zw0qN {
-  background: var(--background-tertiary);
-}
-.theme-dark .separator-2OaeRP {
-  background: var(--background-primary);
-}
-
-/* --------------------------- 📜 SERVER LIST PART --------------------------- */
-
-/* Server list */
-.guilds-2JjMmN .scroller-2TZvBN,
-.guilds-2JjMmN .scroller-3X7KbA {
-  contain: none !important;
-  padding-bottom: 170px;
-}
-
-/* Discover */
-.pageWrapper-2PwDoS .scroller-3j5xK2 {
-  padding-left: 0;
-}
-.discoverHeader-Ijkm_M ~ .categoryItem-1QIroW {
-  margin-left: 0;
-}
-.discoverHeader-Ijkm_M ~ .categoryItem-1QIroW .itemInner-gPkiWb {
-  padding: 8px;
-}
-.css-ix84ef-menu {
-  background: var(--background-secondary-alt);
-}
-.theme-dark .pageWrapper-2PwDoS,
-.theme-dark .css-1adxh11-control,
-.theme-dark .css-12hk9yc-control,
-.theme-dark .css-1emou8a-control {
-  background: var(--background-secondary);
-}
-.theme-light .root-g14mjS,
-.theme-light .footer-31IekZ {
-  box-shadow: none;
-}
+    
+  /* Friend activities popout */
+.theme-dark .popout-3Zw0qN {background: var(--background-tertiary);}
+.theme-dark .separator-2OaeRP {background: var(--background-primary);}
+    
+  /* --------------------------- 📜 SERVER LIST PART --------------------------- */
+    
+  /* Server list */.guilds-2JjMmN .scroller-2TZvBN, .guilds-2JjMmN .scroller-3X7KbA {contain: none !important; padding-bottom: 170px;}
+    
+  /* Discover */
+.pageWrapper-2PwDoS .scroller-3j5xK2 {padding-left: 0;}
+.discoverHeader-Ijkm_M ~ .categoryItem-1QIroW {margin-left: 0;}
+.discoverHeader-Ijkm_M ~ .categoryItem-1QIroW .itemInner-gPkiWb {padding: 8px;}
+.css-ix84ef-menu {background: var(--background-secondary-alt);}
+.theme-light .root-g14mjS, .theme-light .footer-31IekZ {box-shadow: none;}
+.theme-dark .pageWrapper-2PwDoS, .theme-dark .css-1adxh11-control, .theme-dark .css-12hk9yc-control, .theme-dark .css-1emou8a-control {background: var(--background-secondary);}
 
 /* Create a server modal */
 :root .root-g14mjS .footer-31IekZ > * {text-align: center;}
