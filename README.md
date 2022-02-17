@@ -1,4 +1,4 @@
-![Darkened Picture](https://user-images.githubusercontent.com/78914154/153714016-54e0d081-a69f-467e-9701-42d47c3fe0c7.png)
+![Darkened Picture Version 3](https://user-images.githubusercontent.com/78914154/154471803-c5ee50f9-67cf-4d2f-81b9-e36d4bc726b7.png)
 
 <h1 align="center">Preview</h1>
 
