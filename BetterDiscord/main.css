@@ -1264,17 +1264,21 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 	border: 1px solid var(--border-color)!important;
 	border-radius: 0px;
 }
+/* Nitro */
+.hero-1aNo0v { max-width: unset;}
+.featuresHeader-2bjq5B { text-align: center;}
  /* Server Boost in settings */
 .card-2gdrYL {
   background: var(--background-secondary);
   border-radius: 0px;
 	border: 1px solid var(--border-color);
 }
-.guild-Hq0WWA {
-  border-radius: 0px;
-}
+.guild-Hq0WWA {border-radius: var(--server-radius);}
  /* Subscriptions in settings */
 .accountCredit-1gEVAQ, .detailsBlock-FoDTGA, .tier2-3hSil0.banner-3Kac2g, .iconBackground-2u8o5- {border-radius: var(--server-radius);}
+  /* Billing */
+.theme-dark .paymentPane-ut5qKZ, .pageActions-1crTQL, .summaryInfo-3hcuop {background: var(--background-secondary)}
+.pageButtonNext-2_bbdk.disabled-29cfPA, .pageButtonPrev-3q9rh8.disabled-29cfPA, .pageButtonNext-2_bbdk, .pageButtonPrev-3q9rh8 {border-radius: var(--server-radius)}
  /* Appearance in settings */
 .item-2idW98[aria-checked=true] {background-color: #151515; color: var(--interactive-active);}
 .item-2idW98 {border-radius: var(--server-radius)}
