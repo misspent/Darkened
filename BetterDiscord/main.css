@@ -652,9 +652,8 @@
 [aria-label="Disconnect"] {color: #d10d0d;}
 [aria-label="Noise Suppression powered by Krisp"] {color: #7289da}
   /* Voice call container when hovering over the voice channel's name */
-  .container-8Futzw {border-radius: var(--server-radius); padding: 0px;}
-  .headerText-3g1XK9+div {margin-left: 0px!important; left: -5%;}
-  .headerContainer-1wJjOa {padding-left: 8px;}
+.container-8Futzw {border-radius: var(--server-radius); padding: 0px;}
+.headerText-3g1XK9+div {margin-left: 0px!important; left: -5%;}
   
 .popoutContainer-2wbmiM {
 	border-radius: var(--server-radius);
@@ -1589,6 +1588,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   margin-bottom: 4px!important;
   margin-left: -1px!important;
   bottom: -5px;
+  padding: 0;
 }
 
  /* Quote Message Bar + Color container */
@@ -1730,7 +1730,8 @@ svg.icon-2xnN2Y:hover {
 
 /*
  ===================================================================================================================
-Most if not "all" below here is from his GitHub source! Go to: https://nyri4.github.io/Comfy/betterdiscord/main.css.
+A fair bit of the stuff below here is from her GitHub; go to: https://nyri4.github.io. I'm a big fan of her themes.
+! Tidy, change, mess, edit and make your own stuff now you have more of an understanding compared to when you first started!
 
 Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user-tags.css" It will give you those animations + Badge.
 ====================================================================================================================
@@ -1847,7 +1848,8 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 
   /* --------------------------- 📜 SERVER LIST PART --------------------------- */
 
-  /* Server list */.guilds-2JjMmN .scroller-2TZvBN, .guilds-2JjMmN .scroller-3X7KbA {contain: none !important; padding-bottom: 170px;}
+  /* Server list */
+.guilds-2JjMmN .scroller-2TZvBN, .guilds-2JjMmN .scroller-3X7KbA {contain: none !important; padding-bottom: 170px;}
 
   /* Discover */
 .pageWrapper-2PwDoS .scroller-3j5xK2 {padding-left: 0;}
@@ -1862,17 +1864,8 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 
 /* Notifications settings */
 .inner-1ilYF7 > .modal-2RrUKJ > .header-1zd7se,
-.modal-2RrUKJ {
-  background: var(--background-secondary);
-}
-.inner-1ilYF7 > .modal-2RrUKJ > .scrollerBase-_bVAAt {
-  background: var(--background-secondary);
-}
-
-/* Mention gradient */
-.unreadMentionsBar-ZXXoOH .text-2GsXbW {
-  display: block;
-}
+.modal-2RrUKJ {background: var(--background-secondary);}
+.inner-1ilYF7 > .modal-2RrUKJ > .scrollerBase-_bVAAt {background: var(--background-secondary);}
 
 /* Top */
 .unreadMentionsIndicatorTop-2bTgUU {
@@ -2418,15 +2411,6 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .mouse-mode.full-motion .mentioned-Tre-dv:hover {
   background-color: var(--mention-color-hover);
 }
-
-/* Going back to new messages */
-.jumpToPresentBar-1cEnH0,
-.jumpToPresentBar-1cEnH0:active {
-  margin-bottom: 13px;
-  border-radius: 20px;
-  padding: 0;
-}
-
 
 /* Upload modal */
 .theme-dark .uploadModal-2ie9O_ {
