@@ -1907,79 +1907,10 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   border-radius: 0px;
 }
 
-/* Unread pill */
-.listItem-GuPuDH[vz-unread] .wrapper-28eC3z::before,
-.listItem-GuPuDH.unread .wrapper-28eC3z::before,
-.wrapper-3Njo_c[vz-unread]:not([vz-expanded]) .wrapper-28eC3z::before,
-.wrapper-3Njo_c.unread:not(.expanded) .wrapper-28eC3z::before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 0px;
-  left: 0px;
-  width: 12px;
-  height: 12px;
-  z-index: 1;
-  background: var(--unread-color);
-  border-radius: 50%;
-  animation: 2s server-unread infinite;
-}
-.listItem-GuPuDH[vz-unread] .pill-1z4sAY, .listItem-GuPuDH.unread .pill-1z4sAY,
-.wrapper-3Njo_c[vz-unread]:not(.expanded) .pill-1z4sAY, .wrapper-3Njo_c.unread:not(.expanded) .pill-1z4sAY,
-.listItem-GuPuDH.unread.mentioned .wrapper-28eC3z::before, .listItem-GuPuDH[vz-unread][vz-mentioned] .wrapper-28eC3z::before,
-.wrapper-3Njo_c.unread.mentioned .wrapper-28eC3z::before, .wrapper-3Njo_c[vz-unread][vz-mentioned] .wrapper-28eC3z::before {
-  display: none;
-}
-
-.listItem-GuPuDH[vz-unread][vz-selected] .pill-1z4sAY, .listItem-GuPuDH.unread.selected .pill-1z4sAY,
-.wrapper-3Njo_c[vz-unread][vz-selected]:not(.expanded) .pill-1z4sAY, .wrapper-3Njo_c.unread.selected:not(.expanded) .pill-1z4sAY,
-.listItem-GuPuDH[vz-unread]:hover .pill-1z4sAY, .listItem-GuPuDH.unread:hover .pill-1z4sAY,
-.wrapper-3Njo_c[vz-unread]:hover:not(.expanded) .pill-1z4sAY, .wrapper-3Njo_c.unread:hover:not(.expanded) .pill-1z4sAY
-{ display: flex;}
-
-
-@keyframes server-unread {
-  0% {
-  box-shadow: 0 0 0 0 var(--unread-color);
-  }
-  70% {
-  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
-  }
-  100% {
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
-}
-
-@keyframes server-mention {
-  0% {
-  box-shadow: 0 0 0 0 red;
-  }
-  70% {
-  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
-  }
-  100% {
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
-}
-
 /* Hiding text and separators. Add = " .status-3TYC5W, " to remove the names ("online" "Idle" Etc) */
 .separator-1So4YB,
 .description-3Cwkxk {
   display: none;
-}
-
-/* Custom status modal */
-.select-1Ia3hD,
-.popout-1KHNAq {
-  border: none;
-}
-.select-1Ia3hD.open-1FRZsK,
-.popout-1KHNAq {
-  background-color: var(--background-secondary-alt);
-  transition: 0.15s;
-}
-.theme-dark .footer-31IekZ {
-  background: var(--background-tertiary);
 }
 
 /* --------------------------- ✏️ CHANNEL PART --------------------------- */
