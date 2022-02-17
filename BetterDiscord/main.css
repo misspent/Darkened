@@ -2917,24 +2917,16 @@ flex-shrink: 0;
 :root { --streaming: #593695;}
 
 /* Joining message */
-.theme-dark .contentWrapper-3oy4Xo {
-  background: var(--background-secondary);
-}
+.theme-dark .contentWrapper-3oy4Xo {background: var(--background-secondary);}
 
 /* Welcome message */
-.root-g14mjS:not(.modal-3Crloo) {
-  background: var(--background-secondary);
-}
+.root-g14mjS:not(.modal-3Crloo) {background: var(--background-secondary);}
 
 /* Deleting Discord watermark */
-.wordmark-2u86JB svg {
-  display: none;
-}
+.wordmark-2u86JB svg {display: none;}
 
 /* Deleting message confirmation */
-.theme-dark .message-G6O-Wv {
-  background: var(--background-primary);
-}
+.theme-dark .message-G6O-Wv {background: var(--background-primary);}
 
 /* Tooltips */
 .tooltip-14MtrL {
@@ -2947,12 +2939,8 @@ flex-shrink: 0;
 }
 
 /* Keyboard shortcuts */
-.theme-dark .keyboardShortcutsModal-2CRmCm {
-  background: var(--background-primary);
-}
-.theme-dark .keybindShortcut-3zF1P9 span {
-  border-radius: 1px;
-}
+.theme-dark .keyboardShortcutsModal-2CRmCm {background: var(--background-primary);}
+.theme-dark .keybindShortcut-3zF1P9 span {border-radius: var(--server-radius);}
 
 /* Discord games */
 .theme-dark .scroller-1JpcIc {
@@ -3029,11 +3017,6 @@ flex-shrink: 0;
 /* Attachment */
 .attachment-1PZZB2 {
   border: none;
-}
-
-/* Spotify embed */
-.embedSpotify-1rDvOE {
-  border-radius: 5px;
 }
 
 /* Discord Gift */
@@ -3210,10 +3193,9 @@ flex-shrink: 0;
 }
 
 /* Server radius */
+.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O {border-radius: var(--server-radius)!important;}
 .wrapper-28eC3z foreignObject { mask: none; }
 .wrapperSimple-Js2rIO { overflow: visible;}
-
-.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O {border-radius: var(--server-radius)!important;}
 
 .iconInactive-26M06U {border-radius: calc(var(--server-radius) - 4px);}
 
@@ -3229,10 +3211,7 @@ flex-shrink: 0;
 :not(.themedPopout-1TrfdI) > .slider-1NC-Gf:not(.mini-2qY9iv) { height: 50px;}
 .themedPopout-1TrfdI > .slider-1NC-Gf { height: 15px; margin: 0;}
 .themedPopout-1TrfdI > .slider-1NC-Gf .bar-1Bhnl9 { top: 0 !important;}
-.slider-1NC-Gf .grabber-2GQyvM {
-  background-color: transparent;
-  box-shadow: none; border: none;
-}
+.slider-1NC-Gf .grabber-2GQyvM {background-color: transparent; box-shadow: none; border: none;}
 .barFill-2Bh7CX { border-radius: 0 0px 0px 0;}
 .mini-2qY9iv .bar-1Bhnl9 {border-radius: 0px;}
 #user-context-user-volume .sliderContainer-2nidiS::before {margin-top: 3px; margin-left: 5px;}
@@ -3249,12 +3228,3 @@ flex-shrink: 0;
  /* Smooth/Smart font for time stamps & Channel names (Add * to apply it to EVERYTHING)
 .cozy-VmLDNB .timestamp-p1Df1m {font-family: 'Segoe UI' !important; font-size: 0.72rem}
 .channelName-3KPsGw, .subtitle-3PyFgf, .roleColor-nA7BqX {font-family: 'Segoe UI' !important; font-size: 0.95rem} */
- /* Hides blocked messages
-.wrapper-30-Nkg[data-is-blocked="true"] {display: none;} */
-
-
-/* Credits
-* Used Nyria's Comfy theme as a base.
-* Thanks Gibbu, ClearVision & Couve
-* Used, took inspiration and or edited some snippets from other themes/servers.
-*/
