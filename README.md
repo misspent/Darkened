@@ -3,7 +3,7 @@
 <h1 align="center">Preview</h1>
 
 ### Main window + User popout
-![1  Darkened Discord Theme Main Window version 2](https://user-images.githubusercontent.com/78914154/153709567-d46dfd0c-766b-49eb-b177-1c6befc2e75f.png)
+![1  Darkened Discord Theme Main Window version 2  Edited](https://user-images.githubusercontent.com/78914154/154513609-f25cfcd0-cfe6-4cab-98b5-b19e8373fac2.png)
 
 <h1 align="center">📌 Information</h1>
 
@@ -17,6 +17,7 @@
 * ✔️ Good ol' darkness
 * ✔️ Support for some plugins
 * ❌ Light mode not supported
+* ⭕ Possibly change the Date-Month-Year separator container if requested
 ### ℹ️ Credits
 * **[xcruxiex](https://github.com/xcruxiex)**'s Friend Grid.
 * **[CreArts](https://github.com/CreArts-Community)**'s Context Icons.
@@ -29,9 +30,9 @@
 
 (Previews/screenshots may become out-of-date at some point)
 ### User Settings
-![Darkened Discord Theme Settings](https://user-images.githubusercontent.com/78914154/153611286-5dda1a70-9f60-4234-ac53-cfb0f6e98d7a.png)
+![2  Darkened Discord Theme Settings  Edited](https://user-images.githubusercontent.com/78914154/154513743-203e6981-354d-4917-83cc-6bb0cddb2542.png)
 ### Home + Friends section
-![4  Darkened Discord Theme Friends Version 2](https://user-images.githubusercontent.com/78914154/153709178-a850baeb-9fbb-4168-929b-3ae5755fa61b.png)
+![4  Darkened Discord Theme Friends Version 3  Edited](https://user-images.githubusercontent.com/78914154/154513652-0cf1c52e-445a-4513-a908-1d864b1b7e8d.png)
 
 <h1 align="center">📜 Extra(s)</h1>
 
