@@ -1798,6 +1798,8 @@ svg.icon-2xnN2Y:hover {
 /* "Read All" container makes it look cleaner */
 .frame-oXWS21 {margin-bottom: 0px;}
 
+/* Search bar and modal */
+
 /*
  ===================================================================================================================
 A fair bit of the stuff below here is from her GitHub; go to: https://nyri4.github.io. I'm a big fan of her themes.
@@ -2122,75 +2124,10 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 /* --------------------------- 💬 TCHAT PART --------------------------- */
 
 /* Channel bar */
-.container-ZMc96U.themed-Hp1KC_ {
-  background: var(--background-secondary);
-}
+.container-ZMc96U.themed-Hp1KC_ {background: var(--background-secondary);}
 .theme-dark .children-3xh0VB:after {
-  background: linear-gradient(
-  90deg,
-  rgba(54, 57, 63, 0) 0,
-  var(--background-secondary)
-  );
-}
-.search-39IXmY {
-  order: 1;
-}
-.search-1FM8Qc:not(.open-3y3yI_) .searchBar-zdmu7v {
-  width: 27px;
-  transition: 0.25s;
-  background-color: transparent;
-}
-.search-1FM8Qc:not(.open-3y3yI_):hover .searchBar-zdmu7v {
-  width: 240px;
-  transition: 0.25s;
-  background-color: var(--background-tertiary);
-}
-.search-1FM8Qc:not(.open-3y3yI_) .iconContainer-1RqWJj {
-  transform: scale(1.2);
-  transition: 0.25s;
-}
-.search-1FM8Qc:not(.open-3y3yI_):hover .iconContainer-1RqWJj {
-  transform: scale(1);
-  transition: 0.25s;
-}
-[href="https://support.discord.com"]
-{
-  display: none;
-}
-
-/* -- Search bar and modal -- */
-.theme-dark .elevationBorderHigh-3drnJX {
-  box-shadow: none;
-}
-.resultsGroup-1BPR25 .header-3A13BX {
-  text-align: center;
-}
-.option-2KkUJO {
-  margin: 0;
-  border-radius: 0;
-}
-.theme-dark .container-2McqkF,
-.theme-dark .focused-2FU0YH {
-  background-color: var(--background-secondary-alt);
-}
-.theme-dark .searchAnswer-23w-CH,
-.theme-dark .searchFilter-2UfsDk {
-  background-color: var(--background-primary);
-}
-.theme-dark .option-2KkUJO:after {
-  background: linear-gradient(
-  90deg,
-  rgba(54, 57, 63, 0),
-  var(--background-secondary-alt) 80%
-  );
-}
-.theme-dark .option-2KkUJO.selected-rZcOL-:after {
-  background: linear-gradient(
-  90deg,
-  rgba(54, 57, 63, 0),
-  var(--background-secondary) 80%
-  );
-}
+  background: linear-gradient(90deg, rgba(54, 57, 63, 0) 0, var(--background-secondary));}
+[href="https://support.discord.com"]{display: none;}
 
 /* Calendar */
 .theme-dark .calendarPicker-sDhzdi .react-datepicker {
