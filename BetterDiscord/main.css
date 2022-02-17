@@ -12,7 +12,7 @@
 
 /*
 ====================================================================================
-                                  Container, pills, groups
+                  Container, pills, groups
 ====================================================================================
 */
 
@@ -606,7 +606,7 @@
 
  /*
 ====================================================================================================================
-                                                         Convenient/Make things look cleaner Custom CSS
+                             Convenient/Make things look cleaner Custom CSS
 ====================================================================================================================
 */
 
@@ -999,7 +999,7 @@ font-size: 14px;content: "NEW MESSAGES";margin-bottom: -2px}
 
 /*
  ===================================================================================================================
-                                                                         Plugins Custom
+                                     Plugins Custom
 ====================================================================================================================
 */
  
@@ -1099,7 +1099,7 @@ font-size: 14px;content: "NEW MESSAGES";margin-bottom: -2px}
 
 /*
 ====================================================================================================================
-                                                                       Settings Custom CSS
+                                     Settings Custom CSS
 ====================================================================================================================
 */
 
@@ -1359,7 +1359,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
  .bd-addon-list .bd-addon-header {background: var(--background-modifier-hover)}
 
  /* Search bar position in settings */
-.bd-search-wrapper {background-color: var(--background-modifier-hover);     /* width: 800px; margin-left: 550px */}
+.bd-search-wrapper {background-color: var(--background-modifier-hover);   /* width: 800px; margin-left: 550px */}
 
  /* Close button in settings */
 .theme-dark .closeButton-PCZcma {border-color: #72767d; border-radius: 0px;}
@@ -1463,7 +1463,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 
  /*
  ===================================================================================================================
-                                                              Chat/Normal Window Custom CSS
+                                Chat/Normal Window Custom CSS
 ====================================================================================================================
 */
 
@@ -1527,7 +1527,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   height: 24px;
   content: "";
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.427 4.427l3.396 3.396a.25.25 0 010 .354l-3.396 3.396A.25.25 0 016 11.396V4.604a.25.25 0 01.427-.177z"></path></svg>');
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.427 4.427l3.396 3.396a.25.25 0 010 .354l-3.396 3.396A.25.25 0 016 11.396V4.604a.25.25 0 01.427-.177z"></path></svg>');
+      mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.427 4.427l3.396 3.396a.25.25 0 010 .354l-3.396 3.396A.25.25 0 016 11.396V4.604a.25.25 0 01.427-.177z"></path></svg>');
   background: var(--unread-color);
 }
 #app-mount .wrapper-NhbLHG.typeThread-2Aqh6X.modeSelected-3DmyhH .content-1gYQeQ::after {background: rgb(var(--accent));}
@@ -1661,19 +1661,13 @@ svg.icon-2xnN2Y:hover {
 .tabBar-ra-EuL, .topPill-3DJJNV {border-radius: var(--server-radius);}
 .tabBar-ra-EuL .item-3mHhwr {
   border-radius: var(--server-radius);
-	background-color: #080808;
-  border-top: 1px solid #303030;
-  border-right: 1px solid #303030;
-  border-left: 1px solid #303030;
-  border-bottom: 1px solid #303030;
+	background-color: var(--background-primary);
+  border: 1px solid #303030;
 }
 .item-3mHhwr.item-3XjbnG.themed-2-lozF[aria-selected=true] {
   color: rgb(0, 210, 0) !important;
   background-color: rgba(0, 200, 0, 0.2) !important;
-  border-top: 1px solid green !important;
-  border-left: 1px solid green !important;
-  border-right: 1px solid green !important;
-  border-bottom: 1px solid green !important;
+  border: 1px solid green !important;
 }
 
 /* Apply this if you want to hide the Friends icon, divider and "Friends" wrapper title */
@@ -1731,6 +1725,8 @@ svg.icon-2xnN2Y:hover {
 
  /* Separator below "Read All" & Above top server */
 .guildSeparator-33mFX6, .guildSeparator-a4uisj {Display: none;}
+/* "Read All" container makes it look cleaner */
+.frame-oXWS21 {margin-bottom: 0px;}
 
 /*
  ===================================================================================================================
@@ -1747,79 +1743,79 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .titleBar-1it3bQ div {transform: scale(0.8) !important;}
 .titleBar-1it3bQ {transform: translateY(-6px); height: 0px; margin-top: 0px;  }
 .titleBar-1it3bQ:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 6px;
-    height: 14px;
-    z-index: 3002;
-    -webkit-app-region: drag !important;
-    pointer-events: none;
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 6px;
+  height: 14px;
+  z-index: 3002;
+  -webkit-app-region: drag !important;
+  pointer-events: none;
 }
 .titleBar-1it3bQ:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 6px;
-    z-index: 3002 !important;
-    pointer-events: none;
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 6px;
+  z-index: 3002 !important;
+  pointer-events: none;
 }
-    
+
   /* 1.b. Mac Main Title Bar*/
 .typeMacOS-3V4xXE.titleBar-1it3bQ { 
-    transform: none; 
-    position: relative; 
+  transform: none; 
+  position: relative; 
 }
-    
+
   /* 1.c. Windows Buttons */
 .winButton-3UMjdg {
-    top: 9px;
-    height: 36px;
-    width: 30px;
-    right: 8px;
-    background-position: center;
-    opacity: .6;
-    transition: .2s ease !important;
+  top: 9px;
+  height: 36px;
+  width: 30px;
+  right: 8px;
+  background-position: center;
+  opacity: .6;
+  transition: .2s ease !important;
 }
-    
+
 .winButton-3UMjdg:hover {
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    background-color: var(--hover-color) !important;
-    border-radius: 3px;
-     opacity: 1 !important;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  background-color: var(--hover-color) !important;
+  border-radius: 3px;
+  opacity: 1 !important;
 }
-    
+
 .titleBar-1it3bQ .winButtonClose-3Q8ZH5 {
-    background-image: url(https://monstrousdev.github.io/themes/assets/svgs/cancel.svg) !important;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 24px;
+  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/cancel.svg) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
 }
-    
+
 .titleBar-1it3bQ .winButton-3UMjdg:nth-child(3) {
-    background-image: url(https://monstrousdev.github.io/themes/assets/svgs/fullscreen.svg) !important;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 24px;
+  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/fullscreen.svg) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
 }
-    
+
   .titleBar-1it3bQ .winButton-3UMjdg:nth-child(4) {
-    background-image: url(https://monstrousdev.github.io/themes/assets/svgs/minimize.svg) !important;
-    background-repeat: no-repeat;
-    background-position: center 7px;
-    background-size: 24px;
+  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/minimize.svg) !important;
+  background-repeat: no-repeat;
+  background-position: center 7px;
+  background-size: 24px;
 }
   /* --------------------------- 😀 PM PART --------------------------- */
-    
+
   /* Friend column */
 .peopleColumn-1wMU14 {
   background: var(--background-primary);
 }
-    
+
   /* Friend call buttons */
 .colorable-3rVGna.primaryDark-2UJt1G, .colorable-3rVGna.primaryDark-2UJt1G:hover {background: var(--background-secondary-alt);}
 .bottomControls-31YuPK foreignObject {mask: none;}
@@ -1828,13 +1824,13 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   /* Regional selector friend call */
 .theme-dark .quickSelectPopout-2F0PXw.regionSelectPopout-3sEzVB {background: var(--background-secondary-alt); box-shadow: none;}
 .quickSelect-384d3G {margin-top: 10px;}
-    
+
   /* Friend activities */
 .nowPlayingColumn-1eCBCN { background: var(--background-secondary-alt);}
 .nowPlayingColumn-1eCBCN .scroller-hE2gWq {border-left: none;}
 .emptyCard-KDifrB {border-radius: var(--server-radius); background: var(--background-secondary);}
 .theme-dark .itemCard-3Etziu { border: none;}
-    
+
 .theme-dark .itemCard-3Etziu.active-1W_Gl9, .theme-dark .itemCard-3Etziu.interactive-2zD88a:hover {
   background: var(--background-secondary-alt);
 }
@@ -1844,15 +1840,15 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .theme-dark .applicationStreamingPreviewWrapper-7j27t8 {
   background-color: var(--background-secondary);
 }
-    
+
   /* Friend activities popout */
 .theme-dark .popout-3Zw0qN {background: var(--background-tertiary);}
 .theme-dark .separator-2OaeRP {background: var(--background-primary);}
-    
+
   /* --------------------------- 📜 SERVER LIST PART --------------------------- */
-    
+
   /* Server list */.guilds-2JjMmN .scroller-2TZvBN, .guilds-2JjMmN .scroller-3X7KbA {contain: none !important; padding-bottom: 170px;}
-    
+
   /* Discover */
 .pageWrapper-2PwDoS .scroller-3j5xK2 {padding-left: 0;}
 .discoverHeader-Ijkm_M ~ .categoryItem-1QIroW {margin-left: 0;}
@@ -2456,7 +2452,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 
 /*
 ====================================================================================
-        👥 MEMBERS PART (User popout + Roles)
+    👥 MEMBERS PART (User popout + Roles)
 ====================================================================================
 */
 
@@ -2590,7 +2586,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   z-index: -1;
 }
 .role-2TIOKu[aria-label="Add role"] {
-    display: none;
+  display: none;
 }
 /* Spotify icon on popout + button colour and container */
 .theme-dark .newPopoutActivityStyles .platformIcon-k3yytQ, .theme-light .newPopoutActivityStyles .platformIcon-k3yytQ {display: none;}
