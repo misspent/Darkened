@@ -349,21 +349,24 @@
 .theme-dark .autocomplete-3NRXG8 {
   border-radius: 0px;
 	margin-bottom: var(--server-radius);
-	border: 1px solid #202020;
+	border-left: 1px solid var(--border-color);
+	border-right: 1px solid var(--border-color);
+	border-bottom: 1px solid var(--border-color);
 }
 .contentTitle-3CylD3 {
   color: var(--interactive-normal);
   background-color: var(--background-secondary-alt);
 	text-align: center;
-	border-bottom: 1px solid #202020;
+	border-bottom: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color)
 }
 .base-2v-uc0 {
   background-color: var(--background-secondary);
   padding: 0px;
 }
-.scroller-18M1mG {
-	padding-bottom: 0px;
-}
+.divider-1bJsnZ:after {display: none}
+.scroller-18M1mG {padding-bottom: 0px;}
+.emojiStickersDivider-2YgbDJ {padding: 0px!important;}
 /* # @ / autocomplete menu */
 .theme-dark .selected-3H3-RC {
   background: var(--background-tertiary);
@@ -509,7 +512,7 @@
  .inspector-DFKXwB {border-top: 1px solid var(--border-color);}
  .guildCategorySeparator-1YkjLr {margin-top: 16px;}
  .row-2mBMW2 {margin-top: 5px;}
- .contentWrapper-3vHNP2 {background-color: black;}
+ .contentWrapper-3vHNP2 {background-color: black; box-shadow: none}
  .inner-1NoIT5, .searchBar-2M9mRP, .wrapper-22ayhK {background-color: #090909; border-radius: var(--avatar-radius)!important;}
  :root #emoji-picker-tab-panel .emojiItem-277VFM.emojiItemSelected-2Lg50V {background: var(--background-modifier-selected); border-radius: var(--avatar-radius)!important;}
  .gif-1EWTs-, .result-3OpoO7:after {border-radius: var(--server-radius)!important;}
