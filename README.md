@@ -23,7 +23,7 @@
 * **[CreArts](https://github.com/CreArts-Community)**'s Context Icons.
 * **[LyGhT1337](https://github.com/LyGhT1337)**'s CodeBlocks.
 * **[mwittrien](https://github.com/mwittrien)**'s Setting Icons.
-* **[XYZenix](https://github.com/xcruxiex)**'s DragNDrop Modals.
+* **[XYZenix](https://github.com/XYZenix)**'s DragNDrop Modals.
 * **[Nyria](https://github.com/NYRI4)**'s Discolored & no-scrollbars Imports + Used Comfy theme as a base.
 * A friend who shall not be named.
 * Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision & Couve + others. 
