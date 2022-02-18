@@ -1527,7 +1527,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 
  /*
  ===================================================================================================================
-                                Chat/Normal Window Custom
+                                                  Chat/Normal Window
 ====================================================================================================================
 */
 
@@ -3253,6 +3253,15 @@ flex-shrink: 0;
 .hljs[class~="rsl" i]::before {content: "RenderMan RSL";--codeblockcolor: #77a80593;}
 .hljs[class~="armasm" i]::before {content: "Arm Assembly";--codeblockcolor: #b4414293;}
 .hljs[class~="asm" i]::before,.hljs[class~="assembly" i]::before {content: "Assembly";--codeblockcolor: #25344c93;}
+.hljs-number {color: #2aa198!important}
+.hljs-selector-tag {color: #b2ccd6!important}
+.hljs-selector-attr {color: #89ddf3!important}
+.hljs-selector-class {color: #268bd2!important}
+.hljs-link,.hljs-string {color: #2aa198!important}
+.hljs-attr,.hljs-keyword,.hljs-meta,.hljs-selector-id {color: #cb4b16!important}
+.hljs-built_in,.hljs-name, .hljs-section, .hljs-title {color: #dc322f!important;}
+.hljs-bullet,.hljs-subst,.hljs-symbol,.hljs-template-variable,.hljs-type,.hljs-variable {color: #f07178!important}
+.hljs-attribute,.hljs-doctag,.hljs-literal,.hljs-meta-string,.hljs-regexp,.hljs-selector-pseudo {color: #b58900!important}
 
  /* Smooth/Smart font for time stamps & Channel names (Add * to apply it to EVERYTHING)
 .cozy-VmLDNB .timestamp-p1Df1m {font-family: 'Segoe UI' !important; font-size: 0.72rem}
