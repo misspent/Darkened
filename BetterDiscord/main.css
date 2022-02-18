@@ -1104,12 +1104,10 @@
 }
 
 /* StaffTag Plugin (Position of it DELETE if it's off) */
-.rem-3kT9wc.botTag-7aX5WZ {
-  height: .9375rem;
-  padding: 0 .275rem;
-  margin-top: .135em;
-  border-radius: .1875rem;
-}
+.rem-3kT9wc.botTag-7aX5WZ {margin-bottom: 5px;}
+
+/* Badges Plugin fix */
+.badgesChat-f_cbR8 {top: 0px;}
 
 /* Theme & Plugin Repo colors, borders & Search box */
 .small-1uriao .input-2m5SfJ, .small-1uriao .tag-Pxnlt9 {background-color: #131313;}
