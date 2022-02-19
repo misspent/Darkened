@@ -1,5 +1,5 @@
 /**
-* @name 1. Darkened
+* @name Darkened
 * @author Noteless
 * @description Darkness is a gift; embrace it.
 * @authorLink https://github.com/misspent/Darkened
@@ -15,7 +15,6 @@
 */
 
 :root {
-  /* -- Others settings -- */
 
   /* Roundness of the fun stuff */
   --avatar-radius: 0px; /* Avatar roundness */
@@ -28,7 +27,7 @@
 
   /* Mention color */
   --mention-color: #0fffff;
-  --unread-color: RGB(0, 195, 209);
+  --unread-color: rgb(0, 195, 209);
   --accent: 0, 195, 209; /* This works in conjunction with "--unread-color" */
 
   /* Mention color in chat */
