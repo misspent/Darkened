@@ -10,6 +10,8 @@
 .compact-2Nkcau .repliedMessage-3Z6XBG:before {right: calc(100% - .21rem) !important; border-radius: var(--server-radius);}
 .compact-2Nkcau .repliedMessage-3Z6XBG {margin-left: calc(var(--timestamp-width) + .64rem + var(--text-indent)) !important;}
 
+/* Context menu icons when right clicking a message (removes the icons on the right) */
+.icon-E4cW1l {display: none;}
 /*
 ====================================================================================
                   Container, pills, groups
