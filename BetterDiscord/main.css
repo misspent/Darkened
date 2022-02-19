@@ -305,22 +305,9 @@
 :root .root-g14mjS .selectorButtonSelected-3Z0WNU {background: var(--background-primary) !important;}
 
 /* PopoutActivity style/colour (RPC buttons + OTHER BUTTONS) [FIRST THING YOU ACTUALLY MADE FROM HAND!] */
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
-  color: #fff;
-  background-color: #697ec9 !important;
-  border: 0px solid #313b5e;
-  border-width: 0.5px 4px 4px 0.5px;
-  border-radius: 0px;
-}
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
-  color: #fff;
-  background-color: #5464a1 !important;
-  border: 0px solid #222a42;
-  border-width: 0px 3px 3px 0px;
-  border-radius: 0px;
-}
-.lookFilled-1Gx00P.colorGreen-29iAKY {border-radius: var(--server-radius);}
-.lookFilled-yCfaCM.colorGreen-3y-Z79 {border-radius: var(--server-radius);}
+/* popout + other buttons */
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {background: rgb(var(--accent), 0.6); border-radius: var(--server-radius);}
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {background: rgb(var(--accent), 0.3); border-radius: var(--server-radius);}
 
 /* A little grid for the autocomplete container */
 .theme-dark .autocomplete-3NRXG8 {
@@ -3048,6 +3035,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 
 /* Codeblock stuff */
 .theme-dark .messageGroupWrapper-1jf_7C, .theme-dark .inputDefault-3FGxgL, .theme-dark .container-30qY7E, .theme-dark .cardPrimary-3qRT__, .theme-dark .cardPrimaryOutline-1ofwVz, .theme-dark .codeRedemptionRedirect-3SBiCp, .theme-dark .previewOverlay-2reuWf, .theme-dark .markup-eYLPri code {padding-left: 10px !important; padding-right: 0px !important;}
+.powercord-codeblock-lang, .hljs .powercord-lines {display:none;} .hljs {font-size: 14px !important;}
 .hljs[class$="hljs"]::before {content: 'Plain Text';--codeblockcolor: #202020;}
 .hljs[class~=diff i]::before {content: "Diff";--codeblockcolor: #81c52993;}
 .hljs[class~=cs i]::before,.hljs[class~=csharp i]::before {content: "C#";--codeblockcolor: #f4b41c93;}
