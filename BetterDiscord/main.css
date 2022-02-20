@@ -11,7 +11,7 @@
 .compact-2Nkcau .repliedMessage-3Z6XBG {margin-left: calc(var(--timestamp-width) + .64rem + var(--text-indent)) !important;}
 
 /* Context menu icons when right clicking a message (removes the icons on the right) */
-.icon-E4cW1l {display: none;}
+#message-pin > div.iconContainer-1-SsTR > svg, #message-copy-link > div.iconContainer-1-SsTR > svg, #message-reply > div.iconContainer-1-SsTR > svg, #message-thread > div.iconContainer-1-SsTR > svg, #message-tts > div.iconContainer-1-SsTR > svg, #message-delete > div.iconContainer-1-SsTR > svg {display: none;}
 /*
 ====================================================================================
                   Container, pills, groups
@@ -1022,12 +1022,6 @@
 .content-vSHmMD {background-color: var(--background-secondary); padding: 8px;}
 .iconContainer-2rPbqG {padding-bottom: 12px; padding-top: 10px;}
 .content-vSHmMD a {color: var(--background-accent);}
-
-/* Horizontally listed media, pictures or uploads */
-[id*="message-accessories-"] {display: flex; flex-wrap: wrap;}
-[id*="message-accessories-"] > * {margin-right: .4em !important; min-height: 100% !important;}
-[id*="message-accessories-"] > div > a {display: flex; align-items: center; min-height: 100%; background-color: var(--background-secondary); }
-[id*="message-reactions"] {width: 100%;}
 
 /*
  ===================================================================================================================
@@ -2335,7 +2329,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   border-radius: var(--server-radius) var(--server-radius) var(--server-radius) var(--server-radius);
 }
 :root .userPopout-2j1gM4 .customStatus-3XAoF9, :root .userPopout-2j1gM4 .aboutMeSection-PUghFQ {padding-top: 0px; margin-right: 8px; margin-top: 8px; border-radius: var(--server-radius);}
-.aboutMeSection-PUghFQ .aboutMeBody-1J8rhz {padding-bottom: 5px; padding-left: 8px;}
+.aboutMeSection-PUghFQ .aboutMeBody-1J8rhz {padding-bottom: 5px; padding-left: 0px;}
 .footer-3naVBw {background-color: var(--background-secondary);}
 
 /* Avatar icon radius in "Mutual Servers" [Popout USRBG] Keep */
@@ -3124,8 +3118,8 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .hljs[class~="armasm" i]::before {content: "Arm Assembly";--codeblockcolor: #b4414293;}
 .hljs[class~="asm" i]::before,.hljs[class~="assembly" i]::before {content: "Assembly";--codeblockcolor: #25344c93;}
 .hljs-number {color: #2aa198 !important;}
-.hljs-selector-tag {color: #b2ccd6 !important;}
-.hljs-selector-attr {color: #89ddf3 !important;}
+.hljs-selector-tag {color: #859900 !important;}
+.hljs-selector-attr {color: #cb4b16 !important;}
 .hljs-selector-class {color: #268bd2 !important;}
 .hljs-link,.hljs-string {color: #2aa198 !important;}
 .hljs-attr,.hljs-keyword,.hljs-meta,.hljs-selector-id {color: #cb4b16 !important;}
