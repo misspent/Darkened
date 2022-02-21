@@ -23,7 +23,7 @@
   --role-circle: 5px; /* Circles next to role names (Size not roundness) */
 
   /* Home Icon Image */
-  --Home-Image: url("https://noteless.wtf/l/au5wo8wwlv0a55qk.png"); /* Default: https://imgur.com/a/lgreoot */
+  --Home-Image: url("https://imgur.com/a/lgreoot"); /* Default: https://imgur.com/a/lgreoot */
 
   /* Mention color */
   --mention-color: #0fffff;
@@ -43,7 +43,7 @@
 }
 
 .theme-dark {
-  --background-tertiary: #090909;
+  --background-tertiary: #121212;
   --background-secondary: #0d0d0d;
   --background-secondary-alt: #090909;
   --background-primary: #090909;

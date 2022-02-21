@@ -311,9 +311,11 @@
 .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {background: rgb(var(--accent), 0.3); border-radius: var(--server-radius);}
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {background: rgb(var(--accent), 0.6); border-radius: var(--server-radius);}
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {background: rgb(var(--accent), 0.3); border-radius: var(--server-radius);}
-/* block button */
+/* Block button */
 [id*="chat-messages-"] > div.size16-rrJ6ag.description-22d6ux > div > button.action-1R6ERA.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeTiny-3y2SSK.grow-2sR_-F
 {background-color: hsl(359deg, calc(var(--saturation-factor, 1) * 82.6%), 40%);}
+/* Ignore button */
+.actionRightButton-1oVkpk {background: var(--status-danger-background) !important;}
 
 /* A little grid for the autocomplete container */
 .theme-dark .autocomplete-3NRXG8 {
@@ -1355,6 +1357,9 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .bd-controls, .bd-controls-advanced, .bd-addon-list .bd-footer .bd-links, .bd-addon-list .bd-footer .bd-links a, .bd-addon-list .bd-footer .bd-addon-button, .bd-switch-body, .app-2CXKsg button, .bd-addon-list .bd-addon-card {border-radius: var(--server-radius) !important;}
 .bd-addon-list .bd-addon-header {background: var(--background-modifier-hover);}
 
+/* Themes & Plugins section add-on list bottom (background colour behind github, source, edit, server, support etc */
+.bd-addon-list .bd-footer {background-color: var(--background-tertiary);}
+
 /* Search bar position in settings */
 .bd-search-wrapper {background-color: var(--background-modifier-hover);   /* width: 800px; margin-left: 550px */}
 
@@ -1463,6 +1468,9 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
                                                   Chat/Normal Window
 ====================================================================================================================
 */
+
+/* Background of your server list section */
+.scroller-3X7KbA {background: var(--background-primary);}
 
 /* Titlebar Right Search Menu Dropdown */
 .theme-dark .container-2McqkF {margin-left: -130px; margin-top: 5px; background-color: var(--background-primary);border-radius: var(--server-radius);}
@@ -3009,7 +3017,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 }
 
 /* Server radius */
-.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .previewMessage-2g_aBv, .cameraWrapper-3a7Ngv {border-radius: var(--server-radius) !important;}
+.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .previewMessage-2g_aBv, .cameraWrapper-3a7Ngv, .lookFilled-yCfaCM.colorGreen-3y-Z79 {border-radius: var(--server-radius) !important;}
 .wrapper-28eC3z foreignObject { mask: none; transition: 0.2s;}
 .wrapperSimple-Js2rIO { overflow: visible;}
 
