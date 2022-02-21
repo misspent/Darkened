@@ -316,6 +316,8 @@
 {background-color: hsl(359deg, calc(var(--saturation-factor, 1) * 82.6%), 40%);}
 /* Ignore button */
 .actionRightButton-1oVkpk {background: var(--status-danger-background) !important;}
+/* Close button */
+[id*="message-accessories-"] > div.container-3Sqbyb > div > div > button {background: var(--status-danger-background) !important}
 
 /* A little grid for the autocomplete container */
 .theme-dark .autocomplete-3NRXG8 {
@@ -810,6 +812,8 @@
 /* Context/scroller container (When you right click things) */
 :root .item-3XjbnG:not([class^=tabBarItem-]), :root .menu-1QACrS {
   border-radius: var(--server-radius) !important;
+  border: 1px solid var(--border-color);
+  box-shadow: none;
 }
 :root .scroller-1bVxF5 .item-1OdjEX {margin: 0; border-radius: var(--server-radius);}
 :root .scroller-1bVxF5 {padding: 0;}
