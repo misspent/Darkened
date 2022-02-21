@@ -63,7 +63,7 @@
   --scrollbar-auto-track: #191f2e;
   --scrollbar-thin-thumb: #141925;
   --activity-card-background: #101320;
-  --border-color: #151515;
+  --border-color: #151515; /* Change to: none = no borders */
   --popout-title: #141414;
   --popout-background-main: #101010;
 }
