@@ -37,6 +37,7 @@
 ![4  Darkened Discord Theme Friends Version 3  Edited](https://user-images.githubusercontent.com/78914154/154513652-0cf1c52e-445a-4513-a908-1d864b1b7e8d.png)
 
 <h1 align="center">📜 Extra(s)</h1>
+→ Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.
 
 <details>
   <summary>⌛ Write-up</summary>
@@ -50,5 +51,3 @@ I'll update this as often as I can; however, I do not use canary version of disc
 ---
 
 </details>
-
-→ Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.
