@@ -32,11 +32,12 @@
 
 (Previews/screenshots may become out-of-date at some point)
 ### User Settings
-![2  Darkened Discord Theme Settings  Edited](https://user-images.githubusercontent.com/78914154/154513743-203e6981-354d-4917-83cc-6bb0cddb2542.png)
+![2  Darkened Discord Theme Settings Version 2  Edited](https://user-images.githubusercontent.com/78914154/154950621-00392028-db03-44c5-b995-bb31ebe58d83.png)
 ### Home + Friends section
 ![4  Darkened Discord Theme Friends Version 3  Edited](https://user-images.githubusercontent.com/78914154/154513652-0cf1c52e-445a-4513-a908-1d864b1b7e8d.png)
 
 <h1 align="center">📜 Extra(s)</h1>
+→ Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.
 
 <details>
   <summary>⌛ Write-up</summary>
@@ -50,5 +51,3 @@ I'll update this as often as I can; however, I do not use canary version of disc
 ---
 
 </details>
-
-→ Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.
