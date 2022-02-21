@@ -11,7 +11,8 @@
 .compact-2Nkcau .repliedMessage-3Z6XBG {margin-left: calc(var(--timestamp-width) + .64rem + var(--text-indent)) !important;}
 
 /* Context menu icons when right clicking a message (removes the icons on the right) */
-#message-pin > div.iconContainer-1-SsTR > svg, #message-copy-link > div.iconContainer-1-SsTR > svg, #message-reply > div.iconContainer-1-SsTR > svg, #message-thread > div.iconContainer-1-SsTR > svg, #message-tts > div.iconContainer-1-SsTR > svg, #message-delete > div.iconContainer-1-SsTR > svg {display: none;}
+#message-pin > div.iconContainer-1-SsTR > svg, #message-copy-link > div.iconContainer-1-SsTR > svg, #message-reply > div.iconContainer-1-SsTR > svg, #message-thread > div.iconContainer-1-SsTR > svg, #message-tts > div.iconContainer-1-SsTR > svg, #message-delete > div.iconContainer-1-SsTR > svg, #user-context-devmode-copy-id > div.iconContainer-1-SsTR > svg {display: none;}
+
 /*
 ====================================================================================
                   Container, pills, groups
@@ -310,6 +311,9 @@
 .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {background: rgb(var(--accent), 0.3); border-radius: var(--server-radius);}
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {background: rgb(var(--accent), 0.6); border-radius: var(--server-radius);}
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {background: rgb(var(--accent), 0.3); border-radius: var(--server-radius);}
+/* block button */
+[id*="chat-messages-"] > div.size16-rrJ6ag.description-22d6ux > div > button.action-1R6ERA.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeTiny-3y2SSK.grow-2sR_-F
+{background-color: hsl(359deg, calc(var(--saturation-factor, 1) * 82.6%), 40%);}
 
 /* A little grid for the autocomplete container */
 .theme-dark .autocomplete-3NRXG8 {
@@ -1023,6 +1027,9 @@
 .iconContainer-2rPbqG {padding-bottom: 12px; padding-top: 10px;}
 .content-vSHmMD a {color: var(--background-accent);}
 
+/* "What's this?" button when someone is listening along to your spotify */
+#app-mount .listeningAlong-6YvYsc > div.icons-3cpYoD > button {display: none;}
+
 /*
  ===================================================================================================================
                                      Plugins Custom
@@ -1105,9 +1112,11 @@
 body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {width: 190px !important;}
 body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettingsicons) * (var(--settingsiconssize) + var(--settingsiconsgap)))) !important;}
 /* Settings sidebar containers */
-.bd-sidebar-header {background: #151515;}
-.side-2ur1Qk .separator-2wx7h6 {display: none;}
-.header-2Kx1US {background: #151515; padding: 6px 10px !important;}
+:root .sidebar-nqHbhN::after {border-bottom: 2px solid var(--border-color);}
+.header-2Kx1US {padding: 6px 10px !important;}
+.header-2Kx1US, .bd-sidebar-header {background: var(--background-primary); text-align: center;}
+.bd-sidebar-header .header-2Kx1US {margin-left: 19%; margin-bottom: -2px;}
+.side-2ur1Qk .separator-2wx7h6 {display: block; margin: 0px; padding: 1px;}
 .sidebarRegion-1VBisG {border-right: 1px solid var(--border-color);}
 .contentColumnDefault-3eyv5o {padding-left: 15px; padding-right: 15px;}
 /* ESC container in settings + .contentColumnDefault-3eyv5o padding-right messes with it */
@@ -1171,6 +1180,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .avatar-3mTjvZ.wrapper-1VLyxH {
   margin-top: 227px;
 }
+.avatar-3mTjvZ {border-color: var(--background-primary);}
 .accountProfileCard-lbN7n- {
   background-color: var(--background-secondary);
   border-radius: var(--server-radius);
@@ -1252,7 +1262,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 :root .sidebar-nqHbhN::before {
   content: "Settings";
   position: absolute;
-  left: 30%;
+  left: 31%;
   margin-top: -40px;
   z-index: 101;
   height: 25px;
@@ -2151,7 +2161,6 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   text-align: center;
   padding-top: 110px;
   padding-bottom: 20px;
-
 }
 :root .userPopout-2j1gM4 .headerTop-3GPUSF .headerTagDiscriminatorNoNickname-dfcvHa {
   color: #dadada;
@@ -2229,6 +2238,8 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   background-position: var(--user-popout-position, center) center;
   background-image: var(--user-background);
 }
+/* "Message @user" container outline when clicked on */
+:root .inputDefault-3FGxgL{border: none;}
 
 /* Roles */
 .role-2TIOKu {
@@ -2998,7 +3009,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 }
 
 /* Server radius */
-.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc {border-radius: var(--server-radius) !important;}
+.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .previewMessage-2g_aBv, .cameraWrapper-3a7Ngv {border-radius: var(--server-radius) !important;}
 .wrapper-28eC3z foreignObject { mask: none; transition: 0.2s;}
 .wrapperSimple-Js2rIO { overflow: visible;}
 
@@ -3030,7 +3041,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .theme-dark .contentWarningPopout-WKdbDG { background-color: var(--background-primary); box-shadow: none;}
 
 /* Codeblock stuff */
-.theme-dark .messageGroupWrapper-1jf_7C, .theme-dark .inputDefault-3FGxgL, .theme-dark .container-30qY7E, .theme-dark .cardPrimary-3qRT__, .theme-dark .cardPrimaryOutline-1ofwVz, .theme-dark .codeRedemptionRedirect-3SBiCp, .theme-dark .previewOverlay-2reuWf, .theme-dark .markup-eYLPri code {padding-left: 10px !important; padding-right: 0px !important;}
+.theme-dark .messageGroupWrapper-1jf_7C, .theme-dark .inputDefault-3FGxgL, .theme-dark .container-30qY7E, .theme-dark .cardPrimaryOutline-1ofwVz, .theme-dark .codeRedemptionRedirect-3SBiCp, .theme-dark .previewOverlay-2reuWf, .theme-dark .markup-eYLPri code {padding-left: 10px !important; padding-right: 0px !important;}
 .powercord-codeblock-lang, .hljs .powercord-lines {display: none;} .hljs {font-size: 14px !important;}
 .hljs[class$="hljs"]::before {content: 'Plain Text';--codeblockcolor: #202020;}
 .hljs[class~=diff i]::before {content: "Diff";--codeblockcolor: #81c52993;}
