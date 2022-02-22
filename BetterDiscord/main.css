@@ -11,7 +11,7 @@
 .compact-2Nkcau .repliedMessage-3Z6XBG {margin-left: calc(var(--timestamp-width) + .64rem + var(--text-indent)) !important;}
 
 /* Context menu icons when right clicking a message (removes the icons on the right) */
-#message-pin > div.iconContainer-1-SsTR > svg, #message-copy-link > div.iconContainer-1-SsTR > svg, #message-reply > div.iconContainer-1-SsTR > svg, #message-thread > div.iconContainer-1-SsTR > svg, #message-tts > div.iconContainer-1-SsTR > svg, #message-delete > div.iconContainer-1-SsTR > svg, #user-context-devmode-copy-id > div.iconContainer-1-SsTR > svg {display: none;}
+#message-pin > div.iconContainer-1-SsTR > svg, #message-copy-link > div.iconContainer-1-SsTR > svg, #message-reply > div.iconContainer-1-SsTR > svg, #message-thread > div.iconContainer-1-SsTR > svg, #message-tts > div.iconContainer-1-SsTR > svg, #message-delete > div.iconContainer-1-SsTR > svg, #user-context-devmode-copy-id > div.iconContainer-1-SsTR > svg, #message-edit > div.iconContainer-1-SsTR {display: none;}
 
 /*
 ====================================================================================
@@ -623,7 +623,7 @@
   max-height: 80px;
 }
 /* Reaction emoji buttons */
-.button-1zW0-r {border-radius: var(--server-radius);}
+.button-1zW0-r {border-radius: var(--server-radius); background: var(--background-primary);}
 .button-1zW0-r:hover {background: var(--background-mobile-primary);}
 
 /* Voice call icon colors */
@@ -810,8 +810,7 @@
 #---new-messages-bar .unreadPill-3nEWYM svg {display: none;}
 
 /* Context/scroller container (When you right clicking things) */
-.menu-1QACrS {
-  border-radius: var(--server-radius) !important; .menu-1QACrS {border: 1px solid var(--border-color); box-shadow: none;}}
+.menu-1QACrS {border-radius: var(--server-radius) !important; border: 1px solid var(--border-color); box-shadow: none;}
 
 :root .scroller-1bVxF5 .item-1OdjEX {margin: 0; border-radius: var(--server-radius);}
 :root .scroller-1bVxF5 {padding: 0;}
