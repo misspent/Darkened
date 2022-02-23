@@ -1,5 +1,4 @@
 @import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 @import url("https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css");
 @import url("https://misspent.github.io/Darkened/BetterDiscord/DragNDropModal.css");
 @import url("https://lyght1337.github.io/DiscordDarkness/Css/MiniThemes/CodeBlocks.css");
@@ -311,6 +310,7 @@
 .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {background: rgb(var(--accent), 0.3); border-radius: var(--server-radius);}
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {background: rgb(var(--accent), 0.6); border-radius: var(--server-radius);}
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {background: rgb(var(--accent), 0.3); border-radius: var(--server-radius);}
+.theme-dark .lookLink-15mFoz.colorTransparent-13Bvvi {background-color: #ed4245;}
 /* Block button */
 [id*="chat-messages-"] > div.size16-rrJ6ag.description-22d6ux > div > button.action-1R6ERA.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeTiny-3y2SSK.grow-2sR_-F
 {background-color: hsl(359deg, calc(var(--saturation-factor, 1) * 82.6%), 40%);}
@@ -342,6 +342,7 @@
 .scroller-18M1mG {padding-bottom: 0px;}
 .emojiStickersDivider-2YgbDJ {padding: 0px !important;}
 .stickersHeaderWithEmojiResults-1b7pYC {padding-top: 4px;}
+.autocompleteRowVerticalSmall-2rVED0 .base-2v-uc0 {padding: 6px 8px;}
 /* # @ / autocomplete menu */
 .theme-dark .selected-3H3-RC {
   background: var(--background-tertiary);
@@ -370,6 +371,8 @@
   border-top-left-radius: var(--server-radius);
   border-top-right-radius: var(--server-radius);
 }
+.autocompleteRowContentSecondary-Oobh2b {color: #6e85d3;}
+.theme-dark .categoryHeader-OpJ1Ly, .theme-dark .autocomplete-3NRXG8 {margin-bottom: -6px;}
 
 /* When searching for someone it comes up with container (Friends/users)  */
 .quickswitcher-pKcM9U {
@@ -447,6 +450,7 @@
 .header-1ULbqO, .packHeader-w9jpYl {background-color: #090909;	margin-left: -10px;	border-bottom: 1px solid var(--border-color);}
 .header-1XpmZs {margin-left: 5px;}
 .list-obNEuP, .inspector-2A2Chb, .unicodeShortcut-3N8oDe {background-color: #090909;}
+
 .inspector-2A2Chb {
   border-left: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
@@ -3050,7 +3054,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .theme-dark .contentWarningPopout-WKdbDG { background-color: var(--background-primary); box-shadow: none;}
 
 /* Codeblock stuff */
-.theme-dark .messageGroupWrapper-1jf_7C, .theme-dark .inputDefault-3FGxgL, .theme-dark .container-30qY7E, .theme-dark .cardPrimaryOutline-1ofwVz, .theme-dark .codeRedemptionRedirect-3SBiCp, .theme-dark .previewOverlay-2reuWf, .theme-dark .markup-eYLPri code {padding-left: 10px !important; padding-right: 0px !important;}
+.theme-dark .messageGroupWrapper-1jf_7C, .theme-dark .inputDefault-3FGxgL, .theme-dark .container-30qY7E, .theme-dark .cardPrimaryOutline-1ofwVz, .theme-dark .codeRedemptionRedirect-3SBiCp, .theme-dark .previewOverlay-2reuWf{padding-left: 10px !important; padding-right: 0px !important;}
 .powercord-codeblock-lang, .hljs .powercord-lines {display: none;} .hljs {font-size: 14px !important;}
 .hljs[class$="hljs"]::before {content: 'Plain Text';--codeblockcolor: #202020;}
 .hljs[class~=diff i]::before {content: "Diff";--codeblockcolor: #81c52993;}
