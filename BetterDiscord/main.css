@@ -10,7 +10,7 @@
 .compact-2Nkcau .repliedMessage-3Z6XBG {margin-left: calc(var(--timestamp-width) + .64rem + var(--text-indent)) !important;}
 
 /* Context menu icons when right clicking a message (removes the icons on the right) */
-#message-pin > div.iconContainer-1-SsTR > svg, #message-copy-link > div.iconContainer-1-SsTR > svg, #message-reply > div.iconContainer-1-SsTR > svg, #message-thread > div.iconContainer-1-SsTR > svg, #message-tts > div.iconContainer-1-SsTR > svg, #message-delete > div.iconContainer-1-SsTR > svg, #user-context-devmode-copy-id > div.iconContainer-1-SsTR > svg, #message-edit > div.iconContainer-1-SsTR, #message-mark-unread > div.iconContainer-1-SsTR > svg, #channel-context-devmode-copy-id > div.iconContainer-1-SsTR, #message-reactions > div.iconContainer-1-SsTR, #guild-context-devmode-copy-id > div.iconContainer-1-SsTR > svg {display: none;}
+#message-pin > div.iconContainer-1-SsTR > svg, #message-copy-link > div.iconContainer-1-SsTR > svg, #message-reply > div.iconContainer-1-SsTR > svg, #message-thread > div.iconContainer-1-SsTR > svg, #message-tts > div.iconContainer-1-SsTR > svg, #message-delete > div.iconContainer-1-SsTR > svg, #user-context-devmode-copy-id > div.iconContainer-1-SsTR > svg, #message-edit > div.iconContainer-1-SsTR, #message-mark-unread > div.iconContainer-1-SsTR > svg, #channel-context-devmode-copy-id > div.iconContainer-1-SsTR, #message-reactions > div.iconContainer-1-SsTR, #guild-context-devmode-copy-id > div.iconContainer-1-SsTR > svg, #message-devmode-copy-id > div.iconContainer-1-SsTR {display: none;}
 
 /*
 ====================================================================================
@@ -622,25 +622,26 @@
 
 #user-context-kick, #user-context-ban, #message-delete, #guild-context-leave-guild, #channel-context-delete-channel, #message-actions-delete, #user-profile-actions-user-block, #guild-header-popout-leave, #user-profile-actions-user-remove, #thread-context-delete-channel {border-radius: var(--server-radius) !important;}
 
-.hint-BK71lM {display: none;} /* removes keybind hints from context menu */
+/* NOTE: Everything below works in conjunction with: @import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css"); */
+/* ! ------> Below here are Context Menu background colours <------ */
 /* User Context background */
 #user-context .focused-3qFvc8#user-context-user-profile, .focused-3qFvc8#user-context-message-user, .focused-3qFvc8#user-context-call, .focused-3qFvc8#user-context-note, .focused-3qFvc8#user-context-change-nickname, .focused-3qFvc8#user-context-copy-user, .focused-3qFvc8user-profile-actions-user-message {background: linear-gradient(90deg, #20da778e, #20da78) !important;}
 #user-context .focused-3qFvc8#user-context-mention, .focused-3qFvc8#user-context-invite-to-server, .colorDefault-CDqZdO.focused-3qFvc8#user-context-imageutilities-main-subitem {background: linear-gradient(90deg, #6e85d38e, #6e85d3) !important;}
 #user-context .focused-3qFvc8#user-context-roles, .focused-3qFvc8#user-context-usernotes-user-note, .focused-3qFvc8#user-context-usernotes-user-note {background: linear-gradient(90deg, #daa5208e, #daa520);}
-#user-context.focused-3qFvc8#user-context-add-friend {background: linear-gradient(90deg, #00ccff8e, #00ccffea);}
+#user-context.focused-3qFvc8#user-context-add-friend, .colorDefault-CDqZdO.focused-3qFvc8#user-context-betterfriendlist-favorize-friend, .colorDefault-CDqZdO.focused-3qFvc8#user-context-betterfriendlist-hide-friend {background: linear-gradient(90deg, #00ccff8e, #00ccffea);}
 #user-context .focused-3qFvc8#user-context-call, .focused-3qFvc8[id*=user-context-spotify-play-], .focused-3qFvc8[id*=user-context-spotify-sync-] {background: linear-gradient(90deg, #1DB9548e, #1DB954) !important;}
 #user-context .focused-3qFvc8#user-context-apps {background: linear-gradient(90deg, #aa03f88e, #aa03f8f8);}
 #user-context .focused-3qFvc8#user-context-block, .focused-3qFvc8#user-context-timeout, .focused-3qFvc8#user-context-kick, .focused-3qFvc8#user-context-ban, .focused-3qFvc8#user-context-mute, .focused-3qFvc8#user-context-disable-video, .focused-3qFvc8#user-context-deafen, .focused-3qFvc8#user-context-remove-friend, .focused-3qFvc8#user-context-close-dm {background: linear-gradient(90deg, #aa0e0e, #f04747) !important;}
 /* Message Context background */
-.colorDefault-CDqZdO.focused-3qFvc8#message-add-reaction, .colorDefault-CDqZdO.focused-3qFvc8#message-reactions {background: linear-gradient(90deg, #daa5208e, #daa520);}
+.colorDefault-CDqZdO.focused-3qFvc8#message-add-reaction, .colorDefault-CDqZdO.focused-3qFvc8#message-reactions, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-personalpins-pin-note {background: linear-gradient(90deg, #daa5208e, #daa520);}
 .colorDefault-CDqZdO.focused-3qFvc8#message-pin, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-pin {background: linear-gradient(90deg, #87ceeb8e, #87ceeb);}
 .colorDefault-CDqZdO.focused-3qFvc8#message-edit, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-edit {background: linear-gradient(90deg, #4682b48e, #4682b4);}
 .colorDefault-CDqZdO.focused-3qFvc8#message-personalpins-pin-note, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-mark-unread, .colorDefault-CDqZdO.focused-3qFvc8#message-mark-unread {background: linear-gradient(90deg, #ee82ee8e, #ee82ee);}
-.colorDefault-CDqZdO.focused-3qFvc8#message-reply, .colorDefault-CDqZdO.focused-3qFvc8#message-quote, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-reply {background: linear-gradient(90deg, #f0e68c8e, #f0e68c);}
+.colorDefault-CDqZdO.focused-3qFvc8#message-reply, .colorDefault-CDqZdO.focused-3qFvc8#message-quote, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-reply, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-customquoter-quote {background: linear-gradient(90deg, #f0e68c8e, #f0e68c);}
 .colorDefault-CDqZdO.focused-3qFvc8#message-thread, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-thread {background: linear-gradient(90deg, #69c0698e, #69c069);}
 .colorDefault-CDqZdO.focused-3qFvc8#message-copy-link, .colorDefault-CDqZdO.focused-3qFvc8#message-imageutilities-open-link, .colorDefault-CDqZdO.focused-3qFvc8#message-imageutilities-copy-link {background: linear-gradient(90deg, #20b2aa8e, #20b2aa) !important;}
-.colorDefault-CDqZdO.focused-3qFvc8#message-tts, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-tts, .colorDefault-CDqZdO.focused-3qFvc8#message-imageutilities-copy-file, .colorDefault-CDqZdO.focused-3qFvc8#message-imageutilities-view-file, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-copy-link {background: linear-gradient(90deg, #5865f28e, #5865f2) !important;}
-.colorDefault-CDqZdO.focused-3qFvc8#message-copy-message, .colorDefault-CDqZdO.focused-3qFvc8#message-imageutilities-download-file-as {background: linear-gradient(90deg, #20da778e, #20da78) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#message-tts, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-tts, .colorDefault-CDqZdO.focused-3qFvc8#message-imageutilities-copy-file, .colorDefault-CDqZdO.focused-3qFvc8#message-imageutilities-view-file, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-copy-link, .colorDefault-CDqZdO.focused-3qFvc8#message-copy-native-link, .colorDefault-CDqZdO.focused-3qFvc8#message-open-native-link {background: linear-gradient(90deg, #5865f28e, #5865f2) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#message-copy-message, .colorDefault-CDqZdO.focused-3qFvc8#message-imageutilities-download-file-as, .colorDefault-CDqZdO.focused-3qFvc8#message-devmode-copy-id {background: linear-gradient(90deg, #20da778e, #20da78) !important;}
 .colorDefault-CDqZdO.focused-3qFvc8#message-actions-copy-id {background: linear-gradient(90deg, #ffa07a8e, #ffa07a);}
 /* Guild Context background */
 .colorDefault-CDqZdO.focused-3qFvc8#guild-context-create-channel, .colorDefault-CDqZdO.focused-3qFvc8#channel-context-clone-channel, .colorDefault-CDqZdO.focused-3qFvc8#guild-context-create-category, .colorDefault-CDqZdO.focused-3qFvc8#channel-context-mark-channel-read, .colorDefault-CDqZdO.focused-3qFvc8#channel-context-create-text-channel, .colorDefault-CDqZdO.focused-3qFvc8#channel-context-copy-channel, .colorDefault-CDqZdO.focused-3qFvc8#channel-context-collapse-all-categories, .colorDefault-CDqZdO.focused-3qFvc8#channel-context-copy-voice-channel, .colorDefault-CDqZdO.focused-3qFvc8#guild-context-mark-guild-read, .colorDefault-CDqZdO.focused-3qFvc8#guild-context-copy-guild, .colorDefault-CDqZdO.focused-3qFvc8#guild-context-guild-settings, .colorDefault-CDqZdO.focused-3qFvc8#guild-context-create-event, .colorDefault-CDqZdO.focused-3qFvc8#guild-context-join, .colorDefault-CDqZdO.focused-3qFvc8#guild-context-create, .colorDefault-CDqZdO.focused-3qFvc8#user-context-copy-user, .colorDefault-CDqZdO.focused-3qFvc8#user-context-change-nickname, .colorDefault-CDqZdO.focused-3qFvc8#user-context-devmode-copy-id, .colorDefault-CDqZdO.focused-3qFvc8#channel-context-devmode-copy-id, .colorDefault-CDqZdO.focused-3qFvc8#bdfdb-context-imageutilities-copy-file, .colorDefault-CDqZdO.focused-3qFvc8#bdfdb-context-imageutilities-view-file, .colorDefault-CDqZdO.focused-3qFvc8#guild-context-devmode-copy-id {background: linear-gradient(90deg, #20da778e, #20da78) !important;}
@@ -654,14 +655,22 @@
 .colorDefault-CDqZdO.focused-3qFvc8#textarea-context-spellcheck {background: linear-gradient(90deg, #20da778e, #20da78) !important;}
 .colorDefault-CDqZdO.focused-3qFvc8#textarea-context-languages {background: linear-gradient(90deg, #069AF08e, #069AF0) !important;}
 .colorDefault-CDqZdO.focused-3qFvc8#textarea-context-paste {background: linear-gradient(90deg, #6e85d38e, #6e85d3) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#textarea-context-Quick-Messages {background: linear-gradient(90deg, #daa5208e, #daa520) !important;}
+/* Attach button popup background */
+.colorDefault-CDqZdO.focused-3qFvc8#channel-attach-upload-file, .colorDefault-CDqZdO.focused-3qFvc8#channel-attach-SLASH_COMMAND {background: linear-gradient(90deg, #6e85d38e, #6e85d3) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#channel-attach-THREAD {background: linear-gradient(90deg, #69c0698e, #69c069) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#channel-attach-listen {background: linear-gradient(90deg, #1DB9548e, #1DB954) !important;}
 /* Status Picker focused backgrounds */
 :root #status-picker > .scroller-1bVxF5 #status-picker-online.focused-3qFvc8 {background: linear-gradient(90deg, #43b5818e, #43b581);}
 :root #status-picker > .scroller-1bVxF5 #status-picker-idle.focused-3qFvc8  {background: linear-gradient(90deg, #faa81a42, #faa81a8e);}
 :root #status-picker > .scroller-1bVxF5 #status-picker-dnd.focused-3qFvc8  {background: linear-gradient(90deg, #f047478e, #f04747);}
 :root #status-picker > .scroller-1bVxF5 #status-picker-invisible.focused-3qFvc8  {background: linear-gradient(90deg, #747f8d8e, #747f8d);}
 :root #status-picker > .scroller-1bVxF5 #status-picker-custom-status.focused-3qFvc8  {background: linear-gradient(90deg, #ffcd4d3d, #ffcd4d8e);}
-/* Everything below is for: @import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css"); */
-/* Button icons when hovering over a message (pin, quote, mention etc) */
+/* ! ------> Below here are Icon colours <------ */
+/* Attach button popup icons (left side of main chat) */
+#channel-attach-upload-file > div > div.optionLabel-1o-h-l > svg, #channel-attach-SLASH_COMMAND > div > div > svg {color: #6e85d3;}
+#channel-attach-THREAD > div > div > svg {color: #69c069;}
+#channel-attach-listen > div > div > svg {color: #1DB954;}
 [aria-label="Reply"], [aria-label="Reply"]:hover {color: #20da77b7;}
 [aria-label="Copy ID"], [aria-label="Copy ID"]:hover {color: #7289da;}
 [aria-label="Mark Unread"], [aria-label="Mark Unread"]:hover {color: plum;}
@@ -715,6 +724,7 @@
 .item-1OdjEX#user-context-mute[aria-checked=false]::before, .item-1OdjEX#channel-context-mute-channel::before, .item-1OdjEX#guild-context-hide-muted-channels[aria-checked="false"]::before, .item-1OdjEX#user-context-mute-channel::before, .item-1OdjEX#guild-context-mute-guild::before, .item-1OdjEX#channel-context-collapse-category[aria-checked="false"]::before, .item-1OdjEX#thread-context-mute-channel::before, .item-1OdjEX#thread-context-leave-thread::before, .item-1OdjEX#user-context-close-dm::before, .item-1OdjEX#channel-context-collapse-category[aria-checked="true"]::before, .item-1OdjEX#textarea-context-spellcheck[aria-checked="false"]::before, #user-context-block:hover, .item-1OdjEX#user-context-deafen[aria-checked=false]::before, .item-1OdjEX#channel-context-hide-voice-names[aria-checked=false]::before, .item-1OdjEX#channel-context-unmute-channel::before, .item-1OdjEX#user-context-mute[aria-checked=true]::before, .item-1OdjEX#stream-context-mute[aria-checked=false]::before, .item-1OdjEX#stream-context-mute[aria-checked=true]::before, .item-1OdjEX#guild-context-folder-collapse::before  {background: var(--danger-icon-normal);}
 .item-1OdjEX#user-context-devmode-copy-id::before, .item-1OdjEX#user-context-user-profile::before, .item-1OdjEX#user-context-call::before, .item-1OdjEX#channel-context-mark-channel-read::before, .item-1OdjEX#channel-context-clone-channel::before, .item-1OdjEX#channel-context-create-text-channel::before, .item-1OdjEX#guild-context-mark-guild-read::before, .item-1OdjEX#guild-context-guild-settings::before, .item-1OdjEX#guild-context-create-channel::before, .item-1OdjEX#guild-context-create-category::before, .item-1OdjEX#user-context-note::before, .item-1OdjEX#channel-context-collapse-all-categories::before, .item-1OdjEX#user-context-mark-channel-read::before, .item-1OdjEX#textarea-context-spellcheck[aria-checked="true"]::before, .item-1OdjEX#guild-context-create-event::before, .item-1OdjEX#channel-context-devmode-copy-id::before, .item-1OdjEX#guild-context-devmode-copy-id::before, .item-1OdjEX#stream-context-no-video-hide[aria-checked=false]::before, .item-1OdjEX#stream-context-no-video-hide[aria-checked=true]::before, invite-to-server::before, .item-1OdjEX#user-context-voice-move::before, .item-1OdjEX#guild-context-join::before, .item-1OdjEX#guild-context-create::before, .item-1OdjEX#channel-context-invite-peop, .item-1OdjEX#message-devmode-copy-id::before, .item-1OdjEX#thread-context-devmode-copy-id::before, .item-1OdjEX#image-context-open-native-link::before, .item-1OdjEX#image-context-copy-image::before, .item-1OdjEX#dev-context-devmode-copy-id::before {background: #20da78 !important;}
 .colorDefault-CDqZdO.focused-3qFvc8 {border-radius: var(--server-radius) !important;}
+.hint-BK71lM {display: none;} /* removes keybind hints from context menu */
 
 /* Mark As Read */
 #guild-header-popout-mark-guild-read:hover {background-color: #1abc9c23;}
@@ -1035,15 +1045,15 @@
 
 /* Plugin = "AppNotifications" makes the notification look 20x better */
 .qwert-toast {
-  min-height: 40px !important;
+  min-height: 24 !important;
   backdrop-filter: blur(px) !important;
   border-radius: 0px !important;
   padding: 10px 12px 10px 10px !important;
   max-width: 50vw !important;
   margin-bottom: -9px !important;
   color: white !important;
-  border: 2px solid var(--border-color);
-  background: var(--background-tertiary) !important;
+  border: 1px solid var(--border-color);
+  background: var(--background-secondary) !important;
 }
 .qwert-toast-image {
   position: relative;
