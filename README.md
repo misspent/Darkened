@@ -3,7 +3,7 @@
 <h1 align="center">Preview</h1>
 
 ### Main window + User popout
-![1  Darkened Discord Theme Main Window version 2  Edited](https://user-images.githubusercontent.com/78914154/154513609-f25cfcd0-cfe6-4cab-98b5-b19e8373fac2.png)
+![1  Darkened Discord Theme Main Window version 2  Edited](https://user-images.githubusercontent.com/78914154/155885260-2342fbea-d911-425c-808b-d3d48e3a7ddc.png)
 
 <h1 align="center">📌 Information</h1>
 
@@ -26,7 +26,7 @@
 * **[XYZenix](https://github.com/XYZenix)**'s DragNDrop Modals.
 * **[Nyria](https://github.com/NYRI4)**'s Discolored & no-scrollbars Imports + Used Comfy theme as a base.
 * A friend who shall not be named.
-* Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision & Couve + others. 
+* Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision, Couve & others. 
 
 <h1 align="center">📷 More Screenshots</h1>
 
