@@ -3026,6 +3026,10 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 
 .wrapper-28eC3z:hover foreignObject {border-radius: calc(var(--server-radius) - 3px); transition: 0.2s;}
 
+/* Scrollbar */
+::-webkit-scrollbar-track { border-radius: var(--server-radius) !important;}
+::-webkit-scrollbar-thumb { border-radius: var(--server-radius) !important;}
+
 /* Buttons */
 .container-2nx-BQ, .input-2XRLou {border-radius: 0px;}
 .slider-32CRPX rect {rx: 5px;}
