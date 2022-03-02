@@ -1,5 +1,4 @@
 @import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css");
 @import url("https://misspent.github.io/Darkened/BetterDiscord/DragNDropModal.css");
 @import url("https://lyght1337.github.io/DiscordDarkness/Css/MiniThemes/CodeBlocks.css");
 @import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css");
@@ -239,10 +238,6 @@
   box-shadow: none;
 }
 
-/* Red NSFW Channel Icon */
-.sidebar-1tnWFu [d="M19.8914 3.80204L22.2438 8.55654C22.5726 9.22119 22.0891 9.99999 21.3475 10L16.6179 10C15.8745 10 15.391 9.21769 15.7235 8.55279L18.1007 3.79829C18.4701 3.05951 19.5251 3.06172 19.8914 3.80204ZM18.4998 5H19.4999V7.5H18.4999L18.4998 5ZM18.4998 8.49887C18.4998 8.77589 18.7238 9 18.9998 9C19.2759 9 19.4999 8.77589 19.4999 8.49887C19.4999 8.22224 19.2759 7.99773 18.9998 7.99773C18.7238 7.99773 18.4998 8.22224 18.4998 8.49887Z"] {
-  fill: hsl(359deg, calc(var(--saturation-factor, 1) * 80%), 60%);
-}
 /* Yellow Private Channels Icons */
 .sidebar-1tnWFu [d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16 5.44772 16 6V9C16 9.55228 16.4477 10 17 10H19H21C21.5523 10 22 9.55228 22 9V5.975C22 5.43652 21.5635 5 21.025 5ZM20 5H18V4C18 3.42857 18.4667 3 19 3C19.5333 3 20 3.42857 20 4V5Z"],
 .sidebar-1tnWFu [d="M22.025 2V3C22.5635 3 23 3.43652 23 3.975V7C23 7.55228 22.5523 8 22 8H18C17.4477 8 17 7.55228 17 7V4C17 3.44772 17.4477 3 18 3V2C18 0.88 18.95 0 20 0C21.05 0 22.025 0.88 22.025 2ZM19 3H21V2C21 1.42857 20.5333 1 20 1C19.4667 1 19 1.42857 19 2V3Z"],

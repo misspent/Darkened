@@ -1,5 +1,5 @@
 /**
-* @name Darkened
+* @name 1. Darkened
 * @author Noteless
 * @description Darkness is a gift; embrace it.
 * @authorLink https://github.com/misspent/Darkened
@@ -8,13 +8,16 @@
 
 @import "https://misspent.github.io/Darkened/BetterDiscord/main.css";
 
-/*
-====================================================================================
+/* Add a "/" on the left side of the first Quotation mark to cancel out the import */
+@import "https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css";
+@import "https://misspent.github.io/Darkened/BetterDiscord/ChannelIcons.css";
+
+/* ====================================================================================
                                     Tis the Variables
-====================================================================================
-*/
+==================================================================================== */
 
 :root {
+  /* -- Others settings -- */
 
   /* Roundness of the fun stuff */
   --avatar-radius: 0px; /* Avatar roundness */
