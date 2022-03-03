@@ -17,7 +17,7 @@
 * ✔️ Good ol' darkness
 * ✔️ Support for some plugins
 * ✔️ Optional Scrollbars
-* ✔️ Optinoal Channel Icons
+* ✔️ Optional Channel Icons
 * ❌ Light mode not supported
 * ⭕ Possibly change the Date-Month-Year separator container if requested
 * ⭕ All Imports in main.css I deem a requirement with my theme (may change)
