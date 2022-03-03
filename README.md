@@ -27,7 +27,7 @@
 * **[LyGhT1337](https://github.com/LyGhT1337)**'s CodeBlocks.
 * **[mwittrien](https://github.com/mwittrien)**'s Setting Icons.
 * **[XYZenix](https://github.com/XYZenix)**'s DragNDrop Modals.
-* **[Xhylo](https://github.com/Xhylo/ChannelIcons)**'s Channel Icons -> Ported them for personal use.
+* **[Xhylo](https://github.com/Xhylo/ChannelIcons)**'s Channel Icons -> Ported + additions & fixes.
 * **[Nyria](https://github.com/NYRI4)**'s Discolored & no-scrollbars Imports + Used Comfy theme as a base.
 * A friend who shall not be named.
 * Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision, Couve & others. 
