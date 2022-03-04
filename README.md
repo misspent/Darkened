@@ -46,6 +46,7 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 * 1st: https://icons.getbootstrap.com
 * 2nd: https://heroicons.com
 * 3rd: https://primer.style/octicons/
+* Useful: https://superdevresources.com/free-svg-icons/
 
 | Channel Icons | More Channel Icons |
 | :---------: | :---------: |
