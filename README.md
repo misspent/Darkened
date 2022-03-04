@@ -48,11 +48,9 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 * 3rd: https://primer.style/octicons/
 * Useful: https://superdevresources.com/free-svg-icons/
 
-
-
 | Channel Icons | + Channel Icons | ++ Channel Icons |
 | :---------: | :---------: | :---------: |
-| <img width=300 src="https://user-images.githubusercontent.com/78914154/156757738-8e067487-4806-4bb3-a7fb-44ca9397f4b1.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/156760708-4b77f747-8ef2-402b-8ecb-33409478a516.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/156760827-a29306c5-738e-4beb-b805-8b5c3b102888.png"></img>  |
+| <img width=300 src="https://user-images.githubusercontent.com/78914154/156762493-2becb9ee-c980-4fc8-b4b0-8667bab82151.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/156760708-4b77f747-8ef2-402b-8ecb-33409478a516.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/156760827-a29306c5-738e-4beb-b805-8b5c3b102888.png"></img>  |
 
 <h1 align="center">📜 Extra(s)</h1>
 → Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.
