@@ -27,7 +27,7 @@
 * **[LyGhT1337](https://github.com/LyGhT1337)**'s CodeBlocks.
 * **[mwittrien](https://github.com/mwittrien)**'s Setting Icons.
 * **[XYZenix](https://github.com/XYZenix)**'s DragNDrop Modals.
-* **[Xhylo](https://github.com/Xhylo/ChannelIcons)**'s Channel Icons -> Ported them for personal use.
+* **[Xhylo](https://github.com/Xhylo/ChannelIcons)**'s Channel Icons -> Ported + additions & fixes.
 * **[Nyria](https://github.com/NYRI4)**'s Discolored & no-scrollbars Imports + Used Comfy theme as a base.
 * A friend who shall not be named.
 * Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision, Couve & others. 
@@ -40,18 +40,29 @@
 ### Home + Friends section
 ![4  Darkened Discord Theme Friends Version 3  Edited](https://user-images.githubusercontent.com/78914154/154513652-0cf1c52e-445a-4513-a908-1d864b1b7e8d.png)
 
+<h1 align="center">📦 Channel Icons</h1>
+
+I got my SVG Icons from the links below; it's in order from best to worst (in my opinion). I'm not the original creator of the import, meaning I have no idea where he got his from; however, if I find out, I will update this.
+* 1st: https://icons.getbootstrap.com
+* 2nd: https://heroicons.com
+* 3rd: https://primer.style/octicons/
+* Useful: https://superdevresources.com/free-svg-icons/
+
+| Channel Icons | More Channel Icons |
+| :---------: | :---------: |
+| ![Preview](https://user-images.githubusercontent.com/78914154/156670922-bc89bc52-802e-4e3a-a988-74c2e49b4d52.png)  | ![Preview](https://user-images.githubusercontent.com/78914154/156670548-6ae798f7-d4b2-4c46-9c9f-c5595055a665.png)  |
+
 <h1 align="center">📜 Extra(s)</h1>
 → Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.
-
 <details>
   <summary>⌛ Write-up</summary>
   <br>
 
-This is my first discord theme. I’m still "new" to all this CSS stuff; I only jumped into it late last year and have slowly been changing my theme over the past few months. I gradually got more comfortable with CSS and updated + fixed my theme for public use/testing. Nyria's themes gave me a lot of inspiration, and you'll 100% see what I mean if you use this.
+> **This is my first discord theme. I’m still "new" to all this CSS stuff; I only jumped into it late last year and have slowly been changing my theme over the past few months. I gradually got more comfortable with CSS and updated + fixed my theme for public use/testing. Nyria's themes gave me a lot of inspiration, and you'll 100% see what I mean if you use this.**
 ---
-The people in the screenshots are not me, and I've blurred stuff as I don't want friends to get spammed and or added. moreover, I'd prefer it if people didn't know what server(s) I'm in for obvious reasons, and I'm a relatively private person cause I am clapped.
+> **The people in the screenshots are not me, and I've blurred stuff as I don't want friends to get spammed and or added. moreover, I'd prefer it if people didn't know what server(s) I'm in for obvious reasons, and I'm a relatively private person cause I am clapped.**
 ---
-I'll update this as often as I can; however, I do not use canary version of discord, nor am I some mastermind that can instantly fix/add stuff, so the updates may take a while to push if they change containers etc. on that note, I hope you enjoy the theme, and if you encounter any issues, bugs or want me to attempt to add support for a plugin you use, please tell me. Trying to learn basic CSS by making weird stuff.
+> **I'll update this as often as I can; however, I do not use canary version of discord, nor am I some mastermind that can instantly fix/add stuff, so the updates may take a while to push if they change containers etc. on that note, I hope you enjoy the theme, and if you encounter any issues, bugs or want me to attempt to add support for a plugin you use, please tell me. Trying to learn basic CSS to the best of my ability.**
 ---
 
 </details>
