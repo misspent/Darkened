@@ -48,9 +48,9 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 * 3rd: https://primer.style/octicons/
 * Useful: https://superdevresources.com/free-svg-icons/
 
-| Channel Icons | More Channel Icons |
-| :---------: | :---------: |
-| ![Preview](https://user-images.githubusercontent.com/78914154/156670922-bc89bc52-802e-4e3a-a988-74c2e49b4d52.png)  | ![Preview](https://user-images.githubusercontent.com/78914154/156670548-6ae798f7-d4b2-4c46-9c9f-c5595055a665.png)  |
+| Channel Icons | + Channel Icons | ++ Channel Icons |
+| :---------: | :---------: | :---------: |
+| <img width=300 src="https://user-images.githubusercontent.com/78914154/156670922-bc89bc52-802e-4e3a-a988-74c2e49b4d52.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/156757738-8e067487-4806-4bb3-a7fb-44ca9397f4b1.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/156670548-6ae798f7-d4b2-4c46-9c9f-c5595055a665.png"></img>  |
 
 <h1 align="center">📜 Extra(s)</h1>
 → Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.
