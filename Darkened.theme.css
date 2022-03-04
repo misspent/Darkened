@@ -9,8 +9,9 @@
 @import "https://misspent.github.io/Darkened/BetterDiscord/main.css";
 
 /* Add a "/" on the left side of the first Quotation mark to cancel out the import */
-@import "https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css";
-@import "https://misspent.github.io/Darkened/BetterDiscord/ChannelIcons.css";
+@import "https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css"; /* scrollbars */
+@import "https://lyght1337.github.io/DarknessCodeBlocks/css/CodeBlocks.css"; /* Codeblocks */
+@import "https://misspent.github.io/Darkened/BetterDiscord/ChannelIcons.css"; /* Channel Icons */
 
 /* ====================================================================================
                                     Tis the Variables
