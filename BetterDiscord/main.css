@@ -3058,91 +3058,91 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 /* Codeblock stuff */
 .theme-dark .messageGroupWrapper-1jf_7C, .theme-dark .container-30qY7E, .theme-dark .cardPrimaryOutline-1ofwVz, .theme-dark .codeRedemptionRedirect-3SBiCp, .theme-dark .previewOverlay-2reuWf{padding-left: 10px !important; padding-right: 0px !important;}
 .powercord-codeblock-lang, .hljs .powercord-lines {display: none;} .hljs {font-size: 14px !important;}
-.hljs[class$="hljs"]::before {content: 'Plain Text';--codeblockcolor: #202020;}
-.hljs[class~=diff i]::before {content: "Diff";--codeblockcolor: #81c52993;}
-.hljs[class~=cs i]::before,.hljs[class~=csharp i]::before {content: "C#";--codeblockcolor: #f4b41c93;}
-.hljs[class~=ini i]::before {content: "Initialization File";--codeblockcolor: #5d91ff93;}
-.hljs[class~=autohotkey i]::before {content: "AutoHotkey";--codeblockcolor: #dc515993;}
-.hljs[class~=asciidoc i]::before {content: "Ascii";--codeblockcolor: #5c87e293;}
-.hljs[class~=TOML i]::before {content: "TOML";--codeblockcolor: #3088f;}
-.hljs[class~=nginx i]::before {content: "NGINX";--codeblockcolor: #4bd1a993;}
-.hljs[class~=perl i]::before {content: "Perl";--codeblockcolor: #a462d093;}
-.hljs[class~=d i]::before {content: "d";--codeblockcolor: #B0393193;}
-.hljs[class~=javascript i]::before,.hljs[class~=js i]::before {content: "Javascript";--codeblockcolor: #165eab93;}
-.hljs[class~=css i]::before {content: "Cascading Style Sheet";--codeblockcolor: #1973d393;}
-.hljs[class~=bash i]::before {content: "Bash";--codeblockcolor: #ab166393;}
-.hljs[class~=markdown i]::before,.hljs[class~=md i]::before {content: "Markdown";--codeblockcolor: #ab2e1693;}
-.hljs[class~=html i]::before {content: "HTML";--codeblockcolor: #f1652993;}
-.hljs[class~=xl i]::before {content: "eXtensible Language";--codeblockcolor: #16ab6f93;}
-.hljs[class~=coffee i]::before {content: "CoffeeScript";--codeblockcolor: #3a1b1b93;}
-.hljs[class~=ruby i]::before {content: "Ruby";--codeblockcolor: #e73e3e93;}
-.hljs[class~=sql i]::before {content: "SQL";--codeblockcolor: #4474ca93;}
-.hljs[class~=java i]::before {content: "Java";--codeblockcolor: #eb2d2f93;}
-.hljs[class~=py i]::before,.hljs[class~=python i]::before {content: "Python";--codeblockcolor: #eb2d293;}
-.hljs[class~=vb i]::before,.hljs[class~=visualbasic i]::before,.hljs[class~=vbs i]::before {content: "Visual Basic";--codeblockcolor: #83970093;}
-.hljs[class~=lua i]::before {content: "Lua";--codeblockcolor: #2ecc7193;}
-.hljs[class~=php i]::before {content: "Php";--codeblockcolor: #6e81b693;}
-.hljs[class~=swift i]::before {content: "Swift";--codeblockcolor: #fd783793;}
-.hljs[class~=makefile i]::before {content: "Makefile";--codeblockcolor: #8a2b0f93;}
-.hljs[class~=go i]::before {content: "Go";--codeblockcolor: #75cede93;}
-.hljs[class~=rust i]::before {content: "Rust";--codeblockcolor: #000000;}
-.hljs[class~=prolog i]::before {content: "Prolog";--codeblockcolor: #ef4d2593;}
-.hljs[class~=ts i]::before,.hljs[class~=typescript i]::before {content: "TypeScript";--codeblockcolor: #03324c93;}
-.hljs[class~=http i]::before {content: "HyperText Transfer Protocol";--codeblockcolor: #618f1093;}
-.hljs[class~=json i]::before {content: "JSON";--codeblockcolor: #108f6693;}
-.hljs[class~=xml i]::before {content: "XML";--codeblockcolor: #8444af93;}
-.hljs[class~=less i]::before {content: "Less";--codeblockcolor: #1d365d93;}
-.hljs[class~=sass i]::before,.hljs[class~=scss i]::before {content: "SCSS";--codeblockcolor: #bf408093;}
-.hljs[class~=elm i]::before {content: "Elm";--codeblockcolor: #50d4ee93;}
-.hljs[class~=cpp i]::before {content: "C++";--codeblockcolor: #99182E93;}
-.hljs[class~=hbs i]::before {content: "Handlebars";--codeblockcolor: #f0772b93;}
-.hljs[class~=\1c i]::before {content: "1c";--codeblockcolor: #703B3093;}
-.hljs[class~=abnf i]::before {content: "ABNF";--codeblockcolor: #227A7093;}
-.hljs[class~=clojure i]::before {content: "Clojure";--codeblockcolor: #5cc70c93;}
-.hljs[class~=objc i]::before {content: "Objective-C";--codeblockcolor: #0092db93;}
-.hljs[class~=yaml i]::before {content: "YAML";--codeblockcolor: #0295a593;}
-.hljs[class~=shell i]::before,.hljs[class~=sh i]::before {content: "Shell";--codeblockcolor: #99b9f993;}
-.hljs[class~=kotlin i]::before {content: "Kotlin";--codeblockcolor: #497bbc93;}
-.hljs[class~=apache i]::before {content: "Apache";--codeblockcolor: #402a7293;}
-.hljs[class~=stylus i]::before {content: "Stylus";--codeblockcolor: #8205b493;}
-.hljs[class~=avrasm i]::before {content: "AVR Assembler";--codeblockcolor: #8205b493;}
-.hljs[class~=llvm i]::before {content: "LLVM IR";--codeblockcolor: #0014a593;}
-.hljs[class~=mipsasm i]::before {content: "MIPS Assembly";--codeblockcolor: #fc667593;}
-.hljs[class~=x86asm i]::before {content: "Intel x86 Assembly";--codeblockcolor: #0071c593;}
-.hljs[class~=crmsh i]::before {content: "crmsh";--codeblockcolor: #be008;}
-.hljs[class~=dns i]::before {content: "DNS Zone File";--codeblockcolor: #00c70493;}
-.hljs[class~=dockerfile i]::before {content: "Dockerfile";--codeblockcolor: #c7000093;}
-.hljs[class~=dsconfig i]::before {content: "dsconfig";--codeblockcolor: #2cb0cc93;}
-.hljs[class~=jboss-cli i]::before {content: "jboss-cli";--codeblockcolor: #e2bb8893;}
-.hljs[class~=ldif i]::before {content: "LDIF";--codeblockcolor: #a32ec593;}
-.hljs[class~="pf.conf" i]::before {content: "pf.conf";--codeblockcolor: #ff845e93;}
-.hljs[class~="puppet" i]::before {content: "Puppet";--codeblockcolor: #804d7f93;}
-.hljs[class~="roboconf" i]::before {content: "Roboconf";--codeblockcolor: #81150e93;}
-.hljs[class~="axapta" i]::before {content: "Microsoft Dynamics AX";--codeblockcolor: #8c7e8d93;}
-.hljs[class~="cos" i]::before {content: "Caché Object Script";--codeblockcolor: #47553c93;}
-.hljs[class~="isbl" i]::before {content: "ISBL";--codeblockcolor: #a6e3d993;}
-.hljs[class~="livecodeserver" i]::before {content: "LiveCode";--codeblockcolor: #aad0393;}
-.hljs[class~="ldif" i]::before {content: "LDIF";--codeblockcolor: #3e04c193;}
-.hljs[class~="ruleslanguage" i]::before {content: "Oracle Rules Language";--codeblockcolor: #01064093;}
-.hljs[class~="clean" i]::before {content: "Clean";--codeblockcolor: #f51b7093;}
-.hljs[class~="coq" i]::before {content: "Coq";--codeblockcolor: #40deb293;}
-.hljs[class~="elixir" i]::before {content: "Elixir";--codeblockcolor: #fc3cf193;}
-.hljs[class~="erlang-repl" i]::before {content: "Erlang REPL";--codeblockcolor: #a8c34893;}
-.hljs[class~="erlang" i]::before {content: "Erlang";--codeblockcolor: #611cfb93;}
-.hljs[class~="flix" i]::before {content: "Flix";--codeblockcolor: #e5091493;}
-.hljs[class~="fsharp" i]::before,.hljs[class~="fs" i]::before {content: "F#";--codeblockcolor: #6f102393;}
-.hljs[class~="haskell" i]::before {content: "Haskell";--codeblockcolor: #a213ad93;}
-.hljs[class~="ocaml" i]::before {content: "OCaml";--codeblockcolor: #34a3a393;}
-.hljs[class~="scala" i]::before {content: "Scala";--codeblockcolor: #e0000093;}
-.hljs[class~="sml" i]::before {content: "SML (Standard ML)";--codeblockcolor: #3d59b193;}
-.hljs[class~="xquery" i]::before {content: "XQuery";--codeblockcolor: #a64fe393;}
-.hljs[class~="glsl" i]::before {content: "GLSL";--codeblockcolor: #35377193;}
-.hljs[class~="mel" i]::before {content: "MEL";--codeblockcolor: #367e3e93;}
-.hljs[class~="processing" i]::before {content: "Processing";--codeblockcolor: #04a8a793;}
-.hljs[class~="rib" i]::before {content: "RenderMan RIB";--codeblockcolor: #e2cc0893;}
-.hljs[class~="rsl" i]::before {content: "RenderMan RSL";--codeblockcolor: #77a80593;}
-.hljs[class~="armasm" i]::before {content: "Arm Assembly";--codeblockcolor: #b4414293;}
-.hljs[class~="asm" i]::before,.hljs[class~="assembly" i]::before {content: "Assembly";--codeblockcolor: #25344c93;}
+.hljs[class$="hljs"]::before {content: 'Code';--codeblockcolor: #15151a;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/code.svg);}
+.hljs[class~=diff i]::before {content: "Diff";--codeblockcolor: #81c52993; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/diff.svg);}
+.hljs[class~=cs i]::before,.hljs[class~=csharp i]::before {content: "C#";--codeblockcolor: #f4b41c93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/csharp.svg);}
+.hljs[class~=ini i]::before {content: "Initialization File";--codeblockcolor: #5d91ff93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ini.svg);}
+.hljs[class~=autohotkey i]::before {content: "AutoHotkey";--codeblockcolor: #dc515993; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ahk.svg);}
+.hljs[class~=asciidoc i]::before {content: "Ascii";--codeblockcolor: #5c87e293; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ascii.svg);}
+.hljs[class~=TOML i]::before {content: "TOML";--codeblockcolor: #3088f; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/toml.svg);}
+.hljs[class~=nginx i]::before {content: "NGINX";--codeblockcolor: #4bd1a993; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/nginx.svg);}
+.hljs[class~=perl i]::before {content: "Perl";--codeblockcolor: #a462d093; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/perl.svg);}
+.hljs[class~=d i]::before {content: "d";--codeblockcolor: #B0393193; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/d.svg);}
+.hljs[class~=javascript i]::before,.hljs[class~=js i]::before {content: "Javascript";--codeblockcolor: #165eab93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/js.svg);}
+.hljs[class~=css i]::before {content: "Cascading Style Sheet";--codeblockcolor: #1973d393; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/css.svg);}
+.hljs[class~=bash i]::before {content: "Bash";--codeblockcolor: #ab166393; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/bash.svg);}
+.hljs[class~=markdown i]::before,.hljs[class~=md i]::before {content: "Markdown";--codeblockcolor: #ab2e1693; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/markdown.svg);}
+.hljs[class~=html i]::before {content: "HTML";--codeblockcolor: #f1652993; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/html.svg);}
+.hljs[class~=xl i]::before {content: "eXtensible Language";--codeblockcolor: #16ab6f93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/xl.svg);}
+.hljs[class~=coffee i]::before {content: "CoffeeScript";--codeblockcolor: #3a1b1b93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/cs.svg);}
+.hljs[class~=ruby i]::before {content: "Ruby";--codeblockcolor: #e73e3e93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ruby.svg);}
+.hljs[class~=sql i]::before {content: "SQL";--codeblockcolor: #4474ca93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/sql.svg);}
+.hljs[class~=java i]::before {content: "Java";--codeblockcolor: #eb2d2f93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/java.svg);}
+.hljs[class~=py i]::before,.hljs[class~=python i]::before {content: "Python";--codeblockcolor: #eb2d2f93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/py.svg);}
+.hljs[class~=vb i]::before,.hljs[class~=visualbasic i]::before,.hljs[class~=vbs i]::before {content: "Visual Basic";--codeblockcolor: #83970093; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/vb.svg);}
+.hljs[class~=lua i]::before {content: "Lua";--codeblockcolor: #2ecc7193; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/lua.svg);}
+.hljs[class~=php i]::before {content: "Php";--codeblockcolor: #6e81b693; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/php.svg);}
+.hljs[class~=swift i]::before {content: "Swift";--codeblockcolor: #fd783793;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/swift.svg);}
+.hljs[class~=makefile i]::before {content: "Makefile";--codeblockcolor: #8a2b0f93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/makefile.svg);}
+.hljs[class~=go i]::before {content: "Go";--codeblockcolor: #75cede93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/go.svg);}
+.hljs[class~=rust i]::before {content: "Rust";--codeblockcolor: #000000;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/rust.svg);}
+.hljs[class~=prolog i]::before {content: "Prolog";--codeblockcolor: #ef4d2593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/prolog.svg);}
+.hljs[class~=ts i]::before,.hljs[class~=typescript i]::before {content: "TypeScript";--codeblockcolor: #03324c93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/typescript.svg);}
+.hljs[class~=http i]::before {content: "HyperText Transfer Protocol";--codeblockcolor: #618f1093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/http.svg);}
+.hljs[class~=json i]::before {content: "JSON";--codeblockcolor: #108f6693;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/json.svg);}
+.hljs[class~=xml i]::before {content: "XML";--codeblockcolor: #8444af93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/xml.svg);}
+.hljs[class~=less i]::before {content: "Less";--codeblockcolor: #1d365d93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/less.svg);}
+.hljs[class~=sass i]::before,.hljs[class~=scss i]::before {content: "SCSS";--codeblockcolor: #bf408093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/scss.svg);}
+.hljs[class~=elm i]::before {content: "Elm";--codeblockcolor: #50d4ee93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/elm.svg);}
+.hljs[class~=cpp i]::before {content: "C++";--codeblockcolor: #99182E93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/c++.svg);}
+.hljs[class~=hbs i]::before {content: "Handlebars";--codeblockcolor: #f0772b93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/handlebars.svg);}
+.hljs[class~=\1c i]::before {content: "1c";--codeblockcolor: #703B3093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/1c.svg);}
+.hljs[class~=abnf i]::before {content: "ABNF";--codeblockcolor: #227A7093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/code.svg);}
+.hljs[class~=clojure i]::before {content: "Clojure";--codeblockcolor: #5cc70c93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/clj.svg);}
+.hljs[class~=objc i]::before {content: "Objective-C";--codeblockcolor: #0092db93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/objc.svg);}
+.hljs[class~=yaml i]::before {content: "YAML";--codeblockcolor: #0295a593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/yaml.svg);}
+.hljs[class~=shell i]::before,.hljs[class~=sh i]::before {content: "Shell";--codeblockcolor: #99b9f993;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/cmd.svg);}
+.hljs[class~=kotlin i]::before {content: "Kotlin";--codeblockcolor: #497bbc93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/kotlin.svg);}
+.hljs[class~=apache i]::before {content: "Apache";--codeblockcolor: #402a7293;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/apache.svg);}
+.hljs[class~=stylus i]::before {content: "Stylus";--codeblockcolor: #8205b493;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/stylus.svg);}
+.hljs[class~=avrasm i]::before {content: "AVR Assembler";--codeblockcolor: #8205b493;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/avrass.svg);}
+.hljs[class~=llvm i]::before {content: "LLVM IR";--codeblockcolor: #0014a593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/llvm.svg);}
+.hljs[class~=mipsasm i]::before {content: "MIPS Assembly";--codeblockcolor: #fc667593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/mips.svg);}
+.hljs[class~=x86asm i]::before {content: "Intel x86 Assembly";--codeblockcolor: #0071c593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/x86.svg);}
+.hljs[class~=crmsh i]::before {content: "crmsh";--codeblockcolor: #be008;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/crmsh.svg);}
+.hljs[class~=dns i]::before {content: "DNS Zone File";--codeblockcolor: #00c70493;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/dns.svg);}
+.hljs[class~=dockerfile i]::before {content: "Dockerfile";--codeblockcolor: #c7000093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/dockerfile.svg);}
+.hljs[class~=dsconfig i]::before {content: "dsconfig";--codeblockcolor: #2cb0cc93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/dsonconfig.svg);}
+.hljs[class~=jboss-cli i]::before {content: "jboss-cli";--codeblockcolor: #e2bb8893;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/jboss-cli.svg);}
+.hljs[class~=ldif i]::before {content: "LDIF";--codeblockcolor: #a32ec593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ldiff.svg);}
+.hljs[class~="pf.conf" i]::before {content: "pf.conf";--codeblockcolor: #ff845e93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/pf.svg);}
+.hljs[class~="puppet" i]::before {content: "Puppet";--codeblockcolor: #804d7f93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/puppet.svg);}
+.hljs[class~="roboconf" i]::before {content: "Roboconf";--codeblockcolor: #81150e93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/roboconf.svg);}
+.hljs[class~="axapta" i]::before {content: "Microsoft Dynamics AX";--codeblockcolor: #8c7e8d93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/axapta.svg);}
+.hljs[class~="cos" i]::before {content: "Caché Object Script";--codeblockcolor: #47553c93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/cos.svg);}
+.hljs[class~="isbl" i]::before {content: "ISBL";--codeblockcolor: #a6e3d993;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/isbl.svg);}
+.hljs[class~="livecodeserver" i]::before {content: "LiveCode";--codeblockcolor: #aad03693;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/livecode.svg);}
+.hljs[class~="ldif" i]::before {content: "LDIF";--codeblockcolor: #3e04c193;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ldif.svg);}
+.hljs[class~="ruleslanguage" i]::before {content: "Oracle Rules Language";--codeblockcolor: #01064093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ruleslanguage.svg);}
+.hljs[class~="clean" i]::before {content: "Clean";--codeblockcolor: #f51b7093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/clean.svg);}
+.hljs[class~="coq" i]::before {content: "Coq";--codeblockcolor: #40deb293;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/coq.svg);}
+.hljs[class~="elixir" i]::before {content: "Elixir";--codeblockcolor: #fc3cf193;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/elixir.svg);}
+.hljs[class~="erlang-repl" i]::before {content: "Erlang REPL";--codeblockcolor: #a8c34893;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/erlangr.svg);}
+.hljs[class~="erlang" i]::before {content: "Erlang";--codeblockcolor: #611cfb93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/erlang.svg);}
+.hljs[class~="flix" i]::before {content: "Flix";--codeblockcolor: #e5091493;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/flix.svg);}
+.hljs[class~="fsharp" i]::before,.hljs[class~="fs" i]::before {content: "F#";--codeblockcolor: #6f102393;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/fsharp.svg);}
+.hljs[class~="haskell" i]::before {content: "Haskell";--codeblockcolor: #a213ad93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/haskell.svg);}
+.hljs[class~="ocaml" i]::before {content: "OCaml";--codeblockcolor: #34a3a393;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ocaml.svg);}
+.hljs[class~="scala" i]::before {content: "Scala";--codeblockcolor: #e0000093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/scala.svg);}
+.hljs[class~="sml" i]::before {content: "SML (Standard ML)";--codeblockcolor: #3d59b193;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/sml.svg);}
+.hljs[class~="xquery" i]::before {content: "XQuery";--codeblockcolor: #a64fe393;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/xquery.svg);}
+.hljs[class~="glsl" i]::before {content: "GLSL";--codeblockcolor: #35377193;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/glsl.svg);}
+.hljs[class~="mel" i]::before {content: "MEL";--codeblockcolor: #367e3e93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/mel.svg);}
+.hljs[class~="processing" i]::before {content: "Processing";--codeblockcolor: #04a8a793;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/processing.svg);}
+.hljs[class~="rib" i]::before {content: "RenderMan RIB";--codeblockcolor: #e2cc0893;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/rib.svg);}
+.hljs[class~="rsl" i]::before {content: "RenderMan RSL";--codeblockcolor: #77a80593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/rsl.svg);}
+.hljs[class~="armasm" i]::before {content: "Arm Assembly";--codeblockcolor: #b4414293;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/arm.svg);}
+.hljs[class~="asm" i]::before,.hljs[class~="assembly" i]::before {content: "Assembly";--codeblockcolor: #25344c93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/asm.svg);}
 .hljs-number {color: #2aa198 !important;}
 .hljs-selector-tag {color: #859900 !important;}
 .hljs-selector-attr {color: #cb4b16 !important;}
