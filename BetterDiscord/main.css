@@ -3059,7 +3059,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .theme-dark .contentWarningPopout-WKdbDG { background-color: var(--background-primary); box-shadow: none;}
 
 /* Codeblock stuff */
-.theme-dark .messageGroupWrapper-1jf_7C, .theme-dark .inputDefault-3FGxgL, .theme-dark .container-30qY7E, .theme-dark .cardPrimaryOutline-1ofwVz, .theme-dark .codeRedemptionRedirect-3SBiCp, .theme-dark .previewOverlay-2reuWf{padding-left: 10px !important; padding-right: 0px !important;}
+.theme-dark .messageGroupWrapper-1jf_7C, .theme-dark .container-30qY7E, .theme-dark .cardPrimaryOutline-1ofwVz, .theme-dark .codeRedemptionRedirect-3SBiCp, .theme-dark .previewOverlay-2reuWf{padding-left: 10px !important; padding-right: 0px !important;}
 .powercord-codeblock-lang, .hljs .powercord-lines {display: none;} .hljs {font-size: 14px !important;}
 .hljs[class$="hljs"]::before {content: 'Plain Text';--codeblockcolor: #202020;}
 .hljs[class~=diff i]::before {content: "Diff";--codeblockcolor: #81c52993;}
