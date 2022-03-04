@@ -1494,7 +1494,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 
 /* Adds a "box" behind the replied to message */
 .theme-dark .repliedMessage-3Z6XBG {
-  background-color: var(--popout-background-main);
+  background-color: var(--channeltextarea-background);
   padding: 0.5em;
   width: fit-content;
   border-radius: 0px 0px 0px 0px;
