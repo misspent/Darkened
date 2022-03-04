@@ -757,6 +757,7 @@
 #guild-header-popout-leave .icon-E4cW1l, #guild-header-popout-leave:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #f04747;}
 #guild-header-popout-leave:hover, #guild-header-popout-leave:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #f047478e, #f04747)!important;}
 .hint-BK71lM {display: none;} /* removes keybind hints from context menu */
+.hintContainer-2UwhLP {padding-right: 8px !important; margin-top: 4px; margin-left: 0px;} /* Fixes the position of hints in "quick messages + other hints (hopefully) */
 
 /* Changes the long message link to "Jump to Message" */
 [title^="https://discord.com/channels/"] {line-height: 0;font-size: 0;}
@@ -986,7 +987,7 @@
   background: var(--background-secondary);
 }
 :root .divider-2rZFJK .content-3spvdd {
-  background: var(--background-modifier-hover);
+  background: var(--background-tertiary);
   border: 1px solid var(--border-color);
   padding: 10px;
   text-align: center;
@@ -1189,7 +1190,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .item-2idW98[aria-checked=true] {background-color: #151515; color: var(--interactive-active);}
 .item-2idW98 {border-radius: var(--server-radius);}
 /* Privacy & Safety in settings */
-.radioBar-3w9XY- { border-radius: var(--server-radius);}
+.radioBar-3w9XY- {background: var(--background-primary); border-radius: var(--server-radius);}
 /* Connections in settings */
 .accountBtn-1YkMgV .accountBtnInner-3XK70s {background-color: #152242;}
 
@@ -2256,8 +2257,8 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   background-position: var(--user-popout-position, center) center;
   background-image: var(--user-background);
 }
-/* "Message @user" container outline when clicked on */
-:root .inputDefault-3FGxgL{border: none;}
+/* "Message @user" popout container outline when clicked on & adding a channel to server container (press + and it's that container)*/
+:root .inputDefault-3FGxgL{ background-color: var(--background-primary); border-radius: var(--server-radius); border: none;}
 
 /* Roles */
 .role-2TIOKu {
