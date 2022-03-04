@@ -15,11 +15,12 @@
 - Click the checkbox in the top-right corner of the theme in discord to enable it
 ### ✅ Features
 * ✔️ Good ol' darkness
-* ✔️ Support for some plugins
 * ✔️ Optional Scrollbars
+* ✔️ Optional Codeblocks
 * ✔️ Optional Channel Icons
+* ✔️ Support for some plugins
 * ❌ Light mode not supported
-* ⭕ Possibly change the Date-Month-Year separator container if requested
+* ⭕ Possibly change the Date-Month-Year separator if requested
 * ⭕ All Imports in main.css I deem a requirement with my theme (may change)
 ### ℹ️ Credits
 * **[xcruxiex](https://github.com/xcruxiex)**'s Friend Grid.
