@@ -12,11 +12,22 @@ body:
       options:
       - label: "I have checked and can't find anything to do with it"
         required: true
+  - type: dropdown
+  id: Priority
+  attributes:
+    label: In your opinion, what priority level would you put this bug in
+    options:
+      - Your call - My choice
+      - Low - Not too important
+      - Medium - Convenient but not mandatory
+      - Required | a good addition
+  validations:
+    required: true
   - type: textarea
     id: plugin-feature
     attributes:
       label: "Is your feature request related to a plugin you use?"
-      description: "Who is the developer? The plugin's name and does it get updated frequently?"
+      description: "Who is the developer? What is the plugin's name and does it get updated frequently?"
       value: |
         Developers name: 
         The plugin's name: 
