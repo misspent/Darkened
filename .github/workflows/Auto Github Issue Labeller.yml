@@ -1,0 +1,2 @@
+- name: Auto Github Issue Labeller
+  uses: larrylawl/auto-github-issue-labeller-action@v1.0
