@@ -29,3 +29,4 @@ body:
     id: other
     attributes:
       label: "More the merrier"
+      description: "Off topic, redundant or something you didn't want in the description"
