@@ -17,10 +17,9 @@ body:
   attributes:
     label: In your opinion, what priority level would you put this bug in
     options:
-      - Your call - My choice
-      - Low - Not too important
-      - Medium - Convenient but not mandatory
-      - Required | a good addition
+      - Low
+      - Medium
+      - Required
   validations:
     required: true
   - type: textarea
