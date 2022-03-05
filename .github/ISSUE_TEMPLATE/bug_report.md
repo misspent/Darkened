@@ -1,7 +1,8 @@
 ---
 name: Bug Report
-title: '[Bug] (Describe Issue)'
-labels: '[bug]'
+about: 'Bug report template'
+title: '[Bug]: (Describe Issue)'
+labels: 'bug'
 
 ---
 **Describe the bug**
