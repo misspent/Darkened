@@ -14,7 +14,7 @@ body:
   - type: dropdown
   id: Issue
   attributes:
-    label: In your opinion, what would you say this issue falls under?
+    label: "In your opinion, what would you say this issue falls under?"
     options:
       - Bug
       - Looks odd
