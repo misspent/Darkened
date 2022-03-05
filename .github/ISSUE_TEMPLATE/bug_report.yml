@@ -9,7 +9,7 @@ body:
     label: In your opinion, what would you say this issue falls under?
     options:
       - Bug
-      - Looks-odd
+      - Looksodd
       - Idiot
   validations:
     required: true
