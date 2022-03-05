@@ -1,6 +1,7 @@
 name: Bug Report
 description: Create a bug report.
 title: "[Bug]: "
+assignees: misspent
 labels: ["bug"]
 body:
   - type: checkboxes
