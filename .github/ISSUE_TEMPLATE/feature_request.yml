@@ -13,7 +13,7 @@ body:
       - label: "I have checked and can't find anything to do with it"
         required: true
   - type: dropdown
-  id: Priority
+  id: download
   attributes:
     label: In your opinion, what priority level would you put this bug in
     options:
