@@ -1,0 +1,35 @@
+name: Feature Request
+description: Suggestion for the theme.
+title: "[Feature Request]: "
+labels: [enhancement]
+body:
+  - type: checkboxes
+    id: check
+    attributes:
+      label: "Did you check former suggestions?"
+      description: "Please make sure this hasn't been requested before. I will close this issue if it's a duplicate."
+      options:
+      - label: "I have checked and can't find anything to do with it"
+        required: true
+  - type: textarea
+    id: plugin-feature
+    attributes:
+      label: "Is your feature request related to a plugin you use?"
+      description: "What's the name of the plugin, who is the DEV and does it get updated frequently?"
+      value: |
+        Name of the plugin: 
+        Developers name: 
+        Most recent update date of the plugin in question: 
+      render: bash
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Describe what you want added"
+      description: "In detail describe what it's, why you want it and how you think it'll improve this theme. Screenshots will be appreciated."
+    validations:
+      required: true
+  - type: textarea
+    id: other
+    attributes:
+      label: "Additional context"
+      description: "Add any other context about the problem here, or leave blank."
