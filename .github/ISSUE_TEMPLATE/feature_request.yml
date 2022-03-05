@@ -12,16 +12,6 @@ body:
       options:
       - label: "I have checked and can't find anything to do with it"
         required: true
-  - type: dropdown
-  id: download
-  attributes:
-    label: In your opinion, what priority level would you put this bug in
-    options:
-      - Low
-      - Medium
-      - Required
-  validations:
-    required: true
   - type: textarea
     id: plugin-feature
     attributes:
