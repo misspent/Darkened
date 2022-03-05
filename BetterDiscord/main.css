@@ -116,12 +116,18 @@
 .listeningAlong-6YvYsc {border: 0px solid var(--border-color);}
 .activityPanel-9icbyU {border-right: 1px solid var(--border-color) !important; }
 .container-YkUktl {border-right: 1px solid var(--border-color);	border-top: 0px solid var(--border-color);}
+.container-1-ERn5.clickable-vvKY2q {border-bottom: 1px solid var(--border-color);}
 .members-3WRCEx {border-top: 1px solid var(--border-color); margin-top: 45px;}
 .container-ZMc96U.themed-Hp1KC_, .membersWrap-3NUR2t::after {border-bottom: 1px solid var(--border-color);}
 .scroller-1ox3I2 {border-right: 1px solid var(--border-color);}
 .membersWrap-3NUR2t  {border-left: 1px solid var(--border-color);}
 .scroller-WSmht3 {border-right: 1px solid var(--border-color);}
 .wrapper-3Hk9OB {border-top: 1px solid var(--border-color);	border-right: 1px solid var(--border-color);}
+/* Header in channel sidebar (at the top where it says the name) */
+.container-1NXEtd .header-3OsQeK {border-right: 1px solid var(--border-color); background-color: rgba(13, 13, 13, 0.4); backdrop-filter: blur(0.7px);}
+.container-1NXEtd .header-3OsQeK:hover {border-right: 1px solid var(--border-color); background-color: rgba(13, 13, 13, 0.5); backdrop-filter: blur(1px);}
+.container-1-ERn5.clickable-vvKY2q {border-bottom: 1px solid var(--border-color);}
+.header-3OsQeK {height: 47px;}
 
 .animatedContainer-2laTjx, .bannerImage-ubW8K- {border-bottom: 1px solid var(--border-color) !important; border-right: 1px solid var(--border-color) !important;}
 .bannerImage-ubW8K-, .bannerImg-2PzH6z {width: 239px;}
