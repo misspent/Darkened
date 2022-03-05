@@ -3,17 +3,6 @@ description: Create a bug report.
 title: "[Bug]: "
 labels: ["bug"]
 body:
-- type: dropdown
-  id: download
-  attributes:
-    label: How did you download the software?
-    options:
-      - Homebrew
-      - MacPorts
-      - apt-get
-      - Built from source
-  validations:
-    required: true
   - type: checkboxes
     id: check
     attributes:
@@ -39,3 +28,13 @@ body:
     id: other
     attributes:
       label: "More the merrier"
+  - type: dropdown
+  id: Issue
+  attributes:
+    label: In your opinion, what would you say this issue falls under?
+    options:
+      - Bug
+      - Odd
+      - Idiot
+  validations:
+    required: true
