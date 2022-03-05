@@ -11,16 +11,6 @@ body:
       options:
       - label: "I have checked other issues"
         required: true
-  - type: dropdown
-  id: Issue
-  attributes:
-    label: In your opinion, what would you say this issue falls under?
-    options:
-      - Bug
-      - Looks odd
-      - Well done idiot
-  validations:
-    required: true
   - type: textarea
     id: bug-description
     attributes:
