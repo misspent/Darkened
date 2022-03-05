@@ -1,6 +1,12 @@
+
 ![Darkened Picture Version 3](https://user-images.githubusercontent.com/78914154/154471803-c5ee50f9-67cf-4d2f-81b9-e36d4bc726b7.png)
 
 <h1 align="center">Preview</h1>
+<p align="center">
+        <img src="https://img.shields.io/github/license/misspent/Darkened?color=green&label=License%3A&style=for-the-badge" /></a>
+        <img src="https://img.shields.io/github/issues/misspent/Darkened?label=Issues%3A&style=for-the-badge" /></a>
+        <img src="https://img.shields.io/github/issues-pr/misspent/Darkened?label=Pull%20Requests%3A&style=for-the-badge" /></a>
+</p>
 
 ### Main window + User popout
 ![1  Darkened Discord Theme Main Window version 2  Edited](https://user-images.githubusercontent.com/78914154/155885260-2342fbea-d911-425c-808b-d3d48e3a7ddc.png)
