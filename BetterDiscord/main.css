@@ -3058,91 +3058,91 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 /* Codeblock stuff */
 .theme-dark .messageGroupWrapper-1jf_7C, .theme-dark .container-30qY7E, .theme-dark .cardPrimaryOutline-1ofwVz, .theme-dark .codeRedemptionRedirect-3SBiCp, .theme-dark .previewOverlay-2reuWf{padding-left: 10px !important; padding-right: 0px !important;}
 .powercord-codeblock-lang, .hljs .powercord-lines {display: none;} .hljs {font-size: 14px !important;}
-.hljs[class$="hljs"]::before {content: 'Code';--codeblockcolor: #15151a;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/code.svg) !important;}
-.hljs[class~=diff i]::before {content: "Diff";--codeblockcolor: #81c52993; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/diff.svg) !important;}
-.hljs[class~=cs i]::before,.hljs[class~=csharp i]::before {content: "C#";--codeblockcolor: #f4b41c93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/csharp.svg) !important;}
-.hljs[class~=ini i]::before {content: "Initialization File";--codeblockcolor: #5d91ff93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ini.svg) !important;}
-.hljs[class~=autohotkey i]::before {content: "AutoHotkey";--codeblockcolor: #dc515993; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ahk.svg) !important;}
-.hljs[class~=asciidoc i]::before {content: "Ascii";--codeblockcolor: #5c87e293; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ascii.svg) !important;}
-.hljs[class~=TOML i]::before {content: "TOML";--codeblockcolor: #3088f; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/toml.svg) !important;}
-.hljs[class~=nginx i]::before {content: "NGINX";--codeblockcolor: #4bd1a993; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/nginx.svg) !important;}
-.hljs[class~=perl i]::before {content: "Perl";--codeblockcolor: #a462d093; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/perl.svg) !important;}
-.hljs[class~=d i]::before {content: "d";--codeblockcolor: #B0393193; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/d.svg) !important;}
-.hljs[class~=javascript i]::before,.hljs[class~=js i]::before {content: "Javascript";--codeblockcolor: #165eab93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/js.svg) !important;}
-.hljs[class~=css i]::before {content: "Cascading Style Sheet";--codeblockcolor: #1973d393; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/css.svg) !important;}
-.hljs[class~=bash i]::before {content: "Bash";--codeblockcolor: #ab166393; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/bash.svg) !important;}
-.hljs[class~=markdown i]::before,.hljs[class~=md i]::before {content: "Markdown";--codeblockcolor: #ab2e1693; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/markdown.svg) !important;}
-.hljs[class~=html i]::before {content: "HTML";--codeblockcolor: #f1652993; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/html.svg) !important;}
-.hljs[class~=xl i]::before {content: "eXtensible Language";--codeblockcolor: #16ab6f93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/xl.svg) !important;}
-.hljs[class~=coffee i]::before {content: "CoffeeScript";--codeblockcolor: #3a1b1b93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/cs.svg) !important;}
-.hljs[class~=ruby i]::before {content: "Ruby";--codeblockcolor: #e73e3e93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ruby.svg) !important;}
-.hljs[class~=sql i]::before {content: "SQL";--codeblockcolor: #4474ca93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/sql.svg) !important;}
-.hljs[class~=java i]::before {content: "Java";--codeblockcolor: #eb2d2f93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/java.svg) !important;}
-.hljs[class~=py i]::before,.hljs[class~=python i]::before {content: "Python";--codeblockcolor: #eb2d2f93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/py.svg) !important;}
-.hljs[class~=vb i]::before,.hljs[class~=visualbasic i]::before,.hljs[class~=vbs i]::before {content: "Visual Basic";--codeblockcolor: #83970093; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/vb.svg) !important;}
-.hljs[class~=lua i]::before {content: "Lua";--codeblockcolor: #2ecc7193; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/lua.svg) !important;}
-.hljs[class~=php i]::before {content: "Php";--codeblockcolor: #6e81b693; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/php.svg) !important;}
-.hljs[class~=swift i]::before {content: "Swift";--codeblockcolor: #fd783793;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/swift.svg) !important;}
-.hljs[class~=makefile i]::before {content: "Makefile";--codeblockcolor: #8a2b0f93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/makefile.svg) !important;}
-.hljs[class~=go i]::before {content: "Go";--codeblockcolor: #75cede93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/go.svg) !important;}
-.hljs[class~=rust i]::before {content: "Rust";--codeblockcolor: #000000;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/rust.svg) !important;}
-.hljs[class~=prolog i]::before {content: "Prolog";--codeblockcolor: #ef4d2593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/prolog.svg) !important;}
-.hljs[class~=ts i]::before,.hljs[class~=typescript i]::before {content: "TypeScript";--codeblockcolor: #03324c93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/typescript.svg) !important;}
-.hljs[class~=http i]::before {content: "HyperText Transfer Protocol";--codeblockcolor: #618f1093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/http.svg) !important;}
-.hljs[class~=json i]::before {content: "JSON";--codeblockcolor: #108f6693;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/json.svg) !important;}
-.hljs[class~=xml i]::before {content: "XML";--codeblockcolor: #8444af93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/xml.svg) !important;}
-.hljs[class~=less i]::before {content: "Less";--codeblockcolor: #1d365d93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/less.svg) !important;}
-.hljs[class~=sass i]::before,.hljs[class~=scss i]::before {content: "SCSS";--codeblockcolor: #bf408093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/scss.svg) !important;}
-.hljs[class~=elm i]::before {content: "Elm";--codeblockcolor: #50d4ee93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/elm.svg) !important;}
-.hljs[class~=cpp i]::before {content: "C++";--codeblockcolor: #99182E93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/c++.svg) !important;}
-.hljs[class~=hbs i]::before {content: "Handlebars";--codeblockcolor: #f0772b93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/handlebars.svg) !important;}
-.hljs[class~=\1c i]::before {content: "1c";--codeblockcolor: #703B3093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/1c.svg) !important;}
-.hljs[class~=abnf i]::before {content: "ABNF";--codeblockcolor: #227A7093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/code.svg) !important;}
-.hljs[class~=clojure i]::before {content: "Clojure";--codeblockcolor: #5cc70c93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/clj.svg) !important;}
-.hljs[class~=objc i]::before {content: "Objective-C";--codeblockcolor: #0092db93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/objc.svg) !important;}
-.hljs[class~=yaml i]::before {content: "YAML";--codeblockcolor: #0295a593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/yaml.svg) !important;}
-.hljs[class~=shell i]::before,.hljs[class~=sh i]::before {content: "Shell";--codeblockcolor: #99b9f993;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/cmd.svg) !important;}
-.hljs[class~=kotlin i]::before {content: "Kotlin";--codeblockcolor: #497bbc93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/kotlin.svg) !important;}
-.hljs[class~=apache i]::before {content: "Apache";--codeblockcolor: #402a7293;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/apache.svg) !important;}
-.hljs[class~=stylus i]::before {content: "Stylus";--codeblockcolor: #8205b493;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/stylus.svg) !important;}
-.hljs[class~=avrasm i]::before {content: "AVR Assembler";--codeblockcolor: #8205b493;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/avrass.svg) !important;}
-.hljs[class~=llvm i]::before {content: "LLVM IR";--codeblockcolor: #0014a593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/llvm.svg) !important;}
-.hljs[class~=mipsasm i]::before {content: "MIPS Assembly";--codeblockcolor: #fc667593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/mips.svg) !important;}
-.hljs[class~=x86asm i]::before {content: "Intel x86 Assembly";--codeblockcolor: #0071c593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/x86.svg) !important;}
-.hljs[class~=crmsh i]::before {content: "crmsh";--codeblockcolor: #be008;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/crmsh.svg) !important;}
-.hljs[class~=dns i]::before {content: "DNS Zone File";--codeblockcolor: #00c70493;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/dns.svg) !important;}
-.hljs[class~=dockerfile i]::before {content: "Dockerfile";--codeblockcolor: #c7000093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/dockerfile.svg) !important;}
-.hljs[class~=dsconfig i]::before {content: "dsconfig";--codeblockcolor: #2cb0cc93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/dsonconfig.svg) !important;}
-.hljs[class~=jboss-cli i]::before {content: "jboss-cli";--codeblockcolor: #e2bb8893;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/jboss-cli.svg) !important;}
-.hljs[class~=ldif i]::before {content: "LDIF";--codeblockcolor: #a32ec593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ldiff.svg) !important;}
-.hljs[class~="pf.conf" i]::before {content: "pf.conf";--codeblockcolor: #ff845e93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/pf.svg) !important;}
-.hljs[class~="puppet" i]::before {content: "Puppet";--codeblockcolor: #804d7f93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/puppet.svg) !important;}
-.hljs[class~="roboconf" i]::before {content: "Roboconf";--codeblockcolor: #81150e93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/roboconf.svg) !important;}
-.hljs[class~="axapta" i]::before {content: "Microsoft Dynamics AX";--codeblockcolor: #8c7e8d93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/axapta.svg) !important;}
-.hljs[class~="cos" i]::before {content: "Caché Object Script";--codeblockcolor: #47553c93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/cos.svg) !important;}
-.hljs[class~="isbl" i]::before {content: "ISBL";--codeblockcolor: #a6e3d993;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/isbl.svg) !important;}
-.hljs[class~="livecodeserver" i]::before {content: "LiveCode";--codeblockcolor: #aad03693;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/livecode.svg) !important;}
-.hljs[class~="ldif" i]::before {content: "LDIF";--codeblockcolor: #3e04c193;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ldif.svg) !important;}
-.hljs[class~="ruleslanguage" i]::before {content: "Oracle Rules Language";--codeblockcolor: #01064093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ruleslanguage.svg) !important;}
-.hljs[class~="clean" i]::before {content: "Clean";--codeblockcolor: #f51b7093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/clean.svg) !important;}
-.hljs[class~="coq" i]::before {content: "Coq";--codeblockcolor: #40deb293;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/coq.svg) !important;}
-.hljs[class~="elixir" i]::before {content: "Elixir";--codeblockcolor: #fc3cf193;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/elixir.svg) !important;}
-.hljs[class~="erlang-repl" i]::before {content: "Erlang REPL";--codeblockcolor: #a8c34893;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/erlangr.svg) !important;}
-.hljs[class~="erlang" i]::before {content: "Erlang";--codeblockcolor: #611cfb93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/erlang.svg) !important;}
-.hljs[class~="flix" i]::before {content: "Flix";--codeblockcolor: #e5091493;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/flix.svg) !important;}
-.hljs[class~="fsharp" i]::before,.hljs[class~="fs" i]::before {content: "F#";--codeblockcolor: #6f102393;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/fsharp.svg) !important;}
-.hljs[class~="haskell" i]::before {content: "Haskell";--codeblockcolor: #a213ad93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/haskell.svg) !important;}
-.hljs[class~="ocaml" i]::before {content: "OCaml";--codeblockcolor: #34a3a393;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ocaml.svg) !important;}
-.hljs[class~="scala" i]::before {content: "Scala";--codeblockcolor: #e0000093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/scala.svg) !important;}
-.hljs[class~="sml" i]::before {content: "SML (Standard ML)";--codeblockcolor: #3d59b193;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/sml.svg) !important;}
-.hljs[class~="xquery" i]::before {content: "XQuery";--codeblockcolor: #a64fe393;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/xquery.svg) !important;}
-.hljs[class~="glsl" i]::before {content: "GLSL";--codeblockcolor: #35377193;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/glsl.svg) !important;}
-.hljs[class~="mel" i]::before {content: "MEL";--codeblockcolor: #367e3e93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/mel.svg) !important;}
-.hljs[class~="processing" i]::before {content: "Processing";--codeblockcolor: #04a8a793;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/processing.svg) !important;}
-.hljs[class~="rib" i]::before {content: "RenderMan RIB";--codeblockcolor: #e2cc0893;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/rib.svg) !important;}
-.hljs[class~="rsl" i]::before {content: "RenderMan RSL";--codeblockcolor: #77a80593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/rsl.svg) !important;}
-.hljs[class~="armasm" i]::before {content: "Arm Assembly";--codeblockcolor: #b4414293;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/arm.svg) !important;}
-.hljs[class~="asm" i]::before,.hljs[class~="assembly" i]::before {content: "Assembly";--codeblockcolor: #25344c93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/asm.svg) !important;}
+.hljs[class$="hljs"]::before {content: 'Code';--codeblockcolor: #15151a;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/code.svg);}
+.hljs[class~=diff]::before {content: "Diff";--codeblockcolor: #81c52993; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/diff.svg);}
+.hljs[class~=cs]::before,.hljs[class~=csharp]::before {content: "C#";--codeblockcolor: #f4b41c93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/csharp.svg);}
+.hljs[class~=ini]::before {content: "Initialization File";--codeblockcolor: #5d91ff93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ini.svg);}
+.hljs[class~=autohotkey]::before {content: "AutoHotkey";--codeblockcolor: #dc515993; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ahk.svg);}
+.hljs[class~=asciidoc]::before {content: "Ascii";--codeblockcolor: #5c87e293; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ascii.svg);}
+.hljs[class~=TOML]::before {content: "TOML";--codeblockcolor: #3088f; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/toml.svg);}
+.hljs[class~=nginx]::before {content: "NGINX";--codeblockcolor: #4bd1a993; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/nginx.svg);}
+.hljs[class~=perl]::before {content: "Perl";--codeblockcolor: #a462d093; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/perl.svg);}
+.hljs[class~=d]::before {content: "d";--codeblockcolor: #B0393193; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/d.svg);}
+.hljs[class~=javascript]::before,.hljs[class~=js]::before {content: "Javascript";--codeblockcolor: #165eab93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/js.svg);}
+.hljs[class~=css]::before {content: "Cascading Style Sheet";--codeblockcolor: #1973d393; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/css.svg);}
+.hljs[class~=bash]::before {content: "Bash";--codeblockcolor: #ab166393; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/bash.svg);}
+.hljs[class~=markdown]::before,.hljs[class~=md]::before {content: "Markdown";--codeblockcolor: #ab2e1693; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/markdown.svg);}
+.hljs[class~=html]::before {content: "HTML";--codeblockcolor: #f1652993; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/html.svg);}
+.hljs[class~=xl]::before {content: "eXtensible Language";--codeblockcolor: #16ab6f93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/xl.svg);}
+.hljs[class~=coffee]::before {content: "CoffeeScript";--codeblockcolor: #3a1b1b93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/cs.svg);}
+.hljs[class~=ruby]::before {content: "Ruby";--codeblockcolor: #e73e3e93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ruby.svg);}
+.hljs[class~=sql]::before {content: "SQL";--codeblockcolor: #4474ca93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/sql.svg);}
+.hljs[class~=java]::before {content: "Java";--codeblockcolor: #eb2d2f93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/java.svg);}
+.hljs[class~=py]::before,.hljs[class~=python]::before {content: "Python";--codeblockcolor: #eb2d2f93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/py.svg);}
+.hljs[class~=vb]::before,.hljs[class~=visualbasic]::before,.hljs[class~=vbs]::before {content: "Visual Basic";--codeblockcolor: #83970093; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/vb.svg);}
+.hljs[class~=lua]::before {content: "Lua";--codeblockcolor: #2ecc7193; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/lua.svg);}
+.hljs[class~=php]::before {content: "Php";--codeblockcolor: #6e81b693; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/php.svg);}
+.hljs[class~=swift]::before {content: "Swift";--codeblockcolor: #fd783793;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/swift.svg);}
+.hljs[class~=makefile]::before {content: "Makefile";--codeblockcolor: #8a2b0f93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/makefile.svg);}
+.hljs[class~=go]::before {content: "Go";--codeblockcolor: #75cede93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/go.svg);}
+.hljs[class~=rust]::before {content: "Rust";--codeblockcolor: #000000;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/rust.svg);}
+.hljs[class~=prolog]::before {content: "Prolog";--codeblockcolor: #ef4d2593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/prolog.svg);}
+.hljs[class~=ts]::before,.hljs[class~=typescript]::before {content: "TypeScript";--codeblockcolor: #03324c93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/typescript.svg);}
+.hljs[class~=http]::before {content: "HyperText Transfer Protocol";--codeblockcolor: #618f1093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/http.svg);}
+.hljs[class~=json]::before {content: "JSON";--codeblockcolor: #108f6693;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/json.svg);}
+.hljs[class~=xml]::before {content: "XML";--codeblockcolor: #8444af93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/xml.svg);}
+.hljs[class~=less]::before {content: "Less";--codeblockcolor: #1d365d93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/less.svg);}
+.hljs[class~=sass]::before,.hljs[class~=scss]::before {content: "SCSS";--codeblockcolor: #bf408093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/scss.svg);}
+.hljs[class~=elm]::before {content: "Elm";--codeblockcolor: #50d4ee93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/elm.svg);}
+.hljs[class~=cpp]::before {content: "C++";--codeblockcolor: #99182E93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/c++.svg);}
+.hljs[class~=hbs]::before {content: "Handlebars";--codeblockcolor: #f0772b93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/handlebars.svg);}
+.hljs[class~=\1c]::before {content: "1c";--codeblockcolor: #703B3093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/1c.svg);}
+.hljs[class~=abnf]::before {content: "ABNF";--codeblockcolor: #227A7093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/code.svg);}
+.hljs[class~=clojure]::before {content: "Clojure";--codeblockcolor: #5cc70c93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/clj.svg);}
+.hljs[class~=objc]::before {content: "Objective-C";--codeblockcolor: #0092db93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/objc.svg);}
+.hljs[class~=yaml]::before {content: "YAML";--codeblockcolor: #0295a593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/yaml.svg);}
+.hljs[class~=shell]::before,.hljs[class~=sh]::before {content: "Shell";--codeblockcolor: #99b9f993;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/cmd.svg);}
+.hljs[class~=kotlin]::before {content: "Kotlin";--codeblockcolor: #497bbc93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/kotlin.svg);}
+.hljs[class~=apache]::before {content: "Apache";--codeblockcolor: #402a7293;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/apache.svg);}
+.hljs[class~=stylus]::before {content: "Stylus";--codeblockcolor: #8205b493;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/stylus.svg);}
+.hljs[class~=avrasm]::before {content: "AVR Assembler";--codeblockcolor: #8205b493;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/avrass.svg);}
+.hljs[class~=llvm]::before {content: "LLVMR";--codeblockcolor: #0014a593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/llvm.svg);}
+.hljs[class~=mipsasm]::before {content: "MIPS Assembly";--codeblockcolor: #fc667593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/mips.svg);}
+.hljs[class~=x86asm]::before {content: "Intel x86 Assembly";--codeblockcolor: #0071c593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/x86.svg);}
+.hljs[class~=crmsh]::before {content: "crmsh";--codeblockcolor: #be008;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/crmsh.svg);}
+.hljs[class~=dns]::before {content: "DNS Zone File";--codeblockcolor: #00c70493;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/dns.svg);}
+.hljs[class~=dockerfile]::before {content: "Dockerfile";--codeblockcolor: #c7000093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/dockerfile.svg);}
+.hljs[class~=dsconfig]::before {content: "dsconfig";--codeblockcolor: #2cb0cc93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/dsonconfig.svg);}
+.hljs[class~=jboss-cli]::before {content: "jboss-cli";--codeblockcolor: #e2bb8893;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/jboss-cli.svg);}
+.hljs[class~=ldif]::before {content: "LDIF";--codeblockcolor: #a32ec593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ldiff.svg);}
+.hljs[class~="pf.conf"]::before {content: "pf.conf";--codeblockcolor: #ff845e93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/pf.svg);}
+.hljs[class~="puppet"]::before {content: "Puppet";--codeblockcolor: #804d7f93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/puppet.svg);}
+.hljs[class~="roboconf"]::before {content: "Roboconf";--codeblockcolor: #81150e93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/roboconf.svg);}
+.hljs[class~="axapta"]::before {content: "Microsoft Dynamics AX";--codeblockcolor: #8c7e8d93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/axapta.svg);}
+.hljs[class~="cos"]::before {content: "Caché Object Script";--codeblockcolor: #47553c93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/cos.svg);}
+.hljs[class~="isbl"]::before {content: "ISBL";--codeblockcolor: #a6e3d993;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/isbl.svg);}
+.hljs[class~="livecodeserver"]::before {content: "LiveCode";--codeblockcolor: #aad03693;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/livecode.svg);}
+.hljs[class~="ldif"]::before {content: "LDIF";--codeblockcolor: #3e04c193;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ldif.svg);}
+.hljs[class~="ruleslanguage"]::before {content: "Oracle Rules Language";--codeblockcolor: #01064093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ruleslanguage.svg);}
+.hljs[class~="clean"]::before {content: "Clean";--codeblockcolor: #f51b7093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/clean.svg);}
+.hljs[class~="coq"]::before {content: "Coq";--codeblockcolor: #40deb293;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/coq.svg);}
+.hljs[class~="elixir"]::before {content: "Elixir";--codeblockcolor: #fc3cf193;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/elixir.svg);}
+.hljs[class~="erlang-repl"]::before {content: "Erlang REPL";--codeblockcolor: #a8c34893;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/erlangr.svg);}
+.hljs[class~="erlang"]::before {content: "Erlang";--codeblockcolor: #611cfb93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/erlang.svg);}
+.hljs[class~="flix"]::before {content: "Flix";--codeblockcolor: #e5091493;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/flix.svg);}
+.hljs[class~="fsharp"]::before,.hljs[class~="fs"]::before {content: "F#";--codeblockcolor: #6f102393;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/fsharp.svg);}
+.hljs[class~="haskell"]::before {content: "Haskell";--codeblockcolor: #a213ad93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/haskell.svg);}
+.hljs[class~="ocaml"]::before {content: "OCaml";--codeblockcolor: #34a3a393;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/ocaml.svg);}
+.hljs[class~="scala"]::before {content: "Scala";--codeblockcolor: #e0000093;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/scala.svg);}
+.hljs[class~="sml"]::before {content: "SML (Standard ML)";--codeblockcolor: #3d59b193;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/sml.svg);}
+.hljs[class~="xquery"]::before {content: "XQuery";--codeblockcolor: #a64fe393;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/xquery.svg);}
+.hljs[class~="glsl"]::before {content: "GLSL";--codeblockcolor: #35377193;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/glsl.svg);}
+.hljs[class~="mel"]::before {content: "MEL";--codeblockcolor: #367e3e93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/mel.svg);}
+.hljs[class~="processing"]::before {content: "Processing";--codeblockcolor: #04a8a793;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/processing.svg);}
+.hljs[class~="rib"]::before {content: "RenderMan RIB";--codeblockcolor: #e2cc0893;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/rib.svg);}
+.hljs[class~="rsl"]::before {content: "RenderMan RSL";--codeblockcolor: #77a80593;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/rsl.svg);}
+.hljs[class~="armasm"]::before {content: "Arm Assembly";--codeblockcolor: #b4414293;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/arm.svg);}
+.hljs[class~="asm"]::before,.hljs[class~="assembly"]::before {content: "Assembly";--codeblockcolor: #25344c93;--codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/asm.svg);}
 .hljs-number {color: #2aa198 !important;}
 .hljs-selector-tag {color: #859900 !important;}
 .hljs-selector-attr {color: #cb4b16 !important;}
