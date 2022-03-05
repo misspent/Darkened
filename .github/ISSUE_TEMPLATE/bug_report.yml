@@ -3,14 +3,15 @@ description: Create a bug report.
 title: "[Bug]: "
 labels: ["bug"]
 body:
-  - type: dropdown
-  id: Issue
+- type: dropdown
+  id: download
   attributes:
-    label: In your opinion, what would you say this issue falls under?
+    label: How did you download the software?
     options:
-      - Bug
-      - Odd
-      - Idiot
+      - Homebrew
+      - MacPorts
+      - apt-get
+      - Built from source
   validations:
     required: true
   - type: checkboxes
