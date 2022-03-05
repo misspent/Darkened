@@ -28,13 +28,3 @@ body:
     id: other
     attributes:
       label: "More the merrier"
-  - type: dropdown
-  id: Issue
-  attributes:
-    label: In your opinion, what would you say this issue falls under?
-    options:
-      - Bug
-      - Odd
-      - Idiot
-  validations:
-    required: true
