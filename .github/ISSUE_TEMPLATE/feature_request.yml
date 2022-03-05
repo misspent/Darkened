@@ -32,5 +32,14 @@ body:
   - type: textarea
     id: other
     attributes:
-      label: "Additional context"
-      description: "Add any other context about the problem here, or leave blank."
+      label: "More the merrier"
+      description: "Off topic, redundant or something you didn't want in the description"
+  - type: dropdown
+    id: download
+    attributes:
+    label: In your opinion, what priority level would you put this bug in
+    options:
+      - Your call - My choice
+      - Low - Not too important
+      - Medium - Convenient but not mandatory
+      - High - Required | a good addition
