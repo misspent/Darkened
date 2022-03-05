@@ -3,6 +3,16 @@ description: Create a bug report.
 title: "[Bug]: "
 labels: ["bug"]
 body:
+  - type: dropdown
+  id: Issue
+  attributes:
+    label: In your opinion, what would you say this issue falls under?
+    options:
+      - Bug
+      - Looks odd
+      - Well done idiot
+  validations:
+    required: true
   - type: checkboxes
     id: check
     attributes:
