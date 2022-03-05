@@ -9,7 +9,8 @@ body:
     label: In your opinion, what would you say this issue falls under?
     options:
       - Bug
-      - Looks odd
+      - Looks-odd
+      - Idiot
   validations:
     required: true
   - type: checkboxes
