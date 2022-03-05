@@ -3069,7 +3069,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .hljs[class~=perl i]::before {content: "Perl";--codeblockcolor: #a462d093; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/perl.svg);}
 .hljs[class~=d i]::before {content: "d";--codeblockcolor: #B0393193; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/d.svg);}
 .hljs[class~=javascript i]::before,.hljs[class~=js i]::before {content: "Javascript";--codeblockcolor: #165eab93; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/js.svg);}
-.hljs[class~=css i]::before {content: "Cascading Style Sheet";--codeblockcolor: #1973d393; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/css.svg);}
+.hljs[class~=css i]::before {content: "Cascading Style Sheet";--codeblockcolor: #1973d393; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/css.svg) !important;}
 .hljs[class~=bash i]::before {content: "Bash";--codeblockcolor: #ab166393; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/bash.svg);}
 .hljs[class~=markdown i]::before,.hljs[class~=md i]::before {content: "Markdown";--codeblockcolor: #ab2e1693; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/markdown.svg);}
 .hljs[class~=html i]::before {content: "HTML";--codeblockcolor: #f1652993; --codeblockbackground: url(https://lyght1337.github.io/DarknessCodeBlocks/Codeblocksvg/html.svg);}
