@@ -6,7 +6,7 @@ body:
   - type: checkboxes
     id: check
     attributes:
-      label: Did You Cipher Through Other Issues?
+      - label: Did You Cipher Through Other Issues?
       description: "Please check out other issues before continuing. I will close this issue if it's a duplicate."
       options:
       - label: "I have checked other issues"
