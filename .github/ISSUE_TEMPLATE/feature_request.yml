@@ -1,6 +1,7 @@
 name: Feature Request
 description: Suggestion for the theme.
 title: "[Feature Request]: "
+assignees: misspent
 labels: [enhancement]
 body:
   - type: checkboxes
@@ -15,10 +16,10 @@ body:
     id: plugin-feature
     attributes:
       label: "Is your feature request related to a plugin you use?"
-      description: "What's the name of the plugin, who is the DEV and does it get updated frequently?"
+      description: "Who is the developer? The plugin's name and does it get updated frequently?"
       value: |
-        Name of the plugin: 
         Developers name: 
+        The plugin's name: 
         Most recent update date of the plugin in question: 
       render: bash
   - type: textarea
