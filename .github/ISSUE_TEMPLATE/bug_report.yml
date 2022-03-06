@@ -7,7 +7,7 @@ body:
   - type: checkboxes
     id: check
     attributes:
-      label: Did you check former issues?
+      label: 🔍 Did you check former issues?
       description: "Please check out other issues before continuing. I will close this issue if it's a duplicate."
       options:
       - label: "I have checked other issues"
@@ -15,18 +15,18 @@ body:
   - type: textarea
     id: bug-description
     attributes:
-      label: "Describe the bug in detail"
+      label: "📝 Describe the bug in detail"
       description: "Please describe the bug and make sure it's clear and concise."
     validations:
       required: true
   - type: textarea
     id: screenshots
     attributes:
-      label: "Screenshots"
+      label: "📸 Screenshots"
       description: "If applicable, add screenshots to help give me a bigger picture of the issue at hand (It'll be very convenient and helpful if you do)."
       render: bash
   - type: textarea
     id: other
     attributes:
-      label: "More the merrier"
+      label: "➕ More the merrier"
       description: "Off topic, redundant or something you didn't want in the description"
