@@ -24,11 +24,11 @@ body:
     id: icon-suggestion
     attributes:
       label: "📝 Describe what channel Icon you want added"
-      description: "WWhere you got it from, what's the name of the channel and HTML path."
+      description: "Where you got it from, HTML path and what's the name of the channel."
       value: |
         Site:
-        Channel name: 
-        HTML Path (optional):
+        HTML Path: 
+        Channel Name:
     validations:
       required: true
   - type: textarea
