@@ -12,13 +12,6 @@ body:
       options:
       - label: "I have checked other issues"
         required: true
-    - type: checkboxes
-    id: check
-    attributes:
-      label: 🔍 Do you have the HTML path or link to a site?
-      options:
-      - label: "I have checked other issues"
-        required: true
   - type: textarea
     id: icon-suggestion
     attributes:
