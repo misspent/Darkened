@@ -13,12 +13,12 @@ body:
       - label: "I have checked other issues"
         required: true
   - type: checkboxes
-    id: check
+    id: check-useful
     attributes:
       label: 🔍 Do you have the HTML path or link to a site?
       description: "HTML path = link/address"
       options:
-      - label: "I have checked other issues"
+      - label: "I have either oen"
         required: true
   - type: textarea
     id: icon-suggestion
