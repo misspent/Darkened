@@ -7,7 +7,7 @@ body:
   - type: checkboxes
     id: check
     attributes:
-      label: "Did you check former suggestions?"
+      label: "🔍 Did you check former suggestions?"
       description: "Please make sure this hasn't been requested before. I will close this issue if it's a duplicate."
       options:
       - label: "I have checked and can't find anything to do with it"
@@ -15,7 +15,7 @@ body:
   - type: textarea
     id: plugin-feature
     attributes:
-      label: "Is your feature request related to a plugin you use?"
+      label: "🔌 Is your feature request related to a plugin you use?"
       description: "Who is the developer? What is the plugin's name and does it get updated frequently?"
       value: |
         Developers name: 
@@ -25,12 +25,12 @@ body:
   - type: textarea
     id: solution
     attributes:
-      label: "Describe what you want added"
+      label: "📝 Describe what you want added"
       description: "In detail describe what it's, why you want it and how you think it'll improve this theme. Screenshots will be appreciated."
     validations:
       required: true
   - type: textarea
     id: other
     attributes:
-      label: "More the merrier"
+      label: "➕ More the merrier"
       description: "Off topic, redundant or something you didn't want in the description"
