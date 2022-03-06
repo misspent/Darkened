@@ -1715,6 +1715,12 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   border-left: 2px solid var(--unread-color);
   padding-left: 14px;
 }
+/* Container when hovering over a user in members list */
+.clickable-28SzVr:hover .layout-1qmrhw {
+  background-color: rgba(var(--accent), 0.13) !important;
+  border-left: 2px solid var(--unread-color);
+  padding-left: 14px;
+}
 
 /* Add a server & Explore public servers buttons + "DisplayServersAsChannels" fix for colour [Keep] */
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {color: #fff; background-color: var(--background-modifier-active);}
@@ -2319,10 +2325,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .input-2z42oC {border-radius: var(--server-radius);}
 .headerContainer-1wJjOa {justify-content: center !important;}
 
-:root {
-  /** Number of role columns */
-  --roleslist-columns: 3;
-}
+
 .rolesList-3uZoaa {
   display: grid;
   grid-template-columns: repeat(var(--roleslist-columns), minmax(0, 1fr));
@@ -2338,6 +2341,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .rolesList-3uZoaa .roleCircle-1EgnFN {
   flex-shrink: 0;
 }
+
 /* Custom Status in popout (Container for people status in popout) + about me + "message/input box (footer) */
 :root .userPopout-2j1gM4 .body-2wLx-E .customStatus-3XAoF9::before {
   content: "CUSTOM STATUS";
