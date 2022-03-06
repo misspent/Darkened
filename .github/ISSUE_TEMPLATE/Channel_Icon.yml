@@ -23,7 +23,7 @@ body:
   - type: textarea
     id: icon-suggestion
     attributes:
-      label: "📝 Describe what channel Icon you want added"
+      label: "📝 Channel Icon information"
       description: "Where you got it from, HTML path and what's the name of the channel."
       value: |
         Site:
