@@ -1445,6 +1445,26 @@
    d: path("M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z");
    transform: scale(1.5) !important;
 }
+/* TOS Icon */
+.mainContent-20q_Hp[aria-label*=tos][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:first-child,
+.mainContent-20q_Hp[aria-label*=tos][aria-label$="text channel)"]> div[aria-label*="(Limited)"]> svg> path:first-child {
+  mask: url(#svg-mask-chat-input-button-notification);
+}
+.mainContent-20q_Hp[aria-label*=tos][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2),
+.mainContent-20q_Hp[aria-label*=tos][aria-label$="text channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2) {
+  transform: translateY(14px);
+}
+.mainContent-20q_Hp[aria-label*=tos][aria-label$="text channel)"]> div> svg> path:first-child {
+  d: path("M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z");
+  transform: scale(1.5) !important;
+}
+.mainContent-20q_Hp[aria-label*=tos][aria-label$="text channel)"]> div> svg[viewBox="0 0 40 40"]> path {
+  transform: scale(1.7) !important;
+}
+.mainContent-20q_Hp[aria-label*=tos][aria-label$="announcement channel)"]> div> svg> path {
+  d: path("M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z");
+  transform: scale(1.5) !important;
+}
 
  /* Support Icon */
 .mainContent-20q_Hp[aria-label*=support][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:first-child,
@@ -1466,6 +1486,27 @@
    d: path("M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zM5.496 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z");
    transform: scale(1.5) !important;
 }
+
+ /* suggestion Icon */
+ .mainContent-20q_Hp[aria-label*=suggestion][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:first-child,
+ .mainContent-20q_Hp[aria-label*=suggestion][aria-label$="text channel)"]> div[aria-label*="(Limited)"]> svg> path:first-child {
+    mask: url(#svg-mask-chat-input-button-notification);
+ }
+ .mainContent-20q_Hp[aria-label*=suggestion][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2),
+ .mainContent-20q_Hp[aria-label*=suggestion][aria-label$="text channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2) {
+    transform: translateY(14px);
+ }
+ .mainContent-20q_Hp[aria-label*=suggestion][aria-label$="text channel)"]> div> svg> path:first-child {
+    d: path("M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5z");
+    transform: scale(1.5) !important;
+ }
+ .mainContent-20q_Hp[aria-label*=suggestion][aria-label$="text channel)"]> div> svg[viewBox="0 0 40 40"]> path {
+    transform: scale(1.7) !important;
+ }
+ .mainContent-20q_Hp[aria-label*=suggestion][aria-label$="announcement channel)"]> div> svg> path {
+    d: path("M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5z");
+    transform: scale(1.5) !important;
+ }
 
  /* Wall of shame Icon */
 .mainContent-20q_Hp[aria-label*=shame][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:first-child,
