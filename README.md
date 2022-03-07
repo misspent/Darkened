@@ -1,4 +1,4 @@
-![Banner](https://user-images.githubusercontent.com/78914154/157121045-f2c31477-fa2c-49d3-977b-829100ba9afc.gif)
+![Banner Centered](https://user-images.githubusercontent.com/78914154/157126939-77e4a40a-5c2f-4593-b8f0-a94f7df05477.gif)
 
 <h1 align="center">Preview</h1>
 <p align="center">
