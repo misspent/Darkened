@@ -794,7 +794,8 @@
 #---new-messages-bar .unreadPill-3nEWYM svg {display: none;}
 
 /* Context/scroller container (When you right clicking things) */
-.menu-1QACrS {border-radius: var(--server-radius); border: 1px solid var(--border-color); box-shadow: none; overflow: hidden;}
+.menu-1QACrS {border-radius: var(--server-radius); box-shadow: none; overflow: hidden;}
+.menu-1QACrS.styleFixed-2_NfVL {border: 1px solid var(--border-color);}
 
 :root .scroller-1bVxF5 .item-1OdjEX {margin: 0; border-radius: var(--server-radius);}
 :root .scroller-1bVxF5 {padding: 0;}
