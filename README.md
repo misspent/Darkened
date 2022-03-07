@@ -1,4 +1,4 @@
-![0 1  Darkened Discord](https://user-images.githubusercontent.com/78914154/157095968-b905afa4-7791-4fd9-9aa2-72283e4a42c9.png)
+![Banner](https://user-images.githubusercontent.com/78914154/157121045-f2c31477-fa2c-49d3-977b-829100ba9afc.gif)
 
 <h1 align="center">Preview</h1>
 <p align="center">
