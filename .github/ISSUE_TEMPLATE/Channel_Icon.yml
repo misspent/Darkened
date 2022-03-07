@@ -38,6 +38,11 @@ body:
       description: "If applicable, add screenshots or Icon images here, this will make everything easier for you and me."
       render: bash
   - type: textarea
+    id: background-fix
+    attributes:
+      label: "🔨 Icon/Background fix"
+      description: "Fix for icon/background with no colour, whether it's a plugin or not."
+  - type: textarea
     id: other
     attributes:
       label: "➕ More the merrier"
