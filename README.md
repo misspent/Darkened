@@ -1,5 +1,4 @@
-
-![Darkened Picture Version 3](https://user-images.githubusercontent.com/78914154/154471803-c5ee50f9-67cf-4d2f-81b9-e36d4bc726b7.png)
+![0 1  Darkened Discord](https://user-images.githubusercontent.com/78914154/157095968-b905afa4-7791-4fd9-9aa2-72283e4a42c9.png)
 
 <h1 align="center">Preview</h1>
 <p align="center">
