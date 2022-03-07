@@ -47,9 +47,15 @@
 ### Home + Friends section
 ![4  Darkened Discord Theme Friends Version 4  Edited](https://user-images.githubusercontent.com/78914154/157083968-7091fbdc-4b48-4416-9cfa-98adc116b3e5.png)
 
+<details>
+  <summary>☰ User Settings, Server Actions and Message Actions Menus</summary>
+  <br>
+
 | User Settings Menu | Server Actions Menu | Message Actions Menu |
 | :---------: | :---------: | :---------: |
-| <img width=150 src="https://user-images.githubusercontent.com/78914154/157084219-f549d866-dbe3-4bed-abd8-8fd15b9f0031.gif"></img>  | <img width=200 src="https://user-images.githubusercontent.com/78914154/157084265-cd1ed748-64cd-41dd-9b7d-0e3b619002a0.gif"></img>  | <img width=200 src="https://user-images.githubusercontent.com/78914154/157084308-4f320b91-5004-44b7-9fd3-4d8726188048.gif"></img>  |
+| <img width=300 src="https://user-images.githubusercontent.com/78914154/157084219-f549d866-dbe3-4bed-abd8-8fd15b9f0031.gif"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/157084265-cd1ed748-64cd-41dd-9b7d-0e3b619002a0.gif"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/157084308-4f320b91-5004-44b7-9fd3-4d8726188048.gif"></img>  |
+
+</details>
 
 <h1 align="center">📦 Channel Icons</h1>
 
