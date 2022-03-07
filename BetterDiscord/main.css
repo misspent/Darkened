@@ -705,6 +705,19 @@
 .colorDefault-CDqZdO.focused-3qFvc8#channel-context-channel-notifications, .colorDefault-CDqZdO.focused-3qFvc8#channel-context-edit-channel, .colorDefault-CDqZdO.focused-3qFvc8#guild-context-guild-notifications, .colorDefault-CDqZdO.focused-3qFvc8#guild-context-privacy, .colorDefault-CDqZdO.focused-3qFvc8#guild-context-folder-settings { background: linear-gradient(90deg, #aa03f88e, #aa03f8f8);}
 .colorDefault-CDqZdO.focused-3qFvc8#user-context-usernotes-user-note{background: linear-gradient(90deg, #daa5208e, #daa520);}
 .colorDefault-CDqZdO.focused-3qFvc8#user-context-add-friend {background: linear-gradient(90deg, #00ccff8e, #00ccffea);}
+/* Right click settings icon in the bottom left sidebar */
+.colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-My_Account, .colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Authorized_Apps, .colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Library_Inventory, .colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Billing, .colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Voice___Video, .colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Language {background: linear-gradient(90deg, #677bc48e, #677bc4) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Profile_Customization {background: linear-gradient(90deg, #00FFFF8e, #00FFFF) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Privacy___Safety { background: linear-gradient(90deg, #aa03f88e, #aa03f8f8);}
+.colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Connections, .colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Game_Activity {background: linear-gradient(90deg, #1DB9548e, #1DB954) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Discord_Nitro, .colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Subscriptions {background: linear-gradient(90deg, #00b0f48e, #00b0f4) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Nitro_Server_Boost {background: linear-gradient(90deg, #ff73fa8e, #ff73fa) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Appearance, .colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Text___Images, .colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Overlay {background: linear-gradient(90deg, #e91e638e, #e91e63) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Accessibility, .colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Keybinds {background: linear-gradient(90deg, #ffa07a8e, #ffa07a) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Notifications, .colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Hypesquad_Online {background: linear-gradient(90deg, #fcd4638e, #fcd463) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Windows {background: linear-gradient(90deg, #00A4EF8e, #00A4EF) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Streamer_Mode {background: linear-gradient(90deg, #5936958e, #593695) !important;}
+.colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-Advanced, .colorDefault-CDqZdO.focused-3qFvc8#user-settings-cog-changelog {background: linear-gradient(90deg, #546e7a8e, #546e7a) !important;}
 /* Text Area background */
 .colorDefault-CDqZdO.focused-3qFvc8#textarea-context-sticker-suggestions {background: linear-gradient(90deg, #f047478e, #f04747) !important;}
 .colorDefault-CDqZdO.focused-3qFvc8#textarea-context-spellcheck {background: linear-gradient(90deg, #20da778e, #20da78) !important;}
@@ -1490,7 +1503,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 }
 [class*="toolbar-"] > [class*="search-"] > [class*="open-"] [class*="searchBar-"] {
   width: 300px;
-  padding: 0 10px !important;
+  padding: 0 !important;
   background: var(--background-primary);
 }
 [class*="toolbar-"] > [class*="search-"] > [class*="open-"] [class*="searchBar-"] svg {
