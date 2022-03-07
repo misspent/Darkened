@@ -39,7 +39,7 @@
 * A friend who shall not be named.
 * Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision, Couve & others. 
 
-<h1 align="center">📷 More Screenshots</h1>
+<h1 align="center", margin= "0">📷 More Screenshots</h1>
 
 (Previews/screenshots may become out-of-date at some point)
 ### User Settings
@@ -48,7 +48,7 @@
 ![4  Darkened Discord Theme Friends Version 4  Edited](https://user-images.githubusercontent.com/78914154/157083968-7091fbdc-4b48-4416-9cfa-98adc116b3e5.png)
 
 <details>
-  <summary>☰ User Settings, Server Actions and Message Actions Menus</summary>
+  <summary align="center">☰ User Settings, Server Actions and Message Actions Menus</summary>
   <br>
 
 | User Settings Menu | Server Actions Menu | Message Actions Menu |
