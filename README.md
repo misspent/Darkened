@@ -9,7 +9,7 @@
 </p>
 
 ### Main window + User popout
-![1  Darkened Discord Theme Main Window version 2  Edited](https://user-images.githubusercontent.com/78914154/155885260-2342fbea-d911-425c-808b-d3d48e3a7ddc.png)
+![1  Darkened Discord Theme Main Window version 3  Edited](https://user-images.githubusercontent.com/78914154/157083866-540123fb-91a7-4e6a-b419-7beb43aa6c32.png)
 
 <h1 align="center">📌 Information</h1>
 
@@ -43,9 +43,13 @@
 
 (Previews/screenshots may become out-of-date at some point)
 ### User Settings
-![2  Darkened Discord Theme Settings Version 2  Edited](https://user-images.githubusercontent.com/78914154/154950621-00392028-db03-44c5-b995-bb31ebe58d83.png)
+![2  Darkened Discord Theme Settings Version 3  Edited](https://user-images.githubusercontent.com/78914154/157083932-f916de85-52f0-46c9-b62b-7ba371bbdbd5.png)
 ### Home + Friends section
-![4  Darkened Discord Theme Friends Version 3  Edited](https://user-images.githubusercontent.com/78914154/154513652-0cf1c52e-445a-4513-a908-1d864b1b7e8d.png)
+![4  Darkened Discord Theme Friends Version 4  Edited](https://user-images.githubusercontent.com/78914154/157083968-7091fbdc-4b48-4416-9cfa-98adc116b3e5.png)
+
+| User Settings Menu | Server Actions Menu | Message Actions Menu |
+| :---------: | :---------: | :---------: |
+| <img width=150 src="https://user-images.githubusercontent.com/78914154/157084219-f549d866-dbe3-4bed-abd8-8fd15b9f0031.gif"></img>  | <img width=200 src="https://user-images.githubusercontent.com/78914154/157084265-cd1ed748-64cd-41dd-9b7d-0e3b619002a0.gif"></img>  | <img width=200 src="https://user-images.githubusercontent.com/78914154/157084308-4f320b91-5004-44b7-9fd3-4d8726188048.gif"></img>  |
 
 <h1 align="center">📦 Channel Icons</h1>
 
