@@ -2169,7 +2169,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   bottom: 5px;
 }
 /* Stickers Button */
-.channelTextArea-1FufC0 .buttons-uaqb-5 button[aria-label="Open sticker picker"] {display: var(--Chat-Stickers-Button) !important;}
+.channelTextArea-1FufC0 .buttons-uaqb-5 button[aria-label="Open sticker picker"] {display: var(--Chat-Sticker-Button) !important;}
 /* GIF Button */
 .channelTextArea-1FufC0 .buttons-uaqb-5 button[aria-label="Open GIF picker"] {display: var(--Chat-GIF-Button) !important;}
 /* Gift Button */
