@@ -1,4 +1,4 @@
-![Darkened Discord Mary](https://user-images.githubusercontent.com/78914154/157284664-d5b1f5e4-0bf7-4e29-b71d-1c32c078e122.png)
+![0 2 Banner Centered Main](https://user-images.githubusercontent.com/78914154/157298545-a87dedea-61ce-4221-b78d-84d58123388b.gif)
 
 <h1 align="center">Preview</h1>
 <p align="center">
@@ -74,7 +74,7 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 <h1 align="center">📜 Extra(s)</h1>
 → Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.
 <details>
-  <summary>⌛ Write-up</summary>
+  <summary >⌛ Write-up</summary>
   <br>
 
 > **This is my first discord theme. I’m still "new" to all this CSS stuff; I only jumped into it late last year and have slowly been changing my theme over the past few months. I gradually got more comfortable with CSS and updated + fixed my theme for public use/testing. Nyria's themes gave me a lot of inspiration, and you'll 100% see what I mean if you use this.**
