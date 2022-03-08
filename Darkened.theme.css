@@ -37,7 +37,7 @@
   --role-circle: 5px; /* Circles next to role names (Size not roundness) */
 
   /* Home Icon Image */
-  --Home-Image: url("https://imgur.com/a/lgreoot"); /* Default: https://imgur.com/a/lgreoot */
+  --Home-Image-Icon: url("https://i.ibb.co/k4mXsGW/Mary-Shaw.png"); /* Default: https://i.ibb.co/k4mXsGW/Mary-Shaw.png | Free Upload Site: https://imgbb.com */
 
   /* Mention color */
   --mention-color: #0fffff; /* Default: #0fffff */
@@ -59,6 +59,15 @@
   --roleslist-columns: 3; /* Amount of columns for roles in popout | Default: 3 */
   --dark: #151515; /* Codeblocks Import | Default: #151515 */
 
+  /* Toggleable variables */
+  --Chat-GIF-Button: none; /* flex = ON, none = OFF */
+  --Chat-Gift-Button: none; /* flex = ON, none = OFF */
+  --Chat-Sticker-Button: none; /* flex = ON, none = OFF */
+  --Home-Nitro-Channel: flex; /* flex = ON, none = OFF */
+  --Home-Discovery-Channel: flex; /* flex = ON, none = OFF */
+  --Context-Menu-Emoji-Toolbar: none; /* flex = ON, none = OFF */
+  --Text-Channels-Capital-Letter: capitalize; /* capitalize, none */
+
   /* Radial Status */
   --rs-small-spacing: 0px;
   --rs-medium-spacing: 0px;
@@ -76,7 +85,6 @@
   --rs-phone-color: var(--rs-online-color);
   --rs-phone-visible: block;
   --rs-version: "2.0.6";
-
 }
 
 /*
