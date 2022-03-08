@@ -1,5 +1,4 @@
-
-![Darkened Picture Version 3](https://user-images.githubusercontent.com/78914154/154471803-c5ee50f9-67cf-4d2f-81b9-e36d4bc726b7.png)
+![Banner Centered](https://user-images.githubusercontent.com/78914154/157126939-77e4a40a-5c2f-4593-b8f0-a94f7df05477.gif)
 
 <h1 align="center">Preview</h1>
 <p align="center">
@@ -9,7 +8,7 @@
 </p>
 
 ### Main window + User popout
-![1  Darkened Discord Theme Main Window version 2  Edited](https://user-images.githubusercontent.com/78914154/155885260-2342fbea-d911-425c-808b-d3d48e3a7ddc.png)
+![1  Darkened Discord Theme Main Window version 3  Edited](https://user-images.githubusercontent.com/78914154/157083866-540123fb-91a7-4e6a-b419-7beb43aa6c32.png)
 
 <h1 align="center">📌 Information</h1>
 
@@ -39,13 +38,23 @@
 * A friend who shall not be named.
 * Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision, Couve & others. 
 
-<h1 align="center">📷 More Screenshots</h1>
+<h1 align="center", margin= "0">📷 More Screenshots</h1>
 
 (Previews/screenshots may become out-of-date at some point)
 ### User Settings
-![2  Darkened Discord Theme Settings Version 2  Edited](https://user-images.githubusercontent.com/78914154/154950621-00392028-db03-44c5-b995-bb31ebe58d83.png)
+![2  Darkened Discord Theme Settings Version 3  Edited](https://user-images.githubusercontent.com/78914154/157083932-f916de85-52f0-46c9-b62b-7ba371bbdbd5.png)
 ### Home + Friends section
-![4  Darkened Discord Theme Friends Version 3  Edited](https://user-images.githubusercontent.com/78914154/154513652-0cf1c52e-445a-4513-a908-1d864b1b7e8d.png)
+![4  Darkened Discord Theme Friends Version 4  Edited](https://user-images.githubusercontent.com/78914154/157083968-7091fbdc-4b48-4416-9cfa-98adc116b3e5.png)
+
+<details>
+  <summary align="center">☰ User Settings, Server Actions and Message Actions Menus</summary>
+  <br>
+
+| User Settings Menu | Server Actions Menu | Message Actions Menu |
+| :---------: | :---------: | :---------: |
+| <img width=300 src="https://user-images.githubusercontent.com/78914154/157084219-f549d866-dbe3-4bed-abd8-8fd15b9f0031.gif"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/157084265-cd1ed748-64cd-41dd-9b7d-0e3b619002a0.gif"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/157084308-4f320b91-5004-44b7-9fd3-4d8726188048.gif"></img>  |
+
+</details>
 
 <h1 align="center">📦 Channel Icons</h1>
 
