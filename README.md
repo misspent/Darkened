@@ -1,4 +1,4 @@
-![Banner Centered](https://user-images.githubusercontent.com/78914154/157126939-77e4a40a-5c2f-4593-b8f0-a94f7df05477.gif)
+![Darkened Discord Mary](https://user-images.githubusercontent.com/78914154/157284664-d5b1f5e4-0bf7-4e29-b71d-1c32c078e122.png)
 
 <h1 align="center">Preview</h1>
 <p align="center">
@@ -8,7 +8,7 @@
 </p>
 
 ### Main window + User popout
-![1  Darkened Discord Theme Main Window version 3  Edited](https://user-images.githubusercontent.com/78914154/157083866-540123fb-91a7-4e6a-b419-7beb43aa6c32.png)
+![1  Darkened Discord Theme Main Window version 3  Edited](https://user-images.githubusercontent.com/78914154/157288982-0637512f-c8d5-4f55-9e62-32b8be44561f.png)
 
 <h1 align="center">📌 Information</h1>
 
@@ -22,9 +22,11 @@
 * ✔️ Good ol' darkness
 * ✔️ Optional Scrollbars
 * ✔️ Optional Codeblocks
+* ✔️ Optional Radial Status
 * ✔️ Optional Channel Icons
 * ✔️ Support for some plugins
 * ❌ Light mode not supported
+* ⭕ Will change button colour if requested.
 * ⭕ Possibly change the Date-Month-Year separator if requested
 * ⭕ All Imports in main.css I deem a requirement with my theme (may change)
 ### ℹ️ Credits
@@ -33,6 +35,7 @@
 * **[LyGhT1337](https://github.com/LyGhT1337)**'s CodeBlocks.
 * **[mwittrien](https://github.com/mwittrien)**'s Setting Icons.
 * **[XYZenix](https://github.com/XYZenix)**'s DragNDrop Modals.
+* **[Gibbu & Tropix126](https://github.com/DiscordStyles)**'s Radial Status.
 * **[Xhylo](https://github.com/Xhylo/ChannelIcons)**'s Channel Icons -> Ported + additions & fixes.
 * **[Nyria](https://github.com/NYRI4)**'s Discolored & no-scrollbars Imports + Used Comfy theme as a base.
 * A friend who shall not be named.
