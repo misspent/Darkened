@@ -70,6 +70,7 @@
   border-right: 1px solid var(--border-color);
   border-top: 1px solid var(--border-color);
 }
+.container-YkUktl {margin-bottom: 0px;}
 .container-YkUktl > .flex-3BkGQD,
 .container-1zzFcN > .flex-3BkGQD {
   background: rgba(0, 0, 0, 0.3);
@@ -212,122 +213,6 @@
   bottom: 2px;
   width: 1px;
   background: rgba(255, 255, 255, 0.2);
-}
-
-/* Square Status Start | Removed ".avatar-1EWyVD" from ".wrapper-1VLyxH.avatar-1EWyVD" to make it apply to everything */
-.avatar-6qzftW {border-radius: 0 !important;}
-
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD {
-  border-radius: var(--avatar-radius);
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD svg:not(:root) {
-  overflow: visible;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD foreignObject {
-  -webkit-mask: none;
-  mask: none;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD .dots-1BwzZQ circle {
-  cy: -8 !important;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD .dots-1BwzZQ circle:nth-child(1) {
-  cx: -8.5 !important;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD .dots-1BwzZQ circle:nth-child(2) {
-  cx: -2.25 !important;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD .dots-1BwzZQ circle:nth-child(3) {
-  cx: 4 !important;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD .mask-1FEkla > rect[x="22"] {
-  x: 0;
-  y: 0;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD .pointerEvents-9SZWKj[x="14.5"] {
-  fill: rgba(0, 0, 0, 0.5) !important;
-  width: 30px;
-  height: 30px;
-  x: 1;
-  y: 1;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD img, #app-mount .wrapper-1VLyxH.avatar-1EWyVD.avatar-3QF_VA {
-  border-radius: var(--avatar-radius);
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD svg[width="25"][height="15"] > rect {
-  rx: calc(var(--avatar-radius) * 2) !important;
-  ry: calc(var(--avatar-radius) * 2) !important;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD[style*="80px"] svg.cursorDefault--wfhy5 rect, #app-mount .wrapper-1VLyxH.avatar-1EWyVD[style*="120px"] svg.cursorDefault--wfhy5 rect {
-  ry: calc(var(--avatar-radius) * 3.3);
-  rx: calc(var(--avatar-radius) * 3.3);
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD rect {
-  x: 0;
-  y: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-mask: none;
-  mask: none;
-  display: block;
-  rx: var(--avatar-radius);
-  ry: var(--avatar-radius);
-  fill: transparent !important;
-  stroke-width: 1.5px;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill="#43b581"], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill="#3ba55c"], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[mask*=online], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill*="hsl(139"] {
-  stroke: #43b581;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill="#faa61a"], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill="rgba(250, 166, 26, 1)"], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[mask*=idle], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill*="hsl(38"] {
-  stroke: #faa61a;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill="#f04747"], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill="rgba(240, 71, 71, 1)"], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill="#ed4245"], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[mask*=dnd], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill*="hsl(359"] {
-  stroke: #f04747;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill="#593695"], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[mask*=streaming] {
-  stroke: #593695;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill="#747f8d"], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[mask*=offline], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill=NaN] {
-  stroke: #636b75;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill="#747f8d"], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[mask*=invisible], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill="rgba(116, 127, 141, 1)"], #app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[fill*="hsl(214"] {
-  stroke: #747f8d;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[x="16"] {
-  width: 24px;
-  height: 24px;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD rect[x="28"] {
-  width: 40px;
-  height: 40px;
-  overflow: visible;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD[style*="32px"] rect {
-  width: 32px;
-  height: 32px;
-  x: -14.5;
-  y: -17;
-  position: relative;
-  z-index: 0;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD[style*="40px"] > svg > svg rect {
-  width: 40px;
-  height: 40px;
-  x: -19;
-  y: -20;
-  ry: calc(var(--avatar-radius) * 3.3);
-  rx: calc(var(--avatar-radius) * 3.3);
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD[style*="40px"] foreignObject[mask*=mobile] img {
-  width: calc(100% - 12px);
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD[style*="80px"] svg.cursorDefault--wfhy5 rect {
-  x: -48;
-  y: -52;
-}
-#app-mount .wrapper-1VLyxH.avatar-1EWyVD[style*="80px"] rect {
-  width: 70px;
-  height: 70px;
-  stroke-width: 1.5px;
 }
 
 /* Channel group containers */
@@ -511,8 +396,8 @@
   border-right: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
-  margin-right: 1px;
-  margin-left: 1px;
+  margin-right: 0px;
+  margin-left: 0px;
   margin-top: -1px;
 }
 /* HLJS Support */
@@ -1117,7 +1002,7 @@
   /* Edit server profile section */
 .profileCustomizationSection-2OOT4p .children-1xdcWE {align-items: center;}
 .divider-ogkn3u {border-bottom: none; margin: 0px;}
-.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {background-color: #ED4245 !important; color: #fff;}
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {background-color: #ED4245 !important; border-radius: var(--server-radius) color: #fff;}
 .guildInfo-1yK_iS {border-bottom: none; margin-top: -12px; padding-bottom: 24px;}
 .profileBannerPreview-3mLIdO {border-radius: var(--server-radius); box-shadow: none;}
 .banner-3D8GgT, .fakeActivityIcon-KeXVoI.phibi-3Bl5zI, .swatch-35F5kl {border-radius: var(--server-radius);}
@@ -2316,6 +2201,9 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 ====================================================================================
 */
 
+/* "Add to server" button in popout when viewing bots (like Dyno) */
+.applicationInstallButton-taCWKH {border-radius: var(--server-radius); margin-bottom: 8px; margin-top: 5px; margin-left: -4px;}
+
 /* User Popout */
 :root .userPopout-2j1gM4 {
   background: var(--background-secondary);
@@ -3184,7 +3072,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 }
 
 /* Server radius */
-.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .previewMessage-2g_aBv, .cameraWrapper-3a7Ngv, .lookFilled-yCfaCM.colorGreen-3y-Z79, .theme-dark .inset-SbsSFp, .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .premiumInlineNotice-eSBKv7, .notice-1Qe0b_, .expandedFolderBackground-1kSAf6, .tile-2TcwiO .button-3Vyz67, .theme-dark .buttonColor-28DXIe, .container-1zzFcN > .flex-3BkGQD, .overlayTitle-2efoIF, .status-15kcmy, .compactButton-3hG-bs, .compactButtonDisabled-MwB2d6, .theme-dark .guildIconImage-74OdmM, .container-2oNtJn, .searchResult-O9NDji, .bd-toast, .themedPopout-1TrfdI, .sourceThumbnail-ERDcZE, .content-2M_BlY, .wrapper-2SplAX, .theme-dark .watchButton-2YRKxv {border-radius: var(--server-radius) !important;}
+.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .previewMessage-2g_aBv, .cameraWrapper-3a7Ngv, .lookFilled-yCfaCM.colorGreen-3y-Z79, .theme-dark .inset-SbsSFp, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .premiumInlineNotice-eSBKv7, .notice-1Qe0b_, .expandedFolderBackground-1kSAf6, .tile-2TcwiO .button-3Vyz67, .theme-dark .buttonColor-28DXIe, .container-1zzFcN > .flex-3BkGQD, .overlayTitle-2efoIF, .status-15kcmy, .compactButton-3hG-bs, .compactButtonDisabled-MwB2d6, .theme-dark .guildIconImage-74OdmM, .container-2oNtJn, .searchResult-O9NDji, .bd-toast, .themedPopout-1TrfdI, .sourceThumbnail-ERDcZE, .content-2M_BlY, .wrapper-2SplAX, .theme-dark .watchButton-2YRKxv {border-radius: var(--server-radius) !important;}
 .wrapper-28eC3z foreignObject { mask: none; transition: 0.2s;}
 .wrapperSimple-Js2rIO { overflow: visible;}
 

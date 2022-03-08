@@ -19,6 +19,7 @@
 @import "https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css"; /* scrollbars */
 @import "https://lyght1337.github.io/DarknessCodeBlocks/css/CodeBlocks.css"; /* Codeblocks */
 @import "https://misspent.github.io/Darkened/BetterDiscord/ChannelIcons.css"; /* Channel Icons */
+@import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"; /* Radial Status */
 
 /*
 \==================================================================================\
@@ -27,8 +28,10 @@
 */
 
 :root {
+  /* -- Others settings -- */
+
   /* Roundness of the fun stuff */
-  --avatar-radius: 0px; /* Avatar roundness */
+  --avatar-radius: 0px; /* Avatar roundness | Radial Status roundness */
   --status-radius: 8px; /* Status roundness */
   --server-radius: 0px; /* Server icons, borders, images and other containers roundness */
   --role-circle: 5px; /* Circles next to role names (Size not roundness) */
@@ -55,6 +58,25 @@
   /* Other */
   --roleslist-columns: 3; /* Amount of columns for roles in popout | Default: 3 */
   --dark: #151515; /* Codeblocks Import | Default: #151515 */
+
+  /* Radial Status */
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-small-width: 1.5px;
+  --rs-medium-width: 1.5px;
+  --rs-large-width: 1.5px;
+  --rs-avatar-shape: var(--avatar-radius);
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-color: var(--rs-online-color);
+  --rs-phone-visible: block;
+  --rs-version: "2.0.6";
+
 }
 
 /*
