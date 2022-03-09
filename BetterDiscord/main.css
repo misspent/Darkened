@@ -1317,7 +1317,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 :root .sidebar-nqHbhN::after {
   content: "";
   position: absolute;
-  bottom: 1338px;
+  bottom: 1340px;
   z-index: 100;
   width: 100%;
   left: 0px;
@@ -1867,10 +1867,11 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 } */
 
 /* Other stuff I changed when doing this */
-.side-2ur1Qk {margin-top: 4px;}
+.side-2ur1Qk {margin-top: 1px;}
 .platform-osx .scroller-3X7KbA, .platform-win .scroller-3X7KbA {padding-top: 11px;}
 .titleBar-1it3bQ {background: var(--background-secondary);}
 .container-ZMc96U.themed-Hp1KC_, .membersWrap-3NUR2t::after, .container-1-ERn5.clickable-vvKY2q {border-top: 1px solid var(--border-color);}
+.platform-win .standardSidebarView-E9Pc3j {border-top: 1px solid var(--border-color);}
 /* --------------------------- 😀 PM PART --------------------------- */
 
 /* Friend column */
