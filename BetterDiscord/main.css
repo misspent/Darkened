@@ -954,7 +954,7 @@
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > li:nth-child(2) > div > a > div > div.avatar-1HDIsL > svg > g {color: green;}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > li:nth-child(3) > div > a > div > div.avatar-1HDIsL > svg > path, #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.applicationStore-2nk7Lo > div > section > div > div > svg > path {color: #7289da;}
 /* Home section searchbar */
-.searchBar-3TnChZ {padding: 0 4px; background: var(--background-primary); border-bottom: 1px solid var(--border-color); border-right: 1px solid var(--border-color); height: 47px !important;}
+.searchBar-3TnChZ {padding: 0 4px; background: var(--background-primary); border-bottom: 1px solid var(--border-color); border-right: 1px solid var(--border-color); border-top: 1px solid var(--border-color); height: 47px !important;}
 .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover {color: var(--background-accent);}
 .searchBar-3TnChZ .searchBarComponent-3N7dCG {
   width: 100%;
