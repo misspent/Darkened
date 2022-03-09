@@ -1115,14 +1115,25 @@
 .channelTabs-tabIcon.channelTabs-noneIcon {border-radius: var(--avatar-radius) !important;}
 .channelTabs-tab {border-radius: var(--server-radius) !important;}
 .channelTabs-tabContainer {
-  --channelTab-height: 22px;
-  --channelTab-width: 224px;
-  padding: 0 0 0px 0px;
+  --channelTab-height: 22px !important;
+  --channelTab-width: 224px !important;
+  padding: 0 0 0px 0px !important;
 }
 .channelTabs-tab.channelTabs-selected {
   background: var(--background-modifier-selected) !important;
   color: unset !important;
   padding: 5px 0px 5px 0px !important;
+}
+.channelTabs-mentionBadge {
+  border-radius: var(--server-radius) !important;
+}
+.channelTabs-unreadBadge {
+  border-radius: var(--server-radius) !important;
+}
+.channelTabs-typingBadge {
+  border-radius: var(--server-radius) !important;
+  margin-bottom: 5px !important;
+  margin-right: 6px !important;
 }
 
 /* Better Spotify plugin seek bar */
@@ -1676,15 +1687,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 /* Avatar mask on hover (View Profile) */
 .avatarHint-k7pYop { display: none !important;}
 
-/* Better Top-bar (Toolbar etc) */
-.toolbar-3_r2xA {
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: var(--server-radius);
-  padding: 5px;
-  margin-right: 100px;
-  margin-top: -2px;
-  height: 50px;
-}
+/* Better Top-bar (Toolbar etc) + Icons */
 svg.icon-18rqoe > path {fill: var(--interactive-normal);}
 svg.icon-2xnN2Y {color: var(--interactive-normal);}
 svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
