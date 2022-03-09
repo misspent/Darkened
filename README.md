@@ -8,7 +8,7 @@
 </p>
 
 ### Main window + User popout
-![1  Darkened Discord Theme Main Window version 3  Edited](https://user-images.githubusercontent.com/78914154/157288982-0637512f-c8d5-4f55-9e62-32b8be44561f.png)
+![1  Darkened Discord Theme Main Window version 3  Edited](https://user-images.githubusercontent.com/78914154/157456517-99410bc6-ff1a-45e1-b55a-6c2401fcdced.png)
 
 <h1 align="center">📌 Information</h1>
 
@@ -45,9 +45,11 @@
 
 (Previews/screenshots may become out-of-date at some point)
 ### User Settings
-![2  Darkened Discord Theme Settings Version 3  Edited](https://user-images.githubusercontent.com/78914154/157083932-f916de85-52f0-46c9-b62b-7ba371bbdbd5.png)
+![2  Darkened Discord Theme Settings Version 3  Edited](https://user-images.githubusercontent.com/78914154/157456598-6bf81d10-398d-45e6-b85f-2758c368b2ac.png)
+
 ### Home + Friends section
-![4  Darkened Discord Theme Friends Version 4  Edited](https://user-images.githubusercontent.com/78914154/157083968-7091fbdc-4b48-4416-9cfa-98adc116b3e5.png)
+![4  Darkened Discord Theme Friends Version 4  Edited](https://user-images.githubusercontent.com/78914154/157456612-56c42085-6a3f-42e4-84f9-53db0c8ee0e1.png)
+
 
 <details>
   <summary align="center">☰ User Settings, Server Actions and Message Actions Menus</summary>
@@ -72,7 +74,83 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 | <img width=300 src="https://user-images.githubusercontent.com/78914154/156762493-2becb9ee-c980-4fc8-b4b0-8667bab82151.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/156760708-4b77f747-8ef2-402b-8ecb-33409478a516.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/156760827-a29306c5-738e-4beb-b805-8b5c3b102888.png"></img>  |
 
 <h1 align="center">📜 Extra(s)</h1>
-→ Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.
+
+→ Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.  
+→ The pictures don't fully show it, so I'll tell you here. There are borders around the essential containers; however, you can remove them by changing its variable to "none"
+
+<details>
+  <summary >⌨ Variables</summary>
+  <br>
+        
+```css
+\==================================================================================\
+\                                 Optional Variables                               \
+\==================================================================================\
+*/
+
+:root {
+  /* -- Others settings -- */
+
+  /* Roundness of the fun stuff */
+  --avatar-radius: 0px; /* Avatar roundness | Radial Status roundness */
+  --status-radius: 8px; /* Status roundness */
+  --server-radius: 0px; /* Server icons, borders, images and other containers roundness */
+  --role-circle: 5px; /* Circles next to role names (Size not roundness) */
+
+  /* Home Icon Image */
+  --Home-Image-Icon: url("https://i.ibb.co/k4mXsGW/Mary-Shaw.png"); /* Default: https://i.ibb.co/k4mXsGW/Mary-Shaw.png | Free Upload Site: https://imgbb.com */
+
+  /* Mention color */
+  --mention-color: #0fffff; /* Default: #0fffff */
+  --unread-color: rgb(0, 195, 209); /* Default: rgb(0, 195, 209) */
+  --accent: 0, 195, 209; /* This works in conjunction with "--unread-color" | Default: 0, 195, 209 */
+
+  /* Mention color in chat */
+  --mention-color-bar: #00b0f4; /* Default: #00b0f4 */
+  --mention-color-background: #00b0f41f; /* Default: #00b0f41f */
+  --mention-color-hover: #00b0f41f; /* Default: #00b0f41f */
+
+  /* Spotify plugin seek bar */
+  --spotify-color: #1edc62; /* Default: #1edc62 */
+
+  /* Tooltips */
+  --tooltips: block; /* Set it to "none" if you don't want it | Default: block */
+
+  /* Other */
+  --roleslist-columns: 3; /* Amount of columns for roles in popout | Default: 3 */
+  --dark: #151515; /* Codeblocks Import | Default: #151515 */
+
+  /* Toggleable variables */
+  --Discord-Watermark: flex; /* flex = ON, none = OFF */
+  --Chat-GIF-Button: none; /* flex = ON, none = OFF */
+  --Chat-Gift-Button: none; /* flex = ON, none = OFF */
+  --Chat-Sticker-Button: none; /* flex = ON, none = OFF */
+  --Home-Nitro-Channel: flex; /* flex = ON, none = OFF */
+  --Home-Discovery-Channel: flex; /* flex = ON, none = OFF */
+  --Context-Menu-Emoji-Toolbar: none; /* flex = ON, none = OFF */
+  --Text-Channels-Capital-Letter: capitalize; /* capitalize, none */
+
+  /* Radial Status */
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-small-width: 1.5px;
+  --rs-medium-width: 1.5px;
+  --rs-large-width: 1.5px;
+  --rs-avatar-shape: var(--avatar-radius);
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-color: var(--rs-online-color);
+  --rs-phone-visible: block;
+  --rs-version: "2.0.6";
+}
+```
+</details>
+
 <details>
   <summary >⌛ Write-up</summary>
   <br>
