@@ -79,36 +79,19 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 → The pictures don't fully show it, so I'll tell you here. There are borders around the essential containers; however, you can remove them by changing its variable to "none"
 
 <details>
-  <summary >⌨ Variables</summary>
+  <summary align="center">⌨ Variables</summary>
   <br>
         
 ```css
+/*
 \==================================================================================\
-\                                 Optional Variables                               \
+\                                  Other Variables                                 \
 \==================================================================================\
 */
 
 :root {
-  /* -- Others settings -- */
-
-  /* Roundness of the fun stuff */
-  --avatar-radius: 0px; /* Avatar roundness | Radial Status roundness */
-  --status-radius: 8px; /* Status roundness */
-  --server-radius: 0px; /* Server icons, borders, images and other containers roundness */
-  --role-circle: 5px; /* Circles next to role names (Size not roundness) */
-
   /* Home Icon Image */
   --Home-Image-Icon: url("https://i.ibb.co/k4mXsGW/Mary-Shaw.png"); /* Default: https://i.ibb.co/k4mXsGW/Mary-Shaw.png | Free Upload Site: https://imgbb.com */
-
-  /* Mention color */
-  --mention-color: #0fffff; /* Default: #0fffff */
-  --unread-color: rgb(0, 195, 209); /* Default: rgb(0, 195, 209) */
-  --accent: 0, 195, 209; /* This works in conjunction with "--unread-color" | Default: 0, 195, 209 */
-
-  /* Mention color in chat */
-  --mention-color-bar: #00b0f4; /* Default: #00b0f4 */
-  --mention-color-background: #00b0f41f; /* Default: #00b0f41f */
-  --mention-color-hover: #00b0f41f; /* Default: #00b0f41f */
 
   /* Spotify plugin seek bar */
   --spotify-color: #1edc62; /* Default: #1edc62 */
@@ -120,6 +103,22 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
   --roleslist-columns: 3; /* Amount of columns for roles in popout | Default: 3 */
   --dark: #151515; /* Codeblocks Import | Default: #151515 */
 
+  /* Mention color */
+  --mention-color: #0fffff; /* Default: #0fffff */
+  --unread-color: rgb(0, 195, 209); /* Default: rgb(0, 195, 209) */
+  --accent: 0, 195, 209; /* This works in conjunction with "--unread-color" | Default: 0, 195, 209 */
+
+  /* Mention color in chat */
+  --mention-color-bar: #00b0f4; /* Default: #00b0f4 */
+  --mention-color-background: #00b0f41f; /* Default: #00b0f41f */
+  --mention-color-hover: #00b0f41f; /* Default: #00b0f41f */
+
+  /* Roundness of the fun stuff */
+  --avatar-radius: 0px; /* Avatar roundness | Radial Status roundness */
+  --status-radius: 8px; /* Status roundness */
+  --server-radius: 0px; /* Server icons, borders, images and other containers roundness */
+  --role-circle: 5px; /* Circles next to role names (Size not roundness) */
+
   /* Toggleable variables */
   --Discord-Watermark: flex; /* flex = ON, none = OFF */
   --Chat-GIF-Button: none; /* flex = ON, none = OFF */
@@ -129,6 +128,7 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
   --Home-Discovery-Channel: flex; /* flex = ON, none = OFF */
   --Context-Menu-Emoji-Toolbar: none; /* flex = ON, none = OFF */
   --Text-Channels-Capital-Letter: capitalize; /* capitalize, none */
+  --Popout-Send-Message-Container: block; /* block = ON, none = OFF */
 
   /* Radial Status */
   --rs-small-spacing: 0px;
@@ -152,14 +152,15 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 </details>
 
 <details>
-  <summary >⌛ Write-up</summary>
+  <summary align="center">⌛ Write-up</summary>
   <br>
 
-> **This is my first discord theme. I’m still "new" to all this CSS stuff; I only jumped into it late last year and have slowly been changing my theme over the past few months. I gradually got more comfortable with CSS and updated + fixed my theme for public use/testing. Nyria's themes gave me a lot of inspiration, and you'll 100% see what I mean if you use this.**
----
-> **The people in the screenshots are not me, and I've blurred stuff as I don't want friends to get spammed and or added. moreover, I'd prefer it if people didn't know what server(s) I'm in for obvious reasons, and I'm a relatively private person cause I am clapped.**
----
-> **I'll update this as often as I can; however, I do not use canary version of discord, nor am I some mastermind that can instantly fix/add stuff, so the updates may take a while to push if they change containers etc. on that note, I hope you enjoy the theme, and if you encounter any issues, bugs or want me to attempt to add support for a plugin you use, please tell me. Trying to learn basic CSS to the best of my ability.**
----
+> ========================================================================  
+**This is my first discord theme. I’m still "new" to all this CSS stuff; I only jumped into it late 2021 and have slowly been updating my theme over the past few months. I gradually got more comfortable with CSS and updated + fixed my theme for public use/testing. Nyria's themes gave me a lot of inspiration, and you'll 100% see what I mean if you use this.**  
+========================================================================  
+> **The people in the screenshots are not me, and I've blurred stuff as I don't want friends to get spammed and or added. moreover, I'd prefer it if people didn't know what server(s) I'm in for obvious reasons, and I'm a relatively private person cause I am clapped.**  
+========================================================================  
+> **I'll update this as often as I can; however, I do not use the canary version of discord, nor am I some mastermind that can instantly fix/add stuff, so the updates may take a while to push if they change containers etc. on that note, I hope you enjoy the theme, and if you encounter any issues, bugs or want me to attempt to add support for a plugin you use, please tell me. Trying to learn basic CSS to the best of my ability.**  
+========================================================================  
 
 </details>
