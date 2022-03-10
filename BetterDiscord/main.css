@@ -10,6 +10,9 @@
 /* Context menu icons when right clicking a message (removes the icons on the right) */
 #message-pin > div.iconContainer-1-SsTR > svg, #message-copy-link > div.iconContainer-1-SsTR > svg, #message-reply > div.iconContainer-1-SsTR > svg, #message-thread > div.iconContainer-1-SsTR > svg, #message-tts > div.iconContainer-1-SsTR > svg, #message-delete > div.iconContainer-1-SsTR > svg, #user-context-devmode-copy-id > div.iconContainer-1-SsTR > svg, #message-edit > div.iconContainer-1-SsTR, #message-mark-unread > div.iconContainer-1-SsTR > svg, #channel-context-devmode-copy-id > div.iconContainer-1-SsTR, #message-reactions > div.iconContainer-1-SsTR, #guild-context-devmode-copy-id > div.iconContainer-1-SsTR > svg, #message-devmode-copy-id > div.iconContainer-1-SsTR {display: none;}
 
+/* Temp */
+.submenu-1apzyU .item-1OdjEX {flex-direction: inherit !important;}
+
 /*
 ====================================================================================
                   Container, pills, groups
@@ -1113,7 +1116,7 @@
 
 /* ChannelTabs Plugin | To fix badges remove "!important" from "height: var(--channelTabs-tabHeight) !important" in the plugin.js */
 .channelTabs-mentionBadge, .channelTabs-unreadBadge, .channelTabs-favGroup-content, .channelTabs-favGroupBtn, .channelTabs-fav, .channelTabs-tab {border-radius: var(--server-radius) !important;}
-.channelTabs-favIcon.channelTabs-noneIcon, .channelTabs-tabIcon.channelTabs-noneIcon {border-radius: var(--avatar-radius) !important;}
+.channelTabs-favIcon.channelTabs-noneIcon, .channelTabs-tabIcon.channelTabs-noneIcon, .channelTabs-favIcon.channelTabs-doNotDisturbIcon, .channelTabs-favIcon.channelTabs-idleIcon, .channelTabs-favIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-doNotDisturbIcon, .channelTabs-tabIcon.channelTabs-idleIcon {border-radius: var(--avatar-radius) !important;}
 .channelTabs-tabContainer, .channelTabs-favContainer {padding: 0 0 0px 0px !important;}
 .channelTabs-gridContainer {margin-left: 2px !important;  height: 33px !important;}
 .channelTabs-tab.channelTabs-selected {
@@ -1722,8 +1725,8 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 }
 
 /* Time Out container */
-.selectorButtonSelected-1VZ6hz {background-color: var(--background-accent) !important;}
-.theme-dark .item-2OyinQ {border-radius: var(--server-radius);}
+.selectorButton-1EQtQx:hover, .selectorButtonSelected-1VZ6hz {background-color: var(--brand-experiment) !important;}
+.theme-dark .item-2OyinQ {border-radius: var(--server-radius); background: var(--background-primary);}
 
 /* Friends/home "Online" "All" "Pending" "Blocked" container */
 .tabBar-ra-EuL .badge-3wMLmL {background-color: var(--background-accent); border-radius: var(--server-radius); margin-left: 6px;}
@@ -3100,7 +3103,10 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .markDash-yk2kJ- { height: 22px;}
 
 /* Fix enable community issue */
+
 .sparkles-fvfHK0 { z-index: unset;}
+/* Ring/border/shadow around a container when you use left/right keys */
+.keyboard-mode .ring-370dIp {border-radius: 0px !important; box-shadow: 0 0 0 4px var(--unread-color);}
 
 /* Token thing */
 .theme-dark .contentWarningPopout-WKdbDG { background-color: var(--background-primary); box-shadow: none;}
