@@ -83,22 +83,25 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
   <br>
         
 ```css
+/*
 \==================================================================================\
-\                                 Optional Variables                               \
+\                                  Other Variables                                 \
 \==================================================================================\
 */
 
 :root {
-  /* -- Others settings -- */
-
-  /* Roundness of the fun stuff */
-  --avatar-radius: 0px; /* Avatar roundness | Radial Status roundness */
-  --status-radius: 8px; /* Status roundness */
-  --server-radius: 0px; /* Server icons, borders, images and other containers roundness */
-  --role-circle: 5px; /* Circles next to role names (Size not roundness) */
-
   /* Home Icon Image */
   --Home-Image-Icon: url("https://i.ibb.co/k4mXsGW/Mary-Shaw.png"); /* Default: https://i.ibb.co/k4mXsGW/Mary-Shaw.png | Free Upload Site: https://imgbb.com */
+
+  /* Spotify plugin seek bar */
+  --spotify-color: #1edc62; /* Default: #1edc62 */
+
+  /* Tooltips */
+  --tooltips: block; /* Set it to "none" if you don't want it | Default: block */
+
+  /* Other */
+  --roleslist-columns: 3; /* Amount of columns for roles in popout | Default: 3 */
+  --dark: #151515; /* Codeblocks Import | Default: #151515 */
 
   /* Mention color */
   --mention-color: #0fffff; /* Default: #0fffff */
@@ -110,15 +113,11 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
   --mention-color-background: #00b0f41f; /* Default: #00b0f41f */
   --mention-color-hover: #00b0f41f; /* Default: #00b0f41f */
 
-  /* Spotify plugin seek bar */
-  --spotify-color: #1edc62; /* Default: #1edc62 */
-
-  /* Tooltips */
-  --tooltips: block; /* Set it to "none" if you don't want it | Default: block */
-
-  /* Other */
-  --roleslist-columns: 3; /* Amount of columns for roles in popout | Default: 3 */
-  --dark: #151515; /* Codeblocks Import | Default: #151515 */
+  /* Roundness of the fun stuff */
+  --avatar-radius: 0px; /* Avatar roundness | Radial Status roundness */
+  --status-radius: 8px; /* Status roundness */
+  --server-radius: 0px; /* Server icons, borders, images and other containers roundness */
+  --role-circle: 5px; /* Circles next to role names (Size not roundness) */
 
   /* Toggleable variables */
   --Discord-Watermark: flex; /* flex = ON, none = OFF */
