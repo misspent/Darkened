@@ -1,5 +1,5 @@
 /**
-* @name 1. Darkened
+* @name Darkened
 * @author Noteless
 * @description Darkness is a gift; embrace it.
 * @authorLink https://github.com/misspent/Darkened
@@ -69,6 +69,7 @@
   --Home-Discovery-Channel: flex; /* flex = ON, none = OFF */
   --Context-Menu-Emoji-Toolbar: none; /* flex = ON, none = OFF */
   --Text-Channels-Capital-Letter: capitalize; /* capitalize, none */
+  --Popout-Send-Message-Container: block; /* block = ON, none = OFF */
 
   /* Radial Status */
   --rs-small-spacing: 0px;
