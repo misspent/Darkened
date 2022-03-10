@@ -129,6 +129,7 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
   --Home-Discovery-Channel: flex; /* flex = ON, none = OFF */
   --Context-Menu-Emoji-Toolbar: none; /* flex = ON, none = OFF */
   --Text-Channels-Capital-Letter: capitalize; /* capitalize, none */
+  --Popout-Send-Message-Container: block; /* block = ON, none = OFF */
 
   /* Radial Status */
   --rs-small-spacing: 0px;
