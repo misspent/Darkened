@@ -562,7 +562,7 @@
 }
 /* PINNED MESSAGES WIDTH */
 .messagesPopoutWrap-3zryHW{width: 620px;
-/* SEARCH MESSAGES WIDTH */}
+  /* SEARCH MESSAGES WIDTH */}
 .searchResultsWrap-5RVOkx {width: 555px;}
 
 /* Change the "Home Icon" to any image you want (Remove the default home icon) */
@@ -2717,9 +2717,9 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 /* Notice bar ("Save Changes/Reset" container when disabling or enabling something) notification */
 .theme-dark .elevationHigh-28Pty4 {border-radius: var(--server-radius);}
 .noticeRegion-qjyUVg {
-    margin-left: 20%;
-    max-width: 1400px;
-    right: 0;
+  margin-left: 20%;
+  max-width: 1400px;
+  right: 0;
 }
 .container-20TyK0 {
   background: var(--background-tertiary) !important;
