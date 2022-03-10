@@ -687,6 +687,7 @@
 #user-context.focused-3qFvc8#user-context-add-friend, .colorDefault-CDqZdO.focused-3qFvc8#user-context-betterfriendlist-favorize-friend, .colorDefault-CDqZdO.focused-3qFvc8#user-context-betterfriendlist-hide-friend {background: linear-gradient(90deg, #00ccff8e, #00ccffea);}
 #user-context .focused-3qFvc8#user-context-call, .focused-3qFvc8[id*=user-context-spotify-play-], .focused-3qFvc8[id*=user-context-spotify-sync-] {background: linear-gradient(90deg, #1DB9548e, #1DB954) !important;}
 #user-context .focused-3qFvc8#user-context-apps {background: linear-gradient(90deg, #aa03f88e, #aa03f8f8);}
+#user-context .focused-3qFvc8#user-context-block, .focused-3qFvc8#user-context-timeout, .focused-3qFvc8#user-context-removetimeout, .focused-3qFvc8#user-context-kick, .focused-3qFvc8#user-context-ban, .focused-3qFvc8#user-context-mute, .focused-3qFvc8#user-context-disable-video, .focused-3qFvc8#user-context-deafen, .focused-3qFvc8#user-context-remove-friend, .focused-3qFvc8#user-context-close-dm, .focused-3qFvc8#user-context-mute-channel {background: linear-gradient(90deg, #aa0e0e, #f04747) !important;}
 /* Message Context background */
 .colorDefault-CDqZdO.focused-3qFvc8#message-add-reaction, .colorDefault-CDqZdO.focused-3qFvc8#message-reactions, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-personalpins-pin-note {background: linear-gradient(90deg, #daa5208e, #daa520);}
 .colorDefault-CDqZdO.focused-3qFvc8#message-pin, .colorDefault-CDqZdO.focused-3qFvc8#message-actions-pin {background: linear-gradient(90deg, #87ceeb8e, #87ceeb);}

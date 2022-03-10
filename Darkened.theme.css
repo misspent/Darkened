@@ -65,7 +65,7 @@
   --Chat-Sticker-Button: none; /* flex = ON, none = OFF */
   --Home-Nitro-Channel: flex; /* flex = ON, none = OFF */
   --Home-Discovery-Channel: flex; /* flex = ON, none = OFF */
-  --Context-Menu-Emoji-Toolbar: none; /* flex = ON, none = OFF */
+  --Context-Menu-Emoji-Toolbar: none; /* grid = ON, none = OFF */
   --Text-Channels-Capital-Letter: capitalize; /* capitalize, none */
   --Popout-Send-Message-Container: block; /* block = ON, none = OFF */
 
