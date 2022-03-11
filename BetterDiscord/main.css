@@ -1114,29 +1114,6 @@
   border-radius: var(--server-radius) !important;
 }
 
-/* ChannelTabs Plugin | To fix badges remove "!important" from "height: var(--channelTabs-tabHeight) !important" in the plugin.js */
-.channelTabs-mentionBadge, .channelTabs-unreadBadge, .channelTabs-favGroup-content, .channelTabs-favGroupBtn, .channelTabs-fav, .channelTabs-tab {border-radius: var(--server-radius) !important;}
-.channelTabs-favIcon.channelTabs-noneIcon, .channelTabs-tabIcon.channelTabs-noneIcon, .channelTabs-favIcon.channelTabs-doNotDisturbIcon, .channelTabs-favIcon.channelTabs-idleIcon, .channelTabs-favIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-doNotDisturbIcon, .channelTabs-tabIcon.channelTabs-idleIcon {border-radius: var(--avatar-radius) !important;}
-.channelTabs-tabContainer, .channelTabs-favContainer {padding: 0 0 0px 0px !important;}
-.channelTabs-gridContainer {margin-left: 2px !important;  height: 33px !important;}
-.channelTabs-tab.channelTabs-selected {
-  background: var(--background-modifier-selected) !important;
-  color: unset !important;
-  padding: 5px 0px 5px 0px !important;
-}
-.channelTabs-typingBadge {
-  border-radius: var(--server-radius) !important;
-  margin-bottom: 5px !important;
-  margin-right: 6px !important;
-}
-.channelTabs-tabContainer {border-bottom: 1px solid var(--background-primary) !important; border-top: 1px solid var(--border-color) !important;}
-.channelTabs-tab {padding: 5px 0px 5px 0px !important; border-right: 1px solid var(--background-primary) !important;}
-#channelTabs-settingsMenu {border-left: 1px solid var(--background-primary) !important;}
-.channelTabs-fav{border-right: 1px solid var(--background-primary) !important;}
-
-/* Better Spotify plugin seek bar */
-.container-6sXIoE { border-bottom: none !important; margin-bottom: 0 !important; border-top: 1px solid var(--border-color);border-right: 1px solid var(--border-color);}.container-6sXIoE .timeline-UWmgAx { position: relative !important;}.container-6sXIoE .bar-g2ZMIm { position: absolute !important; bottom: -4px !important; left: -8px !important; width: 240px !important; height: 51px !important;margin: 0 !important;-webkit-mask-image: linear-gradient(0.25turn, #0008, #0002) !important;mask-image: linear-gradient(0.25turn, #0008, #0002) !important;border-radius: 0 !important;}.barFill-Dhkah7 { border-radius: 0 !important;}.container-6sXIoE.maximized-vv2Wr0 .bar-g2ZMIm { height: 88px !important;}.container-6sXIoE .button-12Fmur:hover { background-color: transparent !important;}.barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color) !important;}.inner-WRV6k5 { z-index: 1 !important;}.barText-lmqc5O, .grabber-7sd5f5 { display: none !important;} .coverWrapper-YAplwJ, .cover-SwJ-ck, .maximizer-RVu85p {border-radius: var(--avatar-radius) !important;}
-
 /*
 ====================================================================================================================
                                      Settings Custom CSS
