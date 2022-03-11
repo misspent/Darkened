@@ -1,3 +1,15 @@
+/* ChannelTabs Plugin | To fix badges remove "!important" from "height: var(--channelTabs-tabHeight) !important" in the plugin.js */
+.channelTabs-mentionBadge, .channelTabs-unreadBadge, .channelTabs-favGroup-content, .channelTabs-favGroupBtn, .channelTabs-fav, .channelTabs-tab {border-radius: var(--server-radius) !important;}
+.channelTabs-favIcon.channelTabs-noneIcon, .channelTabs-tabIcon.channelTabs-noneIcon, .channelTabs-favIcon.channelTabs-doNotDisturbIcon, .channelTabs-favIcon.channelTabs-idleIcon, .channelTabs-favIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-doNotDisturbIcon, .channelTabs-tabIcon.channelTabs-idleIcon, .channelTabs-tabIcon.channelTabs-offlineIcon {border-radius: var(--avatar-radius) !important;}
+.channelTabs-tabContainer {border-bottom: 1px solid var(--background-primary) !important; border-top: 1px solid var(--border-color) !important;}
+.channelTabs-gridContainer {margin-left: 2px !important;  height: 33px !important;}
+.channelTabs-typingBadge {
+  border-radius: var(--server-radius) !important;
+  margin-bottom: 5px !important;
+  margin-right: 6px !important;
+}
+
+/* Disease's stuff */
 .channelTabs-tabContainer,
 .platform-osx .wrapper-1_HaEi {
   margin-top: 0;
@@ -22,6 +34,7 @@
   display: flex;
   align-items: center;
   -webkit-app-region: drag;
+  padding: 0 0 0px 0px !important;
 
   /* remove */
   position: unset !important;
@@ -42,6 +55,7 @@
 #channelTabs-settingsMenu {
   width: 20px !important;
   height: 100% !important;
+  border-left: 1px solid var(--background-primary) !important;
 }
 
 .channelTabs-tab,
@@ -63,12 +77,15 @@
 
 .channelTabs-tab {
   flex: 0 1 var(--channelTab-width);
+  padding: 5px 0px 5px 0px !important;
+  border-right: 1px solid var(--background-primary) !important;
 }
 
 .channelTabs-fav {
   flex: 0 1 1;
   max-width: var(--channelTab-width);
   padding: 3px 0px 3px 0px !important;
+  border-right: 1px solid var(--background-primary) !important;
 }
 
 .channelTabs-tab:not(.channelTabs-selected):hover,
@@ -78,6 +95,7 @@
 
 .channelTabs-tab.channelTabs-selected {
   background: var(--background-modifier-selected) !important;
+  padding: 5px 0px 5px 0px !important;
 
   /* remove */
   color: unset !important;
