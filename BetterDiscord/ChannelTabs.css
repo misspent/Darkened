@@ -1,6 +1,6 @@
 /* ChannelTabs Plugin | To fix badges remove "!important" from "height: var(--channelTabs-tabHeight) !important" in the plugin.js */
 .channelTabs-mentionBadge, .channelTabs-unreadBadge, .channelTabs-favGroup-content, .channelTabs-favGroupBtn, .channelTabs-fav, .channelTabs-tab {border-radius: var(--server-radius) !important;}
-.channelTabs-favIcon.channelTabs-noneIcon, .channelTabs-tabIcon.channelTabs-noneIcon, .channelTabs-favIcon.channelTabs-doNotDisturbIcon, .channelTabs-favIcon.channelTabs-idleIcon, .channelTabs-favIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-doNotDisturbIcon, .channelTabs-tabIcon.channelTabs-idleIcon, .channelTabs-tabIcon.channelTabs-offlineIcon {border-radius: var(--avatar-radius) !important;}
+.channelTabs-favIcon.channelTabs-noneIcon, .channelTabs-tabIcon.channelTabs-noneIcon, .channelTabs-favIcon.channelTabs-doNotDisturbIcon, .channelTabs-favIcon.channelTabs-idleIcon, .channelTabs-favIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-doNotDisturbIcon, .channelTabs-tabIcon.channelTabs-idleIcon, .channelTabs-tabIcon.channelTabs-offlineIcon, .channelTabs-favIcon.channelTabs-offlineIcon {border-radius: var(--avatar-radius) !important;}
 .channelTabs-tabContainer {border-bottom: 1px solid var(--background-primary) !important; border-top: 1px solid var(--border-color) !important;}
 .channelTabs-gridContainer {margin-left: 2px !important;  height: 33px !important;}
 .channelTabs-typingBadge {
