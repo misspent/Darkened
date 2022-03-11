@@ -37,6 +37,7 @@
 * **[XYZenix](https://github.com/XYZenix)**'s DragNDrop Modals.
 * **[Gibbu & Tropix126](https://github.com/DiscordStyles)**'s Radial Status.
 * **[Xhylo](https://github.com/Xhylo/ChannelIcons)**'s Channel Icons -> Ported + additions & fixes.
+* **[maenDisease](https://github.com/maenDisease)**'s ChannelTabsLined -> Ported + additions.
 * **[Nyria](https://github.com/NYRI4)**'s Discolored & no-scrollbars Imports + Used Comfy theme as a base.
 * A friend who shall not be named.
 * Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision, Couve & others. 
