@@ -1643,7 +1643,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   background-color: #151515;
   opacity: 1;
   margin-right: 45px;
-  margin-bottom: 4px !important;
+  margin-bottom: -7px !important;
   margin-left: -1px !important;
   bottom: -5px;
   padding: 0;
