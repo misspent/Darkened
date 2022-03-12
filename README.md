@@ -8,7 +8,8 @@
 </p>
 
 ### Main window + User popout
-![1  Darkened Discord Theme Main Window version 3  Edited](https://user-images.githubusercontent.com/78914154/157456517-99410bc6-ff1a-45e1-b55a-6c2401fcdced.png)
+![1  Darkened Discord Theme Main Window version 3  Edited](https://user-images.githubusercontent.com/78914154/157994813-769665dd-fad0-4a05-b0f9-79a71e77223b.png)
+
 
 <h1 align="center">📌 Information</h1>
 
