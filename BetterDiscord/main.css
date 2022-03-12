@@ -296,7 +296,7 @@
 .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {background: rgb(var(--accent), 0.3); border-radius: var(--server-radius);}
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {background: rgb(var(--accent), 0.6); border-radius: var(--server-radius);}
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {background: rgb(var(--accent), 0.3); border-radius: var(--server-radius);}
-.theme-dark .lookLink-15mFoz.colorTransparent-13Bvvi, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .secondaryButton-rBY2Kw.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeXlarge-2TyITf.grow-2sR_-F {background-color: #ed4245;}
+.theme-dark .lookLink-15mFoz.colorTransparent-13Bvvi, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .secondaryButton-rBY2Kw.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeXlarge-2TyITf.grow-2sR_-F {background-color: #ed4245; border-radius: var(--server-radius);}
 /* Block button */
 [id*="chat-messages-"] > div.size16-rrJ6ag.description-22d6ux > div > button.action-1R6ERA.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeTiny-3y2SSK.grow-2sR_-F
 {background-color: hsl(359deg, calc(var(--saturation-factor, 1) * 82.6%), 40%);}
@@ -1263,10 +1263,10 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .connectionHeader-2rV1ze, .connectionHeader-Ixbb1s {
   padding: 15px;
   background: var(--background-modifier-selected);
-  border-radius: var(--server-radius);
   border-top: 1px solid #17264b;
   border-left: 1px solid #17264b;
   border-right: 1px solid #17264b;
+  border-bottom-left-radius: 0px !important; border-bottom-right-radius: 0px !important; border-radius: var(--server-radius);
 }
 .connectionOptionsWrapper-1ipqUo, .connectionOptionsWrapper-3aVWcp {
   padding: 20px 10px 0;
@@ -1274,6 +1274,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   border-left: 1px solid #202020;
   border-right: 1px solid #202020;
   border-bottom: 1px solid #202020;
+  border-top-left-radius: 0px !important; border-top-right-radius: 0px !important; border-radius: var(--server-radius);
 }
 
 /* Settings text/box at the top of settings */
@@ -2113,7 +2114,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 /* Typing indicator + Slow mode is enabled | Chat bar | Better Formatting Redux */
 .typing-2J1mQU {
   top: -22px !important;
-  left: 16px;
+  left: 15px;
   right: 40px;
   bottom: 5px;
 }
@@ -2136,7 +2137,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .bf-toolbar .format, .bf-toolbar:hover {align-items: flex-end !important;}
 .bf-toolbar {padding: 10px 20px 15px 5px !important; border-radius: var(--server-radius) !important;}
 .bf-toolbar .format:hover {background: transparent !important;}
-.managedReactiveScroller-1lEEh3 {margin-bottom: -15px !important;}
+.scrollerSpacer-3AqkT9 {height: 0px;}
 .scrollableContainer-15eg7h {border-radius: 0px;}
 
 /* Stickers Button */
