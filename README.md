@@ -77,8 +77,9 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 
 <h1 align="center">📜 Extra(s)</h1>
 
-→ Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.  
-→ The pictures don't fully show it, so I'll tell you here. There are borders around the essential containers; however, you can remove them by changing its variable to "none"
+➜ You'll need [BetterDiscord](https://betterdiscord.app/) for this to work properly.  
+➜ Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.  
+➜ The pictures don't fully show it, so I'll tell you here. There are borders around the essential containers; however, you can remove them by changing its variable to "none"
 
 <details>
   <summary align="center">⌨ Variables</summary>
