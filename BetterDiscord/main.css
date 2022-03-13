@@ -531,10 +531,12 @@
   grid-column: 1/5;
   margin: auto 3px !important;
   border-radius: var(--server-radius);
+  padding-left: 12%;
 }
 :root #status-picker > .scroller-1bVxF5 #status-picker-custom-status .customEmojiPlaceholder-3mRJqA {
   background-image: url("https://i.imgur.com/YOshExa.png");
 }
+
 :root #status-picker > .scroller-1bVxF5 #status-picker-custom-status .status-3TYC5W {
   display: block;
 }
