@@ -56,6 +56,7 @@
   --avatar-radius: 0px; /* Avatar roundness | Radial Status roundness */
   --status-radius: 8px; /* Status roundness */
   --server-radius: 0px; /* Server icons, borders, images and other containers roundness */
+  --switch-radius: 0; /* Switches icon radius (enabled & disabled) | If --server-radius is "8" set this to "9" */
   --role-circle: 5px; /* Circles next to role names (Size not roundness) */
 
   /* Toggleable variables */
