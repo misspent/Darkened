@@ -489,7 +489,7 @@
   bottom: 58px;
   left: 77px;
   width: 230px;
-  height: 90px;
+  height: 127px;
   background: var(--background-primary);
   border-radius: var(--server-radius);
   border: 1px solid var(--border-color);
@@ -533,11 +533,21 @@
   border-radius: var(--server-radius);
   padding-left: 12%;
 }
+:root #status-picker > .scroller-1bVxF5 #status-picker-switch-account {
+  padding-left: 19%;
+}
+#status-picker .item-1OdjEX:not(#status-picker-custom-status)[id*="status-picker-switch-account--"] {
+  padding-left: 8px;
+  padding-right: 8px;
+}
 :root #status-picker > .scroller-1bVxF5 #status-picker-custom-status .customEmojiPlaceholder-3mRJqA {
   background-image: url("https://i.imgur.com/YOshExa.png");
 }
 
 :root #status-picker > .scroller-1bVxF5 #status-picker-custom-status .status-3TYC5W {
+  display: block;
+}
+:root #status-picker > .scroller-1bVxF5 #status-picker-switch-account .status-3TYC5W {
   display: block;
 }
 :root #status-picker > .scroller-1bVxF5 .separator-1So4YB, :root #status-picker > .scroller-1bVxF5 .status-3TYC5W,
@@ -745,6 +755,7 @@
 :root #status-picker > .scroller-1bVxF5 #status-picker-dnd.focused-3qFvc8  {background: linear-gradient(90deg, #f047478e, #f04747);}
 :root #status-picker > .scroller-1bVxF5 #status-picker-invisible.focused-3qFvc8  {background: linear-gradient(90deg, #747f8d8e, #747f8d);}
 :root #status-picker > .scroller-1bVxF5 #status-picker-custom-status.focused-3qFvc8  {background: linear-gradient(90deg, #ffcd4d3d, #ffcd4d8e);}
+:root #status-picker > .scroller-1bVxF5 #status-picker-switch-account.focused-3qFvc8 {background: linear-gradient(90deg, #6e85d38e, #6e85d3);}
 /* Server settings dropdown */
 /* Mark As Read */
 #guild-header-popout-mark-guild-read:hover {background: linear-gradient(90deg, #1abc9c8e, #1abc9c) !important;}
