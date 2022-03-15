@@ -1030,22 +1030,6 @@
 .defaultColor-2cKwKo {border: 1px solid var(--background-modifier-accent); padding: 10px; text-align: center; background: var(--popout-background-main); border-radius: var(--server-radius);}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div > div > div > main > div.profileCustomizationSection-2OOT4p > div.children-1xdcWE > div.baseLayout-8AMrwn > div:nth-child(1) > div:nth-child(1) > div > input {background: var(--background-modifier-hover); border-radius: var(--server-radius);}
 
-/* Date, month & year container message (example: "6 February 2022") */
-:root .divider-2rZFJK {height: unset;}
-.group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u[role="separator"] {
-  border: 1px solid var(--border-color);
-  background: var(--background-secondary);
-  border-radius: var(--server-radius);
-}
-:root .divider-2rZFJK .content-3spvdd {
-  background: var(--background-tertiary);
-  border: 1px solid var(--border-color);
-  padding: 10px;
-  text-align: center;
-  border-radius: var(--server-radius);
-  height: unset;
-}
-
 /* Pin & call containers (when you pin something and call someone it tells you "started call/pinned message") */
 .content-vSHmMD {background-color: var(--background-secondary); padding: 8px;}
 .iconContainer-2rPbqG {padding-bottom: 12px; padding-top: 10px;}
@@ -1663,7 +1647,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   background-color: #151515;
   opacity: 1;
   margin-right: 45px;
-  margin-bottom: -7px !important;
+  margin-bottom: -15px !important;
   margin-left: -1px !important;
   bottom: -5px;
   padding: 0;
