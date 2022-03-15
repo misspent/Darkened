@@ -17,8 +17,8 @@
 - Go into discord's settings
 - Go to your `"Themes"`
 - Click on `"Open Themes Folder"` button (Above the search bar)
-- Move the `.theme.css` file into that folder (It should load it)
-- Click the checkbox in the top-right corner of the theme in discord to enable it
+- Download and move the **[theme.css](https://github.com/misspent/Darkened/blob/main/BetterDiscord/main.css)** file into that folder
+- Click the checkbox in the top-right corner of the theme container in discord to enable it
 ### ✅ Features
 * ✔️ Good ol' darkness
 * ✔️ Optional Scrollbars
@@ -77,9 +77,9 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 
 <h1 align="center">📜 Extra(s)</h1>
 
-➜ You'll need [BetterDiscord](https://betterdiscord.app/) for this to work properly.  
+➜ You'll need [BetterDiscord](https://betterdiscord.app/) for this to work.  
 ➜ Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.  
-➜ The pictures don't fully show it, so I'll tell you here. There are borders around the essential containers; however, you can remove them by changing its variable to "none"
+➜ The pictures doesn't fully show it, so I'll tell you here. There are borders around the essential containers; however, you can remove them by changing its variable to "none"
 
 <details>
   <summary align="center">⌨ Variables</summary>
