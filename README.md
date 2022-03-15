@@ -71,9 +71,9 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 * 3rd: https://primer.style/octicons/
 * Useful: https://superdevresources.com/free-svg-icons/
 
-| Channel Icons | + Channel Icons | ++ Channel Icons |
+| Channel Icons | Channel Icons + | Channel Icons ++ |
 | :---------: | :---------: | :---------: |
-| <img width=300 src="https://user-images.githubusercontent.com/78914154/158280248-8a64c0fa-66a1-4c63-a61c-84e339930033.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/158280290-1fb1395f-b286-492a-8efe-c4705e3f62b9.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/158280276-09f49d6f-5608-472e-b1f9-4724fd886e5f.png"></img>  |
+| <img width=300 src="https://user-images.githubusercontent.com/78914154/158280248-8a64c0fa-66a1-4c63-a61c-84e339930033.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/158280290-1fb1395f-b286-492a-8efe-c4705e3f62b9.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/158356404-9605f0ac-c9b9-42be-bc9c-075baa05dc14.png"></img>  |
 
 <h1 align="center">📜 Extra(s)</h1>
 
