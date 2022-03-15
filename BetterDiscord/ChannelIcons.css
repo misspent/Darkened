@@ -843,21 +843,18 @@
 /* Meme Channels */
 .mainContent-20q_Hp[aria-label*=meme][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2),
 .mainContent-20q_Hp[aria-label*=meme][aria-label$="text channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2) {
-   transform: translate(1px, 14px) !important;
+   transform: translate(-1px, 13px) !important;
 }
-
 .mainContent-20q_Hp[aria-label*=meme][aria-label$="text channel)"]> div> svg> path:first-child {
    d: path("M21.5957 0H2.39951C1.07499 0 0 1.07379 0 2.39952V16.7966C0 18.1212 1.07499 19.1962 2.39951 19.1962H3.59927V23.9952L8.39833 19.1962H21.5957C22.9215 19.1962 23.9952 18.1212 23.9952 16.7966V2.39952C23.9952 1.07379 22.9215 0 21.5957 0ZM15.5969 4.4991C16.4236 4.4991 17.0966 5.17097 17.0966 5.9988C17.0966 6.82663 16.4247 7.4985 15.5969 7.4985C14.7703 7.4985 14.0972 6.82663 14.0972 5.9988C14.0972 5.17097 14.7703 4.4991 15.5969 4.4991ZM8.39833 4.4991C9.22496 4.4991 9.89803 5.17097 9.89803 5.9988C9.89803 6.82663 9.22496 7.4985 8.39833 7.4985C7.57169 7.4985 6.89862 6.82663 6.89862 5.9988C6.89862 5.17097 7.57169 4.4991 8.39833 4.4991ZM11.9976 14.3971C9.5381 14.3971 7.43132 12.9142 6.5051 10.7978H17.4901C16.5639 12.9142 14.4571 14.3971 11.9976 14.3971Z");
-   transform: scale(1) !important;
+   transform: scale(0.9) !important;
 }
-
 .mainContent-20q_Hp[aria-label*=meme][aria-label$="text channel)"]> div> svg[viewBox="0 0 40 40"]> path {
    transform: scale(1.7) !important;
 }
-
 .mainContent-20q_Hp[aria-label*=meme][aria-label$="announcement channel)"]> div> svg> path {
    d: path("M21.5957 0H2.39951C1.07499 0 0 1.07379 0 2.39952V16.7966C0 18.1212 1.07499 19.1962 2.39951 19.1962H3.59927V23.9952L8.39833 19.1962H21.5957C22.9215 19.1962 23.9952 18.1212 23.9952 16.7966V2.39952C23.9952 1.07379 22.9215 0 21.5957 0ZM15.5969 4.4991C16.4236 4.4991 17.0966 5.17097 17.0966 5.9988C17.0966 6.82663 16.4247 7.4985 15.5969 7.4985C14.7703 7.4985 14.0972 6.82663 14.0972 5.9988C14.0972 5.17097 14.7703 4.4991 15.5969 4.4991ZM8.39833 4.4991C9.22496 4.4991 9.89803 5.17097 9.89803 5.9988C9.89803 6.82663 9.22496 7.4985 8.39833 7.4985C7.57169 7.4985 6.89862 6.82663 6.89862 5.9988C6.89862 5.17097 7.57169 4.4991 8.39833 4.4991ZM11.9976 14.3971C9.5381 14.3971 7.43132 12.9142 6.5051 10.7978H17.4901C16.5639 12.9142 14.4571 14.3971 11.9976 14.3971Z");
-   transform: scale(1) !important;
+   transform: scale(0.9) !important;
 }
 
 /* Bot Channels */
@@ -1842,18 +1839,18 @@
 }
 .mainContent-20q_Hp[aria-label*=pics][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2),
 .mainContent-20q_Hp[aria-label*=pics][aria-label$="text channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2) {
-   transform: translateY(14px) !important;
+   transform: translate(-0.5px, 13px) !important;
 }
 .mainContent-20q_Hp[aria-label*=pics][aria-label$="text channel)"]> div> svg> path:first-child {
    d: path("M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z");
-   transform: scale(1.4) !important;
+   transform: scale(1.3) !important;
 }
 .mainContent-20q_Hp[aria-label*=pics][aria-label$="text channel)"]> div> svg[viewBox="0 0 40 40"]> path {
    transform: scale(1.7) !important;
 }
 .mainContent-20q_Hp[aria-label*=pics][aria-label$="announcement channel)"]> div> svg> path {
    d: path("M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z");
-   transform: scale(1.4) !important;
+   transform: scale(1.3) !important;
 }
 
 .mainContent-20q_Hp[aria-label*=picture][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:first-child,
@@ -1862,16 +1859,16 @@
 }
 .mainContent-20q_Hp[aria-label*=picture][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2),
 .mainContent-20q_Hp[aria-label*=picture][aria-label$="text channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2) {
-   transform: translateY(14px) !important;
+   transform: translate(0px, 13px) !important;
 }
 .mainContent-20q_Hp[aria-label*=picture][aria-label$="text channel)"]> div> svg> path:first-child {
-   d: path("M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z");
+   d: path("M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z");
    transform: scale(1.4) !important;
 }
 .mainContent-20q_Hp[aria-label*=picture][aria-label$="text channel)"]> div> svg[viewBox="0 0 40 40"]> path {
    transform: scale(1.7) !important;
 }
 .mainContent-20q_Hp[aria-label*=picture][aria-label$="announcement channel)"]> div> svg> path {
-   d: path("M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z");
+   d: path("M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z");
    transform: scale(1.4) !important;
 }

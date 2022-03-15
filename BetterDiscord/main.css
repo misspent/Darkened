@@ -234,12 +234,12 @@
 /* Selected Server pill/Hover (Left of the server icon) */
 .item-2LIpTv {
   background: var(--unread-color);
-  border-radius: 3px;
+  border-radius: var(--server-radius);
   height: 10px;
   width: 10px;
 }
 .item-2LIpTv[style*="height: 40px"] {
-  border-radius: 0;
+  border-radius: var(--server-radius);
   top: 4px;
   box-shadow: none;
 }
@@ -1035,6 +1035,7 @@
 .group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u[role="separator"] {
   border: 1px solid var(--border-color);
   background: var(--background-secondary);
+  border-radius: var(--server-radius);
 }
 :root .divider-2rZFJK .content-3spvdd {
   background: var(--background-tertiary);
