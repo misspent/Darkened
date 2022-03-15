@@ -1774,7 +1774,7 @@
 }
 .mainContent-20q_Hp[aria-label*=gif][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2),
 .mainContent-20q_Hp[aria-label*=gif][aria-label$="text channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2) {
-   transform: translateY(13.5px) !important;
+   transform: translate(1px, 14px) !important;
 }
 .mainContent-20q_Hp[aria-label*=gif][aria-label$="text channel)"]> div> svg> path:first-child {
    d: path("M 2 2 C 0.895431 2 0 2.89543 0 4 V 20 C 0 21.1046 0.89543 22 2 22 H 22 C 23.1046 22 24 21.1046 24 20 V 4 C 24 2.89543 23.1046 2 22 2 H 2 Z M 9.76445 11.448 V 15.48 C 8.90045 16.044 7.88045 16.356 6.74045 16.356 C 4.11245 16.356 2.66045 14.628 2.66045 12.072 C 2.66045 9.504 4.23245 7.764 6.78845 7.764 C 7.80845 7.764 8.66045 8.004 9.32045 8.376 L 9.04445 10.164 C 8.42045 9.768 7.68845 9.456 6.83645 9.456 C 5.40845 9.456 4.71245 10.512 4.71245 12.06 C 4.71245 13.62 5.43245 14.712 6.86045 14.712 C 7.31645 14.712 7.64045 14.616 7.97645 14.448 V 12.972 H 6.42845 V 11.448 H 9.76445 Z M 11.5481 7.92 H 13.6001 V 16.2 H 11.5481 V 7.92 Z M 20.4724 7.92 V 9.636 H 17.5564 V 11.328 H 19.8604 V 13.044 H 17.5564 V 16.2 H 15.5164 V 7.92 H 20.4724 Z");
