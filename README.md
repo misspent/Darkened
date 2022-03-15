@@ -17,7 +17,7 @@
 - Go into discord's settings
 - Go to your `"Themes"`
 - Click on `"Open Themes Folder"` button (Above the search bar)
-- Download and move the **[theme.css](https://github.com/misspent/Darkened/blob/main/BetterDiscord/main.css)** file into that folder
+- Download and move the **[theme.css](https://github.com/misspent/Darkened/blob/main/Darkened.theme.css)** file into that folder
 - Click the checkbox in the top-right corner of the theme container in discord to enable it
 ### ✅ Features
 * ✔️ Good ol' darkness
