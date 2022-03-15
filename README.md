@@ -17,8 +17,8 @@
 - Go into discord's settings
 - Go to your `"Themes"`
 - Click on `"Open Themes Folder"` button (Above the search bar)
-- Move the `.theme.css` file into that folder (It should load it)
-- Click the checkbox in the top-right corner of the theme in discord to enable it
+- Download and move the **[theme.css](https://github.com/misspent/Darkened/blob/main/Darkened.theme.css)** file into that folder
+- Click the checkbox in the top-right corner of the theme container in discord to enable it
 ### ✅ Features
 * ✔️ Good ol' darkness
 * ✔️ Optional Scrollbars
@@ -73,13 +73,13 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 
 | Channel Icons | + Channel Icons | ++ Channel Icons |
 | :---------: | :---------: | :---------: |
-| <img width=300 src="https://user-images.githubusercontent.com/78914154/156762493-2becb9ee-c980-4fc8-b4b0-8667bab82151.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/156760708-4b77f747-8ef2-402b-8ecb-33409478a516.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/156760827-a29306c5-738e-4beb-b805-8b5c3b102888.png"></img>  |
+| <img width=300 src="https://user-images.githubusercontent.com/78914154/158280248-8a64c0fa-66a1-4c63-a61c-84e339930033.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/158280290-1fb1395f-b286-492a-8efe-c4705e3f62b9.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/158280276-09f49d6f-5608-472e-b1f9-4724fd886e5f.png"></img>  |
 
 <h1 align="center">📜 Extra(s)</h1>
 
-➜ You'll need [BetterDiscord](https://betterdiscord.app/) for this to work properly.  
+➜ You'll need [BetterDiscord](https://betterdiscord.app/) for this to work.  
 ➜ Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.  
-➜ The pictures don't fully show it, so I'll tell you here. There are borders around the essential containers; however, you can remove them by changing its variable to "none"
+➜ The pictures doesn't fully show it, so I'll tell you here. There are borders around the essential containers; however, you can remove them by changing its variable to "none"
 
 <details>
   <summary align="center">⌨ Variables</summary>
