@@ -73,7 +73,7 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 
 | Channel Icons | + Channel Icons | ++ Channel Icons |
 | :---------: | :---------: | :---------: |
-| <img width=300 src="https://user-images.githubusercontent.com/78914154/156762493-2becb9ee-c980-4fc8-b4b0-8667bab82151.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/156760708-4b77f747-8ef2-402b-8ecb-33409478a516.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/156760827-a29306c5-738e-4beb-b805-8b5c3b102888.png"></img>  |
+| <img width=300 src="https://user-images.githubusercontent.com/78914154/158280248-8a64c0fa-66a1-4c63-a61c-84e339930033.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/158280290-1fb1395f-b286-492a-8efe-c4705e3f62b9.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/158280276-09f49d6f-5608-472e-b1f9-4724fd886e5f.png"></img>  |
 
 <h1 align="center">📜 Extra(s)</h1>
 
