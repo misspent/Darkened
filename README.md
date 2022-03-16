@@ -31,11 +31,11 @@
 * ⭕ All Imports in main.css I deem a requirement with my theme (may change)
 ### ℹ️ Credits
 * **[xcruxiex](https://github.com/xcruxiex)**'s Friend Grid.
-* **[CreArts](https://github.com/CreArts-Community)**'s Context Icons.
 * **[LyGhT1337](https://github.com/LyGhT1337)**'s CodeBlocks.
 * **[mwittrien](https://github.com/mwittrien)**'s Setting Icons.
 * **[XYZenix](https://github.com/XYZenix)**'s DragNDrop Modals.
 * **[Gibbu & Tropix126](https://github.com/DiscordStyles)**'s Radial Status.
+* **[CorellanStoma](https://github.com/CreArts-Community/Mention-Links)**'s Mention Links & Context Icons.
 * **[Xhylo](https://github.com/Xhylo/ChannelIcons)**'s Channel Icons -> Ported + additions & fixes.
 * **[maenDisease](https://github.com/maenDisease)**'s ChannelTabsLined -> Ported + additions.
 * **[Nyria](https://github.com/NYRI4)**'s Discolored & no-scrollbars Imports + Used Comfy theme as a base.
