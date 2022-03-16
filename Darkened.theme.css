@@ -1,5 +1,5 @@
 /**
-* @name Darkened
+* @name 1.Darkened
 * @author Noteless
 * @description Darkness is a gift; embrace it.
 * @authorLink https://github.com/misspent/Darkened
@@ -17,6 +17,7 @@
 
 /* Add a "/" on the left side of the first Quotation mark to cancel out the import */
 @import "https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css"; /* scrollbars */
+@import "https://crearts-community.github.io/Mention-Links/theme.css"; /* Mention Links */
 @import "https://lyght1337.github.io/DarknessCodeBlocks/css/CodeBlocks.css"; /* Codeblocks */
 @import "https://misspent.github.io/Darkened/BetterDiscord/ChannelIcons.css"; /* Channel Icons */
 @import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"; /* Radial Status */
