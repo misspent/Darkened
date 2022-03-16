@@ -1,7 +1,8 @@
 @import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://misspent.github.io/Darkened/BetterDiscord/DragNDropModal.css");
-@import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css");
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+@import "https://crearts-community.github.io/Mention-Links/theme.css"; /* Mention Links */
+@import url("https://misspent.github.io/Darkened/BetterDiscord/DragNDropModal.css"); /* DragNDropModal */
+@import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css"); /* Context Icons */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css"); /* Settings Icons */
 
 /* Compact mode in appearance containers (WIP) */
 .compact-2Nkcau .repliedMessage-3Z6XBG:before {right: calc(100% - .21rem) !important; border-radius: var(--server-radius);}
@@ -626,11 +627,6 @@
 .hint-BK71lM {display: var(--Context-Menu-Keybind-Hints) !important;} /* keybind hints for context menu */
 .hintContainer-2UwhLP {padding-right: 8px !important; margin-top: 4px; margin-left: 0px;} /* Fixes the position of hints in "quick messages + other hints (hopefully) */
 
-/* Changes the long message link to "Jump to Message" */
-[title^="https://discord.com/channels/"] {line-height: 0;font-size: 0;}
-[title^="https://discord.com/channels/"]::before {content: '✉ Jump to Message';font-size: 16px;font-weight: 700;
-}
-
 /* New Messages Bar */
 #---new-messages-bar {margin: 0.5px 20px;top: 0;height: 22px;border-top: 0;}
 #---new-messages-bar .content-3spvdd {font-size: 14px;font-weight: 500;padding: 0 8px;background-color: var(--background-primary);border-radius: 0;}
@@ -841,7 +837,7 @@
 #add_friend-tab > header > form > div.addFriendInputWrapper-kkoSV9 > button {margin-right: 15px;}
 /*
 
-  /* Edit server profile section */
+/* Edit server profile section */
 .profileCustomizationSection-2OOT4p .children-1xdcWE {align-items: center;}
 .divider-ogkn3u {border-bottom: none; margin: 0px;}
 .theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {background-color: #ED4245 !important; border-radius: var(--server-radius); color: #fff;}
@@ -863,6 +859,43 @@
 .colorHeaderSecondary-g5teka.size14-3fJ-ot.footer-GXWBBp {background-color: var(--background-tertiary) !important;}
 .anchor-1MIwyf {color: var(--background-accent);}
 
+/* LINK: Jump to messages | Link: https://crearts-community.github.io/Mention-Links/theme.css */
+.messageContent-2t3eCI a[href^="https://discord.com"]:not([href^=channels])::after {background: transparent; color: var(--text-link); font-weight: 700; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://discord.com"]:not([href^=channels])::before {background: var(--text-link);}
+.messageContent-2t3eCI a[href^="https://discord.com"]:not([href^=channels]):hover::before {background: var(--text-link);}
+.messageContent-2t3eCI a[href^="https://discord.com/tos"]:not([href^=channels])::after {background: transparent; color: orange; font-weight: 700; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://discord.com/tos"]:not([href^=channels])::before {background: orange !important;}
+.messageContent-2t3eCI a[href^="https://discord.com/channels/"]:not([href^=channels])::after {background: transparent; color: var(--brand-experiment) !important; font-weight: 700; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://discord.com/channels/"]:not([href^=channels])::before {background: var(--brand-experiment) !important;}
+.messageContent-2t3eCI a[href^="https://support.discord.com"]::after {background: transparent !important; color: var(--brand-experiment) !important; font-weight: 700 !important; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://support.discord.com"]::before {background: var(--brand-experiment) !important; }
+.messageContent-2t3eCI a[href^="https://discordstatus.com/"]:not([href^=channels])::after {background: transparent !important; color: var(--brand-experiment) !important; font-weight: 700; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://discordstatus.com/"]:not([href^=channels])::before {background: var(--brand-experiment) !important; }
+.messageContent-2t3eCI a[href^="https://ptb.discord.com/channels/"]:not([href^=channels])::after {background: transparent !important; color: var(--brand-experiment) !important; font-weight: 700; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://ptb.discord.com/channels/"]:not([href^=channels])::before {background: var(--brand-experiment) !important; }
+.messageContent-2t3eCI a[href^="https://canary.discord.com/channels/"]:not([href^=channels])::after {background: transparent !important; color: var(--brand-experiment) !important; font-weight: 700; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://canary.discord.com/channels/"]:not([href^=channels])::before {background: var(--brand-experiment) !important; }
+.messageContent-2t3eCI a[href^="https://dev.discord.com/channels/"]:not([href^=channels])::after {background: transparent !important; color: var(--brand-experiment) !important; font-weight: 700; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://dev.discord.com/channels/"]:not([href^=channels])::before {background: var(--brand-experiment) !important; }
+.messageContent-2t3eCI a[href^="https://www.reddit.com/"]:not([href^=channels])::after {background: transparent; color: #ff4407; font-weight: 700; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://www.reddit.com/"]:not([href^=channels])::before {background: #ff4407 !important;}
+.messageContent-2t3eCI a[href^="https://twitter.com/"]:not([href^=channels])::after {background: transparent; color: #009aed; font-weight: 700; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://twitter.com/"]:not([href^=channels])::before {background: #009aed !important;}
+.messageContent-2t3eCI a[href^="https://www.instagram.com/"]:not([href^=channels])::after {background: transparent; color: #e82463; font-weight: 700; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://www.instagram.com/"]:not([href^=channels])::before {background: #e82463 !important;}
+.messageContent-2t3eCI a[href^="https://www.spotify.com/"]:not([href^=channels])::after {background: transparent; color: #04d869; font-weight: 700; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://www.spotify.com/"]:not([href^=channels])::before {background: #04d869 !important;}
+.messageContent-2t3eCI a[href^="https://www.facebook.com/"]:not([href^=channels])::after {background: transparent; color: #0973de; font-weight: 700; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://www.facebook.com/"]:not([href^=channels])::before {background: #0973de !important;}
+.messageContent-2t3eCI a[href^="https://discord.com/nitro"]:not([href^=channels])::after {background: transparent; color: #ff73fa; font-weight: 700; text-decoration: underline;}
+.messageContent-2t3eCI a[href^="https://discord.com/nitro"]:not([href^=channels])::before {
+  --icon: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg id='Context'%3E%3Cpath id='gift' d='M16.886,8l3.114,0c1.104,0 2,0.897 2,2l-0,2l-20,0l0,-2c0,-1.103 0.897,-2 2,-2l3.114,0c-0.451,-0.235 -0.878,-0.522 -1.235,-0.878c-1.17,-1.17 -1.17,-3.073 -0,-4.242c1.133,-1.133 3.107,-1.133 4.242,-0.002c1.637,1.637 1.858,4.718 1.877,5.064c0.001,0.012 -0.001,0.022 -0.004,0.032c-0.002,0.009 -0.004,0.017 -0.004,0.026l0.02,0c-0,-0.009 -0.002,-0.018 -0.004,-0.026c-0.003,-0.01 -0.005,-0.02 -0.004,-0.031c0.02,-0.346 0.24,-3.427 1.877,-5.064c1.135,-1.133 3.107,-1.132 4.242,-0.001c1.169,1.172 1.169,3.075 -0,4.244c-0.357,0.356 -0.784,0.643 -1.235,0.878Zm-9.593,-2.292c-0.39,-0.391 -0.39,-1.025 -0,-1.415c0.188,-0.189 0.439,-0.292 0.707,-0.292c0.268,0 0.519,0.103 0.707,0.292c0.59,0.59 0.934,1.648 1.118,2.53c-0.88,-0.183 -1.946,-0.529 -2.532,-1.115Zm6.881,1.117c0.185,-0.883 0.528,-1.941 1.119,-2.531c0.188,-0.19 0.439,-0.293 0.707,-0.293c0.268,0 0.519,0.103 0.706,0.291c0.39,0.391 0.391,1.025 0.001,1.416c-0.591,0.591 -1.65,0.935 -2.533,1.117Zm-11.174,7.175l-0,6c-0,1.103 0.897,2 2,2l6,-0l-0,-8l-8,0Zm10,0l-0,8l6,-0c1.104,-0 2,-0.897 2,-2l-0,-6l-8,0Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background: #ff73fa !important;
+  height: 15px;
+  width: 15px;
+  margin-top: 3px;
+  margin-left: 1px;
+}
 /*
  ===================================================================================================================
                                      Plugins Custom
