@@ -281,7 +281,8 @@
   height: 32px;
   margin-top: 0px;
 }
-.button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {background-color: hsl(139deg, calc(var(--saturation-factor, 1) * 47.3%), 43.9%) !important;}
+.button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {background-color: #3ba55d !important;}
+.button-1EGGcP.buttonColor-3bP3fX:hover, .button-1EGGcP .buttonColor-3bP3fX {background-color: #3ba55db2 !important;}
 .liveShapeRound-2Tgi2d {border-radius: var(--server-radius);}
 .px-MnE_OR.botTag-7aX5WZ {margin-top: -1px;}
 .px-MnE_OR {margin-right: 5px;}
@@ -914,8 +915,8 @@
 .messageContent-2t3eCI a[href^="https://music.youtube.com"]:not([href^=channels])::before {background: #de0924 !important;}
 .messageContent-2t3eCI a[href^="https://youtu.be"]:not([href^=channels])::after {background: transparent !important; color: #de0924 !important; font-weight: 700 !important; text-decoration: underline !important;}
 .messageContent-2t3eCI a[href^="https://youtu.be"]:not([href^=channels])::before {background: #de0924 !important;}
-.messageContent-2t3eCI a[href^="https://www.twitch.tv/"]:not([href^=channels])::after {background: transparent !important; color: #815fc0 !important; font-weight: 700 !important; text-decoration: underline !important;}
-.messageContent-2t3eCI a[href^="https://www.twitch.tv/"]:not([href^=channels])::before {background: #815fc0 !important;}
+.messageContent-2t3eCI a[href^="https://www.twitch.tv/"]:not([href^=channels])::after, .messageContent-2t3eCI a[href^="https://www.twitch.tv/directory"]:not([href^=channels])::after {background: transparent !important; color: #815fc0 !important; font-weight: 700 !important; text-decoration: underline !important;}
+.messageContent-2t3eCI a[href^="https://www.twitch.tv/"]:not([href^=channels])::before, .messageContent-2t3eCI a[href^="https://www.twitch.tv/directory"]:not([href^=channels])::before {background: #815fc0 !important;}
 .messageContent-2t3eCI a[href^="https://www.facebook.com/"]:not([href^=channels])::after {background: transparent !important; color: #0973de !important; font-weight: 700 !important; text-decoration: underline !important;}
 .messageContent-2t3eCI a[href^="https://www.facebook.com/"]:not([href^=channels])::before {background: #0973de !important;}
 .messageContent-2t3eCI a[href^="https://discord.com/nitro"]:not([href^=channels])::after {background: transparent !important; color: #ff73fa !important; font-weight: 700 !important; text-decoration: underline !important;}
@@ -923,17 +924,17 @@
 .messageContent-2t3eCI a[href^="https://discord.com/nitro"]:not([href^=channels]):hover::before {background: #ff73fa !important;}
 .messageContent-2t3eCI a[href^="https://discord.gift"]:not([href^=channels])::after {background: transparent !important; color: #ff73fa !important; font-weight: 700 !important; text-decoration: underline !important;}
 .messageContent-2t3eCI a[href^="https://discord.gift"]:not([href^=channels])::before {background: #ff73fa !important;}
-.messageContent-2t3eCI a[href^="https://www.deviantart.com"]:not([href^=channels])::after {background: transparent !important; color: #05CC47 !important; font-weight: 700 !important; text-decoration: underline !important;}
-.messageContent-2t3eCI a[href^="https://www.deviantart.com"]:not([href^=channels])::before {background: #05CC47 !important;}
-.messageContent-2t3eCI a[href^="https://dribbble.com"]:not([href^=channels])::after {background: transparent !important; color: #EA4C89 !important; font-weight: 700 !important; text-decoration: underline !important;}
-.messageContent-2t3eCI a[href^="https://dribbble.com"]:not([href^=channels])::before {background: #EA4C89 !important;}
+.messageContent-2t3eCI a[href^="https://www.deviantart.com"]:not([href^=channels])::after, .messageContent-2t3eCI a[href^="https://www.deviantart.com/topic"]:not([href^=channels])::after {background: transparent !important; color: #05CC47 !important; font-weight: 700 !important; text-decoration: underline !important;}
+.messageContent-2t3eCI a[href^="https://www.deviantart.com"]:not([href^=channels])::before, .messageContent-2t3eCI a[href^="https://www.deviantart.com/topic"]:not([href^=channels])::before {background: #05CC47 !important;}
+.messageContent-2t3eCI a[href^="https://dribbble.com"]:not([href^=channels])::after, .messageContent-2t3eCI a[href^="https://dribbble.com/shots"]:not([href^=channels])::after, .messageContent-2t3eCI a[href^="https://dribbble.com/jobs"]:not([href^=channels])::after, .messageContent-2t3eCI a[href^="https://dribbble.com/learn"]:not([href^=channels])::after, .messageContent-2t3eCI a[href^="https://dribbble.com/marketplace"]:not([href^=channels])::after, .messageContent-2t3eCI a[href^="https://dribbble.com/hiring"]:not([href^=channels])::after {background: transparent !important; color: #EA4C89 !important; font-weight: 700 !important; text-decoration: underline !important;}
+.messageContent-2t3eCI a[href^="https://dribbble.com"]:not([href^=channels])::before, .messageContent-2t3eCI a[href^="https://dribbble.com/shots"]:not([href^=channels])::before, .messageContent-2t3eCI a[href^="https://dribbble.com/jobs"]:not([href^=channels])::before, .messageContent-2t3eCI a[href^="https://dribbble.com/learn"]:not([href^=channels])::before, .messageContent-2t3eCI a[href^="https://dribbble.com/marketplace"]:not([href^=channels])::before, .messageContent-2t3eCI a[href^="https://dribbble.com/hiring"]:not([href^=channels])::before {background: #EA4C89 !important;}
 .messageContent-2t3eCI a[href^="https://imgur.com"]:not([href^=channels])::after {background: transparent !important; color: #1BB76E !important; font-weight: 700 !important; text-decoration: underline !important;}
 .messageContent-2t3eCI a[href^="https://imgur.com"]:not([href^=channels])::before {background: #1BB76E !important;}
-.messageContent-2t3eCI a[href^="https://github.com"]:not([href^=channels])::after {background: transparent !important; color: #ffffff; font-weight: 700 !important; text-decoration: underline !important;}
-.messageContent-2t3eCI a[href^="https://github.com"]:not([href^=channels])::before {background: #ffffff !important;}
-.messageContent-2t3eCI a[href^="https://www.netflix.com"]:not([href^=channels])::after {background: transparent !important; color: #FF0000; font-weight: 700 !important; text-decoration: underline !important;}
+.messageContent-2t3eCI a[href^="https://github.com"]:not([href^=channels])::after, .messageContent-2t3eCI a[href^="https://github.com/pulls"]:not([href^=channels])::after, .messageContent-2t3eCI a[href^="https://github.com/issues"]:not([href^=channels])::after, .messageContent-2t3eCI a[href^="https://github.com/marketplace"]:not([href^=channels])::after, .messageContent-2t3eCI a[href^="https://github.com/explore"]:not([href^=channels])::after {background: transparent !important; color: #ffffff; font-weight: 700 !important; text-decoration: underline !important;}
+.messageContent-2t3eCI a[href^="https://github.com"]:not([href^=channels])::before, .messageContent-2t3eCI a[href^="https://github.com/pulls"]:not([href^=channels])::before, .messageContent-2t3eCI a[href^="https://github.com/issues"]:not([href^=channels])::before, .messageContent-2t3eCI a[href^="https://github.com/marketplace"]:not([href^=channels])::before, .messageContent-2t3eCI a[href^="https://github.com/explore"]:not([href^=channels])::before {background: #ffffff !important;}
+.messageContent-2t3eCI a[href^="https://www.netflix.com"]:not([href^=channels])::after {background: transparent !important; color: #FF0000 !important; font-weight: 700 !important; text-decoration: underline !important;}
 .messageContent-2t3eCI a[href^="https://www.netflix.com"]:not([href^=channels])::before {background: #FF0000 !important;}
-.messageContent-2t3eCI a[href^="https://www.behance.net"]:not([href^=channels])::after {background: transparent !important; color: #1769FF; font-weight: 700 !important; text-decoration: underline !important;}
+.messageContent-2t3eCI a[href^="https://www.behance.net"]:not([href^=channels])::after {background: transparent !important; color: #1769FF !important; font-weight: 700 !important; text-decoration: underline !important;}
 .messageContent-2t3eCI a[href^="https://www.behance.net"]:not([href^=channels])::before {background: #1769FF !important;}
 
 /*
@@ -994,7 +995,7 @@
 #status-picker .submenuContainer-3EVTeH { grid-column: 1/5;}
 
 /* Radial Status Import | Mobile */
-#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile]:after {right: 2px;}
+#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile]:after {right: 2px !important;}
 
 /* ClickToChat plugin (Voice Call Message Icon) */
 .fa-w-14 [fill=currentColor] {color: var(--interactive-normal);}
@@ -1301,7 +1302,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 /* Server settings emoji containers + Audit log + Invites + Server Boost Status selected + Server template radius + Widget */
 .theme-dark .card-2ART2V {
   background: var(--background-secondary);
-  border-color: #0000;
+  border-color: var(--border-color);
   border-top: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
@@ -1309,11 +1310,12 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .theme-dark .card-2ART2V:before {
   position: relative;
   background: var(--background-secondary);
-  border-color: #0000;
+  border-color: var(--border-color);
   border-top: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
 }
+.theme-dark .game-2f2vPC {box-shadow: none !important;}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:last-child > div > div > div.contentRegion-3HkfJJ > div > div > main > div > div.children-1xdcWE > div:last-child > div:nth-child(2) > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.marginBottom4-1fdMNe, #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div > div.contentRegion-3HkfJJ > div > div > main > div > div.children-1xdcWE > div:nth-child(2) > div:last-child > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.marginBottom4-1fdMNe {
   margin-bottom: 0px;
   background-color: #202020;
@@ -2040,7 +2042,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .bf-toolbar {padding: 10px 20px 15px 5px !important; border-radius: var(--server-radius) !important;}
 .bf-toolbar .format:hover {background: transparent !important;}
 .scrollerSpacer-3AqkT9 {height: 0px;}
-.messagesWrapper-RpOMA3 {margin-bottom: 8px;}
+.messagesWrapper-RpOMA3 {margin-bottom: 8px !important;}
 .scrollableContainer-15eg7h {border-radius: 0px;}
 
 /* Stickers Button */
@@ -2971,7 +2973,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 }
 
 /* Server radius */
-.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .previewMessage-2g_aBv, .cameraWrapper-3a7Ngv, .lookFilled-yCfaCM.colorGreen-3y-Z79, .theme-dark .inset-SbsSFp, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .premiumInlineNotice-eSBKv7, .notice-1Qe0b_, .expandedFolderBackground-1kSAf6, .tile-2TcwiO .button-3Vyz67, .theme-dark .buttonColor-28DXIe, .container-1zzFcN > .flex-3BkGQD, .overlayTitle-2efoIF, .status-15kcmy, .compactButton-3hG-bs, .compactButtonDisabled-MwB2d6, .theme-dark .guildIconImage-74OdmM, .container-2oNtJn, .searchResult-O9NDji, .themedPopout-1TrfdI, .sourceThumbnail-ERDcZE, .content-2M_BlY, .wrapper-2SplAX, .theme-dark .watchButton-2YRKxv, .wrapper-1FP9YQ, .wrapper-1HIH0j, div.BetterInvites-guildBanner > img, .pictureInPictureVideo-2puO2Q {border-radius: var(--server-radius) !important;}
+.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .previewMessage-2g_aBv, .cameraWrapper-3a7Ngv, .lookFilled-yCfaCM.colorGreen-3y-Z79, .theme-dark .inset-SbsSFp, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .premiumInlineNotice-eSBKv7, .notice-1Qe0b_, .expandedFolderBackground-1kSAf6, .tile-2TcwiO .button-3Vyz67, .theme-dark .buttonColor-28DXIe, .container-1zzFcN > .flex-3BkGQD, .overlayTitle-2efoIF, .status-15kcmy, .compactButton-3hG-bs, .compactButtonDisabled-MwB2d6, .theme-dark .guildIconImage-74OdmM, .container-2oNtJn, .searchResult-O9NDji, .themedPopout-1TrfdI, .sourceThumbnail-ERDcZE, .content-2M_BlY, .wrapper-2SplAX, .theme-dark .watchButton-2YRKxv, .wrapper-1FP9YQ, .wrapper-1HIH0j, div.BetterInvites-guildBanner > img, .pictureInPictureVideo-2puO2Q, .video-2HW4jD, .status-1ZXjSF, .button-3Vyz67, .upsellTooltipWrapper-1wqikQ {border-radius: var(--server-radius) !important;}
 .wrapper-28eC3z foreignObject { mask: none; transition: 0.2s;}
 .wrapperSimple-Js2rIO { overflow: visible;}
 
@@ -2996,7 +2998,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .barFill-2Bh7CX { border-radius: 0 0px 0px 0; background: var(--unread-color);}
 .mini-2qY9iv .bar-1Bhnl9 {border-radius: 0px;}
 #user-context-user-volume .sliderContainer-2nidiS::before {margin-top: 3px; margin-left: 5px;}
-#user-context-user-volume.item-1OdjEX::before {margin: 0px;}
+.item-1OdjEX#stream-context-user-volume::before {display: none !important;}
 .theme-dark .bar-1Bhnl9 { height: 15px !important; background-color: var(--background-secondary); margin-right: 10px !important; border-radius: var(--server-radius);}
 .markDash-yk2kJ- { height: 22px;}
 
