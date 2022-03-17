@@ -12,6 +12,15 @@ body:
       options:
       - label: "I have checked other issues"
         required: true
+  - type: dropdown
+    id: discord-client
+    attributes:
+      label: 🖥️ What discord client are you using?
+      options:
+        - BetterDiscord
+        - Powercord
+    validations:
+        required: true
   - type: textarea
     id: bug-description
     attributes:
