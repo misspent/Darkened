@@ -2290,9 +2290,6 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   opacity: 0.3;
   z-index: -1;
 }
-.role-2TIOKu[aria-label="Add role"] {
-  display: none;
-}
 /* Spotify icon on popout + button colour and container */
 .theme-dark .newPopoutActivityStyles .platformIcon-k3yytQ, .theme-light .newPopoutActivityStyles .platformIcon-k3yytQ {display: none;}
 .bar-1GpknY, .barInner-3dHef4 {border-radius: var(--server-radius);}
