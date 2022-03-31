@@ -22,20 +22,10 @@
   margin-right: 6px !important;
 }
 
-html:not(.platform-osx) #channelTabs-container>#channelTabs-settingsMenu+div, html:not(.platform-osx) #channelTabs-container>:first-child:not(#channelTabs-settingsMenu) {
+html:not(.platform-osx) #channelTabs-container> #channelTabs-settingsMenu+ div, html:not(.platform-osx) #channelTabs-container> :first-child:not(#channelTabs-settingsMenu) {
   padding-left: 0px !important;
   padding-top: 4px !important;
 }
 .channelTabs-favContainer {
   padding: 0 8px 0 0px !important;
-}
-
-#channelTabs-settingsMenu {
-  position: relative;
-  display: inline-block;
-  float: right;
-  width: 20px;
-  height: calc(var(--channelTabs-tabHeight) + var(--channelTabs-paddingTop) + var(--channelTabs-paddingBottom));
-  margin-right: var(--channelTabs-winButtonWidth);
-  z-index: 9999;
 }
