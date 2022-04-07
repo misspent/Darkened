@@ -21,7 +21,6 @@
 @import "https://lyght1337.github.io/DarknessCodeBlocks/css/CodeBlocks.css"; /* Codeblocks */
 @import "https://misspent.github.io/Darkened/BetterDiscord/ChannelIcons.css"; /* Channel Icons */
 @import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"; /* Radial Status */
-@import "https://misspent.github.io/Darkened/BetterDiscord/ChannelTabs.css"; /* ChannelTabs Lined | Plugin */
 @import "https://misspent.github.io/Darkened/BetterDiscord/ContextIconColours.css"; /* ContextIconsColours */
 
 /*
@@ -93,6 +92,18 @@
   --rs-phone-color: var(--rs-online-color);
   --rs-phone-visible: block;
   --rs-version: "2.0.6";
+
+  /* ChannelTabs Plugin | Ignore & WIP */
+  /* --channelTabs-tabHeight: 32px;
+  --channelTabs-favHeight: 23px !important;
+  --channelTabs-macHeight: 41px !important; */
+  --channelTabs-tabWidth: 224px !important;
+  --channelTabs-tabStatusBorderThickness: 2px !important;
+  --channelTabs-favStatusBorderThickness: 2px !important;
+  --channelTabs-winButtonWidth: 84px !important;
+  --channelTabs-paddingTop: 0px !important;
+  --channelTabs-paddingBottom: 0px !important;
+  --channelTabs-containerSpacing: 3px !important;
 }
 
 /*
