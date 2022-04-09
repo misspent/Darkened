@@ -1693,6 +1693,13 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   min-height: 45px;
 }
 
+/* Popup container when leaving a server "Can you tell us more: Why did you leave (server name)" */
+.root-cw9rWQ {background-color: var(--background-primary); border-radius: var(--server-radius);}
+.theme-dark .footer-31IekZ {background-color: var(--background-primary) !important;}
+:root .root-g14mjS .footer-31IekZ .labelForward-2yqkcf {padding-left: 10px;}
+#app-mount > div:nth-child(7) > div.layer-1Ixpg3 > div > div > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.footer-31IekZ.footer-1iSViG.footerSeparator-VzAYwb > label {text-align: left;}
+.checkboxWrapper-2fDzaA {padding-left: 29.5% !important;}
+
 /* Time Out container */
 .selectorButton-1EQtQx:hover, .selectorButtonSelected-1VZ6hz {background-color: var(--brand-experiment) !important;}
 .theme-dark .item-2OyinQ {border-radius: var(--server-radius); background: var(--background-primary);}
@@ -2346,6 +2353,10 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .popoutBanner-3cqRD9 .pencilContainer-18TrEJ, .popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ {border-radius: var(--server-radius);}
 .input-2z42oC {border-radius: var(--server-radius);}
 .headerContainer-1wJjOa {justify-content: center !important;}
+/* About me section/containers in popout */
+.userInfoTitle-39qq0Y {text-align: center; justify-content: center !important; background-color: var(--popout-title); margin: 0px; border-radius: var(--server-radius) var(--server-radius) 0px 0px;}
+.clamped-2ZePhX {background-color: var(--popout-background-main); border-radius: 0px 0px var(--server-radius) var(--server-radius);}
+.userInfoSection-3her-v {margin-right: 8px;}
 
 .rolesList-3uZoaa {
   display: grid;
