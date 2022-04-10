@@ -1033,6 +1033,26 @@
 /* Better Spotify plugin seek bar */
 .container-6sXIoE { border-bottom: none !important; margin-bottom: 0 !important; border-top: 1px solid var(--border-color);border-right: 1px solid var(--border-color);}.container-6sXIoE .timeline-UWmgAx { position: relative !important;}.container-6sXIoE .bar-g2ZMIm { position: absolute !important; bottom: -4px !important; left: -8px !important; width: 240px !important; height: 51px !important;margin: 0 !important;-webkit-mask-image: linear-gradient(0.25turn, #0008, #0002) !important;mask-image: linear-gradient(0.25turn, #0008, #0002) !important;border-radius: 0 !important;}.barFill-Dhkah7 { border-radius: 0 !important;}.container-6sXIoE.maximized-vv2Wr0 .bar-g2ZMIm { height: 88px !important;}.container-6sXIoE .button-12Fmur:hover { background-color: transparent !important;}.barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color) !important;}.inner-WRV6k5 { z-index: 1 !important;}.barText-lmqc5O, .grabber-7sd5f5 { display: none !important;} .coverWrapper-YAplwJ, .cover-SwJ-ck, .maximizer-RVu85p {border-radius: var(--avatar-radius) !important;}
 
+/* Channel Tabs Plugin */
+/* ChannelTabs Plugin | To fix badges remove "!important" from "height: var(--channelTabs-tabHeight) !important" in the plugin.js */
+.channelTabs-mentionBadge, .channelTabs-unreadBadge, .channelTabs-favGroup-content, .channelTabs-favGroupBtn, .channelTabs-fav, .channelTabs-tab, .channelTabs-fav .channelTabs-typingBadge {border-radius: var(--server-radius) !important;}
+.channelTabs-favIcon.channelTabs-noneIcon, .channelTabs-tabIcon.channelTabs-noneIcon, .channelTabs-favIcon.channelTabs-doNotDisturbIcon, .channelTabs-favIcon.channelTabs-idleIcon, .channelTabs-favIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-doNotDisturbIcon, .channelTabs-tabIcon.channelTabs-idleIcon, .channelTabs-tabIcon.channelTabs-offlineIcon, .channelTabs-favIcon.channelTabs-offlineIcon {border-radius: var(--avatar-radius) !important;}
+.channelTabs-tabContainer {border-bottom: 1px solid var(--background-primary) !important; border-top: 1px solid var(--border-color) !important;}
+.channelTabs-gridContainer {margin-left: 2px !important;  height: 33px !important;}
+.channelTabs-typingBadge {
+  border-radius: var(--server-radius) !important;
+  margin-bottom: 0px !important;
+  margin-right: 0px !important;
+}
+
+html:not(.platform-osx) #channelTabs-container> #channelTabs-settingsMenu+ div, html:not(.platform-osx) #channelTabs-container> :first-child:not(#channelTabs-settingsMenu) {
+  padding-left: 0px !important;
+  padding-top: 4px !important;
+}
+.channelTabs-favContainer {
+  padding: 0 8px 0 0px !important;
+}
+
 /*
 ====================================================================================================================
                                      Settings Custom CSS
@@ -2070,10 +2090,6 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   left: 15px;
   right: 40px;
   bottom: 5px;
-}
-.form-3gdLxP {
-  bottom: -20px;
-  padding: 0px 15px 0.5px 15px;
 }
 
 .theme-light .bf-toolbar:hover .bf-arrow, .bf-toolbar .bf-arrow {
