@@ -2091,6 +2091,14 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   right: 40px;
   bottom: 5px;
 }
+/* Important ones */
+.form-3gdLxP {margin-top: 10px;}
+.channelTextArea-1FufC0 {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 4px;
+  padding: 0;
+}
 
 .theme-light .bf-toolbar:hover .bf-arrow, .bf-toolbar .bf-arrow {
   right: -6px !important;
