@@ -1624,23 +1624,6 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.chat-2ZfjoI > div.content-1jQy2l > section > header > div.searchHeaderTabList-3CZMQB.side-2ur1Qk > div.item-3XjbnG.selected-g-kMVV.themed-2-lozF {background-color: var(--brand-experiment-500);}
 .theme-dark .activeButton-LRWFC_, .theme-dark .activeButton-LRWFC_:hover, .theme-light .activeButton-LRWFC_, .theme-light .activeButton-LRWFC_:hover {border-radius: var(--server-radius);}
 
-/* Changes the long blue jump button to a cleaner and smaller "Jump to Present" */
-.jumpToPresentBar-1cEnH0 .barButtonAlt-TQoCdZ {
-  float: right;
-  border-radius: 0px;
-  background-color: #202020;
-}
-.jumpToPresentBar-1cEnH0, .jumpToPresentBar-1cEnH0:active {
-  border-radius: var(--server-radius) !important;
-  background-color: #151515;
-  opacity: 1;
-  margin-right: 45px;
-  margin-bottom: -15px !important;
-  margin-left: -1px !important;
-  bottom: -5px;
-  padding: 0;
-}
-
 /* Quote Message Bar + Color container */
 .blockquoteDivider-363utW {background-color: var(--unread-color);	border-radius: var(--server-radius) !important;}
 [class*="blockquoteContainer-"] blockquote,[class*="blockquoteDivider-"]::before {color: lightgreen;	background-color: #101010;}
