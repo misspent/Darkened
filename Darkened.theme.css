@@ -1,5 +1,5 @@
 /**
-* @name Darkened
+* @name 1. Darkened
 * @author misspent
 * @description Darkness is a gift; embrace it.
 * @authorLink https://github.com/misspent/Darkened
@@ -22,12 +22,6 @@
 @import "https://misspent.github.io/Darkened/BetterDiscord/ChannelIcons.css"; /* Channel Icons */
 @import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"; /* Radial Status */
 @import "https://misspent.github.io/Darkened/BetterDiscord/ContextIconColours.css"; /* ContextIconsColours */
-
-/*
-\==================================================================================\
-\                                  Other Variables                                 \
-\==================================================================================\
-*/
 
 :root {
   /* Home Icon Image */
@@ -65,12 +59,12 @@
 
   /* Toggleable variables */
   --Discord-Watermark: flex; /* flex = ON, none = OFF */
-  --Chat-GIF-Button: none; /* flex = ON, none = OFF */
+  --Chat-GIF-Button: flex; /* flex = ON, none = OFF */
   --Chat-Gift-Button: none; /* flex = ON, none = OFF */
   --Chat-Sticker-Button: none; /* flex = ON, none = OFF */
-  --Home-Nitro-Channel: flex; /* flex = ON, none = OFF */
+  --Home-Nitro-Channel: none; /* flex = ON, none = OFF */
   --Home-Discovery-Channel: flex; /* flex = ON, none = OFF */
-  --Context-Menu-Emoji-Toolbar: none; /* grid = ON, none = OFF */
+  --Context-Menu-Emoji-Toolbar: grid; /* grid = ON, none = OFF */
   --Text-Channels-Capital-Letter: capitalize; /* capitalize, none */
   --Popout-Send-Message-Container: block; /* block = ON, none = OFF */
   --Context-Menu-Keybind-Hints: none; /* block = ON, none = OFF */
@@ -93,10 +87,10 @@
   --rs-phone-visible: block;
   --rs-version: "2.0.6";
 
-  /* ChannelTabs Plugin | Ignore & WIP */
-  /* --channelTabs-tabHeight: 32px;
+  /* ChannelTabs Plugin | Ignore */
+  --channelTabs-tabHeight: 32px;
   --channelTabs-favHeight: 23px !important;
-  --channelTabs-macHeight: 41px !important; */
+  --channelTabs-macHeight: 41px !important;
   --channelTabs-tabWidth: 224px !important;
   --channelTabs-tabStatusBorderThickness: 2px !important;
   --channelTabs-favStatusBorderThickness: 2px !important;
