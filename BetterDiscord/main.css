@@ -1044,6 +1044,7 @@
   margin-bottom: 0px !important;
   margin-right: 0px !important;
 }
+.channelTabs-fav .channelTabs-typingBadge .spinner-2RT7ZC {width: 28px;}
 
 html:not(.platform-osx) #channelTabs-container> #channelTabs-settingsMenu+ div, html:not(.platform-osx) #channelTabs-container> :first-child:not(#channelTabs-settingsMenu) {
   padding-left: 0px !important;
@@ -2410,7 +2411,6 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   border-radius: 0px;
   margin-right: 4px;
   margin-left: -4px;
-  margin-top: -8px;
 }
 .note-3M15gE textarea {
   border-radius: 0 0 var(--server-radius) var(--server-radius);
@@ -2420,6 +2420,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   text-align: center;
   background-color: var(--popout-title);
   border-radius: var(--server-radius) var(--server-radius) 0px 0px;
+  margin-bottom: 0px;
 }
 .connectedAccount-1xKpli {
   border-radius: var(--avatar-radius);
