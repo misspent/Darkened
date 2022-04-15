@@ -1585,6 +1585,11 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .embedFull-1HGV2S {border-left: 4px solid var(--background-tertiary); background: var(--background-secondary); border-radius: var(--server-radius);}
 .embedVideo-2ixt5A, .imageWrapper-oMkQl4 img, .embedImage-2Ynqkh img, .embedImage-2Ynqkh video, .embedThumbnail-2nTasl img, .embedThumbnail-2nTasl video, .embedVideo-2ixt5A img, .embedVideo-2ixt5A video, .embedAuthor-TJIHp5, .embedDescription-1DrJxZ, .embedFields-2yHGHT, .embedFooter-3dj0UE, .embedMedia-1mdWSP, .embedProvider-1GSN0c, .embedTitle-2n1pEb, .imageWrapper-oMkQl4 {border-radius: var(--server-radius);}
 
+/* Jump To Present Bar */
+.jumpToPresentBar-1cEnH0 {background-color: rgba(35, 35, 35); border-radius: 0px; padding-bottom: 0px; opacity: 1;}
+.jumpToPresentBar-1cEnH0 .spinner-3xAPm0 {padding-right: 0px;}
+.pulsingEllipsis-10G8Z6 {width: 48px;}
+
 /* "X new messages since :date: " The unread message bar at the top of chat & "Messages Failed To Load" container */
 .newMessagesBar-1hF-9G, .barButtonMain-2GIx4o, .span-3lFnWr {
   background-color: rgba(22, 22, 22) !important;
