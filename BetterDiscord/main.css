@@ -129,6 +129,8 @@
 .container-1NXEtd .header-3OsQeK {border-right: 1px solid var(--border-color); background-color: rgba(13, 13, 13, 0.4); backdrop-filter: blur(0.7px);}
 .container-1NXEtd .header-3OsQeK:hover {border-right: 1px solid var(--border-color); background-color: rgba(13, 13, 13, 0.5); backdrop-filter: blur(1px);}
 .container-1-ERn5.clickable-vvKY2q {border-bottom: 1px solid var(--border-color);}
+.communityInfoVisible-3zc5_s .header-3OsQeK, .communityInfoVisible-3zc5_s .header-3OsQeK:hover, .hasBanner-2IrYih .header-3OsQeK, .hasBanner-2IrYih .header-3OsQeK:hover {border-bottom: 1px solid #15151505;}
+.header-3OsQeK {padding: 11px 16px;}
 .animatedContainer-2laTjx, .bannerImage-ubW8K- {border-bottom: 1px solid var(--border-color) !important; border-right: 1px solid var(--border-color) !important;}
 .bannerImage-ubW8K-, .bannerImg-2PzH6z {width: 239px;}
 
