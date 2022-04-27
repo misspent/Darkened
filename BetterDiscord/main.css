@@ -65,7 +65,7 @@
 }
 
 /* CHANNEL LIST PANELS (Avatar, Settings, Flex) & Colour of status picker) */
-.panels-3wFtMD {
+.panels-3wFtMD, .noChannel-1GDIAZ {
   background: var(--background-primary);
 }
 .panels-3wFtMD > :first-child {
@@ -129,7 +129,6 @@
 .container-1NXEtd .header-3OsQeK {border-right: 1px solid var(--border-color); background-color: rgba(13, 13, 13, 0.4); backdrop-filter: blur(0.7px);}
 .container-1NXEtd .header-3OsQeK:hover {border-right: 1px solid var(--border-color); background-color: rgba(13, 13, 13, 0.5); backdrop-filter: blur(1px);}
 .container-1-ERn5.clickable-vvKY2q {border-bottom: 1px solid var(--border-color);}
-.header-3OsQeK {height: 46px;}
 .animatedContainer-2laTjx, .bannerImage-ubW8K- {border-bottom: 1px solid var(--border-color) !important; border-right: 1px solid var(--border-color) !important;}
 .bannerImage-ubW8K-, .bannerImg-2PzH6z {width: 239px;}
 
