@@ -2246,6 +2246,9 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   background-position: var(--user-popout-position, center) center;
   background-image: var(--user-background);
 }
+:root .userPopout-2j1gM4 .headerTop-3GPUSF .headerText-1-WmDq {
+  margin-bottom: 8px;
+}
 .note-Go5ZP2 {margin: 0px;}
 
 /* Roles */
@@ -3053,6 +3056,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .wrapper-28eC3z foreignObject { mask: none; transition: 0.2s;}
 .wrapperSimple-Js2rIO { overflow: visible;}
 
+.wrapper-2SplAX {margin-bottom: 5px;}
 .iconInactive-26M06U {border-radius: calc(var(--server-radius) - 4px);}
 
 .wrapper-28eC3z:hover foreignObject {border-radius: calc(var(--server-radius) - 3px); transition: 0.2s;}
