@@ -1493,7 +1493,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .container-2McqkF .option-ayUoaq:hover, .container-2McqkF .option-ayUoaq[aria-selected="true"] {background-color: var(--background-modifier-hover); border-radius: var(--server-radius);}
 .option-ayUoaq:after {display: none;} /* removes bullshit gradient to the right in searchbar container... WHY? */
 
-.iconWrapper-2awDjA {color: var(--interactive-normal);}
+.iconWrapper-2awDjA, .selected-29KTGM .icon-2xnN2Y {color: var(--interactive-normal) !important;}
 /* Shrunken Search Bar (Made by Freeplay) */
 [class*="toolbar-"] > [class*="search-"] [class*="searchBar-"] {
   background: none;
@@ -2179,107 +2179,6 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .applicationInstallButton-taCWKH {border-radius: var(--server-radius); margin-bottom: 8px; margin-top: 5px; margin-left: -4px;}
 
 /* User Popout */
-:root .userPopout-2j1gM4 {
-  background: var(--background-secondary);
-  box-shadow: unset !important;
-  margin-right: 0px;
-  border-radius: var(--server-radius);
-}
-/* Add this for the polygon effect for banner: clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px)); */
-:root .userPopout-2j1gM4 .banner-1YaD3N {
-  position: absolute;
-  width: 300px;
-  height: 180px;
-  border-radius: var(--server-radius) var(--server-radius) 0px 0px;
-  -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
-}
-:root .userPopout-2j1gM4 .banner-1YaD3N.bannerPremium-kkSkPv {
-  background-color: transparent !important;
-}
-:root .userPopout-2j1gM4 .headerTop-3GPUSF {
-  display: flex;
-  flex-direction: column-reverse;
-  text-align: center;
-  padding-top: 110px;
-}
-:root .userPopout-2j1gM4 .headerTop-3GPUSF .headerTagDiscriminatorNoNickname-dfcvHa {
-  color: #dadada;
-}
-:root .userPopout-2j1gM4 .headerTop-3GPUSF .profileBadges-2pItdR {
-  position: static;
-  justify-content: center;
-  max-width: unset;
-}
-:root .userPopout-2j1gM4 .headerTop-3GPUSF .profileBadges-2pItdR > * {
-  margin: 0 3px;
-}
-:root .userPopout-2j1gM4 .headerTop-3GPUSF .profileBadges-2pItdR:empty {
-  margin-bottom: 20px;
-}
-:root .userPopout-2j1gM4 .headerTop-3GPUSF .headerText-1-WmDq {
-  margin-bottom: 8px;
-}
-:root .userPopout-2j1gM4 .divider-1wtgZ3 {
-  display: none;
-}
-:root .userPopout-2j1gM4 .body-2wLx-E .activity-1gTu-L .button-38aScr {
-  background-color: var(--main-color);
-}
-:root .userPopout-2j1gM4 .body-2wLx-E .activity-1gTu-L .spotifyIcon-2J9kSv {
-  display: none;
-}
-:root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k {
-  padding-right: 8px;
-  margin-top: 8px;
-}
-:root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .note-Go5ZP2 {
-  margin: 0;
-}
-:root .userPopout-2j1gM4 .body-2wLx-E::-webkit-scrollbar {
-  display: none;
-}
-:root .userPopout-2j1gM4 .avatarWrapper-eenWra {
-  top: 0;
-  left: 50%;
-  grid-area: avatar;
-  margin: 15px 0 0 -40px;
-}
-:root .userPopout-2j1gM4 .avatarWrapper-eenWra .avatar-2Vndt_ {
-  background: none;
-  border: none;
-}
-:root .userPopout-2j1gM4 .avatarWrapper-eenWra .avatarHint-k7pYop {
-  top: 0;
-  left: 0;
-  border-radius: calc(var(--avatar-radius) * 2) !important;
-}
-:root .userPopout-2j1gM4 .avatarWrapper-eenWra .avatarHint-k7pYop foreignObject {
-  mask: none !important;
-}
-:root .userPopout-2j1gM4 .avatarWrapper-eenWra .avatarHint-k7pYop foreignObject .avatarHintInner-2HUAWj {
-  font-size: 0;
-  text-transform: none;
-}
-:root .userPopout-2j1gM4 .avatarWrapper-eenWra .avatarHint-k7pYop foreignObject .avatarHintInner-2HUAWj::after {
-  white-space: normal;
-  text-align: center;
-  content: var(--avatar-hint-text);
-  color: var(--avatar-hint-color);
-  font-size: var(--avatar-hint-size);
-  font-family: var(--avatar-hint-font);
-}
-:root .userPopout-2j1gM4 .mask-1FEkla foreignObject {
-  border-radius: calc(var(--avatar-radius) * 2) !important;
-}
-:root .userPopout-2j1gM4 .banner-1YaD3N,
-:root .root-8LYsGj .banner-1YaD3N {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: var(--user-popout-position, center) center;
-  background-image: var(--user-background);
-}
-/* "Message @user" popout container outline when clicked on & adding a channel to server container (press + and it's that container) */
-:root .inputDefault-3FGxgL{ background-color: var(--background-primary); border-radius: var(--server-radius); border: none;}
 
 /* Roles */
 .role-2TIOKu {
@@ -2321,81 +2220,6 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   padding: 4px;
 }
 .role-2TIOKu [d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.8889H20V11.1111Z"] {color: #6e85d3;}
-/* Role container when you press the + Icon */
-.focused-qp-W9B, .item-1BCeuB:hover:not(.disabled-Mmpvl7) {background-color: var(--background-modifier-hover) !important; color: var(--interactive-hover);}
-.list-3cyRKU {padding: 0px;}
-.item-1BCeuB {margin-bottom: 5px;}
-/* Spotify icon on popout + button colour and container */
-.theme-dark .newPopoutActivityStyles .platformIcon-k3yytQ, .theme-light .newPopoutActivityStyles .platformIcon-k3yytQ {display: none;}
-.bar-1GpknY, .barInner-3dHef4 {border-radius: var(--server-radius);}
-
-/* Colours & background of some stuff in popout + connection + "playing a game" centering text + pencil container */
-.activityUserPopout-2MzGCj {
-  height: auto;
-  min-height: 1px;
-  background-color: var(--popout-background-main);
-  padding-bottom: 5px;
-  margin-bottom: 15px;
-  border-radius: var(--server-radius) var(--server-radius) var(--server-radius) var(--server-radius);
-}
-.body-u1Y8uL {margin-left: 5px; padding-bottom: 5px;}
-.buttonsWrapper-2ARRp1 {margin-right: 5px; margin-left: 5px;}
-.connections-pPr4as {padding: 8px 0 0 5px;}
-
-.bodyInnerWrapper-2bQs1k {background-color: var(--background-secondary);}
-:root .userPopout-2j1gM4 .body-2wLx-E .headerContainer-1wJjOa {background-color: var(--popout-title); border-radius: var(--server-radius) var(--server-radius) 0px 0px;}
-.textarea-_59yqs, .aboutMeSection-PUghFQ, .connections-pPr4as {background-color: var(--popout-background-main); border-radius: 0px 0px var(--server-radius) var(--server-radius);}
-:root .userPopout-2j1gM4 .body-2wLx-E .aboutMeSection-PUghFQ .aboutMeTitle-3pjiS7 {justify-content: center; background-color: var(--popout-title); border-radius: var(--server-radius) var(--server-radius) 0px 0px;}
-:root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .bodyTitle-2Az3VQ {text-align: center; background-color: var(--popout-title); margin: 0px; border-radius: var(--server-radius) var(--server-radius) 0px 0px;}
-:root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .activity-1gTu-L .headerTextNormal-Z8we9g {justify-content: center; background-color: var(--popout-title);}
-.popoutBanner-3cqRD9 .pencilContainer-18TrEJ, .popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ {border-radius: var(--server-radius);}
-.input-2z42oC {border-radius: var(--server-radius);}
-.headerContainer-1wJjOa {justify-content: center !important;}
-/* About me section/containers in popout */
-.userInfoTitle-39qq0Y {text-align: center; justify-content: center !important; background-color: var(--popout-title); margin: 0px; border-radius: var(--server-radius) var(--server-radius) 0px 0px;}
-.clamped-2ZePhX {background-color: var(--popout-background-main); border-radius: 0px 0px var(--server-radius) var(--server-radius);}
-.userInfoSection-3her-v {margin-right: 8px;}
-
-.rolesList-3uZoaa {
-  display: grid;
-  grid-template-columns: repeat(var(--roleslist-columns), minmax(0, 1fr));
-  background: var(--background-tertiary);
-  padding: 4px;
-  gap: 0px;
-  border-radius: 0px 0px var(--server-radius) var(--server-radius);
-  max-height: 150px;
-  overflow: auto;
-  background-color: var(--popout-background-main);
-  bottom: 2px;
-}
-.rolesList-3uZoaa .roleCircle-1EgnFN {
-  flex-shrink: 0;
-}
-
-/* Custom Status in popout (Container for people status in popout) + about me + "message/input box (footer) */
-:root .userPopout-2j1gM4 .body-2wLx-E .customStatus-3XAoF9::before {
-  content: "CUSTOM STATUS";
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: calc(100% - 0px);
-  font-size: 12px;
-  font-weight: 600;
-  text-align: center;
-  color: var(--header-secondary);
-  background-color: var(--popout-title);
-  border-radius: var(--server-radius) var(--server-radius) 0px 0px;
-}
-:root .userPopout-2j1gM4 .body-2wLx-E .customStatus-3XAoF9 {
-  position: relative;
-  width: calc(100% - 8px);
-  background-color: var(--popout-background-main);
-  overflow: hidden;
-  margin: 8px 0px 8px 0px;
-  padding: 25px 8px 8px;
-  border-radius: var(--server-radius) var(--server-radius) var(--server-radius) var(--server-radius);
-}
-:root .userPopout-2j1gM4 .customStatus-3XAoF9, :root .userPopout-2j1gM4 .aboutMeSection-PUghFQ {padding-top: 0px; margin-right: 8px; margin-top: 8px; border-radius: var(--server-radius);}
 
 /* Avatar icon radius in "Mutual Servers" [Popout USRBG] Keep */
 .listAvatar-2bU5Uh {
@@ -3060,7 +2884,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 }
 
 /* Server radius */
-.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .previewMessage-2g_aBv, .cameraWrapper-3a7Ngv, .lookFilled-yCfaCM.colorGreen-3y-Z79, .theme-dark .inset-SbsSFp, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .premiumInlineNotice-eSBKv7, .notice-1Qe0b_, .expandedFolderBackground-1kSAf6, .tile-2TcwiO .button-3Vyz67, .theme-dark .buttonColor-28DXIe, .container-1zzFcN > .flex-3BkGQD, .overlayTitle-2efoIF, .status-15kcmy, .compactButton-3hG-bs, .compactButtonDisabled-MwB2d6, .theme-dark .guildIconImage-74OdmM, .container-2oNtJn, .searchResult-O9NDji, .themedPopout-1TrfdI, .sourceThumbnail-ERDcZE, .content-2M_BlY, .wrapper-2SplAX, .theme-dark .watchButton-2YRKxv, .wrapper-1FP9YQ, .wrapper-1HIH0j, div.BetterInvites-guildBanner > img, .pictureInPictureVideo-2puO2Q, .video-2HW4jD, .status-1ZXjSF, .button-3Vyz67, .upsellTooltipWrapper-1wqikQ, .container-2O1UgZ, .activityItem-1Z9CTr, .scroller-3b1p7z, .liveLarge-IxMVzY, .textBadge-1fdDPJ, .liveIndicator-3bhXBF, .container-3jbRo5, .messagesPopoutWrap-3zryHW, .transferToGuildCard-1gIED6, .tierPill-l7DvKo, .cardWrapper-1bSePP, .guild-2Fq4I5, .item-1OdjEX.colorDefault-CDqZdO.focused-3qFvc8, .group-LWHoGI, .banner-3Uu4yV, .input-2g-os5, .row-1qtctT, .icon-2yhmi8, .content-1Tgc42 {border-radius: var(--server-radius) !important;}
+.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .previewMessage-2g_aBv, .cameraWrapper-3a7Ngv, .lookFilled-yCfaCM.colorGreen-3y-Z79, .theme-dark .inset-SbsSFp, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .premiumInlineNotice-eSBKv7, .notice-1Qe0b_, .expandedFolderBackground-1kSAf6, .tile-2TcwiO .button-3Vyz67, .theme-dark .buttonColor-28DXIe, .container-1zzFcN > .flex-3BkGQD, .overlayTitle-2efoIF, .status-15kcmy, .compactButton-3hG-bs, .compactButtonDisabled-MwB2d6, .theme-dark .guildIconImage-74OdmM, .container-2oNtJn, .searchResult-O9NDji, .themedPopout-1TrfdI, .sourceThumbnail-ERDcZE, .content-2M_BlY, .wrapper-2SplAX, .theme-dark .watchButton-2YRKxv, .wrapper-1FP9YQ, .wrapper-1HIH0j, div.BetterInvites-guildBanner > img, .pictureInPictureVideo-2puO2Q, .video-2HW4jD, .status-1ZXjSF, .button-3Vyz67, .upsellTooltipWrapper-1wqikQ, .container-2O1UgZ, .activityItem-1Z9CTr, .scroller-3b1p7z, .liveLarge-IxMVzY, .textBadge-1fdDPJ, .liveIndicator-3bhXBF, .container-3jbRo5, .messagesPopoutWrap-3zryHW, .transferToGuildCard-1gIED6, .tierPill-l7DvKo, .cardWrapper-1bSePP, .guild-2Fq4I5, .item-1OdjEX.colorDefault-CDqZdO.focused-3qFvc8, .group-LWHoGI, .banner-3Uu4yV, .input-2g-os5, .row-1qtctT, .icon-2yhmi8, .content-1Tgc42, .button-f2h6uQ {border-radius: var(--server-radius) !important;}
 .themedPopout-1TrfdI, .messagesPopoutWrap-3zryHW {box-shadow: none !important;}
 .wrapper-28eC3z foreignObject { mask: none; transition: 0.2s;}
 .wrapperSimple-Js2rIO { overflow: visible;}
