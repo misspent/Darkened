@@ -2326,6 +2326,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .footer-3naVBw {padding: 0 10px 10px; display: var(--Popout-Send-Message-Container); background-color: var(--background-secondary);}
 .body-2wLx-E {padding-right: 16px !important; padding: 0 10px 8px !important;}
 
+.userInfoSection-3her-v {margin-top: 18px;}
 .body-u1Y8uL {margin-left: 5px; padding-bottom: 5px;}
 .buttonsWrapper-2ARRp1 {margin-right: 5px; margin-left: 5px;}
 .connections-pPr4as {padding: 8px 0 0 5px;}
@@ -2378,7 +2379,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   width: calc(100% - 0px);
   background-color: var(--popout-background-main);
   overflow: hidden;
-  margin: 8px 0px 8px 0px;
+  margin: 18px 0px 8px 0px;
   padding: 25px 8px 8px;
   border-radius: var(--server-radius) var(--server-radius) var(--server-radius) var(--server-radius);
 }
@@ -3056,7 +3057,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .wrapper-28eC3z foreignObject { mask: none; transition: 0.2s;}
 .wrapperSimple-Js2rIO { overflow: visible;}
 
-.wrapper-2SplAX {margin-bottom: 5px;}
+.wrapper-2SplAX {margin-bottom: 3px;}
 .iconInactive-26M06U {border-radius: calc(var(--server-radius) - 4px);}
 
 .wrapper-28eC3z:hover foreignObject {border-radius: calc(var(--server-radius) - 3px); transition: 0.2s;}
