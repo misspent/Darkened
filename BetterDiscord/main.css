@@ -309,8 +309,8 @@
 /* popout + other buttons */
 .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {background: rgb(var(--accent), 0.6); border-radius: var(--server-radius);}
 .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {background: rgb(var(--accent), 0.3); border-radius: var(--server-radius);}
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {background: rgb(var(--accent), 0.6); border-radius: var(--server-radius);}
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {background: rgb(var(--accent), 0.3); border-radius: var(--server-radius);}
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {background: var(--background-mobile-primary); border-radius: var(--server-radius);}
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {background: var(--background-mobile-primary); border-radius: var(--server-radius);}
 .theme-dark .lookLink-15mFoz.colorTransparent-13Bvvi, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .secondaryButton-rBY2Kw.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeXlarge-2TyITf.grow-2sR_-F {background-color: #ed4245; border-radius: var(--server-radius);}
 /* Block button */
 [id*="chat-messages-"] > div.size16-rrJ6ag.description-22d6ux > div > button.action-1R6ERA.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeTiny-3y2SSK.grow-2sR_-F
@@ -2193,7 +2193,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
 }
 /* Popout banner, header, pfp and username + other stuff at top */
-.headerTop-3GPUSF {padding: 104px 16px 16px;}
+.headerTop-3GPUSF {padding: 104px 16px 8px;}
 :root .userPopout-2j1gM4 .headerTop-3GPUSF {
   display: flex;
   flex-direction: column-reverse;
