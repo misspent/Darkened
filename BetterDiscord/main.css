@@ -1482,6 +1482,11 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 ====================================================================================================================
 */
 
+.mention {
+  border-radius: var(--server-radius);
+  padding: 0 3px;
+}
+
 /* Server banner boost bar background */
 .theme-dark .progressBarContainer-1efroK {background-color: var(--background-primary);}
 
@@ -2087,7 +2092,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   bottom: 5px;
 }
 /* Important ones */
-.form-3gdLxP {margin-top: 10px; padding-left: 8px; padding-right: 8px;}
+.form-3gdLxP {margin-top: 10px; padding-left: 5px; padding-right: 5px;}
 .channelTextArea-1FufC0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -2179,6 +2184,13 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   box-shadow: unset !important;
   margin-right: 0px;
   border-radius: var(--server-radius);
+}
+:root .userPopout-2j1gM4 .banner-1YaD3N {
+  position: absolute;
+  width: 300px;
+  height: 180px;
+  border-radius: var(--server-radius) var(--server-radius) 0px 0px;
+  -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
 }
 /* Popout banner, header, pfp and username + other stuff at top */
 .headerTop-3GPUSF {padding: 104px 16px 16px;}
