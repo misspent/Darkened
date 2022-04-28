@@ -2125,8 +2125,6 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 a[href="/discovery"] {display: var(--Home-Discovery-Channel);}
 /* Disable Nitro button in Home tab */
 a[href="/store"] {display: var(--Home-Nitro-Channel);}
-/* Popout "Message @user" container */
-.footer-3naVBw {display: var(--Popout-Send-Message-Container); background-color: var(--background-secondary);}
 
 /* Announcement bar */
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
@@ -2184,13 +2182,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 }
 /* Popout banner, header, pfp and username + other stuff at top */
 .headerTop-3GPUSF {padding: 104px 16px 16px;}
-:root .userPopout-2j1gM4 .banner-1YaD3N {
-  position: absolute;
-  width: 300px;
-  height: 180px;
-  border-radius: var(--server-radius) var(--server-radius) 0px 0px;
-  -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
-}
+
 :root .userPopout-2j1gM4 .headerTop-3GPUSF {
   display: flex;
   flex-direction: column-reverse;
@@ -2316,10 +2308,13 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   margin-bottom: 15px;
   border-radius: var(--server-radius) var(--server-radius) var(--server-radius) var(--server-radius);
 }
+/* Popout "Message @user" container */
+.footer-3naVBw {padding: 0 10px 10px; display: var(--Popout-Send-Message-Container); background-color: var(--background-secondary);}
+.body-2wLx-E {padding-right: 16px !important; padding: 0 10px 8px !important;}
+
 .body-u1Y8uL {margin-left: 5px; padding-bottom: 5px;}
 .buttonsWrapper-2ARRp1 {margin-right: 5px; margin-left: 5px;}
 .connections-pPr4as {padding: 8px 0 0 5px;}
-.body-2wLx-E {padding-right: 16px !important;}
 
 .bodyInnerWrapper-2bQs1k {background-color: var(--background-secondary);}
 :root .userPopout-2j1gM4 .body-2wLx-E .headerContainer-1wJjOa {background-color: var(--popout-title); border-radius: var(--server-radius) var(--server-radius) 0px 0px;}
@@ -2358,7 +2353,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   left: 0px;
   width: calc(100% - 0px);
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   color: var(--header-secondary);
   background-color: var(--popout-title);
