@@ -2193,6 +2193,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
 }
 /* Popout banner, header, pfp and username + other stuff at top */
+.headerTop-3GPUSF {padding: 104px 16px 16px;}
 :root .userPopout-2j1gM4 .headerTop-3GPUSF {
   display: flex;
   flex-direction: column-reverse;
