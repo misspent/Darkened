@@ -2381,7 +2381,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   width: calc(100% - 0px);
   background-color: var(--popout-background-main);
   overflow: hidden;
-  margin: 18px 0px 8px 0px;
+  margin: 0px 0px 8px 0px;
   padding: 25px 8px 8px;
   border-radius: var(--server-radius) var(--server-radius) var(--server-radius) var(--server-radius);
 }
@@ -2395,6 +2395,135 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 /* "Add to server" button in popout when viewing bots (like Dyno) */
 .applicationInstallButton-taCWKH {border-radius: var(--server-radius); margin-bottom: 8px; margin-top: 5px; margin-left: -4px;}
 
+/* Popout USRBG Model [Big Profile Model] */
+.headerTagUsernameBase-XYisdh, .discrimBase-1VOoau {font-weight: 700; color: var(--mention-color); font-size: large;}
+.pencilContainer-18TrEJ {border-radius: var(--server-radius);}
+.additionalActionsIcon-3Cy8UU {padding: 4px;}
+.additionalActionsIcon-3Cy8UU:hover {background: var(--background-tertiary);}
+
+/* User Info Section | USRBG */
+.userBio-2-tr00 {
+  background-color: var(--popout-background-main);
+  margin-top: -8px;
+  padding: 4px;
+  border-radius: 0 0 var(--server-radius) var(--server-radius);
+}
+.note-3M15gE {
+  border-radius: 0px;
+  margin-right: 4px;
+  margin-left: -4px;
+  margin-top: 0px;
+}
+.note-3M15gE textarea {
+  border-radius: 0 0 var(--server-radius) var(--server-radius);
+  margin-left: 4px;
+}
+.userInfoSectionHeader-2mYYun {
+  text-align: center;
+  background-color: var(--popout-title);
+  border-radius: var(--server-radius) var(--server-radius) 0px 0px;
+  margin-bottom: 0px;
+}
+
+/* Activity & Mutual Servers sections | USRBG  */
+.listRow-2nO1T6 {border-radius: var(--server-radius); margin: 1px 0 4px 0px;}
+.listScroller-entkMk {padding: 8px 8px 0px 8px !important;}
+
+:root .root-8LYsGj .activityProfile-1712BN .contentImagesProfile-27BIzt::after,
+:root .root-8LYsGj .activityProfile-1712BN .contentGameImageProfile-24ty00::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 0;
+  background: #7289da;
+}
+:root .root-8LYsGj .activityProfile-1712BN .timeBarProfile-1z_HH-::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  background: #1db954;
+}
+:root .root-8LYsGj .activityProfile-1712BN .spotifyIcon-2J9kSv {
+  display: none !important;
+}
+
+/* Connected Accounts | USRBG */
+:root .root-8LYsGj .body-1Ukv50 {
+  z-index: 1;
+  background-color: var(--background-secondary);
+}
+:root .root-8LYsGj .pc-connections .connectedAccounts-1YaT2t:empty::before {
+  background-color: transparent;
+}
+#app-mount .connectedAccounts-1YaT2t {
+  display: grid;
+  margin-top: 0px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+}
+#app-mount .connectedAccount-1xKpli {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: var(--server-radius);
+  border-color: var(--border);
+  padding: 12px 16px 12px 18px;
+  position: relative;
+}
+/* Battle.net */
+#app-mount .connectedAccount-1xKpli img[src*="37f15a06d062bdd0fc252d2b35d0b0bb"] + div {--connection-color: #0f2dda;}
+/* xbox */
+#app-mount .connectedAccount-1xKpli img[src*="1fa6585cbb8c0fe21188e26d19fc6609"] + div {--connection-color: #1eff00;}
+/* LOL */
+#app-mount .connectedAccount-1xKpli img[src*="94dc6f30a819026fa295d85f1f72b4ab"] + div {--connection-color: #CEA146;}
+/* Facebook */
+#app-mount .connectedAccount-1xKpli img[src*="316ed923548387f8983e28a3804e6712"] + div {--connection-color: #2D3283;}
+/* Steam */
+#app-mount .connectedAccount-1xKpli img[src*="d897626dfa2016ea3ad0af935acb6070"] + div {--connection-color: #454545;}
+/* Github */
+#app-mount .connectedAccount-1xKpli img[src*="6a853b4c87fce386cbfef4a2efbacb09"] + div {--connection-color: rgba(255, 255, 255, 0.719);}
+/* Spotify */
+#app-mount .connectedAccount-1xKpli img[src*="eaeac24163b35f7526704a3d9b3c7722"] + div {--connection-color: #1db954;}
+/* Twitch */
+#app-mount .connectedAccount-1xKpli img[src*="ca71e0b8818221eea1deebbaf8dc6518"] + div {--connection-color: #563194;}
+/* YouTube */
+#app-mount .connectedAccount-1xKpli img[src*="57ee9535485efae7eb923ed4893abb57"] + div {--connection-color: #D9252A;}
+/* Twitter */
+#app-mount .connectedAccount-1xKpli img[src*="85cf2b49d2a185c98ec8e383ad5a05d6"] + div {--connection-color: #0099E4;}
+/* Reddit */
+#app-mount .connectedAccount-1xKpli img[src*="f3224f560c8f5974355596a4f7e9ce19"] + div {--connection-color: #ff8800;}
+
+.connectedAccount-1xKpli {
+  border-radius: var(--avatar-radius);
+}
+
+#app-mount .connectedAccountName-j0meX4 {
+  line-height: normal;
+}
+#app-mount .connectedAccountNameInner-t24B11 {
+  --connection-color: var(--brand-experiment);
+  overflow: visible;
+}
+#app-mount .connectedAccountNameInner-t24B11::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+  opacity: 0.1;
+  background: var(--connection-color);
+  box-shadow: none;
+  border-radius: var(--server-radius);
+}
 /* --------------------------- ⚙️ SERVER SETTINGS --------------------------- */
 
 /* Notice bar ("Save Changes/Reset" container when disabling or enabling something) notification */
