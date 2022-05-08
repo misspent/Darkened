@@ -1020,8 +1020,9 @@
 .fa-w-14:hover [fill=currentColor] {color: var(--unread-color);}
 .fa-w-14 {margin: -5px;	margin-right: 0px;}
 
-/* Muted servers & Muted channels icon color(s) */
+/* Muted servers & Muted channels icon color(s) | Muted text colour */
 .item-1OdjEX#guild-context-unmute-guild::before, .item-1OdjEX#guild-context-hide-muted-channels[aria-checked=true]::before {background-color: #ed4245;}
+.muteText-13RgwP {color: rgb(166, 35, 35) !important;}
 
 /* ShowSession Plugin */
 .ShowSessions-list-item {
@@ -1780,6 +1781,11 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   border-radius: var(--server-radius);
   padding: 16px 16px 16px 0;
   margin-bottom: 10px;
+}
+.channelName-3w2Y3c {
+  background: var(--background-tertiary);
+  margin-bottom: 0px;
+  justify-content: center;
 }
 .messagesPopout-eVzQcI {margin: 8px; padding: 8px !important;}
 .container-iA3Qrz {border: 1px solid #202020;}
