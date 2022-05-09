@@ -1063,6 +1063,15 @@
 .channelTabs-fav {margin-bottom: 0px;}
 .channelTabs-favContainer {padding: 0 8px 0 0px !important;}
 
+/* Notes plugin separator title container */
+.channelSeparator-1-U8lm {
+  margin-top: 24px;
+  margin-bottom: 0px;
+  padding: 2px;
+  background: var(--background-tertiary);
+  text-align: center;
+}
+
 /*
 ====================================================================================================================
                                      Settings Custom CSS
@@ -1784,6 +1793,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .channelName-3w2Y3c {
   background: var(--background-tertiary);
   margin-bottom: 0px;
+  padding: 2px;
   justify-content: center;
 }
 .messagesPopout-eVzQcI {margin: 8px; padding: 8px !important;}
