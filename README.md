@@ -87,68 +87,50 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 ```css
 /*
 \==================================================================================\
-\                                  Other Variables                                 \
+\                                  Main Variables                                  \
 \==================================================================================\
 */
 
-:root {
-  /* Home Icon Image */
-  --Home-Image-Icon: url("https://i.ibb.co/k4mXsGW/Mary-Shaw.png"); /* Default: https://i.ibb.co/k4mXsGW/Mary-Shaw.png | Free Upload Site: https://imgbb.com */
+.theme-dark {
+  --background-tertiary: #121212;
+  --background-secondary: #0d0d0d;
+  --background-secondary-alt: #090909;
+  --background-primary: #090909;
+  --background-mobile-primary: #23283d;
+  --background-mobile-secondary: #1e2233;
+  --channeltextarea-background: #101010; /* Main window text bar + reply bar background */
+  --background-accent: #6e85d3;
+  --background-message-hover: transparent;
+  --background-modifier-hover: #121212;
+  --background-modifier-active: #1a1e2e;
+  --background-modifier-selected: #171d2b;
+  --deprecated-card-bg: #12141f63;
+  --background-floating: #0d0d0d;
+  --deprecated-quickswitcher-input-background: #101320;
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #121722;
+  --scrollbar-auto-track: #191f2e;
+  --scrollbar-thin-thumb: #141925;
+  --activity-card-background: #101320;
+  --border-color: #151515; /* Change to: "none" for no borders */
+  --popout-title: #141414;
+  --popout-background-main: #101010;
+  --jump-newmessage-bars-buttons: #353535;
+  --jump-newmessage-bars: #202020;
+}
 
-  /* Spotify plugin seek bar */
-  --spotify-color: #1edc62; /* Default: #1edc62 */
-
-  /* Tooltips */
-  --tooltips: block; /* Set it to "none" if you don't want it | Default: block */
-
-  /* Other */
-  --roleslist-columns: 3; /* Amount of columns for roles in popout | Default: 3 */
-  --dark: #151515; /* Codeblocks Import | Default: #151515 */
-
-  /* Mention color */
-  --mention-color: #0fffff; /* Default: #0fffff */
-  --unread-color: rgb(0, 195, 209); /* Default: rgb(0, 195, 209) */
-  --accent: 0, 195, 209; /* This works in conjunction with "--unread-color" | Default: 0, 195, 209 */
-
-  /* Mention color in chat */
-  --mention-color-bar: #00b0f4; /* Default: #00b0f4 */
-  --mention-color-background: #00b0f41f; /* Default: #00b0f41f */
-  --mention-color-hover: #00b0f41f; /* Default: #00b0f41f */
-
-  /* Roundness of the fun stuff */
-  --avatar-radius: 0px; /* Avatar roundness | Radial Status roundness */
-  --status-radius: 8px; /* Status roundness */
-  --server-radius: 0px; /* Server icons, borders, images and other containers roundness */
-  --role-circle: 5px; /* Circles next to role names (Size not roundness) */
-
-  /* Toggleable variables */
-  --Discord-Watermark: flex; /* flex = ON, none = OFF */
-  --Chat-GIF-Button: none; /* flex = ON, none = OFF */
-  --Chat-Gift-Button: none; /* flex = ON, none = OFF */
-  --Chat-Sticker-Button: none; /* flex = ON, none = OFF */
-  --Home-Nitro-Channel: flex; /* flex = ON, none = OFF */
-  --Home-Discovery-Channel: flex; /* flex = ON, none = OFF */
-  --Context-Menu-Emoji-Toolbar: none; /* flex = ON, none = OFF */
-  --Text-Channels-Capital-Letter: capitalize; /* capitalize, none */
-  --Popout-Send-Message-Container: block; /* block = ON, none = OFF */
-
-  /* Radial Status */
-  --rs-small-spacing: 0px;
-  --rs-medium-spacing: 0px;
-  --rs-large-spacing: 0px;
-  --rs-small-width: 1.5px;
-  --rs-medium-width: 1.5px;
-  --rs-large-width: 1.5px;
-  --rs-avatar-shape: var(--avatar-radius);
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-invisible-color: #747f8d;
-  --rs-phone-color: var(--rs-online-color);
-  --rs-phone-visible: block;
-  --rs-version: "2.0.6";
+.theme-light {
+  /* "Create a server" popup | I will never support light theme */
+  --background-tertiary: #090909;
+  --background-secondary: #090909;
+  --background-secondary-alt: #191f2e;
+  --background-primary: #121212;
+  --background-accent: #6e85d3;
+  --background-modifier-hover: #1a1e2e;
+  --background-modifier-active: #262b41;
+  --header-primary: #fff;
+  --header-secondary: #b1b5b9;
+  --text-normal: #8e9297;
 }
 ```
 </details>
