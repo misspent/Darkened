@@ -1080,6 +1080,33 @@
 }
 .unpinButton-z3-UVO {opacity: 1;}
 
+/* Highlights pinned messages (Requires PinnedMessageIcons plugin) */
+.message-2CShn3.pinned-message:not(.mentioned-Tre-dv):not(.replying-eZ7p5z)::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: inherit;
+  height: inherit;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  top: 0px;
+  background: var(--jump-newmessage-bars);
+  opacity: 0.32;
+  z-index: -1;
+}
+.message-2CShn3.pinned-message:not(.mentioned-Tre-dv):not(.replying-eZ7p5z)::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: inherit;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  background: var(--jump-newmessage-bars-buttons);
+}
+
 /*
 ====================================================================================================================
                                      Settings Custom CSS
@@ -2425,7 +2452,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 }
 
 /* "Add to server" button in popout when viewing bots (like Dyno) */
-.applicationInstallButton-taCWKH {border-radius: var(--server-radius); margin-bottom: 8px; margin-top: 5px; margin-left: -4px;}
+.applicationInstallButton-taCWKH {border-radius: var(--server-radius); margin-bottom: 8px; margin-top: 5px;}
 
 /* Popout USRBG Model [Big Profile Model] */
 .headerTagUsernameBase-XYisdh, .discrimBase-1VOoau {font-weight: 700; color: var(--mention-color); font-size: large;}
@@ -2938,6 +2965,9 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .wrapper-24fR1R:focus-within, .wrapper-24fR1R:hover {
   background-color: var(--background-secondary);
 }
+
+/* Better Discord Addon Error */
+.bd-tab-bar {justify-content: center;}
 
 /* Scrollbar */
 ::-webkit-scrollbar-track { border-radius: var(--server-radius) !important;}
