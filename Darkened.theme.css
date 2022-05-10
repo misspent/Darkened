@@ -130,6 +130,8 @@
   --border-color: #151515; /* Change to: "none" for no borders */
   --popout-title: #141414;
   --popout-background-main: #101010;
+  --jump-newmessage-bars-buttons: #353535;
+  --jump-newmessage-bars: #202020;
 }
 
 .theme-light {
