@@ -1801,7 +1801,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   background-color: var(--background-primary);
   border-radius: var(--server-radius);
   padding: 16px 16px 16px 0;
-  margin-bottom: 10px;
+  margin: 0px;
 }
 .channelName-3w2Y3c {
   background: var(--background-tertiary);
@@ -1810,10 +1810,10 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   justify-content: center;
 }
 .messagesPopout-eVzQcI {margin: 8px; padding: 8px !important;}
-.container-iA3Qrz {border: 1px solid #202020;}
+.container-iA3Qrz {border: 1px solid #202020; padding-right: 0px;}
 .guildIcon-IklRcj {background-color: var(--background-secondary-alt);	border-radius: var(--server-radius);}
 .full-motion .button-1_oXub[aria-label=Filter] {border-radius: var(--server-radius);}
-.full-motion .button-1_oXub[aria-label=Close] {border-radius: var(--server-radius);	color: red;}
+.full-motion .button-1_oXub[aria-label=Close] {border-radius: var(--server-radius);	color: red; margin-right: 12px;}
 .theme-dark .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {background-color: var(--background-accent); border-radius: var(--server-radius);}
 .full-motion .button-1_oXub {border-radius: var(--server-radius);}
 
