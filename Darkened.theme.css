@@ -34,7 +34,8 @@
   --tooltips: block; /* Set it to "none" if you don't want it | Default: block */
 
   /* Other */
-  --dark: #151515; /* Codeblocks Import | Default: #151515 */
+  --dark: #151515; /* Codeblocks Import: Border color | Default: #151515 */
+  --light: #151515; /* Codeblocks Import | Default: #151515 */
   --roleslist-columns: 3; /* Amount of columns for roles in popout */
   --Normal-Activity-Icon: #c4302b; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium */
   --Playing-Game-Icon: #4c8bf5; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium */
