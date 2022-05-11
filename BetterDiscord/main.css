@@ -1824,6 +1824,11 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   background-color: #202020 !important;
 }
 
+/* Pins, Notes & Inbox container heights */
+.themedPopout-1TrfdI, .messagesPopoutWrap-3zryHW {margin-top: 14px;} /* All of them but mainly for the "PersonalPins" Plugin */
+div#popout_622.layer-2aCOJ3 {top: 67px !important;} /* Pin tab container */
+div#popout_624.layer-2aCOJ3 {top: 67px !important;} /* Inbox tab container */
+
 /* Inbox, pin + other container(s) (Avatar, box, close roundness + color) */
 .messageContainer-3VTXBC {
   background-color: var(--background-primary);
