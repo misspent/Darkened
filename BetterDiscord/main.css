@@ -620,8 +620,7 @@
   transform: translateY(10px);
 }
 /* PINNED MESSAGES WIDTH */
-.messagesPopoutWrap-3zryHW{width: 620px;
-  /* SEARCH MESSAGES WIDTH */}
+.messagesPopoutWrap-3zryHW{width: 620px; max-height: 1270px !important;}  /* SEARCH MESSAGES WIDTH */
 .searchResultsWrap-5RVOkx {width: 555px;}
 
 /* Change the "Home Icon" to any image you want (Remove the default home icon) */
@@ -1824,10 +1823,11 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   background-color: var(--jump-newmessage-bars) !important;
 }
 
-/* Pins, Notes & Inbox container heights */
+/* Threads, Pins, Notes & Inbox container heights */
+.browser-mnQ1T7 {margin-top: 6px;} /* Threads tab container */
 .themedPopout-1TrfdI, .messagesPopoutWrap-3zryHW {margin-top: 14px; box-shadow: none !important;} /* All of them but mainly for the "PersonalPins" Plugin */
-div#popout_622.layer-2aCOJ3 {top: 67px !important;} /* Pin tab container */
-div#popout_624.layer-2aCOJ3 {top: 67px !important;} /* Inbox tab container */
+div#popout_622.layer-2aCOJ3, div#popout_7583.layer-2aCOJ3 {top: 67px !important;} /* Pin tab container */
+div#popout_624.layer-2aCOJ3, div#popout_7585.layer-2aCOJ3 {top: 67px !important;} /* Inbox tab container */
 
 /* Inbox, pin + other container(s) (Avatar, box, close roundness + color) */
 .messageContainer-3VTXBC {
