@@ -1543,9 +1543,6 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   padding: 0 3px;
 }
 
-/* Height of channel titles when the server has a banner | Had to fix the shit cause of my OCD */
-#channels > ul > div {height: 88px !important;}
-
 /* Server banner boost bar background */
 .theme-dark .progressBarContainer-1efroK {background-color: var(--background-primary);}
 
