@@ -1265,11 +1265,11 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   border-radius: var(--server-radius);
 }
 .guild-Hq0WWA {border-radius: var(--server-radius);}
-/* Subscriptions in settings */
-.accountCredit-1gEVAQ, .detailsBlock-FoDTGA, .tier2-3hSil0.banner-3Kac2g, .iconBackground-2u8o5- {border-radius: var(--server-radius);}
+/* Subscriptions & Gift Inventory in settings */
+.accountCredit-1gEVAQ, .detailsBlock-FoDTGA, .tier2-3hSil0.banner-3Kac2g, .iconBackground-2u8o5-, .banner-oA34U0, .detailsBlock-24pLFz {border-radius: var(--server-radius);}
 /* Billing */
 .theme-dark .paymentPane-ut5qKZ, .pageActions-1crTQL, .summaryInfo-3hcuop {background: var(--background-secondary);}
-.pageButtonNext-2_bbdk.disabled-29cfPA, .pageButtonPrev-3q9rh8.disabled-29cfPA, .pageButtonNext-2_bbdk, .pageButtonPrev-3q9rh8 {border-radius: var(--server-radius);}
+.pageButtonNext-2_bbdk.disabled-29cfPA, .pageButtonPrev-3q9rh8.disabled-29cfPA, .pageButtonNext-2_bbdk, .pageButtonPrev-3q9rh8, .card-16VQ8C {border-radius: var(--server-radius);}
 /* Appearance in settings */
 .item-2idW98[aria-checked=true] {background-color: green !important;}
 .item-2idW98 {border-radius: var(--server-radius);}
@@ -1291,6 +1291,14 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   opacity: 0;
   border-radius: var(--server-radius);
 }
+
+/* Authorised Apps section */
+.cardPrimaryOutline-1ofwVz {
+  border-color: var(--border-color);
+  border-radius: var(--server-radius);
+}
+.appAvatar-2htirv {border-radius: var(--avatar-radius);}
+.authedApp-8q3NA9 {background: var(--background-secondary);}
 
 /* Settings Channel selected * hover container colours */
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
@@ -1402,6 +1410,8 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .lookFilled-1Gx00P.colorBrand-3pXr91 {color: #fff; background-color: var(--brand-experiment); border-radius: var(--server-radius); margin-right: 3px;}
 /* Buttons in My Account (Remove 2fa, Remove SMS Authentication, Delete Account) */
 .lookOutlined-3sRXeN.colorRed-1TFJan, .lookOutlined-3yKVGo.colorRed-rQXKgM {color: hsl(359deg, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); border-color: hsl(359deg, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); border-radius: var(--server-radius);}
+/* "Request Data" button in "Privacy & Safety" + others that share the same class */
+.lookOutlined-3yKVGo.colorBrand-I6CyqQ {background: var(--button-outline-brand-background-hover);}
 /* Buttons in my account (Disable Account) */
 .lookFilled-1Gx00P.colorRed-1TFJan {color: #fff; background-color: hsl(359deg, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);	border-radius: var(--server-radius);}
 /* Video and Screen Share buttons */
@@ -2262,12 +2272,12 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
 }
 /* Popout banner, header, pfp and username + other stuff at top */
-.headerTop-3GPUSF {padding: 104px 16px 8px;}
 :root .userPopout-2j1gM4 .headerTop-3GPUSF {
   display: flex;
   flex-direction: column-reverse;
   text-align: center;
-  padding-top: 110px;
+  /* padding-top: 110px; */
+  padding: 104px 16px 8px;
 }
 :root .userPopout-2j1gM4 .headerTop-3GPUSF .profileBadges-2pItdR {
   position: static;
@@ -3008,7 +3018,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .theme-dark .contentWarningPopout-WKdbDG { background-color: var(--background-primary); box-shadow: none;}
 
 /* Codeblock stuff */
-.theme-dark .messageGroupWrapper-1jf_7C, .theme-dark .container-30qY7E, .theme-dark .cardPrimaryOutline-1ofwVz, .theme-dark .codeRedemptionRedirect-3SBiCp, .theme-dark .previewOverlay-2reuWf{padding-left: 10px !important; padding-right: 0px !important;}
+.theme-dark .messageGroupWrapper-1jf_7C, .theme-dark .container-30qY7E, .theme-dark .cardPrimaryOutline-1ofwVz, .theme-dark .codeRedemptionRedirect-3SBiCp, .theme-dark .previewOverlay-2reuWf{padding-left: 10px; padding-right: 0px;}
 .markup-eYLPri code, .markup-eYLPri code.inline {
   background: var(--background-secondary) !important;
   border: none !important;
