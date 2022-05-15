@@ -1050,7 +1050,7 @@
   margin-bottom: 0px !important;
   margin-right: 0px !important;
 }
-.channelTabs-fav .channelTabs-typingBadge .spinner-2RT7ZC {width: 28px; padding: 1px; background: var(--background-mobile-primary);}
+.channelTabs-fav .channelTabs-typingBadge .spinner-2RT7ZC {width: 28px; padding: 1px; background: var(--jump-newmessage-bars);}
 
 /* Newer stuff */
 #channelTabs-container> :not(#channelTabs-settingsMenu)+ div {
