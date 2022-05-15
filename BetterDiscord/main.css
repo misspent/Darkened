@@ -1059,7 +1059,8 @@
 #channelTabs-container {padding: 0px 8px 1px 0px;}
 
 .channelTabs-favContainer {padding: 0 8px 0 0px !important;}
-.channelTabs-fav:hover, .channelTabs-fav:active {background-color: var(--jump-newmessage-bars) !important;}
+.channelTabs-fav:hover {background-color: var(--jump-newmessage-bars) !important;}
+.channelTabs-fav:active {background: var(--background-primary);}
 .channelTabs-fav {margin-bottom: 0px;}
 
 /* Notes plugin separator title container */
@@ -1746,13 +1747,14 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   overflow: hidden;
   border-radius: 0 0 0px 0px;
 }
-:root .root-g14mjS .footer-31IekZ button {
+:root .root-g14mjS .footer-31IekZ button { /* join a server button? */
   width: auto;
   height: auto;
   flex-grow: 1;
   margin: 0;
   padding: 2px 16px;
   box-shadow: none !important;
+  background: #1db954 !important;
   border-radius: 0;
   min-height: 45px;
 }
@@ -1863,6 +1865,15 @@ div#popout_622.layer-2aCOJ3, div#popout_7583.layer-2aCOJ3, .layer-2aCOJ3[id="pop
 .guildSeparator-33mFX6, .guildSeparator-a4uisj {display: none;}
 /* "Read All" container makes it look cleaner */
 .frame-oXWS21 {margin-bottom: 0px;}
+
+/* Folders container */
+.expandedFolderBackground-1kSAf6 {
+  top: 48px;
+  left: 8px;
+  bottom: 4px;
+  width: 56px;
+  background-color: var(--background-tertiary);
+}
 
 /*
 =====================================================================================================================================
