@@ -1053,17 +1053,14 @@
 .channelTabs-fav .channelTabs-typingBadge .spinner-2RT7ZC {width: 28px; padding: 1px; background: var(--jump-newmessage-bars);}
 
 /* Newer stuff */
-#channelTabs-container> :not(#channelTabs-settingsMenu)+ div {
-  padding-top: 2px !important;
-  border-top: 1px solid var(--background-modifier-accent);
-}
-
-.channelTabs-tabIconWrapper rect, .channelTabs-favIconWrapper rect {rx: var(--avatar-radius) !important; ry: var(--avatar-radius) !important;}
 .channelTabs-tabIconWrapper img[src*="com/avatars/"], .channelTabs-favIconWrapper img[src*="com/avatars/"] {clip-path: inset(0px round 0%) !important;}
-
+.channelTabs-tabIconWrapper rect, .channelTabs-favIconWrapper rect {rx: var(--avatar-radius) !important; ry: var(--avatar-radius) !important;}
+#channelTabs-container> :not(#channelTabs-settingsMenu)+ div {padding-top: 2px !important; border-top: 1px solid var(--background-modifier-accent);}
 #channelTabs-container {padding: 0px 8px 1px 0px;}
-.channelTabs-fav {margin-bottom: 0px;}
+
 .channelTabs-favContainer {padding: 0 8px 0 0px !important;}
+.channelTabs-fav:hover, .channelTabs-fav:active {background-color: var(--jump-newmessage-bars) !important;}
+.channelTabs-fav {margin-bottom: 0px;}
 
 /* Notes plugin separator title container */
 .channelSeparator-1-U8lm {
