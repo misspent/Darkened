@@ -1837,8 +1837,8 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 /* Threads, Pins, Notes & Inbox container heights */
 .browser-mnQ1T7 {margin-top: 6px;} /* Threads tab container */
 .themedPopout-1TrfdI, .messagesPopoutWrap-3zryHW {margin-top: 14px; box-shadow: none !important;} /* All of them but mainly for the "PersonalPins" Plugin */
-div#popout_622.layer-2aCOJ3, div#popout_7583.layer-2aCOJ3, .layer-2aCOJ3[id="popout_2037"] {top: 67px !important;} /* Pin tab container */
-.themedPopout-1TrfdI, .messagesPopoutWrap-3zryHW[aria-label="Recent Mentions"] {margin-top: 6px !important;} /* Inbox tab container */
+div#popout_7583.layer-2aCOJ3, .layer-2aCOJ3[id*="popout"] {top: 67px !important;} /* Pin tab container */
+.messagesPopoutWrap-3zryHW[aria-label="Recent Mentions"] {margin-top: 6px !important;} /* Inbox tab container */
 
 /* Inbox, pin + other container(s) (Avatar, box, close roundness + color) */
 .messageContainer-3VTXBC {
@@ -2337,6 +2337,9 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 }
 .note-Go5ZP2 {margin: 0px;}
 
+/* Spotify buttons color on popout */
+[id*="popout"] > div > div > div.body-2wLx-E button.button-TGAkj4.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.fullWidth-fJIsjq.grow-2sR_-F, [id*="popout"] > div > div > div.body-2wLx-E button.button-TGAkj4.iconButton-1li_a3.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.iconButtonSize-1-pz2t.grow-2sR_-F {background: var(--Spotify-Activity-Icon);}
+
 /* Roles */
 .rolesList-3uZoaa {
   display: grid;
@@ -2465,7 +2468,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   width: calc(100% - 0px);
   background-color: var(--popout-background-main);
   overflow: hidden;
-  margin: 18px 0px 8px 0px;
+  margin: 0px 0px 8px 0px;
   padding: 25px 8px 8px;
   border-radius: var(--server-radius) var(--server-radius) var(--server-radius) var(--server-radius);
 }
