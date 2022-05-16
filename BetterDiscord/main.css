@@ -1640,18 +1640,11 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   border-radius: 0px;
 }
 /* Thread channel selection fix (From gibbu's SoftX Theme) */
-.iconWrapper-3plkqhm {border-radius: var(--server-radius);}
-.typeThread-2Aqh6X .content-1gYQeQ {margin-left: 36px !important; padding: 0 0px;}
-#app-mount .wrapper-NhbLHG.typeThread-2Aqh6X .content-1gYQeQ::before {
-  position: absolute;
-  left: -20px;
-  width: 24px;
-  height: 24px;
-  content: "";
-  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.427 4.427l3.396 3.396a.25.25 0 010 .354l-3.396 3.396A.25.25 0 016 11.396V4.604a.25.25 0 01.427-.177z"></path></svg>');
-  mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.427 4.427l3.396 3.396a.25.25 0 010 .354l-3.396 3.396A.25.25 0 016 11.396V4.604a.25.25 0 01.427-.177z"></path></svg>');
-  background: var(--unread-color);
-}
+.iconWrapper-3plkqhm, .container-3XgAHv {border-radius: var(--server-radius);}
+/* Thread channel / stuff relating to the thread */
+.font-size-12 .cozy-VmLDNB.hasThread-3h-KJV.isSystemMessage-QNv9ZH:after, .font-size-14 .cozy-VmLDNB.hasThread-3h-KJV.isSystemMessage-QNv9ZH:after, .font-size-15 .cozy-VmLDNB.hasThread-3h-KJV.isSystemMessage-QNv9ZH:after, .font-size-16 .cozy-VmLDNB.hasThread-3h-KJV.isSystemMessage-QNv9ZH:after, .font-size-18 .cozy-VmLDNB.hasThread-3h-KJV.isSystemMessage-QNv9ZH:after, .font-size-20 .cozy-VmLDNB.hasThread-3h-KJV.isSystemMessage-QNv9ZH:after, .font-size-24 .cozy-VmLDNB.hasThread-3h-KJV.isSystemMessage-QNv9ZH:after {top: 2.3rem !important;} /* Line length under thread icon in chat */
+.channelTextArea-3TZH74 {margin: 0 5px 4px; width: calc(100% - 10px);}
+.typeThread-2Aqh6X .content-1gYQeQ {margin-left: 25px !important; padding: 0px;}
 #app-mount .wrapper-NhbLHG.typeThread-2Aqh6X.modeSelected-3DmyhH .content-1gYQeQ::after {background: rgb(var(--accent));}
 #app-mount .container-1Bj0eq .spine-29OFwR {display: none;}
 
