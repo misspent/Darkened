@@ -25,8 +25,8 @@
   font-size: 14px;
   left: -10px;
   line-height: 18px;
-  padding-bottom: 70px;
-  margin-top: -10px;
+  padding-bottom: 0px; /* Original: padding-bottom: 70px; */
+  margin-top: 80px; /* Original: margin-top: -10px; */
   position: relative;
   text-align: center;
   width: 220px;
@@ -881,7 +881,7 @@
 /* Edit server profile section */
 .profileCustomizationSection-2OOT4p .children-1xdcWE {align-items: center;}
 .divider-ogkn3u {border-bottom: none; margin: 0px;}
-.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {background-color: #ED4245 !important; border-radius: var(--server-radius); color: #fff;}
+
 .guildInfo-1yK_iS {border-bottom: none; margin-top: -12px; padding-bottom: 24px;}
 .profileBannerPreview-3mLIdO {border-radius: var(--server-radius); box-shadow: none;}
 .banner-3D8GgT, .fakeActivityIcon-KeXVoI.phibi-3Bl5zI, .swatch-35F5kl {border-radius: var(--server-radius);}
@@ -1403,6 +1403,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 /* Server Boost category in drop down */
 .planCard-vET3Ia, .hero-3xEZXe, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled {border-radius: var(--server-radius);}
 .perksTable-H9sPBm {border-radius: var(--server-radius); border: 1px solid var(--background-modifier-accent);}
+.theme-dark .perksModal-CLcR1c {background-image: none !important; background-color: var(--background-primary);}
 
 :root .root-g14mjS .header-1zd7se {text-align: center;}
 
@@ -1881,6 +1882,9 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   background-color: var(--background-tertiary);
 }
 
+/* Roles container at the top of a chat window */
+.role-23oyrw {border-radius: var(--server-radius); background: var(--background-secondary);}
+
 /*
 =====================================================================================================================================
 TODO: Tidy, change, mess, edit and make your own stuff now you have more of an understanding compared to when you first started!
@@ -2180,8 +2184,8 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 /* Typing indicator + Slow mode is enabled | Chat bar | Better Formatting Redux */
 .typing-2J1mQU {
   top: -22px !important;
-  left: 15px;
-  right: 40px;
+  left: 0px;
+  right: 6px;
   bottom: 5px;
 }
 /* Important ones */
