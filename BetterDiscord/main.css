@@ -1186,7 +1186,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 
 /* My Account settings section (Edit, remove & Disable account buttons + blur "your current phone number is") */
 .fieldButton-14lHvK {
-  background-color: #697ec9 !important;
+  background-color: var(--brand-experiment);
   border: 0px solid #313b5e;
   border-width: 0px 0px 0px 0px !important;
 }
@@ -1199,6 +1199,9 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   background-color: rgba(176, 48, 50, 0.8) !important;
   border-width: 0px 0px 0px 0px !important;
   border-radius: var(--server-radius);
+}
+.removeButton-v6eolJ {
+  background-color: #b03032 !important;
 }
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div.contentRegion-3HkfJJ > div > div > main > div > div.userSettingsSecurity-3C5Hg5.marginTop40-Q4o1tS > div.children-1xdcWE > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz > div > div > div.marginTop40-Q4o1tS > div.children-1xdcWE > div.colorStandard-21JIj7.size14-3fJ-ot.description-30xx7u.formText-2ngGjI.marginBottom8-emkd0_.modeDefault-2fEh7a {filter: blur(4px); opacity: 0.8;}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div.contentRegion-3HkfJJ > div > div > main > div > div.userSettingsSecurity-3C5Hg5.marginTop40-Q4o1tS > div.children-1xdcWE > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz > div > div > div.marginTop40-Q4o1tS > div.children-1xdcWE > div.colorStandard-21JIj7.size14-3fJ-ot.description-30xx7u.formText-2ngGjI.marginBottom8-emkd0_.modeDefault-2fEh7a:hover {filter: blur(0px);}
