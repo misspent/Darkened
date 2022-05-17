@@ -1203,6 +1203,9 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .removeButton-v6eolJ {
   background-color: #b03032 !important;
 }
+/* The 3 edit buttons */
+#my-account-tab > div > div > div.children-1xdcWE > div > div.background-3d_SjE > div > div > button, #my-account-tab > div > div > div.children-1xdcWE > div > div.background-3d_SjE > div > div > div.fieldButtonList-28BYbB > button.fieldButton-14lHvK.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeSmall-wU2dO-.grow-2sR_-F {background: var(--brand-experiment) !important;}
+
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div.contentRegion-3HkfJJ > div > div > main > div > div.userSettingsSecurity-3C5Hg5.marginTop40-Q4o1tS > div.children-1xdcWE > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz > div > div > div.marginTop40-Q4o1tS > div.children-1xdcWE > div.colorStandard-21JIj7.size14-3fJ-ot.description-30xx7u.formText-2ngGjI.marginBottom8-emkd0_.modeDefault-2fEh7a {filter: blur(4px); opacity: 0.8;}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div.contentRegion-3HkfJJ > div > div > main > div > div.userSettingsSecurity-3C5Hg5.marginTop40-Q4o1tS > div.children-1xdcWE > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz > div > div > div.marginTop40-Q4o1tS > div.children-1xdcWE > div.colorStandard-21JIj7.size14-3fJ-ot.description-30xx7u.formText-2ngGjI.marginBottom8-emkd0_.modeDefault-2fEh7a:hover {filter: blur(0px);}
 /* "My Account" in settings (Container for banner, pfp, Username, Email & Phone Number) */
@@ -1832,6 +1835,14 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {color: #fff; background-color: var(--background-modifier-active);}
 .circleIconButton-3lUBQk:hover, .circleIconButton-1VxDrg:hover {background-color: #202020 !important;}
 .circleIconButton-3lUBQk, .circleIconButton-1VxDrg {color: #43b581; background-color: var(--background-secondary);}
+
+/* join a server button? */
+.flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.footer-31IekZ.footer-3ie9JP.footerSeparator-VzAYwb > button {background: #1db954 !important;}
+.flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.footer-31IekZ.footer-3ie9JP.footerSeparator-VzAYwb > button:hover {filter: brightness(110%) !important;}
+
+/* Cancel buttons */
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {background-color: var(--jump-newmessage-bars-buttons); border-radius: var(--server-radius); color: #fff;}
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo:hover {filter: brightness(115%) !important;}
 
 .childWrapper-1j_1ub {
   -webkit-transition: background-color .15s ease-out, color .15s ease-out;
