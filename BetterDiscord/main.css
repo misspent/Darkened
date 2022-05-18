@@ -2236,7 +2236,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 /* Gift Button */
 .channelTextArea-1FufC0 .buttons-uaqb-5 button[aria-label="Send a gift"] {display: var(--Chat-Gift-Button) !important;}
 /* Context Menu: Emoji Top Wrapper */
-.menu-1QACrS .wrapper--nA0oy {display: var(--Context-Menu-Emoji-Toolbar);}
+.menu-1QACrS .wrapper--nA0oy {display: var(--Context-Menu-Emoji-Toolbar); padding: 4px 2px 6px 2px;}
 /* Disable Stage Discovery in Home tab */
 a[href="/discovery"] {display: var(--Home-Discovery-Channel);}
 /* Disable Nitro button in Home tab */
@@ -2759,7 +2759,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   background: var(--background-tertiary);
   box-shadow: none !important;
 }
-.theme-dark .tooltipBlack-vMYxvw .tooltipPointer-3L49xb {
+.theme-dark .tooltipBlack-vMYxvw .tooltipPointer-3L49xb, .theme-dark .tooltipGreen-oouJdx .tooltipPointer-3L49xb, .theme-light .tooltipGreen-oouJdx .tooltipPointer-3L49xb {
   border-top-color: var(--background-tertiary);
 }
 
