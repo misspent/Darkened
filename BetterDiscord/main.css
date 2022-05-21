@@ -623,7 +623,18 @@
 .messagesPopoutWrap-3zryHW{width: 620px; max-height: 1270px !important;}  /* SEARCH MESSAGES WIDTH */
 .searchResultsWrap-5RVOkx {width: 555px;}
 
-
+/* Change the "Home Icon" to any image you want (Remove the default home icon) */
+:root .tutorialContainer-1pL9QS .childWrapper-1j_1ub, .tutorialContainer-2sGCg9 .childWrapper-1j_1ub {
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: var(--Home-Image-Icon);
+  background-size: 48px 48px;
+  background-clip: border-box;
+}
+:root .homeIcon-r0w4ny, .homeIcon-FuNwkv > path {
+  display: none;
+}
 
 /* Stickers same size as emojis */
 .assetWrapper-2hzITV {
