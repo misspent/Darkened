@@ -1644,7 +1644,7 @@ div.bd-addon-header > div.bd-title > div.bd-meta > span.bd-author {color: var(--
 .replying-eZ7p5z:before {background-color: var(--unread-color);}
 
 /* Group divider */
-.group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u {margin: 16px 0px !important;}
+.group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u {margin: 0px !important;}
 
 /* The Thread to line below your avatar in chat + Thread container roundness */
 .cozy-VmLDNB.hasThread-3h-KJV:after {
@@ -1690,6 +1690,8 @@ div.bd-addon-header > div.bd-title > div.bd-meta > span.bd-author {color: var(--
 /* Embedding colour + roundness */
 .embedFull-1HGV2S {border-left: 4px solid var(--background-tertiary); background: var(--background-secondary); border-radius: var(--server-radius);}
 .embedVideo-2ixt5A, .imageWrapper-oMkQl4 img, .embedImage-2Ynqkh img, .embedImage-2Ynqkh video, .embedThumbnail-2nTasl img, .embedThumbnail-2nTasl video, .embedVideo-2ixt5A img, .embedVideo-2ixt5A video, .embedAuthor-TJIHp5, .embedDescription-1DrJxZ, .embedFields-2yHGHT, .embedFooter-3dj0UE, .embedMedia-1mdWSP, .embedProvider-1GSN0c, .embedTitle-2n1pEb, .imageWrapper-oMkQl4 {border-radius: var(--server-radius);}
+/* Embed close/delete icon */
+.embedSuppressButton-1rZHq6 {color: red; top: 0px; right: 0px;}
 
 /* Jump To Present Bar */
 .jumpToPresentBar-1cEnH0 {padding-bottom: 0px; opacity: 1;border-radius: var(--server-radius); background-color: var(--jump-newmessage-bars-buttons);}
@@ -2140,6 +2142,8 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 
 /* Avatars in call */
 [mask="url(#svg-mask-voice-user-summary-item)"] { mask: none;}
+/* Voice call members background */
+.containerDefault-YUSmu3 .userSmall-1Raexx {background: var(--background-tertiary);}
 
 /* Game activity/call area */
 .activityPanel-9icbyU,
