@@ -1014,6 +1014,9 @@
 /* Support Plugin CustomStatusPresets */
 #status-picker .submenuContainer-3EVTeH { grid-column: 1/5;}
 
+/* Owner/Admin/Mod Tag in replies | Fixed the positioning */
+.cozy-VmLDNB .repliedMessage-3Z6XBG .rem-3kT9wc.botTag-7aX5WZ {margin-bottom: 1px !important; padding-top: 1px;}
+
 /* Radial Status Import | Mobile */
 #app-mount .wrapper-1VLyxH foreignObject[mask*=mobile]:after {right: 1px !important;}
 
@@ -1168,8 +1171,8 @@
 .sidebar-nqHbhN {padding: 50px 0px 60px 0px !important;}
 body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {width: 190px !important;}
 body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettingsicons) * (var(--settingsiconssize) + var(--settingsiconsgap)))) !important;}
-/* Settings sidebar containers */
 
+/* Settings sidebar containers */
 .header-2Kx1US {padding: 6px 10px !important;}
 .header-2Kx1US, .bd-sidebar-header {background: var(--background-primary); text-align: center;}
 .bd-sidebar-header .header-2Kx1US {margin-left: 19%; margin-bottom: -2px;}
@@ -1550,6 +1553,10 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 /* Channel "edit channel" section (deny border) + channel permission with category container + Private channel container + Integrations section containers + tooltip */
 .deny-1GO6vI.selected-3jieYB, .allow-1h61-Z, .card-2EUiNF, .settingCard-xZSDjS, .theme-dark .body-1zRX82, .theme-dark .cardPrimaryEditable-2mz_3i, .subscribeTooltipWrapper-3ipXtC {border-radius: var(--server-radius);}
 
+/* Settings plugin & theme title | The Version and creator colour (Example: v1.0.6 & DevilBro) */
+.bd-addon-list .bd-addon-card .bd-addon-header .bd-version, .bd-addon-list .bd-addon-card .bd-addon-header .bd-author {color: #faa61a;}
+div.bd-addon-header > div.bd-title > div.bd-meta > span.bd-author {color: var(--text-link) !important;}
+
 /*
  ===================================================================================================================
                                                   Chat/Normal Window
@@ -1628,6 +1635,16 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 }
 /* Replied preview container fix (makes it fit window properly if it's long) */
 .repliedTextPreview-1bvxun {display: grid;}
+
+/* ReplyBar [Above chat bar when replying] */
+.container-A2jo65, .clipContainer-31nYlH {border-radius: var(--server-radius); background-color: var(--background-secondary);}
+
+/* Reply container when replying to a message (background behind whole comment and pill colour to the left of the pfp) */
+.replying-eZ7p5z {background: var(--popout-background-main);}
+.replying-eZ7p5z:before {background-color: var(--unread-color);}
+
+/* Group divider */
+.group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u {margin: 16px 0px !important;}
 
 /* The Thread to line below your avatar in chat + Thread container roundness */
 .cozy-VmLDNB.hasThread-3h-KJV:after {
@@ -1724,13 +1741,6 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 
 /* Spotify song Image */
 .assetsLargeImageStreamPreview-3peV91, .assetsLargeImageUserPopout-pY2WJv, .assetsLargeImageUserPopoutXbox-tkbJgJ {width: 60px; height: 60px;	border-radius: var(--server-radius);}
-
-/* ReplyBar [Above chat bar when replying] */
-.container-A2jo65, .clipContainer-31nYlH {border-radius: var(--server-radius); background-color: var(--background-secondary);}
-
-/* Reply container when replying to a message (background behind whole comment and pill colour to the left of the pfp) */
-.replying-eZ7p5z {background: var(--popout-background-main);}
-.replying-eZ7p5z:before {background-color: var(--unread-color);}
 
 /* Avatar mask on hover (View Profile) */
 .avatarHint-k7pYop { display: none !important;}
