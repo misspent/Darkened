@@ -1644,7 +1644,7 @@ div.bd-addon-header > div.bd-title > div.bd-meta > span.bd-author {color: var(--
 .replying-eZ7p5z:before {background-color: var(--unread-color);}
 
 /* Group divider */
-.group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u {margin: 0px !important;}
+.group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u {margin: 12px 0px !important;}
 
 /* The Thread to line below your avatar in chat + Thread container roundness */
 .cozy-VmLDNB.hasThread-3h-KJV:after {
@@ -1913,6 +1913,13 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .container-1yy5xN {margin: 0 16px;}
 .role-23oyrw {border-radius: var(--server-radius); background: var(--background-secondary);}
 .avatar-1odLck {mask: none !important; -webkit-mask: none !important; margin-left: 1px !important;}
+
+/* Block button colour in DMs */
+[id*="chat-messages"] > div.text-md-normal-304U3g.description-22d6ux > div > button.action-1R6ERA.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeTiny-3y2SSK.grow-2sR_-F {background: red;}
+
+/* Click an emoji in chat */
+.emojiName-3KEqts {color: #faa61a;}
+.guildName-3JcJGj {color: var(--text-link);}
 
 /*
 =====================================================================================================================================
