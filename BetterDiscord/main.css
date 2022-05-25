@@ -1063,7 +1063,7 @@
 #channelTabs-container {padding: 0px 8px 1px 0px;}
 
 .channelTabs-favContainer {padding: 0 8px 0 0px !important;}
-.channelTabs-fav:hover {background-color: var(--jump-newmessage-bars) !important;}
+.channelTabs-fav:hover {background-color: var(--jump-newmessage-bars) !important; padding-bottom: 1px;}
 .channelTabs-fav:active {background: var(--background-primary);}
 .channelTabs-fav {margin-bottom: 0px;}
 
@@ -1892,7 +1892,8 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .guildIcon-IklRcj {background-color: var(--background-secondary-alt);	border-radius: var(--server-radius);}
 .full-motion .button-1_oXub[aria-label=Filter] {border-radius: var(--server-radius);}
 .full-motion .button-1_oXub[aria-label=Close] {border-radius: var(--server-radius);	color: red; margin-right: 12px;}
-.theme-dark .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {background-color: var(--background-accent); border-radius: var(--server-radius);}
+.channelHeader-DFRX8q {background-color: var(--background-tertiary);}
+.theme-dark .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {background-color: var(--background-accent); background: var(--background-secondary); border-radius: var(--server-radius);}
 .full-motion .button-1_oXub {border-radius: var(--server-radius);}
 
 /* Separator below "Read All" & Above top server */
