@@ -77,8 +77,9 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 <h1 align="center">📜 Extra(s)</h1>
 
 ➜ You'll need [BetterDiscord](https://betterdiscord.app/) for this to work.  
-➜ Make sure Dark is selected in the appearance settings, or it'll look like someone dropkicked discord.  
-➜ The pictures doesn't fully show it, so I'll tell you here. There are borders around the essential containers; however, you can remove them by changing its variable to "none"
+➜ Make sure `Dark` is selected in the appearance settings, or it'll look like someone dropkicked discord.  
+➜ The pictures doesn't fully show it, so I'll tell you here. There are borders around the essential containers; however, you can remove them by changing its variable to "none"  
+➜ 🚀 Thought I'd share this with all of you as this'll increase the performance of discord in a rather drastic way; however, it's not the best for people who want to create themes, given that it won't reload discord when you save. Hopefully, he'll change it in the future [OpenAsar](https://github.com/GooseMod/OpenAsar)
 
 <details>
   <summary align="center">⌨ Variables</summary>
