@@ -16,9 +16,9 @@
 @import "https://misspent.github.io/Darkened/BetterDiscord/main.css";
 
 /* Add a "/" on the left side of the first Quotation mark to cancel out the import */
-@import "https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css"; /* scrollbars */
 @import "https://crearts-community.github.io/Mention-Links/theme.css"; /* Mention Links */
 @import "https://lyght1337.github.io/DarknessCodeBlocks/css/CodeBlocks.css"; /* Codeblocks */
+@import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css"; /* Scrollbars */
 @import "https://misspent.github.io/Darkened/BetterDiscord/ChannelIcons.css"; /* Channel Icons */
 @import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"; /* Radial Status */
 @import "https://misspent.github.io/Darkened/BetterDiscord/ContextIconColours.css"; /* ContextIconsColours */
@@ -59,6 +59,7 @@
   --role-circle: 5px; /* Circles next to role names (Size not roundness) */
 
   /* Toggleable variables */
+  --Titlebar: flex; /* flex = ON, none = OFF */
   --Discord-Watermark: flex; /* flex = ON, none = OFF */
   --Chat-GIF-Button: flex; /* flex = ON, none = OFF */
   --Chat-Gift-Button: none; /* flex = ON, none = OFF */

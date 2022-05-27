@@ -3097,6 +3097,9 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .hljs-bullet,.hljs-subst,.hljs-symbol,.hljs-template-variable,.hljs-type,.hljs-variable {color: #cb4b16 !important;}
 .hljs-attribute,.hljs-doctag,.hljs-literal,.hljs-meta-string,.hljs-regexp,.hljs-selector-pseudo {color: #b58900 !important;}
 
+/* LINK: https://github.com/GooseMod/OpenAsar */
+#openasar-ver {color: var(--focus-primary) !important;}
+
 /* Smooth/Smart font for time stamps & Channel names (Add * to apply it to EVERYTHING)
 .cozy-VmLDNB .timestamp-p1Df1m {font-family: 'Segoe UI' !important; font-size: 0.72rem}
 .channelName-3KPsGw, .subtitle-3PyFgf, .roleColor-nA7BqX {font-family: 'Segoe UI' !important; font-size: 0.95rem} */
