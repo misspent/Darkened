@@ -1067,7 +1067,7 @@
 .channelTabs-favContainer {padding: 0 8px 0 0px !important;}
 .channelTabs-fav:hover {background-color: var(--jump-newmessage-bars) !important; padding-bottom: 1px;}
 .channelTabs-fav:active {background: var(--background-primary);}
-.channelTabs-fav {margin-bottom: 0px; padding-bottom: 1px;}
+.channelTabs-fav {margin-bottom: 4px !important;}
 
 /* Notes plugin separator title container */
 .channelSeparator-1-U8lm {
@@ -2225,8 +2225,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 /* Typing indicator + Slow mode is enabled | Chat bar | Better Formatting Redux */
 .typing-2J1mQU {
   top: -22px !important;
-  left: 0px;
-  right: 6px;
+  left: auto;
   bottom: 5px;
 }
 /* Important ones */
