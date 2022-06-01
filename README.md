@@ -7,9 +7,9 @@
         <img src="https://img.shields.io/github/issues-pr/misspent/Darkened?label=Pull%20Requests%3A&style=for-the-badge" /></a>
 </p>
 
-### Main window + User popout
-![1  Darkened Discord Theme Main Window version 3  Edited](https://user-images.githubusercontent.com/78914154/158057320-2e0e9de1-1937-4764-bf73-2ad56bf9c95d.png)
+<h3 align="center">Main window + User popout</h3>
 
+![1  Darkened Discord Theme Main Window version 4  Edited](https://user-images.githubusercontent.com/78914154/171173499-522099c7-18f1-4d93-9505-b439742ee250.png)
 
 <h1 align="center">📌 Information</h1>
 
@@ -44,13 +44,14 @@
 
 <h1 align="center", margin= "0">📷 More Screenshots</h1>
 
-(Previews/screenshots may become out-of-date at some point)
-### User Settings
+<h4 align="center">(Previews/screenshots may become out-of-date at some point)</h4>
+<h3 align="center">User Settings</h3>
+
 ![2  Darkened Discord Theme Settings Version 3  Edited](https://user-images.githubusercontent.com/78914154/157456598-6bf81d10-398d-45e6-b85f-2758c368b2ac.png)
 
-### Home + Friends section
-![4  Darkened Discord Theme Friends Version 4  Edited](https://user-images.githubusercontent.com/78914154/157456612-56c42085-6a3f-42e4-84f9-53db0c8ee0e1.png)
+<h3 align="center">Home + Friends section</h3>
 
+![4  Darkened Discord Theme Friends Version 4  Edited](https://user-images.githubusercontent.com/78914154/171174312-06b1c2ee-f587-4af5-b583-c2b3e8f6e291.png)
 
 <details>
   <summary align="center">☰ User Settings, Server Actions and Message Actions Menus</summary>
@@ -79,7 +80,7 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 ➜ You'll need [BetterDiscord](https://betterdiscord.app/) for this to work.  
 ➜ Make sure `Dark` is selected in the appearance settings, or it'll look like someone dropkicked discord.  
 ➜ The pictures doesn't fully show it, so I'll tell you here. There are borders around the essential containers; however, you can remove them by changing its variable to "none"  
-➜ 🚀 Thought I'd share this with all of you as this'll increase the performance of discord in a rather drastic way; however, it's not the best for people who want to create themes, given that it won't reload discord when you save. Hopefully, he'll change it in the future [OpenAsar Website](https://openasar.dev/) | [OpenAsar GitHub](https://github.com/GooseMod/OpenAsar)
+➜ 🚀 Thought I'd share this with all of you as this'll increase the performance of discord in a rather drastic way; ~~however, it's not the best for people who want to create themes, given that it won't reload discord when you save. Hopefully, he'll change it in the future~~ [OpenAsar Website](https://openasar.dev/) | [OpenAsar GitHub](https://github.com/GooseMod/OpenAsar)
 
 <details>
   <summary align="center">⌨ Variables</summary>
