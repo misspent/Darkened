@@ -1067,7 +1067,7 @@
 .channelTabs-favContainer {padding: 0 8px 0 0px !important;}
 .channelTabs-fav:hover {background-color: var(--jump-newmessage-bars) !important; padding-bottom: 1px;}
 .channelTabs-fav:active {background: var(--background-primary);}
-.channelTabs-fav {margin-bottom: 4px !important;}
+.channelTabs-fav {margin-bottom: 3px !important; padding-bottom: 1px !important;}
 
 /* Notes plugin separator title container */
 .channelSeparator-1-U8lm {
