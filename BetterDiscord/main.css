@@ -1926,6 +1926,8 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .emojiName-3KEqts {color: #faa61a;}
 .guildName-3JcJGj {color: var(--text-link);}
 
+.interactive-1vLZ_I:focus-within, .interactive-1vLZ_I:hover {background-color: var(--background-mobile-primary);}
+
 /*
 =====================================================================================================================================
 TODO: Tidy, change, mess, edit and make your own stuff now you have more of an understanding compared to when you first started!
