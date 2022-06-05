@@ -1176,8 +1176,8 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 
 /* Settings sidebar containers */
 .header-2Kx1US {padding: 6px 10px !important;}
-.header-2Kx1US, .bd-sidebar-header {background: var(--background-primary); text-align: center;}
-.bd-sidebar-header .header-2Kx1US {margin-left: 19%; margin-bottom: -2px;}
+.header-2Kx1US, .bd-sidebar-header {background: var(--background-primary); text-align: center; align-items: center;}
+.bd-sidebar-header .header-2Kx1US {margin-left: 19%; margin-bottom: 0px;}
 .side-2ur1Qk .separator-2wx7h6 {display: block; margin: 0px; padding: 1px;}
 .sidebarRegion-1VBisG {border-right: 1px solid var(--border-color);}
 .contentColumnDefault-3eyv5o {padding-left: 15px; padding-right: 15px;}
@@ -1693,7 +1693,7 @@ div.bd-addon-header > div.bd-title > div.bd-meta > span.bd-author {color: var(--
 .embedFull-1HGV2S {border-left: 4px solid var(--background-tertiary); background: var(--background-secondary); border-radius: var(--server-radius);}
 .embedVideo-2ixt5A, .imageWrapper-oMkQl4 img, .embedImage-2Ynqkh img, .embedImage-2Ynqkh video, .embedThumbnail-2nTasl img, .embedThumbnail-2nTasl video, .embedVideo-2ixt5A img, .embedVideo-2ixt5A video, .embedAuthor-TJIHp5, .embedDescription-1DrJxZ, .embedFields-2yHGHT, .embedFooter-3dj0UE, .embedMedia-1mdWSP, .embedProvider-1GSN0c, .embedTitle-2n1pEb, .imageWrapper-oMkQl4 {border-radius: var(--server-radius);}
 /* Embed close/delete icon */
-.embedSuppressButton-1rZHq6 {color: red; top: 0px; right: 0px;}
+.embedSuppressButton-1rZHq6 {color: red; top: -2px; right: -2px;}
 
 /* Jump To Present Bar */
 .jumpToPresentBar-1cEnH0 {padding-bottom: 0px; opacity: 1;border-radius: var(--server-radius); background-color: var(--jump-newmessage-bars-buttons);}
