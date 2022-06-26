@@ -1120,7 +1120,7 @@
 
 /* Sessions Logs Plugin container */
 .ShowSessions-modal-item {
-  background: var(--background-primary);
+  background: var(--background-primary) !important;
   border-radius: var(--server-radius);
 }
 .header-1zd7se {
