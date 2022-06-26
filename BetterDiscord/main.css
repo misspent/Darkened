@@ -1406,8 +1406,8 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 }
 :root .root-g14mjS {
   background: var(--background-primary);
-  box-shadow: unset;
-  border-radius: 0px;
+  border-radius: var(--server-radius);
+  border: 1px solid var(--border-color);
 }
 :root .root-g14mjS form {
   display: flex;
@@ -1558,6 +1558,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 
 /* Channel "edit channel" section (deny border) + channel permission with category container + Private channel container + Integrations section containers + tooltip */
 .deny-1GO6vI.selected-3jieYB, .allow-1h61-Z, .card-2EUiNF, .settingCard-xZSDjS, .theme-dark .body-1zRX82, .theme-dark .cardPrimaryEditable-2mz_3i, .subscribeTooltipWrapper-3ipXtC {border-radius: var(--server-radius);}
+.group-LWHoGI {align-self: center;}
 
 /* Settings plugin & theme title | The Version and creator colour (Example: v1.0.6 & DevilBro) */
 .bd-addon-list .bd-addon-card .bd-addon-header .bd-version, .bd-addon-list .bd-addon-card .bd-addon-header .bd-author {color: #faa61a;}
@@ -2572,6 +2573,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   border-radius: var(--server-radius) var(--server-radius) 0px 0px;
   margin-bottom: 0px;
 }
+.infoScroller-1QMpon {padding: 0px 12px;}
 
 /* Activity & Mutual Servers sections | USRBG  */
 .listRow-2nO1T6 {border-radius: var(--server-radius); margin: 1px 0 4px 0px;}
