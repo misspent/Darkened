@@ -1329,16 +1329,14 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 
 /* Settings Channel selected * hover container colours */
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
-  border-radius: 0px;
+  background-color: rgba(var(--accent), 0.07);
+  border-radius: 0px 0px 0px 0px;
   border-left: 2px solid var(--unread-color);
-  margin-left: -2px;
 }
 .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1hwwfb) {
-  background-color: transparent;
-  border-radius: 0px;
+  background-color: rgba(var(--accent), 0.13);
+  border-radius: 0px 0px 0px 0px;
   border-left: 2px solid var(--unread-color);
-  margin-left: -2px;
-  padding-left: 16px;
 }
 .side-2ur1Qk .item-3XjbnG {border-radius: var(--server-radius); border-left: 2px solid transparent;}
 
