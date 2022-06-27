@@ -1610,7 +1610,7 @@ div.bd-addon-header > div.bd-title > div.bd-meta > span.bd-author {color: var(--
 .scroller-3X7KbA {background: var(--background-primary);}
 
 /* Titlebar Search Menu Dropdown */
-.theme-dark .container-2McqkF {margin-right: 138px; margin-top: 5px; background-color: var(--background-primary);border-radius: var(--server-radius) !important;}
+.theme-dark .container-2McqkF {margin-right: 37px; margin-top: 5px; background-color: var(--background-primary);border-radius: var(--server-radius) !important;}
 .container-2McqkF .option-ayUoaq:hover, .container-2McqkF .option-ayUoaq[aria-selected="true"] {background-color: var(--background-modifier-hover); border-radius: var(--server-radius);}
 .option-ayUoaq:after {display: none;} /* removes bullshit gradient to the right in searchbar container... WHY? */
 
