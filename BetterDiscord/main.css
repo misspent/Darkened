@@ -1128,8 +1128,9 @@
   border-bottom: 1px solid var(--border-color);
   background: var(--background-primary);
   border-radius: var(--server-radius);
+  justify-content: center;
 }
-.content-2hZxGK {border-bottom: 1px solid var(--border-color);}
+.content-2hZxGK {border-bottom: 1px solid var(--border-color); padding-left: 8px; padding-top: 8px;}
 
 /*
 ====================================================================================================================
