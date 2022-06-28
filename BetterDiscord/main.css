@@ -1304,8 +1304,9 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 /* Appearance in settings */
 .item-2idW98[aria-checked=true] {background-color: green !important;}
 .item-2idW98 {border-radius: var(--server-radius);}
-/* Privacy & Safety in settings */
-.radioBar-3w9XY- {background: var(--background-primary) !important; border-radius: var(--server-radius);}
+/* Moderation in server settings */
+#moderation-tab > div > div.children-1xdcWE > div:nth-child(1) > div.children-1xdcWE > div:nth-child(2) > div {background: var(--background-secondary) !important;}
+.radioBar-3w9XY- {background: var(--background-primary); border-radius: var(--server-radius);} /* Most bar modal background */
 /* Connections in settings */
 .accountBtn-1YkMgV .accountBtnInner-3XK70s {background-color: #152242;}
 
@@ -2270,6 +2271,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .typing-2J1mQU {
   top: -22px !important;
   bottom: 5px;
+  left: 5px;
 }
 /* Important ones */
 .form-3gdLxP {margin-top: 10px; padding-left: 5px; padding-right: 5px;}
