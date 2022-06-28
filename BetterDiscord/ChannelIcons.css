@@ -1444,12 +1444,12 @@
 }
 .mainContent-20q_Hp[aria-label*=announcement][aria-label$="text channel)"]> div> svg> path:first-child {
    d: path("M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 0 1 .496.008 64 64 0 0 1 1.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a65.81 65.81 0 0 1 1.692.064c.327.017.65.037.966.06z");
-   transform: scale(1.2) !important;
+   transform: scale(1.4) !important;
 }
 .mainContent-20q_Hp[aria-label*=announcement][aria-label$="text channel)"]> div> svg[viewBox="0 0 40 40"]> path {
    transform: scale(1.7) !important;
 }
-.mainContent-20q_Hp[aria-label*=announcement][aria-label$="announcement channel)"]> div> svg> path {
+.mainContent-20q_Hp[aria-label*=announcement][aria-label$="announcement channel)"]> div> svg> path, .mainContent-20q_Hp[aria-label*=announcement][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2), .mainContent-20q_Hp[aria-label*=announcement][aria-label$="text channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2) {
    d: path("M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 0 1 .496.008 64 64 0 0 1 1.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a65.81 65.81 0 0 1 1.692.064c.327.017.65.037.966.06z");
    transform: scale(1.2) !important;
 }
@@ -1488,7 +1488,7 @@
    transform: scale(1.5) !important;
 }
 .mainContent-20q_Hp[aria-label*=tos][aria-label$="text channel)"]> div> svg[viewBox="0 0 40 40"]> path {
-   transform: scale(1.7) !important;
+   transform: scale(2.7) !important;
 }
 .mainContent-20q_Hp[aria-label*=tos][aria-label$="announcement channel)"]> div> svg> path {
    d: path("M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z");
@@ -1655,7 +1655,8 @@
    transform: scale(1.3) !important;
 }
 .mainContent-20q_Hp[aria-label*=tip][aria-label$="text channel)"]> div> svg[viewBox="0 0 40 40"]> path {
-   transform: scale(1.7) !important;
+   transform: scale(2.1) !important;
+   transform-box: fill-box;
 }
 .mainContent-20q_Hp[aria-label*=tip][aria-label$="announcement channel)"]> div> svg> path {
    d: path("M18 13V5a2 2 0 00-2-2H4a2 2 0 00-2 2v8a2 2 0 002 2h3l3 3 3-3h3a2 2 0 002-2zM5 7a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1zm1 3a1 1 0 100 2h3a1 1 0 100-2H6z");
