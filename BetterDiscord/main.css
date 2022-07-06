@@ -1739,7 +1739,8 @@ div.bd-addon-header > div.bd-title > div.bd-meta > span.bd-author {color: var(--
 .embedFull-1HGV2S {border-left: 4px solid var(--background-tertiary); background: var(--background-secondary); border-radius: var(--server-radius);}
 .embedVideo-2ixt5A, .imageWrapper-oMkQl4 img, .embedImage-2Ynqkh img, .embedImage-2Ynqkh video, .embedThumbnail-2nTasl img, .embedThumbnail-2nTasl video, .embedVideo-2ixt5A img, .embedVideo-2ixt5A video, .embedAuthor-TJIHp5, .embedDescription-1DrJxZ, .embedFields-2yHGHT, .embedFooter-3dj0UE, .embedMedia-1mdWSP, .embedProvider-1GSN0c, .embedTitle-2n1pEb, .imageWrapper-oMkQl4 {border-radius: var(--server-radius);}
 /* Embed close/delete icon */
-.embedSuppressButton-1rZHq6 {color: red; top: -2px; right: -2px;}
+.embedSuppressButton-1rZHq6 {color: #ff0000b6; top: -2px; right: -2px;}
+.embedSuppressButton-1rZHq6:hover {color: red;}
 
 /* Jump To Present Bar */
 .jumpToPresentBar-1cEnH0 {padding-bottom: 0px; opacity: 1;border-radius: var(--server-radius); background-color: var(--jump-newmessage-bars-buttons);}
@@ -3096,6 +3097,9 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .wrapperSimple-Js2rIO { overflow: visible;}
 /* Emoji Menu container */
 .categoryItemGuildCategory-3mvXlo foreignObject, .graphicSecondary-37AA_Y foreignObject, .stickerCategory-2f6iSo foreignObject {mask: none;} /* Server pictures radius */
+/* Inspect/hovering over Stickers */
+.stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {background-color: var(--background-modifier-selected); border-radius: var(--server-radius) !important;}
+.assetWrapperMasked-1iw9lV {-webkit-mask: none !important;}
 
 .wrapper-2SplAX {margin-bottom: 3px;}
 .iconInactive-26M06U {border-radius: calc(var(--server-radius) - 4px);}
