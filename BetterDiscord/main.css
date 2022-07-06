@@ -2450,6 +2450,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 [id*="popout"] > div > div > div.body-2wLx-E button.button-TGAkj4.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.fullWidth-fJIsjq.grow-2sR_-F:hover, [id*="popout"] > div > div > div.body-2wLx-E button.button-TGAkj4.iconButton-1li_a3.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.iconButtonSize-1-pz2t.grow-2sR_-F:hover {filter: brightness(110%);}
 
 /* Roles */
+
 .rolesList-3uZoaa {
   display: grid;
   grid-template-columns: repeat(var(--roleslist-columns), minmax(0, 1fr));
@@ -2465,30 +2466,43 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .rolesList-3uZoaa .roleCircle-1EgnFN {
   flex-shrink: 0;
 }
+.roleCircle-1EgnFN {
+  width: 6px;
+  display: inline-table;
+  height: 6px;
+}
 .role-2TIOKu {
   position: relative;
   overflow: hidden;
-  bottom: -2px;
-  left: 2px;
-  z-index: 1;
+  background: transparent;
+  border-radius: 0px 0px 0px 0px;
+  margin: 0px 3px 3px 0px;
+  padding: 0px 2px 0px 2px;
   border: solid;
   border-width: 0px 0px 0px 3px;
-  border-radius: 0px 0px 0px 0px;
 }
-.roleCircle-1EgnFN {
-  width: var(--role-circle) !important;
-  height: var(--role-circle) !important;
-}
-.roleCircle-1EgnFN::before {
-  position: absolute;
+.role-2TIOKu:before {
   content: "";
-  top: 0px;
-  left: 0px;
+  position: absolute;
   width: 100%;
-  height: 100%;
-  background: inherit;
-  opacity: 0.3;
-  z-index: -1;
+  left: 0px;
+  border-width: 12px;
+  border-style: solid;
+  border-color: inherit;
+  box-sizing: border-box;
+  pointer-events: none;
+  opacity: 0.6;
+}
+.role-2TIOKu:hover:before {
+  opacity: 0.7;
+  filter: saturate(1.4);
+}
+.role-2TIOKu .roleName-2ZJJYR {
+  color: #ffffff;
+  text-shadow: -1px 2px 2px #0f0f0f;
+  margin: 0px 2px 0px 0px;
+  overflow: visible;
+  z-index: 1;
 }
 .role-2TIOKu[aria-label="Add role"] {
   font-size: 12px;
@@ -3096,7 +3110,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .wrapper-28eC3z foreignObject {mask: none; transition: 0.2s;}
 .wrapperSimple-Js2rIO { overflow: visible;}
 /* Emoji Menu container */
-.categoryItemGuildCategory-3mvXlo foreignObject, .graphicSecondary-37AA_Y foreignObject, .stickerCategory-2f6iSo foreignObject {mask: none;} /* Server pictures radius */
+.categoryItemGuildCategory-3mvXlo foreignObject, .graphicSecondary-37AA_Y foreignObject, .stickerCategory-2f6iSo foreignObject, .mask-1hlQQ6 foreignObject {mask: none;} /* Server pictures radius */
 /* Inspect/hovering over Stickers */
 .stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {background-color: var(--background-modifier-selected); border-radius: var(--server-radius) !important;}
 .assetWrapperMasked-1iw9lV {-webkit-mask: none !important;}
