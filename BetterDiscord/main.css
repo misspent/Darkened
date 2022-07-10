@@ -1070,7 +1070,7 @@
   margin-bottom: 0px !important;
   margin-right: 0px !important;
 }
-.channelTabs-fav .channelTabs-typingBadge .spinner-2RT7ZC {width: 28px; padding: 1px; background: var(--jump-newmessage-bars);}
+.channelTabs-fav .channelTabs-typingBadge .spinner-2RT7ZC {width: 28px; padding: 1px; background: var(--background-mobile-primary);}
 
 /* Newer stuff */
 .channelTabs-tabIconWrapper img[src*="com/avatars/"], .channelTabs-favIconWrapper img[src*="com/avatars/"] {clip-path: inset(0px round 0%) !important;}
@@ -1472,10 +1472,11 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 
 /* Borders of the checked/false, settings, edit, delete buttons, BD container as a whole & color of the top header container */
 .bd-controls, .bd-controls-advanced, .bd-addon-list .bd-footer .bd-links, .bd-addon-list .bd-footer .bd-links a, .bd-addon-list .bd-footer .bd-addon-button, .bd-switch-body, .app-2CXKsg button, .bd-addon-list .bd-addon-card {border-radius: var(--server-radius) !important;}
-.bd-addon-list .bd-addon-header {background: var(--background-modifier-hover);}
+.bd-addon-list .bd-addon-header {background: var(--background-modifier-hover); padding: 8px;}
+.bd-description-wrap { padding: 0px 8px 0 8px;} .bd-addon-list .bd-description {margin-bottom: 0px; padding: 8px 0;}
 
 /* Themes & Plugins section add-on list bottom (background colour behind github, source, edit, server, support etc */
-.bd-addon-list .bd-footer {background-color: var(--background-tertiary);}
+.bd-addon-list .bd-footer {background-color: var(--background-tertiary); padding: 8px;}
 
 /* Search bar position in settings */
 .bd-search-wrapper {background-color: var(--background-modifier-hover);   /* width: 800px; margin-left: 550px */}
@@ -2448,9 +2449,10 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 /* Spotify buttons color on popout */
 [id*="popout"] > div > div > div.body-2wLx-E button.button-TGAkj4.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.fullWidth-fJIsjq.grow-2sR_-F, [id*="popout"] > div > div > div.body-2wLx-E button.button-TGAkj4.iconButton-1li_a3.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.iconButtonSize-1-pz2t.grow-2sR_-F {background: var(--Spotify-Activity-Icon);}
 [id*="popout"] > div > div > div.body-2wLx-E button.button-TGAkj4.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.fullWidth-fJIsjq.grow-2sR_-F:hover, [id*="popout"] > div > div > div.body-2wLx-E button.button-TGAkj4.iconButton-1li_a3.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.iconButtonSize-1-pz2t.grow-2sR_-F:hover {filter: brightness(110%);}
+/* Start and length of song in popout | **:** */
+.textLeft-1Noen0, .textRight-2IW704 {padding: 0px 4px !important;}
 
 /* Roles */
-
 .rolesList-3uZoaa {
   display: grid;
   grid-template-columns: repeat(var(--roleslist-columns), minmax(0, 1fr));
@@ -2634,7 +2636,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   border-radius: var(--server-radius) var(--server-radius) 0px 0px;
   margin-bottom: 0px;
 }
-.infoScroller-1QMpon {padding: 0px 12px;}
+.infoScroller-1QMpon {padding: 0px 12px !important;}
 
 /* Activity & Mutual Servers sections | USRBG  */
 .listRow-2nO1T6 {border-radius: var(--server-radius); margin: 1px 0 4px 0px;}
@@ -2736,6 +2738,8 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   box-shadow: none;
   border-radius: var(--server-radius);
 }
+
+.connectedAccounts-fvr7-7, .connectedAccountsColumn-2LgTkZ {justify-content: center;} .connectedAccountContainer-SlCC-S {border-radius: var(--server-radius);} /* New */
 /* --------------------------- ⚙️ SERVER SETTINGS --------------------------- */
 
 /* Notice bar ("Save Changes/Reset" container when disabling or enabling something) notification */
