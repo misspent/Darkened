@@ -3113,7 +3113,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .wrapper-28eC3z foreignObject {mask: none; transition: 0.2s;}
 .wrapperSimple-Js2rIO { overflow: visible;}
 /* Emoji Menu container */
-.categoryItemGuildCategory-3mvXlo foreignObject, .graphicSecondary-37AA_Y foreignObject, .stickerCategory-2f6iSo foreignObject, .mask-1hlQQ6 foreignObject {mask: none;} /* Server pictures radius */
+.categoryItemGuildCategory-3mvXlo foreignObject, .graphicSecondary-37AA_Y foreignObject, .stickerCategory-2f6iSo foreignObject, .mask-1hlQQ6 foreignObject, .guildSection-2Zyzy8 foreignObject {mask: none;} /* Server pictures radius */
 /* Inspect/hovering over Stickers */
 .stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {background-color: var(--background-modifier-selected); border-radius: var(--server-radius) !important;}
 .assetWrapperMasked-1iw9lV, .inspectedIndicator-27zwNZ {-webkit-mask: none !important;}
