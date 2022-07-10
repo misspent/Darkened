@@ -27,7 +27,6 @@
 * ✔️ Optional Channel Icons
 * ✔️ Support for some plugins
 * ❌ Light mode not supported
-* ⭕ Will change button colour if requested.
 * ⭕ All Imports in main.css I deem a requirement with my theme (may change)
 ### ℹ️ Credits
 * **[xcruxiex](https://github.com/xcruxiex)**'s Friend Grid.
