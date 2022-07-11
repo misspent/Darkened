@@ -2465,10 +2465,10 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   background-color: var(--popout-background-main);
   bottom: 2px;
 }
-.rolesList-3uZoaa .roleCircle-1EgnFN {
+.rolesList-3uZoaa .roleCircle-3K9O3d {
   flex-shrink: 0;
 }
-.roleCircle-1EgnFN {
+.roleCircle-3K9O3d {
   width: 6px;
   height: 6px;
 }
@@ -2508,7 +2508,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .role-2TIOKu[aria-label="Add role"] {
   font-size: 12px;
   font-weight: 500;
-  background: var(--background-modifier-selected);
+  background: transparent);
   border-radius: var(--server-radius);
   -webkit-box-sizing: border-box;
   border-color: #6e85d3;
