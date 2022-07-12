@@ -324,6 +324,7 @@
 /* Close button colour in Home/Friends section | Hover over DMs */
 .closeButton-mupH76 {color: var(--danger-icon-normal);}
 .closeButton-32emop {top: auto;} /* Close button location fix: All "Create" containers */
+.close-1mLglB {padding: 0px;} /* Click channels descriptions at top + other close buttons maybe */
 /* Revoke Ban button */
 .button-f2h6uQ.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorRed-rQXKgM.sizeMedium-2bFIHr.grow-2sR_-F {background: var(--danger-icon-normal); color: var(--text-normal);}
 
@@ -2021,7 +2022,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .quickSelect-384d3G {margin-top: 10px;}
 
 /* Friend activities */
-.nowPlayingColumn-1eCBCN { background: var(--background-secondary-alt);}
+.nowPlayingColumn-1eCBCN { background: var(--background-secondary-alt); min-width: 340px; max-width: 360px;}
 .nowPlayingColumn-1eCBCN .scroller-hE2gWq {border-left: 1px solid var(--border-color); background: var(--background-secondary);}
 .emptyCard-KDifrB {border-radius: var(--server-radius); background: var(--background-secondary);}
 .theme-dark .itemCard-3Etziu { border: none;}
