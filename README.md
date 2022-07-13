@@ -50,7 +50,7 @@
 
 <h3 align="center">Home + Friends section</h3>
 
-![4  Darkened Discord Theme Friends Version 4  Edited](https://user-images.githubusercontent.com/78914154/171174312-06b1c2ee-f587-4af5-b583-c2b3e8f6e291.png)
+![4  Darkened Discord Theme Friends Version 4  Edited](https://user-images.githubusercontent.com/78914154/178498248-5f661825-aeec-4890-8082-e666b0fc90a1.png)
 
 <details>
   <summary align="center">☰ User Settings, Server Actions and Message Actions Menus</summary>
