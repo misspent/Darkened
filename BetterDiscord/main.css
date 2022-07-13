@@ -1129,7 +1129,7 @@
   justify-content: center;
 }
 .modalHeader-2KRhe7 {padding: 6px;}
-.content-2hZxGK {border-bottom: 1px solid var(--border-color); padding-left: 8px; padding-top: 8px;}
+.content-2hZxGK {padding-left: 8px; padding-top: 8px;}
 
 /* Local channel settings (Plugins) channel name under title | Plugin */
 .size12-12FL_s {display: none;}
@@ -1837,7 +1837,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .theme-dark .footer-31IekZ {background-color: var(--background-primary) !important;}
 :root .root-g14mjS .footer-31IekZ .labelForward-2yqkcf {padding-left: 10px;}
 #app-mount > div:nth-child(7) > div.layer-1Ixpg3 > div > div > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.footer-31IekZ.footer-1iSViG.footerSeparator-VzAYwb > label {text-align: left;}
-.checkboxWrapper-2fDzaA {padding-left: 29.5% !important;}
+.root-cw9rWQ .checkboxWrapper-2fDzaA {padding-left: 29.5% !important;}
 
 /* Time Out container */
 .selectorButton-1EQtQx:hover, .selectorButtonSelected-1VZ6hz {background-color: var(--brand-experiment) !important;}
@@ -2011,6 +2011,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 
 /* Friend column */
 .peopleColumn-1wMU14 {background: var(--background-primary);}
+.iconWrapper-2awDjA[aria-label*="New Group DM"] {align-self: center;} /* Top bar New Group DM button toolbar */
 
 /* Friend call buttons */
 .colorable-3rVGna.primaryDark-2UJt1G, .colorable-3rVGna.primaryDark-2UJt1G:hover {background: var(--background-secondary-alt);}
@@ -3093,12 +3094,12 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   rx: 8px !important;
 }
 
+.root-2s1-ri> * {background: var(--background-tertiary);}
+
 /* Avatars masks */
-.wrapper-1VLyxH foreignObject,
-.callAvatarMask-fiNMWy foreignObject,
-.avatarContainer-gPrCzX foreignObject {
-  mask: none;
-}
+.wrapper-1VLyxH foreignObject, .callAvatarMask-fiNMWy foreignObject, .avatarContainer-gPrCzX foreignObject {mask: none;}
+/* Emoji Menu container masks */
+.categoryItemGuildCategory-3mvXlo foreignObject, .graphicSecondary-37AA_Y foreignObject, .stickerCategory-2f6iSo foreignObject, .mask-1hlQQ6 foreignObject, .guildSection-2Zyzy8 foreignObject {mask: none;} /* Server pictures radius */
 
 /* Avatars radius */
 .wrapper-1VLyxH, .avatar-2e8lTP, .profile-1o7I_1 .avatarUploaderInner-yEhTv5, .voiceAvatar-lRbblo, .avatar-3FKimL, .border-2BJQjd, .avatar-3TrM7c, .clickableAvatar-igrb2Y, .emptyUser-2FDCJv, .avatar-b5OQ1N, .wrapper-3mYmFS.ringingIncoming-fibTw-:after, .wrapper-3mYmFS.ringingOutgoing-1NjfRn:after, .replyAvatar-sHd2sU, .avatarSpeaking-33RRJU, .avatar-2EVtgZ, .avatarContainer-3tBLDx, .appAvatar-2_lufo, .avatarUploaderPremium-2urJVq, .avatarUploaderInner-p38nm2, .imageUploaderInner-IIRaFr, .theme-dark .imageUploaderIcon-2OHmFu, .voiceSectionAssets-1dg-E5, .voiceSectionGuildImage-TctMOd, .voiceSectionNoGuildImageWrapper-17kLyh, .gameIcon-1mDo1J, .messages-23can0 {
@@ -3106,11 +3107,10 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 }
 
 /* Server radius */
-.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .previewMessage-2g_aBv, .cameraWrapper-3a7Ngv, .lookFilled-yCfaCM.colorGreen-3y-Z79, .theme-dark .inset-SbsSFp, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .premiumInlineNotice-eSBKv7, .notice-1Qe0b_, .expandedFolderBackground-1kSAf6, .tile-2TcwiO .button-3Vyz67, .theme-dark .buttonColor-28DXIe, .container-1zzFcN > .flex-3BkGQD, .overlayTitle-2efoIF, .status-15kcmy, .compactButton-3hG-bs, .compactButtonDisabled-MwB2d6, .theme-dark .guildIconImage-74OdmM, .container-2oNtJn, .searchResult-O9NDji, .themedPopout-1TrfdI, .sourceThumbnail-ERDcZE, .content-2M_BlY, .wrapper-2SplAX, .theme-dark .watchButton-2YRKxv, .wrapper-1FP9YQ, .wrapper-1HIH0j, div.BetterInvites-guildBanner > img, .pictureInPictureVideo-2puO2Q, .video-2HW4jD, .status-1ZXjSF, .button-3Vyz67, .upsellTooltipWrapper-1wqikQ, .container-2O1UgZ, .activityItem-1Z9CTr, .scroller-3b1p7z, .liveLarge-IxMVzY, .textBadge-1fdDPJ, .liveIndicator-3bhXBF, .container-3jbRo5, .messagesPopoutWrap-3zryHW, .transferToGuildCard-1gIED6, .tierPill-l7DvKo, .cardWrapper-1bSePP, .guild-2Fq4I5, .item-1OdjEX.colorDefault-CDqZdO.focused-3qFvc8, .group-LWHoGI, .banner-3Uu4yV, .input-2g-os5, .row-1qtctT, .icon-2yhmi8, .content-1Tgc42, .button-f2h6uQ, .guildIcon-3ZfRfI, .acronym-vuwTO7, .rem-3kT9wc.botTag-7aX5WZ, .px-MnE_OR.botTag-7aX5WZ, .gameIcon-1mDo1J, .optionBox-1UOevl, .wumpusTooltip-1ba8Aq, .wrapper-24fR1R, .action-2YPPom, .iconWrapper-3mOhDI, .button-1yVL_7, .bd-addon-error, .bd-tab-item, .inviteSplash-2nkLRX, .content-1rmYE-, .achievementContainer-2jBIZt, .tooltip-14MtrL, .container-3GP6AV, .upsell-3B1lnN, .toolbar-37BrJ5, .createSticker-y-_Ug2, .bd-select-transparent .bd-select-options, .messages-23can0, .emptyChannelIcon-1YdEz2, .popout-TdhJ6Z, .modal-2TOYtq, .tagID, .filledIcon-2TG9HI, .upsellContainer-22N_CL, .cardFolder-3H4uH4, .emptyHintCard-2A7Tng, .iconWrapper-1sOtkE, .placeholderCard-3eGmb3, .roleRow-230vCm, .progressBar-18rmp1, .close-1mLglB, .preview-x-26h-, .ShowSessions-modal-item, .emojiItem-277VFM, .stickerCategory-2f6iSo {border-radius: var(--server-radius) !important;}
+.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .previewMessage-2g_aBv, .cameraWrapper-3a7Ngv, .lookFilled-yCfaCM.colorGreen-3y-Z79, .theme-dark .inset-SbsSFp, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .premiumInlineNotice-eSBKv7, .notice-1Qe0b_, .expandedFolderBackground-1kSAf6, .tile-2TcwiO .button-3Vyz67, .theme-dark .buttonColor-28DXIe, .container-1zzFcN > .flex-3BkGQD, .overlayTitle-2efoIF, .status-15kcmy, .compactButton-3hG-bs, .compactButtonDisabled-MwB2d6, .theme-dark .guildIconImage-74OdmM, .container-2oNtJn, .searchResult-O9NDji, .themedPopout-1TrfdI, .sourceThumbnail-ERDcZE, .content-2M_BlY, .wrapper-2SplAX, .theme-dark .watchButton-2YRKxv, .wrapper-1FP9YQ, .wrapper-1HIH0j, div.BetterInvites-guildBanner > img, .pictureInPictureVideo-2puO2Q, .video-2HW4jD, .status-1ZXjSF, .button-3Vyz67, .upsellTooltipWrapper-1wqikQ, .container-2O1UgZ, .activityItem-1Z9CTr, .scroller-3b1p7z, .liveLarge-IxMVzY, .textBadge-1fdDPJ, .liveIndicator-3bhXBF, .container-3jbRo5, .messagesPopoutWrap-3zryHW, .transferToGuildCard-1gIED6, .tierPill-l7DvKo, .cardWrapper-1bSePP, .guild-2Fq4I5, .item-1OdjEX.colorDefault-CDqZdO.focused-3qFvc8, .group-LWHoGI, .banner-3Uu4yV, .input-2g-os5, .row-1qtctT, .icon-2yhmi8, .content-1Tgc42, .button-f2h6uQ, .guildIcon-3ZfRfI, .acronym-vuwTO7, .rem-3kT9wc.botTag-7aX5WZ, .px-MnE_OR.botTag-7aX5WZ, .gameIcon-1mDo1J, .optionBox-1UOevl, .wumpusTooltip-1ba8Aq, .wrapper-24fR1R, .action-2YPPom, .iconWrapper-3mOhDI, .button-1yVL_7, .bd-addon-error, .bd-tab-item, .inviteSplash-2nkLRX, .content-1rmYE-, .achievementContainer-2jBIZt, .tooltip-14MtrL, .container-3GP6AV, .upsell-3B1lnN, .toolbar-37BrJ5, .createSticker-y-_Ug2, .bd-select-transparent .bd-select-options, .messages-23can0, .emptyChannelIcon-1YdEz2, .popout-TdhJ6Z, .modal-2TOYtq, .tagID, .filledIcon-2TG9HI, .upsellContainer-22N_CL, .cardFolder-3H4uH4, .emptyHintCard-2A7Tng, .iconWrapper-1sOtkE, .placeholderCard-3eGmb3, .roleRow-230vCm, .progressBar-18rmp1, .close-1mLglB, .preview-x-26h-, .ShowSessions-modal-item, .emojiItem-277VFM, .stickerCategory-2f6iSo, .iconWrapper-Tkg0P1, .planOptionDiscount-2nex9n {border-radius: var(--server-radius) !important;}
 .wrapper-28eC3z foreignObject {mask: none; transition: 0.2s;}
 .wrapperSimple-Js2rIO { overflow: visible;}
-/* Emoji Menu container */
-.categoryItemGuildCategory-3mvXlo foreignObject, .graphicSecondary-37AA_Y foreignObject, .stickerCategory-2f6iSo foreignObject, .mask-1hlQQ6 foreignObject, .guildSection-2Zyzy8 foreignObject {mask: none;} /* Server pictures radius */
+
 /* Inspect/hovering over Stickers */
 .stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {background-color: var(--background-modifier-selected); border-radius: var(--server-radius) !important;}
 .assetWrapperMasked-1iw9lV, .inspectedIndicator-27zwNZ {-webkit-mask: none !important;}
