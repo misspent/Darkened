@@ -2522,7 +2522,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .list-3cyRKU {padding: 0px;}
 .item-1BCeuB {margin-bottom: 5px;}
 /* Spotify icon on popout + button colour and container */
-.theme-dark .newPopoutActivityStyles .platformIcon-k3yytQ, .theme-light .newPopoutActivityStyles .platformIcon-k3yytQ {display: none;}
+.activityUserPopout-2MzGCj.activity-1gTu-L > img {display: none !important;}
 .bar-1GpknY, .barInner-3dHef4 {border-radius: var(--server-radius);}
 
 /* Colours & background of some stuff in popout + connection + "playing a game" centering text + pencil container */
