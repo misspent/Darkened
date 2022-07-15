@@ -2534,6 +2534,9 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   margin-bottom: 15px;
   border-radius: var(--server-radius) var(--server-radius) var(--server-radius) var(--server-radius);
 }
+/* Large & Small Image fix when you're "Playing Game" | Custom Rich Presence too */
+.assetsSmallImage-2JNB1y {border-radius: var(--avatar-radius); border-top: 1px solid var(--popout-background-main); border-left: 1px solid var(--popout-background-main);}
+.assetsLargeMaskStreamPreview--ugZjW, .assetsLargeMaskUserPopout-3N96A8, .assetsLargeMaskUserPopoutV2-2oZjbP, .assetsLargeMaskVoiceChannel-3IlDCA {-webkit-mask: none;}
 /* Popout "Message @user" container */
 .footer-3naVBw {padding: 0 10px 10px; display: var(--Popout-Send-Message-Container); background-color: var(--background-secondary);}
 .body-2wLx-E {padding-right: 16px !important; padding: 0px 10px 8px !important;}
