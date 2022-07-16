@@ -1941,9 +1941,8 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .full-motion .button-1_oXub[aria-label=Close] {border-radius: var(--server-radius);	color: red; margin-right: 12px;}
 .channelHeader-DFRX8q {background-color: var(--background-tertiary);}
 .theme-dark .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {background-color: var(--background-accent); border-radius: var(--server-radius);}
-.full-motion .button-1_oXub {border-radius: var(--server-radius);}
 /* Close all button in inbox container */
-.cursorPointer-B3uwDA {color: red;} .cursorPointer-B3uwDA:hover {border: 1px solid red; background-color: #a30000 !important;}
+.cursorPointer-B3uwDA {color: red;} .controls-1rku3l .cursorPointer-B3uwDA:hover {border: 1px solid red; background-color: #a30000 !important;} .full-motion .button-1_oXub {transition: none; border-radius: var(--server-radius);}
 /* Unread section in inbox container */
 .scroller-145h9c {padding: 16px 16px 0px 16px;}
 .markReadButton-28SmPf.button-1_oXub.tertiary-1e-lAP.size32-1NLMUP {margin: 12px;}
@@ -2472,7 +2471,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .rolesList-3uZoaa .roleCircle-3K9O3d {
   flex-shrink: 0;
 }
-.roleCircle-3K9O3d {
+.role-2TIOKu .roleCircle-3K9O3d {
   width: 6px;
   height: 6px;
 }
