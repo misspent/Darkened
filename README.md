@@ -11,13 +11,31 @@
 
 ![1  Darkened Discord Theme Main Window version 4  Edited](https://user-images.githubusercontent.com/78914154/176662128-c8f11fe8-113c-40dd-8a34-144b93a602b4.png)
 
+<details>
+  <summary align="center">✏️ Darkened Purple Re-Skin</summary>
+  <br>
+
+<h3 align="center">Main window + User popout</h3>
+
+![1  Darkened  Purple Discord Theme Main Window  Edited](https://user-images.githubusercontent.com/78914154/179514666-c6e2c9ba-907c-428c-9ed1-c83f02501809.png)
+
+<h3 align="center">Home + Friends section</h3>
+
+![4  Darkened Purple Discord Theme Friends  Edited](https://user-images.githubusercontent.com/78914154/179514672-fbf1c162-39da-43df-8072-c5700d5c5c5c.png)
+
+<h3 align="center">User Settings</h3>
+
+![2  Darkened Purple Discord Theme Settings  Edited](https://user-images.githubusercontent.com/78914154/179514669-4fd292ef-a37a-4759-911f-6973d9379198.png)
+
+</details>
+
 <h1 align="center">📌 Information</h1>
 
 ### 📢 Installation
 - Go into discord's settings
 - Go to your `"Themes"`
 - Click on `"Open Themes Folder"` button (Above the search bar)
-- Download and move the **[theme.css](https://github.com/misspent/Darkened/blob/main/Darkened.theme.css)** file into that folder
+- Download and move the **[Darkened.theme.css](https://github.com/misspent/Darkened/blob/main/Darkened.theme.css)**/**[Darkened Purple.theme.css](https://github.com/misspent/Darkened/blob/main/Re-Skins/Darkened%20Purple.css)** file into that folder
 - Click the checkbox in the top-right corner of the theme container in discord to enable it
 ### ✅ Features
 * ✔️ Good ol' darkness
