@@ -1,0 +1,152 @@
+/**
+* @name Darkened Purple
+* @author misspent
+* @description Darkness is a gift; embrace it.
+* @authorLink https://github.com/misspent/Darkened
+* @version 1.0.0
+*/
+
+/*
+\==================================================================================\
+\                                     Imports                                      \
+\==================================================================================\
+*/
+
+/* Main Import | --> Don't delete this <-- */
+@import "https://misspent.github.io/Darkened/BetterDiscord/main.css";
+
+/* Add a "/" on the left side of the first Quotation mark to cancel out the import */
+@import "https://crearts-community.github.io/Mention-Links/theme.css"; /* Mention Links */
+@import "https://lyght1337.github.io/DarknessCodeBlocks/css/CodeBlocks.css"; /* Codeblocks */
+@import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css"; /* Scrollbars */
+@import "https://misspent.github.io/Darkened/BetterDiscord/ChannelIcons.css"; /* Channel Icons */
+@import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"; /* Radial Status */
+@import "https://misspent.github.io/Darkened/BetterDiscord/ContextIconColours.css"; /* ContextIconsColours */
+
+:root {
+  /* Home Icon Image */
+  --Home-Image-Icon: url("https://noteless.wtf/l/4sxiz90zj5l65voq.png"); /* Default: https://i.ibb.co/k4mXsGW/Mary-Shaw.png | Free Upload Site: https://imgbb.com */
+
+  /* Spotify plugin seek bar */
+  --spotify-color: #1edc62; /* Default: #1edc62 */
+
+  /* Tooltips */
+  --tooltips: block; /* Set it to "none" if you don't want it | Default: block */
+
+  /* Other */
+  --dark: #392752; /* Codeblocks Import: Border color | Default: #151515 | Same as --border-color */
+  --light: #392752; /* Codeblocks Import | Default: #151515 | Same as --border-color */
+  --roleslist-columns: 2; /* Amount of columns for roles in popout */
+  --Normal-Activity-Icon: #c4302b; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium */
+  --Playing-Game-Icon: #4c8bf5; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium */
+  --Spotify-Activity-Icon: #1DB954; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium  */
+  --Emoji-Menu-Height: 545px; /* Emoji, GIF & Sticker menu height */
+
+  /* Mention color */
+  --mention-color: #8c53d6; /* Default: #0fffff */
+  --unread-color: rgb(167, 100, 255); /* Default: rgb(0, 195, 209) */
+  --accent: 167, 100, 255; /* This works in conjunction with "--unread-color" | Default: 0, 195, 209 */
+
+  /* Mention color in chat */
+  --mention-color-bar: #8c53d6; /* Default: #00b0f4 */
+  --mention-color-background: #8c53d61f; /* Default: #00b0f41f */
+  --mention-color-hover: #8c53d61f; /* Default: #00b0f41f */
+
+  /* Roundness of the fun stuff */
+  --avatar-radius: 0px; /* Avatar roundness | Radial Status roundness */
+  --status-radius: 8px; /* Status roundness */
+  --server-radius: 0px; /* Server icons, borders, images and other containers roundness */
+  --switch-radius: 0; /* Switches icon radius (enabled & disabled) | If --server-radius is "8" set this to "9" */
+  --role-circle: 5px; /* Circles next to role names (Size not roundness) */
+
+  /* Toggleable variables */
+  --Titlebar: flex; /* flex = ON, none = OFF */
+  --Discord-Watermark: flex; /* flex = ON, none = OFF */
+  --Chat-GIF-Button: flex; /* flex = ON, none = OFF */
+  --Chat-Gift-Button: none; /* flex = ON, none = OFF */
+  --Chat-Sticker-Button: none; /* flex = ON, none = OFF */
+  --Home-Nitro-Channel: none; /* flex = ON, none = OFF */
+  --Home-Discovery-Channel: flex; /* flex = ON, none = OFF */
+  --Context-Menu-Emoji-Toolbar: grid; /* grid = ON, none = OFF */
+  --Text-Channels-Capital-Letter: capitalize; /* capitalize, none */
+  --Popout-Send-Message-Container: block; /* block = ON, none = OFF */
+  --Context-Menu-Keybind-Hints: none; /* block = ON, none = OFF */
+
+  /* Radial Status */
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-small-width: 1.5px;
+  --rs-medium-width: 1.5px;
+  --rs-large-width: 1.5px;
+  --rs-avatar-shape: var(--avatar-radius);
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-color: var(--rs-online-color);
+  --rs-phone-visible: block;
+  --rs-version: "2.0.6";
+
+  /* ChannelTabs Plugin | Ignore */
+  --channelTabs-tabHeight: 32px;
+  --channelTabs-favHeight: 23px !important;
+  --channelTabs-macHeight: 41px !important;
+  --channelTabs-tabWidth: 224px !important;
+  --channelTabs-tabStatusBorderThickness: 2px !important;
+  --channelTabs-favStatusBorderThickness: 2px !important;
+  --channelTabs-winButtonWidth: 84px !important;
+  --channelTabs-paddingTop: 0px !important;
+  --channelTabs-paddingBottom: 0px !important;
+  --channelTabs-containerSpacing: 3px !important;
+}
+
+/*
+\==================================================================================\
+\                                  Main Variables                                  \
+\==================================================================================\
+*/
+
+.theme-dark {
+  --background-tertiary: #302144;
+  --background-secondary: #2a1d3b;
+  --background-secondary-alt: #221730;
+  --background-primary: #221730;
+  --background-mobile-primary: #3c2c52;
+  --background-mobile-secondary: #342549;
+  --channeltextarea-background: #2e223f; /* Main window text bar + reply bar background */
+  --background-accent: #6e85d3;
+  --background-message-hover: transparent;
+  --background-modifier-hover: #302144;
+  --background-modifier-active: #241a31;
+  --background-modifier-selected: #241833;
+  --deprecated-card-bg: #12141f63;
+  --background-floating: #2a1d3b;
+  --deprecated-quickswitcher-input-background: #171020;
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #30263d;
+  --scrollbar-auto-track: #3d304d;
+  --scrollbar-thin-thumb: #342a41;
+  --activity-card-background: #171020;
+  --border-color: #392752;
+  --popout-title: #35244b;
+  --popout-background-main: #221930;
+  --jump-newmessage-bars-buttons: #523a74;
+  --jump-newmessage-bars: #3d2a57;
+}
+
+.theme-light {
+  /* "Create a server" popup | I will never support light theme */
+  --background-tertiary: #302144;
+  --background-secondary: #2a1d3b;
+  --background-secondary-alt: #221730;
+  --background-primary: #221730;
+  --background-accent: #6e85d3;
+  --background-modifier-hover: #302144;
+  --background-modifier-active: #241a31;
+  --header-primary: #fff;
+  --header-secondary: #b1b5b9;
+  --text-normal: #8e9297;
+}
