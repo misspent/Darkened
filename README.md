@@ -96,7 +96,7 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 
 ➜ You'll need [BetterDiscord](https://betterdiscord.app/) for this to work.  
 ➜ Make sure `Dark` is selected in the appearance settings, or it'll look like someone dropkicked discord.  
-➜ If you want to submit your re-skin, feel free to upload the file or paste the file's contents in the issues section and title it "Re-skin", please.
+➜ If you want to submit your re-skin, feel free to upload the file or paste the file's contents in the issues section and title it "Re-skin", please.  
 ➜ 🚀 Thought I'd share this with all of you as this'll increase the performance of discord in a rather drastic way; ~~however, it's not the best for people who want to create themes, given that it won't reload discord when you save. Hopefully, he'll change it in the future~~ [OpenAsar Website](https://openasar.dev/) | [OpenAsar GitHub](https://github.com/GooseMod/OpenAsar)
 
 <details>
