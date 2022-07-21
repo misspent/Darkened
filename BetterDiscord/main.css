@@ -463,7 +463,7 @@
 .inner-1NoIT5, .searchBar-2M9mRP, .wrapper-22ayhK {background-color: var(--background-primary); border-radius: var(--avatar-radius) !important;}
 .header-1ULbqO, .packHeader-w9jpYl {background-color: var(--background-primary); border-bottom: 1px solid var(--border-color);}
 .list-obNEuP, .inspector-2A2Chb, .unicodeShortcut-3N8oDe {background-color: var(--background-primary);}
-.contentWrapper-3vHNP2 {background-color: var(--background-floating); box-shadow: none; border-radius: var(--server-radius);}
+.contentWrapper-3vHNP2 {background-color: var(--Emoji-Menu); box-shadow: none; border-radius: var(--server-radius);}
 .header-1XpmZs {margin-left: 5px;}
 /* Work well together */
 .categorySection-3j71bm, #sticker-picker-grid > div > div.scroller-2MALzE.thin-31rlnD.scrollerBase-_bVAAt > div.listItems-6eZzQ1 {margin-left: -8px !important;}
@@ -1881,13 +1881,13 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .selected-1-Z6gm .layout-1qmrhw {
   background-color: rgba(var(--accent), 0.07) !important;
   border-left: 2px solid var(--unread-color);
-  padding-left: 12px;
+  padding-left: 10px !important;
 }
 /* Container when hovering over a user in members list */
 .clickable-28SzVr:hover .layout-1qmrhw {
   background-color: rgba(var(--accent), 0.13) !important;
   border-left: 2px solid var(--unread-color);
-  padding-left: 10px;
+  padding-left: 10px !important;
 }
 
 /* Add a server & Explore public servers buttons + "DisplayServersAsChannels" fix for colour [Keep] */
