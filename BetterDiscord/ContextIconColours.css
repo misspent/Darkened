@@ -12,11 +12,13 @@
 [aria-label="Mark Unread"], [aria-label="Mark Unread"]:hover {color: plum;}
 [aria-label="Copy Link"], [aria-label="Copy Link"]:hover {color: lightseagreen;}
 [aria-label="Edit"], [aria-label="Edit"]:hover {color: rgba(0, 255, 255, 0.637);}
-[aria-label="Add Reaction"], [aria-label="Add Reaction"]:hover {color: rgba(218, 165, 32, 0.808);}
+[aria-label="Add Reaction"], [aria-label="Add Reaction"]:hover, [aria-label="Reactions"], [aria-label="Reactions"]:hover {color: rgba(218, 165, 32, 0.808);}
 [aria-label="Create Thread"], [aria-label="Create Thread"]:hover {color: #aa03f8e7;}
 [aria-label="Delete"], [aria-label="Delete"]:hover {color: rgba(255, 0, 0, 0.863);}
 [aria-label="Pin Message"], [aria-label="Pin Message"]:hover {color: var(--danger-icon-normal);}
 [aria-label="Unpin Message"], [aria-label="Unpin Message"]:hover {color: var(--danger-icon-normal);}
+#chat-messages-999678139443724319 > div > div.buttonContainer-1502pf > div > div > div:nth-child(1) {color: red !important}
+.icon-GhnIRB.icon-1zidb7 {color: orange;} /* Notes icon from PersonalPins Plugin */
 .cursorPointer-B3uwDA, .cursorPointer-B3uwDA:hover {color: #7289da;}
 /* Right click settings icon in the bottom left sidebar */
 .item-1OdjEX#user-settings-cog-Windows::before {background: #00A4EF;}
