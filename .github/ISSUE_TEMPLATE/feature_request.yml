@@ -32,5 +32,11 @@ body:
   - type: textarea
     id: other
     attributes:
-      label: "➕ More the merrier"
-      description: "Off topic, redundant or something you didn't want in the description"
+      label: "➕ Something other than a Plugin request goes here"
+      description: "Describe what you want in a clear and concise manner; drop the .class here if you can/know how to."
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "📸 Screenshots"
+      description: "If applicable, add screenshots to help give me a bigger picture of the issue at hand (It'll be very convenient and helpful if you do)."
+      render: bash
