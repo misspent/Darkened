@@ -25,7 +25,7 @@
 
 :root {
   /* Home Icon Image */
-  --Home-Image-Icon: url("https://noteless.wtf/l/4sxiz90zj5l65voq.png"); /* Default: https://i.ibb.co/k4mXsGW/Mary-Shaw.png | Free Upload Site: https://imgbb.com */
+  --Home-Image-Icon: url("https://i.ibb.co/k4mXsGW/Mary-Shaw.png"); /* Default: https://i.ibb.co/k4mXsGW/Mary-Shaw.png | Free Upload Site: https://imgbb.com */
 
   /* Spotify plugin seek bar */
   --spotify-color: #1edc62; /* Default: #1edc62 */
