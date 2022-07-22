@@ -1975,3 +1975,54 @@
    d: path("M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765l-6-3.2ZM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516ZM0 13.373l5.693-3.163L0 6.873v6.5Z");
    transform: scale(1.4) !important;
 }
+
+/* Issues Icon */
+.mainContent-20q_Hp[aria-label*=issue][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2),
+.mainContent-20q_Hp[aria-label*=issue][aria-label$="text channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2){
+   transform: translate(-1px, 13px) !important;
+}
+.mainContent-20q_Hp[aria-label*=issue][aria-label$="text channel)"]> div> svg> path:first-child {
+   d: path("M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001");
+   transform: scale(1.4) !important;
+}
+.mainContent-20q_Hp[aria-label*=issue][aria-label$="text channel)"]> div> svg[viewBox="0 0 40 40"]> path {
+   transform: scale(1.7) !important;
+}
+.mainContent-20q_Hp[aria-label*=issue][aria-label$="announcement channel)"]> div> svg> path {
+   d: path("M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001");
+   transform: scale(1.4) !important;
+}
+
+/* Pull Request Icon */
+.mainContent-20q_Hp[aria-label*=pull-request][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2),
+.mainContent-20q_Hp[aria-label*=pull-request][aria-label$="text channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2){
+   transform: translate(-1px, 13px) !important;
+}
+.mainContent-20q_Hp[aria-label*=pull-request][aria-label$="text channel)"]> div> svg> path:first-child {
+   d: path("M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z");
+   transform: scale(1.4) !important;
+}
+.mainContent-20q_Hp[aria-label*=pull-request][aria-label$="text channel)"]> div> svg[viewBox="0 0 40 40"]> path {
+   transform: scale(1.7) !important;
+}
+.mainContent-20q_Hp[aria-label*=pull-request][aria-label$="announcement channel)"]> div> svg> path {
+   d: path("M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z");
+   transform: scale(1.4) !important;
+}
+
+/* Commit Icon */
+.mainContent-20q_Hp[aria-label*=commit][aria-label$="announcement channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2),
+.mainContent-20q_Hp[aria-label*=commit][aria-label$="text channel)"]> div[aria-label*="(Limited)"]> svg> path:nth-child(2){
+   transform: translate(-1px, 13px) !important;
+}
+.mainContent-20q_Hp[aria-label*=commit][aria-label$="text channel)"]> div> svg> path:first-child {
+   d: path("M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z");
+   transform: scale(1.4) !important;
+}
+.mainContent-20q_Hp[aria-label*=commit][aria-label$="text channel)"]> div> svg[viewBox="0 0 40 40"]> path {
+   transform: scale(1.7) !important;
+}
+.mainContent-20q_Hp[aria-label*=commit][aria-label$="announcement channel)"]> div> svg> path {
+   d: path("M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z");
+   transform: scale(1.4) !important;
+}
