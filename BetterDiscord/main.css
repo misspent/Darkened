@@ -2002,7 +2002,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 /* Active now section in Home/Friends tab */
 .wrapper-2RrXDg {background-color: var(--background-primary); border: 1px solid var(--border-color) !important; margin: 8px;}
 .wrapper-2RrXDg:hover {background-color: var(--border-color) !important; border: 1px solid var(--jump-newmessage-bars) !important;}
-.header-Imy05m {background-color: var(--background-primary); border: none; border-bottom: 1px solid #151515; border-right: 1px solid #151515; text-align: center; margin-top: 0px; padding: 16px 0px !important;}
+.header-Imy05m {background-color: rgba(0, 0, 0, 0.3); border: none; border-bottom: 1px solid #151515; border-right: 1px solid #151515; text-align: center; margin-top: 0px; padding: 16px 0px !important;}
 .itemCard-3Etziu, .section-3G9aLW, .section-3G9aLW:only-child {border-radius: var(--server-radius);}
 .section-3G9aLW {background: var(--background-secondary);}
 .searchBar-2aylmZ {background-color: var(--background-secondary); border-radius: var(--server-radius); margin: 12px 12px 8px 12px;}
