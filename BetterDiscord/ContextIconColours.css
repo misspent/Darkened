@@ -55,6 +55,7 @@
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Logout-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="delete-tab" i]::before {color: var(--button-danger-background);}
 /* Other */
 .item-1OdjEX#now-playing-menu-message::before {background: yellow;}
+.item-1OdjEX#guild-settings-role-context-view-as-role::before {background: #7289da;}
 /* ===> Powercord <=== */
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="experiments-tab" i]::before {color: var(--danger-icon-normal);}
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="developer-options-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="hotspot-options-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="dismissible-content-options-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="payment-flow-modals-tab" i]::before {color: #7289da;}
