@@ -1,5 +1,5 @@
 /**
-* @name Darkened Purple
+* @name Darkened Comfy
 * @author misspent
 * @description Darkness is a gift; embrace it.
 * @authorLink https://github.com/misspent/Darkened
@@ -22,6 +22,7 @@
 @import "https://misspent.github.io/Darkened/BetterDiscord/ChannelIcons.css"; /* Channel Icons */
 @import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"; /* Radial Status */
 @import "https://misspent.github.io/Darkened/BetterDiscord/ContextIconColours.css"; /* ContextIconsColours */
+@import "https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css";/* Better Crashes - Disease | Indicating which plugins are currently causing commits. */
 
 :root {
   /* Home Icon Image */
@@ -34,8 +35,8 @@
   --tooltips: block; /* Set it to "none" if you don't want it | Default: block */
 
   /* Other */
-  --dark: #392752; /* Codeblocks Import: Border color | Default: #151515 | Same as --border-color */
-  --light: #392752; /* Codeblocks Import | Default: #151515 | Same as --border-color */
+  --dark: #2b365cde; /* Codeblocks Import: Border color | Default: #151515 */
+  --light: #2b365cde; /* Codeblocks Import | Default: #151515 */
   --roleslist-columns: 2; /* Amount of columns for roles in popout */
   --Normal-Activity-Icon: #c4302b; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium */
   --Playing-Game-Icon: #4c8bf5; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium */
@@ -43,14 +44,14 @@
   --Emoji-Menu-Height: 545px; /* Emoji, GIF & Sticker menu height */
 
   /* Mention color */
-  --mention-color: #8c53d6; /* Default: #0fffff */
-  --unread-color: rgb(167, 100, 255); /* Default: rgb(0, 195, 209) */
-  --accent: 167, 100, 255; /* This works in conjunction with "--unread-color" | Default: 0, 195, 209 */
+  --mention-color: #f04747; /* Default: #0fffff */
+  --unread-color: rgb(112, 139, 236); /* Default: rgb(0, 195, 209) */
+  --accent: 112, 180, 255; /* This works in conjunction with "--unread-color" | Default: 0, 195, 209 */
 
   /* Mention color in chat */
-  --mention-color-bar: #8c53d6; /* Default: #00b0f4 */
-  --mention-color-background: #8c53d61f; /* Default: #00b0f41f */
-  --mention-color-hover: #8c53d61f; /* Default: #00b0f41f */
+  --mention-color-bar: #c66262; /* Default: #00b0f4 */
+  --mention-color-background: #c662621f; /* Default: #00b0f41f */
+  --mention-color-hover: #c6626226; /* Default: #00b0f41f */
 
   /* Roundness of the fun stuff */
   --avatar-radius: 0px; /* Avatar roundness | Radial Status roundness */
@@ -110,43 +111,44 @@
 */
 
 .theme-dark {
-  --background-tertiary: #302144;
-  --background-secondary: #2a1d3b;
-  --background-secondary-alt: #221730;
-  --background-primary: #221730;
-  --background-mobile-primary: #3c2c52;
-  --background-mobile-secondary: #342549;
-  --channeltextarea-background: #2e223f; /* Main window text bar + reply bar background */
-  --background-accent: #6e85d3;
+  --background-primary: #23283d;
+  --background-secondary: #1e2233;
+  --background-secondary-alt: #191f2e;
+  --background-tertiary: #101320;
+  --background-mobile-primary: #23283d;
+  --background-mobile-secondary: #1e2233;
+  --channeltextarea-background: #191f2e;
+  --background-accent: #7289da;
   --background-message-hover: transparent;
-  --background-modifier-hover: #302144;
-  --background-modifier-active: #241a31;
-  --background-modifier-selected: #241833;
+  --background-modifier-hover: #00000010;
+  --background-modifier-active: #0000001a;
+  --background-modifier-selected: #0000001f;
   --deprecated-card-bg: #12141f63;
-  --background-floating: #2a1d3b;
-  --deprecated-quickswitcher-input-background: #171020;
+  --background-floating: #101320;
+  --deprecated-quickswitcher-input-background: #101320;
   --elevation-low: none;
-  --scrollbar-auto-thumb: #30263d;
-  --scrollbar-auto-track: #3d304d;
-  --scrollbar-thin-thumb: #342a41;
-  --activity-card-background: #171020;
-  --border-color: #392752;
-  --popout-title: #35244b;
-  --popout-background-main: #221930;
-  --jump-newmessage-bars-buttons: #523a74;
-  --jump-newmessage-bars: #3d2a57;
-  --Emoji-Menu: #170f22;
+  --scrollbar-auto-thumb: #121722;
+  --scrollbar-auto-track: #191f2e;
+  --scrollbar-thin-thumb: #141925;
+  --activity-card-background: #101320;
+  --input-background: #1e2233;
+  --border-color: #2b365cde; /* Change to: "none" for no borders */
+  --popout-title: #37437091;
+  --popout-background-main: #2d365c91;
+  --jump-newmessage-bars-buttons: #374370;
+  --jump-newmessage-bars: #2d365c;
+  --Emoji-Menu: #101320;
 }
 
 .theme-light {
   /* "Create a server" popup | I will never support light theme */
-  --background-tertiary: #302144;
-  --background-secondary: #2a1d3b;
-  --background-secondary-alt: #221730;
-  --background-primary: #221730;
-  --background-accent: #6e85d3;
-  --background-modifier-hover: #302144;
-  --background-modifier-active: #241a31;
+  --background-primary: #23283d;
+  --background-secondary: #1e2233;
+  --background-secondary-alt: #191f2e;
+  --background-tertiary: #101320;
+  --background-accent: #7289da;
+  --background-modifier-hover: #262b41;
+  --background-modifier-active: #262b41;
   --header-primary: #fff;
   --header-secondary: #b1b5b9;
   --text-normal: #8e9297;
