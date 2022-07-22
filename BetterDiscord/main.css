@@ -1138,56 +1138,6 @@
 ====================================================================================================================
 */
 
-/* Server settings dropdown */
-/* Mark As Read */
-#guild-header-popout-mark-guild-read:hover {background: linear-gradient(90deg, #1abc9c8e, #1abc9c);}
-#guild-header-popout-mark-guild-read > div.iconContainer-1-SsTR {color: #20da78;}
-/* Boost */
-#guild-header-popout-premium-subscribe:hover .icon-E4cW1l, #guild-header-popout-premium-subscribe:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #ff73fa;}
-.item-1OdjEX#guild-header-popout-premium-subscribe::before {background: #ff73fa;}
-#guild-header-popout-premium-subscribe:hover, #guild-header-popout-premium-subscribe:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #ff73fa8e, #ff73fa);}
-/* Invite */
-#guild-header-popout-invite-people:hover .icon-E4cW1l, #guild-header-popout-invite-people:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #677bc4;}
-.item-1OdjEX#guild-header-popout-invite-people::before {background: #677bc4;}
-#guild-header-popout-invite-people:hover, #guild-header-popout-invite-people:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #677bc48e, #677bc4);}
-/* Settings */
-#guild-header-popout-settings .icon-E4cW1l, #guild-header-popout-settings:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #546e7a;}
-.item-1OdjEX#guild-header-popout-settings::before {background: #546e7a;}
-#guild-header-popout-settings:hover, #guild-header-popout-settings:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #546e7a8e, #546e7a);}
-/* Insights */
-#guild-header-popout-insights .icon-E4cW1l, #guild-header-popout-insights:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #1abc9c;}
-.item-1OdjEX#guild-header-popout-change-nickname::before {background: #1abc9c;}
-#guild-header-popout-insights:hover, #guild-header-popout-insights:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #1abc9c8e, #1abc9c);}
-/* Create channel */
-#guild-header-popout-create-channel .icon-E4cW1l, #guild-header-popout-create-channel:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #e91e63;}
-.item-1OdjEX#guild-header-popout-create-channel::before {background: #e91e63;}
-#guild-header-popout-create-channel:hover, #guild-header-popout-create-channel:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #e91e638e, ##e91e63);}
-/* Create category */
-#guild-header-popout-create-category .icon-E4cW1l, #guild-header-popout-create-category:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #eaa14e;}
-.item-1OdjEX#guild-header-popout-create-category::before {background: #eaa14e;}
-#guild-header-popout-create-category:hover, #guild-header-popout-create-category:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #eaa14e8e, #eaa14e);}
-/* Create event */
-#guild-header-popout-create-event .icon-E4cW1l, #guild-header-popout-create-event:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #4a84d4;}
-.item-1OdjEX#guild-header-popout-create-event::before {background: #4a84d4;}
-#guild-header-popout-create-event:hover, #guild-header-popout-create-event:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #4a84d48e, #4a84d4);}
-/* Notifications */
-#guild-header-popout-notifications .icon-E4cW1l, #guild-header-popout-notifications:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #fcd462;}
-.item-1OdjEX#guild-header-popout-notifications::before {background: #fcd463;}
-#guild-header-popout-notifications:hover, #guild-header-popout-notifications:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #fcd4628e, #fcd462);}
-/* Privacy */
-#guild-header-popout-privacy .icon-E4cW1l, #guild-header-popout-privacy:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #aa03f8f8;}
-.item-1OdjEX#guild-header-popout-privacy::before {background: #aa03f8f8;}
-#guild-header-popout-privacy:hover, #guild-header-popout-privacy:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #aa03f88e, #aa03f8f8);}
-/* Nickname | Edit Server Profile */
-#guild-header-popout-change-nickname .icon-E4cW1l, #guild-header-popout-change-nickname:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #43b581;}
-#guild-header-popout-change-nickname:hover, #guild-header-popout-change-nickname:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #1abc9c8e, #1abc9c);}
-/* Hide Muted Channels */
-.item-1OdjEX#guild-header-popout-hide-muted-channels::before {background: #f04747;}
-#guild-header-popout-hide-muted-channels:hover, #guild-header-popout-hide-muted-channels:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #f047478e, #f04747);}
-/* Leave Server */
-#guild-header-popout-leave .icon-E4cW1l, #guild-header-popout-leave:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #f04747;}
-#guild-header-popout-leave:hover, #guild-header-popout-leave:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #f047478e, #f04747);}
-
 /* Both server settings and settings */
 .sidebar-nqHbhN {padding: 50px 0px 60px 0px !important;}
 body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {width: 190px !important;}
@@ -1303,7 +1253,6 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .item-2idW98[aria-checked=true] {background-color: green !important;}
 .item-2idW98 {border-radius: var(--server-radius);}
 /* Moderation in server settings */
-#moderation-tab > div > div.children-1xdcWE > div:nth-child(1) > div.children-1xdcWE > div:nth-child(2) > div {background: var(--background-secondary) !important;}
 .radioBar-3w9XY- {background: var(--background-primary); border-radius: var(--server-radius);} /* Most bar modal background */
 .item-2idW98 .radioBar-3w9XY- {background: var(--background-secondary);} /* Bar modal in settings */
 /* Connections in settings */
@@ -3114,7 +3063,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 }
 
 /* Server radius */
-.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .previewMessage-2g_aBv, .cameraWrapper-3a7Ngv, .lookFilled-yCfaCM.colorGreen-3y-Z79, .theme-dark .inset-SbsSFp, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .premiumInlineNotice-eSBKv7, .notice-1Qe0b_, .expandedFolderBackground-1kSAf6, .tile-2TcwiO .button-3Vyz67, .theme-dark .buttonColor-28DXIe, .container-1zzFcN > .flex-3BkGQD, .overlayTitle-2efoIF, .status-15kcmy, .compactButton-3hG-bs, .compactButtonDisabled-MwB2d6, .theme-dark .guildIconImage-74OdmM, .container-2oNtJn, .searchResult-O9NDji, .themedPopout-1TrfdI, .sourceThumbnail-ERDcZE, .content-2M_BlY, .wrapper-2SplAX, .theme-dark .watchButton-2YRKxv, .wrapper-1FP9YQ, .wrapper-1HIH0j, div.BetterInvites-guildBanner > img, .pictureInPictureVideo-2puO2Q, .video-2HW4jD, .status-1ZXjSF, .button-3Vyz67, .upsellTooltipWrapper-1wqikQ, .container-2O1UgZ, .activityItem-1Z9CTr, .scroller-3b1p7z, .liveLarge-IxMVzY, .textBadge-1fdDPJ, .liveIndicator-3bhXBF, .container-3jbRo5, .messagesPopoutWrap-3zryHW, .transferToGuildCard-1gIED6, .tierPill-l7DvKo, .cardWrapper-1bSePP, .guild-2Fq4I5, .item-1OdjEX.colorDefault-CDqZdO.focused-3qFvc8, .group-LWHoGI, .banner-3Uu4yV, .input-2g-os5, .row-1qtctT, .icon-2yhmi8, .content-1Tgc42, .button-f2h6uQ, .guildIcon-3ZfRfI, .acronym-vuwTO7, .rem-3kT9wc.botTag-7aX5WZ, .px-MnE_OR.botTag-7aX5WZ, .gameIcon-1mDo1J, .optionBox-1UOevl, .wumpusTooltip-1ba8Aq, .wrapper-24fR1R, .action-2YPPom, .iconWrapper-3mOhDI, .button-1yVL_7, .bd-addon-error, .bd-tab-item, .inviteSplash-2nkLRX, .content-1rmYE-, .achievementContainer-2jBIZt, .tooltip-14MtrL, .container-3GP6AV, .upsell-3B1lnN, .toolbar-37BrJ5, .createSticker-y-_Ug2, .bd-select-transparent .bd-select-options, .messages-23can0, .emptyChannelIcon-1YdEz2, .popout-TdhJ6Z, .modal-2TOYtq, .tagID, .filledIcon-2TG9HI, .upsellContainer-22N_CL, .cardFolder-3H4uH4, .emptyHintCard-2A7Tng, .iconWrapper-1sOtkE, .placeholderCard-3eGmb3, .roleRow-230vCm, .progressBar-18rmp1, .close-1mLglB, .preview-x-26h-, .ShowSessions-modal-item, .emojiItem-277VFM, .stickerCategory-2f6iSo, .iconWrapper-Tkg0P1, .planOptionDiscount-2nex9n, .badge-1ImhlC, .container-1SX9VC, .contentWrapper-3vHNP2, .theme-dark .categoryFadeBlurple-1l49_Q, .theme-light .categoryFadeBlurple-1l49_Q, .gif-2kTiNB, .container-26tbgC, .overviewSidebar-3JDLaJ, .exampleModal-2fUA5X, .optionContainer-32r7Dj, .exampleContainer-hz7EUM, .tooltip-20W1V0, .welcomeChannel-_Q4qAA, .previewContainer-29oeA6, .enableContainer-H2cRts, .container-13pE3E, .error-3AuLwi, .featureIcon-2sTnDK, .checklistContainer-12xGp5, .checklistHeader-3liG7E, .upsellContent-10YytV {border-radius: var(--server-radius) !important;}
+.wrapperSimple-Js2rIO, .wrapper-28eC3z foreignObject, .folderIconWrapper-226oVY, .folderIconWrapper-1_bOZe, .expandedFolderBackground-2sPsd-, .flexChild-3PzYmX .avatarUploaderInner-yEhTv5, .container-JMJRDf, .video-31SuuY, .colorPickerSwatch-RTUGRR.custom-1Up2lr, .colorPickerSwatch-RTUGRR.default-3ISV7m, .colorPickerSwatch-RTUGRR, .backgroundOptionRing-1vvQ0C, .backgroundOptionInner-SSz19O, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .lookFilled-1GseHa.select-1Ia3hD, .wrapper-2vIMkT, .upload-vLbqu-, .interactive-iyXY_x, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .attachment-1PZZB2, .progress-xNqAjK, .subscriptionsRedirectContainer-zD3U79, .progressBar-2yl2pi, .container-x8Y1ix, .rowContainer-3t7486, .bottomLeft-1GrX76, .bottomRight-2N4MaX, .topLeft-2inNCc, .topRight-wM_dsL, .wrapper-SdcMKg, .fakeActivityIcon-KeXVoI, .membershipDialog-2wAdpQ, .video-293uMj, .videoWrapper-1_H3B3, .lookOutlined-3yKVGo.colorGreen-3y-Z79, .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus, .searchBar-20o6Cf, .qualitySettingsContainer-2LjkfM, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .folderIconWrapper-1oRIZr, .embedSpotify-1rDvOE, .containerBackground-Ang24O, .theme-dark .spoilerWarning-8ovW0v, .notDetected-M3Ghh2, .nowPlaying-3UpuKc, .previewMessage-2g_aBv, .cameraWrapper-3a7Ngv, .lookFilled-yCfaCM.colorGreen-3y-Z79, .theme-dark .inset-SbsSFp, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled, .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .premiumInlineNotice-eSBKv7, .notice-1Qe0b_, .expandedFolderBackground-1kSAf6, .tile-2TcwiO .button-3Vyz67, .theme-dark .buttonColor-28DXIe, .container-1zzFcN > .flex-3BkGQD, .overlayTitle-2efoIF, .status-15kcmy, .compactButton-3hG-bs, .compactButtonDisabled-MwB2d6, .theme-dark .guildIconImage-74OdmM, .container-2oNtJn, .searchResult-O9NDji, .themedPopout-1TrfdI, .sourceThumbnail-ERDcZE, .content-2M_BlY, .wrapper-2SplAX, .theme-dark .watchButton-2YRKxv, .wrapper-1FP9YQ, .wrapper-1HIH0j, div.BetterInvites-guildBanner > img, .pictureInPictureVideo-2puO2Q, .video-2HW4jD, .status-1ZXjSF, .button-3Vyz67, .upsellTooltipWrapper-1wqikQ, .container-2O1UgZ, .activityItem-1Z9CTr, .scroller-3b1p7z, .liveLarge-IxMVzY, .textBadge-1fdDPJ, .liveIndicator-3bhXBF, .container-3jbRo5, .messagesPopoutWrap-3zryHW, .transferToGuildCard-1gIED6, .tierPill-l7DvKo, .cardWrapper-1bSePP, .guild-2Fq4I5, .item-1OdjEX.colorDefault-CDqZdO.focused-3qFvc8, .group-LWHoGI, .banner-3Uu4yV, .input-2g-os5, .row-1qtctT, .icon-2yhmi8, .content-1Tgc42, .button-f2h6uQ, .guildIcon-3ZfRfI, .acronym-vuwTO7, .rem-3kT9wc.botTag-7aX5WZ, .px-MnE_OR.botTag-7aX5WZ, .gameIcon-1mDo1J, .optionBox-1UOevl, .wumpusTooltip-1ba8Aq, .wrapper-24fR1R, .action-2YPPom, .iconWrapper-3mOhDI, .button-1yVL_7, .bd-addon-error, .bd-tab-item, .inviteSplash-2nkLRX, .content-1rmYE-, .achievementContainer-2jBIZt, .tooltip-14MtrL, .container-3GP6AV, .upsell-3B1lnN, .toolbar-37BrJ5, .createSticker-y-_Ug2, .bd-select-transparent .bd-select-options, .messages-23can0, .emptyChannelIcon-1YdEz2, .popout-TdhJ6Z, .modal-2TOYtq, .tagID, .filledIcon-2TG9HI, .upsellContainer-22N_CL, .cardFolder-3H4uH4, .emptyHintCard-2A7Tng, .iconWrapper-1sOtkE, .placeholderCard-3eGmb3, .roleRow-230vCm, .progressBar-18rmp1, .close-1mLglB, .preview-x-26h-, .ShowSessions-modal-item, .emojiItem-277VFM, .stickerCategory-2f6iSo, .iconWrapper-Tkg0P1, .planOptionDiscount-2nex9n, .badge-1ImhlC, .container-1SX9VC, .contentWrapper-3vHNP2, .theme-dark .categoryFadeBlurple-1l49_Q, .theme-light .categoryFadeBlurple-1l49_Q, .gif-2kTiNB, .container-26tbgC, .overviewSidebar-3JDLaJ, .exampleModal-2fUA5X, .optionContainer-32r7Dj, .exampleContainer-hz7EUM, .tooltip-20W1V0, .welcomeChannel-_Q4qAA, .previewContainer-29oeA6, .enableContainer-H2cRts, .container-13pE3E, .error-3AuLwi, .featureIcon-2sTnDK, .checklistContainer-12xGp5, .checklistHeader-3liG7E, .upsellContent-10YytV, .actionContainer-EzNGrb, .ruleIconContainer-dXW56-, .exampleContainer-2O-nVK, .exampleModal-1lRfuE, .tooltip-16UpTB, .fakeButton-3RWbMY, .circle-2tR2Qh, .editCard-K9Q9mb, .triggerMainContainer-274ue5, .actionContainer-2krsiT, .keywordListContainer-9ux8nU, .collapseable-1mNWCS:before, .collapseable-1mNWCS, .channelLabel-237KIv, .resultsList-2Bp-2_, .keywordsTextArea-3QkFoG, .exampleRule-3gJ39X, .settingsFormItem-25zW3t, .wrapperBase-dMTjVZ, .editButton-2SLR4j {border-radius: var(--server-radius) !important;}
 .wrapper-28eC3z foreignObject {mask: none; transition: 0.2s;}
 .wrapperSimple-Js2rIO { overflow: visible;}
 
@@ -3128,6 +3077,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .wrapper-28eC3z:hover foreignObject {border-radius: calc(var(--server-radius) - 3px); transition: 0.2s;}
 
 .wrapper-24fR1R:focus-within, .wrapper-24fR1R:hover, .roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) {background-color: var(--background-secondary);}
+.triggerMainContainer-274ue5 {background: var(--background-tertiary);}
 
 /* Better Discord Addon Error */
 .bd-tab-bar {justify-content: center;}

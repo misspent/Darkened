@@ -17,7 +17,7 @@
 [aria-label="Delete"], [aria-label="Delete"]:hover {color: rgba(255, 0, 0, 0.863);}
 [aria-label="Pin Message"], [aria-label="Pin Message"]:hover {color: var(--danger-icon-normal);}
 [aria-label="Unpin Message"], [aria-label="Unpin Message"]:hover {color: var(--danger-icon-normal);}
-#chat-messages-999678139443724319 > div > div.buttonContainer-1502pf > div > div > div:nth-child(1) {color: red !important}
+#chat-messages-999678139443724319 > div > div.buttonContainer-1502pf > div > div > div:nth-child(1) {color: red !important;}
 .icon-GhnIRB.icon-1zidb7 {color: orange;} /* Notes icon from PersonalPins Plugin */
 .cursorPointer-B3uwDA, .cursorPointer-B3uwDA:hover {color: #7289da;}
 /* Right click settings icon in the bottom left sidebar */
@@ -45,13 +45,13 @@
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Nitro Server Boost-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Nitro-Server-Boost-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="GUILD_PREMIUM-tab" i]::before {color: #F47FFF;}
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-customcss-tab::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="CustomCSS-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="INSTANT_INVITES-tab" i]::before {color: #00FC32;}
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Text & Images-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Text-&-Images-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Appearance-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Overlay-tab" i]::before {color: #e91e63;}
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Accessibility-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Keybinds-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Advanced-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="GUILD_TEMPLATES-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="friend-requests-tab" i]::before {color: lightsalmon;}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Accessibility-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Keybinds-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Advanced-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="GUILD_TEMPLATES-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="friend-requests-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-label="Server Insights" i]::before {color: lightsalmon;}
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-emotes-tab::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Emotes-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="EMOJI-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="STICKERS-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="text_in_voice-tab" i]::before {color: #faa61a;}
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Connections-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Game Activity-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Game-Activity-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="INTEGRATIONS-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="status-tab" i]::before {color: #1db954;}
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Privacy & Safety-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Privacy-&-Safety-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ROLES-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="PERMISSIONS-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="AUDIT_LOG-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="OVERVIEW-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="accountinfo-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="activity-privacy-tab" i]::before {color: #aa03f8f8;}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Privacy & Safety-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Privacy-&-Safety-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ROLES-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="PERMISSIONS-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="AUDIT_LOG-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="OVERVIEW-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="accountinfo-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="activity-privacy-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-label="Welcome Screen" i]::before {color: #aa03f8f8;}
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-plugins-tab::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Plugins-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-moduleManager-plugins-tab" i]::before, #bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-themes-tab::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-moduleManager-themes-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Themes-tab" i]::before {color: #0FFFFF;}
-#bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-settings-tab::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-general-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="lightcord-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="core-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Settings-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ChangeLog-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Change Log-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Change-Log-tab" i]::before,  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="WIDGET-tab" i]::before {color: #546e7a;}
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="My Account-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="My-Account-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Authorized Apps-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Authorized-Apps-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Library Inventory-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Library-Inventory-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Billing-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Language-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="MODERATION-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Voice & Video-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Voice-&-Video-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="MEMBERS-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="COMMUNITY-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="vanity_url-tab" i]::before {color: #7289da;}
+#bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-settings-tab::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-general-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="lightcord-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="core-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Settings-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ChangeLog-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Change Log-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Change-Log-tab" i]::before,  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="WIDGET-tab" i]::before,  .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-label="Partner Programme" i]::before {color: #546e7a;}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="My Account-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="My-Account-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Authorized Apps-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Authorized-Apps-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Library Inventory-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Library-Inventory-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Billing-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Language-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="MODERATION-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Voice & Video-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Voice-&-Video-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="MEMBERS-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="COMMUNITY-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="vanity_url-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-label="AutoMod" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="member_verification-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-label="Enable Discovery" i]::before {color: #7289da;}
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Logout-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="delete-tab" i]::before {color: var(--button-danger-background);}
 /* Other */
 .item-1OdjEX#now-playing-menu-message::before {background: yellow;}
@@ -152,3 +152,52 @@
 :root #status-picker > .scroller-1bVxF5 #status-picker-invisible.focused-3qFvc8  {background: linear-gradient(90deg, #747f8d8e, #747f8d);}
 :root #status-picker > .scroller-1bVxF5 #status-picker-custom-status.focused-3qFvc8  {background: linear-gradient(90deg, #ffcd4d3d, #ffcd4d8e);}
 :root #status-picker > .scroller-1bVxF5 #status-picker-switch-account.focused-3qFvc8 {background: linear-gradient(90deg, #6e85d38e, #6e85d3);}
+/* ===> Server settings dropdown <=== */
+/* Mark As Read */
+#guild-header-popout-mark-guild-read:hover {background: linear-gradient(90deg, #1abc9c8e, #1abc9c);}
+#guild-header-popout-mark-guild-read > div.iconContainer-1-SsTR {color: #20da78;}
+/* Boost */
+#guild-header-popout-premium-subscribe:hover .icon-E4cW1l, #guild-header-popout-premium-subscribe:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #ff73fa;}
+.item-1OdjEX#guild-header-popout-premium-subscribe::before {background: #ff73fa;}
+#guild-header-popout-premium-subscribe:hover, #guild-header-popout-premium-subscribe:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #ff73fa8e, #ff73fa);}
+/* Invite */
+#guild-header-popout-invite-people:hover .icon-E4cW1l, #guild-header-popout-invite-people:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #677bc4;}
+.item-1OdjEX#guild-header-popout-invite-people::before {background: #677bc4;}
+#guild-header-popout-invite-people:hover, #guild-header-popout-invite-people:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #677bc48e, #677bc4);}
+/* Settings */
+#guild-header-popout-settings .icon-E4cW1l, #guild-header-popout-settings:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #546e7a;}
+.item-1OdjEX#guild-header-popout-settings::before {background: #546e7a;}
+#guild-header-popout-settings:hover, #guild-header-popout-settings:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #546e7a8e, #546e7a);}
+/* Insights */
+#guild-header-popout-insights .icon-E4cW1l, #guild-header-popout-insights:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #1abc9c;}
+.item-1OdjEX#guild-header-popout-insights::before {background: #1abc9c;}
+#guild-header-popout-insights:hover, #guild-header-popout-insights:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #1abc9c8e, #1abc9c);}
+/* Create channel */
+#guild-header-popout-create-channel .icon-E4cW1l, #guild-header-popout-create-channel:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #e91e63;}
+.item-1OdjEX#guild-header-popout-create-channel::before {background: #e91e63;}
+#guild-header-popout-create-channel:hover, #guild-header-popout-create-channel:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #e91e638e, ##e91e63);}
+/* Create category */
+#guild-header-popout-create-category .icon-E4cW1l, #guild-header-popout-create-category:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #eaa14e;}
+.item-1OdjEX#guild-header-popout-create-category::before {background: #eaa14e;}
+#guild-header-popout-create-category:hover, #guild-header-popout-create-category:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #eaa14e8e, #eaa14e);}
+/* Create event */
+#guild-header-popout-create-event .icon-E4cW1l, #guild-header-popout-create-event:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #4a84d4;}
+.item-1OdjEX#guild-header-popout-create-event::before {background: #4a84d4;}
+#guild-header-popout-create-event:hover, #guild-header-popout-create-event:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #4a84d48e, #4a84d4);}
+/* Notifications */
+#guild-header-popout-notifications .icon-E4cW1l, #guild-header-popout-notifications:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #fcd462;}
+.item-1OdjEX#guild-header-popout-notifications::before {background: #fcd463;}
+#guild-header-popout-notifications:hover, #guild-header-popout-notifications:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #fcd4628e, #fcd462);}
+/* Privacy */
+#guild-header-popout-privacy .icon-E4cW1l, #guild-header-popout-privacy:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #aa03f8f8;}
+.item-1OdjEX#guild-header-popout-privacy::before {background: #aa03f8f8;}
+#guild-header-popout-privacy:hover, #guild-header-popout-privacy:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #aa03f88e, #aa03f8f8);}
+/* Nickname | Edit Server Profile */
+#guild-header-popout-change-nickname .icon-E4cW1l, #guild-header-popout-change-nickname:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #43b581;}
+#guild-header-popout-change-nickname:hover, #guild-header-popout-change-nickname:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #1abc9c8e, #1abc9c);}
+/* Hide Muted Channels */
+.item-1OdjEX#guild-header-popout-hide-muted-channels::before {background: #f04747;}
+#guild-header-popout-hide-muted-channels:hover, #guild-header-popout-hide-muted-channels:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #f047478e, #f04747);}
+/* Leave Server */
+#guild-header-popout-leave .icon-E4cW1l, #guild-header-popout-leave:active:not(.hideInteraction-2jPGL_) .icon-E4cW1l {color: #f04747;}
+#guild-header-popout-leave:hover, #guild-header-popout-leave:active:not(.hideInteraction-2jPGL_) {background: linear-gradient(90deg, #f047478e, #f04747);}
