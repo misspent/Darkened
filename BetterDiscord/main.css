@@ -618,6 +618,8 @@
 .bd-switch input:checked+ .bd-switch-body, [style^="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {background-color: #43b581 !important;} /* Turned on | BetterDiscord buttons & Discord buttons */
 .bd-switch-body, [style^="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {background-color: #f04747 !important;} /* Turned off | BetterDiscord buttons & Discord buttons */
 
+.medium-1ywRMv {max-height: 1080px !important;}
+
 /*
 ====================================================================================================================
                                Convenient/Make things look cleaner
