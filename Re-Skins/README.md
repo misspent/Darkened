@@ -6,15 +6,15 @@
 
 <h3 align="center">Main window + User popout</h3>
 
-![1  Darkened  Purple Discord Theme Main Window  Edited](https://user-images.githubusercontent.com/78914154/179514666-c6e2c9ba-907c-428c-9ed1-c83f02501809.png)
+![1  Darkened Purple Discord Theme Main Window  Edited](https://user-images.githubusercontent.com/78914154/180560886-d3fcaa52-a31a-4bfd-9756-f8f6746f9423.png)
 
 <h3 align="center">Home + Friends section</h3>
 
-![4  Darkened Purple Discord Theme Friends  Edited](https://user-images.githubusercontent.com/78914154/179514672-fbf1c162-39da-43df-8072-c5700d5c5c5c.png)
+![4  Darkened Purple Discord Theme Friends  Edited](https://user-images.githubusercontent.com/78914154/180560976-17237a41-3d54-4920-b604-0021980ff204.png)
 
 <h3 align="center">User Settings</h3>
 
-![2  Darkened Purple Discord Theme Settings  Edited](https://user-images.githubusercontent.com/78914154/179514669-4fd292ef-a37a-4759-911f-6973d9379198.png)
+![2  Darkened Purple Discord Theme Settings  Edited](https://user-images.githubusercontent.com/78914154/180560946-ee7a0380-2e34-4350-8b43-bcf661fa3fba.png)
 
 </details>
 
@@ -24,14 +24,14 @@
 
 <h3 align="center">Main window + User popout</h3>
 
-![1  Darkened Comfy Discord Theme Main Window  Edited](https://user-images.githubusercontent.com/78914154/180517083-a6cc7b9d-2394-4aa4-833e-5aeab9759b5c.png)
+![1  Darkened Comfy Discord Theme Main Window  Edited](https://user-images.githubusercontent.com/78914154/180561167-304ca7a1-ffe9-4154-b78b-f007002d3516.png)
 
 <h3 align="center">Home + Friends section</h3>
 
-![4  Darkened Comfy Discord Theme Friends  Edited](https://user-images.githubusercontent.com/78914154/180517114-b8e8a4c9-a53a-4ec7-b768-20ab9a246150.png)
+![4  Darkened Comfy Discord Theme Friends  Edited](https://user-images.githubusercontent.com/78914154/180561215-25ed36f7-9aa9-4aa8-9936-62528878e2ce.png)
 
 <h3 align="center">User Settings</h3>
 
-![2  Darkened Comfy Discord Theme Settings  Edited](https://user-images.githubusercontent.com/78914154/180517103-96301ae6-30ec-4112-a5bf-6727a9037bb1.png)
+![2  Darkened Comfy Discord Theme Settings  Edited](https://user-images.githubusercontent.com/78914154/180561193-06d99fff-225b-4284-b80a-8ef93919b303.png)
 
 </details>
