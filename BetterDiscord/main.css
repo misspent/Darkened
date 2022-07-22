@@ -43,7 +43,7 @@
   display: flex;
   align-items: center !important;
   justify-content: center;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bolder;
   color: var(--header-primary);
 }
@@ -56,7 +56,7 @@
   z-index: 100;
   width: 100%;
   height: 45px;
-  background-color: var(--background-primary);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 0 0 var(--border-radius) var(--border-radius);
   background-image: linear-gradient(to right, #181818 100%, rgba(255, 255, 255, 0) 0%);
   background-position: bottom;
@@ -126,8 +126,8 @@
 .container-YkUktl {border-right: 1px solid var(--border-color);	border-top: 0px solid var(--border-color); margin-bottom: 0px;}
 .container-ZMc96U.themed-Hp1KC_, .membersWrap-3NUR2t::after {border-bottom: 1px solid var(--border-color);}
 /* Header in channel sidebar (at the top where it says the name) */
-.container-1NXEtd .header-3OsQeK {border-right: 1px solid var(--border-color); background-color: rgba(13, 13, 13, 0.4); backdrop-filter: blur(0.7px);}
-.container-1NXEtd .header-3OsQeK:hover {border-right: 1px solid var(--border-color); background-color: rgba(13, 13, 13, 0.5); backdrop-filter: blur(1px);}
+.container-1NXEtd .header-3OsQeK {border-right: 1px solid var(--border-color); background-color: rgba(0, 0, 0, 0.3); backdrop-filter: blur(0.7px);}
+.container-1NXEtd .header-3OsQeK:hover {border-right: 1px solid var(--border-color); background-color: rgba(0, 0, 0, 0.4); backdrop-filter: blur(1px);}
 .container-1-ERn5.clickable-vvKY2q {border-bottom: 1px solid var(--border-color);}
 .communityInfoVisible-3zc5_s .header-3OsQeK, .communityInfoVisible-3zc5_s .header-3OsQeK:hover, .hasBanner-2IrYih .header-3OsQeK, .hasBanner-2IrYih .header-3OsQeK:hover {border-bottom: 1px solid #15151505;}
 .header-3OsQeK {padding: 11px 16px;}
@@ -141,11 +141,11 @@
 /* Remove Spacing for Public Servers | Check comfy server (button at top) */
 .communityInfoPill-2Mll66 {
   border-radius: var(--server-radius);
-  padding: 2px 100px 0px 88px;
+  padding: 0px 100px 0px 92px;
 }
 .communityInfoVisible-3zc5_s .communityInfoContainer-1dMVpU {
-  margin-left: -6% !important;
-  margin-top: 4%;
+  margin-left: -6.5% !important;
+  margin-top: 3.8%;
 }
 
 .container-YkUktl .avatar-1EWyVD {
@@ -1321,7 +1321,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bolder;
   color: var(--header-primary);
 }
@@ -1333,7 +1333,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   z-index: 100;
   width: 100%;
   height: 49px;
-  background-color: var(--background-primary);
+  background-color: rgba(0, 0, 0, 0.3);
   border-bottom: 2px solid var(--background-modifier-accent);
   border-radius: 0 0 var(--border-radius) var(--border-radius);
   background-image: linear-gradient(to right, #181818 100%, rgba(255, 255, 255, 0) 0%);
@@ -2004,6 +2004,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .wrapper-2RrXDg:hover {background-color: var(--border-color) !important; border: 1px solid var(--jump-newmessage-bars) !important;}
 .header-Imy05m {background-color: var(--background-primary); border: none; border-bottom: 1px solid #151515; border-right: 1px solid #151515; text-align: center; margin-top: 0px; padding: 16px 0px !important;}
 .itemCard-3Etziu, .section-3G9aLW, .section-3G9aLW:only-child {border-radius: var(--server-radius);}
+.section-3G9aLW {background: var(--background-secondary);}
 .searchBar-2aylmZ {background-color: var(--background-secondary); border-radius: var(--server-radius); margin: 12px 12px 8px 12px;}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.container-2cd8Mz > div > div.nowPlayingColumn-1eCBCN > div > div > h3 { margin-left: 0px; padding: 10px;}
 .scroller-hE2gWq {padding: 0px !important;}
