@@ -901,7 +901,7 @@
 
 /* Upload a .css file and it'll show you a container -> this changes the bottom part of that */
 .colorHeaderSecondary-g5teka.size14-3fJ-ot.footer-GXWBBp {background-color: var(--background-tertiary) !important;}
-.anchor-1MIwyf {color: var(--background-accent);}
+.anchor-1MIwyf {color: var(--text-link);}
 
 /* LINK: Jump to messages | Link: https://crearts-community.github.io/Mention-Links/theme.css */
 .messageContent-2t3eCI a[href^="https://discord.com"]:not([href^=channels])::after {background: transparent !important; color: var(--text-link) !important; font-weight: 700 !important; text-decoration: underline !important;}
@@ -1543,6 +1543,8 @@ div.bd-addon-header > div.bd-title > div.bd-meta > span.bd-author {color: var(--
 .cardIcon-2nTUq4 {color: var(--status-danger);}
 .cardContent-1-5hym {background: var(--background-tertiary);}
 
+.horizontal-112GEH> .flex-2S1XBF:last-child, .horizontal-112GEH> .flexChild-3PzYmX:last-child {margin-right: 10px;}
+
 /*
  ===================================================================================================================
                                                   Chat/Normal Window
@@ -1553,6 +1555,10 @@ div.bd-addon-header > div.bd-title > div.bd-meta > span.bd-author {color: var(--
   border-radius: var(--server-radius);
   padding: 0 3px;
 }
+
+/* Events channel container fixes */
+.sectionDivider-189lqb {margin: 0px; background-color: var(--border-color);}
+#channels > ul > div:nth-child(2) {display: none;}
 
 /* Server banner boost bar background */
 .theme-dark .progressBarContainer-1efroK {background-color: var(--background-primary);}
