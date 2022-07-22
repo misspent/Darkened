@@ -1410,6 +1410,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .bd-controls, .bd-controls-advanced, .bd-addon-list .bd-footer .bd-links, .bd-addon-list .bd-footer .bd-links a, .bd-addon-list .bd-footer .bd-addon-button, .bd-switch-body, .app-2CXKsg button, .bd-addon-list .bd-addon-card {border-radius: var(--server-radius) !important;}
 .bd-addon-list .bd-addon-header {background: var(--background-modifier-hover); padding: 8px;}
 .bd-description-wrap { padding: 0px 8px 0 8px;} .bd-addon-list .bd-description {margin-bottom: 0px; padding: 8px 0;}
+.optionContainer-yOpaLq {background: var(--background-primary); border-radius: var(--server-radius);}
 
 /* Themes & Plugins section add-on list bottom (background colour behind github, source, edit, server, support etc */
 .bd-addon-list .bd-footer {background-color: var(--background-tertiary); padding: 8px;}
