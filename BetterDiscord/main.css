@@ -1256,7 +1256,8 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 /* Important */
 .item-2idW98[aria-checked=true] {background-color: var(--background-modifier-selected) !important;}
 .item-2idW98[aria-checked=true] .radioBar-3_FqUK {background-color: var(--background-modifier-selected) !important;}
-.radioBar-3_FqUK {background: var(--background-secondary) !important;}
+.radioBar-3_FqUK {background: var(--background-tertiary) !important;}
+.content-2hZxGK {background: var(--background-secondary); border-radius: 0px;}
 .container-1Vmp-9 .checkboxWrapper-2fDzaA.row-31nALW {background: var(--background-primary); border-radius: var(--server-radius);} /* Enable community container in server settings */
 .radioIconForeground-2BMavi {color: var(--mention-color);}
 .item-2idW98 {border-radius: var(--server-radius);}
