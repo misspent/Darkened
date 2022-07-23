@@ -65,7 +65,7 @@
 }
 
 /* CHANNEL LIST PANELS (Avatar, Settings, Flex) & Colour of status picker) */
-.panels-3wFtMD, .noChannel-1GDIAZ {
+.panels-3wFtMD, .noChannel-1GDIAZ, .bar-g2ZMIm {
   background: var(--background-primary);
 }
 .panels-3wFtMD > :first-child {

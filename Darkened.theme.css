@@ -57,7 +57,7 @@
   --server-radius: 0px; /* Server icons, borders, images and other containers roundness */
   --switch-radius: 0; /* Switches icon radius (enabled & disabled) | If --server-radius is "8" set this to "9" */
   --role-circle: 5px; /* Circles next to role names (Size not roundness) */
-  --Emoji-Menu-Height: 545px; /* Emoji, GIF & Sticker menu height */
+  --Emoji-Menu-Height: 585px; /* Emoji, GIF & Sticker menu height */
 
   /* Toggleable variables */
   --Titlebar: flex; /* flex = ON, none = OFF */
