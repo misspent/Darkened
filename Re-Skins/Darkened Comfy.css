@@ -23,6 +23,7 @@
 @import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"; /* Radial Status */
 @import "https://misspent.github.io/Darkened/BetterDiscord/ContextIconColours.css"; /* ContextIconsColours */
 @import "https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css";/* Better Crashes - Disease | Indicating which plugins are currently causing commits. */
+/* @import "https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css"; /* Horizontal Server List | Remove the "/*" from the start of this line to use the Import */
 
 :root {
   /* Home Icon Image */
@@ -102,6 +103,11 @@
   --channelTabs-paddingTop: 0px !important;
   --channelTabs-paddingBottom: 0px !important;
   --channelTabs-containerSpacing: 3px !important;
+
+  /* Horizontal Server List | Import */
+  --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+  --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
 }
 
 /*
