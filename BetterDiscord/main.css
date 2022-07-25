@@ -1565,10 +1565,6 @@ div.bd-addon-header > div.bd-title > div.bd-meta > span.bd-author {color: var(--
   padding: 0 3px;
 }
 
-/* Events channel container fixes */
-.sectionDivider-189lqb {margin: 0px; background-color: var(--border-color);}
-#channels > ul > div:nth-child(2) {display: none;}
-
 /* Server banner boost bar background */
 .theme-dark .progressBarContainer-1efroK {background-color: var(--background-primary);}
 
