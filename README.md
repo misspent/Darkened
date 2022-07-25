@@ -62,6 +62,7 @@
 * ✔️ Optional Radial Status
 * ✔️ Optional Channel Icons
 * ✔️ Support for some plugins
+* ✔️ Optional Horizontal Server List
 * ❌ Light mode not supported
 * ⭕ All Imports in main.css I deem a requirement with my theme (may change)
 ### ℹ️ Credits
