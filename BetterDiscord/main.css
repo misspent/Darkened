@@ -1135,6 +1135,9 @@
 /* Local channel settings (Plugins) channel name under title | Plugin */
 .size12-12FL_s {display: none;}
 
+/* BetterInvites plugin */
+div.BetterInvites-iconWrapper > div > img {border-radius: var(--avatar-radius) !important;}
+
 /*
 ====================================================================================================================
                                      Settings Custom CSS
@@ -1894,12 +1897,36 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   padding: 2px;
   justify-content: center;
 }
+.container-2ebMPP:before {
+  content: "";
+  position: absolute;
+  item-align: top;
+  background: var(--background-secondary);
+  top: 56px;
+  left: 16px;
+  z-index: 100;
+  width: 96%;
+  height: 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+.recentMentionsPopout-2bI1ZN[aria-label="Recent Mentions"]:before {
+  content: "";
+  position: absolute;
+  background: var(--background-secondary);
+  top: 56px;
+  left: 16px;
+  z-index: 100;
+  width: 94.7%;
+  height: 16px;
+  border-bottom: 1px solid var(--border-color);
+}
 .messagesPopout-eVzQcI {margin: 8px; padding: 8px !important;}
-.container-iA3Qrz {border: 1px solid #202020; padding-right: 0px;}
+.container-iA3Qrz {border: 1px solid var(--border-color); padding-right: 0px;}
+.messages-23can0 {border-right: 1px solid var(--border-color); border-left: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);}
+.channelHeader-DFRX8q {border-right: 1px solid var(--border-color); border-left: 1px solid var(--border-color); border-top: 1px solid var(--border-color); background-color: var(--background-tertiary);}
 .guildIcon-IklRcj {background-color: var(--background-secondary-alt);	border-radius: var(--server-radius);}
 .full-motion .button-1_oXub[aria-label=Filter] {border-radius: var(--server-radius);}
 .full-motion .button-1_oXub[aria-label=Close] {border-radius: var(--server-radius);	color: red; margin-right: 12px;}
-.channelHeader-DFRX8q {background-color: var(--background-tertiary);}
 .theme-dark .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {background-color: var(--background-accent); border-radius: var(--server-radius);}
 /* Close all button in inbox container */
 .controls-1rku3l .cursorPointer-B3uwDA {color: red !important;} .controls-1rku3l .cursorPointer-B3uwDA:hover {border: 1px solid red; background-color: #a30000 !important;} .full-motion .button-1_oXub {transition: none; border-radius: var(--server-radius);}
