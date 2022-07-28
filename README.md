@@ -53,7 +53,7 @@
 - Go into discord's settings
 - Go to your `"Themes"`
 - Click on `"Open Themes Folder"` button (Above the search bar)
-- Download and move the **[Darkened.theme.css](https://github.com/misspent/Darkened/blob/main/Darkened.theme.css)**/**[Darkened Purple.theme.css](https://github.com/misspent/Darkened/blob/main/Re-Skins/Darkened%20Purple.css)** file into that folder
+- Download and move the **[Darkened.theme.css](https://github.com/misspent/Darkened/blob/main/Darkened.theme.css)**/**[Darkened Purple.theme.css](https://github.com/misspent/Darkened/blob/main/Re-Skins/Darkened%20Purple.css)**/**[Darkened Comfy Re-Skin](https://github.com/misspent/Darkened/blob/main/Re-Skins/Darkened%20Comfy.css)** file into that folder
 - Click the checkbox in the top-right corner of the theme container in discord to enable it
 ### ✅ Features
 * ✔️ Good ol' darkness
@@ -62,6 +62,7 @@
 * ✔️ Optional Radial Status
 * ✔️ Optional Channel Icons
 * ✔️ Support for some plugins
+* ✔️ Optional Separated Chat Bars
 * ✔️ Optional Horizontal Server List
 * ❌ Light mode not supported
 * ⭕ All Imports in main.css I deem a requirement with my theme (may change)
@@ -72,8 +73,9 @@
 * **[XYZenix](https://github.com/XYZenix)**'s DragNDrop Modals.
 * **[Gibbu & Tropix126](https://github.com/DiscordStyles)**'s Radial Status.
 * **[CorellanStoma](https://github.com/CreArts-Community/Mention-Links)**'s Mention Links & Context Icons.
+* **[LuckFire](https://github.com/discord-extensions/bubble-bar)**'s SeparatedChatBar -> Ported and edited.
 * **[Xhylo](https://github.com/Xhylo/ChannelIcons)**'s Channel Icons -> Ported + additions & fixes.
-* **[maenDisease](https://github.com/maenDisease)**'s ChannelTabsLined -> Ported + additions.
+* **[maenDisease](https://github.com/maenDisease)**'s ChannelTabsLined -> Inspiration for support.
 * **[Nyria](https://github.com/NYRI4)**'s Discolored & no-scrollbars Imports + Used Comfy theme as a base.
 * A friend who shall not be named.
 * Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision, Couve & others. 
@@ -110,6 +112,14 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 | Channel Icons | Channel Icons + | Channel Icons ++ |
 | :---------: | :---------: | :---------: |
 | <img width=300 src="https://user-images.githubusercontent.com/78914154/158280248-8a64c0fa-66a1-4c63-a61c-84e339930033.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/158280290-1fb1395f-b286-492a-8efe-c4705e3f62b9.png"></img>  | <img width=300 src="https://user-images.githubusercontent.com/78914154/158356404-9605f0ac-c9b9-42be-bc9c-075baa05dc14.png"></img>  |
+
+<details>
+  <summary align="center">☷ Separated Chat Bar</summary>
+  <br>
+
+![Chat Bar Import](https://user-images.githubusercontent.com/78914154/181526058-1250d4cc-07fa-42a5-8e59-a1dcebfa8c3c.png)
+
+</details>
 
 <h1 align="center">📜 Extra(s)</h1>
 
