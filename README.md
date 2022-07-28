@@ -53,7 +53,7 @@
 - Go into discord's settings
 - Go to your `"Themes"`
 - Click on `"Open Themes Folder"` button (Above the search bar)
-- Download and move the **[Darkened.theme.css](https://github.com/misspent/Darkened/blob/main/Darkened.theme.css)**/**[Darkened Purple.theme.css](https://github.com/misspent/Darkened/blob/main/Re-Skins/Darkened%20Purple.css)** file into that folder
+- Download and move the **[Darkened.theme.css](https://github.com/misspent/Darkened/blob/main/Darkened.theme.css)**/**[Darkened Purple.theme.css](https://github.com/misspent/Darkened/blob/main/Re-Skins/Darkened%20Purple.css)**/**[Darkened Comfy Re-Skin](https://github.com/misspent/Darkened/blob/main/Re-Skins/Darkened%20Comfy.css)** file into that folder
 - Click the checkbox in the top-right corner of the theme container in discord to enable it
 ### ✅ Features
 * ✔️ Good ol' darkness
