@@ -9,7 +9,7 @@
 
 <h3 align="center">Main window + User popout</h3>
 
-![1  Darkened Discord Theme Main Window version 4  Edited](https://user-images.githubusercontent.com/78914154/176662128-c8f11fe8-113c-40dd-8a34-144b93a602b4.png)
+![1  Darkened Discord Theme Main Window version 4  Edited](https://user-images.githubusercontent.com/78914154/181561569-353ef535-6d39-4851-8f5f-d908bf743685.png)
 
 <details>
   <summary align="center">✏️ Darkened Purple Re-Skin</summary>
