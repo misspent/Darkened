@@ -2320,6 +2320,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .scrollerSpacer-3AqkT9 {height: 0px;}
 .messagesWrapper-RpOMA3 {margin-bottom: 8px;}
 .scrollableContainer-15eg7h {border-radius: var(--server-radius); background-color: var(--channeltextarea-background);}
+.attachButton-_ACFSu {padding: 10px 10px;}
 
 /* Stickers Button */
 .channelTextArea-1FufC0 .buttons-uaqb-5 button[aria-label="Open sticker picker"] {display: var(--Chat-Sticker-Button) !important;}
