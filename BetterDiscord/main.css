@@ -1269,7 +1269,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   justify-content: center;
 }
 /* Nitro */
-.hero-1aNo0v {max-width: unset; background-image: url(https://i.imgur.com/gQFz17S.png);}
+.hero-1aNo0v {max-width: unset; background-image: url(https://i.imgur.com/gQFz17S.png); border-radius: var(--server-radius);}
 .featuresHeader-2bjq5B { text-align: center;}
 /* Server Boost in settings */
 .card-2gdrYL {
@@ -2320,6 +2320,18 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .messagesWrapper-RpOMA3 {margin-bottom: 8px;}
 .scrollableContainer-15eg7h {border-radius: var(--server-radius); background-color: var(--channeltextarea-background);}
 
+/* Stickers Button */
+.channelTextArea-1FufC0 .buttons-uaqb-5 button[aria-label="Open sticker picker"] {display: var(--Chat-Sticker-Button) !important;}
+/* GIF Button */
+.channelTextArea-1FufC0 .buttons-uaqb-5 button[aria-label="Open GIF picker"] {display: var(--Chat-GIF-Button) !important;}
+/* Gift Button */
+.channelTextArea-1FufC0 .buttons-uaqb-5 button[aria-label="Send a gift"] {display: var(--Chat-Gift-Button) !important;}
+/* Context Menu: Emoji Top Wrapper */
+.menu-1QACrS .wrapper--nA0oy {display: var(--Context-Menu-Emoji-Toolbar); padding: 4px 2px 6px 2px;}
+/* Disable Stage Discovery in Home tab */
+a[href="/discovery"] {display: var(--Home-Discovery-Channel);}
+/* Disable Nitro button in Home tab */
+a[href="/store"] {display: var(--Home-Nitro-Channel);}
 /* GIFs, Stickers and Emoji menu height */
 .positionLayer-1cndvf .positionContainer-dMArNx {height: var(--Emoji-Menu-Height);}
 
