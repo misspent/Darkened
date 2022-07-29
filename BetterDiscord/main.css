@@ -1266,9 +1266,6 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   border: 1px solid var(--border-color) !important;
   border-radius: 0px;
 }
-.top-K_jibn, .baseLayout-8AMrwn {
-  justify-content: center;
-}
 /* Nitro */
 .hero-1aNo0v {max-width: unset; background-image: url(https://i.imgur.com/gQFz17S.png); border-radius: var(--server-radius);}
 .featuresHeader-2bjq5B { text-align: center;}
