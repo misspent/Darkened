@@ -522,7 +522,7 @@
 /* Nitro/Premium banner stuff */
 .menu-1QACrS .avatarPositionPremium-1zPBq9 {top: 100px; left: 12px;}
 /* Other */
-.colorDefault-CDqZdO:hover {background: var(--background-secondary);}
+.colorDefault-CDqZdO:hover {background: var(--background-secondary) !important;}
 .headerContainer-1wJjOa {background: var(--popout-title); justify-content: center !important;}
 .bodyTitle-2Az3VQ {background: var(--popout-title); text-align: center; margin: 0px;}
 .labelContainer-2vJzYL.colorDefault-CDqZdO:hover, .labelContainer-2vJzYL.colorDefault-CDqZdO.focused-3qFvc8, .labelContainer-2vJzYL.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {background-color: var(--background-tertiary);}
