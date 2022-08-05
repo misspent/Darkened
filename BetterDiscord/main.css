@@ -515,7 +515,21 @@
 :root #emoji-picker-tab-panel .emojiItem-277VFM.emojiItemSelected-2Lg50V {background: var(--background-modifier-selected); border-radius: var(--server-radius) !important;}
 .gif-1EWTs-, .result-3OpoO7:after {border-radius: var(--server-radius) !important;}
 
-
+/* NOTE: Status picker menu */
+/* New status menu container stuff */
+.menu-2-eHMB .item-1OdjEX::before {display: none !important;}
+.menu-2-eHMB {width: 241px; left: -7px; bottom: -7px;}
+/* Nitro/Premium banner stuff */
+.menu-1QACrS .avatarPositionPremium-1zPBq9 {top: 100px; left: 12px;}
+/* Other */
+.colorDefault-CDqZdO:hover {background: var(--background-secondary);}
+.headerContainer-1wJjOa {background: var(--popout-title); justify-content: center !important;}
+.bodyTitle-2Az3VQ {background: var(--popout-title); text-align: center; margin: 0px;}
+.labelContainer-2vJzYL.colorDefault-CDqZdO:hover, .labelContainer-2vJzYL.colorDefault-CDqZdO.focused-3qFvc8, .labelContainer-2vJzYL.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {background-color: var(--background-tertiary);}
+.withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {background-color: var(--background-tertiary); border-radius: var(--server-radius);}
+.item-1OdjEX[id="account-switch-account"] .iconContainer-1-SsTR .icon-E4cW1l {color: #6e85d3 !important;}
+.customEmojiPlaceholder-35gKOP {background-image: url("https://i.imgur.com/YOshExa.png"); height: 16px !important; background-position: center;}
+.menu-2-eHMB .popoutBannerPremium-3i5EEI {width: auto;}
 
 /* --> Discovery section <-- */
 
@@ -2493,7 +2507,6 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .popoutBanner-3cqRD9 .pencilContainer-18TrEJ, .popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ {border-radius: var(--server-radius);}
 .input-2z42oC {border-radius: var(--server-radius);}
 .textarea-_59yqs:focus {background-color: var(--popout-background-main);}
-.headerContainer-1wJjOa {justify-content: center !important;}
 /* About me section/containers in popout */
 .userInfoTitle-39qq0Y {text-align: center; justify-content: center !important; background-color: var(--popout-title); margin: 0px; border-radius: var(--server-radius) var(--server-radius) 0px 0px;}
 .clamped-2ZePhX {background-color: var(--popout-background-main); border-radius: 0px 0px var(--server-radius) var(--server-radius);}
@@ -2776,11 +2789,6 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 }
 
 /* Label */
-.labelContainer-2vJzYL.colorDefault-CDqZdO:hover,
-.labelContainer-2vJzYL.colorDefault-CDqZdO.focused-3qFvc8,
-.labelContainer-2vJzYL.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
-  background-color: #5c6eb150;
-}
 .labelContainer-2vJzYL.colorDanger-3n-KnP:hover,
 .labelContainer-2vJzYL.colorDanger-3n-KnP.focused-3qFvc8,
 .labelContainer-2vJzYL.colorDanger-3n-KnP:active:not(.hideInteraction-2jPGL_) {
