@@ -1076,6 +1076,14 @@
 /* BetterInvites plugin */
 div.BetterInvites-iconWrapper > div > img {border-radius: var(--avatar-radius) !important;}
 
+/* PreviewMessageLinks Plugin */
+.message-embed {
+  background: var(--background-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--server-radius);
+  padding: 8px 0;
+}
+
 /*
 ====================================================================================================================
                                      Settings Custom CSS
