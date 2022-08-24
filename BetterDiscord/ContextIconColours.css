@@ -36,13 +36,13 @@
 .item-1OdjEX#user-settings-cog-My_Account::before, .item-1OdjEX#user-settings-cog-Authorized_Apps::before, .item-1OdjEX#user-settings-cog-Library_Inventory::before, .item-1OdjEX#user-settings-cog-Billing::before, .item-1OdjEX#user-settings-cog-Voice___Video::before, .item-1OdjEX#user-settings-cog-Language::before {background: #7289da;}
 /* Settings & Server Settings icon colours */
 .platform-win .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(24)::before {color: #00A4EF;}
-.sidebar-nqHbhN .side-2ur1Qk:not([aria-label]) .item-3XjbnG:nth-child(14)::before {color: var(--danger-icon-normal);}
+.sidebar-nqHbhN .side-2ur1Qk:not([aria-label]) .item-3XjbnG:nth-child(14)::before {color: var(--danger-icon-normal) !important;}
 .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG.pluginrepo-tab::before, .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG.themerepo-tab::before {color: #FCF800;}
 .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(3)::before {color: rgba(0, 255, 255, 0.637);}
 .platform-win .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(25)::before {color: hsl(262deg, calc(var(--saturation-factor, 1) * 46.8%), 39.8%);}
-.sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(10)::before, .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(12)::before {color: #00b0f4;}
+.sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(11)::before, .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(12)::before {color: #00b0f4;}
 .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(21)::before, .platform-win .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG.themerepo-tab ~ .item-3XjbnG:nth-child(42)::before {color: #fcd463;}
-.sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(11)::before, .sidebar-nqHbhN .side-2ur1Qk:not([aria-label]) .item-3XjbnG:nth-child(25)::before {color: #F47FFF;}
+.sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(12)::before, .sidebar-nqHbhN .side-2ur1Qk:not([aria-label]) .item-3XjbnG:nth-child(25)::before {color: #F47FFF;}
 #bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-customcss-tab::before, .sidebar-nqHbhN .side-2ur1Qk:not([aria-label]) .item-3XjbnG:nth-child(29)::before {color: #00FC32;}
 .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(20)::before, .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(17)::before, .platform-win .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(31)::before {color: #e91e63;}
 .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(18)::before, .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(22)::before, .platform-win .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(26)::before, .sidebar-nqHbhN .side-2ur1Qk:not([aria-label]) .item-3XjbnG:nth-child(8)::before, .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(7)::before, .sidebar-nqHbhN .side-2ur1Qk:not([aria-label]) .item-3XjbnG:nth-child(20)::before {color: lightsalmon;}
