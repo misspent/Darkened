@@ -1236,6 +1236,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .item-2idW98[aria-checked=true] {background-color: var(--background-modifier-selected) !important;}
 .item-2idW98[aria-checked=true] .radioBar-3_FqUK {background-color: var(--background-modifier-selected) !important;}
 .item-2idW98[aria-checked="false"] .radioBar-3w9XY- {background: var(--background-primary);}
+.contentColumnDefault-3eyv5o .item-2idW98[aria-checked="false"] .radioBar-3w9XY- {background: var(--background-secondary);}
 .radioBar-3_FqUK {background: var(--background-tertiary) !important;}
 .content-2hZxGK {background: var(--background-secondary); border-radius: 0px; padding-left: 8px; padding-top: 8px;}
 .container-1Vmp-9 .checkboxWrapper-2fDzaA.row-31nALW {background: var(--background-primary); border-radius: var(--server-radius);} /* Enable community container in server settings */
@@ -1889,12 +1890,11 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   z-index: 100;
   width: 94.7%;
   height: 16px;
-  border-bottom: 1px solid var(--border-color);
 }
 .messagesPopout-eVzQcI {margin: 8px; padding: 8px !important;}
 .container-iA3Qrz {border: 1px solid var(--border-color); padding-right: 0px;}
 .messages-23can0 {border-right: 1px solid var(--border-color); border-left: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);}
-.channelHeader-DFRX8q {border-right: 1px solid var(--border-color); border-left: 1px solid var(--border-color); border-top: 1px solid var(--border-color); background-color: var(--background-tertiary);}
+.channelHeader-DFRX8q {border-top: 1px solid var(--border-color); background-color: var(--background-tertiary);}
 .guildIcon-IklRcj {background-color: var(--background-secondary-alt);	border-radius: var(--server-radius);}
 .full-motion .button-1_oXub[aria-label=Filter] {border-radius: var(--server-radius);}
 .full-motion .button-1_oXub[aria-label=Close] {border-radius: var(--server-radius);	color: red; margin-right: 12px;}
