@@ -3107,7 +3107,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 :not(.themedPopout-1TrfdI) > .slider-1NC-Gf:not(.mini-2qY9iv) { height: 50px;}
 .themedPopout-1TrfdI > .slider-1NC-Gf { height: 15px; margin: 0;}
 .themedPopout-1TrfdI > .slider-1NC-Gf .bar-1Bhnl9 { top: 0 !important;}
-.slider-1NC-Gf .grabber-2GQyvM {background-color: var(--brand-experiment); box-shadow: none; border: none;} */
+.slider-1NC-Gf .grabber-2GQyvM {background-color: var(--brand-experiment); box-shadow: none; border: none; height: 18px; border-left: 1px solid var(--brand-experiment-900) !important;}
 .barFill-2Bh7CX { border-radius: 0 0px 0px 0; background: var(--unread-color);}
 .mini-2qY9iv .bar-1Bhnl9 {border-radius: 0px;}
 #user-context-user-volume .sliderContainer-2nidiS::before {margin-top: 3px; margin-left: 5px;}
