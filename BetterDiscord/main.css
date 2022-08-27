@@ -2943,7 +2943,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   background-color: var(--background-secondary) !important;
 }
 
-/* Status icon & Mobile icon stuff */
+/* Status icon & Mobile icon stuff | May mess with Radial Status */
 :root .pointerEvents-9SZWKj {
   mask: none;
   pointer-events: none;
@@ -3032,12 +3032,12 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 :root .menu-1QACrS .pointerEvents-9SZWKj {
   stroke: var(--background-tertiary);
 }
-:root .channel-1Shao0 .pointerEvents-9SZWKj, :root .members-3WRCEx .pointerEvents-9SZWKj, :root .listAvatar-1NlAhb .pointerEvents-9SZWKj, :root .nowPlayingColumn-1eCBCN .pointerEvents-9SZWKj {
+/* :root .channel-1Shao0 .pointerEvents-9SZWKj, :root .members-3WRCEx .pointerEvents-9SZWKj, :root .listAvatar-1NlAhb .pointerEvents-9SZWKj, :root .nowPlayingColumn-1eCBCN .pointerEvents-9SZWKj {
   stroke: var(--background-secondary-alt);
 }
 :root .avatarWrapper-1B9FTW[aria-expanded=false] .pointerEvents-9SZWKj, :root .peopleListItem-u6dGxF .pointerEvents-9SZWKj {
   stroke: var(--background-primary);
-}
+} */
 :root .wrapper-1VLyxH .dots-1BwzZQ {
   overflow: visible;
 }
