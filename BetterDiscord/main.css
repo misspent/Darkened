@@ -1879,7 +1879,6 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   z-index: 100;
   width: 96%;
   height: 16px;
-  border-bottom: 1px solid var(--border-color);
 }
 .recentMentionsPopout-2bI1ZN[aria-label="Recent Mentions"]:before {
   content: "";
@@ -1894,7 +1893,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .messagesPopout-eVzQcI {margin: 8px; padding: 8px !important;}
 .container-iA3Qrz {border: 1px solid var(--border-color); padding-right: 0px;}
 .messages-23can0 {border-right: 1px solid var(--border-color); border-left: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);}
-.channelHeader-DFRX8q {border-top: 1px solid var(--border-color); background-color: var(--background-tertiary);}
+.channelHeader-DFRX8q {border-top: 1px solid var(--border-color); border-right: 1px solid var(--border-color); border-left: 1px solid var(--border-color); background-color: var(--background-tertiary);}
 .guildIcon-IklRcj {background-color: var(--background-secondary-alt);	border-radius: var(--server-radius);}
 .full-motion .button-1_oXub[aria-label=Filter] {border-radius: var(--server-radius);}
 .full-motion .button-1_oXub[aria-label=Close] {border-radius: var(--server-radius);	color: red; margin-right: 12px;}
