@@ -93,6 +93,7 @@
   width: 1px;
   background: rgba(255, 255, 255, 0.2);
 }
+.title-338goq {background: var(--background-primary);}
 
 .button-12Fmur {
   width: 32px;
@@ -2340,13 +2341,14 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 */
 
 /* User Popout */
-.banner-2boKnS, .pencilContainer-11Kuga, .userPopout-3fydSP {border-radius: var(--server-radius);}
+.headerContainer-1wJjOa, .title-1r9MQ6 {border-radius: var(--server-radius) var(--server-radius) 0px 0px !important;}
 .wrapper-1VLyxH, .profileBadges-31rDHI {border-radius: var(--avatar-radius);} .wrapper-1VLyxH foreignObject, .avatarHint-2g3Mcd foreignObject {mask: none;} /* Profile Picture */
 .userPopoutInner-PA9zkU:before {background: var(--background-secondary); border-radius: var(--server-radius);}
 .overlayBackground-arbZMT {background: var(--background-secondary); margin: 28px 6px 0px 0px; border-radius: var(--server-radius);}
+.userTagUsernameBase-3Nfr5j, .discrimBase-KriZSj {font-weight: 700; color: var(--mention-color); font-size: medium;}
 /* About me, Roles, Note and activity containers */
 .headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center; color: var(--header-secondary) !important;}
-.wrap-7NZuTn, .activity-E0U09Y, .text-sm-medium-3Pz3rB, .text-sm-normal-3Zj3Iv, .textarea-_59yqs {background: var(--popout-background-main) !important; margin-top: 0px;}
+.wrap-7NZuTn, .textarea-_59yqs, .activity-E0U09Y {background: #101010; margin-top: 0px; margin-bottom: 0px; border-radius: 0px 0px var(--server-radius) var(--server-radius) !important;}
 .theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9, .theme-light .activityUserPopoutV2-3eKqzY .headerText-3g1XK9 {color: var(--header-secondary);} /* Activity title text colour */
 /* Activity inner container fixes */
 .bodyAlignCenter-3E27PU, .bodyNormal-250CQK {padding: 4px 0px 0px 4px;}
@@ -2457,7 +2459,6 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .headerTop-3GPUSF {margin-top: 10px;}
 
 /* Popout USRBG Model [Big Profile Model] */
-.headerTagUsernameBase-XYisdh, .discrimBase-1VOoau {font-weight: 700; color: var(--mention-color); font-size: large;}
 .pencilContainer-18TrEJ {border-radius: var(--server-radius);}
 .additionalActionsIcon-3Cy8UU {padding: 4px;}
 .additionalActionsIcon-3Cy8UU:hover {background: var(--background-tertiary);}
