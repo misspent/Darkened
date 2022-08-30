@@ -2340,16 +2340,23 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 */
 
 /* User Popout */
-.banner-2boKnS, .pencilContainer-11Kuga, .userPopout-3fydSP {border-radius: 0px;}
-.wrapper-1VLyxH, .profileBadges-31rDHI {border-radius: 0px;} .wrapper-1VLyxH foreignObject, .avatarHint-2g3Mcd foreignObject {mask: none;} /* Profile Picture */
-.userPopoutInner-PA9zkU:before {background: var(--background-secondary); border-radius: 0px;}
-.overlayBackground-arbZMT {background: var(--background-secondary); margin: 28px 6px 0px 0px; border-radius: 0px;}
+.banner-2boKnS, .pencilContainer-11Kuga, .userPopout-3fydSP,  {border-radius: var(--server-radius);}
+.wrapper-1VLyxH, .profileBadges-31rDHI {border-radius: var(--avatar-radius);} .wrapper-1VLyxH foreignObject, .avatarHint-2g3Mcd foreignObject {mask: none;} /* Profile Picture */
+.userPopoutInner-PA9zkU:before {background: var(--background-secondary); border-radius: var(--server-radius);}
+.overlayBackground-arbZMT {background: var(--background-secondary); margin: 28px 6px 0px 0px; border-radius: var(--server-radius);}
 /* About me, Roles, Note and activity containers */
-.headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center;}
+.headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center; color: var(--header-secondary) !important;}
 .wrap-7NZuTn, .activity-E0U09Y, .text-sm-medium-3Pz3rB, .text-sm-normal-3Zj3Iv, .textarea-_59yqs {background: var(--popout-background-main) !important; margin-top: 0px;}
-/* Spotify Icon */
+.theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9, .theme-light .activityUserPopoutV2-3eKqzY .headerText-3g1XK9 {color: var(--header-secondary);} /* Activity title text colour */
+/* Activity inner container fixes */
+.bodyAlignCenter-3E27PU, .bodyNormal-250CQK {padding: 4px 0px 0px 4px;}
+.barInner-3dHef4 {border-radius: var(--server-radius);}
+.themed-1LCNAV .textLeft-1Noen0, .themed-1LCNAV .textRight-2IW704 {padding: 0px 4px;}
+/* Spotify Icon | Spotify buttons color on popout */
 .theme-dark .activityUserPopout-2MzGCj .platformIcon-k3yytQ, .theme-dark .activityUserPopoutV2-3eKqzY .platformIcon-k3yytQ, .theme-light .activityUserPopout-2MzGCj .platformIcon-k3yytQ, .theme-light .activityUserPopoutV2-3eKqzY .platformIcon-k3yytQ {display: none;}
-.messageInputContainer-2rGDH8 {border-radius: 0px; display: var(--Popout-Send-Message-Container); background: var(--background-primary) !important; border: none;} /* "Message @user container */
+.activity-E0U09Y .buttonColor-XIRMbp {background: var(--Spotify-Activity-Icon);}
+.activity-E0U09Y:hover .buttonColor-XIRMbp:hover {filter: brightness(110%); opacity: 1;}
+.messageInputContainer-2rGDH8 {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-primary) !important; border: none;} /* "Message @user container */
 /* Custom Status in popout (Container for people status in popout) + about me + "message/input box (footer) */
 :root .userPopout-3fydSP .section-3FmfOT .customStatus-3Bvsdb::before {
   content: "CUSTOM STATUS";
