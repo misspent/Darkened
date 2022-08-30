@@ -2340,7 +2340,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 */
 
 /* User Popout */
-.banner-2boKnS, .pencilContainer-11Kuga, .userPopout-3fydSP,  {border-radius: var(--server-radius);}
+.banner-2boKnS, .pencilContainer-11Kuga, .userPopout-3fydSP {border-radius: var(--server-radius);}
 .wrapper-1VLyxH, .profileBadges-31rDHI {border-radius: var(--avatar-radius);} .wrapper-1VLyxH foreignObject, .avatarHint-2g3Mcd foreignObject {mask: none;} /* Profile Picture */
 .userPopoutInner-PA9zkU:before {background: var(--background-secondary); border-radius: var(--server-radius);}
 .overlayBackground-arbZMT {background: var(--background-secondary); margin: 28px 6px 0px 0px; border-radius: var(--server-radius);}
@@ -2356,7 +2356,12 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .theme-dark .activityUserPopout-2MzGCj .platformIcon-k3yytQ, .theme-dark .activityUserPopoutV2-3eKqzY .platformIcon-k3yytQ, .theme-light .activityUserPopout-2MzGCj .platformIcon-k3yytQ, .theme-light .activityUserPopoutV2-3eKqzY .platformIcon-k3yytQ {display: none;}
 .activity-E0U09Y .buttonColor-XIRMbp {background: var(--Spotify-Activity-Icon);}
 .activity-E0U09Y:hover .buttonColor-XIRMbp:hover {filter: brightness(110%); opacity: 1;}
-.messageInputContainer-2rGDH8 {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-primary) !important; border: none;} /* "Message @user container */
+/* "Message @user container */
+.messageInputContainer-2rGDH8 {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-primary) !important; border: none;}
+/* Connections plugin stuff in popout */
+.base-ZDDK0g.muted-3SrRJ5 {display: inherit !important;}
+.connections-pPr4as {padding: 8px 0 0 5px;}
+.textarea-_59yqs, .aboutMeSection-PUghFQ, .connections-pPr4as {background-color: var(--popout-background-main); border-radius: 0px 0px var(--server-radius) var(--server-radius);}
 /* Custom Status in popout (Container for people status in popout) + about me + "message/input box (footer) */
 :root .userPopout-3fydSP .section-3FmfOT .customStatus-3Bvsdb::before {
   content: "CUSTOM STATUS";
@@ -2448,6 +2453,8 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   margin: 0 0px 4px 0;
   padding: 4px;
 }
+
+.headerTop-3GPUSF {margin-top: 10px;}
 
 /* Popout USRBG Model [Big Profile Model] */
 .headerTagUsernameBase-XYisdh, .discrimBase-1VOoau {font-weight: 700; color: var(--mention-color); font-size: large;}
