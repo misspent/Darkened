@@ -2343,7 +2343,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .banner-2boKnS, .pencilContainer-11Kuga, .userPopout-3fydSP {border-radius: 0px;}
 .wrapper-1VLyxH, .profileBadges-31rDHI {border-radius: 0px;} .wrapper-1VLyxH foreignObject, .avatarHint-2g3Mcd foreignObject {mask: none;} /* Profile Picture */
 .userPopoutInner-PA9zkU:before {background: var(--background-secondary); border-radius: 0px;}
-.overlayBackground-arbZMT {background: var(--background-secondary); margin: 28px 0px 0px 0px; border-radius: 0px;}
+.overlayBackground-arbZMT {background: var(--background-secondary); margin: 28px 6px 0px 0px; border-radius: 0px;}
 /* About me, Roles, Note and activity containers */
 .headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center;}
 .wrap-7NZuTn, .activity-E0U09Y, .text-sm-medium-3Pz3rB, .text-sm-normal-3Zj3Iv, .textarea-_59yqs {background: var(--popout-background-main) !important; margin-top: 0px;}
@@ -2366,7 +2366,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 }
 :root .userPopout-3fydSP .section-3FmfOT .customStatus-3Bvsdb {
   position: relative;
-  width: calc(100% - 8px);
+  width: calc(100% - 0px);
   background-color: var(--popout-background-main);
   overflow: hidden;
   margin: 0px 0px 8px 0px;
