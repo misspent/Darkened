@@ -2340,85 +2340,43 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 */
 
 /* User Popout */
-:root .userPopout-2j1gM4 {
-  background: var(--background-secondary);
-  box-shadow: unset !important;
-  margin-right: 0px;
-  border-radius: var(--server-radius);
-}
-:root .userPopout-2j1gM4 .banner-1YaD3N {
+.banner-2boKnS, .pencilContainer-11Kuga, .userPopout-3fydSP {border-radius: 0px;}
+.wrapper-1VLyxH, .profileBadges-31rDHI {border-radius: 0px;} .wrapper-1VLyxH foreignObject, .avatarHint-2g3Mcd foreignObject {mask: none;} /* Profile Picture */
+.userPopoutInner-PA9zkU:before {background: var(--background-secondary); border-radius: 0px;}
+.overlayBackground-arbZMT {background: var(--background-secondary); margin: 28px 0px 0px 0px; border-radius: 0px;}
+/* About me, Roles, Note and activity containers */
+.headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center;}
+.wrap-7NZuTn, .activity-E0U09Y, .text-sm-medium-3Pz3rB, .text-sm-normal-3Zj3Iv, .textarea-_59yqs {background: var(--popout-background-main) !important; margin-top: 0px;}
+/* Spotify Icon */
+.theme-dark .activityUserPopout-2MzGCj .platformIcon-k3yytQ, .theme-dark .activityUserPopoutV2-3eKqzY .platformIcon-k3yytQ, .theme-light .activityUserPopout-2MzGCj .platformIcon-k3yytQ, .theme-light .activityUserPopoutV2-3eKqzY .platformIcon-k3yytQ {display: none;}
+.messageInputContainer-2rGDH8 {border-radius: 0px; display: var(--Popout-Send-Message-Container); background: var(--background-primary) !important; border: none;} /* "Message @user container */
+/* Custom Status in popout (Container for people status in popout) + about me + "message/input box (footer) */
+:root .userPopout-3fydSP .section-3FmfOT .customStatus-3Bvsdb::before {
+  content: "CUSTOM STATUS";
   position: absolute;
-  width: 300px;
-  height: 180px;
+  top: 0px;
+  left: 0px;
+  width: calc(100% - 0px);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--header-secondary);
+  background-color: var(--popout-title);
   border-radius: var(--server-radius) var(--server-radius) 0px 0px;
-  -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
 }
-/* Popout banner, header, pfp and username + other stuff at top */
-:root .userPopout-2j1gM4 .headerTop-3GPUSF {
-  display: flex;
-  flex-direction: column-reverse;
-  text-align: center;
-  /* padding-top: 110px; */
-  padding: 104px 16px 16px;
+:root .userPopout-3fydSP .section-3FmfOT .customStatus-3Bvsdb {
+  position: relative;
+  width: calc(100% - 8px);
+  background-color: var(--popout-background-main);
+  overflow: hidden;
+  margin: 0px 0px 8px 0px;
+  padding: 25px 8px 8px;
+  border-radius: var(--server-radius) var(--server-radius) var(--server-radius) var(--server-radius);
 }
-:root .userPopout-2j1gM4 .headerTop-3GPUSF .profileBadges-2pItdR {
-  position: static;
-  justify-content: center;
-  max-width: unset;
-}
-:root .userPopout-2j1gM4 .avatarWrapper-eenWra {
-  top: 0;
-  left: 50%;
-  grid-area: avatar;
-  margin: 15px 0 0 -40px;
-}
-:root .userPopout-2j1gM4 .avatarWrapper-eenWra .avatar-2Vndt_ {
-  background: none;
-  border: none;
-}
-:root .userPopout-2j1gM4 .avatarWrapper-eenWra .avatarHint-k7pYop {
-  top: 0;
-  left: 0;
-  border-radius: calc(var(--avatar-radius) * 2) !important;
-}
-:root .userPopout-2j1gM4 .avatarWrapper-eenWra .avatarHint-k7pYop foreignObject {
-  mask: none !important;
-}
-:root .userPopout-2j1gM4 .avatarWrapper-eenWra .avatarHint-k7pYop foreignObject .avatarHintInner-2HUAWj {
-  font-size: 0;
-  text-transform: none;
-}
-:root .userPopout-2j1gM4 .avatarWrapper-eenWra .avatarHint-k7pYop foreignObject .avatarHintInner-2HUAWj::after {
-  white-space: normal;
-  text-align: center;
-  content: var(--avatar-hint-text);
-  color: var(--avatar-hint-color);
-  font-size: var(--avatar-hint-size);
-  font-family: var(--avatar-hint-font);
-}
-:root .userPopout-2j1gM4 .mask-1FEkla foreignObject {
-  border-radius: calc(var(--avatar-radius) * 2) !important;
-}
-:root .userPopout-2j1gM4 .banner-1YaD3N,
-:root .root-8LYsGj .banner-1YaD3N {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: var(--user-popout-position, center) center;
-  background-image: var(--user-background);
-}
-:root .userPopout-2j1gM4 .headerTop-3GPUSF .headerText-1-WmDq {
-  margin-bottom: 8px;
-}
-.note-Go5ZP2 {margin: 0px;}
-
-/* Spotify buttons color on popout */
-[id*="popout"] > div > div > div.body-2wLx-E button.button-TGAkj4.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.fullWidth-fJIsjq.grow-2sR_-F, [id*="popout"] > div > div > div.body-2wLx-E button.button-TGAkj4.iconButton-1li_a3.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.iconButtonSize-1-pz2t.grow-2sR_-F {background: var(--Spotify-Activity-Icon);}
-[id*="popout"] > div > div > div.body-2wLx-E button.button-TGAkj4.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.fullWidth-fJIsjq.grow-2sR_-F:hover, [id*="popout"] > div > div > div.body-2wLx-E button.button-TGAkj4.iconButton-1li_a3.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.buttonSize-dIiz43.iconButtonSize-1-pz2t.grow-2sR_-F:hover {filter: brightness(110%);}
-/* Start and length of song in popout | **:** */
-.textLeft-1Noen0, .textRight-2IW704 {padding: 0px 4px !important;}
+.divider-1tWBgZ {display: none;}
 
 /* Roles */
-.rolesList-3uZoaa {
+.roles-1waBHC {
   display: grid;
   grid-template-columns: repeat(var(--roleslist-columns), minmax(0, 1fr));
   background: var(--background-tertiary);
@@ -2430,7 +2388,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   background-color: var(--popout-background-main);
   bottom: 2px;
 }
-.rolesList-3uZoaa .roleCircle-3K9O3d {
+.roles-1waBHC .roleCircle-3K9O3d {
   flex-shrink: 0;
 }
 .role-2TIOKu .roleCircle-3K9O3d {
@@ -2480,101 +2438,9 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   box-sizing: border-box;
   height: 22px;
   width: auto !important;
-  margin: 0 4px 4px 0;
+  margin: 0 0px 4px 0;
   padding: 4px;
 }
-.rolesList-3uZoaa .role-2TIOKu[aria-label="Add role"] {width: 20% !important;} /* Popout roles */
-.member-2cj2PI .roleWrapper-2IhvNd .role-2TIOKu {margin: 0 4px 4px 0;} /* Server settings roles */
-.role-2TIOKu [d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.8889H20V11.1111Z"] {color: #6e85d3;}
-/* Role container when you press the + Icon */
-.focused-qp-W9B, .item-1BCeuB:hover:not(.disabled-Mmpvl7) {background-color: var(--background-modifier-hover) !important; color: var(--interactive-hover);}
-.list-3cyRKU {padding: 0px;}
-.item-1BCeuB {margin-bottom: 5px;}
-/* Spotify icon on popout + button colour and container */
-.activityUserPopout-2MzGCj.activity-1gTu-L > img {display: none !important;}
-.bar-1GpknY, .barInner-3dHef4 {border-radius: var(--server-radius);}
-
-/* Colours & background of some stuff in popout + connection + "playing a game" centering text + pencil container */
-.activityUserPopout-2MzGCj {
-  height: auto;
-  min-height: 1px;
-  background-color: var(--popout-background-main);
-  padding-bottom: 5px;
-  margin-bottom: 15px;
-  border-radius: var(--server-radius) var(--server-radius) var(--server-radius) var(--server-radius);
-}
-/* Large & Small Image fix when you're "Playing Game" | Custom Rich Presence too */
-.assetsSmallImage-2JNB1y {border-radius: var(--avatar-radius); border-top: 1px solid var(--popout-background-main); border-left: 1px solid var(--popout-background-main);}
-.assetsLargeMaskStreamPreview--ugZjW, .assetsLargeMaskUserPopout-3N96A8, .assetsLargeMaskUserPopoutV2-2oZjbP, .assetsLargeMaskVoiceChannel-3IlDCA {-webkit-mask: none;}
-/* Popout "Message @user" container */
-.footer-3naVBw {padding: 0 10px 10px; display: var(--Popout-Send-Message-Container); background-color: var(--background-secondary);}
-.body-2wLx-E {padding-right: 16px !important; padding: 0px 10px 8px !important;}
-
-.body-u1Y8uL {margin-left: 5px; padding-bottom: 5px;}
-.buttonsWrapper-2ARRp1 {margin-right: 5px; margin-left: 5px;}
-.connections-pPr4as {padding: 8px 0 0 5px;}
-
-.bodyInnerWrapper-2bQs1k {background-color: var(--background-secondary);}
-:root .userPopout-2j1gM4 .body-2wLx-E .headerContainer-1wJjOa {background-color: var(--popout-title); border-radius: var(--server-radius) var(--server-radius) 0px 0px;}
-.textarea-_59yqs, .aboutMeSection-PUghFQ, .connections-pPr4as {background-color: var(--popout-background-main); border-radius: 0px 0px var(--server-radius) var(--server-radius);}
-:root .userPopout-2j1gM4 .body-2wLx-E .aboutMeSection-PUghFQ .aboutMeTitle-3pjiS7 {justify-content: center; background-color: var(--popout-title); border-radius: var(--server-radius) var(--server-radius) 0px 0px;}
-:root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .bodyTitle-2Az3VQ {text-align: center; background-color: var(--popout-title); margin: 0px; border-radius: var(--server-radius) var(--server-radius) 0px 0px;}
-.base-ZDDK0g.muted-3SrRJ5 {display: inherit !important;} /* Connections title in popout */
-:root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .activity-1gTu-L .headerTextNormal-Z8we9g {justify-content: center; background-color: var(--popout-title);}
-.popoutBanner-3cqRD9 .pencilContainer-18TrEJ, .popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ {border-radius: var(--server-radius);}
-.input-2z42oC {border-radius: var(--server-radius);}
-.textarea-_59yqs:focus {background-color: var(--popout-background-main);}
-/* About me section/containers in popout */
-.userInfoTitle-39qq0Y {text-align: center; justify-content: center !important; background-color: var(--popout-title); margin: 0px; border-radius: var(--server-radius) var(--server-radius) 0px 0px;}
-.clamped-2ZePhX {background-color: var(--popout-background-main); border-radius: 0px 0px var(--server-radius) var(--server-radius);}
-
-/* Nitro/Premium banner stuff */
-.avatarPositionPremium-1zPBq9 {top: 155px; left: 12px;}
-.popoutBannerPremium-3i5EEI {
-  width: 300px;
-  height: 150px;
-}
-.bannerPremium-kkSkPv {
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: cover;
-}
-/* None Nitro/Premium stuff */
-.avatarPositionNormal-2jWoC2 {top: 8px; left: 12px;}
-.popoutBanner-3cqRD9 {display: none;}
-
-/* Custom Status in popout (Container for people status in popout) + about me + "message/input box (footer) */
-:root .userPopout-2j1gM4 .body-2wLx-E .customStatus-3XAoF9::before {
-  content: "CUSTOM STATUS";
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: calc(100% - 0px);
-  font-size: 12px;
-  font-weight: 700;
-  text-align: center;
-  color: var(--header-secondary);
-  background-color: var(--popout-title);
-  border-radius: var(--server-radius) var(--server-radius) 0px 0px;
-}
-:root .userPopout-2j1gM4 .body-2wLx-E .customStatus-3XAoF9 {
-  position: relative;
-  width: calc(100% - 0px);
-  background-color: var(--popout-background-main);
-  overflow: hidden;
-  margin: 0px 0px 8px 0px;
-  padding: 25px 8px 8px;
-  border-radius: var(--server-radius) var(--server-radius) var(--server-radius) var(--server-radius);
-}
-.divider-1wtgZ3 {display: none;}
-
-/* Avatar icon radius in "Mutual Servers" [Popout USRBG] Keep */
-.listAvatar-2bU5Uh, .assetsLargeImage-8U5dlz {
-  border-radius: var(--avatar-radius);
-}
-
-/* "Add to server" button in popout when viewing bots (like Dyno) */
-.applicationInstallButton-taCWKH {border-radius: var(--server-radius); margin-bottom: 8px; margin-top: 5px;}
 
 /* Popout USRBG Model [Big Profile Model] */
 .headerTagUsernameBase-XYisdh, .discrimBase-1VOoau {font-weight: 700; color: var(--mention-color); font-size: large;}
