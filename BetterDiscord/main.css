@@ -2341,7 +2341,8 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 */
 
 /* User Popout */
-.headerContainer-1wJjOa, .title-1r9MQ6 {border-radius: var(--server-radius) var(--server-radius) 0px 0px !important;}
+.userPopout-3fydSP, .pencilContainer-11Kuga {border-radius: var(--server-radius); box-shadow: none !important;} .theme-dark.profileColors-3Y0XaR {background: transparent !important;}
+.headerContainer-1wJjOa, .title-1r9MQ6, .banner-2boKnS {border-radius: var(--server-radius) var(--server-radius) 0px 0px !important;}
 .wrapper-1VLyxH, .profileBadges-31rDHI {border-radius: var(--avatar-radius);} .wrapper-1VLyxH foreignObject, .avatarHint-2g3Mcd foreignObject {mask: none;} /* Profile Picture */
 .userPopoutInner-PA9zkU:before {background: var(--background-secondary); border-radius: var(--server-radius);}
 .overlayBackground-arbZMT {background: var(--background-secondary); margin: 28px 6px 0px 0px; border-radius: var(--server-radius);}
