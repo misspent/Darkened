@@ -2341,16 +2341,16 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 */
 
 /* User Popout */
-.userPopout-3fydSP {border-radius: var(--server-radius); box-shadow: none !important; width: 300px;} .theme-dark.profileColors-3Y0XaR {background: transparent !important;}
+.userPopout-3fydSP {border-radius: var(--server-radius); box-shadow: none !important; width: 300px;} .theme-dark.profileColors-3Y0XaR, .theme-light.profileColors-3Y0XaR {background: transparent !important;}
 .headerContainer-1wJjOa, .title-1r9MQ6, .banner-2boKnS {border-radius: var(--server-radius) var(--server-radius) 0px 0px !important;}
 .wrapper-1VLyxH, .profileBadges-31rDHI {border-radius: var(--avatar-radius);} .wrapper-1VLyxH foreignObject, .avatarHint-2g3Mcd foreignObject {mask: none;} /* Profile Picture */
-.userPopoutInner-PA9zkU:before {background: var(--background-secondary); border-radius: var(--server-radius);}
-.overlayBackground-arbZMT {background: var(--background-secondary); margin: 28px 6px 0px 0px; border-radius: var(--server-radius);}
 .userTagUsernameBase-3Nfr5j, .discrimBase-KriZSj {font-weight: 700; color: var(--mention-color); font-size: medium;}
+.theme-dark .userPopoutInner-PA9zkU:before {background: var(--background-secondary) !important; border-radius: var(--server-radius);}
+.theme-dark .overlayBackground-arbZMT {background: var(--background-secondary) !important; margin: 28px 6px 0px 0px; border-radius: var(--server-radius);}
 /* About me, Roles, Note and activity containers */
-.headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center; color: var(--header-secondary) !important;}
-.wrap-7NZuTn, .textarea-_59yqs, .activity-E0U09Y {background: #101010; margin-top: 0px; margin-bottom: 0px; border-radius: 0px 0px var(--server-radius) var(--server-radius) !important;}
 .theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9, .theme-light .activityUserPopoutV2-3eKqzY .headerText-3g1XK9 {color: var(--header-secondary);} /* Activity title text colour */
+.headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center; color: var(--header-secondary) !important;}
+.wrap-7NZuTn, .textarea-_59yqs, .activity-E0U09Y {background: var(--popout-background-main) !important; margin-top: 0px; margin-bottom: 0px; border-radius: 0px 0px var(--server-radius) var(--server-radius) !important;}
 /* Activity inner container fixes */
 .bodyAlignCenter-3E27PU, .bodyNormal-250CQK {padding: 4px 0px 0px 4px;}
 .barInner-3dHef4 {border-radius: var(--server-radius);}
@@ -2365,6 +2365,11 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .base-ZDDK0g.muted-3SrRJ5 {display: inherit !important;}
 .connections-pPr4as {padding: 8px 0 0 5px;}
 .textarea-_59yqs, .textarea-_59yqs:focus, .aboutMeSection-PUghFQ, .connections-pPr4as, .lineClamp2Plus-2RYGV2 {background-color: var(--popout-background-main); border-radius: 0px 0px var(--server-radius) var(--server-radius);}
+/* Light theme popout version */
+.theme-light .userPopoutInner-PA9zkU:before, .theme-light .overlayBackground-arbZMT {background: var(--popout-secondary) !important;}
+.theme-light input {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-secondary) !important; border: none;}
+.theme-light .messageInput-1KI8l8::placeholder {background: var(--background-secondary) !important;}
+.theme-light .textarea-_59yqs::placeholder {background: var(--popout-background-main) !important;}
 /* Custom Status in popout (Container for people status in popout) + about me + "message/input box (footer) */
 :root .userPopout-3fydSP .section-3FmfOT .customStatus-3Bvsdb::before {
   content: "CUSTOM STATUS";
@@ -2384,7 +2389,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   width: calc(100% - 0px);
   background-color: var(--popout-background-main);
   overflow: hidden;
-  margin: 0px 0px 8px 0px;
+  margin: 0px;
   padding: 25px 8px 8px;
   border-radius: var(--server-radius) var(--server-radius) var(--server-radius) var(--server-radius);
 }
