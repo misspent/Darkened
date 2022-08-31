@@ -47,6 +47,24 @@
 
 </details>
 
+<details>
+  <summary align="center">✏️ Darkened Dark Purple Re-Skin | Color palette of Quillish BD Theme</summary>
+  <br>
+
+<h3 align="center">Main window + User popout</h3>
+
+![1  Darkened Purple Discord Theme Main Window  Edited](https://user-images.githubusercontent.com/78914154/187711483-44165be2-2245-43e1-b13c-38893f672313.png)
+
+<h3 align="center">Home + Friends section</h3>
+
+![4  Darkened Dark Purple Discord Theme Friends  Edited](https://user-images.githubusercontent.com/78914154/187711520-3d21a08f-73fb-4fe3-9a01-408bce061baa.png)
+
+<h3 align="center">User Settings</h3>
+
+![2  Darkened Dark Purple Discord Theme Settings  Edited](https://user-images.githubusercontent.com/78914154/187711555-a5cbd3bf-5a19-42ac-a028-5b9aa3bb0f40.png)
+
+</details>
+
 <h1 align="center">📌 Information</h1>
 
 ### 📢 Installation
