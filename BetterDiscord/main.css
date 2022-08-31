@@ -250,13 +250,14 @@
   background: var(--unread-color);
   border-radius: var(--server-radius);
   height: 10px;
-  width: 10px;
+  width: 2px;
 }
 .item-2LIpTv[style*="height: 40px"] {
   border-radius: var(--server-radius);
   top: 4px;
   box-shadow: none;
 }
+.wrapper-z5ab_q {justify-content: flex-end;}
 
 /* Yellow Private Channels Icons */
 .sidebar-1tnWFu [d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16 5.44772 16 6V9C16 9.55228 16.4477 10 17 10H19H21C21.5523 10 22 9.55228 22 9V5.975C22 5.43652 21.5635 5 21.025 5ZM20 5H18V4C18 3.42857 18.4667 3 19 3C19.5333 3 20 3.42857 20 4V5Z"],
@@ -2344,7 +2345,6 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .userPopout-3fydSP {border-radius: var(--server-radius); box-shadow: none !important; width: 300px;} .theme-dark.profileColors-3Y0XaR, .theme-light.profileColors-3Y0XaR {background: transparent !important;} .avatar-2OC07D {background-color: transparent; border: 4px solid var(--background-secondary) !important;}
 .headerContainer-1wJjOa, .title-1r9MQ6, .banner-2boKnS {border-radius: var(--server-radius) var(--server-radius) 0px 0px !important;}
 .wrapper-1VLyxH, .profileBadges-31rDHI {border-radius: var(--avatar-radius);} .wrapper-1VLyxH foreignObject, .avatarHint-2g3Mcd foreignObject {mask: none;} /* Profile Picture */
-.userTagUsernameBase-3Nfr5j, .discrimBase-KriZSj {font-weight: 700; color: var(--mention-color); font-size: medium;}
 .theme-dark .userPopoutInner-PA9zkU:before {background: var(--background-secondary) !important; border-radius: var(--server-radius);}
 .theme-dark .overlayBackground-arbZMT {background: var(--background-secondary) !important; margin: 28px 6px 0px 0px; border-radius: var(--server-radius);}
 /* About me, Roles, Note and activity containers */
