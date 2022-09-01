@@ -1810,18 +1810,18 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   color: var(--text-normal);
   left: 15px;
 }
-.layout-1qmrhw {padding: 0px 16px 0px 12px !important;} /* Original: 0 16px; */
+.layout-1qmrhw {padding: 0px 16px 0px 12px;} /* Original: 0 16px; */
 /* Container when selecting a user in members list (click name) */
 .selected-1-Z6gm .layout-1qmrhw {
   background-color: rgba(var(--accent), 0.07) !important;
   border-left: 2px solid var(--unread-color);
-  padding-left: 10px !important;
+  padding-left: 10px;
 }
 /* Container when hovering over a user in members list */
 .clickable-28SzVr:hover .layout-1qmrhw {
   background-color: rgba(var(--accent), 0.13) !important;
   border-left: 2px solid var(--unread-color);
-  padding-left: 10px !important;
+  padding-left: 10px;
 }
 /* Member list hover and active fix */
 .container-1oeRFJ {margin-left: 0px;}
@@ -2401,7 +2401,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .divider-1tWBgZ {display: none;}
 
 /* Roles */
-.roles-1waBHC {
+.roles-3zC7MX {
   display: grid;
   grid-template-columns: repeat(var(--roleslist-columns), minmax(0, 1fr));
   background: var(--background-tertiary);
@@ -2413,7 +2413,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   background-color: var(--popout-background-main);
   bottom: 2px;
 }
-.roles-1waBHC .roleCircle-3K9O3d {
+.roles-3zC7MX .roleCircle-3K9O3d {
   flex-shrink: 0;
 }
 .role-2TIOKu .roleCircle-3K9O3d {
