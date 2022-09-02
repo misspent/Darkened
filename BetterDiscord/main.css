@@ -3018,7 +3018,6 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .theme-dark .contentWarningPopout-WKdbDG { background-color: var(--background-primary); box-shadow: none;}
 
 /* Codeblock stuff */
-.theme-dark .messageGroupWrapper-1jf_7C, .theme-dark .container-30qY7E, .theme-dark .cardPrimaryOutline-1ofwVz, .theme-dark .codeRedemptionRedirect-3SBiCp, .theme-dark .previewOverlay-2reuWf{padding-left: 10px; padding-right: 0px;}
 .markup-eYLPri code, .markup-eYLPri code.inline {
   border: none !important;
 }
@@ -3039,6 +3038,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 /* Smooth/Smart font for time stamps & Channel names (Add * to apply it to EVERYTHING)
 .cozy-VmLDNB .timestamp-p1Df1m {font-family: 'Segoe UI' !important; font-size: 0.72rem}
 .channelName-3KPsGw, .subtitle-3PyFgf, .roleColor-nA7BqX {font-family: 'Segoe UI' !important; font-size: 0.95rem} */
+.timestamp-6-ptG3 {background-color: var(--background-modifier-selected); border-radius: var(--server-radius);}
 
 /*
 \==================================================================================\
