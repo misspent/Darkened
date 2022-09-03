@@ -98,6 +98,24 @@
 * A friend who shall not be named.
 * Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision, Couve & others. 
 
+<details>
+  <summary align="center">🎥 Darkened Compact Import</summary>
+  <br>
+
+<h3 align="center">DarkenedCompact Import | Optional & Configurable</h3>
+
+
+https://user-images.githubusercontent.com/78914154/188267500-6eaaf479-2da3-431d-b5a5-f8136b0fd55b.mp4
+
+
+<h3 align="center">DarkenedCompact Import with HorizontalServerList Import | Optional & Configurable</h3>
+
+
+https://user-images.githubusercontent.com/78914154/188267650-fbd5bd49-a294-46c3-9855-a19c6b6028c1.mp4
+
+
+</details>
+
 <h1 align="center", margin= "0">📷 More Screenshots</h1>
 
 <h4 align="center">(Previews/screenshots may become out-of-date at some point)</h4>
@@ -174,15 +192,16 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
   --background-floating: #0d0d0d;
   --deprecated-quickswitcher-input-background: #101320;
   --elevation-low: none;
-  --scrollbar-auto-thumb: #121722;
-  --scrollbar-auto-track: #191f2e;
-  --scrollbar-thin-thumb: #141925;
+  --scrollbar-auto-thumb: #101010;
+  --scrollbar-auto-track: #181818;
+  --scrollbar-thin-thumb: #141414;
   --activity-card-background: #101320;
-  --border-color: #151515; /* Change to: "none" for no borders */
+  --border-color: #151515;
   --popout-title: #141414;
   --popout-background-main: #101010;
   --jump-newmessage-bars-buttons: #353535;
   --jump-newmessage-bars: #202020;
+  --Emoji-Menu: #060606;
 }
 
 .theme-light {
@@ -197,6 +216,7 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
   --header-primary: #fff;
   --header-secondary: #b1b5b9;
   --text-normal: #8e9297;
+  --popout-secondary: #0d0d0d;
 }
 ```
 </details>
