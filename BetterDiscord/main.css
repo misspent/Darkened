@@ -39,7 +39,7 @@
   position: absolute;
   margin-top: 15px;
   z-index: 101;
-  height: 10px;
+  height: 15px;
   display: flex;
   align-items: center !important;
   justify-content: center;
@@ -116,6 +116,9 @@
 }
 .button-12Fmur.disabled-GROwTe > .contents-18-Yxp > svg {
   opacity: 0.1;
+}
+.avatarWrapper-1B9FTW {
+  margin-right: 0px;
 }
 .scroller-1ox3I2 {border-right: 1px solid var(--border-color);}
 .scroller-WSmht3 {border-right: 1px solid var(--border-color);}
@@ -525,7 +528,7 @@
 .headerContainer-1wJjOa {background: var(--popout-title); justify-content: center !important;}
 .bodyTitle-2Az3VQ {background: var(--popout-title); text-align: center; margin: 0px;}
 .labelContainer-2vJzYL.colorDefault-CDqZdO:hover, .labelContainer-2vJzYL.colorDefault-CDqZdO.focused-3qFvc8, .labelContainer-2vJzYL.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {background-color: var(--background-tertiary);}
-.withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {background-color: var(--background-tertiary); border-radius: var(--server-radius);}
+.withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {background-color: var(--background-primary); border-radius: var(--server-radius);}
 .item-1OdjEX[id="account-switch-account"] .iconContainer-1-SsTR .icon-E4cW1l {color: #6e85d3 !important;}
 .customEmojiPlaceholder-35gKOP {background-image: url("https://i.imgur.com/YOshExa.png"); height: 16px !important; background-position: center;}
 .menu-2-eHMB .popoutBannerPremium-3i5EEI {width: auto;}
