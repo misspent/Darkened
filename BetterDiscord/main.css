@@ -2219,6 +2219,9 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .tierMarkerInProgress-2Tdxjz {
   background: var(--background-secondary) !important;
 }
+/* When you click boost bar below banner */
+.perks-2IIbWQ {background: var(--background-primary); border-radius: var(--server-radius);}
+.bodyWrapper-23FTiG {background: var(--background-secondary);}
 
 /* --------------------------- 💬 TCHAT PART --------------------------- */
 
@@ -2379,6 +2382,10 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .theme-light input {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-secondary) !important; border: none;}
 .theme-light .messageInput-1KI8l8::placeholder {background: var(--background-secondary) !important;}
 .theme-light .textarea-_59yqs::placeholder {background: var(--popout-background-main) !important;}
+/* Popout colour fix for the light version of popout? */
+.userTagUsernameNoNickname-2e_xaO {color: #fff !important;} .discrimBase-KriZSj {color: #b9bbbe !important;}
+.customStatusText-2bcbbm, .defaultColor-24IHKz {color: #dcddde !important;}
+.markup-eYLPri a {color: #00aFF4 !important;}
 /* Custom Status in popout (Container for people status in popout) + about me + "message/input box (footer) */
 :root .userPopout-3fydSP .section-3FmfOT .customStatus-3Bvsdb::before {
   content: "CUSTOM STATUS";
