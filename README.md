@@ -102,10 +102,16 @@
   <summary align="center">🎥 Darkened Compact Import</summary>
   <br>
 
-<h3 align="center">Darkened Compact Import | Optional & Configurable</h3>
+<h3 align="center">DarkenedCompact Import | Optional & Configurable</h3>
 
 
-https://user-images.githubusercontent.com/78914154/188266867-2471227d-6cb9-4439-b1de-282493b184ed.mp4
+https://user-images.githubusercontent.com/78914154/188267500-6eaaf479-2da3-431d-b5a5-f8136b0fd55b.mp4
+
+
+<h3 align="center">DarkenedCompact Import with HorizontalServerList Import | Optional & Configurable</h3>
+
+
+https://user-images.githubusercontent.com/78914154/188267650-fbd5bd49-a294-46c3-9855-a19c6b6028c1.mp4
 
 
 </details>
