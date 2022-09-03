@@ -98,6 +98,18 @@
 * A friend who shall not be named.
 * Used, took inspiration and or edited some snippets from other themes/servers; thanks Gibbu, ClearVision, Couve & others. 
 
+<details>
+  <summary align="center">🎥 Darkened Compact Import</summary>
+  <br>
+
+<h3 align="center">Darkened Compact Import | Optional & Configurable</h3>
+
+
+https://user-images.githubusercontent.com/78914154/188266867-2471227d-6cb9-4439-b1de-282493b184ed.mp4
+
+
+</details>
+
 <h1 align="center", margin= "0">📷 More Screenshots</h1>
 
 <h4 align="center">(Previews/screenshots may become out-of-date at some point)</h4>
@@ -174,15 +186,16 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
   --background-floating: #0d0d0d;
   --deprecated-quickswitcher-input-background: #101320;
   --elevation-low: none;
-  --scrollbar-auto-thumb: #121722;
-  --scrollbar-auto-track: #191f2e;
-  --scrollbar-thin-thumb: #141925;
+  --scrollbar-auto-thumb: #101010;
+  --scrollbar-auto-track: #181818;
+  --scrollbar-thin-thumb: #141414;
   --activity-card-background: #101320;
-  --border-color: #151515; /* Change to: "none" for no borders */
+  --border-color: #151515;
   --popout-title: #141414;
   --popout-background-main: #101010;
   --jump-newmessage-bars-buttons: #353535;
   --jump-newmessage-bars: #202020;
+  --Emoji-Menu: #060606;
 }
 
 .theme-light {
@@ -197,6 +210,7 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
   --header-primary: #fff;
   --header-secondary: #b1b5b9;
   --text-normal: #8e9297;
+  --popout-secondary: #0d0d0d;
 }
 ```
 </details>
