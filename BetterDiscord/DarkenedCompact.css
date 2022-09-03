@@ -101,7 +101,7 @@
 .compact-2Nkcau .repliedMessage-3Z6XBG {margin-left: calc(var(--timestamp-width) + .28rem + var(--text-indent)) !important;}
 /* Compact Chat - WITHOUT compact setting enabled */
 .themedPopout-1TrfdI .messagesPopout-eVzQcI .messageGroupWrapper-1jf_7C {padding: 0px;} .themedPopout-1TrfdI .messagesPopout-eVzQcI .cozy-VmLDNB.wrapper-30-Nkg {padding-left: 26px;}
-.container-2ebMPP .cozy-VmLDNB .contents-2MsGLg, .recentMentionsPopout-2bI1ZN .cozy-VmLDNB .contents-2MsGLg {padding-left: 48px;}
+.recentMentionsPopout-2bI1ZN .cozy-VmLDNB .contents-2MsGLg {padding-left: 48px;} .container-2ebMPP .cozy-VmLDNB .contents-2MsGLg {padding-left: 40px;}
 .messageGroupWrapper-1jf_7C .cozy-VmLDNB.wrapper-30-Nkg {padding-left: 26px;}
 .cozy-VmLDNB.wrapper-30-Nkg {padding-left: 18px;}
 .cozy-VmLDNB .contents-2MsGLg {padding-left: 40px;}
