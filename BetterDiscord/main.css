@@ -3,10 +3,6 @@
 @import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css"); /* Context Icons */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css"); /* Settings Icons */
 
-/* Compact mode in appearance containers (WIP) */
-.compact-2Nkcau .repliedMessage-3Z6XBG {margin-left: calc(var(--timestamp-width) + .64rem + var(--text-indent));}
-.compact-2Nkcau .repliedMessage-3Z6XBG:before {right: calc(100% - .21rem); border-radius: var(--server-radius); border-color: var(--unread-color);}
-
 /* Context menu icons when right clicking a message (removes the icons on the right) */
 #message-pin > div.iconContainer-1-SsTR > svg, #message-copy-link > div.iconContainer-1-SsTR > svg, #message-reply > div.iconContainer-1-SsTR > svg, #message-thread > div.iconContainer-1-SsTR > svg, #message-tts > div.iconContainer-1-SsTR > svg, #message-delete > div.iconContainer-1-SsTR > svg, #user-context-devmode-copy-id > div.iconContainer-1-SsTR > svg, #message-edit > div.iconContainer-1-SsTR, #message-mark-unread > div.iconContainer-1-SsTR > svg, #channel-context-devmode-copy-id > div.iconContainer-1-SsTR, #message-reactions > div.iconContainer-1-SsTR, #guild-context-devmode-copy-id > div.iconContainer-1-SsTR > svg, #message-devmode-copy-id > div.iconContainer-1-SsTR {display: none;}
 
