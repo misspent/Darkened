@@ -2385,7 +2385,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 /* Popout colour fix for the light version of popout? */
 .userTagUsernameNoNickname-2e_xaO {color: #fff !important;} .discrimBase-KriZSj {color: #b9bbbe !important;}
 .customStatusText-2bcbbm, .defaultColor-24IHKz {color: #dcddde !important;}
-.markup-eYLPri a {color: #00aFF4 !important;}
+.userPopout-3fydSP .markup-eYLPri a {color: #00aFF4 !important;}
 /* Custom Status in popout (Container for people status in popout) + about me + "message/input box (footer) */
 :root .userPopout-3fydSP .section-3FmfOT .customStatus-3Bvsdb::before {
   content: "CUSTOM STATUS";
