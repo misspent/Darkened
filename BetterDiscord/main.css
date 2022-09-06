@@ -1086,6 +1086,10 @@ div.BetterInvites-iconWrapper > div > img {border-radius: var(--avatar-radius) !
   padding: 8px 0;
 }
 
+/* BetterDiscord Notice banner "The following plugins have updates */
+.bd-notice {border-radius: var(--server-radius) !important; background: rgba(var(--accent), 0.5);}
+.bd-notice-button:hover {background: #1db954; border-color: #23db64; color: black;}
+
 /*
 ====================================================================================================================
                                      Settings Custom CSS
