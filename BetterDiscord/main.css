@@ -517,7 +517,8 @@
 /* NOTE: Status picker menu */
 /* New status menu container stuff */
 .menu-2-eHMB .item-1OdjEX::before {display: none !important;}
-.menu-2-eHMB {width: 241px; left: -7px; bottom: -7px;}
+.menu-2-eHMB {width: 227px; left: 0px; bottom: 0px;}
+.menu-1QACrS.styleFixed-2_NfVL {box-shadow: 0px 0px 0px 6px var(--background-primary); border: none;}
 .separator-1So4YB {display: none;}
 /* Nitro/Premium banner stuff */
 .menu-1QACrS .avatarPositionPremium-1zPBq9 {top: 100px; left: 12px;}
@@ -646,7 +647,6 @@
 
 /* Context/scroller container (When you right clicking things) */
 .menu-1QACrS {border-radius: var(--server-radius); box-shadow: none; overflow: hidden;}
-.menu-1QACrS.styleFixed-2_NfVL {border: 1px solid var(--border-color);}
 
 :root .scroller-1bVxF5 .item-1OdjEX {margin: 0; border-radius: var(--server-radius);}
 :root .scroller-1bVxF5 {padding: 0;}
@@ -2377,7 +2377,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .messageInputContainer-2rGDH8 {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-primary) !important; border: none;}
 /* Connections plugin stuff in popout */
 .base-ZDDK0g.muted-3SrRJ5 {display: inherit !important;}
-.connections-pPr4as {padding: 8px 0 0 5px;}
+.connections-pPr4as {padding: 4px 0 0 5px;}
 .textarea-_59yqs, .textarea-_59yqs:focus, .aboutMeSection-PUghFQ, .connections-pPr4as, .lineClamp2Plus-2RYGV2 {background-color: var(--popout-background-main); border-radius: 0px 0px var(--server-radius) var(--server-radius);}
 /* Light theme popout version */
 .theme-light .userPopoutInner-PA9zkU:before, .theme-light .overlayBackground-arbZMT {background: var(--popout-secondary) !important;}
