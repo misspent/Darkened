@@ -116,6 +116,11 @@
 .cozy-VmLDNB .repliedMessage-3Z6XBG:before {left: calc(var(--avatar-size)/2*-1 + -4px);}
 .messagesPopoutWrap-3zryHW .container-iA3Qrz .cozy-VmLDNB .repliedMessage-3Z6XBG:before {left: calc(var(--avatar-size)/2*-1 + 2px);}
 .containerWithContent-2_V0PM {padding: 0px;}
+.font-size-12 .cozy-VmLDNB.hasThread-3h-KJV:after, .font-size-14 .cozy-VmLDNB.hasThread-3h-KJV:after, .font-size-15 .cozy-VmLDNB.hasThread-3h-KJV:after, .font-size-16 .cozy-VmLDNB.hasThread-3h-KJV:after { /* Thread bar */
+  width: 1.4rem;
+  left: 1.7rem;
+  top: 3rem;
+}
 .cozy-VmLDNB .timestamp-p1Df1m.alt-1dvXnH {display: none;} /* Hover Timestamp */
 /*
 .repliedTextPreview-1bvxun.clickable-31pE3P {border-left: 3px solid grey; padding: 2px 6px; color: #ccc; background-color: var(--channeltextarea-background)}
