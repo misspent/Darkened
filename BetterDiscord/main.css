@@ -1953,6 +1953,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .pill-3pRQlO {border-radius: var(--server-radius);}
 .tags-2CaEuN .pill-3pRQlO {background-color: var(--border-color); border-radius: var(--server-radius);}
 .tag-19iIl1 .defaultColor-24IHKz {color: var(--background-accent) !important;} /* Tags at top colour */
+.pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {background-color: var(--background-modifier-active);}
 /* Text color */
 .channelNameSpan-2CGJt7 {color: #fff;}
 .username-u-ebrn {color: #c1b3a2;}
@@ -1968,7 +1969,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 div.messagesWrapper-RpOMA3.group-spacing-16 .container-3YcgdM > div.buttons-BK5gED > button:nth-child(2) > div > svg {color: #7289da;} /* Copy link button */
 .tags-2Siay7 .pill-3pRQlO {background: var(--background-tertiary);}
 .iconWrapper-3FqQ75 {border-radius: var(--server-radius); background-color: var(--background-tertiary);}
-.container-1yy5xN {margin: 0 8px; align-items: center;}
+.container-3XgAHv .container-1yy5xN {margin: 0 8px; align-items: center;}
 .divider-AZrXIA {display: none;}
 .addReactButton-3bSQb6, .buttonInner-3aRbcx {border-radius: var(--server-radius);}
 .addReactButton-3bSQb6:hover, .buttonInner-3aRbcx:hover {background: var(--background-tertiary); border: 1px solid transparent;}
