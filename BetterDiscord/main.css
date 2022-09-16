@@ -1927,7 +1927,6 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 }
 
 /* Whole container | Roles container at the top of a chat window | pfp at top of chat window */
-.container-1yy5xN {margin: 0 16px;}
 .role-23oyrw {border-radius: var(--server-radius); background: var(--background-secondary);}
 .avatar-1odLck {mask: none !important; -webkit-mask: none !important; margin-left: 1px !important;}
 
@@ -1939,6 +1938,40 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .guildName-3JcJGj {color: var(--text-link);}
 
 .interactive-1vLZ_I:focus-within, .interactive-1vLZ_I:hover {background-color: var(--background-mobile-primary);}
+
+/* ==========> Forum channel <========== */
+.theme-dark .container-3wLKDe {background-color: var(--background-primary);}
+.header-1Uy0p6 {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {border: 1px solid transparent; background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: var(--background-primary) !important; padding-left: 4px;}
+.mainCard-3KBsBI {border-radius: var(--server-radius); background: var(--background-secondary);}
+.mainCard-3KBsBI:hover {background: var(--background-tertiary);}
+.container-2qVG6q:hover {transform: translateY(0px);}
+.bodyMedia-3ij3KY {border-radius: var(--server-radius);} /* Media (Image/GIF) on main card */
+.newBadge-1LcB6t {background: #1edc6091 !important; color: rgb(216, 216, 216);} /* New Badge */
+.messageCountIcon-2CvKyY > svg {color: orange;} /* Message Count (Quote) icon */
+.archivedDividerRow-2gZFEk {align-items: center; padding: 0px 0px 6px 0px;}
+/* Pill/Pill */
+.pill-3pRQlO {border-radius: var(--server-radius);}
+.tags-2CaEuN .pill-3pRQlO {background-color: var(--border-color); border-radius: var(--server-radius);}
+.tag-19iIl1 .defaultColor-24IHKz {color: var(--background-accent) !important;} /* Tags at top colour */
+/* Text color */
+.channelNameSpan-2CGJt7 {color: #fff;}
+.username-u-ebrn {color: #c1b3a2;}
+.messageContent-1SOr75 {color: #ccc;}
+/* ==> Post - Sidebar Card <== */
+.sidebarCard-1Gn1ch {border-radius: var(--server-radius); background: var(--background-secondary);}
+.guidelinesHeader-3MJnw8 {justify-content: center;}
+.guidelinesHeader-3MJnw8 > svg {color: #7289da;}
+.markup-eYLPri ul li::marker {color: crimson;}
+/* ==> When "chat" is open <== */
+.addReactButton-3bSQb6, .buttonInner-3aRbcx > svg {color: yellow;} /* Follow button */
+.rem-3kT9wc.botTag-7aX5WZ.botTagOP-3pUTXu {background: red !important; color: #fff; margin-top: 0px;} /* Bot Tag "OP" */
+div.messagesWrapper-RpOMA3.group-spacing-16 .container-3YcgdM > div.buttons-BK5gED > button:nth-child(2) > div > svg {color: #7289da;} /* Copy link button */
+.tags-2Siay7 .pill-3pRQlO {background: var(--background-tertiary);}
+.iconWrapper-3FqQ75 {border-radius: var(--server-radius); background-color: var(--background-tertiary);}
+.container-1yy5xN {margin: 0 8px; align-items: center;}
+.divider-AZrXIA {display: none;}
+.addReactButton-3bSQb6, .buttonInner-3aRbcx {border-radius: var(--server-radius);}
+.addReactButton-3bSQb6:hover, .buttonInner-3aRbcx:hover {background: var(--background-tertiary); border: 1px solid transparent;}
 
 /*
 =====================================================================================================================================
