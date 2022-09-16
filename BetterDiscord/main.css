@@ -1945,10 +1945,12 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .mainCard-3KBsBI {border-radius: var(--server-radius); background: var(--background-secondary);}
 .mainCard-3KBsBI:hover {background: var(--background-tertiary);}
 .container-2qVG6q:hover {transform: translateY(0px);}
+.box-2iMsQm {border-radius: var(--server-radius);} /* Start The Conversation with a wave container */
 .bodyMedia-3ij3KY {border-radius: var(--server-radius);} /* Media (Image/GIF) on main card */
 .newBadge-1LcB6t {background: #1edc6091 !important; color: rgb(216, 216, 216);} /* New Badge */
 .messageCountIcon-2CvKyY > svg {color: orange;} /* Message Count (Quote) icon */
 .archivedDividerRow-2gZFEk {align-items: center; padding: 0px 0px 6px 0px;}
+.dots-2_b2Mn {border-radius: var(--server-radius); border: none;} .newMessageCount-jqlY9z {color: crimson !important;}
 /* Pill/Pill */
 .pill-3pRQlO {border-radius: var(--server-radius);}
 .tags-2CaEuN .pill-3pRQlO {background-color: var(--border-color); border-radius: var(--server-radius);}
@@ -2191,10 +2193,11 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .sidebar-1tnWFu .wrapper-NhbLHG .unread-36eUEm {
   background-color: #777777;
   border-radius: 0px;
-  height: 32px;
+  height: -webkit-fill-available;
   width: 2px;
   top: 0px;
   margin-top: 1px;
+  margin-bottom: 1px;
   z-index: 1;
 }
 .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg, .modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg {color: #FFFFFF;}
