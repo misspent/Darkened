@@ -19,6 +19,24 @@
 </details>
 
 <details>
+  <summary align="center">✏️ Darkened Amoled Re-Skin </summary>
+  <br>
+
+<h3 align="center">Main window + User popout</h3>
+
+![1  Darkened Amoled Discord Theme Main Window  Edited](https://user-images.githubusercontent.com/78914154/190856874-112b75ec-506b-4533-8156-bcef2dfec42d.png)
+
+<h3 align="center">Home + Friends section</h3>
+
+![2  Darkened Amoled Discord Theme Friends  Edited](https://user-images.githubusercontent.com/78914154/190856880-59aa5fbb-8bc4-44cf-bf11-ef70574e287c.png)
+
+<h3 align="center">User Settings</h3>
+
+![3  Darkened Amoled Discord Theme Settings  Edited](https://user-images.githubusercontent.com/78914154/190856885-bffa9129-97ec-48c8-984a-f37c3d62dd3d.png)
+
+</details>
+
+<details>
   <summary align="center">✏️ Darkened Comfy Re-Skin | Color palette of Nyria's Comfy Theme</summary>
   <br>
 
