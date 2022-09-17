@@ -1376,7 +1376,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .bd-addon-list .bd-footer {background-color: var(--background-tertiary); padding: 8px;}
 
 /* Search bar position in settings */
-.bd-search-wrapper {background-color: var(--background-modifier-hover);   /* width: 800px; margin-left: 550px */}
+.bd-search-wrapper {background-color: var(--background-modifier-hover); border-radius: 0px;   /* width: 800px; margin-left: 550px */}
 
 /* Close button in settings */
 .theme-dark .closeButton-PCZcma {border-color: #72767d; border-radius: 0px;}
@@ -1930,7 +1930,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 
 /* ==========> Forum channel <========== */
 .theme-dark .container-3wLKDe {background-color: var(--background-primary);}
-.header-1Uy0p6, .reaction-102jx9 {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {border: 1px solid transparent; background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: var(--background-primary) !important; padding-left: 4px;}
+.header-1Uy0p6, .reaction-102jx9 {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {border: 1px solid transparent; background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: transparent !important; border: none !important; padding-left: 4px;}
 .mainCard-3KBsBI {border-radius: var(--server-radius); background: var(--background-secondary);}
 .mainCard-3KBsBI:hover {background: var(--background-tertiary);}
 .container-2qVG6q:hover {transform: translateY(0px);}
