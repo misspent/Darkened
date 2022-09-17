@@ -1940,6 +1940,9 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .messageCountIcon-2CvKyY > svg {color: orange;} /* Message Count (Quote) icon */
 .archivedDividerRow-2gZFEk {align-items: center; padding: 0px 0px 6px 0px;}
 .dots-2_b2Mn {border-radius: var(--server-radius); border: none;} .newMessageCount-jqlY9z {color: crimson !important;}
+/* New post button */
+.newPostsButton-UaBhcU {background-color: #3a4188; border-radius: var(--server-radius); border: 1px solid #535dc5;}
+.newPostsButton-UaBhcU .text-md-medium-2avxhQ {color: #e4e4e4 !important;}
 /* Pill/Pill */
 .pill-3pRQlO {border-radius: var(--server-radius);}
 .tags-2CaEuN .pill-3pRQlO {background-color: var(--border-color); border-radius: var(--server-radius);}
@@ -1978,8 +1981,15 @@ div.messagesWrapper-RpOMA3.group-spacing-16 .container-3YcgdM > div.buttons-BK5g
 /* Title */
 .list-3FIpnh> div:first-child .mainCard-3KBsBI:hover {background: var(--background-tertiary); border: 1px solid var(--border-color) !important;} .tagsDivider-3LhkLA {background-color: var(--border-color);} .headerBorder-jrk0Ic {box-shadow: none;}
 .container-JhuCwn .textArea-2CLwUE {margin-right: 27px !important;}
-/* Support Create Guidelines section when selected (support overview channel settings) */
+/* Support Create Guidelines section when selected (support overview channel settings) & Create a tag popup content container fix | Channel Settings */
 .container-16urgA, .placeholderLine-86Fsd9, .placeholderMedia-34JHvE, .reaction-BL6n45 {border-radius: var(--server-radius);}
+.root-g14mjS {background-color: var(--background-secondary);}
+.root-g14mjS .content-3BqJRb {padding: 16px 16px 16px 16px;}
+.staticToolbar-x12NJC {background: var(--background-secondary); border-radius: var(--server-radius);}
+/* Tag section in channel settings */
+.addTags-26suzl {border-radius: var(--server-radius);}
+.tags-1bn36G .container-m0iv4O .pill-3pRQlO {background: var(--background-tertiary) !important;}
+.tags-1bn36G .container-m0iv4O .pill-3pRQlO:hover {background: var(--background-modifier-selected) !important;}
 /* See Examples popup */
 .container-23VlYH {border-radius: var(--server-radius);}
 .inlineTag-2gm6Tj, .tag-3baoyj {background: var(--background-tertiary); border-radius: var(--server-radius);}
