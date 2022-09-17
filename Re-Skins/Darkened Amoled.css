@@ -1,0 +1,176 @@
+/**
+* @name Darkened Amoled
+* @author misspent
+* @description Darkness is a gift; embrace it.
+* @authorLink https://github.com/misspent/Darkened
+* @version 1.0.0
+*/
+
+/*
+\==================================================================================\
+\                                     Imports                                      \
+\==================================================================================\
+*/
+
+/* Main Import | --> Don't delete this <-- */
+@import "https://misspent.github.io/Darkened/BetterDiscord/main.css";
+
+/* Add a "/" on the left side of the first Quotation mark to cancel out the import */
+@import "https://crearts-community.github.io/Mention-Links/theme.css"; /* Mention Links */
+@import "https://lyght1337.github.io/DarknessCodeBlocks/css/CodeBlocks.css"; /* Codeblocks */
+@import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css"; /* Scrollbars */
+@import "https://misspent.github.io/Darkened/BetterDiscord/ChannelIcons.css"; /* Channel Icons */
+@import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"; /* Radial Status */
+@import /"https://misspent.github.io/Darkened/BetterDiscord/DarkenedCompact.css"; /* Compact Import */
+@import "https://misspent.github.io/Darkened/BetterDiscord/SeparatedChatBar.css"; /* SeparatedChatBar */
+@import "https://misspent.github.io/Darkened/BetterDiscord/ContextIconColours.css"; /* ContextIconsColours */
+@import "https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css";/* Better Crashes - Disease | Indicating which plugins are currently causing commits. */
+@import /"https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css"; /* Horizontal Server List | Remove the "/*" from the start of this line to use the Import */
+
+:root {
+  /* Home Icon Image */
+  --Home-Image-Icon: url("https://i.ibb.co/k4mXsGW/Mary-Shaw.png"); /* Default: https://i.ibb.co/k4mXsGW/Mary-Shaw.png | Free Upload Site: https://imgbb.com */
+
+  /* Spotify plugin seek bar */
+  --spotify-color: #1edc62; /* Default: #1edc62 */
+
+  /* Tooltips */
+  --tooltips: block; /* Set it to "none" if you don't want it | Default: block */
+
+  /* Other */
+  --dark: rgb(13, 13, 13); /* Codeblocks Import: Border color | Default: #151515 */
+  --light: rgb(13, 13, 13); /* Codeblocks Import | Default: #151515 */
+  --roleslist-columns: 2; /* Amount of columns for roles in popout */
+  --Normal-Activity-Icon: #c4302b; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium */
+  --Playing-Game-Icon: #4c8bf5; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium */
+  --Spotify-Activity-Icon: #1DB954; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium  */
+  --Emoji-Menu-Height: 665px; /* Emoji, GIF & Sticker menu height */
+
+  /* Mention color */
+  --mention-color: #0fffff; /* Default: #0fffff */
+  --unread-color: rgb(0, 195, 209); /* Default: rgb(0, 195, 209) */
+  --accent: 0, 195, 209; /* This works in conjunction with "--unread-color" | Default: 0, 195, 209 */
+
+  /* Mention color in chat */
+  --mention-color-bar: #00b0f4; /* Default: #00b0f4 */
+  --mention-color-background: #00b0f41f; /* Default: #00b0f41f */
+  --mention-color-hover: #00b0f41f; /* Default: #00b0f41f */
+
+  /* Roundness of the fun stuff */
+  --avatar-radius: 0px; /* Avatar roundness | Radial Status roundness */
+  --status-radius: 8px; /* Status roundness */
+  --server-radius: 0px; /* Server icons, borders, images and other containers roundness */
+  --switch-radius: 0; /* Switches icon radius (enabled & disabled) | If --server-radius is "8" set this to "9" */
+  --role-circle: 5px; /* Circles next to role names (Size not roundness) */
+
+  /* Toggleable variables */
+  --Titlebar: flex; /* flex = ON, none = OFF */
+  --Discord-Watermark: flex; /* flex = ON, none = OFF */
+  --Chat-GIF-Button: flex; /* flex = ON, none = OFF */
+  --Chat-Gift-Button: none; /* flex = ON, none = OFF */
+  --Chat-Sticker-Button: none; /* flex = ON, none = OFF */
+  --Home-Nitro-Channel: none; /* flex = ON, none = OFF */
+  --Home-Discovery-Channel: flex; /* flex = ON, none = OFF */
+  --Context-Menu-Emoji-Toolbar: grid; /* grid = ON, none = OFF */
+  --Text-Channels-Capital-Letter: capitalize; /* capitalize, none */
+  --Popout-Send-Message-Container: block; /* block = ON, none = OFF */
+  --Context-Menu-Keybind-Hints: none; /* block = ON, none = OFF */
+
+  /* ==============> Compact Import | Left variable = Compact, Right variable = Default(normal) | DarkenedCompact Import is required <============== */
+  /* Compact Sidebar */
+  --Compact-Sidebar: 240px; /* Left variable = 10px, Right variable = 240px */
+  --Compact-Sidebar-Opacity: 1; /* Left variable = 0, Right variable = 1 */
+  /* Compact Member List */
+  --Member-List-Toggle: 52px; /* Left variable = 52px, Right variable = 240px */
+  --Member-List-Toggle-1: 0; /* Left variable = 0, Right variable = 45px */
+  --Member-List-Toggle-2: 0; /* Left variable = 0, Right variable = initial */
+  --Member-List-Toggle-3: 0; /* Left variable = 0, Right variable = 1 */
+  --Member-List-Toggle-4: 0; /* Left variable = 0, Right variable = 6px 0 */
+
+  /* Radial Status | Import */
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-small-width: 1.5px;
+  --rs-medium-width: 1.5px;
+  --rs-large-width: 1.5px;
+  --rs-avatar-shape: var(--avatar-radius);
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-color: var(--rs-online-color);
+  --rs-phone-visible: block;
+
+  /* ChannelTabs Plugin | Ignore */
+  --channelTabs-tabHeight: 32px;
+  --channelTabs-favHeight: 23px !important;
+  --channelTabs-macHeight: 41px !important;
+  --channelTabs-tabWidth: 224px !important;
+  --channelTabs-tabStatusBorderThickness: 2px !important;
+  --channelTabs-favStatusBorderThickness: 2px !important;
+  --channelTabs-winButtonWidth: 84px !important;
+  --channelTabs-paddingTop: 0px !important;
+  --channelTabs-paddingBottom: 0px !important;
+  --channelTabs-containerSpacing: 3px !important;
+
+  /* Horizontal Server List | Import */
+  --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+  --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+}
+
+/*
+\==================================================================================\
+\                                  Main Variables                                  \
+\==================================================================================\
+*/
+
+.theme-dark {
+  --background-tertiary: black;
+  --background-secondary: #090909;
+  --background-secondary-alt: rgb(11, 11, 11);
+  --background-primary: black;
+  --background-mobile-primary: #23283d;
+  --background-mobile-secondary: #1e2233;
+  --channeltextarea-background: rgb(12, 12, 12); /* Main window text bar + reply bar background */
+  --background-accent: #6e85d3;
+  --background-message-hover: transparent;
+  --background-modifier-hover: rgba(40, 40, 40, 0.16);
+  --background-modifier-active: rgba(40, 40, 40, 0.24);
+  --background-modifier-selected: rgba(40, 40, 40, 0.32);
+  --deprecated-card-bg: rgba(32, 32, 32, 0.6);
+  --background-floating: black;
+  --deprecated-quickswitcher-input-background: #72767d;
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #101010;
+  --scrollbar-auto-track: #181818;
+  --scrollbar-thin-thumb: #141414;
+  --activity-card-background: #0f0f0f;
+  --border-color: rgb(13, 13, 13);
+  --popout-title: #060606;
+  --popout-background-main: #030303;
+  --jump-newmessage-bars-buttons: rgb(30, 30, 30);
+  --jump-newmessage-bars: rgb(20, 20, 20);
+  --Emoji-Menu: rgb(06, 06, 06);
+}
+
+.theme-light {
+  /* "Create a server" popup | I will never support light theme */
+  --background-tertiary: black;
+  --background-secondary: rgb(09, 09, 09);
+  --background-secondary-alt: rgb(11, 11, 11);
+  --background-primary: black;
+  --background-accent: #6e85d3;
+  --background-modifier-hover: rgba(50, 50, 50, 0.16);
+  --background-modifier-active: rgba(50, 50, 50, 0.24);
+  --header-primary: #fff;
+  --header-secondary: #b1b5b9;
+  --text-normal: #8e9297;
+  --popout-secondary: rgb(09, 09, 09);
+}
+
+/* Black box behind the member list, Active now background, server & setting headers | Fixes it for amoled re-skin | Works in conjunction with "--background-primary" */
+:root .membersWrap-3NUR2t::after, .container-1NXEtd .header-3OsQeK, .header-Imy05m, :root .sidebarRegion-1VBisG::after {background-color: black !important;}
