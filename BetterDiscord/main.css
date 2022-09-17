@@ -1950,7 +1950,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .username-u-ebrn {color: #c1b3a2;}
 .messageContent-1SOr75 {color: #ccc;}
 /* New Forum Posts stand out */
-.mainCard-3KBsBI .body-hCVwsC, .left-r1N3TH {z-index: 1;}
+.mainCard-3KBsBI .body-hCVwsC, .left-r1N3TH, .imageWrapper-oMkQl4 {z-index: 1;}
 .newBadge-1LcB6t:before {background: #1edc6023; content: ""; width: 100%; height: 100%; position: absolute; z-index: -1; left: 0px; top: 0px;}
 /* ==> Post - Sidebar Card <== */
 .sidebarCard-1Gn1ch {border-radius: var(--server-radius); background: var(--background-secondary);}
@@ -1976,7 +1976,7 @@ div.messagesWrapper-RpOMA3.group-spacing-16 .container-3YcgdM > div.buttons-BK5g
 .optionPillItem-3sx4uB .lookFilled-yCfaCM.colorBrand-I6CyqQ {background: transparent;}
 .optionPill-3_uSHD {background: var(--background-modifier-selected); border-radius: var(--server-radius);}
 /* Title */
-.list-3FIpnh> div:first-child .mainCard-3KBsBI:hover {background: var(--background-secondary); border: 1px solid var(--border-color) !important;} .tagsDivider-3LhkLA {background-color: var(--border-color);} .headerBorder-jrk0Ic {box-shadow: none;}
+.list-3FIpnh> div:first-child .mainCard-3KBsBI:hover {background: var(--background-tertiary); border: 1px solid var(--border-color) !important;} .tagsDivider-3LhkLA {background-color: var(--border-color);} .headerBorder-jrk0Ic {box-shadow: none;}
 .container-JhuCwn .textArea-2CLwUE {margin-right: 27px !important;}
 /* Support Create Guidelines section when selected (support overview channel settings) */
 .container-16urgA, .placeholderLine-86Fsd9, .placeholderMedia-34JHvE, .reaction-BL6n45 {border-radius: var(--server-radius);}
