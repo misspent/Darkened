@@ -1736,7 +1736,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 /* This is the "add server" container */
 .theme-light ::placeholder, .theme-light input, .theme-light select, .theme-light textarea {background: var(--background-secondary-alt);}
 :root .root-g14mjS .footer-31IekZ .lookLink-9FtZy- {background: #fff1;}
-:root .root-g14mjS .footer-31IekZ > * {text-align: center; justify-content: center; width: 100%; margin: 0;}
+:root .root-g14mjS .footer-31IekZ > * {background: var(--brand-experiment); justify-content: center; align-items: center; text-align: center; width: 100%; margin: 0;}
 :root .root-g14mjS .footer-31IekZ .cancelButton-kOgwem, :root .root-g14mjS .footer-31IekZ .cancel-1Ph_Z1 {margin-right: 0;}
 :root .root-g14mjS .footer-31IekZ .minorContainer-1tix62 {display: none;}
 :root .root-g14mjS .qualitySettingsContainer-30AsSH {border: none; padding: 0;}
@@ -1750,7 +1750,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   padding: 0;
   background: transparent;
   box-shadow: none;
-  min-height: 45px;
+  min-height: 35px; /* Default: 45px; */
   overflow: hidden;
   border-radius: 0 0 0px 0px;
 }
@@ -1932,7 +1932,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 
 /* ==========> Forum channel <========== */
 .theme-dark .container-3wLKDe {background-color: var(--background-primary);}
-.header-1Uy0p6, .reaction-102jx9 {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {border: 1px solid transparent; background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: transparent !important; border: none !important; padding-left: 4px;}
+.header-1Uy0p6, .reaction-102jx9, .icon-2ujrkG {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {border: 1px solid transparent; background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: transparent !important; border: none !important; padding-left: 4px;}
 .mainCard-3KBsBI {border-radius: var(--server-radius); background: var(--background-secondary);}
 .mainCard-3KBsBI:hover {background: var(--background-tertiary);}
 .container-2qVG6q:hover {transform: translateY(0px);}
