@@ -546,6 +546,7 @@
 .clearIcon-TMIIUa, .searchIcon-34RNw9 {color: #ED4245; width: 2.4em;}
 .colorMuted-20987_ {color: #fff;}
 .cta-25g9OT {margin-right: 0px; padding-left: 8px;}
+.search-2KMv1o .quickSelect-384d3G {margin-top: 0px;}
 
 /* Toast message when replying to a message (Top-Right) | BD loaded messaged (center) | "Copied/Successful" container too (center) */
 .toast-g4bfgI, .bd-toast, .toast {border-radius: var(--server-radius) !important;}
@@ -1241,6 +1242,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .contentColumnDefault-3eyv5o .item-2idW98[aria-checked="false"] .radioBar-3w9XY- {background: var(--background-secondary);}
 .radioBar-3_FqUK {background: var(--background-tertiary) !important;}
 .content-2hZxGK {background: var(--background-secondary); border-radius: 0px; padding-left: 8px; padding-top: 8px;}
+.container-1uLMWp {margin-bottom: 0px;}
 .templatesList-uohY49 {margin-top: 0px;}
 .container-1Vmp-9 .checkboxWrapper-2fDzaA.row-31nALW {background: var(--background-primary); border-radius: var(--server-radius);} /* Enable community container in server settings */
 .radioIconForeground-2BMavi {color: var(--mention-color);}
