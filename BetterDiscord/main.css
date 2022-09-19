@@ -289,7 +289,7 @@
 .button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {background-color: #3ba55d !important;}
 .button-1EGGcP.buttonColor-3bP3fX:hover, .button-1EGGcP .buttonColor-3bP3fX {background-color: #3ba55db2 !important;}
 .liveShapeRound-2Tgi2d {border-radius: var(--server-radius);}
-.px-MnE_OR.botTag-7aX5WZ {margin-top: -1px;}
+
 .px-MnE_OR {margin-right: 5px;}
 .list-3lj0mi {margin-right: 5px;}
 
@@ -1996,11 +1996,7 @@ div.messagesWrapper-RpOMA3.group-spacing-16 .container-3YcgdM > div.buttons-BK5g
 .tags-1bn36G .container-m0iv4O .pill-3pRQlO {background: var(--background-tertiary) !important;}
 .tags-1bn36G .container-m0iv4O .pill-3pRQlO:hover {background: var(--background-modifier-selected) !important;}
 /* Click a link in chat and it'll show a container like "Hang on" -> Cancel/Yep! | Don't add until you know what it actually fucks with */
-.h2-1EaYVL {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.h2-1EaYVL {display: flex; justify-content: center; align-items: center;}
 /* See Examples popup */
 .container-23VlYH {border-radius: var(--server-radius);}
 .inlineTag-2gm6Tj, .tag-3baoyj {background: var(--background-tertiary); border-radius: var(--server-radius);}
@@ -2582,12 +2578,13 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 [id*=popout] > div > div > div > div.overlayBackground-arbZMT > div:nth-child(1) {padding: 0px;}
 .activity-E0U09Y .buttonsWrapper-2ARRp1 {margin-top: 0px;}
 /* Staff Bot Tag */
-.headerBotTag-OHqqn-, .headerBotTagWithNickname-3YGA1h, .headerBotTag-1xw5Ck {
+.userText-148fun .headerBotTag-1xw5Ck {
   position: absolute;
   margin: auto;
   right: 10px;
   top: 21.5px;
 }
+.userPopoutInner-PA9zkU .px-MnE_OR.botTag-7aX5WZ {margin-top: -1px !important;}
 /* Banners */
 .popoutBannerPremium-2RvDNZ {
   height: 165px;
