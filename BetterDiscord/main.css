@@ -1068,6 +1068,9 @@
   border-radius: var(--server-radius);
 }
 .modalHeader-2KRhe7 {padding: 6px;}
+/* Popup container Fix | I think */
+.footer-31IekZ, .header-1zd7se {padding: 0px;}
+:root .root-g14mjS .header-1zd7se {justify-content: center; text-align: center; padding: 8px;}
 
 /* Local channel settings (Plugins) channel name under title | Plugin */
 .size12-12FL_s {display: none;}
@@ -1344,8 +1347,6 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .planCard-vET3Ia, .hero-3xEZXe, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled {border-radius: var(--server-radius);}
 .perksTable-H9sPBm {border-radius: var(--server-radius); border: 1px solid var(--background-modifier-accent);}
 .theme-dark .perksModal-CLcR1c {background-image: none !important; background-color: var(--background-primary);}
-
-:root .root-g14mjS .header-1zd7se {text-align: center;}
 
 /* Buttons in My Account section (settings) */
 .lookFilled-1Gx00P.colorBrand-3pXr91 {color: #fff; background-color: var(--brand-experiment); border-radius: var(--server-radius); margin-right: 3px;}
