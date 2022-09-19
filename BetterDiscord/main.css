@@ -1986,8 +1986,8 @@ div.messagesWrapper-RpOMA3.group-spacing-16 .container-3YcgdM > div.buttons-BK5g
 .container-JhuCwn .textArea-2CLwUE {margin-right: 27px !important;}
 /* Support Create Guidelines section when selected (support overview channel settings) & Create a tag popup content container fix | Channel Settings */
 .container-16urgA, .placeholderLine-86Fsd9, .placeholderMedia-34JHvE, .reaction-BL6n45 {border-radius: var(--server-radius);}
-.root-g14mjS {background-color: var(--background-secondary);}
-.root-g14mjS .content-3BqJRb {padding: 16px 16px 16px 16px;}
+.root-g14mjS .content-3BqJRb {background-color: var(--background-secondary); padding: 16px 16px 16px 16px;}
+.moderatedCheckbox-1xLAbE {margin: 0px; padding-left: 16px; padding-bottom: 16px; background-color: var(--background-secondary);}
 .staticToolbar-x12NJC {background: var(--background-secondary); border-radius: var(--server-radius);}
 /* Tag section in channel settings */
 .addTags-26suzl {border-radius: var(--server-radius);}
@@ -2599,7 +2599,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .profileBadges-31rDHI {
   top: 0px;
   right: 6px;
-  padding: 1px;
+  padding: 0px;
   margin-top: 6px;
   position: absolute;
   max-width: min-content;
