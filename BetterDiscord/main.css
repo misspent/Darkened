@@ -2429,7 +2429,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .headerContainer-1wJjOa, .title-1r9MQ6, .banner-2boKnS {border-radius: var(--server-radius) var(--server-radius) 0px 0px !important;}
 .wrapper-1VLyxH, .profileBadges-31rDHI {border-radius: var(--avatar-radius);} .wrapper-1VLyxH foreignObject {mask: none;} .avatarHint-2g3Mcd foreignObject {mask: none; opacity: 0 !important;} /* Profile Picture | Opacity remove "View Profile" */
 .theme-dark .userPopoutInner-PA9zkU:before {background: var(--background-secondary) !important; border-radius: var(--server-radius);}
-.theme-dark .overlayBackground-arbZMT {background: var(--background-secondary) !important; margin: 0px 6px 0px 0px; border-radius: var(--server-radius);}
+.theme-dark .overlayBackground-arbZMT {background: var(--background-secondary) !important; margin: 15px 6px 0px 0px; border-radius: var(--server-radius);}
 /* About me, Roles, Note and activity containers */
 .theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9, .theme-light .activityUserPopoutV2-3eKqzY .headerText-3g1XK9 {color: var(--header-secondary);} /* Activity title text colour */
 .headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center; color: var(--header-secondary) !important;}
@@ -2556,7 +2556,8 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .headerTop-3GPUSF {margin-top: 10px;}
 .focused-qp-W9B, .item-1BCeuB:hover:not(.disabled-Mmpvl7) {background-color: var(--background-modifier-hover) !important;} /* When you click the "+" to add roles | Hover colour */
 
-
+/* ====> New Style Profile Popout -testing */
+.bannerSVGWrapper-qc0szY mask {display: none;}
 
 /* =========> Popout USRBG Model [Big Profile Model] <========= */
 .pencilContainer-18TrEJ {border-radius: var(--server-radius);}
