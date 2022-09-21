@@ -2577,7 +2577,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 }
 [id*=popout] > div > div > div > div.overlayBackground-arbZMT > div:nth-child(1) {padding: 0px !important;}
 .activity-E0U09Y .buttonsWrapper-2ARRp1 {margin-top: 0px;}
-.bannerSVGWrapper-qc0szY mask {display: none;}
+.bannerSVGWrapper-qc0szY mask, .avatarPositionPremiumNoBanner-nWzERs circle {display: none;}
 /* Staff Bot Tag */
 .userPopoutInner-PA9zkU .px-MnE_OR.botTag-7aX5WZ {
   position: absolute;
@@ -2635,7 +2635,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .userPopout-3fydSP {border-radius: var(--server-radius); box-shadow: none !important; width: 300px;}
 .section-3FmfOT {padding: 0px 12px 12px 12px !important;}
 .userPopoutThemed-3BZ4by {padding: 0px;}
-.userPopoutInnerWithBanner-wsoegj {background: var(--background-secondary);}
+.userPopoutInnerWithBanner-wsoegj, .userPopoutInnerPremiumWithoutBanner-na5t_W {background: var(--background-secondary);}
 
 /* =========> Popout USRBG Model [Big Profile Model] <========= */
 .pencilContainer-18TrEJ {border-radius: var(--server-radius);}
