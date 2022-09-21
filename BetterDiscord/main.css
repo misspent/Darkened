@@ -2425,11 +2425,11 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 */
 
 /* User Popout */
-.userPopout-3fydSP {border-radius: var(--server-radius); box-shadow: none !important; width: 300px;} .theme-dark.profileColors-3Y0XaR, .theme-light.profileColors-3Y0XaR {background: transparent !important;} .avatar-2OC07D {background-color: transparent; border: 4px solid var(--background-secondary) !important;}
+.theme-dark.profileColors-3Y0XaR, .theme-light.profileColors-3Y0XaR {background: transparent !important;} .avatar-2OC07D {background-color: transparent; border: 4px solid var(--background-secondary) !important;}
 .headerContainer-1wJjOa, .title-1r9MQ6, .banner-2boKnS {border-radius: var(--server-radius) var(--server-radius) 0px 0px !important;}
 .wrapper-1VLyxH, .profileBadges-31rDHI {border-radius: var(--avatar-radius);} .wrapper-1VLyxH foreignObject {mask: none;} .avatarHint-2g3Mcd foreignObject {mask: none; opacity: 0 !important;} /* Profile Picture | Opacity remove "View Profile" */
 .theme-dark .userPopoutInner-PA9zkU:before {background: var(--background-secondary) !important; border-radius: var(--server-radius);}
-.theme-dark .overlayBackground-arbZMT {background: var(--background-secondary) !important; margin: 15px 6px 0px 0px; border-radius: var(--server-radius);}
+.theme-dark .overlayBackground-arbZMT {background: var(--background-secondary) !important; margin: 15px 0px 0px 0px; border-radius: var(--server-radius);}
 /* About me, Roles, Note and activity containers */
 .theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9, .theme-light .activityUserPopoutV2-3eKqzY .headerText-3g1XK9 {color: var(--header-secondary);} /* Activity title text colour */
 .headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center; color: var(--header-secondary) !important;}
@@ -2552,12 +2552,90 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   margin: 0 0px 4px 0;
   padding: 4px;
 }
-
 .headerTop-3GPUSF {margin-top: 10px;}
 .focused-qp-W9B, .item-1BCeuB:hover:not(.disabled-Mmpvl7) {background-color: var(--background-modifier-hover) !important;} /* When you click the "+" to add roles | Hover colour */
 
-/* ====> New Style Profile Popout -testing */
+/* ====> New Style Profile popout <==== */
+.avatarWrapper-3y0KZ1 {
+  width: 100%;
+  left: 0px;
+  top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.userPopoutInner-PA9zkU .userTagNoNickname-2MJ9HD, .userText-148fun {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 110px;
+  /* display: flex; Test */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+[id*=popout] > div > div > div > div.overlayBackground-arbZMT > div:nth-child(1) {padding: 0px !important;}
+.activity-E0U09Y .buttonsWrapper-2ARRp1 {margin-top: 0px;}
 .bannerSVGWrapper-qc0szY mask {display: none;}
+/* Staff Bot Tag */
+.userPopoutInner-PA9zkU .px-MnE_OR.botTag-7aX5WZ {
+  position: absolute;
+  margin-top: 0px;
+  right: 10px;
+  top: 2px;
+  content-visibility: hidden;
+}
+.userPopoutInner-PA9zkU .px-MnE_OR.botTag-7aX5WZ:hover {
+  content-visibility: visible;
+}
+/* Banners */
+.popoutBanner-16rVDY, .popoutNoBannerPremium-2TQa6P, .popoutBannerPremium-2RvDNZ {
+  min-height: 165px !important;
+  max-height: 165px !important;
+}
+.bannerSVGWrapper-qc0szY {
+  min-height: 165px !important;
+  max-height: 165px !important;
+  margin: auto;
+}
+.bannerPremium-86naOf {
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: 220px 120px;
+  width: 220px !important;
+}
+.userPopoutInnerPremiumWithoutBanner-na5t_W .banner-2boKnS, .userPopoutInnerNonPremium-3zrFkp .banner-2boKnS {
+  filter: brightness(45%);
+}
+/* Badges */
+.userPopoutInner-PA9zkU .profileBadges-31rDHI {
+  top: 0px;
+  right: 6px;
+  padding: 0px;
+  margin-top: 6px;
+  position: absolute;
+  max-width: min-content;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+/* Pencil/edit banner button */
+.popoutBanner-16rVDY .pencilContainer-11Kuga, .popoutBannerPremium-2RvDNZ .pencilContainer-11Kuga {
+  top: 6px;
+  right: auto;
+  left: 6px;
+  padding: 0px;
+}
+.popoutBanner-16rVDY .pencilContainer-11Kuga, .popoutBannerPremium-2RvDNZ .pencilContainer-11Kuga > svg {
+  width: 15px;
+  height: 15px;
+}
+/* Fixes */
+.userPopoutInner-PA9zkU, .theme-dark.profileColors-3Y0XaR, .theme-light.profileColors-3Y0XaR {width: 300px !important;}
+.userPopout-3fydSP {border-radius: var(--server-radius); box-shadow: none !important; width: 300px;}
+.section-3FmfOT {padding: 0px 12px 12px 12px !important;}
+.userPopoutThemed-3BZ4by {padding: 0px;}
+.userPopoutInnerWithBanner-wsoegj {background: var(--background-secondary);}
 
 /* =========> Popout USRBG Model [Big Profile Model] <========= */
 .pencilContainer-18TrEJ {border-radius: var(--server-radius);}
