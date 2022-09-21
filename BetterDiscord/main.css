@@ -300,7 +300,7 @@
 /* popout + other buttons */
 .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {background: rgb(var(--accent), 0.6); border-radius: var(--server-radius);}
 .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {background: rgb(var(--accent), 0.3); border-radius: var(--server-radius);}
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {background: var(--jump-newmessage-bars); border-radius: var(--server-radius); width: -webkit-fill-available;}
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {background: var(--jump-newmessage-bars); border-radius: var(--server-radius);}
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {background: var(--jump-newmessage-bars-buttons); border-radius: var(--server-radius);}
 .theme-dark .lookLink-15mFoz.colorTransparent-13Bvvi, .theme-dark .addGamePopout-2SKNIV .cancelButton-1_3Ix7, .secondaryButton-rBY2Kw.button-f2h6uQ.lookFilled-yCfaCM.colorPrimary-2AuQVo.sizeXlarge-2TyITf.grow-2sR_-F, .flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.footer-31IekZ.footerSeparator-VzAYwb > button.button-f2h6uQ.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.cancelButton-1Iue3i.sizeMedium-2bFIHr.grow-2sR_-F {background-color: #ed4245; border-radius: var(--server-radius);}
 .theme-dark .lookLink-15mFoz.colorTransparent-13Bvvi {padding: 8px;}
@@ -1933,7 +1933,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 
 /* ==========> Forum channel <========== */
 .theme-dark .container-3wLKDe {background-color: var(--background-primary);}
-.header-1Uy0p6, .reaction-102jx9, .icon-2ujrkG {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {border: 1px solid transparent; background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: transparent !important; border: none !important; padding-left: 4px;}
+.header-1Uy0p6, .reaction-102jx9, .icon-2ujrkG, .guidelinesButton-3Vrz0u {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {border: 1px solid transparent; background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: transparent !important; border: none !important; padding-left: 4px;}
 .mainCard-3KBsBI {border-radius: var(--server-radius); background: var(--background-secondary);}
 .mainCard-3KBsBI:hover {background: var(--background-tertiary);}
 .container-2qVG6q:hover {transform: translateY(0px);}
@@ -1983,7 +1983,7 @@ div.messagesWrapper-RpOMA3.group-spacing-16 .container-3YcgdM > div.buttons-BK5g
 .optionPillItem-3sx4uB .lookFilled-yCfaCM.colorBrand-I6CyqQ {background: transparent;}
 .optionPill-3_uSHD {background: var(--background-modifier-selected); border-radius: var(--server-radius);}
 /* Title */
-.list-3FIpnh> div:first-child .mainCard-3KBsBI:hover {background: var(--background-tertiary); border: 1px solid var(--border-color) !important;} .tagsDivider-3LhkLA {background-color: var(--border-color);} .headerBorder-jrk0Ic {box-shadow: none;}
+.list-3FIpnh> div:first-child .mainCard-3KBsBI:hover {background: var(--background-tertiary); border: 1px solid transparent !important;} .tagsDivider-3LhkLA {background-color: var(--border-color);} .headerBorder-jrk0Ic {box-shadow: none;}
 .container-JhuCwn .textArea-2CLwUE {margin-right: 27px !important;}
 /* Support Create Guidelines section when selected (support overview channel settings) & Create a tag popup content container fix | Channel Settings */
 .container-16urgA, .placeholderLine-86Fsd9, .placeholderMedia-34JHvE, .reaction-BL6n45 {border-radius: var(--server-radius);}
