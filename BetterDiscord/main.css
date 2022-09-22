@@ -1554,6 +1554,7 @@ div.bd-addon-header > div.bd-title > div.bd-meta > span.bd-author {color: var(--
 .theme-dark .focused-2FU0YH {background-color: var(--background-tertiary);}
 .option-ayUoaq.user-1dKxvu .displayUsername-UTerwm, .option-ayUoaq.user-1dKxvu .displayUsername-UTerwm:hover {color: var(--mention-color);}
 .option-ayUoaq .answer-14OVbQ, .option-ayUoaq .answer-14OVbQ:hover, .option-ayUoaq {color: var(--status-warning) !important;}
+.scroller-3iiyhZ {padding: 0px 16px 0px 16px !important;}
 
 .iconWrapper-2awDjA, .selected-29KTGM .icon-2xnN2Y {color: var(--interactive-normal) !important;}
 /* Shrunken Search Bar (Made by Freeplay) */
@@ -1933,7 +1934,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 
 /* ==========> Forum channel <========== */
 .theme-dark .container-3wLKDe {background-color: var(--background-primary);}
-.header-1Uy0p6, .reaction-102jx9, .icon-2ujrkG, .guidelinesButton-3Vrz0u {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {border: 1px solid transparent; background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: transparent !important; border: none !important; padding-left: 4px;}
+.header-1Uy0p6, .reaction-102jx9, .icon-2ujrkG, .guidelinesButton-3Vrz0u, .pinIcon-zVODC5 {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {border: 1px solid transparent; background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: transparent !important; border: none !important; padding-left: 4px;}
 .mainCard-3KBsBI {border-radius: var(--server-radius); background: var(--background-secondary);}
 .mainCard-3KBsBI:hover {background: var(--background-tertiary);}
 .container-2qVG6q:hover {transform: translateY(0px);}
@@ -2435,16 +2436,15 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center; color: var(--header-secondary) !important;}
 .wrap-7NZuTn, .textarea-_59yqs, .activity-E0U09Y {background: var(--popout-background-main) !important; margin-top: 0px; margin-bottom: 0px; border-radius: 0px 0px var(--server-radius) var(--server-radius) !important;}
 /* Notes container fix */
-.themedPopout-1TrfdI .messagesPopout-eVzQcI .cozy-VmLDNB.wrapper-30-Nkg {padding-left: 18px; margin-left: 6px;}
+.themedPopout-1TrfdI .messagesPopout-eVzQcI .cozy-VmLDNB.wrapper-30-Nkg {margin-left: 6px;}
 /* Activity inner container fixes */
 .bodyAlignCenter-3E27PU, .bodyNormal-250CQK {padding: 4px 0px 0px 4px;}
 .timeBarUserPopout-qLXZaR, .timeBarUserPopoutV2-32DL06 {padding: 4px 0px;}
-.barInner-3dHef4 {border-radius: var(--server-radius);}
+.barInner-3dHef4, .bar-1GpknY {border-radius: 0px;}
 .themed-1LCNAV .textLeft-1Noen0, .themed-1LCNAV .textRight-2IW704 {padding: 0px 4px;}
 /* Spotify Icon | Spotify buttons color on popout */
 .theme-dark .activityUserPopout-2MzGCj .platformIcon-k3yytQ, .theme-dark .activityUserPopoutV2-3eKqzY .platformIcon-k3yytQ, .theme-light .activityUserPopout-2MzGCj .platformIcon-k3yytQ, .theme-light .activityUserPopoutV2-3eKqzY .platformIcon-k3yytQ {display: none;}
-.activity-E0U09Y .buttonColor-XIRMbp {background: rgba(var(--accent), 0.5);}
-.section-3FmfOT .buttonsWrapper-2ARRp1 {padding: 4px;}
+.activity-E0U09Y .buttonColor-XIRMbp {background: rgba(var(--accent), 0.5); margin: 4px;}
 .activity-E0U09Y:hover .buttonColor-XIRMbp:hover {filter: brightness(110%); opacity: 1;}
 /* "Message @user container */
 .messageInputContainer-2rGDH8 {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-primary) !important; border: none;}
