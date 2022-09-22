@@ -171,16 +171,6 @@
 .container-YkUktl .avatar-1EWyVD foreignObject {
   transition: all 0.15s ease-in-out;
 }
-.container-YkUktl .avatar-1EWyVD:hover {
-  width: 40px !important;
-  height: 40px !important;
-  opacity: 1;
-}
-.container-YkUktl .avatar-1EWyVD:hover:after {
-  font-size: 10px;
-  line-height: 40px;
-  opacity: 1;
-}
 .container-YkUktl .avatar-1EWyVD:hover foreignObject {
   opacity: 0.5;
 }
