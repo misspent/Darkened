@@ -161,7 +161,7 @@
 .theme-light {
   /* "Create a server" popup | I will never support light theme */
   --background-tertiary: #090909;
-  --background-secondary: #090909;
+  --background-secondary: #0d0d0d;
   --background-secondary-alt: #191f2e;
   --background-primary: #121212;
   --background-accent: #6e85d3;
