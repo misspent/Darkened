@@ -501,21 +501,7 @@
 .gif-1EWTs-, .result-3OpoO7:after {border-radius: var(--server-radius) !important;}
 
 /* NOTE: Status picker menu */
-/* New status menu container stuff */
-.menu-2-eHMB .item-1OdjEX::before {display: none !important;}
-.menu-2-eHMB {width: 227px; left: 0px; bottom: 0px;}
-.menu-1QACrS.styleFixed-2_NfVL {box-shadow: 0px 0px 0px 6px var(--background-primary); border: none;}
-.separator-1So4YB {display: none;}
-/* Nitro/Premium banner stuff */
-.menu-1QACrS .avatarPositionPremium-1zPBq9 {top: 100px; left: 12px;}
-/* Other */
-.headerContainer-1wJjOa {background: var(--popout-title); justify-content: center !important;}
-.bodyTitle-2Az3VQ {background: var(--popout-title); text-align: center; margin: 0px;}
-.labelContainer-2vJzYL.colorDefault-CDqZdO:hover, .labelContainer-2vJzYL.colorDefault-CDqZdO.focused-3qFvc8, .labelContainer-2vJzYL.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {background-color: var(--background-tertiary);}
-.withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {background-color: var(--background-primary); border-radius: var(--server-radius);}
-.item-1OdjEX[id="account-switch-account"] .iconContainer-1-SsTR .icon-E4cW1l {color: #6e85d3 !important;}
-.customEmojiPlaceholder-35gKOP {background-image: url("https://i.imgur.com/YOshExa.png"); height: 16px !important; background-position: center;}
-.menu-2-eHMB .popoutBannerPremium-3i5EEI {width: auto;}
+
 
 /* --> Discovery section <-- */
 
@@ -2592,8 +2578,6 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .userPopoutInner-1v4xcM .bannerSVGWrapper-qc0szY {
   min-height: 165px !important;
   max-height: 165px !important;
-  min-width: 165px !important;
-  max-width: 165px !important;
   margin: auto;
 }
 .userPopoutInner-1v4xcM .bannerPremium-86naOf {
@@ -2631,7 +2615,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 /* Fixes */
 .userPopoutInner-1v4xcM, .theme-dark.profileColors-3Y0XaR, .theme-light.profileColors-3Y0XaR {width: 300px !important;}
 .userPopout-3fydSP {border-radius: var(--server-radius); box-shadow: none !important; width: 300px;}
-.userPopout-29jUdN, .userPopoutInner-1v4xcM {border-radius: 10px !important; box-shadow: none;}
+.userPopout-29jUdN, .userPopoutInner-1v4xcM {border-radius: var(--server-radius) !important; box-shadow: none;}
 .section-3FmfOT {padding: 0px 12px 12px 12px !important;}
 .userPopoutThemed-3BZ4by {padding: 0px;}
 
