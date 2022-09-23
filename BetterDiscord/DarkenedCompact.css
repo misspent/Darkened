@@ -39,8 +39,8 @@
   opacity: var(--Member-List-Toggle-3);
   transition: .3s ease;
 }
-:root .membersWrap-3NUR2t::before { /* Height = 0/initial | opacity = 0/1 */
-  height: var(--Member-List-Toggle-2);
+:root .membersWrap-3NUR2t::before { /* Height = 0/15px | opacity = 0/1 */
+  height: 15px;
   opacity: var(--Member-List-Toggle-3);
   transition: .3s ease;
 }

@@ -83,9 +83,9 @@
   /* Compact Member List */
   --Member-List-Toggle: 52px; /* Left variable = 52px, Right variable = 240px */
   --Member-List-Toggle-1: 0; /* Left variable = 0, Right variable = 45px */
-  --Member-List-Toggle-2: 0; /* Left variable = 0, Right variable = initial */
+  --Member-List-Toggle-2: 0; /* Left variable = 0, Right variable = 30px */
   --Member-List-Toggle-3: 0; /* Left variable = 0, Right variable = 1 */
-  --Member-List-Toggle-4: 0; /* Left variable = 0, Right variable = 6px 0 */
+  --Member-List-Toggle-4: 0; /* Left variable = 0, Right variable = 8px 0 */
 
   /* Radial Status */
   --rs-small-spacing: 0px;
