@@ -1227,6 +1227,7 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .container-1Vmp-9 .checkboxWrapper-2fDzaA.row-31nALW {background: var(--background-primary); border-radius: var(--server-radius);} /* Enable community container in server settings */
 .radioIconForeground-2BMavi {color: var(--mention-color);}
 .item-2idW98 {border-radius: var(--server-radius);}
+h3.defaultColor-24IHKz.heading-lg-medium-3gUJeM.defaultColor-HXu-5n.footerTitle-3Bslxi {height: 26px; background: var(--background-secondary); border-top: 1px solid var(--border-color);} /* Create a server "Already have an invite" box */
 /* Connections in settings */
 .accountBtn-1YkMgV .accountBtnInner-3XK70s {background-color: #152242;}
 
@@ -2468,6 +2469,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .divider-1tWBgZ {display: none;}
 
 /* Roles */
+/* Roles | I got this from the Couve theme! */
 .roles-3zC7MX {
   display: grid;
   grid-template-columns: repeat(var(--roleslist-columns), minmax(0, 1fr));
@@ -2480,58 +2482,76 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   background-color: var(--popout-background-main);
   bottom: 2px;
 }
-.roles-3zC7MX .roleCircle-3K9O3d {
-  flex-shrink: 0;
-}
-.role-2TIOKu .roleCircle-3K9O3d {
-  width: 6px;
-  height: 6px;
-}
-.role-2TIOKu {
+:root .role-2TIOKu, :root .sidebar-3K3Z4C .list-1AJFv_ .item-3XjbnG, :root .container-2O1UgZ .item-1BCeuB, :root .roleRow-3HnunM {
   position: relative;
   overflow: hidden;
-  background: transparent;
-  border-radius: 0px 0px 0px 0px;
-  margin: 0px;
-  padding: 0px 2px 0px 2px;
-  border: solid;
-  border-width: 0px 0px 0px 3px;
+  height: unset;
+  z-index: 1;
+  border: none;
+  padding: 3px;
+  border-radius: 0px;
+  margin-right: 0px;
+  margin-left: 0;
 }
-.role-2TIOKu:before {
+:root .role-2TIOKu .roleCircle-3K9O3d::before, :root .sidebar-3K3Z4C .list-1AJFv_ .item-3XjbnG .roleCircle-3K9O3d::before,
+:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::before, :root .roleRow-3HnunM .roleCircle-3K9O3d::before {
   content: "";
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  left: 0px;
-  border-width: 12px;
-  border-style: solid;
-  border-color: inherit;
-  box-sizing: border-box;
+  height: 100%;
+  background: inherit;
+  opacity: 0.2;
+  z-index: -1;
   pointer-events: none;
-  opacity: 0.3;
 }
-.role-2TIOKu:hover:before {
-  opacity: 0.7;
-  filter: saturate(1.4);
+:root .role-2TIOKu .roleCircle-3K9O3d::after, :root .sidebar-3K3Z4C .list-1AJFv_ .item-3XjbnG .roleCircle-3K9O3d::after,
+:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::after, :root .roleRow-3HnunM .roleCircle-3K9O3d::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: inherit;
+  opacity: 0.6;
+  z-index: -1;
+  pointer-events: none;
 }
-.role-2TIOKu .roleName-2ZJJYR {
-  color: #ffffff;
-  text-shadow: -1px 2px 2px #0f0f0f;
-  margin: 0px 2px 0px 0px;
-  overflow: hidden; /* Default: visible */
-  z-index: 1;
+:root .roleRemoveButton-17oXnT {
+  position: unset;
 }
+/* My Stuff */
 .role-2TIOKu[aria-label="Add role"] {
   font-size: 12px;
   font-weight: 500;
-  background: transparent);
+  background-color: #6e85d371;
   border-radius: 0px;
-  -webkit-box-sizing: border-box;
-  border-color: #6e85d3;
-  box-sizing: border-box;
   height: 22px;
   width: 25px !important;
   margin: 0 0px 4px 0;
   padding: 4px;
+}
+.role-2TIOKu[aria-label="Add role"]:before {
+  content: "";
+  left: 0;
+  position: absolute;
+  background-color: #6e85d3;
+  height: 22px;
+  width: 3px !important;
+}
+.roleCircle-3K9O3d {
+  width: 6px;
+  height: 6px;
+  margin: 0 5px 0px 6px;
+}
+:root .roleRemoveButton-17oXnT .roleRemoveIcon-387wKV {
+  left: 13px;
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 8px;
 }
 .headerTop-3GPUSF {margin-top: 10px;}
 .focused-qp-W9B, .item-1BCeuB:hover:not(.disabled-Mmpvl7) {background-color: var(--background-modifier-hover) !important;} /* When you click the "+" to add roles | Hover colour */
