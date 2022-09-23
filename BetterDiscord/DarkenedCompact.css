@@ -124,6 +124,16 @@
   left: 1.7rem;
   top: 3rem;
 }
+.compact-2Nkcau.wrapper-30-Nkg .spine-2vt3pM { /* Compact Thread line */
+  border-bottom-left-radius: 0px;
+  border-bottom: 2px solid var(--unread-color);
+  border-left: 2px solid var(--unread-color);
+  bottom: 29px;
+  position: absolute;
+  top: 0;
+  left: -1.4rem;
+  width: 1.1rem;
+}
 .cozy-VmLDNB .timestamp-p1Df1m.alt-1dvXnH {display: none;} /* Hover Timestamp */
 /*
 .repliedTextPreview-1bvxun.clickable-31pE3P {border-left: 3px solid grey; padding: 2px 6px; color: #ccc; background-color: var(--channeltextarea-background)}

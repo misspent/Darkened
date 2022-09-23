@@ -1987,7 +1987,7 @@ div.messagesWrapper-RpOMA3.group-spacing-16 .container-3YcgdM > div.buttons-BK5g
 .tags-1bn36G .container-m0iv4O .pill-3pRQlO {background: var(--background-tertiary) !important;}
 .tags-1bn36G .container-m0iv4O .pill-3pRQlO:hover {background: var(--background-modifier-selected) !important;}
 /* Click a link in chat and it'll show a container like "Hang on" -> Cancel/Yep! | Don't add until you know what it actually fucks with */
-.h2-1EaYVL {display: flex; justify-content: center; align-items: center;}
+.h2-1EaYVL {display: flex; justify-content: center; align-items: center; margin-top: 0px;}
 /* See Examples popup */
 .container-23VlYH {border-radius: var(--server-radius);}
 .inlineTag-2gm6Tj, .tag-3baoyj {background: var(--background-tertiary); border-radius: var(--server-radius);}
@@ -3120,7 +3120,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .assetsLargeMaskActivityFeed-1IwNdL, .assetsLargeMaskProfile-9q3P0C {-webkit-mask: none !important;} /* Activity section in usrbg popout */
 
 /* Avatars radius */
-.wrapper-1VLyxH, .avatar-2e8lTP, .profile-1o7I_1 .avatarUploaderInner-yEhTv5, .voiceAvatar-lRbblo, .avatar-3FKimL, .border-2BJQjd, .avatar-3TrM7c, .clickableAvatar-igrb2Y, .emptyUser-2FDCJv, .avatar-b5OQ1N, .wrapper-3mYmFS.ringingIncoming-fibTw-:after, .wrapper-3mYmFS.ringingOutgoing-1NjfRn:after, .replyAvatar-sHd2sU, .avatarSpeaking-33RRJU, .avatar-2EVtgZ, .avatarContainer-3tBLDx, .appAvatar-2_lufo, .avatarUploaderPremium-2urJVq, .avatarUploaderInner-p38nm2, .imageUploaderInner-IIRaFr, .theme-dark .imageUploaderIcon-2OHmFu, .voiceSectionAssets-1dg-E5, .voiceSectionGuildImage-TctMOd, .voiceSectionNoGuildImageWrapper-17kLyh, .gameIcon-1mDo1J, .messages-23can0, .embedAuthorIcon-3pnkS4, .embedFooterIcon-1dTZzD, .avatarHoverTarget-l77PhT {
+.wrapper-1VLyxH, .avatar-2e8lTP, .profile-1o7I_1 .avatarUploaderInner-yEhTv5, .voiceAvatar-lRbblo, .avatar-3FKimL, .border-2BJQjd, .avatar-3TrM7c, .clickableAvatar-igrb2Y, .emptyUser-2FDCJv, .avatar-b5OQ1N, .wrapper-3mYmFS.ringingIncoming-fibTw-:after, .wrapper-3mYmFS.ringingOutgoing-1NjfRn:after, .replyAvatar-sHd2sU, .avatarSpeaking-33RRJU, .avatar-2EVtgZ, .avatarContainer-3tBLDx, .appAvatar-2_lufo, .avatarUploaderPremium-2urJVq, .avatarUploaderInner-p38nm2, .imageUploaderInner-IIRaFr, .theme-dark .imageUploaderIcon-2OHmFu, .voiceSectionAssets-1dg-E5, .voiceSectionGuildImage-TctMOd, .voiceSectionNoGuildImageWrapper-17kLyh, .gameIcon-1mDo1J, .messages-23can0, .embedAuthorIcon-3pnkS4, .embedFooterIcon-1dTZzD, .avatarHoverTarget-l77PhT, .discordMemberCreatedAtIconContainer-2oMHqL {
   border-radius: var(--avatar-radius) !important;
 }
 
