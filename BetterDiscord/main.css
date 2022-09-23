@@ -2530,7 +2530,6 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   border-radius: 0px;
   height: 22px;
   width: 25px !important;
-  margin: 0 0px 4px 0;
   padding: 4px;
 }
 .role-2TIOKu[aria-label="Add role"]:before {
@@ -2553,6 +2552,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   background: red;
   border-radius: 8px;
 }
+.role-2TIOKu {margin: 0px;}
 .headerTop-3GPUSF {margin-top: 10px;}
 .focused-qp-W9B, .item-1BCeuB:hover:not(.disabled-Mmpvl7) {background-color: var(--background-modifier-hover) !important;} /* When you click the "+" to add roles | Hover colour */
 
