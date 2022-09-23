@@ -1234,7 +1234,8 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .item-2idW98[aria-checked="false"] .radioBar-3w9XY- {background: var(--background-primary);}
 .contentColumnDefault-3eyv5o .item-2idW98[aria-checked="false"] .radioBar-3w9XY- {background: var(--background-secondary);}
 .radioBar-3_FqUK {background: var(--background-tertiary) !important;}
-.content-2hZxGK {background: var(--background-secondary); border-radius: 0px; padding-left: 8px; padding-top: 8px;}
+.content-2hZxGK {background: var(--background-secondary); border-radius: 0px; padding: 16px !important;}
+.messagePreviewContainer-1oR1Oc {background: var(--background-tertiary);}
 .container-1uLMWp {margin-bottom: 0px;}
 .templatesList-uohY49 {margin-top: 0px;}
 .container-1Vmp-9 .checkboxWrapper-2fDzaA.row-31nALW {background: var(--background-primary); border-radius: var(--server-radius);} /* Enable community container in server settings */
@@ -1952,11 +1953,12 @@ video.spacing-Qvs3Lr.marginBottom20-315RVT {width: -webkit-fill-available !impor
 /* New Forum Posts stand out */
 .mainCard-3KBsBI .body-hCVwsC, .left-r1N3TH, .imageWrapper-oMkQl4 {z-index: 1;}
 .newBadge-1LcB6t:before {background: #1edc6023; content: ""; width: 100%; height: 100%; position: absolute; z-index: -1; left: 0px; top: 0px;}
-/* ==> Post - Sidebar Card <== */
+/* ==> Post Guidelines - Sidebar Card <== */
 .sidebarCard-1Gn1ch {border-radius: var(--server-radius); background: var(--background-secondary);}
 .guidelinesHeader-3MJnw8 {justify-content: center;}
 .guidelinesHeader-3MJnw8 > svg {color: #7289da;}
 .markup-eYLPri ul li::marker {color: crimson;}
+.container-nExq0v .guidelines-14qcPv {padding-bottom: 8px;}
 /* ==> When "chat" is open <== */
 .addReactButton-3bSQb6, .buttonInner-3aRbcx > svg {color: yellow;} /* Follow button */
 .rem-3kT9wc.botTag-7aX5WZ.botTagOP-3pUTXu {background: red !important; color: #fff; margin-top: 0px;} /* Bot Tag "OP" */
@@ -2555,7 +2557,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   display: flex;
   justify-content: center;
 }
-.userPopoutInner-PA9zkU .userTagNoNickname-2MJ9HD, .userText-148fun {
+.userPopout-29jUdN .userText-148fun {
   position: fixed;
   width: 100%;
   left: 0px;
