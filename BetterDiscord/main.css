@@ -2445,7 +2445,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .customStatusText-2bcbbm, .defaultColor-24IHKz {color: #dcddde !important;}
 .userPopout-3fydSP .markup-eYLPri a {color: #00aFF4 !important;}
 /* Custom Status in popout (Container for people status in popout) + about me + "message/input box (footer) */
-:root .userPopout-3fydSP .section-3FmfOT .customStatus-3Bvsdb::before {
+:root .userPopout-29jUdN .section-3FmfOT .customStatus-3Bvsdb::before {
   content: "CUSTOM STATUS";
   position: absolute;
   top: 0px;
@@ -2458,7 +2458,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   background-color: var(--popout-title);
   border-radius: var(--server-radius) var(--server-radius) 0px 0px;
 }
-:root .userPopout-3fydSP .section-3FmfOT .customStatus-3Bvsdb {
+:root .userPopout-29jUdN .section-3FmfOT .customStatus-3Bvsdb {
   position: relative;
   width: calc(100% - 0px);
   background-color: var(--popout-background-main);
