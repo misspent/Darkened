@@ -503,7 +503,6 @@
 
 /* NOTE: Status picker menu */
 
-
 /* --> Discovery section <-- */
 
 .categoryPill-1zjNrr, .splashContainer-2PC_Bm, .popout-1KHNAq, .new-3EJMgr, .headerImage-2D5D-v {border-radius: var(--server-radius) !important;}
@@ -2427,7 +2426,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .themed-1LCNAV .textLeft-1Noen0, .themed-1LCNAV .textRight-2IW704 {padding: 0px 4px;}
 /* Spotify Icon | Spotify buttons color on popout */
 .theme-dark .activityUserPopout-2MzGCj .platformIcon-k3yytQ, .theme-dark .activityUserPopoutV2-3eKqzY .platformIcon-k3yytQ, .theme-light .activityUserPopout-2MzGCj .platformIcon-k3yytQ, .theme-light .activityUserPopoutV2-3eKqzY .platformIcon-k3yytQ {display: none;}
-.activity-E0U09Y .buttonColor-XIRMbp {background: rgba(var(--accent), 0.5); margin: 4px;}
+.activity-E0U09Y .buttonColor-XIRMbp {background: rgba(var(--accent), 0.5);}
 .activity-E0U09Y:hover .buttonColor-XIRMbp:hover {filter: brightness(110%); opacity: 1;}
 /* "Message @user container */
 .messageInputContainer-2rGDH8 {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-primary) !important; border: none;}
@@ -2440,6 +2439,10 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .theme-light input {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-secondary) !important; border: none;}
 .theme-light .messageInput-1KI8l8::placeholder {background: var(--background-secondary) !important;}
 .theme-light .textarea-_59yqs::placeholder {background: var(--popout-background-main) !important;}
+/* Popout activity spotify text colour & Roles | Light popout */
+.theme-dark .activityProfile-1712BN .activityName-3YXl6e, .theme-dark .activityProfile-1712BN .content-tXPNDw, .theme-dark .activityProfile-1712BN .details-2-ciHo, .theme-dark .activityProfile-1712BN .name-1-Q7l2, .theme-dark .activityProfile-1712BN .nameNormal-2fPMD2, .theme-dark .activityProfile-1712BN .nameWrap-3TyM52, .theme-dark .activityUserPopout-2MzGCj .activityName-3YXl6e, .theme-dark .activityUserPopout-2MzGCj .content-tXPNDw, .theme-dark .activityUserPopout-2MzGCj .details-2-ciHo, .theme-dark .activityUserPopout-2MzGCj .name-1-Q7l2, .theme-dark .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .theme-dark .activityUserPopout-2MzGCj .nameWrap-3TyM52, .theme-dark .activityUserPopoutV2-3eKqzY .activityName-3YXl6e, .theme-dark .activityUserPopoutV2-3eKqzY .content-tXPNDw, .theme-dark .activityUserPopoutV2-3eKqzY .details-2-ciHo, .theme-dark .activityUserPopoutV2-3eKqzY .name-1-Q7l2, .theme-dark .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2, .theme-dark .activityUserPopoutV2-3eKqzY .nameWrap-3TyM52, .theme-light .activityProfile-1712BN .activityName-3YXl6e, .theme-light .activityProfile-1712BN .content-tXPNDw, .theme-light .activityProfile-1712BN .details-2-ciHo, .theme-light .activityProfile-1712BN .name-1-Q7l2, .theme-light .activityProfile-1712BN .nameNormal-2fPMD2, .theme-light .activityProfile-1712BN .nameWrap-3TyM52, .theme-light .activityUserPopout-2MzGCj .activityName-3YXl6e, .theme-light .activityUserPopout-2MzGCj .content-tXPNDw, .theme-light .activityUserPopout-2MzGCj .details-2-ciHo, .theme-light .activityUserPopout-2MzGCj .name-1-Q7l2, .theme-light .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .theme-light .activityUserPopout-2MzGCj .nameWrap-3TyM52, .theme-light .activityUserPopoutV2-3eKqzY .activityName-3YXl6e, .theme-light .activityUserPopoutV2-3eKqzY .content-tXPNDw, .theme-light .activityUserPopoutV2-3eKqzY .details-2-ciHo, .theme-light .activityUserPopoutV2-3eKqzY .name-1-Q7l2, .theme-light .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2, .theme-light .activityUserPopoutV2-3eKqzY .nameWrap-3TyM52 {color: hsl(210deg, calc(var(--saturation-factor, 1) * 2.9%), 86.7%);}
+.rolePill-2IJ1vo {background-color: transparent;}
+.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1 > div > div > svg > circle  {display: none;}
 /* Popout colour fix for the light version of popout? */
 .userTagUsernameNoNickname-2e_xaO {color: #fff !important;} .discrimBase-KriZSj {color: #b9bbbe !important;}
 .customStatusText-2bcbbm, .defaultColor-24IHKz {color: #dcddde !important;}
@@ -2469,7 +2472,6 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 }
 .divider-1tWBgZ {display: none;}
 
-/* Roles */
 /* Roles | I got this from the Couve theme! */
 .roles-3zC7MX {
   display: grid;
@@ -2482,6 +2484,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   overflow: auto;
   background-color: var(--popout-background-main);
   bottom: 2px;
+  color: hsl(210deg, calc(var(--saturation-factor, 1) * 2.9%), 86.7%);
 }
 :root .role-2TIOKu, :root .sidebar-3K3Z4C .list-1AJFv_ .item-3XjbnG, :root .container-2O1UgZ .item-1BCeuB, :root .roleRow-3HnunM {
   position: relative;
@@ -2578,7 +2581,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   z-index: 1;
 }
 [id*=popout] > div > div > div > div.overlayBackground-arbZMT > div:nth-child(1) {padding: 0px !important;}
-.activity-E0U09Y .buttonsWrapper-2ARRp1 {margin-top: 0px;}
+.activity-E0U09Y .buttonsWrapper-2ARRp1 {margin-top: 3px; padding: 0px 4px 4px 4px;}
 .bannerSVGWrapper-qc0szY mask, .avatarPositionPremiumNoBanner-nWzERs circle {display: none;}
 /* Staff Bot Tag */
 .userPopoutInner-1v4xcM .px-MnE_OR.botTag-7aX5WZ {
@@ -2879,6 +2882,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 
 /* Joining message */
 .theme-dark .contentWrapper-3oy4Xo {background: var(--background-secondary);}
+.contentWrapper-3oy4Xo:only-child {border-radius: var(--server-radius);}
 
 /* Welcome message
 .root-g14mjS:not(.modal-3Crloo) {background: var(--background-secondary);} */
