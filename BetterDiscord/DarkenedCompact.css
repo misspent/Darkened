@@ -149,3 +149,22 @@
 .repliedTextPreview-1bvxun.clickable-31pE3P {border-left: 3px solid grey; padding: 2px 6px; color: #ccc; background-color: var(--channeltextarea-background)}
 .repliedTextPreview-1bvxun.clickable-31pE3P:hover {color: rgb(0, 204, 255);}
 */
+
+/* PreviewMessageLinks Plugin */
+.messageEmbed > * {
+  color: var(--text-normal);
+  display: inline-block;
+  pointer-events: auto;
+  position: relative;
+  max-width: 100%;
+  background: var(--background-secondary);
+  border-radius: var(--server-radius);
+  padding: 8px 8px;
+}
+.messageEmbed {
+  left: 40px;
+  margin: 0px;
+  padding: 4px 0px 4px 1px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--server-radius);
+}
