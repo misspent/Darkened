@@ -502,6 +502,13 @@
 .gif-1EWTs-, .result-3OpoO7:after {border-radius: var(--server-radius) !important;}
 
 /* NOTE: Status picker menu */
+/* Status Picker */
+.item-1OdjEX::before {display: none;}
+/* Icon colours */
+.customEmojiPlaceholder-35gKOP {filter: sepia(1) saturate(5);}
+.iconContainer-1-SsTR .icon-E4cW1l[xmlns="http://www.w3.org/2000/svg"] {filter: sepia(1) saturate(5) hue-rotate(175deg);}
+/* Status Picker when hovering over you name/pfp */
+.withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {background: var(--background-primary);}
 
 /* --> Discovery section <-- */
 
