@@ -2452,7 +2452,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .customStatusText-2bcbbm, .defaultColor-24IHKz {color: #dcddde !important;}
 .userPopout-3fydSP .markup-eYLPri a {color: #00aFF4 !important;}
 /* Custom Status in popout (Container for people status in popout) + about me + "message/input box (footer) */
-:root .userPopout-29jUdN .section-3FmfOT .customStatus-3Bvsdb::before {
+:root .userProfileInner-3F03PX .section-3FmfOT .customStatus-3Bvsdb::before {
   content: "CUSTOM STATUS";
   position: absolute;
   top: 0px;
@@ -2465,7 +2465,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   background-color: var(--popout-title);
   border-radius: var(--server-radius) var(--server-radius) 0px 0px;
 }
-:root .userPopout-29jUdN .section-3FmfOT .customStatus-3Bvsdb {
+:root .userProfileInner-3F03PX .section-3FmfOT .customStatus-3Bvsdb {
   position: relative;
   width: calc(100% - 0px);
   background-color: var(--popout-background-main);
@@ -2565,7 +2565,87 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .focused-qp-W9B, .item-1BCeuB:hover:not(.disabled-Mmpvl7) {background-color: var(--background-modifier-hover) !important;} /* When you click the "+" to add roles | Hover colour */
 
 /* ====> New Style Profile popout <==== */
-
+.avatarWrapper-3y0KZ1 {
+  width: 100%;
+  left: 0px;
+  top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.userProfileInner-3F03PX .userText-148fun {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 110px;
+  /* display: flex; Test */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+.activity-E0U09Y .buttonsWrapper-2ARRp1 {margin-top: 3px; padding: 0px 4px 4px 4px;}
+.bannerSVGWrapper-qc0szY mask, .avatarPositionPremiumNoBanner-nWzERs circle {display: none;}
+/* Staff Bot Tag */
+.userProfileInner-3F03PX .px-MnE_OR.botTag-7aX5WZ {
+  position: absolute;
+  margin-top: 0px;
+  right: 10px;
+  top: 2px;
+  content-visibility: hidden;
+}
+.userProfileInner-3F03PX .px-MnE_OR.botTag-7aX5WZ:hover {
+  content-visibility: visible;
+}
+/* Banners */
+.popoutBanner-16rVDY, .popoutNoBannerPremium-2TQa6P, .popoutBannerPremium-2RvDNZ {
+  min-height: 165px !important;
+  max-height: 165px !important;
+}
+.userProfileInner-3F03PX .bannerSVGWrapper-qc0szY {
+  min-height: 165px !important;
+  max-height: 165px !important;
+  margin: auto;
+}
+.userProfileInner-3F03PX .bannerPremium-86naOf {
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: 220px 120px;
+  width: 218px !important;
+  background-color: transparent !important;
+}
+.popoutNoBannerPremium-2TQa6P {
+  filter: brightness(65%);
+}
+/* Badges */
+.userProfileInner-3F03PX .profileBadges-31rDHI {
+  top: 0px;
+  right: 6px;
+  padding: 0px;
+  margin-top: 6px;
+  position: absolute;
+  max-width: min-content;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+/* Pencil/edit banner button */
+.popoutBanner-16rVDY .pencilContainer-11Kuga, .popoutBannerPremium-2RvDNZ .pencilContainer-11Kuga {
+  top: 6px;
+  right: auto;
+  left: 6px;
+  padding: 0px;
+}
+.popoutBanner-16rVDY .pencilContainer-11Kuga, .popoutBannerPremium-2RvDNZ .pencilContainer-11Kuga > svg {
+  width: 15px;
+  height: 15px;
+}
+/* Fixes */
+.userProfileInner-3F03PX, .theme-dark.profileColors-3Y0XaR, .theme-light.profileColors-3Y0XaR {width: 300px !important;}
+.section-3FmfOT {padding: 0px 12px 12px 12px !important;}
+.userPopoutOverlayBackground-dKOOda {margin: 0px !important;}
+.userProfileOuter-1K_BYU {border-radius: var(--server-radius); box-shadow: none;}
+/* Light theme */
+.overlayBackground-1KgwVi {background-color: var(--background-secondary); border-radius: 0px;}
 
 /* =========> Popout USRBG Model [Big Profile Model] <========= */
 .pencilContainer-18TrEJ {border-radius: var(--server-radius);}
