@@ -1944,6 +1944,8 @@ video.spacing-Qvs3Lr.marginBottom20-315RVT {width: -webkit-fill-available !impor
 /* New Forum Posts stand out */
 .mainCard-3KBsBI .body-hCVwsC, .left-r1N3TH, .imageWrapper-oMkQl4 {z-index: 1;}
 .newBadge-1LcB6t:before {background: #1edc6023; content: ""; width: 100%; height: 100%; position: absolute; z-index: -1; left: 0px; top: 0px;}
+/* Pinned Forum Posts stand out */
+.pinIcon-zVODC5:before {background: #5865f25d; content: ""; width: 100%; height: 100%; position: absolute; z-index: -1; left: 0px; top: 0px;}
 /* ==> Post Guidelines - Sidebar Card <== */
 .sidebarCard-1Gn1ch {border-radius: var(--server-radius); background: var(--background-secondary);}
 .guidelinesHeader-3MJnw8 {justify-content: center;}
