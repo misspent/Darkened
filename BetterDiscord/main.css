@@ -2565,6 +2565,18 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .role-2TIOKu {margin: 0px;}
 .headerTop-3GPUSF {margin-top: 10px;}
 .focused-qp-W9B, .item-1BCeuB:hover:not(.disabled-Mmpvl7) {background-color: var(--background-modifier-hover) !important;} /* When you click the "+" to add roles | Hover colour */
+/* Discord Member Since container in popout */
+.memberSinceContainer-2CBD23 {
+  background: var(--popout-background-main);
+  margin-bottom: 8px;
+}
+.memberSinceContainer-3biwiY { /* Status Picker member & popout container?! Fucking discord moment */
+  background: var(--popout-background-main);
+  justify-content: center;
+}
+.discordIcon-JXet1k {
+  color: var(--brand-experiment-500);
+}
 
 /* ====> New Style Profile popout <==== */
 .avatarWrapper-3y0KZ1 {
