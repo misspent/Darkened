@@ -2422,7 +2422,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 /* About me, Roles, Note and activity containers */
 .theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9, .theme-light .activityUserPopoutV2-3eKqzY .headerText-3g1XK9 {color: var(--header-secondary);} /* Activity title text colour */
 .headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center; color: var(--header-secondary) !important;}
-.wrap-7NZuTn, .textarea-_59yqs, .activity-E0U09Y {background: var(--popout-background-main) !important; margin-top: 0px; margin-bottom: 0px; border-radius: 0px 0px var(--server-radius) var(--server-radius) !important;}
+.wrap-7NZuTn, .textarea-_59yqs, .activity-E0U09Y {/*background: var(--popout-background-main);*/ margin-top: 0px; margin-bottom: 0px; border-radius: 0px 0px var(--server-radius) var(--server-radius) !important;}
 /* Notes container fix */
 .themedPopout-1TrfdI .messagesPopout-eVzQcI .cozy-VmLDNB.wrapper-30-Nkg {margin-left: 6px;}
 /* Activity inner container fixes */
