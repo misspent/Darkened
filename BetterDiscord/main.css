@@ -2422,7 +2422,21 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 /* About me, Roles, Note and activity containers */
 .theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9, .theme-light .activityUserPopoutV2-3eKqzY .headerText-3g1XK9 {color: var(--header-secondary);} /* Activity title text colour */
 .headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center; color: var(--header-secondary) !important;}
-.wrap-7NZuTn, .textarea-_59yqs, .activity-E0U09Y {/*background: var(--popout-background-main);*/ margin-top: 0px; margin-bottom: 0px; border-radius: 0px 0px var(--server-radius) var(--server-radius) !important;}
+.wrap-7NZuTn, .textarea-_59yqs, .activity-E0U09Y {margin-top: 0px; margin-bottom: 0px; border-radius: 0px 0px var(--server-radius) var(--server-radius) !important;}
+/* Listening to spotify background in popout */
+.activity-E0U09Y, div.activityUserPopoutV2-3eKqzY.activity-E0U09Y {background: #5865F24e;}
+.assetsLargeMaskStreamPreview--ugZjW, .assetsLargeMaskUserPopout-3N96A8, .assetsLargeMaskUserPopoutV2-2oZjbP, .assetsLargeMaskVoiceChannel-3IlDCA {-webkit-mask: none !important;}
+.activity-E0U09Y .platformIcon-k3yytQ {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  background: #073317 !important;
+  z-index: -1;
+  padding-right: 100%;
+}
+.activity-E0U09Y, .assets-3PQvAh, .content-tXPNDw, .text-31kWmP, .buttonSize-dIiz43 {z-index: 1;}
+.barInner-3dHef4 {background: #1DB954 !important; z-index: 1;}
+.bar-1GpknY {background: var(--background-tertiary) !important; z-index: 1; border-radius: 0px;}
+div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !important; background: var(--popout-title) !important; width: 100%; text-align: center;}
 /* Notes container fix */
 .themedPopout-1TrfdI .messagesPopout-eVzQcI .cozy-VmLDNB.wrapper-30-Nkg {margin-left: 6px;}
 /* Activity inner container fixes */
@@ -2431,7 +2445,6 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .barInner-3dHef4, .bar-1GpknY {border-radius: 0px;}
 .themed-1LCNAV .textLeft-1Noen0, .themed-1LCNAV .textRight-2IW704 {padding: 0px 4px;}
 /* Spotify Icon | Spotify buttons color on popout */
-.theme-dark .activityUserPopout-2MzGCj .platformIcon-k3yytQ, .theme-dark .activityUserPopoutV2-3eKqzY .platformIcon-k3yytQ, .theme-light .activityUserPopout-2MzGCj .platformIcon-k3yytQ, .theme-light .activityUserPopoutV2-3eKqzY .platformIcon-k3yytQ {display: none;}
 .activity-E0U09Y .buttonColor-XIRMbp {background: rgba(var(--accent), 0.5);}
 .activity-E0U09Y:hover .buttonColor-XIRMbp:hover {filter: brightness(110%); opacity: 1;}
 /* "Message @user container */
