@@ -151,7 +151,7 @@ https://user-images.githubusercontent.com/78914154/188267650-fbd5bd49-a294-46c3-
 
 | User Settings Menu | Server Actions Menu | Message Actions Menu |
 | :---------: | :---------: | :---------: |
-| <img width=250 src="https://user-images.githubusercontent.com/78914154/157084219-f549d866-dbe3-4bed-abd8-8fd15b9f0031.gif"></img>  | <img width=250 src="https://user-images.githubusercontent.com/78914154/157084265-cd1ed748-64cd-41dd-9b7d-0e3b619002a0.gif"></img>  | <img width=250 src="https://user-images.githubusercontent.com/78914154/157084308-4f320b91-5004-44b7-9fd3-4d8726188048.gif"></img>  |
+| <img width=250 src="https://user-images.githubusercontent.com/78914154/157084219-f549d866-dbe3-4bed-abd8-8fd15b9f0031.gif"></img>  | <img width=250 src="https://user-images.githubusercontent.com/78914154/157084265-cd1ed748-64cd-41dd-9b7d-0e3b619002a0.gif"></img>  | <img width=245 src="https://user-images.githubusercontent.com/78914154/157084308-4f320b91-5004-44b7-9fd3-4d8726188048.gif"></img>  |
 
 </details>
 
