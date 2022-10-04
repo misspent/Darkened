@@ -2455,7 +2455,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 /* Connections plugin stuff in popout */
 .base-ZDDK0g.muted-3SrRJ5 {display: inherit !important;}
 .connections-pPr4as {padding: 4px 0 0 5px;}
-.textarea-_59yqs, .textarea-_59yqs:focus, .aboutMeSection-PUghFQ, .connections-pPr4as, .lineClamp2Plus-2RYGV2 {background-color: var(--popout-background-main); border-radius: 0px 0px var(--server-radius) var(--server-radius);}
+.textarea-_59yqs, .textarea-_59yqs:focus, .aboutMeSection-PUghFQ, .connections-pPr4as, .lineClamp2Plus-2RYGV2, .note-6O4w9y textarea:focus {background-color: var(--popout-background-main); border-radius: 0px 0px var(--server-radius) var(--server-radius);}
 /* Light theme popout version */
 .theme-light .userPopoutInner-PA9zkU:before, .theme-light .overlayBackground-arbZMT {background: var(--popout-secondary) !important;}
 .theme-light input {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-secondary) !important; border: none;}
