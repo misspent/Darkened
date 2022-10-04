@@ -2423,8 +2423,8 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center; color: var(--header-secondary) !important;}
 .wrap-7NZuTn, .textarea-_59yqs, .activity-E0U09Y {margin-top: 0px; margin-bottom: 0px; border-radius: 0px 0px var(--server-radius) var(--server-radius) !important;}
 /* Buttons Activity popout */
-.timeBarUserPopout-qLXZaR, .timeBarUserPopoutV2-32DL06 {margin: 0px 2px 0px 2px;}
-.activity-E0U09Y .buttonsWrapper-2ARRp1 .buttonSize-dIiz43 {margin: 5px 4px 4px 4px;}
+.timeBarUserPopout-qLXZaR, .timeBarUserPopoutV2-32DL06 {margin: 0px 2px 0px 2px; padding: 4px 0px;}
+.activity-E0U09Y .buttonsWrapper-2ARRp1 {position: relative; margin: 5px 4px 4px 4px; bottom: 4px;}
 .buttonsWrapper-2ARRp1 {margin: 0px;}
 /* Listening to spotify background in popout */
 .activity-E0U09Y, div.activityUserPopoutV2-3eKqzY.activity-E0U09Y {background: #5865F24e;}
@@ -2444,7 +2444,6 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .themedPopout-1TrfdI .messagesPopout-eVzQcI .cozy-VmLDNB.wrapper-30-Nkg {margin-left: 6px;}
 /* Activity inner container fixes */
 .bodyAlignCenter-3E27PU, .bodyNormal-250CQK {padding: 4px 0px 4px 4px;}
-.timeBarUserPopout-qLXZaR, .timeBarUserPopoutV2-32DL06 {padding: 4px 0px;}
 .barInner-3dHef4, .bar-1GpknY {border-radius: 0px;}
 .themed-1LCNAV .textLeft-1Noen0, .themed-1LCNAV .textRight-2IW704 {padding: 0px 4px;}
 /* Spotify Icon | Spotify buttons color on popout */
@@ -3284,4 +3283,4 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="bdCompat-tab" i]::before {
   background: #7289da;
-}}
+}
