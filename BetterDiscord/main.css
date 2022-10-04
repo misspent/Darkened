@@ -2436,7 +2436,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
   z-index: -1;
   padding-right: 100%;
 }
-.activity-E0U09Y, .assets-3PQvAh, .content-tXPNDw, .text-31kWmP, .buttonSize-dIiz43 {z-index: 1;}
+.userProfileInner-3F03PX .activity-E0U09Y, .userProfileInner-3F03PX .assets-3PQvAh, .userProfileInner-3F03PX .content-tXPNDw, .userProfileInner-3F03PX .text-31kWmP, .userProfileInner-3F03PX .buttonSize-dIiz43 {z-index: 1;}
 .barInner-3dHef4 {background: #1DB954 !important; z-index: 1;}
 .bar-1GpknY {background: var(--background-tertiary) !important; z-index: 1; border-radius: 0px;}
 div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !important; background: var(--popout-title) !important; width: 100%; text-align: center;}
