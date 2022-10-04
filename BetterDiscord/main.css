@@ -2422,6 +2422,10 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9, .theme-light .activityUserPopoutV2-3eKqzY .headerText-3g1XK9 {color: var(--header-secondary);} /* Activity title text colour */
 .headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center; color: var(--header-secondary) !important;}
 .wrap-7NZuTn, .textarea-_59yqs, .activity-E0U09Y {margin-top: 0px; margin-bottom: 0px; border-radius: 0px 0px var(--server-radius) var(--server-radius) !important;}
+/* Buttons Activity popout */
+.timeBarUserPopout-qLXZaR, .timeBarUserPopoutV2-32DL06 {margin: 0px 2px 0px 2px;}
+.activity-E0U09Y .buttonsWrapper-2ARRp1 .buttonSize-dIiz43 {margin: 5px 4px 4px 4px;}
+.buttonsWrapper-2ARRp1 {margin: 0px;}
 /* Listening to spotify background in popout */
 .activity-E0U09Y, div.activityUserPopoutV2-3eKqzY.activity-E0U09Y {background: #5865F24e;}
 .assetsLargeMaskStreamPreview--ugZjW, .assetsLargeMaskUserPopout-3N96A8, .assetsLargeMaskUserPopoutV2-2oZjbP, .assetsLargeMaskVoiceChannel-3IlDCA {-webkit-mask: none !important;}
