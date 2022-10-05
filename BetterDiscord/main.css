@@ -2425,6 +2425,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 /* Buttons Activity popout */
 .timeBarUserPopout-qLXZaR, .timeBarUserPopoutV2-32DL06 {margin: 0px 2px 0px 2px; padding: 4px 0px;}
 .activity-E0U09Y .buttonColor-XIRMbp {margin: 5px 4px 4px 4px !important;}
+.activity-E0U09Y .disabledButtonWrapper-2Oz3aY .button-f2h6uQ.grow-2sR_-F {margin: 0px !important;}
 .buttonsWrapper-2ARRp1 {margin: 0px;}
 /* Listening to spotify background in popout */
 .activity-E0U09Y, div.activityUserPopoutV2-3eKqzY.activity-E0U09Y {background: #5865F24e;}
