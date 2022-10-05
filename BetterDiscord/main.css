@@ -2864,7 +2864,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .connectedAccountsColumn-1zdyyx+ .connectedAccountsColumn-1zdyyx {margin-left: 0px !important;}
 /* Connected Account actual container width */
 .connectedAccountContainer-3aLMHJ {width: 262px;}
-.connectedAccountContainer-3aLMHJ .connectedAccountNameContainer-3e9mvO::before {width: 276px;}
+.connectedAccountContainer-3aLMHJ .connectedAccountNameContainer-3e9mvO::before {width: 276px !important;}
 /* Discord Member Since */
 .root-8LYsGj .body-1Ukv50 .memberSinceContainer-2CBD23 {justify-content: center;}
 /* Activity section spotify icon */
