@@ -2824,6 +2824,8 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   position: absolute;
   top: 165px;
 }
+.root-8LYsGj .nameTag-2Nlmsy, .customStatusText-_4TbWr {text-shadow: 1px 1px 2px black !important;}
+.root-8LYsGj .nameTag-2Nlmsy:hover, .root-8LYsGj .customStatusText-_4TbWr:hover {background: rgba(0, 0, 0, 0.4);}
 /* Badges, Send Friends Request and 3 dots & Pencil */
 .root-8LYsGj .headerTop-1PNKck {
   position: absolute;
