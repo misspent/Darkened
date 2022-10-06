@@ -2740,8 +2740,105 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   background-color: var(--background-secondary);
 }
 
-/* ===> New Style USRBG User Profile <=== */
-
+/* =======> New Style USRBG User Profile <======= */
+.root-8LYsGj .nameTag-2Nlmsy {
+  position: absolute;
+  top: 60px;
+  margin-top: 76px;
+  margin-left: 12px;
+  margin-right: 16px;
+}
+.root-8LYsGj .avatar-3QF_VA {
+  top: -206px;
+  left: 10px;
+}
+.root-8LYsGj .customStatusActivity-WKWGD- {
+  position: absolute;
+  top: 16px;
+  left: 140px;
+  padding: 0px;
+  min-width: 420px;
+  max-width: 420px;
+}
+.root-8LYsGj .nameTag-2Nlmsy, .customStatusText-_4TbWr {text-shadow: 1px 1px 2px black !important;}
+.root-8LYsGj .nameTag-2Nlmsy:hover, .root-8LYsGj .customStatusText-_4TbWr:hover {background: rgba(0, 0, 0, 0.4);}
+/* Badges, Send Friends Request and 3 dots & Pencil */
+.root-8LYsGj .headerTop-1PNKck {
+  top: -50px;
+  margin: 0px 8px 0px 12px;
+  left: 0px;
+  width: -webkit-fill-available;
+}
+.relationshipButtons-3ByBpj .actionButton-iarQTd {margin: 5px;}
+.root-8LYsGj .pencilContainer-11Kuga {top: 9px; right: 9px;}
+/* Tab Bar | User info, Mutual Servers, etc */
+.tabBarItem-30Te4- {margin: 1px 1px; padding: 0px 4px;}
+.root-8LYsGj .tabBarContainer-sCZC4w {padding-left: 0px; margin-top: -4px; border-bottom: none;}
+.root-8LYsGj .tabBar-2hXqzU .tabBarItem-30Te4- {width: 140px; justify-content: center;}
+.top-K_jibn .item-3XjbnG {background: var(--background-secondary-alt);}
+.top-K_jibn .item-3XjbnG:hover {color: #ccc;}
+.top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG, .top-K_jibn .themed-2-lozF.item-3XjbnG:active {border-bottom-color: transparent; background: rgba(var(--accent), 0.3);}
+.top-K_jibn .themed-2-lozF.item-3XjbnG:hover {border-bottom-color: transparent;}
+.root-8LYsGj .tabBar-2hXqzU {height: 35px; justify-content: center; gap: 0px !important;  background: var(--background-tertiary);}
+.root-8LYsGj .noTabBar-2Q-iE_ {border: none;}
+.root-8LYsGj .bannerSVGWrapper-qc0szY {border-bottom: 1px solid var(--border-color);}
+/* ==> User info section <== */
+.infoScroller-1QMpon {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0px 8px;
+  overflow: hidden;
+  padding: 0px 12px !important;
+}
+.userInfoSection-2u2hir+ .userInfoSection-2u2hir {border: none;}
+.root-8LYsGj .userInfoText-2MFCmH {margin-bottom: 6px;}
+/* Connected Accounts */
+.connectedAccounts-2R5M4w, .discordMemberCreatedAtText-15sN5q {display: block;}
+.connectedAccountsColumn-1zdyyx {width: calc(100% - 0px);}
+.connectedAccountsColumn-1zdyyx:first-child {margin-top: 16px;}
+.connectedAccountsColumn-1zdyyx+ .connectedAccountsColumn-1zdyyx {margin-left: 0px !important;}
+/* Connected Account actual container width */
+.connectedAccountContainer-3aLMHJ {
+  border-radius: var(--server-radius);
+  border: 1px solid var(--background-tertiary);
+  background: var(--background-modifier-selected);
+  margin-bottom: 4px;
+  padding: 4px 10px;
+}
+/* Discord Member Since */
+.root-8LYsGj .body-1Ukv50 .memberSinceContainer-2CBD23 {justify-content: center;}
+/* Activity section */
+.theme-dark .activityProfile-1712BN .platformIcon-k3yytQ, .theme-light .activityProfile-1712BN .platformIcon-k3yytQ {display: none;}
+.root-8LYsGj .userProfileActivity-sal5no .buttonsWrapper-2ARRp1 {margin-left: 20px;}
+.root-8LYsGj .barInner-3dHef4 {background: #00ff00 !important;}
+/* ===> Banners <=== */
+/* Banner is the same size for everything & Makes Premium Banner GIF/Image fit properly */
+.root-8LYsGj .profileBannerPremium-3xIFwS, .root-8LYsGj .profileBanner-2zIsK7, .root-8LYsGj .bannerSVGWrapper-qc0szY, .root-8LYsGj .banner-2boKnS {height: 212px; min-height: 212px;}
+.root-8LYsGj .bannerPremium-86naOf {background-repeat: no-repeat; background-size: 600px 212px;}
+/* .root-8LYsGj .profileBanner-2zIsK7 {filter: brightness(65%) !important;} */
+.bannerSVGWrapper-qc0szY foreignObject {mask: none;}
+/* USRBG Profile Popup non-premium custom background */
+.root-8LYsGj .profileBanner-2zIsK7 {
+  background-repeat: no-repeat !important;
+  background-position: initial !important;
+  background-image: url("https://github.com/misspent/Darkened/blob/main/Other/Popup%20&%20Popout%20banners.jpg?raw=true") !important;
+  background-size: 300px 106px !important;
+}
+/* Popout non-premium custom background */
+.popoutBanner-16rVDY {
+  background-repeat: no-repeat !important;
+  background-position: initial !important;
+  background-image: url("https://github.com/misspent/Darkened/blob/main/Other/Popup%20&%20Popout%20banners.jpg?raw=true") !important;
+  background-size: 110px 60px !important;
+  z-index: 1;
+}
+.popoutNoBannerPremium-2TQa6P {
+  background-repeat: no-repeat !important;
+  background-position: initial !important;
+  background-image: url("https://github.com/misspent/Darkened/blob/main/Other/Popup%20&%20Popout%20banners.jpg?raw=true") !important;
+  background-size: 165px 90px !important;
+  z-index: 1;
+}
 
 /* --------------------------- ⚙️ SERVER SETTINGS --------------------------- */
 
