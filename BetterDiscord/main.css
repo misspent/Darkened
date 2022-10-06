@@ -2669,7 +2669,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   height: 15px;
 }
 /* Fixes */
-.userProfileInner-3F03PX, .theme-dark.profileColors-3Y0XaR, .theme-light.profileColors-3Y0XaR {width: 300px !important;}
+.userProfileInner-3F03PX, .theme-dark.profileColors-3Y0XaR, .theme-light.profileColors-3Y0XaR {width: 300px !important; position: relative;}
 .section-3FmfOT {padding: 0px 12px 12px 12px !important;}
 .userPopoutOverlayBackground-dKOOda {margin: 0px !important;}
 .userProfileOuter-1K_BYU {border-radius: var(--server-radius); box-shadow: none;}
