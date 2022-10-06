@@ -2683,7 +2683,6 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 /* Activity */
 .root-g14mjS .bodyAlignCenter-3E27PU, .bodyNormal-250CQK {padding: 8px;}
 .userProfileActivity-sal5no {margin-bottom: 8px; padding: 0px;}
-
 /* User Info Section | USRBG */
 .userBio-2-tr00 {
   background-color: var(--popout-background-main);
@@ -2707,7 +2706,6 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   border-radius: var(--server-radius) var(--server-radius) 0px 0px;
   margin-bottom: 0px;
 }
-
 /* Activity & Mutual Servers sections | USRBG  */
 .listRow-2nO1T6 {border-radius: var(--server-radius); margin: 1px 0 4px 0px;}
 .listScroller-entkMk {padding: 8px 8px 0px 8px !important;}
@@ -2736,7 +2734,6 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 :root .root-8LYsGj .activityProfile-1712BN .spotifyIcon-2J9kSv {
   display: none !important;
 }
-
 /* Connected Accounts | USRBG */
 :root .root-8LYsGj .body-1Ukv50 {
   z-index: 1;
@@ -2744,76 +2741,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 }
 
 /* ===> New Style USRBG User Profile <=== */
-.root-8LYsGj .nameTag-2Nlmsy {
-  position: absolute;
-  top: 60px;
-  margin-top: 76px;
-  margin-left: 12px;
-  margin-right: 16px;
-}
-.root-8LYsGj .avatar-3QF_VA {
-  top: -206px;
-  left: 10px;
-}
-.root-8LYsGj .customStatusActivity-WKWGD- {
-  position: absolute;
-  top: 165px;
-  padding: 0 16px 16px 12px;
-}
-.root-8LYsGj .nameTag-2Nlmsy, .customStatusText-_4TbWr {text-shadow: 1px 1px 2px black !important;}
-.root-8LYsGj .nameTag-2Nlmsy:hover, .root-8LYsGj .customStatusText-_4TbWr:hover {background: rgba(0, 0, 0, 0.4);}
-/* Badges, Send Friends Request and 3 dots & Pencil */
-.root-8LYsGj .headerTop-1PNKck {
-  position: absolute;
-  top: -205px;
-  left: 385px;
-  align-items: center;
-  flex-direction: column;
-  width: 205px;
-  height: fit-content !important;
-}
-.relationshipButtons-3ByBpj .actionButton-iarQTd {margin: 5px;}
-.relationshipButtons-3ByBpj {background: rgba(0, 0, 0, 0.8);}
-.root-8LYsGj .headerTop-1PNKck .container-1gYwHN {margin-bottom: 0px; padding-right: 0px; background: rgba(0, 0, 0, 0.8); }
-.root-8LYsGj .pencilContainer-11Kuga {top: 170px; right: 10px;}
-/* Tab Bar | User info, Mutual Servers, etc */
-.tabBarItem-30Te4- {margin-right: 0px; padding: 0px 4px;}
-.root-8LYsGj .tabBarContainer-sCZC4w {padding-left: 0px; margin-top: -3px; border-bottom: none;}
-.top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG, .top-K_jibn .themed-2-lozF.item-3XjbnG:active {border-bottom-color: transparent; background: var(--background-secondary);}
-.top-K_jibn .themed-2-lozF.item-3XjbnG:hover {border-bottom-color: transparent;}
-.root-8LYsGj .tabBar-2hXqzU {height: 35px; justify-content: center; gap: 0px !important;  background: var(--background-tertiary);}
-.root-8LYsGj .noTabBar-2Q-iE_ {border: none;}
-.root-8LYsGj .bannerSVGWrapper-qc0szY {border-bottom: 1px solid var(--border-color);}
-/* Banner is the same size for everything & Makes Premium Banner GIF/Image fit properly */
-.root-8LYsGj .profileBannerPremium-3xIFwS, .root-8LYsGj .profileBanner-2zIsK7, .root-8LYsGj .bannerSVGWrapper-qc0szY, .root-8LYsGj .banner-2boKnS {height: 212px; min-height: 212px;}
-.root-8LYsGj .bannerPremium-86naOf {background-repeat: no-repeat; background-size: 600px 212px;}
-.root-8LYsGj .profileBanner-2zIsK7 {filter: brightness(65%) !important;}
-.bannerSVGWrapper-qc0szY foreignObject {mask: none;}
-/* User info section and Connected Accounts */
-.infoScroller-1QMpon {
-  display: grid !important;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0px 8px;
-  overflow: hidden;
-  padding: 0px 12px !important;
-}
-.userInfoSection-2u2hir+ .userInfoSection-2u2hir {border: none;}
-.connectedAccounts-2R5M4w, .discordMemberCreatedAtText-15sN5q {display: block;}
-.connectedAccountsColumn-1zdyyx+ .connectedAccountsColumn-1zdyyx {margin-left: 0px !important;}
-/* Connected Account actual container width */
-.connectedAccountContainer-3aLMHJ {
-  width: 250px;
-  border-radius: var(--server-radius);
-  border: 1px solid var(--profile-body-divider-color);
-  background: var(--background-primary);
-}
-.connectedAccountsColumn-1zdyyx {width: max-content;}
-/* Discord Member Since */
-.root-8LYsGj .body-1Ukv50 .memberSinceContainer-2CBD23 {justify-content: center;}
-/* Activity section spotify icon */
-.theme-dark .activityProfile-1712BN .platformIcon-k3yytQ, .theme-light .activityProfile-1712BN .platformIcon-k3yytQ {display: none;}
-.userProfileActivity-sal5no .buttonsWrapper-2ARRp1 {margin-left: 20px;}
-.root-8LYsGj .barInner-3dHef4 {background: #00ff00 !important;}
+
 
 /* --------------------------- ⚙️ SERVER SETTINGS --------------------------- */
 
