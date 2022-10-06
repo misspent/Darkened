@@ -242,7 +242,7 @@
 }
 .item-2LIpTv[style*="height: 40px"] {
   border-radius: var(--server-radius);
-  top: 4px;
+  top: auto;
   box-shadow: none;
 }
 .wrapper-z5ab_q {justify-content: flex-end;}
@@ -2424,9 +2424,11 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .wrap-7NZuTn, .textarea-_59yqs, .activity-E0U09Y {margin-top: 0px; margin-bottom: 0px; border-radius: 0px 0px var(--server-radius) var(--server-radius) !important;}
 /* Buttons Activity popout */
 .timeBarUserPopout-qLXZaR, .timeBarUserPopoutV2-32DL06 {margin: 0px 2px 0px 2px; padding: 4px 0px;}
-.activity-E0U09Y .buttonColor-XIRMbp {margin: 5px 4px 4px 4px !important;}
 .activity-E0U09Y .disabledButtonWrapper-2Oz3aY .button-f2h6uQ.grow-2sR_-F {margin: 0px !important;}
 .buttonsWrapper-2ARRp1 {margin: 0px;}
+/* Spotify Icon | Spotify buttons color on popout */
+.activity-E0U09Y .buttonColor-XIRMbp {background: rgba(var(--accent), 0.5); margin: 5px 4px 4px 4px !important;}
+.activity-E0U09Y:hover .buttonColor-XIRMbp:hover {filter: brightness(110%); opacity: 1;}
 /* Listening to spotify background in popout */
 .activity-E0U09Y, div.activityUserPopoutV2-3eKqzY.activity-E0U09Y {background: #5865F24e;}
 .assetsLargeMaskStreamPreview--ugZjW, .assetsLargeMaskUserPopout-3N96A8, .assetsLargeMaskUserPopoutV2-2oZjbP, .assetsLargeMaskVoiceChannel-3IlDCA {-webkit-mask: none !important;}
@@ -2447,9 +2449,6 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .bodyAlignCenter-3E27PU, .bodyNormal-250CQK {padding: 4px 0px 4px 4px;}
 .barInner-3dHef4, .bar-1GpknY {border-radius: 0px;}
 .themed-1LCNAV .textLeft-1Noen0, .themed-1LCNAV .textRight-2IW704 {padding: 0px 4px;}
-/* Spotify Icon | Spotify buttons color on popout */
-.activity-E0U09Y .buttonColor-XIRMbp {background: rgba(var(--accent), 0.5);}
-.activity-E0U09Y:hover .buttonColor-XIRMbp:hover {filter: brightness(110%); opacity: 1;}
 /* "Message @user container */
 .messageInputContainer-2rGDH8 {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-primary) !important; border: none;}
 /* Connections plugin stuff in popout */
