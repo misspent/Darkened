@@ -2790,20 +2790,22 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   overflow: hidden;
   padding: 0px 12px !important;
 }
+.userInfoSection-2u2hir {padding: 16px 0px 0px 0px !important;}
 .userInfoSection-2u2hir+ .userInfoSection-2u2hir {border: none;}
 .root-8LYsGj .userInfoText-2MFCmH {margin-bottom: 6px;}
 /* Connected Accounts */
 .connectedAccounts-2R5M4w, .discordMemberCreatedAtText-15sN5q {display: block;}
 .connectedAccountsColumn-1zdyyx {width: calc(100% - 0px);}
-.connectedAccountsColumn-1zdyyx:first-child {margin-top: 16px;}
+.connectedAccountsColumn-1zdyyx:first-child {margin-top: 0px !important;}
 .connectedAccountsColumn-1zdyyx+ .connectedAccountsColumn-1zdyyx {margin-left: 0px !important;}
-/* Connected Account actual container width */
+/* Connected Account actual container */
 .connectedAccountContainer-3aLMHJ {
   border-radius: var(--server-radius);
   border: 1px solid var(--background-tertiary);
   background: var(--background-modifier-selected);
   margin-bottom: 4px;
   padding: 4px 10px;
+  margin-top: 0px !important;
 }
 /* Discord Member Since */
 .root-8LYsGj .body-1Ukv50 .memberSinceContainer-2CBD23 {justify-content: center;}
@@ -2815,7 +2817,6 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 /* Banner is the same size for everything & Makes Premium Banner GIF/Image fit properly */
 .root-8LYsGj .profileBannerPremium-3xIFwS, .root-8LYsGj .profileBanner-2zIsK7, .root-8LYsGj .bannerSVGWrapper-qc0szY, .root-8LYsGj .banner-2boKnS {height: 212px; min-height: 212px;}
 .root-8LYsGj .bannerPremium-86naOf {background-repeat: no-repeat; background-size: 600px 212px;}
-/* .root-8LYsGj .profileBanner-2zIsK7 {filter: brightness(65%) !important;} */
 .bannerSVGWrapper-qc0szY foreignObject {mask: none;}
 /* USRBG Profile Popup non-premium custom background */
 .root-8LYsGj .profileBanner-2zIsK7 {
