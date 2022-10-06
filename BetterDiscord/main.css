@@ -2743,7 +2743,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 /* =======> New Style USRBG User Profile <======= */
 .root-8LYsGj .nameTag-2Nlmsy {
   position: absolute;
-  top: 60px;
+  top: 62px;
   margin-top: 76px;
   margin-left: 12px;
   margin-right: 16px;
@@ -2777,7 +2777,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .root-8LYsGj .tabBar-2hXqzU .tabBarItem-30Te4- {width: 140px; justify-content: center;}
 .top-K_jibn .item-3XjbnG {background: var(--background-secondary-alt);}
 .top-K_jibn .item-3XjbnG:hover {color: #ccc;}
-.top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG, .top-K_jibn .themed-2-lozF.item-3XjbnG:active {border-bottom-color: transparent; background: rgba(var(--accent), 0.3);}
+.top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG, .top-K_jibn .themed-2-lozF.item-3XjbnG:active {border-bottom-color: var(--unread-color); background: rgba(var(--accent), 0.1);}
 .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {border-bottom-color: transparent;}
 .root-8LYsGj .tabBar-2hXqzU {height: 35px; justify-content: center; gap: 0px !important;  background: var(--background-tertiary);}
 .root-8LYsGj .noTabBar-2Q-iE_ {border: none;}
