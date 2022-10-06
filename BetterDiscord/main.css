@@ -2806,6 +2806,24 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   margin-bottom: 4px;
   padding: 4px 10px;
   margin-top: 0px !important;
+  z-index: 1;
+}
+/* No Connected Accounts container when someone has 0 connected accounts on profile */
+.infoScroller-1QMpon:before {
+  content: "No Connected Accounts";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 16px;
+  right: 12px;
+  background: rgba(255, 0, 0, 0.192);
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: large;
+  width: 283px;
+  height: 40px;
+  z-index: 0;
 }
 /* Discord Member Since */
 .root-8LYsGj .body-1Ukv50 .memberSinceContainer-2CBD23 {justify-content: center;}
