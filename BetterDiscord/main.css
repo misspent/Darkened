@@ -506,7 +506,7 @@
 .item-1OdjEX::before {display: none;}
 /* Icon colours */
 .customEmojiPlaceholder-35gKOP {filter: sepia(1) saturate(5);}
-.iconContainer-1-SsTR .icon-E4cW1l[xmlns="http://www.w3.org/2000/svg"] {filter: sepia(1) saturate(5) hue-rotate(175deg);}
+.iconContainer-1-SsTR .icon-E4cW1l[xmlns="http://www.w3.org/2000/svg"] {filter: sepia(1) saturate(50) hue-rotate(210deg);}
 /* Status Picker when hovering over you name/pfp */
 .withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {background: var(--background-primary);}
 
@@ -621,9 +621,6 @@
 
 /* Date, month & year container message (example: "6 February 2022") */
 :root .divider-2rZFJK .content-3spvdd {font-size: 14px; font-weight: 500; padding: 4px 4px; background-color: var(--background-primary); border-radius: 0;}
-
-/* Context/scroller container (When you right clicking things) */
-.menu-1QACrS {border-radius: var(--server-radius); box-shadow: none; overflow: hidden;}
 
 :root .scroller-1bVxF5 .item-1OdjEX {margin: 0; border-radius: var(--server-radius);}
 :root .scroller-1bVxF5 {padding: 0;}
@@ -2613,12 +2610,11 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   text-align: center;
   z-index: 1;
 }
-
 .bannerSVGWrapper-qc0szY mask, .avatarPositionPremiumNoBanner-nWzERs circle {display: none;}
 /* Staff Bot Tag */
 .userProfileInner-3F03PX .px-MnE_OR.botTag-7aX5WZ {
   position: absolute;
-  margin-top: 0px;
+  margin-top: 3px !important;
   right: 10px;
   top: 2px;
   content-visibility: hidden;
@@ -2669,10 +2665,18 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   height: 15px;
 }
 /* Fixes */
-.userProfileInner-3F03PX, .theme-dark.profileColors-3Y0XaR, .theme-light.profileColors-3Y0XaR {width: 300px !important; position: relative;}
+.userProfileInner-3F03PX, .theme-dark.profileColors-3Y0XaR, .theme-light.profileColors-3Y0XaR {width: 300px !important;}
 .section-3FmfOT {padding: 0px 12px 12px 12px !important;}
 .userPopoutOverlayBackground-dKOOda {margin: 0px !important;}
 .userProfileOuter-1K_BYU {border-radius: var(--server-radius); box-shadow: none;}
+/* Setting a max character length for nickname */
+.nickname-2rimyL {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 220px;
+  margin: auto;
+}
 /* Light theme */
 .overlayBackground-1KgwVi {background-color: var(--background-secondary); border-radius: 0px;}
 
@@ -2859,6 +2863,32 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   background-image: url("https://github.com/misspent/Darkened/blob/main/Other/Popup%20&%20Popout%20banners.jpg?raw=true") !important;
   background-size: 165px 90px !important;
   z-index: 1;
+}
+
+/* ==> Status Picker | Inspired and or made by zuzumi [archivo] <== */
+.accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
+.accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
+.accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
+.accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *),
+.accountProfilePopoutWrapper-3GskID [id="account-divider-1"] {
+  display: none;
+}
+.accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ {
+  min-width: 215px;
+  max-width: 215px;
+  left: 30px;
+}
+.menu-1QACrS {
+  background: var(--background-primary) !important;
+  min-width: 215px;
+  max-width: 215px;
+  border-radius: var(--server-radius);
+  box-shadow: none;
+  overflow: hidden;
+}
+.description-22_U3B {
+  display: none;
 }
 
 /* --------------------------- ⚙️ SERVER SETTINGS --------------------------- */
@@ -3260,7 +3290,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 :not(.themedPopout-1TrfdI) > .slider-1NC-Gf:not(.mini-2qY9iv) { height: 50px;}
 .themedPopout-1TrfdI > .slider-1NC-Gf { height: 15px; margin: 0;}
 .themedPopout-1TrfdI > .slider-1NC-Gf .bar-1Bhnl9 { top: 0 !important;}
-.slider-1NC-Gf .grabber-2GQyvM {background-color: var(--brand-experiment); box-shadow: none; border: none; height: 18px; border-left: 1px solid var(--brand-experiment-900) !important;}
+.slider-1NC-Gf .grabber-2GQyvM {background-color: var(--brand-experiment); box-shadow: none; border: none; height: 18px;}
 .barFill-2Bh7CX { border-radius: 0 0px 0px 0; background: var(--unread-color);}
 .mini-2qY9iv .bar-1Bhnl9 {border-radius: 0px;}
 #user-context-user-volume .sliderContainer-2nidiS::before {margin-top: 3px; margin-left: 5px;}
