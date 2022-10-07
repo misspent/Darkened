@@ -2784,7 +2784,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .top-K_jibn .item-3XjbnG {background: var(--background-secondary-alt);}
 .top-K_jibn .item-3XjbnG:hover {color: #ccc;}
 .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG, .top-K_jibn .themed-2-lozF.item-3XjbnG:active {border-bottom-color: var(--unread-color); background: rgba(var(--accent), 0.1);}
-.top-K_jibn .themed-2-lozF.item-3XjbnG:hover {border-bottom-color: transparent;}
+.top-K_jibn .themed-2-lozF.item-3XjbnG:hover {border-bottom-color: var(--text-muted);}
 .root-8LYsGj .tabBar-2hXqzU {height: 35px; justify-content: center; gap: 0px !important;  background: var(--background-tertiary);}
 .root-8LYsGj .noTabBar-2Q-iE_ {border: none;}
 .root-8LYsGj .bannerSVGWrapper-qc0szY {border-bottom: 1px solid var(--border-color);}
@@ -2828,7 +2828,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   font-weight: 500;
   font-size: large;
   width: 283px;
-  height: 40px;
+  height: 34px;
   z-index: 0;
 }
 /* Discord Member Since */
