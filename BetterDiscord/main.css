@@ -2875,14 +2875,14 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   display: none;
 }
 .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ {
-  min-width: 215px;
-  max-width: 215px;
-  left: 30px;
+  min-width: 218px;
+  max-width: 218px;
+  margin-left: 28px !important;
 }
 .menu-1QACrS {
   background: var(--background-primary) !important;
-  min-width: 215px;
-  max-width: 215px;
+  min-width: 218px;
+  max-width: 218px;
   border-radius: var(--server-radius);
   box-shadow: none;
   overflow: hidden;
