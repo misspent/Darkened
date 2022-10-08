@@ -1,5 +1,5 @@
 /**
-* @name 1. Darkened
+* @name Darkened
 * @author misspent
 * @description Darkness is a gift; embrace it.
 * @authorLink https://github.com/misspent/Darkened
@@ -42,7 +42,7 @@
   /* Other */
   --dark: #151515; /* Codeblocks Import: Border color | Default: #151515 */
   --light: #151515; /* Codeblocks Import | Default: #151515 */
-  --roleslist-columns: 3; /* Amount of columns for roles in popout */
+  --roleslist-columns: 2; /* Amount of columns for roles in popout */
   --Normal-Activity-Icon: #c4302b; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium */
   --Playing-Game-Icon: #4c8bf5; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium */
   --Spotify-Activity-Icon: #1DB954; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium  */
@@ -148,11 +148,11 @@
   --background-floating: #0d0d0d;
   --deprecated-quickswitcher-input-background: #101320;
   --elevation-low: none;
-  --scrollbar-auto-thumb: #121722;
-  --scrollbar-auto-track: #191f2e;
-  --scrollbar-thin-thumb: #141925;
+  --scrollbar-auto-thumb: #101010;
+  --scrollbar-auto-track: #181818;
+  --scrollbar-thin-thumb: #141414;
   --activity-card-background: #101320;
-  --border-color: #151515; /* Change to: "none" for no borders */
+  --border-color: #151515;
   --popout-title: #141414;
   --popout-background-main: #101010;
   --jump-newmessage-bars-buttons: #353535;
