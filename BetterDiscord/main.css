@@ -806,7 +806,7 @@
 .guildInfo-1yK_iS {border-bottom: none; margin-top: -12px; padding-bottom: 24px;}
 .profileBannerPreview-3mLIdO {border-radius: var(--server-radius); box-shadow: none;}
 .banner-3D8GgT, .fakeActivityIcon-KeXVoI.phibi-3Bl5zI, .swatch-35F5kl {border-radius: var(--server-radius);}
-.defaultColor-2cKwKo {padding: 10px; text-align: center; background: var(--popout-title); border-radius: var(--server-radius);}
+.h1-34Txb0, .h2-1EaYVL {padding: 10px; text-align: center; background: var(--popout-title); border-radius: var(--server-radius);} /* Titles only */
 .quickSelect-i8mQq1 {margin-left: 8px;}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > div > div > div > div > main > div.profileCustomizationSection-2OOT4p > div.children-1xdcWE > div.baseLayout-8AMrwn > div:nth-child(1) > div:nth-child(1) > div > input {background: var(--background-modifier-hover); border-radius: var(--server-radius);}
 
