@@ -1047,7 +1047,7 @@
 .modalHeader-2KRhe7 {padding: 6px;}
 /* Popup container Fix | I think */
 .footer-31IekZ, .header-1zd7se {padding: 0px;}
-:root .root-g14mjS .header-1zd7se {justify-content: space-between; text-align: center; padding: 8px;}
+:root .root-g14mjS .header-1zd7se {text-align: center; padding: 8px;}
 
 /* Local channel settings (Plugins) channel name under title | Plugin */
 .size12-12FL_s {display: none;}
@@ -1496,6 +1496,11 @@ div.bd-addon-header > div.bd-title > div.bd-meta > span.bd-author {color: var(--
 #bd-editor-controls > div.controls-section.controls-left > button:nth-child(3) {color: #43b581;}
 .contentColumnDefault-3eyv5o[id="customcss-tab"] .bd-settings-title {margin-bottom: 0px; background: var(--background-mobile-primary); text-align: center; padding: 4px 0px;}
 
+/* Create a channel category popup title */
+.content-2hZxGK .name-2pGuEz .sectionTitle-34s8y3 {margin-bottom: 0px;}
+/* Add webhook channel settings input container background colour */
+.card-16VQ8C[id*="settings-integrations-webhook"] .inputWrapper-1YNMmM .input-2g-os5 {background: var(--background-primary) !important;}
+
 /*
  ===================================================================================================================
                                                   Chat/Normal Window
@@ -1931,6 +1936,9 @@ video.spacing-Qvs3Lr.marginBottom20-315RVT {width: -webkit-fill-available !impor
 .tag-19iIl1 .defaultColor-24IHKz {color: var(--background-accent) !important;} /* Tags at top colour */
 .pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {background-color: var(--background-modifier-active);}
 .pill-3pRQlO.selected-24z1Ou {background-color: var(--background-modifier-active); border-color: var(--background-mobile-primary);}
+/* Forum Filter Button */
+.lookFilled-1GseHa.select-1Ia3hD {background-color: var(--background-tertiary);}
+.divider-2bkesd {background-color: var(--border-color);}
 /* Text color */
 .channelNameSpan-2CGJt7 {color: #fff;}
 .username-u-ebrn {color: #c1b3a2;}
