@@ -603,6 +603,7 @@
 .subtext-2GlkbE { margin-left: 5px; }
 
 /* NOTE: Where Context Icon used to be */
+.submenu-1apzyU .item-1OdjEX .imageContainer-1wSPgI, .submenu-1apzyU .item-1OdjEX .iconContainer-1-SsTR {margin-left: 8px;}
 #user-context-kick, #user-context-ban, #message-delete, #guild-context-leave-guild, #channel-context-delete-channel, #message-actions-delete, #user-profile-actions-user-block, #guild-header-popout-leave, #user-profile-actions-user-remove, #thread-context-delete-channel {border-radius: var(--server-radius) !important;}
 .hint-BK71lM {display: var(--Context-Menu-Keybind-Hints) !important;} /* keybind hints for context menu */
 .hintContainer-2UwhLP {padding-right: 8px !important; margin-top: 4px; margin-left: 0px;} /* Fixes the position of hints in "quick messages + other hints (hopefully) */
