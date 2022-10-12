@@ -979,7 +979,7 @@
 /* Fav Bar when Topbar/main bar is disabled */
 #channelTabs-container > div.channelTabs-favContainer {padding: 3px 0px 3px 5px !important;}
 /* Top Bar - Main bar */
-.channelTabs-tab {margin-bottom: 0px !important;}
+.channelTabs-tab {margin-bottom: 0px !important; border-right: 1px solid var(--jump-newmessage-bars);}
 .channelTabs-tabContainer .channelTabs-tabNav {margin: 0 0px 0px 0 !important; border-right: 1px solid var(--jump-newmessage-bars) !important;}
 .channelTabs-newTab {margin: 0 6px 0px 6px !important; border-radius: 0px !important;}
 .channelTabs-tab.channelTabs-selected {background: rgba(var(--accent), 0.08) !important;}
@@ -991,7 +991,7 @@
   border-radius: 0px !important;
 }
 /* Bottom Bar - Favorites */
-#channelTabs-container>:not(#channelTabs-settingsMenu)+div {padding: 3px 0px 3px 5px !important; border-top: 1px solid var(--jump-newmessage-bars) !important; /* Default: var(--background-modifier-accent) */}
+#channelTabs-container> :not(#channelTabs-settingsMenu)+ div {padding: 3px 0px 3px 5px !important; border-top: 1px solid var(--jump-newmessage-bars) !important; /* Default: var(--background-modifier-accent) */}
 .channelTabs-fav {margin-bottom: 0px !important; padding-left: 1px !important; height: auto !important;}
 .channelTabs-fav:hover {background: var(--background-mobile-secondary) !important;}
 .channelTabs-favName {padding: 3.5px 0px !important;}
@@ -1079,7 +1079,7 @@ div.BetterInvites-iconWrapper > div > img {border-radius: var(--avatar-radius) !
   padding: 8px 0;
 }
 
-/* BetterDiscord Notice banner "The following plugins have updates */
+/* BetterDiscord Notice banner "The following plugins have updates" */
 .bd-notice {border-radius: var(--server-radius) !important; background: rgba(var(--accent), 0.5);}
 .bd-notice-button:hover {background: #1db954; border-color: #23db64; color: black;}
 
