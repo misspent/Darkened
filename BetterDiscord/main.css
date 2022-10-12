@@ -967,6 +967,45 @@
 /* Better Spotify plugin seek bar */
 .container-6sXIoE { border-bottom: none !important; margin-bottom: 0 !important; border-top: 1px solid var(--border-color);border-right: 1px solid var(--border-color);}.container-6sXIoE .timeline-UWmgAx { position: relative !important;}.container-6sXIoE .bar-g2ZMIm { position: absolute !important; bottom: -4px !important; left: -8px !important; width: 240px !important; height: 51px !important;margin: 0 !important;-webkit-mask-image: linear-gradient(0.25turn, #0008, #0002) !important;mask-image: linear-gradient(0.25turn, #0008, #0002) !important;border-radius: 0 !important;}.barFill-Dhkah7 { border-radius: 0 !important;}.container-6sXIoE.maximized-vv2Wr0 .bar-g2ZMIm { height: 88px !important;}.container-6sXIoE .button-12Fmur:hover { background-color: transparent !important;}.barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color) !important;}.inner-WRV6k5 { z-index: 1 !important;}.barText-lmqc5O, .grabber-7sd5f5 { display: none !important;} .coverWrapper-YAplwJ, .cover-SwJ-ck, .maximizer-RVu85p {border-radius: var(--avatar-radius) !important;}
 
+/* ===> Channel Tabs Plugin <=== */
+/* Typing Badge */
+.channelTabs-fav .channelTabs-typingBadge .spinner-2RT7ZC {width: 28px; padding: 1px; background: var(--background-mobile-primary);}
+.channelTabs-typingBadge {border-radius: var(--server-radius) !important; margin-bottom: 0px !important; margin-right: 0px !important;}
+/* Border Radius Stuff */
+.channelTabs-mentionBadge, .channelTabs-unreadBadge, .channelTabs-favGroup-content, .channelTabs-favGroupBtn, .channelTabs-fav, .channelTabs-tab, .channelTabs-fav .channelTabs-typingBadge {border-radius: var(--server-radius) !important;}
+.channelTabs-favIcon.channelTabs-noneIcon, .channelTabs-tabIcon.channelTabs-noneIcon, .channelTabs-favIcon.channelTabs-doNotDisturbIcon, .channelTabs-favIcon.channelTabs-idleIcon, .channelTabs-favIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-onlineIcon, .channelTabs-tabIcon.channelTabs-doNotDisturbIcon, .channelTabs-tabIcon.channelTabs-idleIcon, .channelTabs-tabIcon.channelTabs-offlineIcon, .channelTabs-favIcon.channelTabs-offlineIcon, .channelTabs-favIcon, .channelTabs-tabIcon {border-radius: var(--avatar-radius) !important;}
+/* Whole Container */
+#channelTabs-container {padding: 0px !important;}
+/* Fav Bar when Topbar/main bar is disabled */
+#channelTabs-container > div.channelTabs-favContainer {padding: 3px 0px 3px 5px !important;}
+/* Top Bar - Main bar */
+.channelTabs-tab {margin-bottom: 0px !important;}
+.channelTabs-tabContainer .channelTabs-tabNav {margin: 0 0px 0px 0 !important; border-right: 1px solid var(--jump-newmessage-bars) !important;}
+.channelTabs-newTab {margin: 0 6px 0px 6px !important; border-radius: 0px !important;}
+.channelTabs-tab.channelTabs-selected {background: rgba(var(--accent), 0.08) !important;}
+.channelTabs-closeTab { /* Close tab button */
+  position: relative;
+  height: 26px !important;
+  right: 3px !important;
+  padding: 0 4px !important;
+  border-radius: 0px !important;
+}
+/* Bottom Bar - Favorites */
+#channelTabs-container>:not(#channelTabs-settingsMenu)+div {padding: 3px 0px 3px 5px !important; border-top: 1px solid var(--jump-newmessage-bars) !important; /* Default: var(--background-modifier-accent) */}
+.channelTabs-fav {margin-bottom: 0px !important; padding-left: 1px !important; height: auto !important;}
+.channelTabs-fav:hover {background: var(--background-mobile-secondary) !important;}
+.channelTabs-favName {padding: 3.5px 0px !important;}
+/* Favorite User Icons */
+.channelTabs-tabIconWrapper img[src*="com/avatars/"], .channelTabs-favIconWrapper img[src*="com/avatars/"] {clip-path: inset(0px round 0%) !important;}
+.channelTabs-tabIconWrapper rect, .channelTabs-favIconWrapper rect {rx: var(--avatar-radius) !important; ry: var(--avatar-radius) !important;}
+/* Dropdown - Settings */
+#undefined-shortcutLabel, #undefined-settingHeader, #undefined-Badge-Visibility--header1_2, #undefined-Badge-Visibility--header4_2, #undefined-Badge-Visibility--header2_2, #undefined-Badge-Visibility--header3_2 {color: red !important; opacity: 1 !important; background: var(--background-tertiary) !important;}
+#undefined-ChannelTabs {text-align: center !important; background: var(--background-primary) !important;}
+.channelTabs-sliderContainer {padding: 0px 0px 0px 10px !important; margin: 0px !important;}
+.channelTabs-slider {top: -16px !important;}
+/* Settings Menu Icon */
+#channelTabs-settingsMenu {top: 3px !important;}
+
 /* Notes plugin separator title container */
 .channelSeparator-1-U8lm {
   margin-top: 24px;
