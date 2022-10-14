@@ -1004,7 +1004,7 @@
 .channelTabs-sliderContainer {padding: 0px 0px 0px 10px !important; margin: 0px !important;}
 .channelTabs-slider {top: -16px !important;}
 /* Settings Menu Icon */
-#channelTabs-settingsMenu {top: 3px !important;}
+#channelTabs-settingsMenu {top: 4.5px !important;}
 
 /* Notes plugin separator title container */
 .channelSeparator-1-U8lm {
@@ -1082,6 +1082,16 @@ div.BetterInvites-iconWrapper > div > img {border-radius: var(--avatar-radius) !
 /* BetterDiscord Notice banner "The following plugins have updates" */
 .bd-notice {border-radius: var(--server-radius) !important; background: rgba(var(--accent), 0.5);}
 .bd-notice-button:hover {background: #1db954; border-color: #23db64; color: black;}
+
+/* Error/description box in settings plugin section */
+.bd-description-wrap .banner {
+  border-radius: 0px;
+  justify-content: center;
+}
+.banner.banner-danger {
+  border-color: #f04747;
+  background: #473c41;
+}
 
 /*
 ====================================================================================================================
@@ -1933,7 +1943,7 @@ video.spacing-Qvs3Lr.marginBottom20-315RVT {width: -webkit-fill-available !impor
 
 /* ==========> Forum channel <========== */
 .theme-dark .container-3wLKDe {background-color: var(--background-primary);}
-.header-1Uy0p6, .reaction-102jx9, .icon-2ujrkG, .guidelinesButton-3Vrz0u, .pinIcon-zVODC5 {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {border: 1px solid transparent; background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: transparent !important; border: none !important; padding-left: 4px;}
+.header-1Uy0p6, .reaction-102jx9, .icon-2ujrkG, .guidelinesButton-3Vrz0u, .pinIcon-zVODC5 {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: transparent !important; border: none !important; padding-left: 4px;}
 .mainCard-3KBsBI {border-radius: var(--server-radius); background: var(--background-secondary);}
 .mainCard-3KBsBI:hover {background: var(--background-tertiary);}
 .container-2qVG6q:hover {transform: translateY(0px);}
