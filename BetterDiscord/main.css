@@ -504,9 +504,7 @@
 /* NOTE: Status picker menu */
 /* Status Picker */
 .item-1OdjEX::before {display: none;}
-/* Icon colours */
-.customEmojiPlaceholder-35gKOP {filter: sepia(1) saturate(5);}
-.iconContainer-1-SsTR .icon-E4cW1l[xmlns="http://www.w3.org/2000/svg"] {filter: sepia(1) saturate(50) hue-rotate(210deg);}
+
 /* Status Picker when hovering over you name/pfp */
 .withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {background: var(--background-primary);}
 
@@ -889,18 +887,15 @@
 
 /* Plugin = "AppNotifications" makes the notification look 20x better */
 .qwert-toast {
-  min-height: 24 !important;
-  backdrop-filter: blur(px) !important;
   border-radius: var(--server-radius) !important;
-  margin-bottom: -9px !important;
-  color: white !important;
-  border: 1px solid var(--border-color);
+  margin-bottom: -9px !important !important;
+  color: white !important !important;
+  border: 1px solid var(--border-color) !important;
   background: var(--background-secondary) !important;
+  min-width: 285px !important;
+  max-width: 285px !important;
 }
-.qwert-toast-image {
-  position: relative;
-  display: block !important;
-}
+.qwert-toast-avatar {border-radius: var(--avatar-radius) !important;}
 
 /* ReadAllNotification Button (Plugin) */
 [class="childWrapper-1j_1ub button-Jt-tIg"] {
@@ -3160,4 +3155,5 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="bdCompat-tab" i]::before {
   background: #7289da;
+}
 }
