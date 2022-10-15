@@ -2453,7 +2453,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .activity-E0U09Y .disabledButtonWrapper-2Oz3aY .button-f2h6uQ.grow-2sR_-F {margin: 0px !important;}
 .buttonsWrapper-2ARRp1 {margin: 0px;}
 /* Spotify Icon | Spotify buttons color on popout */
-.activity-E0U09Y .buttonColor-XIRMbp {background: rgba(var(--accent), 0.5); margin: 5px 4px 4px 4px !important;}
+
 .activity-E0U09Y:hover .buttonColor-XIRMbp:hover {filter: brightness(110%); opacity: 1;}
 /* Listening to spotify background in popout */
 .activity-E0U09Y, div.activityUserPopoutV2-3eKqzY.activity-E0U09Y {background: #5865F24e;}
