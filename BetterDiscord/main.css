@@ -507,7 +507,7 @@
 
 /* Icon colours */
 .customEmojiPlaceholder-35gKOP {filter: sepia(1) saturate(5);}
-.iconContainer-1-SsTR .icon-E4cW1l > path {color: var(--brand-experiment) !important;}
+.item-1OdjEX[id="account-switch-account"] .iconContainer-1-SsTR .icon-E4cW1l > path {color: var(--brand-experiment) !important;}
 
 /* Status Picker when hovering over you name/pfp */
 .withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {background: var(--background-primary);}
@@ -3157,5 +3157,4 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="bdCompat-tab" i]::before {
   background: #7289da;
-}
 }
