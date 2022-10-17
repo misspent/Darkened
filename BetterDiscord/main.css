@@ -3073,6 +3073,10 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .wrapper-28eC3z foreignObject {mask: none; transition: 0.2s;}
 .wrapperSimple-Js2rIO { overflow: visible;}
 
+/* Better Discord Addon Error Popup */
+.bd-addon-errors {margin: 0px;}
+.bd-addon-error {margin-bottom: 4px;}
+
 /* Inspect/hovering over Stickers */
 .stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {background-color: var(--background-modifier-selected); border-radius: var(--server-radius) !important;}
 .assetWrapperMasked-1iw9lV, .inspectedIndicator-27zwNZ {-webkit-mask: none !important;}
