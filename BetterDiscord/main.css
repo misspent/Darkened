@@ -1998,6 +1998,11 @@ div.messagesWrapper-RpOMA3.group-spacing-16 .container-3YcgdM > div.buttons-BK5g
 .divider-AZrXIA {display: none;}
 .addReactButton-3bSQb6, .buttonInner-3aRbcx {border-radius: var(--server-radius);}
 .addReactButton-3bSQb6:hover, .buttonInner-3aRbcx:hover {background: var(--background-tertiary); border: 1px solid transparent;}
+/* Guide Lines dropdown from post box */
+.descriptionContainer-2ylKGk {margin-top: 0px; border-radius: var(--server-radius);}
+.headerContainer-1XKx_G {background: var(--background-tertiary); padding: 0px 4px;}
+.headerContainer-1XKx_G > h2 > svg {color: hsl(235deg, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);}
+div.clickable-J07Mqa > svg > path {color: red;}
 /* ===> Moderation Tiles <=== */
 .discordIcon-2-SnKe, .uploadInput-3fblkw {border-radius: var(--avatar-radius);}
 .stepContainer-SaPPyG {background: var(--background-secondary); border-radius: var(--server-radius);}
