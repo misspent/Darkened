@@ -1952,7 +1952,7 @@ video.spacing-Qvs3Lr.marginBottom20-315RVT {width: -webkit-fill-available !impor
 .theme-dark .container-3wLKDe {background-color: var(--background-primary);}
 .header-1Uy0p6, .reaction-102jx9, .icon-2ujrkG, .guidelinesButton-3Vrz0u, .pinIcon-zVODC5 {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: transparent !important; border: none !important;}
 .mainCard-3KBsBI {border-radius: var(--server-radius); background: var(--background-secondary);}
-.headerRow-1MKoR- .mainCard-3KBsBI {background: var(--background-modifier-hover);}
+.headerRow-1MKoR- .mainCard-3KBsBI {background: var(--background-secondary);}
 .mainCard-3KBsBI:hover {background: var(--background-tertiary);}
 .container-2qVG6q:hover {transform: translateY(0px);}
 .box-2iMsQm {border-radius: var(--server-radius);} /* Start The Conversation with a wave container */
@@ -2011,6 +2011,7 @@ div.messagesWrapper-RpOMA3.group-spacing-16 .container-3YcgdM > div.buttons-BK5g
 .container-JhuCwn .textArea-2CLwUE {margin-right: 27px !important;}
 /* Enter a Message Box */
 .base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .textArea-2CLwUE {background-color: var(--background-primary);}
+.guidelinesButton-3Vrz0u {margin: 0px; padding: 0px 4px;}
 /* Support Create Guidelines section when selected (support overview channel settings) & Create a tag popup content container fix | Channel Settings */
 .container-16urgA, .placeholderLine-86Fsd9, .placeholderMedia-34JHvE, .reaction-BL6n45 {border-radius: var(--server-radius);}
 .root-g14mjS .content-3BqJRb {background-color: var(--background-secondary); padding: 16px 16px 16px 16px;}
