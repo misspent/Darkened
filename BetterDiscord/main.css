@@ -896,6 +896,7 @@
   border: 1px solid var(--border-color) !important;
   background: var(--background-secondary) !important;
   padding: 4px !important;
+  margin-top: 5px !important;
 }
 .qwert-toast-avatar {border-radius: var(--avatar-radius) !important;}
 
@@ -1208,9 +1209,17 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
 .accountProfileCard-lbN7n- {
   background-color: var(--background-secondary);
   border-radius: var(--server-radius);
-  width: 100%;
+  width: 50%;
   position: relative;
   overflow: hidden;
+}
+.children-1xdcWE .accountProfileCard-lbN7n- .bannerPremium-kkSkPv {
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-size: 100% 100%;
+}
+.children-1xdcWE .accountProfileCard-lbN7n- {
+  place-self: center !important;
 }
 /* User Profile Text area ("About Me") */
 .textArea-3WXAeD {
@@ -2650,7 +2659,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   margin-bottom: 0px;
 }
 /* Activity & Mutual Servers sections | USRBG  */
-.listRow-2nO1T6 {border-radius: var(--server-radius); margin: 1px 0 4px 0px;}
+.listRow-2nO1T6 {border-radius: var(--server-radius); margin: 1px 0 4px 0px; padding: 0px !important;}
 .listScroller-entkMk {padding: 8px 8px 0px 8px !important;}
 
 :root .root-8LYsGj .activityProfile-1712BN .contentImagesProfile-27BIzt::after,
