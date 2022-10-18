@@ -546,10 +546,14 @@
 .submenuPaddingContainer-_k62dJ { /* Submenu when hovering over Status Picker */
   padding: 0px;
 }
+/* Removes Context Icons from Status Picker | The Imported ones; because they're not fixed */
+.accountProfilePopoutWrapper-3GskID .item-1OdjEX::before {
+  display: none !important;
+}
 /* Removes Description when changing status */
 .accountProfilePopoutWrapper-3GskID .description-22_U3B {display: none;}
 /* Removes divider */
-.accountProfilePopoutWrapper-3GskID .divider-1tWBgZ {display: none;}
+.accountProfilePopoutWrapper-3GskID .divider-1tWBgZ, #account-divider-2 {display: none;}
 /* Icon colours */
 .customEmojiPlaceholder-35gKOP {filter: sepia(1) saturate(5);}
 .item-1OdjEX[id="account-switch-account"] .iconContainer-1-SsTR .icon-E4cW1l > path {color: var(--brand-experiment) !important;}
