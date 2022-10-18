@@ -525,7 +525,7 @@
   margin: 0px;
   border-radius: var(--server-radius);
 }
-.userProfileOuterThemed-3EfHmv {
+.accountProfilePopoutWrapper-3GskID .userProfileOuterThemed-3EfHmv {
   background: transparent;
 }
 .accountProfilePopoutWrapper-3GskID .userProfileInnerWithBanner-3CJ1Og {
@@ -2540,7 +2540,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 */
 
 /* User Popout */
-.theme-dark.profileColors-3Y0XaR, .theme-light.profileColors-3Y0XaR {background: transparent !important;} .avatar-2OC07D {background-color: transparent; border: 4px solid var(--background-secondary) !important;}
+.avatar-2OC07D {background-color: transparent; border: 4px solid var(--background-secondary) !important;}
 .headerContainer-1wJjOa, .title-1r9MQ6, .banner-2boKnS {border-radius: var(--server-radius) var(--server-radius) 0px 0px !important;}
 .wrapper-1VLyxH, .profileBadges-31rDHI {border-radius: var(--avatar-radius);} .wrapper-1VLyxH foreignObject {mask: none;} .avatarHint-2g3Mcd foreignObject {mask: none; opacity: 0 !important;} /* Profile Picture | Opacity remove "View Profile" */
 .theme-dark .userPopoutInner-PA9zkU:before {background: var(--background-secondary) !important; border-radius: var(--server-radius);}
