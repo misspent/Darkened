@@ -78,6 +78,7 @@
   --Text-Channels-Capital-Letter: capitalize; /* capitalize, none */
   --Popout-Send-Message-Container: block; /* block = ON, none = OFF */
   --Context-Menu-Keybind-Hints: none; /* block = ON, none = OFF */
+  --Invisible-Typing-Bar-Toggle-Icon: flex; /* flex = ON, none = OFF */
 
   /* ==============> Compact Import | Left variable = Compact, Right variable = Default(normal) | DarkenedCompact Import is required <============== */
   /* Compact Sidebar */

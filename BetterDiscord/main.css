@@ -1145,6 +1145,14 @@ div.BetterInvites-iconWrapper > div > img {border-radius: var(--avatar-radius) !
   background: #473c41;
 }
 
+/* Invisible Typing Plugin Button */
+.buttons-uaqb-5 .IT-button {
+  display: var(--Invisible-Typing-Bar-Toggle-Icon);
+  background: var(--channeltextarea-background);
+  margin: 0px;
+  align-items: center;
+}
+
 /*
 ====================================================================================================================
                                      Settings Custom CSS
