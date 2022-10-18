@@ -2039,6 +2039,23 @@ div.clickable-J07Mqa > svg > path {color: red;}
 .chatInput-2WlO0m {border-radius: var(--server-radius); margin: 0px;}
 .forumPostIcon-3RVuOP {border-radius: var(--server-radius) !important; background: var(--background-tertiary);}
 
+/* Message Requests Section on home page */
+.messageRequestItem-1_NNAR {padding: 10px; border-bottom: 0px; border-radius: var(--server-radius) !important; background: var(--background-secondary);}
+.actionButton-3GQIiT {border-radius: var(--server-radius);}
+.messageRequestItem-1_NNAR > div > div.actions-3dU7M- > div:nth-child(1) > svg {color: hsl(235deg, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);}
+.actionButton-3GQIiT > svg > [d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.5899 5.59003L8.99991 16.17Z"] {color: rgb(0, 255, 0);}
+.actionButton-3GQIiT > svg > [d="M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"] {color: red;}
+/* Title */
+.list-2hhlBX[data-list-id="message-requests-list"] .sectionTitle-1P1u0N {
+  margin: 0px;
+  background: var(--popout-title);
+  padding: 4px 0px;
+  text-align: -webkit-center;
+}
+.list-2hhlBX[data-list-id="message-requests-list"] .messageRequestItem-1_NNAR.active-1iRyqF, .messageRequestItem-1_NNAR:hover {
+  background: var(--background-modifier-active);
+}
+
 /*
 =====================================================================================================================================
 TODO: Tidy, change, mess, edit and make your own stuff now you have more of an understanding compared to when you first started!
