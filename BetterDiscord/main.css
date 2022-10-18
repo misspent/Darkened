@@ -502,9 +502,54 @@
 .gif-1EWTs-, .result-3OpoO7:after {border-radius: var(--server-radius) !important;}
 
 /* NOTE: Status picker menu */
-/* Status Picker */
-.item-1OdjEX::before {display: none;}
-
+/* ==> Status Picker | Inspired and or made by zuzumi [archivo] <== */
+.accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
+.accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
+.accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
+.accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *),
+.accountProfilePopoutWrapper-3GskID [id="account-divider-1"] {
+  display: none;
+}
+.accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ {
+  min-width: 218px;
+  max-width: 218px;
+  margin-left: 28px !important;
+  box-shadow: none;
+}
+.accountProfilePopoutWrapper-3GskID .menu-1QACrS[id="account"] {
+  background: var(--background-primary) !important;
+  border-radius: var(--server-radius);
+}
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
+  margin: 0px;
+  border-radius: var(--server-radius);
+}
+.userProfileOuterThemed-3EfHmv {
+  background: transparent;
+}
+.accountProfilePopoutWrapper-3GskID .userProfileInnerWithBanner-3CJ1Og {
+  background: transparent;
+  box-shadow: none;
+}
+.accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX {
+  border-radius: var(--server-radius);
+}
+/* Compact */
+.accountProfilePopoutWrapper-3GskID .item-1OdjEX {
+  margin: 0px;
+  border-radius: var(--server-radius);
+}
+.accountProfilePopoutWrapper-3GskID .scroller-1bVxF5 {
+  padding: 0px !important;
+}
+.submenuPaddingContainer-_k62dJ { /* Submenu when hovering over Status Picker */
+  padding: 0px;
+}
+/* Removes Description when changing status */
+.accountProfilePopoutWrapper-3GskID .description-22_U3B {display: none;}
+/* Removes divider */
+.accountProfilePopoutWrapper-3GskID .divider-1tWBgZ {display: none;}
 /* Icon colours */
 .customEmojiPlaceholder-35gKOP {filter: sepia(1) saturate(5);}
 .item-1OdjEX[id="account-switch-account"] .iconContainer-1-SsTR .icon-E4cW1l > path {color: var(--brand-experiment) !important;}
