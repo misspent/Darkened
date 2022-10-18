@@ -883,6 +883,15 @@
 .messageContent-2t3eCI a[href^="https://www.behance.net"]:not([href^=channels])::after {background: transparent !important; color: #1769FF !important; font-weight: 700 !important; text-decoration: underline !important;}
 .messageContent-2t3eCI a[href^="https://www.behance.net"]:not([href^=channels])::before {background: #1769FF !important;}
 
+/* More Columns in theme & plugin section in settings */
+.bd-addon-list {
+  display: grid;
+  grid-template-columns: repeat(var(--Settings-Plugins-Themes-List-Columns), minmax(0, 1fr));
+  gap: 0px 8px;
+  overflow: hidden;
+  margin-top: 10px !important;
+}
+
 /*
  ===================================================================================================================
                                      Plugins Custom

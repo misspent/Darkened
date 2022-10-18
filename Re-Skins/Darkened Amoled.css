@@ -43,6 +43,7 @@
   --dark: rgb(13, 13, 13); /* Codeblocks Import: Border color | Default: #151515 */
   --light: rgb(13, 13, 13); /* Codeblocks Import | Default: #151515 */
   --roleslist-columns: 2; /* Amount of columns for roles in popout */
+  --Settings-Plugins-Themes-List-Columns: 2; /* More Columns in theme & plugin section in settings */
   --Normal-Activity-Icon: #c4302b; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium */
   --Playing-Game-Icon: #4c8bf5; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium */
   --Spotify-Activity-Icon: #1DB954; /* Member list activity Icon | Default: var(--channels-default) | Activity Icons Plugin by Neodymium  */
