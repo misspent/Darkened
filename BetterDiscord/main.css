@@ -1158,6 +1158,10 @@ div.BetterInvites-iconWrapper > div > img {border-radius: var(--avatar-radius) !
   border-color: #f04747;
   background: #473c41;
 }
+/* Addon Error Divider */
+.bd-divider {
+  display: none;
+}
 
 /* Invisible Typing Plugin Button */
 .buttons-uaqb-5 .IT-button {
