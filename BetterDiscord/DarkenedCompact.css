@@ -118,6 +118,7 @@
 .messageContainer-3VTXBC {padding-left: 6px;}
 .messageContainer-3VTXBC .cozy-VmLDNB.wrapper-30-Nkg {padding-left: 10px;}
 .messageGroupWrapper-1jf_7C .messageGroupCozy-3v_RqN {margin-left: 6px;}
+.cozy-VmLDNB.wrapper-30-Nkg {padding-left: 58px;} /* Fixes moving main container when uploading something */
 /* Replied Message container */
 .theme-dark .repliedMessage-3Z6XBG {padding: 0.2em 0.4em; margin-bottom: 4px; left: 34px; background: var(--channeltextarea-background);}
 .theme-dark .repliedMessage-3Z6XBG:hover {padding: 0.2em 0.4em; margin-bottom: 4px;}
