@@ -2825,12 +2825,34 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 }
 /* Light theme */
 .overlayBackground-1KgwVi {background-color: var(--background-secondary); border-radius: 0px;}
+/* ===> Banners <=== */
+/* USRBG Profile Popup non-premium custom background
+.root-8LYsGj .profileBanner-2zIsK7 {
+  background-repeat: no-repeat !important;
+  background-position: initial !important;
+  background-image: url("https://github.com/misspent/Darkened/blob/main/Other/Popup%20&%20Popout%20banners.jpg?raw=true") !important;
+  background-size: 300px 106px !important;
+} */
+/* Popout non-premium custom background */
+.popoutBanner-16rVDY {
+  background-repeat: no-repeat !important;
+  background-position: initial !important;
+  background-image: url("https://github.com/misspent/Darkened/blob/main/Other/Popup%20&%20Popout%20banners.jpg?raw=true") !important;
+  background-size: 110px 60px !important;
+  z-index: 1;
+}
+.popoutNoBannerPremium-2TQa6P {
+  background-repeat: no-repeat !important;
+  background-position: initial !important;
+  background-image: url("https://github.com/misspent/Darkened/blob/main/Other/Popup%20&%20Popout%20banners.jpg?raw=true") !important;
+  background-size: 165px 90px !important;
+  z-index: 1;
+}
 
 /* =========> Popout USRBG Model [Big Profile Model] <========= */
 .pencilContainer-18TrEJ {border-radius: var(--server-radius);}
 .additionalActionsIcon-3Cy8UU {padding: 4px;}
 .additionalActionsIcon-3Cy8UU:hover {background: var(--background-tertiary);}
-.userProfileOuter-1K_BYU {border-radius: var(--server-radius);}
 /* Activity */
 .root-g14mjS .bodyAlignCenter-3E27PU, .bodyNormal-250CQK {padding: 8px;}
 .userProfileActivity-sal5no {margin-bottom: 8px; padding: 0px;}
