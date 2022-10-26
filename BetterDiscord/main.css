@@ -982,12 +982,6 @@
 /* Plugin = ReadAllNotifications border */
 .button-Jt-tIg {border-radius: var(--server-radius);}
 
-/* StaffTag Plugin (Position of it DELETE if it's off) */
-.rem-3kT9wc.botTag-7aX5WZ {margin-bottom: 5px;}
-
-/* Badges Plugin fix */
-.badgesChat-f_cbR8 {top: 0px;}
-
 /* Theme & Plugin Repo colors, borders & Search box */
 .small-1uriao .input-2m5SfJ, .small-1uriao .tag-Pxnlt9 {background-color: var(--background-primary); border-radius: var(--server-radius);}
 .theme-dark .card-x5zW6z {background-color: var(--background-secondary); border-color: var(--background-secondary-alt); border-radius: var(--server-radius);}
