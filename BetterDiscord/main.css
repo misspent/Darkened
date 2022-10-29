@@ -1166,6 +1166,9 @@ div.BetterInvites-iconWrapper > div > img {border-radius: var(--avatar-radius) !
   align-items: center;
 }
 
+/* StaffTag Plugin (Position of it DELETE if it's off) */
+.rem-3kT9wc.botTag-7aX5WZ {margin-top: .5em !important;}
+
 /*
 ====================================================================================================================
                                      Settings Custom CSS
