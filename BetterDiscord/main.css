@@ -2019,6 +2019,10 @@ video.spacing-Qvs3Lr.marginBottom20-315RVT {width: -webkit-fill-available !impor
 /* New post button */
 .newPostsButton-UaBhcU {background-color: #3a4188; border-radius: var(--server-radius); border: 1px solid #535dc5;}
 .newPostsButton-UaBhcU .text-md-medium-2avxhQ {color: #e4e4e4 !important;}
+/* Tags dropdown when too many */
+.container-3kfp0r {background-color: var(--background-primary); border-radius: var(var(--server-radius));}
+.container-3kfp0r .pill-3pRQlO {background: var(--background-secondary);}
+.countContainer-3DOo5v {border-radius: var(--server-radius);}
 /* Pill/Pill */
 .pill-3pRQlO {border-radius: var(--server-radius);}
 .tags-2CaEuN .pill-3pRQlO {background-color: var(--border-color); border-radius: var(--server-radius);}
