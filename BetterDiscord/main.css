@@ -2009,7 +2009,7 @@ video.spacing-Qvs3Lr.marginBottom20-315RVT {width: -webkit-fill-available !impor
 .headerRow-1MKoR- .mainCard-3KBsBI {background: var(--background-secondary);}
 .matchingPostsRow-2IiEQ1 {background-color: var(--background-tertiary);}
 .mainCard-3KBsBI:hover {background: var(--background-tertiary);}
-.container-2qVG6q:hover {transform: translateY(0px);}
+.container-3wLKDe .container-2qVG6q:hover {background: var(--background-tertiary) !important; transform: translateY(0px);}
 .box-2iMsQm {border-radius: var(--server-radius);} /* Start The Conversation with a wave container */
 .bodyMedia-3ij3KY {border-radius: var(--server-radius);} /* Media (Image/GIF) on main card */
 .newBadge-1LcB6t {background: #1edc6091 !important; color: rgb(216, 216, 216);} /* New Badge */
