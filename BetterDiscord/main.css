@@ -1805,7 +1805,15 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .divider-q3P9HC {height: 46px;  background: var(--chat-border);}
 .iconWrapper-2awDjA {margin: 0 4.6px;}
 
-
+/* This is the "add server" & "Invite to server" container */
+.theme-dark .root-g14mjS, .theme-dark .footer-31IekZ, .theme-dark .modal-2RrUKJ .scroller-3nFW5p {
+  background: var(--background-secondary);
+  padding-left: 0px;
+  padding-top: 4px;
+}
+.footer-31IekZ {
+  border-radius: 0 0 var(--server-radius) var(--server-radius);
+}
 
 .footer-1gMODG {justify-content: center;}
 
