@@ -1805,29 +1805,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .divider-q3P9HC {height: 46px;  background: var(--chat-border);}
 .iconWrapper-2awDjA {margin: 0 4.6px;}
 
-/* This is the "add server" container */
-:root .root-g14mjS .footer-31IekZ .lookLink-9FtZy- {background: #fff1;}
-:root .root-g14mjS .footer-31IekZ > * {background: var(--brand-experiment); justify-content: center; align-items: center; text-align: center; width: 100%; margin: 0; height: 39px;}
-:root .root-g14mjS .footer-31IekZ > *:hover {filter: brightness(110%) !important;}
-.modalContent-xzlaTm {padding-bottom: 0px;}
-video.spacing-Qvs3Lr.marginBottom20-315RVT {width: -webkit-fill-available !important;}
-:root .root-g14mjS .footer-31IekZ .cancelButton-kOgwem, :root .root-g14mjS .footer-31IekZ .cancel-1Ph_Z1 {margin-right: 0;}
-:root .root-g14mjS .footer-31IekZ .minorContainer-1tix62 {display: none;}
-:root .root-g14mjS .qualitySettingsContainer-30AsSH {border: none; padding: 0;}
-:root .root-g14mjS .card-1SdQ2-, :root .root-g14mjS .select-1Ia3hD {border: none; background: var(--background-primary); border-radius: var(--server-radius);}
-:root .root-g14mjS .changeButton-3QdaoH {border-radius: 3px;}
-:root .root-g14mjS .art-2OaYX0 + form > :nth-child(3) > :last-child, :root .root-g14mjS .changeButton-3QdaoH {background: #fff1 !important;}
-:root .root-g14mjS .primaryActions-F8pgS7 {flex-grow: 1;}
-:root .root-g14mjS .primaryActions-F8pgS7 .shinyButton-2Q9MDB {width: 100%; height: 100%; border-radius: 0;}
-.container-36u7Lw {background-color: var(--background-tertiary);}
-:root .root-g14mjS .footer-31IekZ {
-  padding: 0;
-  background: transparent;
-  box-shadow: none;
-  min-height: 35px; /* Default: 45px; */
-  overflow: hidden;
-  border-radius: 0 0 0px 0px;
-}
+
 
 .footer-1gMODG {justify-content: center;}
 
@@ -2039,7 +2017,7 @@ video.spacing-Qvs3Lr.marginBottom20-315RVT {width: -webkit-fill-available !impor
 .messageContent-1SOr75 {color: #ccc;}
 /* New Forum Posts stand out */
 .mainCard-3KBsBI .body-hCVwsC, .left-r1N3TH, .imageWrapper-oMkQl4 {z-index: 1;}
-.newBadge-1LcB6t:before {background: #1edc6023; content: ""; width: 100%; height: 100%; position: absolute; z-index: -1; left: 0px; top: 0px;}
+/* .newBadge-1LcB6t:before {background: #1edc6023; content: ""; width: 100%; height: 100%; position: absolute; z-index: -1; left: 0px; top: 0px;} */
 /* Pinned Forum Posts stand out */
 .pinIcon-zVODC5:before {background: #5865f25d; content: ""; width: 100%; height: 100%; position: absolute; z-index: -1; left: 0px; top: 0px;}
 /* ==> Post Guidelines - Sidebar Card <== */
