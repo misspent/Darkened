@@ -2661,6 +2661,9 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   position: unset;
 }
 /* My Stuff */
+.addButtonIcon-3HZ_2f {
+  color: #ccc;
+}
 .role-2TIOKu[aria-label="Add role"] {
   font-size: 12px;
   font-weight: 500;
