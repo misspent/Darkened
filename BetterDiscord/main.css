@@ -3036,6 +3036,11 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   box-shadow: none;
 }
 
+/* Potentially Dangerous Download Button */
+.root-g14mjS .footer-31IekZ .grow-2sR_-F, .sizeIcon-1kBo12 {
+  width: -webkit-fill-available;
+}
+
 /* Cross */
 .theme-dark .default-1Tkeeg,
 .theme-dark .default-1Tkeeg:hover {
