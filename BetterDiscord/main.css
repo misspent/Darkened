@@ -592,11 +592,12 @@
 .container-2nx-BQ.checked-25WXMf {background-color: #43b581 !important;}
 /* Discord Switches in Plugin/Theme settings popup only (I think) */
 .switch, .switch input {border-radius: var(--server-radius) !important; background: var(--brand-experiment-560) !important;}
-.switch input:checked + div {background: green !important;}
-.switch input  + div {background: red !important;}
+.switch input:checked + div {background: #43b581 !important;}
+.switch input  + div {background: #f04747 !important;}
 .switch div {border-radius: var(--server-radius) !important;}
 .plugin-input-group textarea {border-radius: var(--server-radius) !important; background: var(--background-mobile-secondary) !important; border: 2px solid var(--background-modifier-accent) !important; color: #fff !important;}
 .divider-_0um2u {border-top: 1px solid var(--border-color) !important; margin-bottom: 6px;}
+.plugin-input-group h2 {text-align: inherit !important;}
 
 .medium-1ywRMv {max-height: 1080px !important;}
 
