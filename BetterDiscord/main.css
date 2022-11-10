@@ -590,6 +590,13 @@
 .bd-switch-body, [style^="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {background-color: #f04747 !important;}
 .container-2nx-BQ[style="opacity: 1; background-color: rgb(114, 118, 125);"] {background-color: #f04747 !important;}
 .container-2nx-BQ.checked-25WXMf {background-color: #43b581 !important;}
+/* Discord Switches in Plugin/Theme settings popup only (I think) */
+.switch, .switch input {border-radius: var(--server-radius) !important; background: var(--brand-experiment-560) !important;}
+.switch input:checked + div {background: green !important;}
+.switch input  + div {background: red !important;}
+.switch div {border-radius: var(--server-radius) !important;}
+.plugin-input-group textarea {border-radius: var(--server-radius) !important; background: var(--background-mobile-secondary) !important; border: 2px solid var(--background-modifier-accent) !important; color: #fff !important;}
+.divider-_0um2u {border-top: 1px solid var(--border-color) !important; margin-bottom: 6px;}
 
 .medium-1ywRMv {max-height: 1080px !important;}
 
@@ -1143,6 +1150,10 @@ div.BetterInvites-iconWrapper > div > img {border-radius: var(--avatar-radius) !
 
 /* StaffTag Plugin (Position of it DELETE if it's off) */
 .rem-3kT9wc.botTag-7aX5WZ {margin-top: .5em !important;}
+
+/* Keyword Matches popup when clicking button on toolbar */
+.kt-inbox-entry > button {border-radius: 0px !important;}
+.kt-inbox-entry > .content {color: #ccc !important; /* Default: #88a */}
 
 /*
 ====================================================================================================================
