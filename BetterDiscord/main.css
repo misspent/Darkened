@@ -9,7 +9,7 @@
 /* Temp */
 .submenu-1apzyU .item-1OdjEX {flex-direction: inherit !important;}
 .separator-1So4YB {display: none;} /* Context menu dividers */
-.menu-1QACrS .submenu-1apzyU .item-1OdjEX {padding: 0px 0px 0px 4px;} /* Submenu when hovering over "roles" to give someone I role */
+.menu-1QACrS .submenu-1apzyU .item-1OdjEX:has(.roleRow-3HnunM) {padding: 0px 0px 0px 2px;} /* Submenu when hovering over "roles" to give someone a role */
 
 /*
 ====================================================================================
@@ -544,9 +544,6 @@
 }
 .accountProfilePopoutWrapper-3GskID .scroller-1bVxF5 {
   padding: 0px !important;
-}
-.submenuPaddingContainer-_k62dJ { /* Submenu when hovering over Status Picker */
-  padding: 0px;
 }
 /* Removes Context Icons from Status Picker | The Imported ones; because they're not fixed */
 .accountProfilePopoutWrapper-3GskID .item-1OdjEX::before {
@@ -2981,7 +2978,13 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 
 /* -- Better menus -- */
 
-
+/* Submenu */
+.submenuContainer-3EVTeH .layer-2aCOJ3 {
+  margin-left: -4px;
+}
+.submenuPaddingContainer-_k62dJ {
+  padding: 0 8px;
+}
 
 /* Label */
 .labelContainer-2vJzYL.colorDanger-3n-KnP:hover,
