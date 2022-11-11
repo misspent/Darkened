@@ -9,7 +9,7 @@
 /* Temp */
 .submenu-1apzyU .item-1OdjEX {flex-direction: inherit !important;}
 .separator-1So4YB {display: none;} /* Context menu dividers */
-.menu-1QACrS .submenu-1apzyU .item-1OdjEX:has(.roleRow-3HnunM) {padding: 0px 0px 0px 2px;} /* Submenu when hovering over "roles" to give someone a role */
+.submenu-1apzyU [id*="user-context-roles"] {padding: 0px 0px 0px 2px !important;} /* Submenu when hovering over "roles" to give someone a role */
 .root-g14mjS {background: transparent !important;} /* Background color when viewing an image */
 
 /*
