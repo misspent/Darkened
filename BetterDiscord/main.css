@@ -613,6 +613,15 @@
 .listing-HhaQVc:hover {background: var(--background-tertiary);}
 .listing-2-3kHA:not(:last-child):not(:hover) .listingDetails-1tUwVY {border: transparent !important;}
 
+/* ==> Event popup when one is active <== */
+.rsvpCount-iCkObl {border-radius: 0px;}
+.card-8UsK4b {
+  background-color: var(--background-primary);
+  border-radius: var(--server-radius);
+  border: 1px solid var(--border-color);
+}
+.divider-2zyEHJ {background-color: var(--border-color);}
+
 /*
 ====================================================================================================================
                                Convenient/Make things look cleaner
