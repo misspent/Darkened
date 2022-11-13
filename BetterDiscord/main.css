@@ -1166,7 +1166,7 @@ div.BetterInvites-iconWrapper > div > img {border-radius: var(--avatar-radius) !
 /* Keyword Matches popup when clicking button on toolbar */
 .kt-inbox-entry > .timestamp {color: var(--rs-online-color) !important;}
 .kt-inbox-entry > .username {color: yellow;}
-.kt-inbox-entry > .usericon {border-radius: var(--avatar-radius) !important; margin-left: 0px !important;}
+.kt-inbox-entry > .usericon {border-radius: var(--avatar-radius) !important;}
 .kt-inbox-entry {margin: 0px !important;}
 .kt-inbox-entry > button {border-radius: 0px !important;}
 .kt-inbox-entry > .content {color: #ccc !important; /* Default: #88a */ /* display: block; */}
