@@ -2132,11 +2132,13 @@ div.clickable-J07Mqa > svg > path {color: red;}
 
 /* ==> Home Channel <== */
 .theme-dark .background-fkKrXt {background: var(--background-primary);}
-.container-Jqlbgl {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
-  overflow: hidden;
+@media (min-width: 2000px) { /* Only works on 1440p displays */
+  .container-Jqlbgl {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    overflow: hidden;
+  }
 }
 /* Tiles */
 .card-3x20HF {border-radius: var(--server-radius); background: var(--background-secondary); overflow: hidden;}
