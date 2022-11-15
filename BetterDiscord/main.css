@@ -2139,7 +2139,7 @@ div.clickable-J07Mqa > svg > path {color: red;}
   overflow: hidden;
 }
 /* Tiles */
-.card-3x20HF {border-radius: var(--server-radius); background: var(--background-secondary);}
+.card-3x20HF {border-radius: var(--server-radius); background: var(--background-secondary); overflow: hidden;}
 .interactiveCard-2iMtdk.selected-sszUNx, .interactiveCard-2iMtdk:active, .interactiveCard-2iMtdk:hover {border-color: var(--border-color);}
 /* Right side stuff */
 .iconActiveLarger-2EZc1b {border-radius: var(--avatar-radius);}
