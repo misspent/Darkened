@@ -455,9 +455,18 @@
 .contentWrapper-3vHNP2 {background-color: var(--Emoji-Menu); box-shadow: none; border-radius: var(--server-radius);}
 .header-1XpmZs {margin-left: 5px;}
 /* Work well together */
-.categorySection-3j71bm, #sticker-picker-grid > div > div.scroller-2MALzE.thin-31rlnD.scrollerBase-_bVAAt > div.listItems-6eZzQ1 {margin-left: -8px !important;}
-.emojiItem-277VFM {margin-left: 6px; margin-top: 6px;}
 .sticker-H2HhJD {border-radius: var(--server-radius); margin-left: 6px;}
+.categorySection-3j71bm, #sticker-picker-grid > div > div.scroller-2MALzE.thin-31rlnD.scrollerBase-_bVAAt > div.listItems-6eZzQ1 {margin-left: -8px !important;}
+/* Thanks Carrot - I'm lazy */
+.emojiItem-277VFM {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 0;
+  margin: 5px 0px 0px 0px !important;
+}
+.emojiItem-277VFM > * {transform: scale(.8);}
+.emojiListRow-3hshyU{height: unset;}
+.emojiListRowMediumSize-2_-xbz {grid-template-columns: auto;}
 
 /* Emoji, GIF, Sticker + FavoriteMedia plugin container colours when in the menu */
 #emoji-picker-tab, #gif-picker-tab {color: orange ;} #emoji-picker-tab.navButtonActive-1EqC5l, #gif-picker-tab.navButtonActive-1EqC5l {background: orange !important; color: #fff;}
