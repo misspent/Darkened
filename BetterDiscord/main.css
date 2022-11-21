@@ -1177,7 +1177,7 @@ div.BetterInvites-iconWrapper > div > img {border-radius: var(--avatar-radius) !
 .kt-inbox-entry > .username {color: yellow;}
 .kt-inbox-entry > .usericon {border-radius: var(--avatar-radius) !important;}
 .kt-inbox-entry {margin: 0px !important;}
-.kt-inbox-entry > button {border-radius: 0px !important;}
+.kt-inbox-entry > button {border-radius: 0px !important; border: none !important;}
 .kt-inbox-entry > .content {color: #ccc !important; /* Default: #88a */ /* display: block; */}
 
 /*
@@ -2028,7 +2028,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 
 /* ==========> Forum channel <========== */
 .theme-dark .container-3wLKDe {background-color: var(--background-primary);}
-.header-1Uy0p6, .reaction-102jx9, .icon-2ujrkG, .guidelinesButton-3Vrz0u, .pinIcon-zVODC5 {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: transparent !important; border: none !important;}
+.header-1Uy0p6, .reaction-102jx9, .icon-2ujrkG, .guidelinesButton-3Vrz0u, .pinIcon-zVODC5, .pinIcon-3I5-gm {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: transparent !important; border: none !important;}
 .mainCard-3KBsBI {border-radius: var(--server-radius); background: var(--background-secondary);}
 .headerRow-1MKoR- .mainCard-3KBsBI {background: var(--background-secondary);}
 .matchingPostsRow-2IiEQ1 {background-color: var(--background-tertiary);}
