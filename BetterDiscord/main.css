@@ -2781,7 +2781,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   justify-content: center;
 }
 .userProfileInner-3F03PX .userText-148fun {
-  position: absolute;
+  position: fixed;
   width: 100%;
   left: 0px;
   top: 110px;
