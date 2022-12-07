@@ -662,8 +662,8 @@
 :root .homeIcon-r0w4ny, .homeIcon-FuNwkv > path {
   display: none;
 }
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub svg g { /* Removes xmas effect on home icon */
-  display: none;
+.childWrapper-1j_1ub svg g { /* Removes xmas effect on home icon */
+  display: none !important;
 }
 
 /* Stickers same size as emojis
