@@ -2783,6 +2783,11 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   display: flex;
   justify-content: center;
 }
+/* Banners */
+.userPopoutOuter-3AVBmJ .userProfileInner-3F03PX .bannerSVGWrapper-qc0szY {
+  min-height: 110px !important;
+  margin: auto;
+}
 .bannerSVGWrapper-qc0szY mask, .avatarPositionPremiumNoBanner-nWzERs circle {display: none;}
 /* Badges */
 .userProfileInner-3F03PX .profileBadges-31rDHI {
