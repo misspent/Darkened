@@ -2811,8 +2811,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   padding: 8px 12px 0;
   text-align: center;
 }
-.userPopoutInner-1hXSeY:before {background: var(--background-secondary);}
-.userPopoutInner-1hXSeY:before {border-radius: 0px;}
+.userPopoutInner-1hXSeY:before {background: var(--background-secondary); border-radius: 0px;}
 .userPopoutOverlayBackground-dKOOda {margin: 0px !important;}
 .section-3FmfOT .textarea-_59yqs {background: var(--popout-background-main) !important;}
 .section-3FmfOT .lineClamp2Plus-2RYGV2{background: var(--popout-background-main);}
