@@ -2848,6 +2848,9 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .profilePanel-2PWEok .userPanelOverlayBackground-3xwDMp, .profilePanel-2PWEok .userProfileModalOverlayBackground-8p3-eU {
   margin: 2px 5px 5px 5px;
 }
+.profilePanelConnections-qFuH1k {
+  margin: 0px 17px !important;
+}
 .profilePanel-2PWEok .section-3FmfOT {
   text-align: center;
 }
