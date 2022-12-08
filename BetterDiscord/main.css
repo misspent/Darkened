@@ -2824,7 +2824,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .userProfileOuter-1K_BYU {border-radius: var(--server-radius); box-shadow: none; background: transparent;} /* Nitro Gradient background */
 .profileBadges-31rDHI {z-index: 1;}
 /* Light theme */
-.overlayBackground-1KgwVi {background-color: var(--background-secondary); border-radius: 0px;}
+.overlayBackground-1KgwVi {background-color: transparent; border-radius: 0px;}
 
 /* ====> New DMs User Profile <==== */
 .profilePanel-2PWEok .userProfileOuterThemed-3EfHmv {background: var(--background-primary);}
@@ -2849,6 +2849,11 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 }
 .profilePanel-2PWEok .section-3FmfOT {
   text-align: center;
+}
+/* Mutual Server & Mutual Friend */
+.mutualGuildsList-37Q6HT, .mutualFriendsDivider-2LiKsc {
+  background: var(--background-secondary);
+  border-color: var(--border-color);
 }
 /* ==> Banners <== */
 .popoutNoBannerPremium-2TQa6P, .popoutBanner-16rVDY, .bannerSVGWrapper-qc0szY .panelBanner-13bsBR {
