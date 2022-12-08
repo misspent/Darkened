@@ -1057,6 +1057,7 @@
   padding: 0 4px !important;
   border-radius: 0px !important;
 }
+.channelTabs-tabIconWrapper foreignObject {mask: none !important;}
 /* Bottom Bar - Favorites */
 #channelTabs-container> :not(#channelTabs-settingsMenu)+ div {padding: 3px 0px 3px 5px !important; border-top: 1px solid var(--jump-newmessage-bars) !important; /* Default: var(--background-modifier-accent) */}
 .channelTabs-fav {margin-bottom: 0px !important; padding-left: 1px !important; height: auto !important;}
