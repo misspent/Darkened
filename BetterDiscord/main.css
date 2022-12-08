@@ -2775,7 +2775,81 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   color: var(--brand-experiment-500);
 }
 
+/* ====> New Style Profile popout <==== */
+.avatarWrapper-3y0KZ1 {
+  width: 100%;
+  left: 0px;
+  top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.bannerSVGWrapper-qc0szY mask, .avatarPositionPremiumNoBanner-nWzERs circle {display: none;}
+/* Badges */
+.userProfileInner-3F03PX .profileBadges-31rDHI {
+  top: 0px;
+  right: 6px;
+  padding: 0px;
+  margin-top: 6px;
+  position: absolute;
+  max-width: min-content;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+/* Pencil/edit banner button */
+.popoutBanner-16rVDY .pencilContainer-11Kuga, .popoutBannerPremium-2RvDNZ .pencilContainer-11Kuga {
+  top: 6px;
+  right: auto;
+  left: 6px;
+  padding: 0px;
+}
+.popoutBanner-16rVDY .pencilContainer-11Kuga, .popoutBannerPremium-2RvDNZ .pencilContainer-11Kuga > svg {
+  width: 15px;
+  height: 15px;
+}
+/* Fixes */
+.customStatusSection-2TRu5f, .usernameSection-2d814A {
+  padding: 8px 12px 0;
+  text-align: center;
+}
+.userPopoutInner-1hXSeY:before {background: var(--background-secondary);}
+.userPopoutInner-1hXSeY:before {border-radius: 0px;}
+.userPopoutOverlayBackground-dKOOda {margin: 0px !important;}
+.section-3FmfOT .textarea-_59yqs {background: var(--popout-background-main) !important;}
+.section-3FmfOT .lineClamp2Plus-2RYGV2{background: var(--popout-background-main);}
+.userPopoutOuter-3AVBmJ, .popoutBannerPremium-2RvDNZ, .userPopoutInner-1hXSeY, .userPopoutInner-1hXSeY:before {width: 300px !important;}
+.userProfileOuter-1K_BYU {border-radius: var(--server-radius); box-shadow: none; background: transparent;} /* Nitro Gradient background */
+.profileBadges-31rDHI {z-index: 1;}
+/* Light theme */
+.overlayBackground-1KgwVi {background-color: var(--background-secondary); border-radius: 0px;}
 
+/* ====> New DMs User Profile <==== */
+.profilePanel-2PWEok .userProfileOuterThemed-3EfHmv {background: var(--background-primary);}
+.profilePanel-2PWEok .userPanelInnerThemed-2xZFjl {background: var(--background-primary); border-left: 1px solid var(--border-color);}
+/* Badges */
+.profilePanel-2PWEok .badgelistGroup-2XjSQi {
+  top: 0px;
+  left: 6px;
+  padding: 0px;
+  margin-top: 6px;
+  position: absolute;
+  max-width: min-content;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.badgeList-1EecKl {
+  border-radius: var(--server-radius);
+}
+/* Main containers */
+.profilePanel-2PWEok .userPanelOverlayBackground-3xwDMp, .profilePanel-2PWEok .userProfileModalOverlayBackground-8p3-eU {
+  margin: 2px 5px 5px 5px;
+}
+.profilePanel-2PWEok .section-3FmfOT {
+  text-align: center;
+}
+/* ==> Banners <== */
+.popoutNoBannerPremium-2TQa6P, .popoutBanner-16rVDY, .bannerSVGWrapper-qc0szY .panelBanner-13bsBR {
+  filter: brightness(65%);
+}
 
 /* =========> Popout USRBG Model [Big Profile Model] <========= */
 .badgeList-2pMvZX, .userProfileInner-3F03PX, .userProfileModalInner-3fh3QA:before {border-radius: var(--server-radius);} /* Profile Popup USRBG | NEW */
