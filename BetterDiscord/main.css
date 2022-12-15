@@ -2736,7 +2736,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   font-weight: 500;
   background-color: #6e85d371;
   border-radius: 0px;
-  height: 22px;
+  height: auto;
   width: 25px !important;
   padding: 4px;
 }
@@ -2745,7 +2745,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   left: 0;
   position: absolute;
   background-color: #6e85d3;
-  height: 22px;
+  height: -webkit-fill-available;
   width: 3px !important;
 }
 .roleCircle-3K9O3d {
