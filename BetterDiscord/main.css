@@ -2093,7 +2093,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 div.messagesWrapper-RpOMA3.group-spacing-16 .container-3YcgdM > div.buttons-BK5gED > button:nth-child(2) > div > svg {color: #7289da;} /* Copy link button */
 .tags-2Siay7 .pill-3pRQlO {background: var(--background-tertiary);}
 .iconWrapper-3FqQ75 {border-radius: var(--server-radius); background-color: var(--background-tertiary);}
-
+.container-3XgAHv .chat-25x62K .container-1yy5xN {margin: 0 8px; align-items: center !important;}
 .divider-AZrXIA {display: none;}
 .addReactButton-3bSQb6, .buttonInner-3aRbcx {border-radius: var(--server-radius);}
 .addReactButton-3bSQb6:hover, .buttonInner-3aRbcx:hover {background: var(--background-tertiary); border: 1px solid transparent;}
