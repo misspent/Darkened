@@ -1775,6 +1775,7 @@ div.bd-addon-header > div.bd-title > div.bd-meta > span.bd-author {color: var(--
   background: var(--unread-color);
 }
 .typeThread-2Aqh6X .content-1gYQeQ {padding-left: 3px !important; border-left: 0px solid transparent !important; margin-left: 25px !important;}
+.spineBorder-1-F4s1 {display: none;}
 
 /* Embedding colour + roundness */
 .embedFull-1HGV2S {border-left: 4px solid var(--background-tertiary); background: var(--background-secondary); border-radius: var(--server-radius);}
