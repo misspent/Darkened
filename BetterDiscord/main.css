@@ -467,6 +467,9 @@
 .emojiItem-277VFM > * {transform: scale(.8);}
 .emojiListRow-3hshyU{height: unset;}
 .emojiListRowMediumSize-2_-xbz {grid-template-columns: auto;}
+/* New added emoji added containers */
+.badgeLabel-2Eo2Mq, .newlyAddedHighlight-wgFFAo.oneItem-1sgXSn {border-radius: var(--server-radius);}
+.newlyAddedBadge-VdocH4 {display: none;}
 
 /* Emoji, GIF, Sticker + FavoriteMedia plugin container colours when in the menu */
 #emoji-picker-tab, #gif-picker-tab {color: orange ;} #emoji-picker-tab.navButtonActive-1EqC5l, #gif-picker-tab.navButtonActive-1EqC5l {background: orange !important; color: #fff;}
