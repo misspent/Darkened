@@ -67,7 +67,7 @@
 .colorDefault-CDqZdO.focused-3qFvc8 {border-radius: var(--server-radius);}
 /* ! ------> Below here are Context Menu background colours <------ */
 .colorDanger-3n-KnP:hover {background: linear-gradient(90deg, #f047478e, #f04747) !important;} /* All danger (red) context container(s) background */
-.colorDefault-CDqZdO:hover {background: linear-gradient(90deg, #5c6eb150, #5c6eb18e);} /* All defaults (#5c6eb150) context container(s) background */
+.colorDefault-CDqZdO:hover, .colorDefault-CDqZdO.focused-3qFvc8 {background: linear-gradient(90deg, #5c6eb150, #5c6eb18e);} /* All defaults (#5c6eb150) context container(s) background */
 /* Streaming context menu background */
 .colorDefault-CDqZdO.focused-3qFvc8#stream-context-watch, .colorDefault-CDqZdO.focused-3qFvc8#stream-context-mute {background: linear-gradient(90deg, #aa0e0e, #f04747);}
 .colorDefault-CDqZdO.focused-3qFvc8#stream-context-no-video-hide {background: linear-gradient(90deg, #20da778e, #20da78);}
