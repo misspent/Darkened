@@ -11,6 +11,8 @@
 .separator-1So4YB {display: none;} /* Context menu dividers */
 .submenu-1apzyU [id*="user-context-roles"] {padding: 0px 0px 0px 2px !important;} /* Submenu when hovering over "roles" to give someone a role */
 .root-g14mjS {background: transparent !important;} /* Background color when viewing an image */
+/* Friends section random bar at the top fix? annoying as fuck... */
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > div {margin-top: -8px !important;}
 
 /*
 ====================================================================================
