@@ -2646,7 +2646,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .aboutMeSection-PUghFQ, .connections-pPr4as, .note-6O4w9y textarea:focus {background-color: var(--popout-background-main); border-radius: 0px 0px var(--server-radius) var(--server-radius);}
 /* Light theme popout version */
 .theme-light .userPopoutInner-PA9zkU:before, .theme-light .overlayBackground-arbZMT {background: var(--popout-secondary) !important;}
-.theme-light input {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-secondary) !important; border: none;}
+.theme-light input {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-secondary-alt) !important; border: none;}
 .theme-light .messageInput-1KI8l8::placeholder {background: var(--background-secondary) !important;}
 .theme-light .textarea-_59yqs::placeholder {background: var(--popout-background-main) !important;}
 /* Popout activity spotify text colour & Roles | Light popout */
