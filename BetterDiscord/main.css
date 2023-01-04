@@ -3036,8 +3036,8 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 /* -- Better menus -- */
 
 /* Submenu */
-.submenuContainer-3EVTeH .layer-2aCOJ3 {
-  margin-left: -4px;
+.theme-dark.layer-2aCOJ3 .submenu-1apzyU.menu-1QACrS {
+  margin-left: -4px !important;
 }
 .submenuPaddingContainer-_k62dJ {
   padding: 0 0px;
