@@ -3042,9 +3042,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .submenuPaddingContainer-_k62dJ {
   padding: 0 0px;
 }
-.labelContainer-2vJzYL {
-  padding: 0px 4px;
-}
+.submenu-1apzyU [id*="user-context-roles"] {padding: 0px 0px 0px 2px !important;} /* Submenu when hovering over "roles" to give someone a role */
 
 /* Label */
 .labelContainer-2vJzYL.colorDanger-3n-KnP:hover,
