@@ -2865,7 +2865,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 /* Mutual Server & Mutual Friend */
 .mutualGuildsList-37Q6HT, .mutualFriendsDivider-2LiKsc {
   background: var(--popout-title);
-  border-color: var(--background-secondary);
+  border-color: var(--background-secondary) !important;
 }
 .connectionList-3B62ce {
   background: var(--popout-background-main);
