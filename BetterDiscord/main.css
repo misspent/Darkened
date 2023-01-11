@@ -3109,7 +3109,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .numberBadge-3uSQY0 {margin-right: 8px;} /* Ping/Number badge on the event channel when an event is live */
 
 /* Ban button when in ban popup */
-.sizeSmall-wU2dO- {
+.focusLock-2tveLW .sizeSmall-wU2dO- {
   height: 38px;
   max-height: 38px;
 }
