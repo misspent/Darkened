@@ -2781,7 +2781,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 /* Member since container in popout | Both light & dark versions */ */
 .userPopoutOuter-3AVBmJ.userProfileOuter-1K_BYU.userProfileOuterUnthemed-2b2rsv.profileColors-3Y0XaR.theme-dark.default-colors .memberSinceContainer-3biwiY,
 .userPopoutOuter-3AVBmJ.userProfileOuter-1K_BYU.userProfileOuterThemed-3EfHmv.profileColors-3Y0XaR.theme-light.default-colors .memberSinceContainer-3biwiY {
-  background: red !important;
+  background: var(--popout-background-main);
   justify-content: center;
 }
 .discordIcon-JXet1k {
