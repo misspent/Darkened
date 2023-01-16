@@ -2609,7 +2609,7 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 .overlayBackground-2Zjm9f {margin: 0px; background-color: var(--background-secondary) !important; border-radius: 0px;} .userPopoutInner-1v4xcM:before {background-color: var(--background-secondary);}
 /* About me, Roles, Note and activity containers */
 .theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9, .theme-light .activityUserPopoutV2-3eKqzY .headerText-3g1XK9 {color: var(--header-secondary);} /* Activity title text colour */
-.headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center; color: var(--header-secondary) !important;}
+.activityUserPopoutV2-3eKqzY.activity-E0U09Y .headerContainer-1wJjOa, .title-1r9MQ6, .profileBadges-31rDHI {background-color: var(--popout-title); margin-bottom: 0px; justify-content: center; color: var(--header-secondary) !important;}
 .wrap-7NZuTn, .textarea-_59yqs, .activity-E0U09Y {margin-top: 0px; margin-bottom: 0px; border-radius: 0px 0px var(--server-radius) var(--server-radius) !important;}
 /* Buttons Activity popout */
 .timeBarUserPopout-qLXZaR, .timeBarUserPopoutV2-32DL06 {margin: 0px 2px 0px 2px; padding: 4px 0px;}
