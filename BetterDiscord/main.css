@@ -1969,17 +1969,6 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   padding: 2px;
   justify-content: center;
 }
-
-.recentMentionsPopout-2bI1ZN[aria-label="Recent Mentions"]:before {
-  content: "";
-  position: absolute;
-  background: var(--background-secondary);
-  top: 56px;
-  left: 16px;
-  z-index: 100;
-  width: 94.7%;
-  height: 16px;
-}
 .messagesPopout-eVzQcI {margin: 8px; padding: 8px !important;}
 .container-iA3Qrz {border: 1px solid var(--border-color); padding-right: 0px;}
 .messages-23can0 {border-right: 1px solid var(--border-color); border-left: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);}
