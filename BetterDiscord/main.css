@@ -1969,17 +1969,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   padding: 2px;
   justify-content: center;
 }
-.container-2ebMPP:before {
-  content: "";
-  position: absolute;
-  item-align: top;
-  background: var(--background-secondary);
-  top: 56px;
-  left: 16px;
-  z-index: 100;
-  width: 96%;
-  height: 16px;
-}
+
 .recentMentionsPopout-2bI1ZN[aria-label="Recent Mentions"]:before {
   content: "";
   position: absolute;
