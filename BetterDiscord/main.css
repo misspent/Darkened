@@ -2856,6 +2856,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   margin-bottom: 0px;
   margin-right: 0px;
 }
+.memberSinceContainer-3biwiY {justify-content: center; background: var(--popout-background-main);} /* Discord member since */
 /* ==> Banners <== */
 .popoutNoBannerPremium-2TQa6P, .popoutBanner-16rVDY, .bannerSVGWrapper-qc0szY .panelBanner-13bsBR {
   filter: brightness(65%);
