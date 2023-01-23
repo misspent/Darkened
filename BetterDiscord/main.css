@@ -2816,7 +2816,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .userPopoutOuter-3AVBmJ, .userPopoutInner-1hXSeY, .userPopoutInner-1hXSeY .banner-2boKnS {min-width: 0px !important; max-width: 300px;} /* Popout and account panel popout */
 .userProfileOuter-1K_BYU {border-radius: var(--server-radius); box-shadow: none; background: transparent;} /* Nitro Gradient background */
 .profileBadges-31rDHI {z-index: 1;}
-.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ, .userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {padding: 0px;}
+[id*="popout_"] .userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ, [id*="popout_"] .userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {padding: 0px;}
 /* Light theme */
 .overlayBackground-1KgwVi {background-color: transparent; border-radius: 0px;}
 /* Popout Rich Presence buttons */
