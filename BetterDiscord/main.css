@@ -2629,7 +2629,6 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 /* Light theme popout version */
 .theme-light .userPopoutInner-PA9zkU:before, .theme-light .overlayBackground-arbZMT {background: var(--popout-secondary) !important;}
 .theme-light input {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-secondary-alt); border: none;}
-.theme-light .messageInput-1KI8l8::placeholder {background: var(--background-secondary) !important;}
 .theme-light .textarea-_59yqs::placeholder {background: var(--popout-background-main) !important;}
 .textarea-_59yqs {color: #DCDDDE; font-weight: 300 !important;}
 /* Popout activity spotify text colour & Roles | Light popout */
