@@ -2956,7 +2956,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 /* Colours? */
 .root-2uUafN .userProfileInnerThemedWithBanner-2624Yx, .userProfileInnerThemedNonPremium-1gT-zY, .userProfileInnerThemedPremiumWithoutBanner-1yMS1H {background: var(--background-secondary) !important;}
 .root-2uUafN .userProfileInner-3F03PX:before, .userProfileInner-3F03PX:before {background-color: transparent;} /* Bye Gradient for light theme */
-.root-2uUafN .userProfileInnerThemedWithBanner-2624Yx, .root-2uUafN .overlayBackground-1KgwVi {background: var(--background-tertiary) !important;}
+.root-2uUafN .userProfileInnerThemedWithBanner-2624Yx, .root-2uUafN .overlayBackground-1KgwVi {background: var(--background-secondary) !important;}
 /* Name */
 .container-1U-qVy {padding: 0px 12px 0;}
 /* User Info section colours */
