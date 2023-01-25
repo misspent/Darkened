@@ -2878,6 +2878,19 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .popoutNoBannerPremium-2TQa6P, .popoutBanner-16rVDY, .bannerSVGWrapper-qc0szY .panelBanner-13bsBR {
   filter: brightness(65%);
 }
+/* ==> Profile popout custom image for non premium users <== */
+.userPopoutInner-1hXSeY.userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY svg.bannerSVGWrapper-qc0szY,
+.userPopoutInner-1hXSeY.userProfileInner-3F03PX.userProfileInnerThemedPremiumWithoutBanner-1yMS1H svg.bannerSVGWrapper-qc0szY {
+  background-image: url("https://i.imgur.com/06QR0oT.jpeg") !important;
+  background-repeat: no-repeat;
+  background-position: 0px 0px !important;
+  inline-size: fit-content;
+  background-size: cover;
+}
+.userPopoutInner-1hXSeY.userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY svg.bannerSVGWrapper-qc0szY foreignObject,
+.userPopoutInner-1hXSeY.userProfileInner-3F03PX.userProfileInnerThemedPremiumWithoutBanner-1yMS1H svg.bannerSVGWrapper-qc0szY foreignObject {
+  display: none;
+}
 
 /* =========> Popout USRBG Model [Big Profile Model] <========= */
 .badgeList-2pMvZX, .userProfileInner-3F03PX, .userProfileModalInner-3fh3QA:before {border-radius: var(--server-radius);} /* Profile Popup USRBG | NEW */
@@ -3040,6 +3053,23 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 }
 .root-2uUafN .tabBarContainer-2UG0vy {margin: 0px; border-color: transparent; background: var(--background-primary);}
 .root-2uUafN .divider-1NpGam {margin: 0px; border-color: transparent;}
+/* ==> Profile popup profile custom image for non premium users <== */
+.root-2uUafN .profileBanner-2zIsK7 {
+  filter: brightness(0.6);
+}
+.root-2uUafN .userProfileModalInner-3fh3QA.userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY svg.bannerSVGWrapper-qc0szY,
+.root-2uUafN .userProfileModalInner-3fh3QA.userProfileInner-3F03PX.userProfileInnerThemedPremiumWithoutBanner-1yMS1H svg.bannerSVGWrapper-qc0szY {
+  background-image: url("https://i.imgur.com/06QR0oT.jpeg") !important;
+  background-repeat: no-repeat;
+  background-position: 0px 0px !important;
+  inline-size: fit-content;
+  background-size: cover;
+  z-index: 1001;
+}
+.root-2uUafN .userProfileModalInner-3fh3QA.userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY svg.bannerSVGWrapper-qc0szY foreignObject,
+.root-2uUafN .userProfileModalInner-3fh3QA.userProfileInner-3F03PX.userProfileInnerThemedPremiumWithoutBanner-1yMS1H svg.bannerSVGWrapper-qc0szY foreignObject {
+  display: none;
+}
 
 /* --------------------------- ⚙️ SERVER SETTINGS --------------------------- */
 
