@@ -2795,7 +2795,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   padding: 0px;
   margin-top: 6px;
   position: absolute;
-  max-width: 48px;
+  max-width: min-content;
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
