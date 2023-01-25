@@ -3032,6 +3032,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .additionalActionsIcon-1IPuHI { /* Action button */
   background-color: var(--profile-body-background-color);
   width: 30px;
+  height: auto;
   margin-left: 4px;
 }
 /* ==> Tabs section = godly <=== */
