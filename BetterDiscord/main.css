@@ -2795,7 +2795,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   padding: 0px;
   margin-top: 6px;
   position: absolute;
-  max-width: min-content;
+  max-width: 48px;
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
@@ -3054,6 +3054,18 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 }
 .root-2uUafN .tabBarContainer-2UG0vy {margin: 0px; border-color: transparent; background: var(--background-primary);}
 .root-2uUafN .divider-1NpGam {margin: 0px; border-color: transparent;}
+/* ==> Custom Status <== */
+.customStatus-3QV7IG {
+  margin: 0px;
+  position: fixed;
+  left: 145px;
+  top: 15px;
+  z-index: 1001;
+  text-shadow: 1px 1px black;
+  color: #fff !important;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0px 2px;
+}
 /* ==> Profile popup profile custom image for non premium users <== */
 .root-2uUafN .profileBanner-2zIsK7 {
   filter: brightness(0.6);
@@ -3236,12 +3248,6 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 
 .container-3zZkKh .footer-1J3e3Q {justify-content: space-between;} /* Create Events popup other 2 buttons */
 .numberBadge-3uSQY0 {margin-right: 8px;} /* Ping/Number badge on the event channel when an event is live */
-
-/* Ban button when in ban popup */
-.focusLock-2tveLW .sizeSmall-wU2dO- {
-  height: 38px;
-  max-height: 38px;
-}
 
 /* Cross */
 .theme-dark .default-1Tkeeg,
