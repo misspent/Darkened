@@ -3046,6 +3046,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 /* Tab Bars */
 .root-2uUafN .tabBarItem-3VvT2z {
   display: flex;
+  height: 34px;
   width: 147.5px;
   align-items: center;
   justify-content: center;
