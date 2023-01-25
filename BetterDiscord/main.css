@@ -3016,7 +3016,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 }
 .root-2uUafN .headerTop-212g15 { /* Badges & Send Friend Request */
   position: absolute;
-  top: 90px;
+  top: 95px;
   right: 16px;
   left: 10px;
   align-items: center;
@@ -3027,6 +3027,12 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   top: 145px;
   padding: 0px;
   z-index: 1001;
+  text-shadow: 0px 1px 2px black;
+}
+.additionalActionsIcon-1IPuHI { /* Action button */
+  background-color: var(--profile-body-background-color);
+  width: 30px;
+  margin-left: 4px;
 }
 /* ==> Tabs section = godly <=== */
 .body-_QAKrE {border-radius: var(--server-radius);}
