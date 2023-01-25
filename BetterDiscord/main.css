@@ -2628,7 +2628,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .aboutMeSection-PUghFQ, .connections-pPr4as, .note-6O4w9y textarea:focus {background-color: var(--popout-background-main); border-radius: 0px 0px var(--server-radius) var(--server-radius);}
 /* Light theme popout version */
 .theme-light .userPopoutInner-PA9zkU:before, .theme-light .overlayBackground-arbZMT {background: var(--popout-secondary) !important;}
-.theme-light input {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-secondary-alt) !important; border: none;}
+.theme-light input {border-radius: var(--server-radius); display: var(--Popout-Send-Message-Container); background: var(--background-secondary-alt); border: none;}
 .theme-light .messageInput-1KI8l8::placeholder {background: var(--background-secondary) !important;}
 .theme-light .textarea-_59yqs::placeholder {background: var(--popout-background-main) !important;}
 .textarea-_59yqs {color: #DCDDDE; font-weight: 300 !important;}
@@ -2821,7 +2821,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .profileBadges-31rDHI {z-index: 1;}
 [id*="popout_"] .userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ, [id*="popout_"] .userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {padding: 0px;}
 /* Light theme */
-.overlayBackground-1KgwVi {background-color: transparent; border-radius: 0px;}
+.overlayBackground-1KgwVi {border-radius: 0px;}
 /* Popout Rich Presence buttons */
 .activityUserPopoutV2-3eKqzY.activity-E0U09Y .flex-2S1XBF.flex-3BkGQD.vertical-3aLnqW.flex-3BkGQD.directionColumn-3pi1nm.justifyStart-2Mwniq.alignStretch-Uwowzr.wrap-7NZuTn.buttonsWrapper-2ARRp1.vertical-qPeOMD {
   margin: 0px 4px 0px 4px;
