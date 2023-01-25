@@ -2999,7 +2999,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .connectedAccountsColumn-1I3naf {width: 100%; height: -webkit-fill-available;}
 .connectedAccountsColumn-1I3naf+ .connectedAccountsColumn-1I3naf {margin-left: 0px;}
 /* ===> Positioning of the top section <=== */
-.root-2uUafN .topSection-1Khgkv {margin-bottom: 0px;}
+.root-2uUafN .topSection-1Khgkv {margin-bottom: -3px;}
 .root-2uUafN .header-1_vWwx {
   position: absolute;
   top: 80px;
