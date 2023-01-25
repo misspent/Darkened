@@ -2580,6 +2580,10 @@ a[href="/store"] {display: var(--Home-Nitro-Channel);}
 
 .theme-light {
   --text-link: var(--link-500);
+  --interactive-normal: var(--primary-dark-300);
+  --interactive-active: var(--white-500);
+  --interactive-hover: var(--primary-dark-200);
+  --profile-body-background-color: #00000073 !important;
 }
 /* User Popout */
 .avatar-2OC07D {background-color: transparent; border: 4px solid var(--background-secondary) !important;}
@@ -2817,6 +2821,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .section-3FmfOT .lineClamp2Plus-2RYGV2, .section-3FmfOT .lineClamp2Plus-2SCQmH {background: var(--popout-background-main);}
 .userPopoutOuter-3AVBmJ, .userPopoutInner-1hXSeY, .userPopoutInner-1hXSeY .banner-2boKnS {min-width: 0px !important; max-width: 300px;} /* Popout and account panel popout */
 .userProfileOuter-1K_BYU {border-radius: var(--server-radius); box-shadow: none; background: transparent;} /* Nitro Gradient background */
+.userProfileInnerThemedWithBanner-2624Yx, .overlayBackground-1KgwVi {background: var(--background-secondary);}
 .profileBadges-31rDHI {z-index: 1;}
 [id*="popout_"] .userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ, [id*="popout_"] .userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {padding: 0px;}
 /* Light theme */
@@ -2939,6 +2944,102 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   z-index: 1;
   background-color: var(--background-secondary);
 }
+
+/* ============> New User Profile Modal <============ */
+.infoScroller-3MqKC5.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  overflow: auto;
+  padding: 8px 8px 0px 8px !important;
+}
+/* Colours? */
+.root-2uUafN .userProfileInnerThemedWithBanner-2624Yx, .userProfileInnerThemedNonPremium-1gT-zY, .userProfileInnerThemedPremiumWithoutBanner-1yMS1H {background: var(--background-secondary) !important;}
+.root-2uUafN .userProfileInner-3F03PX:before, .userProfileInner-3F03PX:before {background-color: transparent;} /* Bye Gradient for light theme */
+.root-2uUafN .userProfileInnerThemedWithBanner-2624Yx, .root-2uUafN .overlayBackground-1KgwVi {background: var(--background-tertiary) !important;}
+/* Name */
+.container-1U-qVy {padding: 0px 12px 0;}
+/* User Info section colours */
+.root-2uUafN .userInfoSectionHeader-48g5Qj {background: var(--popout-title); margin-bottom: 0px; text-align: center;}
+.root-2uUafN .userInfoText-3GOMzH.markup-eYLPri {background: var(--popout-background-main);}
+.root-2uUafN .memberSinceContainer-3biwiY {background: var(--popout-background-main); margin-bottom: 6px;}
+.root-2uUafN .note-3TX9O7, .note-3TX9O7 textarea:focus {background: var(--popout-background-main); margin: 0px;}
+/* Connected Accounts */
+.connectedAccounts-1HaiEx.userInfoSection-1gptv0:not(:hover) .text-xs-normal-3O7EaX {display: none;} /* Removes extra info unless hovered on */
+.userPanelOverlayBackground-3xwDMp, .userProfileModalOverlayBackground-8p3-eU {margin: 0px;}
+.userInfoSection-1gptv0+ .userInfoSection-1gptv0 {border-top: none; justify-content: center;}
+.connectedAccountContainer-2TWiXT {
+  margin-top: 0px;
+  padding: 8px;
+  border-radius: var(--server-radius);
+  border: 1px solid var(--border-color);
+}
+.connectedAccounts-1HaiEx {
+  display: grid !important;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 6px;
+  overflow: auto;
+}
+.userInfoSection-1gptv0 {padding: 0px;}
+/* How the connected textures should work */
+.connectedAccounts-1HaiEx.userInfoSection-1gptv0, .connectedAccountsColumn-1I3naf {row-gap: 6px; column-gap: 6px; height: -webkit-fill-available;}
+.connectedAccountsColumn-1I3naf {width: 100%; height: -webkit-fill-available;}
+.connectedAccountsColumn-1I3naf+ .connectedAccountsColumn-1I3naf {margin-left: 0px;}
+/* ===> Positioning of the top section <=== */
+.root-2uUafN .topSection-1Khgkv {margin-bottom: 0px;}
+.root-2uUafN .header-1_vWwx {
+  position: absolute;
+  top: 80px;
+  width: -webkit-fill-available;
+}
+.root-2uUafN .avatar-1YsFQ1 { /* Avatar */
+  position: absolute;
+  top: -68px;
+  left: 10px;
+}
+.root-2uUafN svg.bannerSVGWrapper-qc0szY { /* Banner */
+  height: 212px;
+  min-height: 212px !important;
+}
+.root-2uUafN .headerTop-212g15 { /* Badges & Send Friend Request */
+  position: absolute;
+  top: 90px;
+  right: 16px;
+  left: 10px;
+  align-items: center;
+}
+.root-2uUafN .container-1U-qVy .nameTag-2ysfG3.nameTag-H6kSJ0 { /* Username */
+  position: fixed;
+  left: 15px;
+  top: 145px;
+  padding: 0px;
+  z-index: 1001;
+}
+/* ==> Tabs section = godly <=== */
+.body-_QAKrE {border-radius: var(--server-radius);}
+.tabBar-2StdUa {
+  gap: 2px;
+  justify-content: center;
+  height: 40px;
+  padding: 2px 0px !important;
+}
+.top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG, .top-K_jibn .themed-2-lozF.item-3XjbnG:active {
+  border-bottom-color: var(--mention-color);
+  background: rgba(var(--accent), 0.1);
+}
+.top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
+  border-bottom-color: var(--mention-color);
+}
+/* Tab Bars */
+.root-2uUafN .tabBarItem-3VvT2z {
+  display: flex;
+  width: 147.5px;
+  align-items: center;
+  justify-content: center;
+  background: var(--background-tertiary);
+}
+.root-2uUafN .tabBarContainer-2UG0vy {margin: 0px; border-color: transparent; background: var(--background-primary);}
+.root-2uUafN .divider-1NpGam {margin: 0px; border-color: transparent;}
 
 /* --------------------------- ⚙️ SERVER SETTINGS --------------------------- */
 
