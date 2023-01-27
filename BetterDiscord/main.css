@@ -1654,7 +1654,7 @@ svg.slider-HJFN2i rect {rx: 0;}
 .theme-dark .progressBarContainer-1efroK {background-color: var(--background-primary);}
 
 /* Background of your server list section */
-.scroller-3X7KbA {background: var(--background-primary);}
+.scroller-3X7KbA {background: var(--background-primary) !important;}
 
 /* Titlebar Search Menu Dropdown | Search container results */
 .theme-dark .container-2McqkF {margin-left: -6% !important; margin-top: 6px; background-color: var(--background-primary);border-radius: var(--server-radius) !important;}
