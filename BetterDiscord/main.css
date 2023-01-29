@@ -3468,7 +3468,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .wrapper-1VLyxH foreignObject, .callAvatarMask-fiNMWy foreignObject, .avatarContainer-gPrCzX foreignObject {mask: none;}
 /* Emoji Menu container masks */
 .categoryItemGuildCategory-3mvXlo foreignObject, .graphicSecondary-37AA_Y foreignObject, .stickerCategory-2f6iSo foreignObject, .mask-1hlQQ6 foreignObject, .guildSection-2Zyzy8 foreignObject {mask: none;} /* Server pictures radius */
-.assetsLargeMaskActivityFeed-1IwNdL, .assetsLargeMaskProfile-9q3P0C {-webkit-mask: none !important;} /* Activity section in usrbg popout */
+.assetsLargeMaskActivityFeed-1IwNdL, .assetsLargeMaskProfile-9q3P0C, .mask-1TJ4vP foreignObject {-webkit-mask: none !important;} /* Activity section in usrbg popout */
 
 /* Avatars radius */
 .wrapper-1VLyxH, .avatar-2e8lTP, .profile-1o7I_1 .avatarUploaderInner-yEhTv5, .voiceAvatar-lRbblo, .avatar-3FKimL, .border-2BJQjd, .avatar-3TrM7c, .clickableAvatar-igrb2Y, .emptyUser-2FDCJv, .avatar-b5OQ1N, .wrapper-3mYmFS.ringingIncoming-fibTw-:after, .wrapper-3mYmFS.ringingOutgoing-1NjfRn:after, .replyAvatar-sHd2sU, .avatarSpeaking-33RRJU, .avatar-2EVtgZ, .avatarContainer-3tBLDx, .appAvatar-2_lufo, .avatarUploaderPremium-2urJVq, .avatarUploaderInner-p38nm2, .imageUploaderInner-IIRaFr, .theme-dark .imageUploaderIcon-2OHmFu, .voiceSectionAssets-1dg-E5, .voiceSectionGuildImage-TctMOd, .voiceSectionNoGuildImageWrapper-17kLyh, .gameIcon-1mDo1J, .messages-23can0, .embedAuthorIcon-3pnkS4, .embedFooterIcon-1dTZzD, .avatarHoverTarget-l77PhT, .discordMemberCreatedAtIconContainer-2oMHqL {
