@@ -13,7 +13,8 @@
 /* Friends section random bar at the top fix? annoying as fuck... */
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > div {margin-top: -8px !important;}
 /* Removes default icons and keep arrow icons on context icons | Will need to update this to support plugins + other stuff */
-.item-1OdjEX:not(#message-add-reaction, #message-quote, #user-context-invite-to-server, #user-context-roles, #user-context-imageutilities-main-subitem, #message-favoriteMedia, #message-imageutilities-download-file-as, #thread-context-editchannels-settings-submenu, #thread-context-edit-tags, [id*="thread-context-editchannels-settings-submenu"], [id*="thread-context-edit-tags"], [id*="user-context-roles-"], [id*="channel-context-"], [id*="guild-context-"], [id*="account"], [id*="user-context-imageutilities"]):not(#message-apps) > .iconContainer-1-SsTR {display: none;}
+.item-1OdjEX:not(#message-quote, #user-context-invite-to-server, #user-context-roles, #user-context-imageutilities-main-subitem, #message-favoriteMedia, #message-imageutilities-download-file-as, #thread-context-editchannels-settings-submenu, #thread-context-edit-tags, [id*="message-add-reaction"], [id*="thread-context-editchannels-settings-submenu"], [id*="thread-context-edit-tags"], [id*="user-context-roles-"], [id*="channel-context-"], [id*="guild-context-"], [id*="account"], [id*="user-context-imageutilities"]):not(#message-apps) > .iconContainer-1-SsTR {display: none;}
+div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} /* Channel tabs delete button colour... cba to do the rest */
 
 /*
 ====================================================================================
