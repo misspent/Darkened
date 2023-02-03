@@ -430,6 +430,9 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
   border: 1px solid var(--border-color) !important;
   border-radius: var(--avatar-radius);
 }
+.newMosaicStyle-2jdUaP .textContainer-36wgKK, .newMosaicStyle-2jdUaP .footer-GXWBBp {
+  border-radius: 0px;
+}
 
 /* Discover containers */
 .viewWrapper-2sTW6t, .pageWrapper-2PwDoS .scroller-3j5xK2 {background: var(--background-primary);}
