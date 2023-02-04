@@ -2238,8 +2238,14 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .itemCard-3Etziu, .section-3G9aLW, .section-3G9aLW:only-child {border-radius: var(--server-radius);}
 .section-3G9aLW {background: var(--background-secondary);}
 .searchBar-2aylmZ {background-color: var(--background-secondary); border-radius: var(--server-radius); margin: 12px 12px 8px 12px;}
+.searchBar-3TnChZ {background-color: var(--background-primary); border-radius: var(--server-radius); border-right: 1px solid var(--border-color);}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.container-2cd8Mz > div > div.nowPlayingColumn-1eCBCN > div > div > h3 { margin-left: 0px; padding: 10px;}
 .scroller-hE2gWq {padding: 0px !important;}
+.privateChannelsHeaderContainer-1UWASm { /* Channels header | Like "Direct Messages" */
+  padding: 8px 8px 6px 14px;
+  height: 24px;
+  align-items: center;
+}
 
 /* Friend activities popout */
 .theme-dark .popout-3Zw0qN {background: var(--background-tertiary);}
