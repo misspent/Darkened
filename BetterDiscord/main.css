@@ -2164,6 +2164,19 @@ div.clickable-J07Mqa > svg > path {color: red;}
 .iconActiveLarger-2EZc1b {border-radius: var(--avatar-radius);}
 .iconContainer-2R-3M1, .container-3HMTms {border-radius: var(--server-radius);}
 
+/* ==> Browse Channels <== */
+.container-27tlK1, .firstChannel-3vAGDY {border-radius: var(--server-radius);}
+.theme-dark .container-1um7CU {
+  background: var(--background-primary);
+}
+.alternateTheme-iFG8-t, .channelRow-4X_3fi:not(.disabled-3cfocy) {
+  background-color: var(--background-secondary);
+}
+.separator-3vTHjS {
+  background-color: var(--border-color);
+  margin: -1px 0px 0;
+}
+
 /*
 =====================================================================================================================================
 TODO: Tidy, change, mess, edit and make your own stuff now you have more of an understanding compared to when you first started!
