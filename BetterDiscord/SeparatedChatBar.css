@@ -2,12 +2,6 @@
 .base-2jDfDU .channelTextArea-220_Gz, .base-2jDfDU .channelTextArea-1FufC0, .base-2jDfDU .scrollableContainer-15eg7h {
   background-color: transparent;
 }
-.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y {
-  margin-right: -15px;
-}
-.sansAttachButton-1ERHue {
-  padding-left: 0px;
-}
 .base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .textArea-2CLwUE {
   margin-right: 3px;
   border-radius: var(--server-radius);
@@ -22,9 +16,6 @@
   caret-color: #ccc;
   border-radius: var(--server-radius);
 }
-.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .buttons-uaqb-5 {
-  margin-right: 0;
-}
 .base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ {
   width: 38px;
   height: 44px;
@@ -36,4 +27,11 @@
 }.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ[aria-label="Upload a file or send invites"] {
   width: 44px !important;
   margin-right: 3px !important;
+}
+.buttons-uaqb-5 {
+  background-color: var(--channeltextarea-background);
+}
+button.attachButton-_ACFSu.attachButton-1ijpt9.button-ejjZWC.lookBlank-FgPMy6.colorBrand-2M3O3N.grow-2T4nbg {
+  background-color: var(--channeltextarea-background);
+  margin-right: 3px;
 }
