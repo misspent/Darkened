@@ -24,14 +24,14 @@
   padding: 0;
   border-radius: var(--server-radius);
   background-color: var(--channeltextarea-background);
-}.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ[aria-label="Upload a file or send invites"] {
-  width: 44px !important;
-  margin-right: 3px !important;
-}
-.buttons-uaqb-5 {
-  background-color: var(--channeltextarea-background);
 }
 button.attachButton-_ACFSu.attachButton-1ijpt9.button-ejjZWC.lookBlank-FgPMy6.colorBrand-2M3O3N.grow-2T4nbg {
   background-color: var(--channeltextarea-background);
-  margin-right: 3px;
+  margin-right: 3px !important;
+}
+.buttons-uaqb-5 {background-color: var(--channeltextarea-background);}
+.sansAttachButton-1ERHue {padding-left: 16px;}
+.attachButton-_ACFSu {padding: 8px;}
+.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y {
+  margin-right: -12px;
 }
