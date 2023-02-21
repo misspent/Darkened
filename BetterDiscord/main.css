@@ -2955,7 +2955,8 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   margin-bottom: 0px;
 }
 /* Activity & Mutual Servers sections | USRBG  */
-.listRow-2nO1T6 {border-radius: var(--server-radius); margin: 1px 0 4px 0px; padding: 0px !important;}
+.listRow-Y5zoF8 {border-radius: var(--server-radius); margin: 1px 8px 1px 8px;}
+.listRow-Y5zoF8:hover {background-color: var(--background-tertiary);}
 .listScroller-entkMk {padding: 8px 8px 0px 8px !important;}
 
 :root .root-8LYsGj .activityProfile-1712BN .contentImagesProfile-27BIzt::after,
