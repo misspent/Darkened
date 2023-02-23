@@ -170,6 +170,8 @@
   --background-modifier-active: #202029;
   --header-primary: #fff;
   --header-secondary: #b1b5b9;
+  --interactive-normal: #ccc;
+  --interactive-hover: #ccc;
   --text-normal: #ccc;
   --popout-secondary: #17161b;
 }

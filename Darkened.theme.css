@@ -173,7 +173,9 @@
   --background-modifier-active: #262b41;
   --header-primary: #fff;
   --header-secondary: #b1b5b9;
-  --text-normal: #8e9297;
+  --interactive-normal: #ccc;
+  --interactive-hover: #ccc;
+  --text-normal: #ccc;
   --popout-secondary: #0d0d0d;
 }
 
