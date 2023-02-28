@@ -534,7 +534,7 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 .accountProfilePopoutWrapper-3GskID .menu-KSaHL1 div[role=separator] {
   display: none;
 }
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
+.accountProfilePopoutWrapper-3GskID .menu-KSaHL1 {
   background: var(--background-primary) !important;
   margin: 0px;
   border-radius: var(--server-radius);
