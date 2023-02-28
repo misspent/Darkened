@@ -3520,10 +3520,6 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .wrapper-28eC3z foreignObject {mask: none; transition: 0.2s;}
 .wrapperSimple-Js2rIO { overflow: visible;}
 
-/* Better Discord Addon Error Popup */
-.bd-addon-errors {margin: 0px;}
-.bd-addon-error {margin-bottom: 4px;}
-
 /* Inspect/hovering over Stickers */
 .stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {background-color: var(--background-modifier-selected); border-radius: var(--server-radius) !important;}
 .assetWrapperMasked-1iw9lV, .inspectedIndicator-27zwNZ {-webkit-mask: none !important;}
@@ -3537,10 +3533,24 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) .circleButton-2Yr5A1[aria-label="View"] {color: #6e85d3;}
 .triggerMainContainer-274ue5 {background: var(--background-tertiary);}
 
-/* Better Discord Addon Error */
+/* Better Discord Addon Error Popup */
+.bd-addon-errors {margin: 0px;}
+.bd-addon-error {margin-bottom: 4px;}
+.header-1ffhsl {
+  border-radius: var(--server-radius);
+  background: var(--background-tertiary);
+}
+.bd-error-modal-header.header-1ffhsl.separator-3C440w .marginBottom8-emkd0_ {text-align: center;}
 .bd-tab-bar {justify-content: center;}
-
-
+.content-1OG56Q {padding: 8px 8px 0px 8px;}
+.root-1CAIjD {
+  background-color: var(--background-secondary);
+  border-radius: var(--server-radius);
+}
+.footer-IubaaS {
+  border-radius: var(--server-radius);
+  background-color: var(--jump-newmessage-bars);
+}
 /* Scrollbar */
 ::-webkit-scrollbar-track { border-radius: var(--server-radius) !important;}
 ::-webkit-scrollbar-thumb { border-radius: var(--server-radius) !important;}
