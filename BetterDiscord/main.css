@@ -1248,7 +1248,9 @@ body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettin
   margin-top: 15px;
   margin-left: 0%;
   margin-right: 0px;
+  gap: 8px;
 }
+.bd-addon-list .bd-addon-card {margin-bottom: 0px;}
 
 /* My Account settings section (Edit, remove & Disable account buttons + blur "your current phone number is") */
 .fieldButton-14lHvK {
@@ -3531,6 +3533,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 
 /* Better Discord Addon Error */
 .bd-tab-bar {justify-content: center;}
+
 
 /* Scrollbar */
 ::-webkit-scrollbar-track { border-radius: var(--server-radius) !important;}
