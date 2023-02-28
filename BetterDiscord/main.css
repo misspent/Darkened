@@ -526,7 +526,27 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 
 /* NOTE: Status picker menu */
 /* ==> Status Picker | Inspired and or made by zuzumi [archivo] <== */
-
+.accountProfilePopoutWrapper-3GskID .section-3FmfOT,
+.accountProfilePopoutWrapper-3GskID .scroller-1jBQYo,
+.accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
+.accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
+.accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
+.accountProfilePopoutWrapper-3GskID .menu-KSaHL1 div[role=separator] {
+  display: none;
+}
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
+  background: var(--background-primary) !important;
+  margin: 0px;
+  border-radius: var(--server-radius);
+}
+.accountProfilePopoutWrapper-3GskID .scroller-nxCRu_ {
+  padding: 0px !important;
+}
+.item-5ApiZt {border-radius: var(--server-radius);}
+/* Icon colours */
+.customEmojiPlaceholder-35gKOP {filter: sepia(1) saturate(5);}
+.accountProfilePopoutWrapper-3GskID #account-switch-account .iconContainerLeft-1Kr6X4 {color: var(--brand-experiment) !important;}
+/* Everything above is new 28/02/2023 up to status picker */
 .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ {
   min-width: 218px;
   max-width: 218px;
@@ -535,10 +555,6 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 }
 .accountProfilePopoutWrapper-3GskID .menu-1QACrS[id="account"] {
   background: var(--background-primary) !important;
-  border-radius: var(--server-radius);
-}
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
-  margin: 0px;
   border-radius: var(--server-radius);
 }
 .accountProfilePopoutWrapper-3GskID .userProfileOuterThemed-3EfHmv {
@@ -567,9 +583,6 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 .accountProfilePopoutWrapper-3GskID .description-22_U3B {display: none;}
 /* Removes divider */
 .accountProfilePopoutWrapper-3GskID .divider-1tWBgZ, #account-divider-2 {display: none;}
-/* Icon colours */
-.customEmojiPlaceholder-35gKOP {filter: sepia(1) saturate(5);}
-.item-1OdjEX[id="account-switch-account"] .iconContainer-1-SsTR .icon-E4cW1l > path {color: var(--brand-experiment) !important;}
 
 /* Status Picker when hovering over you name/pfp */
 .withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {background: var(--background-primary);}
