@@ -3550,6 +3550,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .footer-IubaaS {
   border-radius: var(--server-radius);
   background-color: var(--jump-newmessage-bars);
+  padding: 0px;
 }
 /* Scrollbar */
 ::-webkit-scrollbar-track { border-radius: var(--server-radius) !important;}
