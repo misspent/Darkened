@@ -526,14 +526,7 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 
 /* NOTE: Status picker menu */
 /* ==> Status Picker | Inspired and or made by zuzumi [archivo] <== */
-.accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
-.accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
-.accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
-.accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *),
-.accountProfilePopoutWrapper-3GskID [id="account-divider-1"] {
-  display: none;
-}
+
 .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ {
   min-width: 218px;
   max-width: 218px;
