@@ -3535,7 +3535,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 
 /* Better Discord Addon Error Popup */
 .bd-addon-errors {margin: 0px;}
-.bd-addon-error {margin-bottom: 4px;}
+.bd-addon-error {margin-bottom: 4px; background: var(--background-primary);}
 .header-1ffhsl {
   border-radius: var(--server-radius);
   background: var(--background-tertiary);
