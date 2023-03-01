@@ -3505,7 +3505,8 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 .root-2s1-ri> * {background: var(--background-tertiary);}
 
 /* Avatars masks */
-.wrapper-1VLyxH foreignObject, .callAvatarMask-fiNMWy foreignObject, .avatarContainer-gPrCzX foreignObject {mask: none;}
+.wrapper-1VLyxH foreignObject, .callAvatarMask-fiNMWy foreignObject, .avatarContainer-gPrCzX foreignObject, .svg-2ifYOU foreignObject, .avatars-37eU13 foreignObject, .container-YkUktl .avatar-1EWyVD foreignObject, .avatar-6qzftW foreignObject, .wrapper-3Un6-K foreignObject {mask: none !important;}
+.svg-2ifYOU, .wrapperSimple-2SFl9K, .wrapper-3Un6-K {border-radius: var(--avatar-radius);}
 /* Emoji Menu container masks */
 .categoryItemGuildCategory-3mvXlo foreignObject, .graphicSecondary-37AA_Y foreignObject, .stickerCategory-2f6iSo foreignObject, .mask-1hlQQ6 foreignObject, .guildSection-2Zyzy8 foreignObject {mask: none;} /* Server pictures radius */
 .assetsLargeMaskActivityFeed-1IwNdL, .assetsLargeMaskProfile-9q3P0C, .mask-1TJ4vP foreignObject {-webkit-mask: none !important;} /* Activity section in usrbg popout */
