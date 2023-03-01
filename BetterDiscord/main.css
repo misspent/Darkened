@@ -2998,7 +2998,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 }
 
 /* ============> New User Profile Modal <============ */
-.infoScroller-3MqKC5.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN {
+.infoScroller-3MqKC5.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN, .infoScroller-3MqKC5.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG {
   display: grid !important;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
