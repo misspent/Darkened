@@ -2442,6 +2442,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 [mask="url(#svg-mask-voice-user-summary-item)"] { mask: none;}
 /* Voice call members background */
 .containerDefault-YUSmu3 .userSmall-1Raexx {background: var(--background-tertiary);}
+.draggable-S2aEx4 {background: var(--background-tertiary); justify-content: space-between;}
 
 /* Game activity/call area */
 .activityPanel-9icbyU,
