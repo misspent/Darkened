@@ -3537,10 +3537,10 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 
 /* Better Discord Addon Error Popup */
 .bd-addon-errors {margin: 0px;}
-.bd-addon-error {margin-bottom: 4px; background: var(--background-primary);}
+.bd-addon-error {margin-bottom: 4px; background: var(--background-tertiary);}
 .header-1ffhsl {
   border-radius: var(--server-radius);
-  background: var(--background-tertiary);
+  background: var(--background-primary);
 }
 .bd-error-modal-header.header-1ffhsl.separator-3C440w .marginBottom8-emkd0_ {text-align: center;}
 .bd-tab-bar {justify-content: center;}
