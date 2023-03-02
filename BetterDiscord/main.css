@@ -2732,7 +2732,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   margin-left: 0;
 }
 :root .role-2TIOKu .roleCircle-3K9O3d::before, :root .sidebar-3K3Z4C .list-1AJFv_ .item-3XjbnG .roleCircle-3K9O3d::before,
-:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::before, :root .roleRow-3HnunM .roleCircle-3K9O3d::before {
+:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::before, :root .roleRow-3HnunM .roleCircle-3K9O3d::before, .roleCircle-3TFUOr:before {
   content: "";
   position: absolute;
   top: 0;
@@ -2745,7 +2745,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   pointer-events: none;
 }
 :root .role-2TIOKu .roleCircle-3K9O3d::after, :root .sidebar-3K3Z4C .list-1AJFv_ .item-3XjbnG .roleCircle-3K9O3d::after,
-:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::after, :root .roleRow-3HnunM .roleCircle-3K9O3d::after { /* Width of bar on the left */
+:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::after, :root .roleRow-3HnunM .roleCircle-3K9O3d::after, .roleCircle-3TFUOr:after { /* Width of bar on the left */
   content: "";
   position: absolute;
   top: 0;
@@ -2781,7 +2781,7 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   height: -webkit-fill-available;
   width: 3px !important;
 }
-.roleCircle-3K9O3d {
+.roleCircle-3K9O3d, .roleCircle-3TFUOr {
   width: 6px;
   height: 6px;
   margin: 0 5px 0px 4px;
