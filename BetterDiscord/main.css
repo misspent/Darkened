@@ -3082,11 +3082,11 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
   height: 35px;
   padding: 2px 0px !important;
 }
-.top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG, .top-K_jibn .themed-2-lozF.item-3XjbnG:active {
+.top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG, .top-K_jibn .themed-2-lozF.item-3XjbnG:active, .top-Ktfr_T .themed-qqoYp3.item-2GWPIy:active {
   border-bottom-color: var(--mention-color);
   background: rgba(var(--accent), 0.1);
 }
-.top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
+.top-K_jibn .themed-2-lozF.item-3XjbnG:hover, .top-Ktfr_T .themed-qqoYp3.item-2GWPIy:hover {
   border-bottom-color: var(--mention-color);
 }
 /* Tab Bars */
