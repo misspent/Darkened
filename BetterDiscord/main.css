@@ -542,7 +542,6 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 .accountProfilePopoutWrapper-3GskID .scroller-nxCRu_ {
   padding: 0px !important;
 }
-.item-5ApiZt {border-radius: var(--server-radius);}
 /* Icon colours */
 .customEmojiPlaceholder-35gKOP {filter: sepia(1) saturate(5);}
 .accountProfilePopoutWrapper-3GskID #account-switch-account .iconContainerLeft-1Kr6X4 {color: var(--brand-experiment) !important;}
@@ -3223,12 +3222,16 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 
 /* -- Better menus -- */
 
-/* Submenu */
-.theme-dark.layer-2aCOJ3 .submenu-1apzyU.menu-1QACrS {
-  margin-left: -4px !important;
+/* Submenu or context menu */
+.submenuPaddingContainer-_k62dJ, .submenuPaddingContainer-QgnL1r {padding: 0 0px;}
+.scroller-nxCRu_ {padding: 0px;}
+.separator-12G2Op {
+  margin: 0px;
+  border-bottom: 1px solid var(--border-color);
 }
-.submenuPaddingContainer-_k62dJ {
-  padding: 0 0px;
+.item-5ApiZt {
+  margin: 0px 0;
+  border-radius: var(--server-radius);
 }
 .submenu-1apzyU [id*="user-context-roles"] {padding: 0px 0px 0px 2px !important;} /* Submenu when hovering over "roles" to give someone a role */
 
