@@ -42,7 +42,7 @@
 .sidebar-nqHbhN .side-1lrxIh .item-3XjbnG[aria-controls="developer-options-tab" i]::before, .sidebar-nqHbhN .side-1lrxIh .item-3XjbnG[aria-controls="hotspot-options-tab" i]::before, .sidebar-nqHbhN .side-1lrxIh .item-3XjbnG[aria-controls="dismissible-content-options-tab" i]::before, .sidebar-nqHbhN .side-1lrxIh .item-3XjbnG[aria-controls="payment-flow-modals-tab" i]::before {color: #7289da;}
 /* Right clicking message, username etc. These are for the colours of the images */
 .item-5ApiZt#friend-row-start-voice-call::before {background-color: #1DB954;}
-.item-5ApiZt#user-context-block::before, .item-5ApiZt#user-context-kick::before, .item-5ApiZt#user-context-ban::before, .item-5ApiZt#channel-context-delete-channel::before {background: var(--danger-icon-normal);}
+.item-5ApiZt#user-context-block::before, .item-5ApiZt#user-context-kick::before, .item-5ApiZt#user-context-ban::before, .item-5ApiZt#channel-context-delete-channel::before, .item-5ApiZt#message-delete::before {background: var(--danger-icon-normal);}
 .item-5ApiZt#message-actions-copy-id::before {background: lightsalmon;}
 .item-5ApiZt#user-context-add-friend::before {background: #00ccffea;}
 .item-5ApiZt#textarea-context-languages::before {background: #069AF0;}
