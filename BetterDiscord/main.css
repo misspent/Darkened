@@ -1242,10 +1242,10 @@ body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .
 body #app-mount .sidebarRegion-1VBisG {  flex-basis: calc(0px + (var(--usesettingsicons) * (var(--settingsiconssize) + var(--settingsiconsgap)))) !important;}
 
 /* Settings sidebar containers */
-.header-2Kx1US {padding: 6px 10px !important;}
-.header-2Kx1US, .bd-sidebar-header {background: var(--background-primary); text-align: center; align-items: center;}
+.side-1lrxIh .separator-2N511j {display: block; margin: 0px; padding: 1px;}
+.header-2F5_LB {padding: 6px 10px !important;}
+.header-2F5_LB, .bd-sidebar-header {background: var(--background-primary); text-align: center; align-items: center;}
 .bd-sidebar-header .header-2Kx1US {margin-left: 19%; margin-bottom: 0px;}
-.side-2ur1Qk .separator-2wx7h6 {display: block; margin: 0px; padding: 1px;}
 .sidebarRegion-1VBisG {border-right: 1px solid var(--border-color);}
 .contentColumnDefault-3eyv5o {padding-left: 15px; padding-right: 15px;}
 /* Wide settings (Better Discord Grid) */
