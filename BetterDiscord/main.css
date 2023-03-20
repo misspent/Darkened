@@ -1,6 +1,7 @@
 @import url("https://nyri4.github.io/Discolored/main.css");
 @import url("https://misspent.github.io/Darkened/BetterDiscord/DragNDropModal.css"); /* DragNDropModal */
-@import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css"); /* Context Icons */
+@import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css"); /* Context Icons - Outdated */
+@import url("https://misspent.github.io/Darkened/BetterDiscord/Context-Icons.css"); /* Context Icons - Up-to-date */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css"); /* Settings Icons */
 
 /* Context menu icons when right clicking a message (removes the icons on the right)  */
