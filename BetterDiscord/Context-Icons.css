@@ -390,6 +390,9 @@
 .accountProfilePopoutWrapper-3GskID .item-5ApiZt::before {
 	display: none !important;
 }
+#message.menu-2TXYjN .icon-3XHs8t {
+	display: none !important;
+}
 .item-5ApiZt#stream-context-mute .iconContainer-1-SsTR {
 	display: none;
 }
