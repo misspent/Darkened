@@ -16,7 +16,7 @@
 .layer-2aCOJ3 > .styleFlexible-x0_sIC {
 	width: var(--context-menu-width);
 }
-.layer-2aCOJ3 > .submenuPaddingContainer-_k62dJ {
+.layer-2aCOJ3 > .submenuPaddingContainer-QgnL1r {
 	min-width: var(--context-menu-width);
 }
 .scroller-1bVxF5 {
@@ -45,7 +45,7 @@
 [id^=now-playing-menu-spotify-sync])::before,
 #status-picker .item-5ApiZt::before,
 #channel-attach .item-5ApiZt::before,
-.submenuPaddingContainer-_k62dJ .item-5ApiZt::before,
+.submenuPaddingContainer-QgnL1r .item-5ApiZt::before,
 .item-5ApiZt.hideInteraction-1iHO1O::before,
 #channel-context-900::before,
 #channel-context-3600::before,
@@ -384,7 +384,7 @@
 .item-5ApiZt#guild-entry-context-report-server-listing.colorDefault-CDqZdO.focused-3qFvc8::before {
 	background: var(--danger-icon-focused);
 }
-.submenuPaddingContainer-_k62dJ .item-5ApiZt .label-2gNW3x::before {
+.submenuPaddingContainer-QgnL1r .item-5ApiZt .label-2gNW3x::before {
 	display: none !important;
 }
 .item-5ApiZt#stream-context-mute .iconContainer-1-SsTR {
