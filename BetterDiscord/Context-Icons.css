@@ -393,6 +393,9 @@
 #message.menu-2TXYjN .icon-3XHs8t {
 	display: none !important;
 }
+.item-5ApiZt#user-context-user-volume:before { /* Removes empty space above user volume */
+	display: none;
+}
 .item-5ApiZt#stream-context-mute .iconContainer-1-SsTR {
 	display: none;
 }
