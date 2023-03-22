@@ -393,6 +393,12 @@
 #message.menu-2TXYjN .icon-3XHs8t {
 	display: none !important;
 }
+div#message-actions .icon-3XHs8t { /* Removes icons from message actions when you click the "..." */
+	display: none;
+}
+div#guild-header-popout svg.icon-3XHs8t { /* Removes icons from server settings dropdown */
+	display: none;
+}
 .item-5ApiZt#user-context-user-volume:before { /* Removes empty space above user volume */
 	display: none;
 }
