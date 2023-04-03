@@ -2036,19 +2036,19 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 .interactive-1vLZ_I:focus-within, .interactive-1vLZ_I:hover {background-color: var(--background-mobile-primary);}
 
 /* ==========> Forum channel <========== */
-.theme-dark .container-3wLKDe {background-color: var(--background-primary);}
+.theme-dark .container-3wLKDe {background-color: var(--background-primary); border-radius: var(--server-radius);}
 .header-1Uy0p6, .reaction-102jx9, .icon-2ujrkG, .guidelinesButton-3Vrz0u, .pinIcon-zVODC5, .pinIcon-3I5-gm {border-radius: var(--server-radius);} .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {background: var(--background-secondary);} .mainCard-3KBsBI .container-JhuCwn .textArea-3WXAeD {background: transparent !important; border: none !important;}
-.mainCard-3KBsBI {border-radius: var(--server-radius); background: var(--background-secondary);}
+.mainCard-3KBsBI, .increasedActivityMainCard-2ry6hI {border-radius: var(--server-radius); background: var(--background-secondary);}
 .headerRow-1MKoR- .mainCard-3KBsBI {background: var(--background-secondary);}
-.matchingPostsRow-2IiEQ1 {background-color: var(--background-tertiary);}
-.mainCard-3KBsBI:hover {background: var(--background-tertiary);}
+.matchingPostsRow-2IiEQ1, .theme-dark .container-3wvkMY.isOpen-2ldXbM {background-color: var(--background-tertiary);}
+.mainCard-3KBsBI:hover, .container-3wvkMY:hover {background: var(--background-tertiary);     transform: none;}
 .container-3wLKDe .container-2qVG6q:hover {background: var(--background-tertiary) !important; transform: translateY(0px);}
 .box-2iMsQm {border-radius: var(--server-radius);} /* Start The Conversation with a wave container */
 .bodyMedia-3ij3KY {border-radius: var(--server-radius);} /* Media (Image/GIF) on main card */
 .newBadge-1LcB6t {background: #1edc6091 !important; color: rgb(216, 216, 216);} /* New Badge */
 .messageCountIcon-2CvKyY > svg {color: orange;} /* Message Count (Quote) icon */
 .archivedDividerRow-2gZFEk {align-items: center; padding: 0px 0px 6px 0px;}
-.dots-2_b2Mn {border-radius: var(--server-radius); border: none;} .newMessageCount-jqlY9z {color: crimson !important;}
+.dots-2_b2Mn, .replies-15QcwL, .bodyMedia-1SFl6d {border-radius: var(--server-radius); border: none;} .newMessageCount-jqlY9z {color: crimson !important;}
 /* New post button */
 .newPostsButton-UaBhcU {background-color: #3a4188; border-radius: var(--server-radius); border: 1px solid #535dc5;}
 .newPostsButton-UaBhcU .text-md-medium-2avxhQ {color: #e4e4e4 !important;}
