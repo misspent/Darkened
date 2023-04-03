@@ -17,6 +17,10 @@
 /* Removes default icons and keep arrow icons on context icons | Will need to update this to support plugins + other stuff */
 .item-1OdjEX:not(#message-quote, #user-context-invite-to-server, #user-context-roles, #user-context-imageutilities-main-subitem, #message-favoriteMedia, #message-imageutilities-download-file-as, #thread-context-editchannels-settings-submenu, #thread-context-edit-tags, #message-favoriteMediaMenu, [id*="message-add-reaction"], [id*="thread-context-editchannels-settings-submenu"],, [id*="message-favoriteMediaMenu--category"], [id*="thread-context-edit-tags"], [id*="user-context-roles-"], [id*="channel-context-"], [id*="guild-context-"], [id*="account"], [id*="user-context-imageutilities"]):not(#message-apps) > .iconContainer-1-SsTR {display: none;}
 div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} /* Channel tabs delete button colour... cba to do the rest */
+/* ====> Fix Personal User Status - Thx: Master Luke#0722 <==== */
+#account > div > div:nth-child(1) > div:nth-child(1) > div.theme-dark.layer-2BGhQ8 {
+  left: 284px !important;
+}
 
 /*
 ====================================================================================
