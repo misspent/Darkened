@@ -3512,6 +3512,8 @@ div.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ > h3 {z-index: 1 !im
 
 .root-2s1-ri> * {background: var(--background-tertiary);}
 
+.avatarDecoration-34OC0G, svg.avatarDecoration-2Wb1Au {display: none;} /* Bye Bye Avatar Decorations */
+
 /* Avatars masks */
 .wrapper-1VLyxH foreignObject, .callAvatarMask-fiNMWy foreignObject, .avatarContainer-gPrCzX foreignObject, .svg-2ifYOU foreignObject, .avatars-37eU13 foreignObject, .container-YkUktl .avatar-1EWyVD foreignObject, .avatar-6qzftW foreignObject, .wrapper-3Un6-K foreignObject {mask: none !important;}
 .svg-2ifYOU, .wrapperSimple-2SFl9K, .wrapper-3Un6-K {border-radius: var(--avatar-radius);}
