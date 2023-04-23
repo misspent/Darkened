@@ -736,7 +736,6 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
   font-size: 14px;content: "NEW MESSAGES";margin-bottom: -2px;}
 #---new-messages-bar > span::before {border-color: currentColor;opacity: 0.7;}
 #---new-messages-bar .unreadPill-3nEWYM svg {display: none;}
-#---new-messages-bar .unreadPill-3nEWYM {display: none;}
 
 /* User volume container colour, border radius & icons (This only works with the menu-icons import) */
 .sliderContainer-2nidiS {
