@@ -726,7 +726,12 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 :root .scroller-1bVxF5 {padding: 0;}
 .submenuPaddingContainer-fi0CHc {padding: 0 8px !important;}
 
-
+/* New Messages Bar | Tested with compact import enabled */
+div#---new-messages-bar {
+  border-color: var(--divider-color);
+  margin: 4px 0px 18px 0px
+}
+.unreadPill-3nEWYM {border-radius: var(--server-radius);}
 
 /* User volume container colour, border radius & icons (This only works with the menu-icons import) */
 .sliderContainer-2nidiS {
