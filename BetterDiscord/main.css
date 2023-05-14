@@ -729,7 +729,7 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 /* New Messages Bar | Tested with compact import enabled */
 div#---new-messages-bar {
   border-color: var(--divider-color);
-  margin: 4px 0px 18px 0px
+  margin: 4px 0px 18px 0px;
 }
 .unreadPill-3nEWYM {border-radius: var(--server-radius);}
 
