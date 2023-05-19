@@ -555,6 +555,152 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 .customEmojiPlaceholder-35gKOP {filter: sepia(1) saturate(5);}
 .accountProfilePopoutWrapper-3GskID #account-switch-account .iconContainerLeft-1Kr6X4 {color: var(--brand-experiment) !important;}
 
+/* NOTE: ========================================> User Popout <======================================== */
+.theme-light {
+  --text-link: var(--link-500);
+  --interactive-normal: var(--primary-dark-300);
+  --interactive-active: var(--white-500);
+  --interactive-hover: var(--primary-dark-200);
+  --profile-body-background-color: var(--background-secondary) !important;
+}
+/* Backgrounds and margin of main stuff */
+.profileBadges-2pItdR, .role-2TIOKu {border-radius: var(--server-radius);}
+[class*="userProfileInnerThemedWithBanner"], [class*="userProfileInnerThemedPremiumWithoutBanner"], [class*="userProfileInnerThemedNonPremium"], .userPopoutInner-nv9Y92:before, .userProfileInner-1ngKnf:before {background: var(--background-secondary) !important;}
+.userPopoutOuter-1OHwPL {box-shadow: none; min-width: 300px; max-width: 300px;}
+.userPopoutOverlayBackground-3A0Pcz {margin: 14px 0px 0px; background: var(--background-secondary);} .scroller-15bIdk {padding: 0 12px !important;}
+.userProfileOuterThemed-2BgJCM.userPopoutOuter-1OHwPL, .userProfileOuterThemed-2BgJCM.userProfileOuter-2tQwNf {padding: 0px;}
+.divider-2dDziJ {display: none;} /* Divider */
+/* Title and details backgrounds */
+.userPopoutInner-nv9Y92 .title-3CjiSS {
+  display: flex;
+  justify-content: center;
+  background: var(--popout-title);
+  margin-bottom: 0px;
+}
+.userPopoutInner-nv9Y92 .lineClamp2Plus-2SCQmH,
+.userPopoutInner-nv9Y92 .memberSinceContainer-2CBD23,
+.userPopoutInner-nv9Y92 .root-jbEB5E.flex-3BkGQD.wrap-7NZuTn.roles-3vQPxb,
+.userPopoutInner-nv9Y92 .textarea-_59yqs,
+.userPopoutInner-nv9Y92 .note-1NN2aP textarea:focus {
+  background: var(--popout-background-main);
+}
+.connections-pPr4as {background: var(--popout-background-main); padding: 3px;}
+/* Message Input container */
+.messageInputContainer-24qqTx {border-color: transparent; background: var(--background-primary);}
+/* =======> Spotify Icon | Spotify buttons color on popout <======= */
+.activity-E0U09Y:hover .buttonColor-XIRMbp:hover {filter: brightness(110%); opacity: 1;}
+/* Listening to spotify background in popout */
+.activity-E0U09Y, div.activityUserPopoutV2-3eKqzY.activity-3uaYny {background: #5865F24e;} .bodyAlignCenter-3E27PU.body-u1Y8uL.flex-3BkGQD.alignCenter-14kD11 {padding: 8px;}
+.assetsLargeMaskStreamPreview--ugZjW, .assetsLargeMaskUserPopout-3N96A8, .assetsLargeMaskUserPopoutV2-2oZjbP, .assetsLargeMaskVoiceChannel-3IlDCA {-webkit-mask: none !important;}
+.activity-3uaYny .platformIcon-k3yytQ {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  background: #073317 !important;
+  z-index: 0;
+  padding-right: 100%;
+}
+.activityUserPopoutV2-3eKqzY.activity-3uaYny div {z-index: 1 !important; position: relative;}
+.timeBarUserPopoutV2-32DL06.themed-1LCNAV {margin: 0px 8px;}
+.activity-3uaYny:has(.platformIcon-k3yytQ) .buttonsWrapper-2ARRp1 {margin: 10px 8px 0px 8px; padding-bottom: 8px;}   /* Buttons */
+.activity-3uaYny .barInner-3dHef4 {background: #1DB954 !important; z-index: 1;} .bar-1GpknY {background: var(--popout-title);}
+.barInner-3dHef4 {background: var(--background-tertiary) !important; z-index: 1; border-radius: 0px;}
+.timeBarUserPopoutV2-32DL06.themed-1LCNAV {margin-top: 4px;}
+.headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ {z-index: 1 !important; background: var(--popout-title) !important; width: 100%; justify-content: center; margin-bottom: 0px;}
+/* =======> Roles | I got this from the Couve theme! <======= */
+.roles-3vQPxb {gap: 3px; padding: 3px; margin-top: 0px;}
+.roles-3zC7MX {
+  display: grid;
+  grid-template-columns: repeat(var(--roleslist-columns), minmax(0, 1fr));
+  background: var(--background-tertiary);
+  padding: 4px;
+  gap: 3px;
+  border-radius: 0px 0px var(--server-radius) var(--server-radius);
+  max-height: 150px;
+  overflow: auto;
+  background-color: var(--popout-background-main);
+  bottom: 2px;
+  color: hsl(210deg, calc(var(--saturation-factor, 1) * 2.9%), 86.7%);
+}
+:root .role-2TIOKu, :root .sidebar-3K3Z4C .list-1AJFv_ .item-3XjbnG, :root .container-2O1UgZ .item-1BCeuB, :root .roleRow-3HnunM {
+  position: relative;
+  overflow: hidden;
+  height: unset;
+  z-index: 1;
+  border: none;
+  padding: 5px;
+  border-radius: 0px;
+  margin-right: 0px;
+  margin-left: 0;
+}
+:root .role-2TIOKu .roleCircle-3K9O3d::before, :root .sidebar-3K3Z4C .list-1AJFv_ .item-3XjbnG .roleCircle-3K9O3d::before,
+:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::before, :root .roleRow-3HnunM .roleCircle-3K9O3d::before, .roleCircle-3TFUOr:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: 0.2;
+  z-index: -1;
+  pointer-events: none;
+}
+:root .role-2TIOKu .roleCircle-3K9O3d::after, :root .sidebar-3K3Z4C .list-1AJFv_ .item-3XjbnG .roleCircle-3K9O3d::after,
+:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::after, :root .roleRow-3HnunM .roleCircle-3K9O3d::after, .roleCircle-3TFUOr:after { /* Width of bar on the left */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: inherit;
+  opacity: 0.6;
+  z-index: -1;
+  pointer-events: none;
+}
+:root .roleRemoveButton-17oXnT {
+  position: unset;
+}
+/* My Stuff */
+.addButtonIcon-3HZ_2f {
+  color: #ccc;
+}
+.role-2TIOKu[aria-label="Add role"] {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #6e85d371;
+  border-radius: 0px;
+  height: auto;
+  width: 25px !important;
+  padding: 4px;
+}
+.role-2TIOKu[aria-label="Add role"]:before { /* Width of bar on the left */
+  content: "";
+  left: 0;
+  position: absolute;
+  background-color: #6e85d3;
+  height: -webkit-fill-available;
+  width: 3px !important;
+}
+.roleCircle-3K9O3d, .roleCircle-3TFUOr {
+  width: 6px;
+  height: 6px;
+  margin: 0 5px 0px 4px;
+}
+:root .roleRemoveButton-17oXnT .roleRemoveIcon-387wKV {
+  left: 13px;
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 8px;
+  margin: -4px 0 0 -5px;
+}
+.role-2TIOKu {margin: 0px;}
+.headerTop-3GPUSF {margin-top: 10px;}
+.focused-qp-W9B, .item-1BCeuB:hover:not(.disabled-Mmpvl7) {background-color: var(--background-modifier-hover) !important;} /* When you click the "+" to add roles | Hover colour */
+/* =======> New Style <======= */
+.avatarWrapper-eenWra {left: 12px;} /* Avatar */
+
 /* =================> Discovery section <================= */
 .categoryPill-1zjNrr, .splashContainer-2PC_Bm, .popout-1KHNAq, .new-3EJMgr, .headerImage-2D5D-v {border-radius: var(--server-radius) !important;}
 /* Home search bar */
