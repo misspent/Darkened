@@ -529,68 +529,6 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 :root #emoji-picker-tab-panel .emojiItem-277VFM.emojiItemSelected-2Lg50V {background: var(--background-modifier-selected); border-radius: var(--server-radius) !important;}
 .gif-1EWTs-, .result-3OpoO7:after {border-radius: var(--server-radius) !important;}
 
-/* NOTE: Status picker menu */
-/* ==> Status Picker | Inspired and or made by zuzumi [archivo] <== */
-.accountProfilePopoutWrapper-3GskID .section-3FmfOT,
-.accountProfilePopoutWrapper-3GskID .scroller-1jBQYo,
-.accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
-.accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
-.accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
-.accountProfilePopoutWrapper-3GskID .menu-KSaHL1 div[role=separator] {
-  display: none;
-}
-.accountProfilePopoutWrapper-3GskID .menu-KSaHL1 {
-  background: var(--background-primary) !important;
-  margin: 0px;
-  border-radius: var(--server-radius);
-}
-.accountProfilePopoutWrapper-3GskID .scroller-nxCRu_ {
-  padding: 0px !important;
-}
-/* Icon colours */
-.customEmojiPlaceholder-35gKOP {filter: sepia(1) saturate(5);}
-.accountProfilePopoutWrapper-3GskID #account-switch-account .iconContainerLeft-1Kr6X4 {color: var(--brand-experiment) !important;}
-/* Everything above is new 28/02/2023 up to status picker */
-.accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ {
-  min-width: 218px;
-  max-width: 218px;
-  margin-left: 28px !important;
-  box-shadow: none;
-}
-.accountProfilePopoutWrapper-3GskID .menu-1QACrS[id="account"] {
-  background: var(--background-primary) !important;
-  border-radius: var(--server-radius);
-}
-.accountProfilePopoutWrapper-3GskID .userProfileOuterThemed-3EfHmv {
-  background: transparent;
-}
-.accountProfilePopoutWrapper-3GskID .userProfileInnerWithBanner-3CJ1Og {
-  background: transparent;
-  box-shadow: none;
-}
-.accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX {
-  border-radius: var(--server-radius);
-}
-/* Compact */
-.accountProfilePopoutWrapper-3GskID .item-1OdjEX {
-  margin: 0px;
-  border-radius: var(--server-radius);
-}
-.accountProfilePopoutWrapper-3GskID .scroller-1bVxF5 {
-  padding: 0px !important;
-}
-/* Removes Context Icons from Status Picker | The Imported ones; because they're not fixed */
-.accountProfilePopoutWrapper-3GskID .item-1OdjEX::before {
-  display: none !important;
-}
-/* Removes Description when changing status */
-.accountProfilePopoutWrapper-3GskID .description-22_U3B {display: none;}
-/* Removes divider */
-.accountProfilePopoutWrapper-3GskID .divider-1tWBgZ, #account-divider-2 {display: none;}
-
-/* Status Picker when hovering over you name/pfp */
-.withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {background: var(--background-primary);}
-
 /* --> Discovery section <-- */
 
 .categoryPill-1zjNrr, .splashContainer-2PC_Bm, .popout-1KHNAq, .new-3EJMgr, .headerImage-2D5D-v {border-radius: var(--server-radius) !important;}
