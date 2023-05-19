@@ -529,8 +529,33 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 :root #emoji-picker-tab-panel .emojiItem-277VFM.emojiItemSelected-2Lg50V {background: var(--background-modifier-selected); border-radius: var(--server-radius) !important;}
 .gif-1EWTs-, .result-3OpoO7:after {border-radius: var(--server-radius) !important;}
 
-/* --> Discovery section <-- */
+/* NOTE: ========================================> Status picker menu <======================================== */
+.accountProfilePopoutWrapper-3GskID svg.bannerSVGWrapper-2CLfzN,
+.accountProfilePopoutWrapper-3GskID .avatarWrapper-eenWra,
+.accountProfilePopoutWrapper-3GskID .profileBadges-2pItdR,
+.accountProfilePopoutWrapper-3GskID .section-28YDOf,
+.accountProfilePopoutWrapper-3GskID .separator-12G2Op {display: none;}
+/* Profile popup width, background and position */
+.accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL {
+  min-width: 218px;
+  max-width: 218px;
+  box-shadow: none;
+}
+.accountProfilePopoutWrapper-3GskID [id="account"] {
+  background: var(--background-primary) !important;
+  border-radius: var(--server-radius);
+}
+.accountProfilePopoutWrapper-3GskID {
+  position: relative;
+  left: 5px;
+}
+/* Status Picker when hovering over you name/pfp */
+.withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {background: var(--background-primary);}
+/* Icon colours */
+.customEmojiPlaceholder-35gKOP {filter: sepia(1) saturate(5);}
+.accountProfilePopoutWrapper-3GskID #account-switch-account .iconContainerLeft-1Kr6X4 {color: var(--brand-experiment) !important;}
 
+/* =================> Discovery section <================= */
 .categoryPill-1zjNrr, .splashContainer-2PC_Bm, .popout-1KHNAq, .new-3EJMgr, .headerImage-2D5D-v {border-radius: var(--server-radius) !important;}
 /* Home search bar */
 .search-25t1e9 .searchBox-31Zv9h:focus, .search-25t1e9 .searchBox-31Zv9h:focus-within {
