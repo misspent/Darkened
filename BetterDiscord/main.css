@@ -721,7 +721,7 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 .headerTop-3GPUSF {margin-top: 10px;}
 .focused-qp-W9B, .item-1BCeuB:hover:not(.disabled-Mmpvl7) {background-color: var(--background-modifier-hover) !important;} /* When you click the "+" to add roles | Hover colour */
 /* =======> New Style <======= */
-.avatarWrapper-eenWra {left: 12px;} /* Avatar */
+.userPopoutInner-nv9Y92 .avatarWrapper-eenWra {left: 12px;} /* Avatar */
 
 /* =================> Discovery section <================= */
 .categoryPill-1zjNrr, .splashContainer-2PC_Bm, .popout-1KHNAq, .new-3EJMgr, .headerImage-2D5D-v {border-radius: var(--server-radius) !important;}
