@@ -601,7 +601,7 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 }
 .activityUserPopoutV2-3eKqzY.activity-3uaYny div {z-index: 1 !important; position: relative;}
 .timeBarUserPopoutV2-32DL06.themed-1LCNAV {margin: 0px 8px; margin-top: 4px !important;}
-.activity-3uaYny:has(.platformIcon-k3yytQ) .buttonsWrapper-2ARRp1 {margin: 10px 8px 0px 8px; padding-bottom: 8px;}   /* Buttons */
+.activity-3uaYny:has(button) .buttonsWrapper-2ARRp1 {margin: 10px 8px 0px 8px; padding-bottom: 8px;}   /* Buttons */
 .activity-3uaYny .barInner-3dHef4 {background: #1DB954 !important; z-index: 1;} .bar-1GpknY {background: var(--popout-title);}
 .barInner-3dHef4 {background: var(--background-tertiary) !important; z-index: 1; border-radius: 0px;}
 .headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ {z-index: 1 !important; background: var(--popout-title) !important; width: 100%; justify-content: center; margin-bottom: 0px;}
