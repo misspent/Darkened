@@ -1155,7 +1155,7 @@ div#---new-messages-bar {
 .cozy-VmLDNB .repliedMessage-3Z6XBG .rem-3kT9wc.botTag-7aX5WZ {margin-bottom: 1px !important; padding-top: 1px;}
 
 /* Radial Status Import | Mobile */
-#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile]:after {right: 1px !important;}
+#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile]:after {right: 1px !important;}
 
 /* ClickToChat plugin (Voice Call Message Icon) */
 .fa-w-14 [fill=currentColor] {color: var(--interactive-normal);}
