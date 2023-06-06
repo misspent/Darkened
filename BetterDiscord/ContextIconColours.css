@@ -8,11 +8,11 @@
 #channel-attach-THREAD > div > div > svg {color: #69c069;}
 #channel-attach-listen > div > div > svg {color: #1DB954;}
 [aria-label="Reply"], [aria-label="Reply"]:hover {color: #20da77b7;}
-[aria-label="Copy ID"], [aria-label="Copy ID"]:hover {color: #7289da;}
+[aria-label="Copy ID"], [aria-label="Copy ID"]:hover, [aria-label="Copy Message ID"], [aria-label="Copy Message ID"]:hover {color: #7289da;}
 [aria-label="Mark Unread"], [aria-label="Mark Unread"]:hover {color: plum;}
 [aria-label="Copy Link"], [aria-label="Copy Link"]:hover {color: lightseagreen;}
 [aria-label="Edit"], [aria-label="Edit"]:hover {color: rgba(0, 255, 255, 0.637);}
-[aria-label="Add Reaction"], [aria-label="Add Reaction"]:hover, [aria-label="Reactions"], [aria-label="Reactions"]:hover {color: rgba(218, 165, 32, 0.808);}
+[aria-label="Add Reaction"], [aria-label="Add Reaction"]:hover, [aria-label="Reactions"], [aria-label="Reactions"]:hover, [aria-label="Add Super Reaction"], [aria-label="Add Super Reaction"]:hover {color: rgba(218, 165, 32, 0.808);}
 [aria-label="Create Thread"], [aria-label="Create Thread"]:hover {color: #aa03f8e7;}
 [aria-label="Delete"], [aria-label="Delete"]:hover {color: rgba(255, 0, 0, 0.863);}
 [aria-label="Pin Message"], [aria-label="Pin Message"]:hover {color: var(--danger-icon-normal);}
