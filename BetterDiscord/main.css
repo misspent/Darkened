@@ -687,10 +687,11 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 .addButtonIcon-3HZ_2f {
   color: #ccc;
 }
+.rolePill-78LFtg {background-color: transparent !important;}
 .role-2TIOKu[aria-label="Add role"] {
   font-size: 12px;
   font-weight: 500;
-  background-color: #6e85d371;
+  background-color: #6e85d371 !important;
   border-radius: 0px;
   height: auto;
   width: 25px !important;
