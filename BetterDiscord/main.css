@@ -587,6 +587,8 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 .connections-pPr4as {background: var(--popout-background-main); padding: 3px;}
 /* Message Input container */
 .messageInputContainer-24qqTx {border-color: transparent; background: var(--background-primary);}
+/* Input box (message) */
+.userPopoutInner-nv9Y92 .input-2z42oC {background-color: var(--background-secondary-alt) !important;}
 /* =======> Spotify Icon | Spotify buttons color on popout <======= */
 .activity-E0U09Y:hover .buttonColor-XIRMbp:hover {filter: brightness(110%); opacity: 1;}
 /* Listening to spotify background in popout */
