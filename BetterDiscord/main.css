@@ -2537,7 +2537,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .sidebar-1tnWFu .wrapper-NhbLHG.modeConnected-NrO4cP .content-1gYQeQ .channelName-3KPsGw {color: white;}
 
 /* Unread Channel Background */
-.sidebar-1tnWFu .wrapper-NhbLHG .unread-36eUEm + .content-1gYQeQ {background-color: var(--border-color);}
+.iconVisibility-vptxma.wrapper-NhbLHG.modeUnread-3Cxepe {background-color: var(--border-color);}
 /* Unread Channel Hover Background */
 .sidebar-1tnWFu .wrapper-NhbLHG .unread-36eUEm + .content-1gYQeQ:hover {
   background-color: rgba(var(--accent), 0.13) !important;
@@ -2557,7 +2557,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .modeSelected-3DmyhH::before, .channel-1Shao0.selected-1-Z6gm::before {border-left: 2px solid var(--unread-color);}
 .content-1gYQeQ:hover {background: rgba(var(--accent), 0.13) !important; border-left: 2px solid var(--unread-color); z-index: 2;}
 .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {background: #151515;}
-#app-mount .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ {background: rgba(var(--accent), 0.07);}
+.modeSelected-3DmyhH .link-1_kTxV {background: rgba(var(--accent), 0.07); border-radius: var(--border-radius);} .link-1_kTxV {margin-left: 0px;}
 .content-1gYQeQ {border-left: 2px solid transparent; padding: 0px;}
 .children-1MGS9G {margin-right: 8px;}
 .modeSelected-3DmyhH::before, .modeUnread-3Cxepe::before {
