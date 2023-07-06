@@ -2549,8 +2549,8 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   height: -webkit-fill-available;
   width: 2px;
   top: 0px;
-  margin-top: 1px;
-  margin-bottom: 1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   z-index: 1;
 }
 .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg, .modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg {color: #FFFFFF;}
