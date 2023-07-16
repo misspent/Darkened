@@ -2542,12 +2542,14 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .sidebar-1tnWFu .wrapper-NhbLHG .unread-36eUEm + .content-1gYQeQ:hover {
   background-color: rgba(var(--accent), 0.13) !important;
 }
+.wrapper-NhbLHG {margin-left: 0px;}
 /* Unread Channel Notice */
 .sidebar-1tnWFu .wrapper-NhbLHG .unread-36eUEm {
   background-color: #777777;
   border-radius: 0px;
   height: -webkit-fill-available;
   width: 2px;
+  left: 0px;
   top: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
