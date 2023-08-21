@@ -831,6 +831,7 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 /* Reaction emoji buttons */
 .button-1zW0-r {border-radius: var(--server-radius); background: var(--background-primary);}
 .button-1zW0-r:hover {background: var(--background-mobile-primary);}
+.burstGlow-3AZMzF {box-shadow: none !important;}
 
 /* Voice call icon colors */
 .icon-N9JZb6 {color: #d10d0d;}
