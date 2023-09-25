@@ -607,7 +607,7 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 .activity-3uaYny .barInner-3dHef4 {background: #1DB954 !important; z-index: 1;} .bar-1GpknY {background: var(--popout-title);}
 .barInner-3dHef4 {background: var(--background-tertiary) !important; z-index: 1; border-radius: 0px;}
 .headerContainer-1wJjOa.flex-3BkGQD.marginBottom8-emkd0_ {z-index: 1 !important; background: var(--popout-title) !important; width: 100%; justify-content: center; margin-bottom: 0px;}
-.activityUserPopoutV2-3eKqzY .headerContainer-1wJjOa {justify-content: center; margin-bottom: 2px; background: #5865f227}
+.activityUserPopoutV2-3eKqzY .headerContainer-1wJjOa {justify-content: center; margin-bottom: 2px;}
 /* =======> Custom Status in popout (Container for people status in popout) <======= */
 :root .userProfileInner-1ngKnf .section-28YDOf .customStatus-19KW6v::before {
   content: "CUSTOM STATUS";
