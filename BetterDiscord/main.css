@@ -1226,6 +1226,11 @@ div#---new-messages-bar {
 .channelTabs-slider {top: -16px !important;}
 /* Settings Menu Icon */
 #channelTabs-settingsMenu {top: 4.5px !important;}
+/* Close button centers */
+.channelTabs-closeTab {
+  display: flex;
+  align-items: center;
+}
 
 /* Notes plugin separator title container */
 .channelSeparator-1-U8lm {
