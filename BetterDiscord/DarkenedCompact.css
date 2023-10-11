@@ -1,22 +1,19 @@
 /* ===> Avatar only member list | Compact Member List <=== */
-.membersWrap-3NUR2t {
-  min-width: unset;
+.container-2o3qEW {
+  min-width: 50px;
+  max-width: 50px;
 }
-.membersWrap-3NUR2t .members-3WRCEx { /* Both = 52px/240px */
-  max-width: var(--Member-List-Toggle);
-  min-width: var(--Member-List-Toggle);
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
-}
-.membersWrap-3NUR2t .members-3WRCEx:hover {
-  max-width: 240px;
+.container-2o3qEW:hover {
   min-width: 240px;
+  max-width: 240px;
+  transition: .3s ease;
 }
-.membersWrap-3NUR2t:not(:hover) .membersGroup-2eiWxl { /* Height = 0/initial | Padding = 0/6px 0 */
+.container-2o3qEW:not(:hover) .membersGroup-2eiWxl { /* Height = 0/initial | Padding = 0/6px 0 */
   height: var(--Member-List-Toggle-2);
   padding: var(--Member-List-Toggle-4);
   transition: .3s ease;
 }
+
 /* Work together */
 .membersWrap-3NUR2t .members-3WRCEx .content-2a4AW9:not(:hover) {
   padding-top: 0px;
