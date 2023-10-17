@@ -42,7 +42,7 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 }
 .closeIcon-upjn8w {height: 90px !important;}
 
-/* Member list text/box in the members wrap */
+/* Member list text/box in the members wrap 
 :root .membersWrap-3NUR2t::before {
   content: "Member list";
   position: absolute;
@@ -56,8 +56,9 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
   font-weight: bolder;
   color: var(--header-primary);
 }
+*/
 
-/* Black box behind the member list */
+/* Black box behind the member list 
 :root .membersWrap-3NUR2t::after {
   content: "";
   position: absolute;
@@ -68,6 +69,7 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
+*/
 
 /* CHANNEL LIST PANELS (Avatar, Settings, Flex) & Colour of status picker) */
 .panels-3wFtMD, .noChannel-1GDIAZ, .bar-g2ZMIm {
@@ -2065,7 +2067,7 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.container-2cd8Mz > section > div.children-3xh0VB > h3, #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.container-2cd8Mz > section > div.children-3xh0VB > div.iconWrapper-2awDjA > svg, #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.container-2cd8Mz > section > div.children-3xh0VB > div.divider-q3P9HC {display: none;}
 
 /* Members group container */
-.membersGroup-2eiWxl {
+aside [class^="membersGroup-"] {
   color: white;
   padding: 8px 0;
   height: 30px;
@@ -2094,9 +2096,6 @@ svg.icon-2xnN2Y:hover {color: var(--interactive-hover);}
   border-left: 2px solid var(--unread-color);
   padding-left: 10px;
 }
-/* Member list hover and active fix */
-.container-1oeRFJ {margin-left: 0px;}
-.member-2gU6Ar {max-width: -webkit-fill-available;}
 
 /* Add a server & Explore public servers buttons + "DisplayServersAsChannels" fix for colour [Keep] */
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {color: #fff; background-color: var(--background-modifier-active);}
