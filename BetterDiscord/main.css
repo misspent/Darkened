@@ -21,7 +21,8 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 #account > div > div:nth-child(1) > div:nth-child(1) > div.theme-dark.layer-2BGhQ8 {
   left: 284px !important;
 }
-
+/* Removes Discord logo from direct messages */
+.wrapper-3kah-n .childWrapper-1j_1ub svg {display: none;}
 /*
 ====================================================================================
                   Container, pills, groups
