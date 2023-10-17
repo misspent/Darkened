@@ -2,21 +2,21 @@
 .base-2jDfDU .channelTextArea-220_Gz, .base-2jDfDU .channelTextArea-1FufC0, .base-2jDfDU .scrollableContainer-15eg7h {
   background-color: transparent;
 }
-.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .textArea-2CLwUE {
+.base-2jDfDU .channelTextArea-1deLlK .inner-NQg18Y .textArea-2CLwUE {
   margin-right: 3px;
   border-radius: var(--server-radius);
   background-color: var(--channeltextarea-background);
 }
-.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .textArea-2CLwUE .fontSize16Padding-XoMpjI {
+.base-2jDfDU .channelTextArea-1deLlK .inner-NQg18Y .textArea-2CLwUE .fontSize16Padding-XoMpjI {
   left: 8px;
   padding-left: 0;
 }
-.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .textArea-2CLwUE .slateTextArea-27tjG0 {
+.base-2jDfDU .channelTextArea-1deLlK .inner-NQg18Y .textArea-2CLwUE .slateTextArea-27tjG0 {
   margin-right: 0px;
   caret-color: #ccc;
   border-radius: var(--server-radius);
 }
-.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ {
+.base-2jDfDU .channelTextArea-1deLlK .inner-NQg18Y .button-f2h6uQ {
   width: 38px;
   height: 44px;
   padding-right: 0px;
@@ -32,6 +32,9 @@ button.attachButton-_ACFSu.attachButton-1ijpt9.button-ejjZWC.lookBlank-FgPMy6.co
 .buttons-uaqb-5 {background-color: var(--channeltextarea-background);}
 .sansAttachButton-1ERHue {padding-left: 16px;}
 .attachButton-_ACFSu {padding: 8px;}
-.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y {
+.base-2jDfDU .channelTextArea-1deLlK .inner-NQg18Y {
   margin-right: -6px !important;
 }
+/* Change after 17/10/23 */
+.channelTextArea-1deLlK {margin-bottom: 6px;}
+.form-3qe0Ni {padding: 0px 6px; margin-top: 0px;}
