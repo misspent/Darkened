@@ -2359,7 +2359,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 /* --------------------------- 🚥 WINDOWS BUTTONS (exit, close and minimize) ----------------------------- */
 
 /* 1.a. Main Title Bar (Discord logo) | Watermark, close, minimize, expand */
-.titleBar-1it3bQ {display: var(--Titlebar); background: var(--background-secondary);}
+.titleBar-1it3bQ, .titleBar-3AIemB {display: var(--Titlebar); background: var(--background-secondary);}
 .withFrame-2dL45i {margin: 0px;}
 .winButton-3UMjdg {top: -1px;}
 .appMount-2yBXZl .wordmarkWindows-2dq6rw path:not(:first-child) {display: none;} /* Makes watermark look better (no bold) */
