@@ -21,9 +21,8 @@
 .membersGroup__85843 .member_aa4760 .content-2a4AW9:not(:hover) {
   padding-top: 0px;
 }
-.layout_bb8e67 {
-  padding: 0px;
-}
+.layout_bb8e67 {padding-left: 0px;}
+.layout_bb8e67:hover {padding-left: 5px !important;}
 .selected__9800b .layout_bb8e67 {
   padding-left: 6px;
 }
