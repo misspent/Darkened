@@ -4,6 +4,11 @@
 @import url("https://misspent.github.io/Darkened/BetterDiscord/Context-Icons.css"); /* Context Icons - Up-to-date */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css"); /* Settings Icons */
 
+/* Makes border-radius variables completely redundant... Square Everything always */
+*, :before, :after, foreignObject {border-radius: 0px !important;}
+* foreignObject {mask: none !important;}
+
+
 /* Context menu icons when right clicking a message (removes the icons on the right)  */
 #message-pin > div.iconContainer-1-SsTR > svg, #message-copy-link > div.iconContainer-1-SsTR > svg, #message-reply > div.iconContainer-1-SsTR > svg, #message-thread > div.iconContainer-1-SsTR > svg, #message-tts > div.iconContainer-1-SsTR > svg, #message-delete > div.iconContainer-1-SsTR > svg, #user-context-devmode-copy-id > div.iconContainer-1-SsTR > svg, #message-edit > div.iconContainer-1-SsTR, #message-mark-unread > div.iconContainer-1-SsTR > svg, #channel-context-devmode-copy-id > div.iconContainer-1-SsTR, #message-reactions > div.iconContainer-1-SsTR, #guild-context-devmode-copy-id > div.iconContainer-1-SsTR > svg, #message-devmode-copy-id > div.iconContainer-1-SsTR {display: none;}
 
