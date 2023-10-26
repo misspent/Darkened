@@ -13,7 +13,7 @@
 }
 .base__3e6af .channelTextArea__2e60f .inner__9fd0b .textArea__74543 .slateTextArea__0661c {
   margin-right: 0px;
-  caret-color: #ccc;
+  caret-color: red;
   border-radius: var(--server-radius);
 }
 .base__3e6af .channelTextArea__2e60f .inner__9fd0b .button_afdfd9 {
@@ -30,13 +30,13 @@ button.attachButton_b1db83.attachButton_eba568.button_afdfd9.lookBlank__7ca0a.co
   margin-right: 3px !important;
 }
 .buttons_ce5b56 {background-color: var(--channeltextarea-background);}
-.sansAttachButton__996a4 {padding-left: 16px;}
+.sansAttachButton__996a4 {padding-left: 8px;}
 .attachButton_b1db83 {padding: 8px;}
-.base__3e6af .channelTextArea__2e60f .inner__9fd0b {
-  margin-right: -6px !important;
+.base__3e6af .channelTextArea__2e60f .inner__9fd0b { /* Right button bar | Check this when you have access to dev tools OR completely remake this whole snippet now you know what you're doing with css */
+  margin-right: 14px !important;
 }
 /* Change after 17/10/23 */
 .channelTextArea__2e60f {margin-bottom: 6px;}
-.form__13a2c {padding: 0px 6px; margin-top: 0px;}
+.form__13a2c {padding: 0px; margin-top: 0px;}
 /* Edit message input box */
 .channelTextArea_af1f8b .editor__66464 {background: var(--channeltextarea-background);}
