@@ -30,10 +30,10 @@ button.attachButton_b1db83.attachButton_eba568.button_afdfd9.lookBlank__7ca0a.co
   margin-right: 3px !important;
 }
 .buttons_ce5b56 {background-color: var(--channeltextarea-background);}
-.sansAttachButton__996a4 {padding-left: 8px;}
+.sansAttachButton__996a4 {padding-left: 6px;}
 .attachButton_b1db83 {padding: 8px;}
 .base__3e6af .channelTextArea__2e60f .inner__9fd0b { /* Right button bar | Check this when you have access to dev tools OR completely remake this whole snippet now you know what you're doing with css */
-  margin-right: 14px !important;
+  margin-right: 12px !important;
 }
 /* Change after 17/10/23 */
 .channelTextArea__2e60f {margin-bottom: 6px;}
