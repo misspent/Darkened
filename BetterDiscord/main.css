@@ -2207,7 +2207,7 @@ aside [class^="membersGroup"] {
 .mainCard-3KBsBI, .increasedActivityMainCard-2ry6hI {border-radius: var(--server-radius); background: var(--background-secondary);}
 .headerRow-1MKoR- .mainCard-3KBsBI {background: var(--background-secondary);}
 .matchingPostsRow__510be, .theme-dark .container__15ddf.isOpen__036bf {background-color: var(--background-tertiary);}
-.mainCard-3KBsBI:hover, .container__15ddf:hover {background: var(--background-tertiary);     transform: none;}
+.mainCard-3KBsBI:hover, .container__15ddf:hover {background: var(--background-modifier-selected); border-color: var(--background-secondary-alt); transform: none;}
 .container-3wLKDe .container-2qVG6q:hover {background: var(--background-tertiary) !important; transform: translateY(0px);}
 .box_dd6d91 {border-radius: var(--server-radius);} /* Start The Conversation with a wave container */
 .bodyMedia-3ij3KY {border-radius: var(--server-radius);} /* Media (Image/GIF) on main card */
@@ -2293,6 +2293,7 @@ div.clickable-J07Mqa > svg > path {color: red;}
 .buttons-SCXZU- {gap: 0px;}
 .moderatedCheckbox-1xLAbE {margin: 0px; padding-left: 16px; padding-bottom: 16px; background-color: var(--background-secondary);}
 .staticToolbar__7ef7b {background: var(--background-secondary); border-radius: var(--server-radius);}
+.container_b181b6 {background: var(--channeltextarea-background);}
 /* Tag section in channel settings */
 .addTags-26suzl {border-radius: var(--server-radius);}
 .tags-1bn36G .container-m0iv4O .pill_f055c3 {background: var(--background-tertiary) !important;}
