@@ -2293,7 +2293,8 @@ div.clickable-J07Mqa > svg > path {color: red;}
 .buttons-SCXZU- {gap: 0px;}
 .moderatedCheckbox-1xLAbE {margin: 0px; padding-left: 16px; padding-bottom: 16px; background-color: var(--background-secondary);}
 .staticToolbar__7ef7b {background: var(--background-secondary); border-radius: var(--server-radius);}
-.container_b181b6 {background: var(--channeltextarea-background);}
+.container_b181b6 {background: var(--background-primary);}
+.increasedActivityMainCard__916ed, .mainCard__8a660 {background-color: var(--channeltextarea-background);}
 /* Tag section in channel settings */
 .addTags-26suzl {border-radius: var(--server-radius);}
 .tags-1bn36G .container-m0iv4O .pill_f055c3 {background: var(--background-tertiary) !important;}
