@@ -29,7 +29,7 @@ button.attachButton_b1db83.attachButton_eba568.button_afdfd9.lookBlank__7ca0a.co
   background-color: var(--channeltextarea-background);
   margin-right: 3px !important;
 }
-.button__55e53 {margin-right: 0px;}
+.button__55e53 {margin-right: 0px !important;}
 .buttons_ce5b56 {background-color: var(--channeltextarea-background);}
 .sansAttachButton__996a4 {padding-left: 6px;}
 .attachButton_b1db83 {padding: 8px;}
