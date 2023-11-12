@@ -1,8 +1,9 @@
 /* ===> Avatar only member list | Compact Member List <=== */
 .container_b2ce9c {
-  min-width: 50px;
-  max-width: 50px;
+  min-width: var(--Member-List-Toggle);
+  max-width: var(--Member-List-Toggle);
 }
+.container_b2ce9c [class^="members"] {width: 231px;}
 .container_b2ce9c:hover {
   min-width: 240px;
   max-width: 240px;
