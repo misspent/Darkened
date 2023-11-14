@@ -17,6 +17,8 @@
 .container_b2ce9c aside [class^="membersGroup"] { /* Height = 0/initial | Padding = 0/6px 0 */
   transition: .3s ease;
 }
+/* Border status fix (no scrollbar import broke that too) */
+.container__8759a, .container__4f20e {margin-left: 1px !important;}
 
 /* Work together */
 .membersGroup__85843 .member_aa4760 .content-2a4AW9:not(:hover) {
