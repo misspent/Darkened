@@ -589,10 +589,13 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 .userPopoutInner_f545a3 .memberSinceContainer__0a28b,
 .userPopoutInner_f545a3 .root_a99273.flex__909d4.wrap_e504b7.roles__74a2b,
 .userPopoutInner_f545a3 .textarea_c5a7a3,
-.userPopoutInner_f545a3 .note_ba0c31 textarea:focus {
+.userPopoutInner_f545a3 .note_ba0c31 textarea:focus,
+.userPopoutInner_f545a3 .roles__74a2b,
+.userPopoutInner_f545a3 .connections_pPr4as  {
   background: var(--popout-background-main);
 }
-.connections-pPr4as {background: var(--popout-background-main); padding: 3px;}
+.connections-pPr4as {background: var(--popout-background-main); padding: 3px; padding-left: 5px;}
+.connection_9Gh4sa {margin: 4px 7px 6px 0;}
 /* Message Input container */
 .messageInputContainer__768e6 {border-color: transparent; background: var(--background-primary);}
 /* Input box (message) */

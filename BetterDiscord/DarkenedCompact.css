@@ -3,7 +3,7 @@
   min-width: var(--Member-List-Toggle);
   max-width: var(--Member-List-Toggle);
 }
-.container_b2ce9c [class^="members"] {width: 231px;}
+
 .container_b2ce9c:hover {
   min-width: 240px;
   max-width: 240px;
@@ -21,56 +21,42 @@
 .container__8759a, .container__4f20e {margin-left: 1px !important;}
 
 /* Work together */
-.membersGroup__85843 .member_aa4760 .content-2a4AW9:not(:hover) {
-  padding-top: 0px;
-}
+.membersGroup__85843 .member_aa4760 .content-2a4AW9:not(:hover) {padding-top: 0px;}
+.membersWrap__90226 .memberInner_a32223 {padding-left: 5px;}
 .layout_bb8e67 {padding-left: 0px;}
 .layout_bb8e67:hover {padding-left: 5px !important;}
-.selected__9800b .layout_bb8e67 {
-  padding-left: 6px;
-}
-.clickable__17ccb:hover .layout_bb8e67 {
-  padding-left: 6px;
-}
+.selected__9800b .layout_bb8e67, .clickable__17ccb:hover .layout_bb8e67 {padding-left: 5px;}
 [class^="membersGroup"] {
   transition: .3s ease;
 }
-/* Member List Container */
-:root .membersGroup__85843::after { /* Height = 0/45px | opacity = 0/1 */
-  height: var(--Member-List-Toggle-1);
-  opacity: var(--Member-List-Toggle-3);
-  transition: .3s ease;
-}
-:root .membersGroup__85843::before { /* Height = 0/15px | opacity = 0/1 */
-  height: 15px;
-  opacity: var(--Member-List-Toggle-3);
-  transition: .3s ease;
-}
-:root .membersGroup__85843:hover:after {
-  height: 45px;
-  opacity: 1;
-  width: 100%;
-  transition: .3s ease;
-}
-:root .membersGroup__85843:hover:before {
-  height: 15px;
-  opacity: 1;
-  width: initial;
-  transition: 0.3s ease;
-}
-/* Member list support channel */
+/* ==> Member list support channel <== */
+.membersWrap__90226,
 .members__9f47b {
   min-width: var(--Member-List-Toggle);
   max-width: var(--Member-List-Toggle);
 }
+.membersWrap__90226:hover,
 .members__9f47b:hover {
   min-width: 240px;
   max-width: 240px;
   transition: .3s ease;
 }
+/* Work together */
 .membersWrap__90226:not(:hover) [class^="membersGroup"] {
   padding: var(--Member-List-Toggle-2);
   height: var(--Member-List-Toggle-2);
+}
+
+.container_b2ce9c {border-left: 0px solid var(--border-color) !important;}
+/* Border line to the left of the member list bar */
+.membersWrap__90226:before {
+  content: "";
+  position: relative;
+  width: 1px;
+  left: 0px;
+  top: 0px;
+  height: 1301px;
+  border-left: 1px solid var(--border-color);
 }
 
 
