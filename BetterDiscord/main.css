@@ -140,7 +140,6 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 .scroller__4b984 {border-right: 1px solid var(--border-color);}
 .listeningAlong_f20fb2 {border: 0px solid var(--border-color);}
 .container_b2ce9c {border-left: 1px solid var(--border-color);}
-.members__9f47b {margin-top: 45px;}
 .activityPanel__22355 {border-right: 1px solid var(--border-color) !important; }
 .wrapper__0ed4a {border-top: 1px solid var(--border-color);	border-right: 1px solid var(--border-color);}
 .container_ca50b9 {border-right: 1px solid var(--border-color);	border-top: 0px solid var(--border-color); margin-bottom: 0px;}
@@ -2073,7 +2072,8 @@ svg.icon__4cb88:hover {color: var(--interactive-hover);}
 #app-mount > div.app_b1f720 > div > div.layers_a40797.layers__12c9f > div > div > div > div > div.container__5c7e7 > section > div.children__32014 > h3, #app-mount > div.app_b1f720 > div > div.layers_a40797.layers__12c9f > div > div > div > div > div.container__5c7e7 > section > div.children__32014 > div.iconWrapper_af9215 > svg, #app-mount > div.app_b1f720 > div > div.layers_a40797.layers__12c9f > div > div > div > div > div.container__5c7e7 > section > div.children__32014 > div.divider_c09b64 {display: none;}
 
 /* Members group container */
-aside [class^="membersGroup"] {
+aside [class^="membersGroup"],
+.membersWrap__90226 [class^="membersGroup"] {
   color: white;
   padding: 8px 0;
   height: 26px;
@@ -2572,7 +2572,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .sidebar_ded4b5 .wrapper__7bcde.modeConnected__1c02e .wrapper__7bcde .channelName-3KPsGw {color: white;}
 
 /* Unread Channel Background */
-.iconVisibility__62ab5.wrapper__7bcde.modeUnread_f74c03 {background-color: var(--border-color);}
+.modeUnreadImportant_efb53e {background-color: var(--border-color);}
 /* Unread Channel Hover Background */
 .sidebar_ded4b5 .wrapper__7bcde .unread__48cf4 + .wrapper__7bcde:hover {
   background-color: rgba(var(--accent), 0.13) !important;
@@ -2580,6 +2580,7 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 .wrapper__7bcde {margin-left: 0px;}
 .typeThread__2f91c.wrapper__7bcde {margin-left: 0px;}
 /* Unread Channel Notice */
+.sidebar_ded4b5 .wrapper__7bcde .unread__48cf4:hover {background-color: rgba(var(--accent), 1) !important;}
 .sidebar_ded4b5 .wrapper__7bcde .unread__48cf4 {
   background-color: #777777;
   border-radius: 0px;
@@ -2593,10 +2594,9 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 }
 .modeUnread_f74c03 .icon_eff5d4, .modeUnread_f74c03:hover .icon_eff5d4, .modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4 {color: #FFFFFF;}
 .modeSelected__487d6::before, .channel_c21703.selected__9800b::before {border-left: 2px solid var(--unread-color);}
-.wrapper__7bcde:hover {background: rgba(var(--accent), 0.13) !important; border-left: 2px solid var(--unread-color); z-index: 2;}
 .modeSelected__487d6 .wrapper__7bcde, .modeSelected__487d6:hover .wrapper__7bcde {background: #151515;}
 .modeSelected__487d6 .link__95dc0 {background: rgba(var(--accent), 0.07); border-radius: var(--border-radius);} .link__95dc0 {margin-left: 0px; padding-left: 8px !important;}
-.wrapper__7bcde {border-left: 2px solid transparent; padding: 0px;}
+.wrapper__7bcde {padding: 0px;}
 .children_a486f8 {margin-right: 8px;}
 .modeSelected__487d6::before, .modeUnread_f74c03::before {
   content: "";

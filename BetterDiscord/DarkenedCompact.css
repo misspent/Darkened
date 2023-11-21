@@ -58,6 +58,21 @@
   width: initial;
   transition: 0.3s ease;
 }
+/* Member list support channel */
+.members__9f47b {
+  min-width: var(--Member-List-Toggle);
+  max-width: var(--Member-List-Toggle);
+}
+.members__9f47b:hover {
+  min-width: 240px;
+  max-width: 240px;
+  transition: .3s ease;
+}
+.membersWrap__90226:not(:hover) [class^="membersGroup"] {
+  padding: var(--Member-List-Toggle-2);
+  height: var(--Member-List-Toggle-2);
+}
+
 
 
 /* ===> Compact server list <=== */
