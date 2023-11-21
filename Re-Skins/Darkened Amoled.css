@@ -19,9 +19,9 @@
 @import "https://crearts-community.github.io/Mention-Links/theme.css"; /* Mention Links */
 @import "https://lyght1337.github.io/DarknessCodeBlocks/css/CodeBlocks.css"; /* Codeblocks */
 @import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css"; /* Scrollbars */
-@import "https://misspent.github.io/Darkened/BetterDiscord/ChannelIcons.css"; /* Channel Icons */
+@import /"https://misspent.github.io/Darkened/BetterDiscord/ChannelIcons.css"; /* Channel Icons */
 @import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"; /* Radial Status */
-@import /"https://misspent.github.io/Darkened/BetterDiscord/DarkenedCompact.css"; /* Compact Import */
+@import "https://misspent.github.io/Darkened/BetterDiscord/DarkenedCompact.css"; /* Compact Import */
 @import "https://misspent.github.io/Darkened/BetterDiscord/SeparatedChatBar.css"; /* SeparatedChatBar */
 @import "https://misspent.github.io/Darkened/BetterDiscord/ContextIconColours.css"; /* ContextIconsColours */
 @import "https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css";/* Better Crashes - Disease | Indicating which plugins are currently causing commits. */
@@ -85,7 +85,7 @@
   --Compact-Sidebar: 240px; /* Left variable = 10px, Right variable = 240px */
   --Compact-Sidebar-Opacity: 1; /* Left variable = 0, Right variable = 1 */
   /* Compact Member List */
-  --Member-List-Toggle: 52px; /* Left variable = 52px, Right variable = 240px */
+  --Member-List-Toggle: 45px; /* Left variable = 45px, Right variable = 240px */
   --Member-List-Toggle-1: 0; /* Left variable = 0, Right variable = 45px */
   --Member-List-Toggle-2: 0; /* Left variable = 0, Right variable = 30px */
   --Member-List-Toggle-3: 0; /* Left variable = 0, Right variable = 1 */
