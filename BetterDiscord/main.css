@@ -2605,10 +2605,10 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   content: "";
   z-index: 1;
   position: absolute;
-  height: -webkit-fill-available;
+  height: 100%;
   top: 0px;
-  margin-top: 1px;
-  margin-bottom: 1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Avatars in call */
