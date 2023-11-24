@@ -1842,34 +1842,56 @@ svg.slider__41d94 rect {rx: 0;}
 .searchResultsWrap__9f374 .scroller_c8d5ad {padding: 16px 16px 0px 16px !important;}
 
 .iconWrapper_af9215, .selected_be2668 .icon__4cb88 {color: var(--interactive-normal) !important;}
-/* Shrunken Search Bar (Made by Freeplay) */
-[class*="toolbar-"] > [class*="search-"] [class*="searchBar-"] {
+/* Shrunken/Compact Search Bar - Toolbar (Made by Freeplay) | Updated by misspent */
+[class*="toolbar_"] > [class*="search_"] [class*="searchBar_"] {
   background: none;
   width: 24px;
   color: var(--color-text);
   transition: width 0.2s, padding 0.5s;
   padding: 0 !important;
 }
-[class*="toolbar-"] > [class*="search-"] [class*="searchBar-"] [class*="iconContainer-"] {
+[class*="toolbar_"] > [class*="search_"] [class*="searchBar_"] [class*="iconContainer_"] {
   width: 24px !important;
   height: 24px;
   cursor: pointer !important;
 }
-[class*="toolbar-"] > [class*="search-"] [class*="searchBar-"] svg {
+[class*="toolbar_"] > [class*="search_"] [class*="searchBar_"] svg {
   color: var(--color-text);
   width: 24px;
   height: 24px;
   padding: 0.5px;
 }
-[class*="toolbar-"] > [class*="search-"] > [class*="open-"] [class*="searchBar-"] {
+[class*="toolbar_"] > [class*="search_"] {margin: 0 2px;}
+[class*="toolbar_"] > [class*="search_"]:has([class*="open_"]) {margin: 0 8px;}
+[class*="toolbar_"] > [class*="search_"] > [class*="open_"] [class*="searchBar_"] {
   width: 300px;
   padding: 0 !important;
   background: var(--background-primary);
 }
-[class*="toolbar-"] > [class*="search-"] > [class*="open-"] [class*="searchBar-"] svg {
+[class*="toolbar_"] > [class*="search_"] > [class*="open_"] [class*="searchBar_"] svg {
   color: var(--text-muted);
   transform: scale(0.8);
 }
+/* ==> Compact/Shrunken search bar (toolbar) | Fix: 24/11/23 <== 
+.search__07df0 {margin: 0 0px;}
+.search_ac353c:not(.open_d3ab4e) .DraftEditor-root {
+  width: -webkit-fill-available;
+  position: absolute;
+  opacity: 0;
+}
+
+.searchBar_e0c60b {
+  background: var(--background-primary);
+  width: auto;
+  padding: 0px;
+}
+.search_ac353c:not(.open_d3ab4e) .searchBar_e0c60b {background: transparent;}
+.iconContainer__8fa9c {
+  width: 22px;
+  height: 22px;
+}
+.iconContainer__8fa9c .icon_f50f05 {color: var(--interactive-normal) !important}
+*/
 
 /* Notice bar (Better discord) When something needs updating */
 .notice__5fd4c {
