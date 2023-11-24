@@ -2610,10 +2610,10 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
   margin-top: 0px;
   margin-bottom: 0px;
   width: 2px !important;
-  background-color: rgba(var(--accent), 1);
+  background-color: rgba(var(--accent), 1) !important;
 }
 .link__95dc0:hover {background-color: rgba(var(--accent), 0.10) !important;}
-.selected__3b4cb .wrapper__7bcde:hover::before {background-color: transparent;}
+.selected__3b4cb .wrapper__7bcde:hover::before {background-color: transparent !important;}
 /* Updated end */
 .wrapper__7bcde {margin-left: 0px;}
 .typeThread__2f91c.wrapper__7bcde {margin-left: 0px;}
