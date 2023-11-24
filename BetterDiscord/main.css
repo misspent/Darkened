@@ -2737,9 +2737,9 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 /* Context Menu: Emoji Top Wrapper */
 .menu_dc52c6 .wrapper__2e846 {display: var(--Context-Menu-Emoji-Toolbar); padding: 4px 2px 6px 2px;}
 /* Disable Stage Discovery in Home tab */
-a[href="/discovery"] {display: var(--Home-Discovery-Channel);}
+.channel_c21703:has(a[href="/discovery"]) {display: var(--Home-Discovery-Channel);}
 /* Disable Nitro button in Home tab */
-a[href="/store"] {display: var(--Home-Nitro-Channel);}
+.channel_c21703:has(a[href="/store"]) {display: var(--Home-Nitro-Channel);}
 /* GIFs, Stickers and Emoji menu height */
 .positionLayer__50609 .positionContainer__0c914 {height: var(--Emoji-Menu-Height);}
 
