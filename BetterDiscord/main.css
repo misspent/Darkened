@@ -576,6 +576,8 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 [class*="userProfileInnerThemedWithBanner"], [class*="userProfileInnerThemedPremiumWithoutBanner"], [class*="userProfileInnerThemedNonPremium"], .userPopoutInner_f545a3:before, .userProfileInner__8065b:before {background: var(--background-secondary) !important;}
 .userPopoutOuter_d739b2 {box-shadow: none; min-width: 300px; max-width: 300px;}
 .userPopoutOverlayBackground_d8afa4 {margin: 14px 0px 0px; background: var(--background-secondary);} .scroller__83262 {padding: 0 12px !important;}
+.userPopoutOverlayBackground_d8afa4 {margin-top: 0px;}
+.userPopoutOverlayBackground_d8afa4 .divider__56f26, .userPopoutOverlayBackground_d8afa4 .divider__06972 {display: none;}
 .userProfileOuterThemed__6eb84.userPopoutOuter_d739b2, .userProfileOuterThemed__6eb84.userProfileOuter__46bb7 {padding: 0px;}
 .divider_ed0c1d {display: none;} /* Divider */
 /* Title and details backgrounds */
@@ -2576,14 +2578,25 @@ Do not drag or use the import "https://monstrousdev.github.io/themes/addons/user
 
 /* Unread Channel Background */
 .modeUnreadImportant_efb53e {background-color: var(--border-color);}
-/* Unread Channel Hover Background */
-.sidebar_ded4b5 .wrapper__7bcde .unread__48cf4 + .wrapper__7bcde:hover {
-  background-color: rgba(var(--accent), 0.13) !important;
+/* Hover border line, test if it works and then give this a proper title - updated start */
+.wrapper__7bcde:hover::before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 2px !important;
+  background-color: rgba(var(--accent), 1);
 }
+.link__95dc0:hover {background-color: rgba(var(--accent), 0.10) !important;}
+.selected__3b4cb .wrapper__7bcde:hover::before {background-color: transparent;}
+/* Updated end */
 .wrapper__7bcde {margin-left: 0px;}
 .typeThread__2f91c.wrapper__7bcde {margin-left: 0px;}
 /* Unread Channel Notice */
-.sidebar_ded4b5 .wrapper__7bcde .unread__48cf4:hover {background-color: rgba(var(--accent), 1) !important;}
+li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--accent), 1) !important;}
 .sidebar_ded4b5 .wrapper__7bcde .unread__48cf4 {
   background-color: #777777;
   border-radius: 0px;
