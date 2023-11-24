@@ -22,10 +22,10 @@
 
 /* Work together */
 .membersGroup__85843 .member_aa4760 .content-2a4AW9:not(:hover) {padding-top: 0px;}
-.membersWrap__90226 .memberInner_a32223 {padding-left: 5px;}
+.membersWrap__90226 .memberInner_a32223 {padding-left: 5px; height: 36px}
 .layout_bb8e67 {padding-left: 0px;}
-.layout_bb8e67:hover {padding-left: 5px !important;}
-.selected__9800b .layout_bb8e67, .clickable__17ccb:hover .layout_bb8e67 {padding-left: 5px;}
+.layout_bb8e67:hover {padding-left: 2px !important;}
+.selected__9800b .layout_bb8e67, .clickable__17ccb:hover .layout_bb8e67 {padding-left: 2px;}
 [class^="membersGroup"] {
   transition: .3s ease;
 }
