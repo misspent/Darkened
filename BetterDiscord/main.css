@@ -2038,7 +2038,7 @@ svg.slider__41d94 rect {rx: 0;}
 
 /* Quote Message Bar + Color container */
 .blockquoteDivider__96157 {background-color: var(--unread-color);	border-radius: var(--server-radius) !important;}
-[class*="blockquoteContainer-"] blockquote,[class*="blockquoteDivider-"]::before {color: lightgreen;	background-color: #101010;}
+[class*="blockquoteContainer_"] blockquote,[class*="blockquoteDivider_"]::before {color: lightgreen;	background-color: #101010;}
 
 /* Spotify song Image */
 .assetsLargeImageStreamPreview_db91fd, .assetsLargeImageUserPopout__6fc87, .assetsLargeImageUserPopoutXbox__908da {width: 60px; height: 60px;	border-radius: var(--server-radius);}
