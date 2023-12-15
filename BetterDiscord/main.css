@@ -2210,6 +2210,15 @@ aside [class^="membersGroup"],
 .guildSeparator-33mFX6, .guildSeparator_dcb3cc {display: none;}
 /* "Read All" container makes it look cleaner */
 .frame-oXWS21 {margin-bottom: 0px;}
+/* Read All button from plugin */
+button.button_afdfd9.lookFilled__19298.colorBrand_b2253e.sizeMin__94642.grow__4c8a4 {
+  margin: 0px !important;
+  background: var(--background-secondary);
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+  border-right: 1px solid transparent;
+}
 
 /* Folders container */
 .expandedFolderBackground__1bec6 {
