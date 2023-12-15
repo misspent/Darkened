@@ -125,18 +125,14 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
   opacity: 0.3;
   transition: all 0.1s ease-in-out;
 }
-.button__4f306.enabled__470f0:hover {
-  background: transparent;
+.button__4f306.enabled__470f0:hover {background: transparent;}
+.button__4f306:hover > .contents-18-Yxp > svg {opacity: 0.7;}
+.button__4f306.disabled_dc5630 > .contents-18-Yxp > svg {opacity: 0.1;}
+.avatarWrapper_ba5175 {margin-right: 0px;}
+/*GameController*/[d^="M3.06 20.4q-1.53 0-2.37-1.065T.06 16.74l1.26-9q.27-1.8 1.605-2.97T6.06 3.6h11.88q1.8 0 3.135 1.17t1.605 2.97l1.26 9q.21 1.53-.63 2.595T20.94 20.4q-.63 0-1.17-.225T18.78 19.5l-2.7-2.7H7.92l-2.7 2.7q-.45.45-.99.675t-1.17.225Zm14.94-7.2q.51 0 .855-.345T19.2 12q0-.51-.345-.855T18 10.8q-.51 0-.855.345T16.8 12q0 .51.345 .855T18 13.2Zm-2.4-3.6q.51 0 .855-.345T16.8 8.4q0-.51-.345-.855T15.6 7.2q-.51 0-.855.345T14.4 8.4q0 .51.345 .855T15.6 9.6ZM6.9 13.2h1.8v-2.1h2.1v-1.8h-2.1v-2.1h-1.8v2.1h-2.1v1.8h2.1v2.1Z"] {
+  d: path("M5.66487 5H18.3351C19.9078 5 21.2136 6.21463 21.3272 7.78329L21.9931 16.9774C22.0684 18.0165 21.287 18.9198 20.248 18.9951C20.2026 18.9984 20.1572 19 20.1117 19C18.919 19 17.8785 18.1904 17.5855 17.0342L17.0698 15H6.93015L6.41449 17.0342C6.12142 18.1904 5.08094 19 3.88826 19C2.84645 19 2.00189 18.1554 2.00189 17.1136C2.00189 17.0682 2.00354 17.0227 2.00682 16.9774L2.67271 7.78329C2.78632 6.21463 4.0921 5 5.66487 5ZM14.5 10C15.3284 10 16 9.32843 16 8.5C16 7.67157 15.3284 7 14.5 7C13.6716 7 13 7.67157 13 8.5C13 9.32843 13.6716 10 14.5 10ZM18.5 13C19.3284 13 20 12.3284 20 11.5C20 10.6716 19.3284 10 18.5 10C17.6716 10 17 10.6716 17 11.5C17 12.3284 17.6716 13 18.5 13ZM6.00001 9H4.00001V11H6.00001V13H8.00001V11H10V9H8.00001V7H6.00001V9Z");
 }
-.button__4f306:hover > .contents-18-Yxp > svg {
-  opacity: 0.7;
-}
-.button__4f306.disabled_dc5630 > .contents-18-Yxp > svg {
-  opacity: 0.1;
-}
-.avatarWrapper_ba5175 {
-  margin-right: 0px;
-}
+/*GameController line */[d="M22.7 2.7a1 1 0 0 0-1.4-1.4l-20 20a1 1 0 1 0 1.4 1.4Z"] {fill: rgb(151, 23, 23) !important; max-height: 0px !important;}
 .scroller_f0f183 {border-right: 1px solid var(--border-color);}
 .scroller__4b984 {border-right: 1px solid var(--border-color);}
 .listeningAlong_f20fb2 {border: 0px solid var(--border-color);}
