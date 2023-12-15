@@ -2150,9 +2150,6 @@ aside [class^="membersGroup"],
 
 /* Cancel buttons & Footer center */
 .theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo, .footer-31IekZ button.button_afdfd9.lookLink__93965.lowSaturationUnderline-Z6CW6z.colorPrimary__6ed40.sizeMedium_c6fa98.grow__4c8a4 {background-color: var(--button-danger-background); border-radius: var(--server-radius); color: #fff;}
-.sizeMedium_c6fa98 {
-  width: -webkit-fill-available !important;
-}
 .flex_f5fbb7.flex__909d4.horizontalReverse_dc209c.horizontalReverse_e078f3.flex__909d4.directionRowReverse__9f91b.justifyStart__42744.alignStretch_e239ef.noWrap__5c413.footer-31IekZ.footerSeparator-VzAYwb {
   justify-content: center;}
 
