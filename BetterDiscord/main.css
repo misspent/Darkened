@@ -1362,41 +1362,13 @@ div.BetterInvites-iconWrapper > div > img {border-radius: var(--avatar-radius) !
 ====================================================================================================================
 */
 
-/* Settings text/box at the top of settings */
-:root .sidebarRegion__60457::before {
-  content: "Settings";
-  position: absolute;
-  z-index: 101;
-  height: 48px;
-  left: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  font-weight: bolder;
-  color: var(--header-primary);
-}
-/* Black box behind the "settings" text in settings */
-:root .sidebarRegion__60457::after {
-  content: "";
-  position: absolute;
-  align-items: top;
-  z-index: 100;
-  width: 100%;
-  height: 49px;
-  background-color: var(--background-primary);
-  border-bottom: 2px solid var(--background-modifier-accent);
-  border-radius: 0 0 var(--border-radius) var(--border-radius);
-  background-image: linear-gradient(to right, #181818 100%, rgba(255, 255, 255, 0) 0%);
-  background-position: bottom;
-  background-size: 2px 0px;
-  background-repeat: repeat-x;
-}
-
 /* Both server settings and settings */
 .sidebar__9e3e2 {padding: 50px 0px 60px 0px !important;}
-body #app-mount .sidebar__9e3e2, body #app-mount .layer_e552e0 ~ .layer_e552e0 .sidebar__9e3e2 {width: 190px !important;}
-body #app-mount .sidebarRegion__60457 {  flex-basis: calc(0px + (var(--usesettingsicons) * (var(--settingsiconssize) + var(--settingsiconsgap)))) !important;}
+body #app-mount .sidebar__9e3e2:has(.socialLinks_c1fc99), body #app-mount .layer__2efaa ~ .layer__2efaa .sidebar__9e3e2:has(.socialLinks_c1fc99) {
+  width: calc(190px + (var(--use-settingsicons) * (var(--settingsicons-size) + var(--settingsicons-gap)))) !important;
+}
+body #app-mount .sidebarRegion__60457:has(.socialLinks_c1fc99) {flex-basis: calc(190px + (var(--use-settingsicons) * (var(--settingsicons-size) + var(--settingsicons-gap)))) !important;}
+.sidebarRegionScroller__1fa7e {justify-content: flex-start;}
 
 /* Settings sidebar containers */
 .side_b4b3f6 .separator_fdbcfd {display: block; margin: 0px; padding: 1px;}
@@ -3505,7 +3477,7 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 }
 .bd-error-modal-header.header__6d5ea.separator__925e8 .marginBottom8_f4aae3 {text-align: center;}
 .bd-tab-bar {justify-content: center;}
-.content__764ce {padding: 8px 8px 0px 8px;}
+.content__764ce {padding: 8px 8px 0px 8px !important;}
 .root_a28985 {
   background-color: var(--background-secondary);
   border-radius: var(--server-radius);
