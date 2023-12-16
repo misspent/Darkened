@@ -245,6 +245,10 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
   background-color: var(--background-primary);
   box-shadow: 0px 0px 0px 0px;
 }
+/* Dropdown Icon on channel category title bar */
+.containerDefault__23a29 .icon_ef4486 {display: none;}
+.containerDefault__23a29 .children_d4d259 {display: none;} /* Removes the + icon */
+.containerDefault__23a29 .wrapperCommon_d71dee {padding: 0px 8px;} /* OCD fix */
 
 .sidebar_ded4b5 .containerDefault__23a29 .wrapper__9c483 .name__590d6, .sidebar_ded4b5 .containerDragAfter__72575 .wrapper__9c483 .name__590d6, .sidebar_ded4b5 .containerDragBefore__06455 .wrapper__9c483 .name__590d6, .sidebar_ded4b5 .containerUserOver_fe1d69 .wrapper__9c483 .name__590d6 {color: #8e9297;}
 
