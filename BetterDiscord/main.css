@@ -1860,8 +1860,8 @@ svg.slider__41d94 rect {rx: 0;}
   height: 24px;
   cursor: pointer !important;
 }
-[class*="toolbar_"] > [class*="search_"] [class*="searchBar_"] svg {
-  color: var(--color-text);
+[class*="toolbar_"] > [class*="search_"] [class*="searchBar_"] svg, .searchBar_e0c60b svg.icon_f50f05 {
+  color: var(--interactive-normal) !important;
   width: 24px;
   height: 24px;
   padding: 0.5px;
