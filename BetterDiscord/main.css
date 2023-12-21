@@ -3716,4 +3716,7 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 }
 .vc-addon-card {background: var(--background-secondary);}
 
+/* Staff Tag plugin (Admin, Staff, etc) | Does not apply to bot tags */
+.botTagRegular_c89c9a:not([data-tag="bot"]) {background: rgba(156, 89, 182, 0.815);}
+
 /* ============================================> Vencord | End <============================================ */
