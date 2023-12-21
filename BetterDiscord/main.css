@@ -3719,4 +3719,8 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 /* Staff Tag plugin (Admin, Staff, etc) | Does not apply to bot tags */
 .botTagRegular_c89c9a:not([data-tag="bot"]) {background: rgba(156, 89, 182, 0.815);}
 
+/* Connections plugin | Vencord */
+h2.defaultColor__77578  {background: var(--popout-title); text-align: center;}
+.section__6f61e > div:has(.vc-user-connection) {background: var(--popout-background-main); margin-top: 0px !important; gap: 2px !important; height: 32px !important;}
+
 /* ============================================> Vencord | End <============================================ */
