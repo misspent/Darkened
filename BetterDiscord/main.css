@@ -3472,7 +3472,7 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 
 .root-2s1-ri> * {background: var(--background-tertiary);}
 
-.avatarDecoration__14b3c, svg.avatarDecoration_ae35e3 {display: none;} /* Bye Bye Avatar Decorations */
+.avatarDecoration__14b3c, svg.avatarDecoration_ae35e3, .profileEffects_fd33f6 {display: none;} /* Bye Bye Avatar Decorations + Profile */
 .avatarDecorationHint__03e0b {display: none;}
 
 /* Avatars masks */
