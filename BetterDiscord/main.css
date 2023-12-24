@@ -2021,6 +2021,7 @@ svg.slider__41d94 rect {rx: 0;}
   margin-left: -12px;
   font-size: 14px;
 }
+.newMessagesBar__8b6d7 {height: auto;}
 /* Messages error bar */
 .messagesErrorBar__06c0a {margin-bottom: 0px; border-radius: var(--server-radius); padding-bottom: 0;}
 .messagesErrorBar__06c0a:active {margin-bottom: 0px;}
