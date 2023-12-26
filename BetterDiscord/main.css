@@ -3710,12 +3710,17 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 .root_a28985 .vc-m-bottom-16 > div {padding: 0px 8px 8px 8px; margin-bottom: 0px !important;}
 
 
-/* Plugins section */
+/* ===============> Plugins section <=============== */
 .vc-plugins-grid {
   grid-gap: 8px;
   grid-template-columns: repeat(auto-fill,minmax(340px,1fr));
 }
 .vc-addon-card {background: var(--background-secondary);}
+
+/* Vencord Translate message in chat | Styled it and made it stand out more */
+.vc-trans-accessory {background: var(--background-tertiary); margin-top: 0px; padding: 2px 4px; border: 1px solid var(--border-color)}
+svg.vc-trans-icon {color: #aa03f8e7;}
+.vc-trans-accessory span {color: #ccc;}
 
 /* Staff Tag plugin (Admin, Staff, etc) | Does not apply to bot tags */
 .botTagRegular_c89c9a:not([data-tag="bot"]) {background: rgba(156, 89, 182, 0.815);}

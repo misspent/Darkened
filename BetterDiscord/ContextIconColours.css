@@ -13,7 +13,7 @@
 [aria-label="Copy Link"], [aria-label="Copy Link"]:hover {color: lightseagreen;}
 [aria-label="Edit"], [aria-label="Edit"]:hover {color: rgba(0, 255, 255, 0.637);}
 [aria-label="Add Reaction"], [aria-label="Add Reaction"]:hover, [aria-label="Reactions"], [aria-label="Reactions"]:hover, [aria-label="Add Super Reaction"], [aria-label="Add Super Reaction"]:hover {color: rgba(218, 165, 32, 0.808);}
-[aria-label="Create Thread"], [aria-label="Create Thread"]:hover {color: #aa03f8e7;}
+[aria-label="Create Thread"], [aria-label="Create Thread"]:hover, [aria-label="Translate"], [aria-label="Translate"]:hover {color: #aa03f8e7;}
 [aria-label="Delete"], [aria-label="Delete"]:hover {color: rgba(255, 0, 0, 0.863);}
 [aria-label="Pin Message"], [aria-label="Pin Message"]:hover {color: var(--danger-icon-normal);}
 [aria-label="Unpin Message"], [aria-label="Unpin Message"]:hover {color: var(--danger-icon-normal);}
