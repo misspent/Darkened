@@ -597,6 +597,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 .userPopoutInner_f545a3 .connections_pPr4as  {
   background: var(--popout-background-main);
 }
+.note__7a4f4 textarea:focus {background: transparent;}
 .connections-pPr4as {background: var(--popout-background-main); padding: 3px; padding-left: 5px;}
 .connection_9Gh4sa {margin: 4px 7px 6px 0;}
 /* Message Input container */
@@ -740,6 +741,66 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 .focused-qp-W9B, .item-1BCeuB:hover:not(.disabled-Mmpvl7) {background-color: var(--background-modifier-hover) !important;} /* When you click the "+" to add roles | Hover colour */
 /* =======> New Style <======= */
 .userPopoutInner_f545a3 .avatarWrapper_f77579 {left: 12px;} /* Avatar */
+
+/* ============================================> Profile Modal Pop-up <============================================ */
+/* Height fix for whole modal + Popup container itself */
+.body_ea740e {flex: 0 1 auto;}
+.userProfileModalInner__7c87d .overlayBackground__86b78 {background: var(--background-secondary); margin: 0px;}
+/* ===> Top Part <=== */
+/* Top section of profile modal */
+.topSection_dfb73b {margin-bottom: 0px;}
+.topSection_dfb73b .bannerSVGWrapper__3e7b0 {height: 212px; opacity: 0.2;} /* Non nitro top part? */
+/* Badges & Send friend request bar */
+.topSection_dfb73b .headerTop__6628b {top: -45px;}
+/* Avatar */
+.topSection_dfb73b .avatar__445f3 {top: -140px;}
+/* Username & Discord username next to avatar */
+.container_b6b15b > div:first-child {
+  position: fixed;
+  top: 75px;
+  left: 160px;
+  z-index: 100;
+  width: 35%;
+  text-shadow: 1px 1px #000;
+}
+/* ===> Bottom Part <=== */
+/* == More Results <= */
+.userProfileModalInner__7c87d .body_ea740e {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+/* Removes borders + Items */
+.tabBarContainer__63f55 {border-bottom-width: 0px;}
+.top__592a7 .item__48dda {border-bottom-width: 0px; text-align: center; background: var(--background-primary);}
+.top__592a7 .item__48dda.selected__5711d {background: rgba(var(--accent), 0.1) !important;}
+/* bottom part fixes */
+.infoScroller__6ec79.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0,
+.listScroller__92e1a.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0 {grid-column-start: 1; grid-column-end: -1; padding: 0 12px !important;}
+.userProfileModalInner__7c87d .listRow__60937 {margin-left: 0px;}
+/* Connections */
+.userInfoSection__1daf8+.userInfoSection__1daf8 {
+  padding-top: 12px;
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px;
+  border-color: transparent;
+  margin-top: -12px !important;
+}
+.userInfoSection__1daf8 {padding: 0px 0px 12px 0;} /* Works with -12px above */
+.connectedAccountsColumn_fd2c41 {width: 100%; gap: 4px 0px;}
+.connectedAccountsColumn_fd2c41+.connectedAccountsColumn_fd2c41 {margin-left: 0px;}
+.connectedAccountContainer__23f00 {margin-top: 0px; border-color: var(--border-color); background: var(--background-primary);}
+/* User info, Mutual Servers, etc */
+.tabBar__35f81 {
+  gap: 2px;
+  flex-direction: column;
+}
+/* Discord member since, notes, etc colour and positions */
+.userProfileModalInner__7c87d .userInfoSectionHeader__31b66 {text-align: center; background: var(--popout-title); margin-bottom: 0px;}
+.userProfileModalInner__7c87d .memberSinceContainer__0a28b, .userInfoText__5f822 {background: var(--popout-background-main); margin-bottom: 6px;}
+.note__7a4f4 {background: var(--popout-background-main); margin: 0px;}
+
 
 /* =================> Discovery section <================= */
 .categoryPill-1zjNrr, .splashContainer__5cb35, .popout-1KHNAq, .new__5e6ab, .headerImage-2D5D-v {border-radius: var(--server-radius) !important;}
