@@ -802,6 +802,15 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 .userProfileModalInner__7c87d .memberSinceContainer__0a28b, .userInfoText__5f822 {background: var(--popout-background-main); margin-bottom: 6px;}
 .note__7a4f4 {background: var(--popout-background-main); margin: 0px;}
 
+/* ==============================================> User panel profile when in DMs <============================================== */
+[class*="userPanelOverlayBackground"] {padding: 0px; background: transparent;}
+[class*="userPanelOverlayBackground"] .section__6f61e:last-child {padding-top: 0px;}
+[class*="userPanelOverlayBackground"] :where(.memberSinceContainer__0a28b, .lineClamp2Plus_d4306b, .textarea_c5a7a3) {background: var(--popout-background-main);}
+[class*="userPanelOverlayBackground"] .divider__2bbbc {display: none;}
+/* Mutual friends and server */
+[class*="userPanelOverlayBackground"] .collapseBtn_f82249 {background: var(--background-primary)}
+.userPanelInner_eddf4c:has([class*="userPanelOverlayBackground"]) .mutualFriendsDivider_c21dfe {border-color: var(--border-color);}
+.userPanelInner_eddf4c:has([class*="userPanelOverlayBackground"]) .connectionList_b09a10 {background: var(--background-tertiary); margin: 0px;}
 
 /* =================> Discovery section <================= */
 .categoryPill-1zjNrr, .splashContainer__5cb35, .popout-1KHNAq, .new__5e6ab, .headerImage-2D5D-v {border-radius: var(--server-radius) !important;}
