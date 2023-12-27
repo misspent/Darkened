@@ -444,7 +444,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 .hljs.scrollbar_d66c5e {
   background-color: var(--background-secondary) !important;
   border: 1px solid var(--border-color) !important;
-  border-radius: var(--avatar-radius);
+  margin: 0px;
 }
 .newMosaicStyle__8d3be .textContainer__709ff, .newMosaicStyle__8d3be .footer__06f4b {
   border-radius: 0px;
