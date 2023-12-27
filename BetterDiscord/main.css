@@ -3797,6 +3797,6 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 
 /* Connections plugin | Vencord */
 h2.defaultColor__77578.eyebrow_f53856 {background: var(--popout-title); text-align: center; justify-content: center; margin-bottom: 0px;}
-.section__6f61e > div:has(.vc-user-connection) {background: var(--popout-background-main); margin-top: 0px !important; gap: 2px !important; height: 32px !important;}
+.section__6f61e > div:has(.vc-user-connection) {background: var(--popout-background-main); margin-top: 0px !important; gap: 2px !important;}
 
 /* ============================================> Vencord | End <============================================ */
