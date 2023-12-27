@@ -804,7 +804,6 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 
 /* ==============================================> User panel profile when in DMs <============================================== */
 [class*="userPanelOverlayBackground"] {padding: 0px; background: transparent;}
-[class*="userPanelOverlayBackground"] .section__6f61e:last-child {padding-top: 0px;}
 [class*="userPanelOverlayBackground"] :where(.memberSinceContainer__0a28b, .lineClamp2Plus_d4306b, .textarea_c5a7a3) {background: var(--popout-background-main);}
 [class*="userPanelOverlayBackground"] .divider__2bbbc {display: none;}
 /* Mutual friends and server */
