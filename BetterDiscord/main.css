@@ -2100,13 +2100,16 @@ svg.slider__41d94 rect {rx: 0;}
 .muteText_dc1e9a {
   color: rgb(166, 35, 35) !important;
   margin-top: 3px;
+  padding-left: 18px;
   margin-left: 1.5px;
   background: url('https://svgshare.com/i/WEo.svg') no-repeat;
   background-size: 23px;
 }
+/* Only works on better discord?
 .muteText_dc1e9a::before {
   content: "‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎  ‎‏‏‎ ‎‏‏‏‏‎ ‎‎‏‏‎ ‎";
 }
+*/
 
 /* Searching buttons when you search up something "New" "Old" "Relevant" & Active button radius */
 #app-mount > div.app_b1f720 > div > div.layers_a40797.layers__12c9f > div > div > div > div > div.chat__52833 > div.content__1a4fe > section > header > div.searchHeaderTabList__78b98.side-2ur1Qk > div.item-3XjbnG.selected-g-kMVV.themed-2-lozF {background-color: var(--brand-experiment-500);}
