@@ -2105,6 +2105,7 @@ svg.slider__41d94 rect {rx: 0;}
   background: url('https://svgshare.com/i/WEo.svg') no-repeat;
   background-size: 23px;
 }
+.muteText_dc1e9a::before {display: none !important;}
 /* Only works on better discord?
 .muteText_dc1e9a::before {
   content: "‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎  ‎‏‏‎ ‎‏‏‏‏‎ ‎‎‏‏‎ ‎";
