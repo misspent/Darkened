@@ -3793,7 +3793,7 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 
 /* Vencord Translate message in chat | Styled it and made it stand out more */
 .vc-trans-accessory {background: var(--background-tertiary); margin-top: 0px; padding: 2px 4px; border: 1px solid var(--border-color)}
-[aria-label="Message Actions"] svg.vc-trans-icon {color: #aa03f8e7;}
+[aria-label="Message Actions"] svg.vc-trans-icon {color: #aa03f8e7 !important;}
 .vc-trans-accessory span {color: #ccc;}
 
 /* Staff Tag plugin (Admin, Staff, etc) | Does not apply to bot tags */
