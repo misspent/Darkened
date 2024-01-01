@@ -7,7 +7,7 @@
 
 /* Makes border-radius variables completely redundant... Square Everything always */
 *, :before, :after, foreignObject {border-radius: 0px !important;}
-* foreignObject {mask: none !important;}
+* foreignObject, * {mask: none !important; -webkit-mask: none !important;}
 
 
 /* Context menu icons when right clicking a message (removes the icons on the right)  */
