@@ -24,11 +24,13 @@
 .item-1OdjEX:not(#message-quote, #user-context-invite-to-server, #user-context-roles, #user-context-imageutilities-main-subitem, #message-favoriteMedia, #message-imageutilities-download-file-as, #thread-context-editchannels-settings-submenu, #thread-context-edit-tags, #message-favoriteMediaMenu, [id*="message-add-reaction"], [id*="thread-context-editchannels-settings-submenu"],, [id*="message-favoriteMediaMenu--category"], [id*="thread-context-edit-tags"], [id*="user-context-roles-"], [id*="channel-context-"], [id*="guild-context-"], [id*="account"], [id*="user-context-imageutilities"]):not(#message-apps) > .iconContainer-1-SsTR {display: none;}
 div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} /* Channel tabs delete button colour... cba to do the rest */
 /* ====> Fix Personal User Status - Thx: Master Luke#0722 <==== */
-#account > div > div:nth-child(1) > div:nth-child(1) > div.theme-dark.layer_ec16dd {
-  left: 284px !important;
-}
+#account > div > div:nth-child(1) > div:nth-child(1) > div.theme-dark.layer_ec16dd {left: 284px !important;}
 /* Removes Discord logo from direct messages */
 .wrapper_d281dd .childWrapper__01b9c svg {display: none;}
+
+/* Guide page background */
+.background_cb0a80 {background-color: var(--Emoji-Menu);}
+
 /*
 ====================================================================================
                   Container, pills, groups
@@ -674,7 +676,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
   margin-left: 0;
 }
 :root .role__631a3 .roleCircle-3K9O3d::before, :root .sidebar_bdf6b7 .list__41249 .item-3XjbnG .roleCircle-3K9O3d::before,
-:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::before, :root .roleRow-3HnunM .roleCircle-3K9O3d::before, .roleCircle_bae511:before {
+:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::before, :root .roleRow-3HnunM .roleCircle-3K9O3d::before {
   content: "";
   position: absolute;
   top: 0;
