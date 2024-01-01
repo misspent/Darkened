@@ -701,6 +701,30 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
   z-index: -1;
   pointer-events: none;
 }
+.userPopoutInner_f545a3 .roleCircle_bae511:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: 0.2;
+  z-index: -1;
+  pointer-events: none;
+}
+.userPopoutInner_f545a3 .roleCircle_bae511:after { /* Width of bar on the left */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: inherit;
+  opacity: 0.6;
+  z-index: -1;
+  pointer-events: none;
+}
 :root .roleRemoveButton__737f2 {
   position: unset;
 }
@@ -812,6 +836,9 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 [class*="userPanelOverlayBackground"] .collapseBtn_f82249 {background: var(--background-primary)}
 .userPanelInner_eddf4c:has([class*="userPanelOverlayBackground"]) .mutualFriendsDivider_c21dfe {border-color: var(--border-color);}
 .userPanelInner_eddf4c:has([class*="userPanelOverlayBackground"]) .connectionList_b09a10 {background: var(--background-tertiary); margin: 0px;}
+
+/* ==============> Channels & Role channel <============== */
+.theme-dark .container__10dc7, .theme-dark .header__60bef, .theme-dark .scrollerContainer_bf5dbd, .theme-dark .emptyPage__3e15d {background-color: var(--Emoji-Menu);}
 
 /* =================> Discovery section <================= */
 .categoryPill-1zjNrr, .splashContainer__5cb35, .popout-1KHNAq, .new__5e6ab, .headerImage-2D5D-v {border-radius: var(--server-radius) !important;}
