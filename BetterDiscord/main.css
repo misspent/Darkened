@@ -3845,7 +3845,7 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 .botTagRegular_c89c9a:not([data-tag="bot"]) {background: rgba(156, 89, 182, 0.815);}
 
 /* Connections plugin | Vencord */
-h2.defaultColor__77578.eyebrow_f53856 {background: var(--popout-title); text-align: center; justify-content: center; margin-bottom: 0px;}
+h2.defaultColor__77578.eyebrow_f53856 {background: var(--popout-title); text-align: center; justify-content: center; margin-bottom: 0px; color: var(--header-secondary);}
 .section__6f61e > div:has(.vc-user-connection) {background: var(--popout-background-main); margin-top: 0px !important; gap: 2px !important;}
 
 
