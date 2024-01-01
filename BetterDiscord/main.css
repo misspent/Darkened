@@ -3813,6 +3813,22 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 .root_a28985 .vc-m-bottom-16 > div {padding: 0px 8px 8px 8px; margin-bottom: 0px !important;}
 
 
+
+/* =====> Preview message link plugin looks better | Vencord plugin <===== */
+.messageListItem__6a4fb:has(.channelMention) .embedFull__8dc21:has(.grid_c7c4e6) {background: transparent !important; border-left: transparent;}
+.messageListItem__6a4fb:has(.channelMention) .embedAuthor_cb4bfc {background: var(--background-tertiary);justify-content: center; margin-top: 0px;}
+.messageListItem__6a4fb:has(.channelMention) .embedDescription__33443 {background: var(--background-secondary); margin-top: 0px; padding: 0px 6px 8px 6px}
+.messageListItem__6a4fb:has(.channelMention) .embedDescription__33443 .message_d8db25 {padding: 0px;}
+.messageListItem__6a4fb:has(.channelMention) .embedDescription__33443 .avatar__08316 + h3 {margin-bottom: 0px;}
+/* Width, attachment & reactions */
+.messageListItem__6a4fb:has(.channelMention) .gridContainer_de8cdc {max-width: 654px;}
+.messageListItem__6a4fb:has(.channelMention) .attachment_f3cf2c {background: var(--background-primary) !important;}
+.messageListItem__6a4fb:has(.channelMention) .reactionInner__4135b {background: var(--background-tertiary);}
+/* Full preview will only show when you hover over it 
+.messageListItem__6a4fb:has(.channelMention) .grid_c7c4e6:not(:hover) .embedDescription__33443 {display: none;} */
+
+
+
 /* ===============> Plugins section <=============== */
 .vc-plugins-grid {
   grid-gap: 8px;
@@ -3831,5 +3847,6 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 /* Connections plugin | Vencord */
 h2.defaultColor__77578.eyebrow_f53856 {background: var(--popout-title); text-align: center; justify-content: center; margin-bottom: 0px;}
 .section__6f61e > div:has(.vc-user-connection) {background: var(--popout-background-main); margin-top: 0px !important; gap: 2px !important;}
+
 
 /* ============================================> Vencord | End <============================================ */
