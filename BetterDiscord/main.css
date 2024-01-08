@@ -3820,6 +3820,7 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 .messageListItem__6a4fb:has(.channelMention) .embedDescription__33443 {background: var(--background-secondary); margin-top: 0px; padding: 0px 6px 8px 6px}
 .messageListItem__6a4fb:has(.channelMention) .embedDescription__33443 .message_d8db25 {padding: 0px;}
 .messageListItem__6a4fb:has(.channelMention) .embedDescription__33443 .avatar__08316 + h3 {margin-bottom: 0px;}
+.messageListItem__6a4fb:has(.channelMention) .markup_a7e664 h3 {margin: 8px 0 8px;}
 /* Width, attachment & reactions */
 .messageListItem__6a4fb:has(.channelMention) .gridContainer_de8cdc {max-width: 654px;}
 .messageListItem__6a4fb:has(.channelMention) .attachment_f3cf2c {background: var(--background-primary) !important;}
