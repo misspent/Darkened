@@ -3843,7 +3843,7 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 .vc-trans-accessory span {color: #ccc;}
 
 /* Staff Tag plugin (Admin, Staff, etc) | Does not apply to bot tags */
-.botTagRegular_c89c9a:not([data-tag="bot"]) {background: rgba(156, 89, 182, 0.815);}
+.botTagRegular_c89c9a:not([data-tag="bot"]) {background: #ff1e1e99}
 
 /* Connections plugin | Vencord */
 h2.defaultColor__77578.eyebrow_f53856 {background: var(--popout-title); text-align: center; justify-content: center; margin-bottom: 0px; color: var(--header-secondary);}
@@ -3851,3 +3851,28 @@ h2.defaultColor__77578.eyebrow_f53856 {background: var(--popout-title); text-ali
 
 
 /* ============================================> Vencord | End <============================================ */
+
+/* =========> Custom username | Same code from: https://nyri4.github.io/donators/donators.css | Nyria do be a wizard | repeating-linear-gradient(-45deg, #1ee9d5, #1ee2e9 20px, #1effff99 20px, #1eecff99 40px) !important; <========= */
+/* Username */
+.avatar__08316[src*="281376608038813696"] ~ h3 .username_d30d99,
+.avatar__6337f:has(.avatar__991e2[src*="281376608038813696"]) + .content_a6999d .username_d272d6,
+.avatarWrapper_f77579:has(.avatar__991e2[src*="281376608038813696"]) ~ div.overlayBackground__86b78 .userText__3e8b7 > h1,
+.topSection_dfb73b:has(.avatar__991e2[src*="281376608038813696"]) ~ div.overlayBackground__86b78 .container_b6b15b > div:not(.pronouns_be950a) > div {
+  color: transparent !important;
+  font-weight: bold;
+  background-size: 300%;
+  -webkit-background-clip: text;
+  animation: shine 10s linear infinite;
+  background-image: repeating-linear-gradient(-45deg, #e91e1e, #e91e1e 20px, #ff1e1e99 20px, #ff1e1e99 40px) !important;
+}
+/* Animations */
+@keyframes shine {
+  to {
+    background-position: 300% center;
+  }
+}
+@keyframes shine-reversed {
+  to {
+    background-position: -100% center;
+  }
+}
