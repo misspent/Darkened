@@ -3866,19 +3866,6 @@ h2.defaultColor__77578.eyebrow_f53856 {background: var(--popout-title); text-ali
   background-image: repeating-linear-gradient(-45deg, #e91e1e, #e91e1e 20px, #ff1e1e99 20px, #ff1e1e99 40px) !important;
 }
 
-/* Sodie */
-.avatar__08316[src*="594401278898077707"] ~ h3 .username_d30d99,
-.avatar__6337f:has(.avatar__991e2[src*="594401278898077707"]) + .content_a6999d .username_d272d6,
-.avatarWrapper_f77579:has(.avatar__991e2[src*="594401278898077707"]) ~ div.overlayBackground__86b78 .userText__3e8b7 > h1,
-.topSection_dfb73b:has(.avatar__991e2[src*="594401278898077707"]) ~ div.overlayBackground__86b78 .container_b6b15b > div:not(.pronouns_be950a) > div {
-  color: transparent !important;
-  font-weight: bold;
-  background-size: 300%;
-  -webkit-background-clip: text;
-  animation: shine 10s linear infinite;
-  background-image: repeating-linear-gradient(-45deg, #1ea9e9, #1ea9e9 20px, #1ea9e999 20px, #1ea9e999 40px) !important;
-}
-
 /* Animations */
 @keyframes shine {
   to {
