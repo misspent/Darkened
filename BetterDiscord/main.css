@@ -3833,7 +3833,11 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 /* Full preview will only show when you hover over it 
 .messageListItem__6a4fb:has(.channelMention) .grid_c7c4e6:not(:hover) .embedDescription__33443 {display: none;} */
 .messageListItem__6a4fb .grid_c7c4e6 {background: var(--background-secondary);}
-
+/* GitHub Webhooks bot messages look cleaner */
+.messageListItem__6a4fb:has([src*="https://cdn.discordapp.com/avatars/1029038590677766144/df91181b3f1cf0ef1592fbe18e0962d7.webp"]) .grid_c7c4e6 {padding: 0.5rem;}
+.messageListItem__6a4fb:has([src*="https://cdn.discordapp.com/avatars/1029038590677766144/df91181b3f1cf0ef1592fbe18e0962d7.webp"]) .markup_a7e664 h3 {background: #181818; text-align: center; margin: 0 -6px 0 -6px !important;}
+.messageListItem__6a4fb:has([src*="https://cdn.discordapp.com/avatars/1029038590677766144/df91181b3f1cf0ef1592fbe18e0962d7.webp"]) .embedDescription__33443 {background: #101010 !important; padding-top: 0px; margin-top: 10px; padding: 0 6px;}
+.messageListItem__6a4fb:has([src*="https://cdn.discordapp.com/avatars/1029038590677766144/df91181b3f1cf0ef1592fbe18e0962d7.webp"]) .markup_a7e664 :is(h3:first-child, h4:first-child, h5:first-child, h6:first-child) {margin-top: 0px;}
 
 
 /* ===============> Plugins section <=============== */
