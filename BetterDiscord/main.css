@@ -3828,7 +3828,7 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 .messageListItem__6a4fb:has(.channelMention) .reactionInner__4135b {background: var(--background-tertiary);}
 /* Bot messages/Users with tags (fixes bot messages) */
 .messageListItem__6a4fb:has([data-tag="webhook"]) .embedFull__8dc21:has(.grid_c7c4e6) {background: var(--background-secondary) !important; border-left: 3px solid currentColor; padding: 10px;}
-.messageListItem__6a4fb:has([data-tag="webhook"]) .embedDescription__33443 {background: var(--background-secondary); margin-top: 0px; padding: 10px 0px 0px 0px}
+.messageListItem__6a4fb:has([data-tag="webhook"]) .embedDescription__33443 {background: var(--background-secondary) !important; margin-top: 0px; padding: 10px 0px 0px 0px}
 .messageListItem__6a4fb:has([data-tag="webhook"]) .embedAuthor_cb4bfc {background: var(--background-secondary); justify-content: start; margin-top: 0px;}
 /* Full preview will only show when you hover over it 
 .messageListItem__6a4fb:has(.channelMention) .grid_c7c4e6:not(:hover) .embedDescription__33443 {display: none;} */
