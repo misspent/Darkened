@@ -1593,7 +1593,7 @@ body #app-mount .sidebarRegion__60457:has(.socialLinks_c1fc99) {flex-basis: calc
   place-self: center !important;
 }
 /* User Profile Text area ("About Me") */
-.textArea-3WXAeD, .markup_a7e664 {
+.textArea-3WXAeD {
   background-color: var(--popout-background-main) !important;
   border: 1px solid var(--border-color) !important;
   border-radius: 0px;
