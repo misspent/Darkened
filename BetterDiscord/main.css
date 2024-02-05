@@ -584,7 +584,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 .userProfileOuterThemed__6eb84.userPopoutOuter_d739b2, .userProfileOuterThemed__6eb84.userProfileOuter__46bb7 {padding: 0px;}
 .divider_ed0c1d {display: none;} /* Divider */
 /* Title and details backgrounds */
-.userPopoutInner_f545a3 .title_ef4a6d {
+.userPopoutInner_f545a3 .title_ef4a6d, .section__6f61e h2.defaultColor__37d78.eyebrow_f53856 {
   display: flex;
   justify-content: center;
   background: var(--popout-title);
