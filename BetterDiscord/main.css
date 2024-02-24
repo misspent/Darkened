@@ -21,7 +21,7 @@
 /* Friends section random bar at the top fix? annoying as fuck... */
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app_b1f720 > div > div.layers_a40797.layers__12c9f > div > div.container__037ed > div > div > div.sidebar_ded4b5 > nav > div.scroller__4b984.thin_b1c063.scrollerBase-_bVAAt.fade-1R6FHN > ul > div {margin-top: -8px !important;}
 /* Removes default icons and keep arrow icons on context icons | Will need to update this to support plugins + other stuff */
-.item-1OdjEX:not(#message-quote, #user-context-invite-to-server, #user-context-roles, #user-context-imageutilities-main-subitem, #message-favoriteMedia, #message-imageutilities-download-file-as, #thread-context-editchannels-settings-submenu, #thread-context-edit-tags, #message-favoriteMediaMenu, [id*="message-add-reaction"], [id*="thread-context-editchannels-settings-submenu"],, [id*="message-favoriteMediaMenu--category"], [id*="thread-context-edit-tags"], [id*="user-context-roles-"], [id*="channel-context-"], [id*="guild-context-"], [id*="account"], [id*="user-context-imageutilities"]):not(#message-apps) > .iconContainer-1-SsTR {display: none;}
+.item-1OdjEX:not(#message-quote, #user-context-invite-to-server, #user-context-roles, #user-context-imageutilities-main-subitem, #message-favoriteMedia, #message-imageutilities-download-file-as, #thread-context-editchannels-settings-submenu, #thread-context-edit-tags, #message-favoriteMediaMenu, [id*="message-add-reaction"], [id*="thread-context-editchannels-settings-submenu"], [id*="message-favoriteMediaMenu--category"], [id*="thread-context-edit-tags"], [id*="user-context-roles-"], [id*="channel-context-"], [id*="guild-context-"], [id*="account"], [id*="user-context-imageutilities"]):not(#message-apps) > .iconContainer-1-SsTR {display: none;}
 div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} /* Channel tabs delete button colour... cba to do the rest */
 /* ====> Fix Personal User Status - Thx: Master Luke#0722 <==== */
 #account > div > div:nth-child(1) > div:nth-child(1) > div.theme-dark.layer_ec16dd {left: 284px !important;}
@@ -804,7 +804,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 .top__592a7 .item__48dda.selected__5711d {background: rgba(var(--accent), 0.1) !important;}
 /* bottom part fixes */
 .infoScroller__6ec79.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0,
-.listScroller__92e1a.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0 {grid-column-start: 1; grid-column-end: -1; padding: 0 12px !important;}
+.userProfileModalInner__7c87d .body_ea740e .infoScroller__6ec79 {grid-column-start: 1; grid-column-end: -1; padding: 0 12px !important;}
 .userProfileModalInner__7c87d .listRow__60937 {margin-left: 0px;}
 /* Connections */
 .userInfoSection__1daf8+.userInfoSection__1daf8 {
@@ -1232,7 +1232,7 @@ div#---new-messages-bar {
 /* Plugin = "AppNotifications" makes the notification look 20x better */
 .qwert-toast {
   border-radius: var(--server-radius) !important;
-  color: white !important !important;
+  color: white !important;
   border: 1px solid var(--border-color) !important;
   background: var(--background-secondary) !important;
   padding: 4px !important;
@@ -2739,7 +2739,7 @@ li.containerDefault__3187b:hover .unread__48cf4 {background-color: rgba(var(--ac
 .sidebar_ded4b5 .wrapper__7bcde .unread__48cf4 {
   background-color: #777777;
   border-radius: 0px;
-  height: -webkit-fill-available;
+  height: 100%;
   width: 2px;
   left: 0px;
   top: 0px;
