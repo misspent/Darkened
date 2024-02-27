@@ -28,6 +28,9 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 /* Removes Discord logo from direct messages */
 .wrapper_d281dd .childWrapper__01b9c svg {display: none;}
 
+/* Manager & Admin tags from the plugin */
+.rem__931aa.botTag__4211a {margin-top: 1px !important;}
+
 /* Guide page background */
 .background_cb0a80 {background-color: var(--Emoji-Menu);}
 
