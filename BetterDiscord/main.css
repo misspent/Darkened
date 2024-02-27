@@ -28,9 +28,6 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 /* Removes Discord logo from direct messages */
 .wrapper_d281dd .childWrapper__01b9c svg {display: none;}
 
-/* Manager & Admin tags from the plugin */
-.rem__931aa.botTag__4211a {margin-top: 1px !important;}
-
 /* Guide page background */
 .background_cb0a80 {background-color: var(--Emoji-Menu);}
 
@@ -1274,7 +1271,7 @@ div#---new-messages-bar {
 #status-picker .submenuContainer-3EVTeH { grid-column: 1/5;}
 
 /* Owner/Admin/Mod Tag in replies | Fixed the positioning */
-.cozy_f5c119 .repliedMessage_e2bf4a .rem__931aa.botTag__4211a {margin-bottom: 1px !important; padding-top: 1px;}
+.rem__931aa.botTag__4211a {margin-top: 1px !important;}
 
 /* Radial Status Import | Mobile */
 #app-mount .wrapper_edb6e0 foreignObject[mask*=mobile]:after {right: 1px !important;}
@@ -1447,9 +1444,6 @@ div.BetterInvites-iconWrapper > div > img {border-radius: var(--avatar-radius) !
   margin: 0px;
   align-items: center;
 }
-
-/* StaffTag Plugin (Position of it DELETE if it's off) */
-.rem__931aa.botTag__4211a {margin-top: .5em !important;}
 
 /* Keyword Matches popup when clicking button on toolbar */
 .kt-inbox-entry > .timestamp {color: var(--rs-online-color) !important;}
