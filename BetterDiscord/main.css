@@ -30,6 +30,9 @@ div#undefined-closeMenu .label-2gNW3x {color: var(--button-danger-background);} 
 
 /* Guide page background */
 .background_cb0a80 {background-color: var(--Emoji-Menu);}
+/* Remove: Unlock with nitro */
+.premiumEmoji__2dbd7, .nitroTopDividerContainer__4c8fd, .premiumHeader_f78f97 {display: none !important;}
+
 
 /*
 ====================================================================================
