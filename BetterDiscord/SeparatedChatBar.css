@@ -1,22 +1,22 @@
 /* I grabbed this from: https://github.com/discord-extensions/bubble-bar, tweaked it a little, and made my Import from it; thank you, LuckFire. */
-.base__3e6af .channelTextArea_af1f8b, .base__3e6af .channelTextArea__2e60f, .base__3e6af .scrollableContainer__33e06 {
+.base_c0676e .channelTextArea__626ee, .base_c0676e .channelTextArea_c2094b, .base_c0676e .scrollableContainer_ff917f {
   background-color: transparent;
 }
-.base__3e6af .channelTextArea__2e60f .inner__9fd0b .textArea__74543 {
+.base_c0676e .channelTextArea_c2094b .inner__9fd0b .textArea_a86690 {
   margin-right: 3px;
   border-radius: var(--server-radius);
   background-color: var(--channeltextarea-background);
 }
-.base__3e6af .channelTextArea__2e60f .inner__9fd0b .textArea__74543 .fontSize16Padding__48818 {
+.base_c0676e .channelTextArea_c2094b .inner__9fd0b .textArea_a86690 .fontSize16Padding_bcbeae {
   left: 8px;
   padding-left: 0;
 }
-.base__3e6af .channelTextArea__2e60f .inner__9fd0b .textArea__74543 .slateTextArea__0661c {
+.base_c0676e .channelTextArea_c2094b .inner__9fd0b .textArea_a86690 .slateTextArea_b19976 {
   margin-right: 0px;
   caret-color: #ccc;
   border-radius: var(--server-radius);
 }
-.base__3e6af .channelTextArea__2e60f .inner__9fd0b .button_afdfd9 {
+.base_c0676e .channelTextArea_c2094b .inner__9fd0b .button__581d0 {
   width: 38px;
   height: 44px;
   padding-right: 0px;
@@ -25,19 +25,19 @@
   border-radius: var(--server-radius);
   background-color: var(--channeltextarea-background);
 }
-button.attachButton_b1db83.attachButton_eba568.button_afdfd9.lookBlank__7ca0a.colorBrand_b2253e.grow__4c8a4 {
+button.attachButton__56f98.attachButton__5f6dc.button__581d0.lookBlank_a5b4ca.colorBrand__27d57.grow__4c8a4 {
   background-color: var(--channeltextarea-background);
   margin-right: 3px !important;
 }
-.button__55e53 {margin-right: 0px !important;} .buttons_ce5b56 {padding-right: 0px !important;}
-.buttons_ce5b56 {background-color: var(--channeltextarea-background);}
-.sansAttachButton__996a4 {padding-left: 6px;}
-.attachButton_b1db83 {padding: 8px;}
-.base__3e6af .channelTextArea__2e60f .inner__9fd0b { /* Right button bar | Check this when you have access to dev tools OR completely remake this whole snippet now you know what you're doing with css */
+.button__493d9 {margin-right: 0px !important;} .buttons__7ecff {padding-right: 0px !important;}
+.buttons__7ecff {background-color: var(--channeltextarea-background);}
+.sansAttachButton__5f863 {padding-left: 6px;}
+.attachButton__56f98 {padding: 8px;}
+.base_c0676e .channelTextArea_c2094b .inner__9fd0b { /* Right button bar | Check this when you have access to dev tools OR completely remake this whole snippet now you know what you're doing with css */
   margin-right: 12px !important;
 }
 /* Change after 17/10/23 */
-.channelTextArea__2e60f {margin-bottom: 6px;}
-.form__13a2c {padding: 0px; margin-top: 0px;}
+.channelTextArea_c2094b {margin-bottom: 6px;}
+.form_d8a4a1 {padding: 0px; margin-top: 0px;}
 /* Edit message input box */
-.channelTextArea_af1f8b .editor__66464 {background: var(--channeltextarea-background);}
+.channelTextArea__626ee .editor__66464 {background: var(--channeltextarea-background);}
