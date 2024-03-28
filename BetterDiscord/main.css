@@ -2313,14 +2313,15 @@ aside [class^="membersGroup"],
 /* "Read All" container makes it look cleaner */
 .frame-oXWS21 {margin-bottom: 0px;}
 /* Read All button from plugin */
-button.button__581d0.lookFilled__950dd.colorBrand__27d57.sizeMin__508da.grow__4c8a4 {
+button.vc-ranb-button {
   margin: 0px !important;
   background: var(--background-secondary);
   position: absolute;
   bottom: 2px;
   left: 2px;
   border-right: 1px solid transparent;
-  color: #ccc
+  color: #ccc;
+  font-size: 12px;
 }
 
 /* Folders container */
