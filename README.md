@@ -243,12 +243,10 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
   <summary align="center">⌛ Write-up</summary>
   <br>
 
-> ========================================================================  
-**This is my first discord theme. I’m still "new" to all this CSS stuff; I only jumped into it late 2021 and have slowly been updating my theme over the past few months. I gradually got more comfortable with CSS and updated + fixed my theme for public use/testing. Nyria's themes gave me a lot of inspiration, and you'll 100% see what I mean if you use this.**  
-========================================================================  
+> =======================================================================  
 > **The people in the screenshots are not me, and I've blurred stuff as I don't want friends to get spammed and or added. moreover, I'd prefer it if people didn't know what server(s) I'm in for obvious reasons, and I'm a relatively private person cause I am clapped.**  
-========================================================================  
+=======================================================================  
 > **I'll update this as often as I can; however, I do not use the canary version of discord, nor am I some mastermind that can instantly fix/add stuff, so the updates may take a while to push if they change containers etc. on that note, I hope you enjoy the theme, and if you encounter any issues, bugs or want me to attempt to add support for a plugin you use, please tell me. Trying to learn basic CSS to the best of my ability.**  
-========================================================================  
+=======================================================================  
 
 </details>
