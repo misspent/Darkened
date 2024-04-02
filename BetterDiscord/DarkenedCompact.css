@@ -41,6 +41,7 @@
   max-width: 240px;
   transition: .3s ease;
 }
+.member_aa4760 {max-width: 100%;}
 /* Work together */
 .membersWrap__5ca6b:not(:hover) [class^="membersGroup"] {
   padding: var(--Member-List-Toggle-2);
