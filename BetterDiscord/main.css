@@ -3075,6 +3075,7 @@ li.containerDefault_ae2ea4:hover .unread__48cf4 {background-color: rgba(var(--ac
   overflow: auto;
   padding: 8px 8px 0px 8px !important;
 }
+.tabBarItem_ce14f3 {height: 22px;}
 /* Colours? */
 .root-2uUafN .userProfileInnerThemedWithBanner-2624Yx, .userProfileInnerThemedNonPremium-1gT-zY, .userProfileInnerThemedPremiumWithoutBanner-1yMS1H {background: var(--background-secondary) !important;}
 .root-2uUafN .userProfileInner-3F03PX:before, .userProfileInner-3F03PX:before {background-color: transparent;} /* Bye Gradient for light theme */
