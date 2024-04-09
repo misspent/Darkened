@@ -606,6 +606,17 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 .note__7a4f4 textarea:focus {background: transparent;}
 .connections-pPr4as {background: var(--popout-background-main); padding: 3px; padding-left: 5px;}
 .connection_9Gh4sa {margin: 4px 7px 6px 0;}
+/* Mutuals (servers) in profile popout */
+.profileMutuals__95dc2 {gap: 0px;}
+.profileMutuals__95dc2 h2 {
+  display: flex;
+  justify-content: center;
+  background: var(--popout-title);
+  margin-bottom: 0px;
+  width: 100%;
+}
+.profileMutuals__95dc2 .compactItemContainer__55b3e {width: 100%; background: var(--popout-background-main);}
+.avatarAndTextContainer_feb963 {justify-content: center;}
 /* Message Input container */
 .messageInputContainer_a93946 {border-color: transparent; background: var(--background-primary);}
 /* Input box (message) */
