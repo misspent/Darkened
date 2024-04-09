@@ -129,6 +129,7 @@
 .messageContainer_cb3d47 .cozy_f5c119.wrapper_a62503 {padding-left: 10px;}
 .messageGroupWrapper__1fce2 .messageGroupCozy__9d016 {margin-left: 6px;}
 .cozy_f5c119.wrapper_a62503 {padding-left: 58px;} /* Fixes moving main container when uploading something */
+.messageGroupWrapper__1fce2 .messageGroupCozy__9d016 {padding-top: 8px;}
 /* Replied Message container */
 .theme-dark .repliedMessage__636d2 {padding: 0.2em 0.4em; margin-bottom: 4px; left: 34px; background: var(--channeltextarea-background);}
 .theme-dark .repliedMessage__636d2:hover {padding: 0.2em 0.4em; margin-bottom: 4px;}
