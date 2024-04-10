@@ -615,8 +615,8 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
   margin-bottom: 0px;
   width: 100%;
 }
-.profileMutuals__95dc2 .compactItemContainer__55b3e {width: 100%; background: var(--popout-background-main);}
-.avatarAndTextContainer_feb963 {justify-content: center;}
+.profileMutuals__95dc2 .serverContainer__93bca {flex: none;}
+.profileMutuals__95dc2 .compactItemContainer__55b3e {width: 100%; background: var(--popout-background-main); justify-content: center;}
 /* Message Input container */
 .messageInputContainer_a93946 {border-color: transparent; background: var(--background-primary);}
 /* Input box (message) */
