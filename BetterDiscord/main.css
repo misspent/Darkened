@@ -581,7 +581,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 /* Backgrounds and margin of main stuff */
 .profileBadges__1f2ab, .role_d81130 {border-radius: var(--server-radius);}
 [class*="userProfileInnerThemedWithBanner"], [class*="userProfileInnerThemedPremiumWithoutBanner"], [class*="userProfileInnerThemedNonPremium"], .userPopoutInner_e90432:before, .userProfileInner__61cc1:before {background: var(--background-secondary) !important;}
-.userPopoutOuter__3884e {box-shadow: none; min-width: 300px; max-width: 300px;}
+.userPopoutOuter__3884e, .userPopoutOuter_d67f56 {box-shadow: none; min-width: 300px; max-width: 300px;}
 .userPopoutOverlayBackground_bf6444 {margin: 8px 0px 0px; background: var(--background-secondary);} .scroller_f9a667 {padding: 0 12px !important;}
 .userPopoutOverlayBackground_bf6444 .divider__126d2, .userPopoutOverlayBackground_bf6444 .divider_f0c60d {display: none;}
 .userProfileOuterThemed__1fbd7.userPopoutOuter__3884e, .userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {padding: 0px;}
@@ -787,7 +787,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 /* ============================================> Profile Modal Pop-up <============================================ */
 /* Height fix for whole modal + Popup container itself */
 .body_bd4552 {flex: 0 1 auto;}
-.userProfileModalInner__99b1e .overlayBackground__2666e {background: var(--background-secondary); margin: 0px;}
+.userProfileModalInner__99b1e .overlayBackground__2666e, .overlayBackground__345c9, .overlayBackground__345c9 {background: var(--background-secondary); margin: 0px;}
 /* ===> Top Part <=== */
 /* Top section of profile modal */
 .topSection__2d8b8 {margin-bottom: 0px;}
