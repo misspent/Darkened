@@ -782,12 +782,17 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 .headerTop-3GPUSF {margin-top: 10px;}
 .focused-qp-W9B, .item-1BCeuB:hover:not(.disabled-Mmpvl7) {background-color: var(--background-modifier-hover) !important;} /* When you click the "+" to add roles | Hover colour */
 /* =======> New Style <======= */
-.userPopoutInner_e90432 .avatarWrapper__0cd44 {left: 12px;} /* Avatar */
+.userPopoutInner_e90432 .avatarWrapper__0cd44, .avatarPositionNormal_ba6daa {left: 12px;} /* Avatar */
 
 /* ============================================> Profile Modal Pop-up <============================================ */
 /* Height fix for whole modal + Popup container itself */
 .body_bd4552 {flex: 0 1 auto;}
-.userProfileModalInner__99b1e .overlayBackground__2666e, .overlayBackground__345c9, .overlayBackground__345c9 {background: var(--background-secondary); margin: 0px;}
+.userProfileModalInner__99b1e .overlayBackground__2666e, .overlayBackground__345c9, .overlayBackground__345c9 {
+  background: var(--background-secondary);
+  margin: 12px 0px 0px 0px;
+}
+[class*="userProfileOuterThemed_"] {background: var(--background-secondary) !important; padding: 0 !important;}
+[class*="userProfileInner_"]:before {background: var(--background-secondary) !important;}
 /* ===> Top Part <=== */
 /* Top section of profile modal */
 .topSection__2d8b8 {margin-bottom: 0px;}
