@@ -666,7 +666,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 }
 /* =======> Roles | I got this from the Couve theme! <======= */
 .roles__74a2b {gap: 3px; padding: 3px; margin-top: 0px;}
-.roles-3zC7MX {
+.roles-3zC7MX, .roles__74a2b {
   display: grid;
   grid-template-columns: repeat(var(--roleslist-columns), minmax(0, 1fr));
   background: var(--background-tertiary);
@@ -679,7 +679,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
   bottom: 2px;
   color: hsl(210deg, calc(var(--saturation-factor, 1) * 2.9%), 86.7%);
 }
-:root .role_d81130, :root .sidebar__37984 .list__41249 .item-3XjbnG, :root .container-2O1UgZ .item-1BCeuB, :root .roleRow-3HnunM {
+:root .role_d81130, :root .sidebar__37984 .list__41249 .item-3XjbnG, :root .container-2O1UgZ .item-1BCeuB, :root .roleRow-3HnunM, .role_d81130 {
   position: relative;
   overflow: hidden;
   height: unset;
@@ -691,7 +691,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
   margin-left: 0;
 }
 :root .role_d81130 .roleCircle-3K9O3d::before, :root .sidebar__37984 .list__41249 .item-3XjbnG .roleCircle-3K9O3d::before,
-:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::before, :root .roleRow-3HnunM .roleCircle-3K9O3d::before {
+:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::before, :root .roleRow-3HnunM .roleCircle-3K9O3d::before, .roleCircle__61ad8:before {
   content: "";
   position: absolute;
   top: 0;
@@ -704,7 +704,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
   pointer-events: none;
 }
 :root .role_d81130 .roleCircle-3K9O3d::after, :root .sidebar__37984 .list__41249 .item-3XjbnG .roleCircle-3K9O3d::after,
-:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::after, :root .roleRow-3HnunM .roleCircle-3K9O3d::after { /* Width of bar on the left */
+:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::after, :root .roleRow-3HnunM .roleCircle-3K9O3d::after, .roleCircle__61ad8:after { /* Width of bar on the left */
   content: "";
   position: absolute;
   top: 0;
