@@ -850,7 +850,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 
 /* ==============================================> User panel profile when in DMs <============================================== */
 [class*="userPanelOverlayBackground"] {padding: 0px; background: transparent;}
-[class*="userPanelOverlayBackground"] :where(.memberSinceContainer__16630, .lineClamp2Plus_d4306b, .textarea__0461c) {background: var(--popout-background-main);}
+[class*="userPanelOverlayBackground"] :where(.memberSinceContainer__16630, .lineClamp2Plus_d4306b, .textarea__0461c), .memberSinceContainer__16630 {background: var(--popout-background-main) !important;}
 [class*="userPanelOverlayBackground"] .divider_d6f39c {display: none;}
 /* Mutual friends and server */
 [class*="userPanelOverlayBackground"] .collapseBtn__49a85 {background: var(--background-primary)}
