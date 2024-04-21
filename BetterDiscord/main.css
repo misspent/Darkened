@@ -624,17 +624,17 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 /* =======> Spotify Icon | Spotify buttons color on popout <======= */
 .activity-E0U09Y:hover .buttonColor-XIRMbp:hover {filter: brightness(110%); opacity: 1;}
 /* Listening to spotify background in popout */
-.activity-E0U09Y, div.activityUserPopoutV2__89098.activity__20c1e {background: #5865F24e;} .bodyAlignCenter__4a392.body__3620e.flex__9487d.alignCenter__9c6ed {padding: 8px;}
+.userPopoutInner_ac0960 .activityUserPopoutV2__89098.activity__88a5f {background: #5865F24e;} .bodyAlignCenter__4a392.body__3620e.flex__9487d.alignCenter__9c6ed {padding: 8px;}
 .assetsLargeMaskStreamPreview__6deed, .assetsLargeMaskUserPopout_b94781, .assetsLargeMaskUserPopoutV2_e54933, .assetsLargeMaskVoiceChannel_bf5e1b {-webkit-mask: none !important;}
-.activity__20c1e .platformIcon_a2d873 {
+.userPopoutInner_ac0960 img.platformIcon_a2d873 {
   width: -webkit-fill-available;
   height: -webkit-fill-available;
   background: #073317 !important;
   z-index: 0;
   padding-right: 100%;
 }
-.activityUserPopoutV2__89098.activity__20c1e div {z-index: 1 !important; position: relative;}
-.activityUserPopoutV2__89098 .headerContainer_b7a30f {background: rgba(0, 0, 0, 0.24);}
+.userPopoutInner_ac0960 .activityUserPopoutV2__89098.activity__88a5f div {z-index: 1 !important; position: relative;}
+.userPopoutInner_ac0960 .activityUserPopoutV2__89098.activity__88a5f h2 {background: transparent; width: 100%;}
 .timeBarUserPopoutV2__5d401.themed__857a7 {margin: 0px 8px; margin-top: 4px !important;}
 .activity__20c1e:has(button) .buttonsWrapper__77788 {margin: 10px 8px 0px 8px; padding-bottom: 8px;}   /* Buttons */
 .activity__20c1e .barInner__0f713 {background: #1DB954 !important; z-index: 1;} .bar_e63719 {background: var(--popout-title);}
