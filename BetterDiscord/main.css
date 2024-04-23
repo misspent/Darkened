@@ -818,7 +818,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
   gap: 8px;
 }
 /* Removes borders + Items */
-.tabBarContainer_b283be {border-bottom-width: 0px;}
+.tabBarContainer_b283be {border-bottom-width: 0px; margin: 10px 12px 10px;}
 .top_fae1fa .item__48dda {border-bottom-width: 0px; text-align: center; background: var(--background-primary);}
 .top_fae1fa .item__48dda.selected_a523ff {background: rgba(var(--accent), 0.1) !important;}
 /* bottom part fixes */
@@ -839,10 +839,13 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 .connectedAccountsColumn__57331+.connectedAccountsColumn__57331 {margin-left: 0px;}
 .connectedAccountContainer__5972d {margin-top: 0px; border-color: var(--border-color); background: var(--background-primary);}
 /* User info, Mutual Servers, etc */
-.tabBar__35f81 {
-  gap: 2px;
-  flex-direction: column;
+.tabBar__35f81[role="tablist"] {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  background: background: var(--background-modifier-hover);
 }
+
 /* Discord member since, notes, etc colour and positions */
 .userProfileModalInner__99b1e .userInfoSectionHeader_c9f1d3 {text-align: center; background: var(--popout-title); margin-bottom: 0px;}
 .userProfileModalInner__99b1e .memberSinceContainer__16630, .userInfoText_b87307 {background: var(--popout-background-main); margin-bottom: 6px;}
