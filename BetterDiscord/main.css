@@ -634,7 +634,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
   padding-right: 100%;
 }
 .userPopoutInner_ac0960 .activityUserPopoutV2__89098.activity__88a5f div {z-index: 1 !important; position: relative;}
-.userPopoutInner_ac0960 .activityUserPopoutV2__89098.activity__88a5f h2 {background: transparent; width: 100%;}
+.userPopoutInner_ac0960 .activityUserPopoutV2__89098.activity__88a5f h2 {background: rgba(0, 0, 0, 0.24); width: 100%;}
 .timeBarUserPopoutV2__5d401.themed__857a7 {margin: 0px 8px; margin-top: 4px !important;}
 .activity__20c1e:has(button) .buttonsWrapper__77788 {margin: 10px 8px 0px 8px; padding-bottom: 8px;}   /* Buttons */
 .activity__20c1e .barInner__0f713 {background: #1DB954 !important; z-index: 1;} .bar_e63719 {background: var(--popout-title);}
