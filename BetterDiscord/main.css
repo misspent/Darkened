@@ -849,7 +849,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 /* Discord member since, notes, etc colour and positions */
 .userProfileModalInner__99b1e .userInfoSectionHeader_c9f1d3 {text-align: center; background: var(--popout-title); margin-bottom: 0px;}
 .userProfileModalInner__99b1e .memberSinceContainer__16630, .userInfoText_b87307 {background: var(--popout-background-main); margin-bottom: 6px;}
-.userProfileModalInner__99b1e .memberSinceWrapper__03059 {background: var(--popout-background-main); justify-content: center;}
+.memberSinceWrapper__03059 {background: var(--popout-background-main); justify-content: center;}
 .note__7a4f4 {background: var(--popout-background-main); margin: 0px;}
 
 /* ==============================================> User panel profile when in DMs <============================================== */
