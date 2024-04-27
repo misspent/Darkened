@@ -551,10 +551,11 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
 .accountProfilePopoutWrapper_d4887f .section__62b44,
 .accountProfilePopoutWrapper_d4887f .separator__174fc {display: none;}
 /* Profile popup width, background and position */
-.accountProfilePopoutWrapper_d4887f .userPopoutOuter__3884e {
+.accountProfilePopoutWrapper_d4887f :has([id="account"]) {
   min-width: 218px;
   max-width: 218px;
   box-shadow: none;
+  margin-top: 0px !important;
 }
 .accountProfilePopoutWrapper_d4887f [id="account"] {
   background: var(--background-primary) !important;
@@ -564,6 +565,7 @@ section.panels__58331 {border-right: 1px solid var(--border-color);}
   position: relative;
   left: 5px;
 }
+.accountProfilePopoutWrapper_d4887f :has([id="account"]) .divider_f0c60d {display: none;} /* Bye bye divider */
 /* Status Picker when hovering over you name/pfp */
 .withTagAsButton_e22174:hover, .withTagless__058f8:hover {background: var(--background-primary);}
 /* Icon colours */
