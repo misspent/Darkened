@@ -24,7 +24,8 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 [data-list-id="people"]::-webkit-scrollbar,
 [class*="membersWrap_"] *::-webkit-scrollbar,
 [class*="chatContent_"] *::-webkit-scrollbar,
-[class*="standardSidebarView_"] *::-webkit-scrollbar {display: none;}
+[class*="standardSidebarView_"] *::-webkit-scrollbar,
+[class*="pageBody_"] [class*="browser_"]::-webkit-scrollbar {display: none;}
 
 
 
@@ -59,7 +60,7 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 [aria-label="Servers sidebar"]{width: var(--custom-list-items-list-item-width); background: var(--background-primary);}
 [data-list-id="guildsnav"] [class*="guildSeparator_"] {display: none;}
 .platform-win .scroller_fea3ef {padding-top: var(--main-padding);}
-[class*="listItem_"]:first-child {margin-bottom: 0;} /* Direct message/home */
+[class*="tutorialContainer_"] [class*="listItem_"]:first-child {margin-bottom: 0;} /* Direct message/home */
 /* "Read All" container makes it look cleaner */
 .frame-oXWS21 {margin-bottom: 0px;}
 /* Read All button from plugin */
@@ -76,7 +77,11 @@ button.vc-ranb-button {
 /* Removes discover server button on server bar */
 [data-list-id="guildsnav"] [class*="listItem_"]:has([aria-label="Explore Discoverable Servers"]) {display: none;}
 /* Unread pill */
-[data-list-id="guildsnav"] [class*="listItem_"] > [class*="pill_"] > span {background: rgba(var(--accent), .8);}
+[data-list-id="guildsnav"] [class*="listItem_"] > [class*="pill_"] > span {
+  background: rgba(var(--accent), .8);
+  width: 4px;
+  margin-left: 0;
+}
 
 
 
