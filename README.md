@@ -1,5 +1,12 @@
 ![0 2 Banner Centered Main](https://user-images.githubusercontent.com/78914154/157298545-a87dedea-61ce-4221-b78d-84d58123388b.gif)
 
+
+<details>
+  <summary align="center">⚠️ Outdated</summary>
+  <br>
+
+
+
 <h1 align="center">Preview</h1>
 <p align="center">
         <img src="https://img.shields.io/github/license/misspent/Darkened?color=green&label=License%3A&style=for-the-badge" /></a>
@@ -248,5 +255,9 @@ I got my SVG Icons from the links below; it's in order from best to worst (in my
 =======================================================================  
 > **I'll update this as often as I can; however, I do not use the canary version of discord, nor am I some mastermind that can instantly fix/add stuff, so the updates may take a while to push if they change containers etc. on that note, I hope you enjoy the theme, and if you encounter any issues, bugs or want me to attempt to add support for a plugin you use, please tell me. Trying to learn basic CSS to the best of my ability.**  
 =======================================================================  
+
+</details>
+
+
 
 </details>
