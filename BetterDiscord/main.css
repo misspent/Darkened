@@ -29,9 +29,21 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 
 
 
-/* Other | Variables */
+/* =========================> Other | Variables <========================= */
+/* Change the "Home Icon" to any image you want (Remove the default home icon) */
+[class*="listItem_"] [class*="listItemWrapper_"]:has([data-list-item-id="guildsnav___home"]) {
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: var(--Home-Image-Icon);
+  background-size: 48px 48px;
+  background-clip: border-box;
+}
+[class*="listItem_"] [class*="listItemWrapper_"]:has([data-list-item-id="guildsnav___home"]) [class*="childWrapper_"] {
+  display: none !important;
+}
+/* Titlebar */
 #app-mount [class*="titleBar_"] {display: var(--Titlebar);}
-
 
 
 
@@ -46,6 +58,7 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 [aria-label="Servers sidebar"]{width: var(--custom-list-items-list-item-width); background: var(--background-primary);}
 [data-list-id="guildsnav"] [class*="guildSeparator_"] {display: none;}
 .platform-win .scroller_fea3ef {padding-top: var(--main-padding);}
+[class*="listItem_"]:first-child {margin-bottom: 0;} /* Direct message/home */
 /* "Read All" container makes it look cleaner */
 .frame-oXWS21 {margin-bottom: 0px;}
 /* Read All button from plugin */
