@@ -152,6 +152,13 @@ form > [class*="typing_"] [class*="ellipsis_"] {margin-left: 0px;}
 /* Jump to message + New messages bars */
 [class*="messagesWrapper_"] > [class*="newMessagesBar_"] {right: var(--main-padding); left: var(--main-padding); height: 24px;}
 [class*="messagesWrapper_"] > [class*="jumpToPresentBar_"] {right: var(--main-padding); left: var(--main-padding); margin-bottom: calc(var(--main-padding) + 24px); padding-bottom: 0;}
+/* New message separator */
+#---new-messages-bar[role="separator"] {
+  top: 1px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
 /* Support / thread post annoying hover transfrom */
 [data-list-id*="forum-channel-list-"] > [role="list"] > li[class*="card_"] > [class*="container_"]:hover, .vc-addon-card:hover {transform: translatey(0px) !important;}
 /* Shrinks stickers */
