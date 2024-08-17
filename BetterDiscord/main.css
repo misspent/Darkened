@@ -23,7 +23,8 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 #channels::-webkit-scrollbar,
 [data-list-id="people"]::-webkit-scrollbar,
 [class*="membersWrap_"] *::-webkit-scrollbar,
-[class*="chatContent_"] *::-webkit-scrollbar {display: none;}
+[class*="chatContent_"] *::-webkit-scrollbar,
+[class*="standardSidebarView_"] *::-webkit-scrollbar {display: none;}
 
 
 
