@@ -63,17 +63,6 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 [class*="tutorialContainer_"] [class*="listItem_"]:first-child {margin-bottom: 0;} /* Direct message/home */
 /* "Read All" container makes it look cleaner */
 .frame-oXWS21 {margin-bottom: 0px;}
-/* Read All button from plugin */
-button.vc-ranb-button {
-  margin: 0px !important;
-  background: var(--background-secondary);
-  position: absolute;
-  bottom: 2px;
-  left: 2px;
-  border-right: 1px solid transparent;
-  color: #ccc;
-  font-size: 12px;
-}
 /* Removes discover server button on server bar */
 [data-list-id="guildsnav"] [class*="listItem_"]:has([aria-label="Explore Discoverable Servers"]) {display: none;}
 /* Unread pill */
@@ -147,7 +136,22 @@ form[class*="form_"] {
 }
 form [class*="channelTextArea_"], form [class*="channelAppLauncher_"] {margin-bottom: var(--main-padding);}
 form [class*="channelAppLauncher_"] {margin-left: var(--main-padding); display: var(--Apps-Chat-Bar-button) !important;}
-form [class*="sansAttachButton_"] {padding: 0 var(--main-padding);}
+/* ===> Separated chat start <=== */
+/* Main */
+form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] {gap: 8px; padding: 0;}
+form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > div {background: var(--channeltextarea-background);}
+form [class*="channelTextArea_"] > [class*="themedBackground_"] {background: transparent; margin: 0;}
+/* Attack wrapper / upload (far-left) */
+form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > [class*="attachWrapper_"] > [class*="attachButton_"] {
+  margin: 0;
+  padding: 8px;
+}
+/* Chat bar (middle) */
+form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > [class*="textArea_"] > :is([class*="placeholder_"]),
+form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > [class*="textArea_"] [class*="slateTextArea_"] {padding-left: 8px;}
+/* Emojis / buttons (far-right) */
+form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > [class*="buttons_"] {margin-right: 0px;}
+/* ===> Separated chat end <=== */
 /* Chat bar button removals */
 [class*="buttons_"]:not(:hover) [aria-label="Open Translate Modal"],
 [aria-label="Open sticker picker"],
@@ -268,3 +272,15 @@ form > [class*="typing_"] [class*="ellipsis_"] {margin-left: 0px;}
 /* Message Logger */
 .messagelogger-edited {filter: brightness(100%) !important;}
 .messagelogger-edited span {color: #f35f5f;}
+
+/* Read All button from plugin */
+button.vc-ranb-button {
+  margin: 0px !important;
+  background: var(--background-secondary);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-width: 0px !important;
+  color: #ccc;
+  font-size: 12px;
+}
