@@ -126,5 +126,8 @@
 }
 
 
+/* Tooltips */
+[class*="tooltipContent_"] *,
+[class*="tooltip_"] {display: var(--tooltips) !important;}
 
 /* ==============> Your Custom CSS can go here <============== */
