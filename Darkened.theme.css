@@ -30,13 +30,10 @@
 
 :root {
   /* Home Icon Image */
-  --Home-Image-Icon: url("https://i.imgur.com/f1Lpfr3.png"); /* Default: https://i.ibb.co/k4mXsGW/Mary-Shaw.png | Free Upload Site: https://imgbb.com */
-
-  /* Spotify plugin seek bar */
-  --spotify-color: #1edc62; /* Default: #1edc62 */
+  --Home-Image-Icon: url("https://i.ibb.co/k4mXsGW/Mary-Shaw.png"); /* Default: https://i.imgur.com/f1Lpfr3.png / https://i.ibb.co/k4mXsGW/Mary-Shaw.png | Free Upload Site: https://imgbb.com */
 
   /* Tooltips */
-  --tooltips: block !important; /* Set it to "none" if you don't want it | Default: block */
+  --tooltips: none !important; /* Set it to "none" if you don't want it | Default: block */
 
   /* Other */
   --dark: #151515; /* Codeblocks Import: Border color | Default: #151515 */
@@ -55,6 +52,10 @@
   --mention-color-bar: #00b0f4; /* Default: #00b0f4 */
   --mention-color-background: #00b0f41f; /* Default: #00b0f41f */
   --mention-color-hover: #00b0f41f; /* Default: #00b0f41f */
+
+  /* Replying to someone in chat */
+  --replying-color-bar: #00b62d;
+  --replying-color-background: #00b62d1f;
 
   /* Toggleable variables */
   --Titlebar: none; /* flex = ON, none = OFF */
