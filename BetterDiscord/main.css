@@ -73,6 +73,16 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
   width: 4px;
   margin-left: 0;
 }
+/* Red muted text with a Icon */
+[class*="muteText_"] {
+  color: rgb(166, 35, 35) !important;
+  font-weight: 600;
+  margin-top: 3px;
+  padding-left: 18px;
+  margin-left: 1.5px;
+  background: url('https://svgshare.com/i/WEo.svg') no-repeat;
+  background-size: 23px;
+}
 
 
 
@@ -205,7 +215,7 @@ form > [class*="typing_"] [class*="ellipsis_"] {margin-left: 0px;}
 [class*="search_"][class*="open_"] > [class*="searchBar_"] {width: 200px; background: var(--background-tertiary);}
 [class*="search_"] > [class*="searchBar_"] [class*="icon_"] > [class*="iconContainer_"] {transform: scale(1.3) !important;}
 [class*="search_"] > [class*="searchBar_"] [class*="icon_"] > [class*="iconContainer_"] svg {color: var(--interactive-normal) !important;}
-
+[class*="toolbar_"] > a[href="https://support.discord.com"] {display: none;}
 
 
 
@@ -269,7 +279,7 @@ form > [class*="typing_"] [class*="ellipsis_"] {margin-left: 0px;}
 
 
 
-/* =======> Plugins / Extension only <======= */
+/* =========> Plugins / Extension only <========= */
 
 /* Message Logger */
 .messagelogger-edited {filter: brightness(100%) !important;}
