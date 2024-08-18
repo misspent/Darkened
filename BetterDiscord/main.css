@@ -46,7 +46,8 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 }
 /* Titlebar */
 #app-mount [class*="titleBar_"] {display: var(--Titlebar);}
-
+/* Tooltips | none / block */
+[class*="tooltipContent_"], [class*="tooltip_"] {display: var(--tooltips) !important;}
 
 
 

@@ -33,7 +33,7 @@
   --Home-Image-Icon: url("https://i.imgur.com/f1Lpfr3.png"); /* Default: https://i.ibb.co/k4mXsGW/Mary-Shaw.png | Free Upload Site: https://imgbb.com */
 
   /* Spotify plugin seek bar */
-  --spotify-color: #1edc62; /* Default: #1edc62 */6
+  --spotify-color: #1edc62; /* Default: #1edc62 */
 
   /* Tooltips */
   --tooltips: block !important; /* Set it to "none" if you don't want it | Default: block */
@@ -126,8 +126,5 @@
 }
 
 
-/* Tooltips */
-[class*="tooltipContent_"] *,
-[class*="tooltip_"] {display: var(--tooltips) !important;}
 
 /* ==============> Your Custom CSS can go here <============== */
