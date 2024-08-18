@@ -60,7 +60,7 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 [aria-label="Servers sidebar"]{width: var(--custom-list-items-list-item-width); background: var(--background-primary);}
 [data-list-id="guildsnav"] [class*="guildSeparator_"] {display: none;}
 .platform-win .scroller_fea3ef {padding-top: var(--main-padding);}
-[class*="tutorialContainer_"] [class*="listItem_"]:first-child {margin-bottom: 0;} /* Direct message/home */
+/* [class*="tutorialContainer_"] [class*="listItem_"]:first-child {margin-bottom: 0;}  Direct message/home */
 /* "Read All" container makes it look cleaner */
 .frame-oXWS21 {margin-bottom: 0px;}
 /* Removes discover server button on server bar */
