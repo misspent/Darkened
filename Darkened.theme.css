@@ -36,7 +36,7 @@
   --spotify-color: #1edc62; /* Default: #1edc62 */6
 
   /* Tooltips */
-  --tooltips: block; /* Set it to "none" if you don't want it | Default: block */
+  --tooltips: block !important; /* Set it to "none" if you don't want it | Default: block */
 
   /* Other */
   --dark: #151515; /* Codeblocks Import: Border color | Default: #151515 */
