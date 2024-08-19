@@ -1,5 +1,11 @@
 ![0 2 Banner Centered Main](https://user-images.githubusercontent.com/78914154/157298545-a87dedea-61ce-4221-b78d-84d58123388b.gif)
 
+<p align="center">
+        <img src="https://img.shields.io/github/license/misspent/Darkened?color=green&label=License%3A&style=for-the-badge" /></a>
+        <img src="https://img.shields.io/github/issues/misspent/Darkened?label=Issues%3A&style=for-the-badge" /></a>
+        <img src="https://img.shields.io/github/issues-pr/misspent/Darkened?label=Pull%20Requests%3A&style=for-the-badge" /></a>
+</p>
+
 ## 🚧 Work-in-progress
 
 ### 📥 Installation:
@@ -50,11 +56,6 @@
 
 
 <h1 align="center">Preview</h1>
-<p align="center">
-        <img src="https://img.shields.io/github/license/misspent/Darkened?color=green&label=License%3A&style=for-the-badge" /></a>
-        <img src="https://img.shields.io/github/issues/misspent/Darkened?label=Issues%3A&style=for-the-badge" /></a>
-        <img src="https://img.shields.io/github/issues-pr/misspent/Darkened?label=Pull%20Requests%3A&style=for-the-badge" /></a>
-</p>
 
 <h3 align="center">Main window + User popout</h3>
 
