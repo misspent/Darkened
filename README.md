@@ -28,7 +28,7 @@
 - Settings > appearance > Space between message groups: 4px
 
 
-<h1 align="center">Preview</h1>
+<h1 align="center">📷 Preview</h1>
 
 <h3 align="center">Main window</h3>
 
