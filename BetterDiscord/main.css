@@ -172,7 +172,7 @@ form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansA
 [aria-label="Send a gift"] {display: none;}
 /* Typing & Slow mode */
 form > [class*="typing_"] {top: -24px; background: var(--background-primary);}
-form > [class*="typing_"] [class*="ellipsis_"] {margin-left: 0px;}
+form > [class*="typing_"] [class*="ellipsis_"] {margin-left: 3px;}
 /* Date of message seperator */
 [class*="group-spacing-"] [class*="divider_"][role="separator"] {margin: .5rem 0;}
 /* Jump to message + New messages bars */
