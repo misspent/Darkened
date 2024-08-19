@@ -173,6 +173,8 @@ form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansA
 /* Typing & Slow mode */
 form > [class*="typing_"] {top: -24px; background: var(--background-primary);}
 form > [class*="typing_"] [class*="ellipsis_"] {margin-left: 0px;}
+/* Date of message seperator */
+[class*="group-spacing-"] [class*="divider_"][role="separator"] {margin: .5rem 0;}
 /* Jump to message + New messages bars */
 [class*="messagesWrapper_"] > [class*="newMessagesBar_"] {right: var(--main-padding); left: var(--main-padding); height: 24px;}
 [class*="messagesWrapper_"] > [class*="jumpToPresentBar_"] {right: var(--main-padding); left: var(--main-padding); margin-bottom: calc(var(--main-padding) + 24px); padding-bottom: 0;}
