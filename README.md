@@ -1,8 +1,50 @@
 ![0 2 Banner Centered Main](https://user-images.githubusercontent.com/78914154/157298545-a87dedea-61ce-4221-b78d-84d58123388b.gif)
 
+## 🚧 Work-in-progress
+
+### 📥 Installation:
+
+1. [Vesktop](https://github.com/Vencord/Vesktop) - "*Replaces*" discord | I use  
+   1a. [Vesktop installer](https://github.com/Vencord/Installer) - applies to base discord  
+   1b. [BetterDiscord](https://betterdiscord.app) - No longer use this and not sure what the support is like  
+2. **Download**: [darkened.theme.css](https://github.com/misspent/Darkened/blob/main/Darkened.theme.css)
+3. Drop the `.css` file in `themes` folder of your modded client directory.
+
+
+### ✅ Features
+
+* ✔️ Radial Status
+* ✔️ Good ol' darkness
+* ✔️ Partial customizability
+* ✔️ Everything square & Avatar decoration removed
+* ✔️ Removed scrollbars for the main sections (still functional with scroll wheel)
+* ❌ Light mode not supported
+* ⭕ Not going to be as customizable to the user as it once was
+* ⭕ Complete code rewrite, and I'm attempting to make it *future* proof. Probably not possible given how Discord enjoys changing class names in stupid ways.
+
+### ℹ️ Information
+
+- I'm always on `Stable` version
+- Settings > appearance > Space between message groups: 4px
+
+
+<h1 align="center">Preview</h1>
+
+<h3 align="center">Main window</h3>
+
+![Main window](<New Discord Theme Preview - Updated.png>)
+
+<h3 align="center">Settings page</h3>
+
+![Settings window](<Settings page.png>)
+
+
+
+
+
 
 <details>
-  <summary align="center">⚠️ Outdated</summary>
+  <summary align="center">⚠️ Outdated - irrelevant?</summary>
   <br>
 
 
