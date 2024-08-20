@@ -165,6 +165,9 @@ form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansA
 form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > [class*="textArea_"] [class*="slateTextArea_"] {padding-left: 8px;}
 /* Emojis / buttons (far-right) */
 form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > [class*="buttons_"] {margin-right: 0px;}
+/* Follow to get this channels updates | Chat bar */
+form [class*="wrapper_"]:has([class*="content_"] img[src="/assets/d73341fd9c4ccfa62ba5.svg"]) {margin-bottom: 0px;}
+form:has([class*="wrapper_"] [class*="content_"] img[src="/assets/d73341fd9c4ccfa62ba5.svg"]) {padding: 0 !important;}
 /* ===> Separated chat end <=== */
 /* Chat bar button removals */
 [class*="buttons_"]:not(:hover) [aria-label="Open Translate Modal"],
