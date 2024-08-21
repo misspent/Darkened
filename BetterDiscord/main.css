@@ -155,6 +155,7 @@ form [class*="channelAppLauncher_"] {margin-left: var(--main-padding); display: 
 form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] {gap: 4px; padding: 0;}
 form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > div {background: var(--channeltextarea-background);}
 form [class*="channelTextArea_"] > [class*="themedBackground_"] {background: transparent; margin: 0;}
+form [class*="channelTextArea_"] [class*="attachedBars_"] {margin: 0 0px 0px 4px;} /* Replying bar */
 /* Attack wrapper / upload (far-left) */
 form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > [class*="attachWrapper_"] > [class*="attachButton_"] {
   margin: 0;
