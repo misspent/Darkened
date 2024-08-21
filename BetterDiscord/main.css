@@ -152,13 +152,13 @@ form [class*="channelTextArea_"], form [class*="channelAppLauncher_"] {margin-bo
 form [class*="channelAppLauncher_"] {margin-left: var(--main-padding); display: var(--Apps-Chat-Bar-button) !important;}
 /* ===> Separated chat start <=== */
 /* Main */
-form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] {gap: 8px; padding: 0;}
+form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] {gap: 4px; padding: 0;}
 form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > div {background: var(--channeltextarea-background);}
 form [class*="channelTextArea_"] > [class*="themedBackground_"] {background: transparent; margin: 0;}
 /* Attack wrapper / upload (far-left) */
 form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > [class*="attachWrapper_"] > [class*="attachButton_"] {
   margin: 0;
-  padding: 8px;
+  padding: 12px;
 }
 /* Chat bar (middle) */
 form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > [class*="textArea_"] > :is([class*="placeholder_"]),
