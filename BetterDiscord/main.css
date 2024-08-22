@@ -132,6 +132,14 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
   background: rgba(var(--accent), .5) !important;
 }
 [aria-label="Channels"] [class*="containerDefault_"]:hover [class*="wrapper_"] a {background: rgba(var(--accent), .1) !important;}
+/* Server channel editing setting | Permissions page */
+[role="tabpanel"] [class*="sidebarScrollable_"] + [class*="content_"] {
+  max-width: 100%;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill,minmax(470px,1fr));
+  gap: 12px;
+}
+[role="tabpanel"] [class*="sidebarScrollable_"] + [class*="content_"] [class*="permissionsForm_"] {margin-bottom: 0px;}
 /* ==> User panel | Status <== */
 [class*="accountProfilePopoutWrapper_"] :is(.body_ad5fac, .scroller_d90b3d) {padding: 0 !important;}
 [class*="accountProfilePopoutWrapper_"] .themeContainer_ad5fac {width: 280px !important;}
