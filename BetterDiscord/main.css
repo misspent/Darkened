@@ -12,11 +12,12 @@
 
 /* Everything square + other important tweaks | Avatar decorations */
 foreignObject:not([role="menu"]) {mask: none !important; -webkit-mask: none !important;}
-*, ::before, ::after {
+*:not[class*="voiceCallWrapper_"] [class*="border_"], ::before, ::after {
   border-radius: 0px !important;
   box-shadow: none !important;
   transition: none !important;
 }
+[class*="avatarSpeaking_"]{box-shadow: inset 0 0 0 2px var(--green-360),inset 0 0 0 3px var(--background-secondary) !important} /* Fixes speaking in voice call "speaking" border around image */
 img[class*="avatarDecoration_"],
 [class*="profileEffects_"] ,
 img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none;}
