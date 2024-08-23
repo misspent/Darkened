@@ -275,6 +275,7 @@ form > [class*="typing_"] [class*="ellipsis_"] {margin-left: 3px;}
 /* ===> Compact context menu / Menu list <=== */
 [role="menu"] > div:first-child {padding: 0;}
 #message > div:first-child [role="menuitem"] {margin: 0;}
+[class*="menu_"][role="menu"] [class*="separator_"],
 #message > div:first-child [role="separator"] {border-color: var(--border-color); margin: 0;}
 
 
