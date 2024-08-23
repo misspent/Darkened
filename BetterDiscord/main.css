@@ -12,7 +12,7 @@
 
 /* Everything square + other important tweaks | Avatar decorations */
 foreignObject:not([role="menu"]) {mask: none !important; -webkit-mask: none !important;}
-*:not[class*="voiceCallWrapper_"] [class*="border_"], ::before, ::after {
+*, ::before, ::after {
   border-radius: 0px !important;
   box-shadow: none !important;
   transition: none !important;
