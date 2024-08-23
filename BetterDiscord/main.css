@@ -51,7 +51,7 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 /* Tooltips | none / block */
 [class*="tooltipContent_"], [class*="tooltip_"] {display: var(--tooltips) !important;}
 /* Replying to message */
-[class*="messageListItem_"] > [class*="replying_"], [class*="highlighted_"] {background: var(--replying-color-background);}
+[class*="messageListItem_"] > [class*="replying_"], [class*="highlighted_"] {background: var(--replying-color-background); width: 100%;}
 [class*="messageListItem_"] > [class*="replying_"]:before {background: var(--replying-color-bar);}
 
 
