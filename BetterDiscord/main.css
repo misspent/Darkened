@@ -18,6 +18,7 @@ foreignObject:not([role="menu"]) {mask: none !important; -webkit-mask: none !imp
   transition: none !important;
 }
 img[class*="avatarDecoration_"],
+[class*="profileEffects_"] ,
 img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none;}
 /* Hide the scrollbar in WebKit-based browsers (Chrome, Safari) */
 #channels::-webkit-scrollbar,
