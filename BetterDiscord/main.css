@@ -25,7 +25,8 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 [class*="membersWrap_"] *::-webkit-scrollbar,
 [class*="chatContent_"] *::-webkit-scrollbar,
 [class*="standardSidebarView_"] *::-webkit-scrollbar,
-[class*="pageBody_"] [class*="browser_"]::-webkit-scrollbar {display: none;}
+[class*="pageBody_"] [class*="browser_"]::-webkit-scrollbar,
+[class*="privateChannels_"] [class*="thin_"][class*="scrollerBase_"]::-webkit-scrollbar {display: none;}
 
 
 
@@ -87,6 +88,18 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 }
 
 
+/* ====> DM message home member sidebar <==== */
+[class*="privateChannels_"] [class*="privateChannelsHeaderContainer_"] {
+  background: var(--background-primary);
+  display: flex;
+  padding: 4px 8px;
+  height: auto;
+}
+[class*="privateChannels_"] [class*="channel_"] {
+  margin-left: 0;
+  max-width: 100%;
+}
+[class*="privateChannels_"] [class*="channel_"] a[class*="link_"] > [class*="layout_"] {height: 38px;}
 
 
 
