@@ -103,6 +103,17 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 }
 [class*="privateChannels_"] [class*="channel_"] a[class*="link_"] > [class*="layout_"] {height: 38px;}
 
+/* ====> Mod view / Right-sidebar color fixes? Might mess with popout... Idk <==== */
+[class*="guildSidebar_"] > [class*="sidebarContainer_"] {margin-left: 0px;}
+[class*="guildSidebar_"] [class*="userProfileOuter_"] {
+  padding: var(--custom-user-profile-themed-container-user-profile-themed-padding) 0;
+  background: var(--channeltextarea-background);
+}
+[class*="guildSidebar_"] [class*="userProfileInnerThemedPremiumWithoutBanner_"] {
+  --profile-gradient-start: var(--channeltextarea-background);
+  --profile-gradient-end: var(--channeltextarea-background);
+}
+[class*="guildSidebar_"] > [class*="sidebarContainer_"] [class*="container_"] {background: var(--background-primary);}
 
 
 
