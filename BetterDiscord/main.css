@@ -54,7 +54,17 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 /* Replying to message */
 [class*="messageListItem_"] > [class*="replying_"], [class*="highlighted_"] {background: var(--replying-color-background); width: 100%;}
 [class*="messageListItem_"] > [class*="replying_"]:before {background: var(--replying-color-bar);}
-
+/* ===> When in call (call container) <=== */
+[class*="callContainer_"] [class*="bottomControls_"] {
+  --white-500: #202020;
+  --primary-130: #303030;
+  --primary-860: #ccc;
+}
+[class*="callContainer_"] [class*="bottomControls_"] button[class*="colorable_"][class*="primaryDark_"] {
+  background: var(--white-500);
+  color: var(--primary-860);
+}
+[class*="callContainer_"] [class*="bottomControls_"] button[class*="colorable_"][class*="primaryDark_"] [class*="centerIcon_"] {color: var(--primary-860) ;}
 
 
 
