@@ -302,7 +302,7 @@ form > [class*="typing_"] [class*="ellipsis_"] {margin-left: 3px;}
 [class*="menu_"][role="menu"] [class*="separator_"],
 #message > div:first-child [role="separator"] {border-color: var(--border-color); margin: 0;}
 /* Reverts Context Menu icons to be at the start of entry | doesn't change the ones with an arrow icon */
-[class*="menu_"][role="menu"] [class*="labelContainer_"]:not(#status-edit-profile, [id*="account-devmode-copy-id-"]) {flex-direction: row-reverse;}
+[class*="menu_"][role="menu"] [class*="labelContainer_"]:not(#status-edit-profile, #status-status-picker, #account-switch-account, [id*="account-devmode-copy-id-"]) {flex-direction: row-reverse;}
 [class*="menu_"][role="menu"] [class*="labelContainer_"]:has(path[d="M9.3 5.3a1 1 0 0 0 0 1.4l5.29 5.3-5.3 5.3a1 1 0 1 0 1.42 1.4l6-6a1 1 0 0 0 0-1.4l-6-6a1 1 0 0 0-1.42 0Z"]) {flex-direction: row;}
 [class*="menu_"][role="menu"] [class*="labelContainer_"]:has(path[d="M9.3 5.3a1 1 0 0 0 0 1.4l5.29 5.3-5.3 5.3a1 1 0 1 0 1.42 1.4l6-6a1 1 0 0 0 0-1.4l-6-6a1 1 0 0 0-1.42 0Z"]) [class*="iconContainer_"] {
   margin-left: 8px;
