@@ -263,13 +263,22 @@ form > [class*="typing_"] [class*="ellipsis_"] {margin-left: 3px;}
 [class*="membersWrap_"] [aria-label="Members"] > [class*="member_"][class*="selected_"] > [class*="memberInner_"],
 [class*="membersWrap_"] [aria-label="Members"] > [class*="member_"][class*="clickable_"] > [class*="memberInner_"] {height: 38px;}
 /* ==> Toolbar <== */
-/* Compact searchbar */
+/* Compact searchbar Icon */
 [class*="toolbar_"] > [class*="search_"] {margin: 0;}
 [class*="search_"] > [class*="searchBar_"] {width: min-content; background: transparent;}
 [class*="search_"][class*="open_"] > [class*="searchBar_"] {width: 200px; background: var(--background-tertiary);}
 [class*="search_"] > [class*="searchBar_"] [class*="icon_"] > [class*="iconContainer_"] {transform: scale(1.3) !important;}
 [class*="search_"] > [class*="searchBar_"] [class*="icon_"] > [class*="iconContainer_"] svg {color: var(--interactive-normal) !important;}
 [class*="toolbar_"] > a[href="https://support.discord.com"] {display: none;}
+/* Search dropdown (top-right) */
+[class*="container_"][role="listbox"]:has([class*="resultsGroup_"]) ul[role="group"] {
+  margin: 0;
+  padding: 0;
+}
+[class*="container_"][role="listbox"]:has([class*="resultsGroup_"]) ul[role="group"]:before {border-color: transparent;}
+[class*="container_"][role="listbox"]:has([class*="resultsGroup_"])  [class*="header_"] {padding: 8px; background: #151515;}
+[class*="container_"][role="listbox"]:has([class*="resultsGroup_"]) :is([class*="searchLearnMore_"], [class*="searchClearHistory_"]) {top: 6px;}
+[class*="container_"][role="listbox"]:has([class*="resultsGroup_"]) ul[role="group"] [class*="option_"] {margin: 0;}
 
 
 
