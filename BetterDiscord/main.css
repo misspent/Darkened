@@ -280,7 +280,11 @@ form > [class*="typing_"] [class*="ellipsis_"] {margin-left: 3px;}
 [class*="container_"][role="listbox"]:has([class*="resultsGroup_"])  [class*="header_"] {padding: 8px; background: #151515;}
 [class*="container_"][role="listbox"]:has([class*="resultsGroup_"]) :is([class*="searchLearnMore_"], [class*="searchClearHistory_"]) {top: 6px;}
 [class*="container_"][role="listbox"]:has([class*="resultsGroup_"]) ul[role="group"] [class*="option_"] {margin: 0;}
-
+/* Removes: Activity session (top member list) - bur_den */
+[class^='membersGroup']:has([role=button]),
+[class^='member'] [class^='container']:has([class*='badges']) {
+  display: none;
+}
 
 
 
