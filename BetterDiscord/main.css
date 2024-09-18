@@ -336,6 +336,7 @@ form > [class*="typing_"] [class*="ellipsis_"] {margin-left: 3px;}
 
 
 /* ===================> Settings Page <=================== */
+nav[class*="sidebar_"] [class*="side_"] [class*="searchBar_"] {margin-bottom: 0;}
 /* ===> Full width fixes <=== */
 /* Left Sidebar */
 [class*="standardSidebarView_"] [class*="sidebarRegion_"] {max-width: fit-content;} /* 218px without icons? | 248px with icons */
