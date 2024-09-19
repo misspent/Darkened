@@ -132,7 +132,11 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 
 
 /* ====> Channel sidebar <==== */
-#channels li[class*="containerDefault_"] a[class*="link_"] {padding: 4.5px 6px;}
+#channels div[class*="containerDefault_"] div[class*="basicChannelRowLink_"],
+#channels li[class*="containerDefault_"] a[class*="link_"] {
+  padding: 4.5px 6px;
+  min-height: auto;
+}
 [aria-label="Channels"] li[class*="containerDefault_"][draggable="true"]:has([d="M5.3 9.3a1 1 0 0 1 1.4 0l5.3 5.29 5.3-5.3a1 1 0 1 1 1.4 1.42l-6 6a1 1 0 0 1-1.4 0l-6-6a1 1 0 0 1 0-1.42Z"]) {
   background: var(--background-primary);
   padding: 2px 0;
