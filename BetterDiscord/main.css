@@ -185,11 +185,9 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 }
 [role="tabpanel"] [class*="sidebarScrollable_"] + [class*="content_"] [class*="permissionsForm_"] {margin-bottom: 0px;}
 /* ==> User panel | Status <== */
-[class*="accountProfilePopoutWrapper_"] :is(.body_ad5fac, .scroller_d90b3d) {padding: 0 !important;}
-[class*="accountProfilePopoutWrapper_"] .themeContainer_ad5fac {width: 280px !important;}
-[class*="accountProfilePopoutWrapper_"] :is(.wrapper_cb78f1.biteSize_cb78f1, .header_b07019, .username_ad5fac, .menu_ad5fac div[role=separator]) {display: none;}
-[class*="accountProfilePopoutWrapper_"] .menus_ad5fac {gap: 0;}
-
+[class*="menuDivider_"],
+[class*="accountProfilePopoutWrapper_"] [class*="header_"] {display: none;}
+[class*="accountProfilePopoutWrapper_"] [class*="menuOverlay_"] {padding: 0;}
 
 
 
