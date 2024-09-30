@@ -14,7 +14,7 @@
 
 /* Main Import | --> Don't delete this <-- */
 @import "https://misspent.github.io/Darkened/BetterDiscord/main.css";
-@import "https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css"; /* Discord Font back to normal */
+@import /"https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css"; /* Discord Font back to normal */
 
 @import url("https://nyri4.github.io/Discolored/main.css");
 @import url("https://misspent.github.io/Darkened/BetterDiscord/DragNDropModal.css"); /* DragNDropModal */
@@ -25,7 +25,7 @@
 @import "https://crearts-community.github.io/Mention-Links/theme.css"; /* Mention Links */
 @import "https://lyght1337.github.io/DarknessCodeBlocks/css/CodeBlocks.css"; /* Codeblocks */
 @import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"; /* Radial Status */
-@import /"https://misspent.github.io/Darkened/BetterDiscord/ContextIconColours.css"; /* ContextIconsColours */
+@import /"https://misspent.github.io/Darkened/BetterDiscord/ContextIconColours.css"; /* ContextIconsColors */
 
 
 :root {
@@ -33,7 +33,7 @@
   --Home-Image-Icon: url("https://i.ibb.co/k4mXsGW/Mary-Shaw.png"); /* Default: https://i.imgur.com/f1Lpfr3.png / https://i.ibb.co/k4mXsGW/Mary-Shaw.png | Free Upload Site: https://imgbb.com */
 
   /* Tooltips */
-  --tooltips: none !important; /* Set it to "none" if you don't want it | Default: block */
+  --tooltips: block !important; /* Set it to "none" if you don't want it | Default: block */
 
   /* Other */
   --dark: #151515; /* Codeblocks Import: Border color | Default: #151515 */
@@ -54,7 +54,7 @@
   --mention-color-hover: #00b0f41f; /* Default: #00b0f41f */
 
   /* Replying to someone in chat */
-  --replying-color-bar: #00b62d;
+  --replying-color-bar: #00b62ed3;
   --replying-color-background: #00b62d1f;
 
   /* Toggleable variables */
@@ -124,6 +124,11 @@
   --input-background: #090909;
   --menu-item-default-active-bg: rgba(0, 195, 209, 0.123);
   --menu-item-default-hover-bg: rgba(0, 195, 209, 0.123);
+  --background-nested-floating: #101010;
+  /* Support channels */
+  --bg-base-primary: #080808 !important;
+  --bg-mod-faint: #101010;
+  --border-faint: #151515;
 }
 
 
