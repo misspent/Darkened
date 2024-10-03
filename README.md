@@ -10,11 +10,12 @@
 
 ### 📥 Installation:
 
-1. [Vesktop](https://github.com/Vencord/Vesktop) - "*Replaces*" discord | I use  
-   1a. [Vesktop installer](https://github.com/Vencord/Installer) - applies to base discord  
-   1b. [BetterDiscord](https://betterdiscord.app) - No longer use this and not sure what the support is like  
-2. **Download**: [darkened.theme.css](https://github.com/misspent/Darkened/blob/main/Darkened.theme.css)
-3. Drop the `.css` file in `themes` folder of your modded client directory.
+1. [Equicord](https://github.com/Equicord/Equicord) - "*Replaces*" discord | I use
+   1a. [Vesktop](https://github.com/Vencord/Vesktop)  - Actual client, I use a fork of this
+   1b. [Vesktop installer](https://github.com/Vencord/Installer) - applies to base discord  
+   1v. [BetterDiscord](https://betterdiscord.app) - No longer use this and not sure what the support is like  
+3. **Download**: [darkened.theme.css](https://github.com/misspent/Darkened/blob/main/Darkened.theme.css)
+4. Drop the `.css` file in `themes` folder of your modded client directory.
 
 
 ### ✅ Features
