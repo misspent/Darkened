@@ -60,6 +60,7 @@
   /* Toggleable variables */
   --Titlebar: none; /* flex = ON, none = OFF */
   --Apps-Chat-Bar-button: none;
+  --discover-button: none;
 
   /* Radial Status | https://github.com/DiscordStyles/RadialStatus */
   --rs-small-spacing: 0px;

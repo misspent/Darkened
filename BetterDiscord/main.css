@@ -99,7 +99,9 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
   background: url('https://svgshare.com/i/WEo.svg') no-repeat;
   background-size: 23px;
 }
-
+/* New discover server button update change */
+[data-list-id="guildsnav"] [class*="footer_"] {display: var(--discover-button); background: var(--background-primary);}
+[data-list-id="guildsnav"] [class*="gradient_"] {display: none;}
 
 
 
