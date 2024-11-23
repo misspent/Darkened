@@ -371,11 +371,11 @@ nav[class*="sidebar_"] [class*="side_"] [class*="searchBar_"] {margin-bottom: 0;
 
 /* =========> Plugins / Extension only <========= */
 
-/* Message Logger */
+/* ======> Message Logger <====== */
 .messagelogger-edited {filter: brightness(100%) !important;}
 .messagelogger-edited span {color: #f35f5f;}
 
-/* Read All button from plugin */
+/* ======> Read All button from plugin <====== */
 button.vc-ranb-button {
   margin: 0px !important;
   background: var(--background-secondary);
@@ -386,3 +386,16 @@ button.vc-ranb-button {
   color: #ccc;
   font-size: 12px;
 }
+
+/* ======> Channel Tabs Plugin (Vencord/Vesktop/Equicord) <====== */
+.vc-channeltabs-container {padding: 0;}
+.vc-channeltabs-tab {margin-right: 0px;}
+.vc-channeltabs-new-button {
+  padding: 0;
+  padding-top: 4px !important;
+}
+.vc-channeltabs-separator {display: none;}
+/* Bookmarks */
+.vc-channeltabs-separator {padding: 0;}
+.vc-channeltabs-bookmark {padding: 0; padding-left: 5px;}
+.vc-channeltabs-tab-container, .vc-channeltabs-bookmark-container {align-items: center;}
