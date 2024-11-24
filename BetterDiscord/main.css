@@ -368,8 +368,15 @@ nav[class*="sidebar_"] [class*="side_"] [class*="searchBar_"] {margin-bottom: 0;
 
 
 
+/* =============================================> Other / Tweaks <============================================= */
 
-/* =========> Plugins / Extension only <========= */
+/* ==> Cleans profile popout <== */
+[class*="statusBubbleOuter_"]:before, [class*="statusBubbleOuter_"]:after { display: none;} /* Status bubbles...? */
+
+
+
+
+/* =========================================> Plugins / Extension only <========================================= */
 
 /* ======> Message Logger <====== */
 .messagelogger-edited {filter: brightness(100%) !important;}
@@ -399,3 +406,4 @@ button.vc-ranb-button {
 .vc-channeltabs-separator {padding: 0;}
 .vc-channeltabs-bookmark {padding: 0; padding-left: 5px;}
 .vc-channeltabs-tab-container, .vc-channeltabs-bookmark-container {align-items: center;}
+button.vc-channeltabs-button {padding: 0;}
