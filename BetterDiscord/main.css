@@ -386,12 +386,13 @@ nav[class*="sidebar_"] [class*="side_"] [class*="searchBar_"] {margin-bottom: 0;
 button.vc-ranb-button {
   margin: 0px !important;
   background: var(--background-secondary);
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   left: 0px;
   border-width: 0px !important;
   color: #ccc;
   font-size: 12px;
+  width: fit-content;
 }
 
 /* ======> Channel Tabs Plugin (Vencord/Vesktop/Equicord) <====== */
