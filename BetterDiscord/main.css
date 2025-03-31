@@ -202,6 +202,7 @@ form[class*="form_"] {
 }
 form [class*="channelTextArea_"], form [class*="channelAppLauncher_"] {margin-bottom: var(--main-padding);}
 form [class*="channelAppLauncher_"] {margin-left: var(--main-padding); display: var(--Apps-Chat-Bar-button) !important;}
+form [class*="channelTextArea_"] [class*="uploadInput"] {display: none !important;}
 /* ===> Separated chat start <=== */
 /* Main */
 form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] {gap: 1px; padding: 0;}
