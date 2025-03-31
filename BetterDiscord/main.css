@@ -204,7 +204,7 @@ form [class*="channelTextArea_"], form [class*="channelAppLauncher_"] {margin-bo
 form [class*="channelAppLauncher_"] {margin-left: var(--main-padding); display: var(--Apps-Chat-Bar-button) !important;}
 /* ===> Separated chat start <=== */
 /* Main */
-form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] {gap: 4px; padding: 0;}
+form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] {gap: 1px; padding: 0;}
 form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > div {background: var(--channeltextarea-background);}
 form [class*="channelTextArea_"] > [class*="themedBackground_"] {background: transparent; margin: 0;}
 form [class*="channelTextArea_"] [class*="attachedBars_"] {margin: 0 0px 0px 4px;} /* Replying bar */
