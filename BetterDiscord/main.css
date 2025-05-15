@@ -375,7 +375,7 @@ button.vc-ranb-button {
   background: var(--background-secondary);
   position: fixed;
   bottom: 4px;
-  left: 4px;
+  left: 2px;
   border-width: 0px !important;
   color: #ccc;
   font-size: 12px;
