@@ -32,7 +32,8 @@ img[src*="https://cdn.discordapp.com/avatar-decoration-presets/"] {display: none
 [class*="privateChannels_"] [class*="thin_"][class*="scrollerBase_"]::-webkit-scrollbar {display: none;}
 
 
-
+/* 2025 Updates | CBA to sort. */
+.theme-dark.images-dark.user-profile-popout {background: var(--neutral-82) !important;}
 
 
 /* =========================> Other | Variables <========================= */
