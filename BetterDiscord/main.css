@@ -236,7 +236,7 @@ form > [class*="typing_"] [class*="ellipsis_"] {margin-left: 3px;}
 [class*="group-spacing-"] [class*="divider_"][role="separator"] {margin: .5rem 0;}
 /* Jump to message + New messages bars */
 [class*="messagesWrapper_"] > [class*="newMessagesBar_"] {right: var(--main-padding); left: var(--main-padding); height: 24px;}
-[class*="messagesWrapper_"] > [class*="jumpToPresentBar_"] {right: var(--main-padding); left: var(--main-padding); margin-bottom: calc(var(--main-padding) + 24px); padding-bottom: 0;}
+[class*="messagesWrapper_"] > [class*="jumpToPresentBar_"] {right: var(--main-padding); left: var(--main-padding); margin-bottom: calc(var(--main-padding) + 24px); min-height: auto; padding: 0px 0px 0px 8px;}
 /* New message separator */
 #---new-messages-bar[role="separator"] {
   top: 2px;
