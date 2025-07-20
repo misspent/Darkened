@@ -218,7 +218,7 @@ form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansA
 /* Chat bar (middle) */
 form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > [class*="textArea_"] > :is([class*="placeholder_"]),
 form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > [class*="textArea_"] [class*="slateTextArea_"] {padding-left: 8px;}
-.visual-refresh ol[data-list-id="chat-messages"] > [class*="scrollerSpacer"] {height: 24px;}
+.visual-refresh ol[data-list-id="chat-messages"] > [class*="scrollerSpacer"] {height: 28px;}
 /* Emojis / buttons (far-right) */
 form [class*="channelTextArea_"] > [class*="themedBackground_"] > [class*="sansAttachButton_"] > [class*="buttons_"] {margin-right: 0px;}
 /* Follow to get this channels updates | Chat bar */
